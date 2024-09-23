@@ -30,7 +30,7 @@ def generate_syntheticdata(model_name, data_name, prediction_column, sensitive_c
     data = pd.read_csv(data_name)
     data = data.select_dtypes(exclude=['object'])
     metadata = create_metadata(data)
-    data, control_data = train_test_split(data, test_size=0.1)
+    data, control_data = train_test_split(data, test_size=0.1, random_state=42)
     available_columns = data.columns.tolist()
     discrete_columns = []
     for col, meta in metadata.columns.items():
