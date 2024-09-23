@@ -7,17 +7,17 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 
 ## METADATA GENERATION TESTING ##
-
+"""
 METADATA_FILENAME = "/workspaces/SynthOpt/examples/Cam-Can_Metadata.csv"
 SAMPLE_SIZE = 800
 SAVE_LOCATION = "/workspaces/SynthOpt/examples"
 
 GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, SAVE_LOCATION)
 
-#for filename, df in GENERATED_METADATA_DATASETS.items():
-#    print(f"\nData for {filename}:")
-#    print(df.head())
-
+for filename, df in GENERATED_METADATA_DATASETS.items():
+    print(f"\nData for {filename}:")
+    print(df.head())
+"""
 ##
 ## SYNTHETIC DATA GENERATION TESTING ##
 
@@ -39,4 +39,4 @@ SYNTHETIC_DATA = generate_syntheticdata(MODEL, DATA_NAME, PREDICTION_COLUMN, SEN
 DATA = pd.read_csv(DATA_NAME)
 DATA, CONTROL_DATA = train_test_split(DATA, test_size=0.1, random_state=42) #random state is 42 in syntheticdata module
 
-evaluate_privacy()
+evaluate_privacy(DATA, SYNTHETIC_DATA, SENSITIVE_COLUMNS, KEY_COLUMNS, CONTROL_DATA)
