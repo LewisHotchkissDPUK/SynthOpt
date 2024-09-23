@@ -26,9 +26,11 @@ def create_metadata(data):
 
 # create a method to pass in a custom model (not a name but an actual model)
 # create method for optimisation
-def generate_syntheticdata(model_name, data_name, prediction_column, sensitive_columns, key_columns, iterations, sample_size, dp_epsilon, dp_delta, dp_lambda):
-    data = pd.read_csv(data_name)
-    data = data.select_dtypes(exclude=['object'])
+# allow option for single table, multi table and longitudinal
+# pass in identifier column
+# handle string columns, maybe do encoding
+def generate_syntheticdata(model_name, data, control_data, prediction_column, sensitive_columns, key_columns, iterations, sample_size, dp_epsilon, dp_delta, dp_lambda):
+    data = data.select_dtypes(exclude=['object']) # need to properly handle
     metadata = create_metadata(data)
     data, control_data = train_test_split(data, test_size=0.1, random_state=42)
     available_columns = data.columns.tolist()
@@ -66,8 +68,6 @@ def generate_syntheticdata(model_name, data_name, prediction_column, sensitive_c
     synthetic_data.columns = data_columns
 
     # save datasets if save location exists, and model is model save location exists
-    # allow option for single table, multi table and longitudinal
-    # pass in identifier column
-    # handle string columns, maybe do encoding
+    
     
     return synthetic_data

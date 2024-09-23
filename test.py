@@ -23,6 +23,8 @@ for filename, df in GENERATED_METADATA_DATASETS.items():
 
 MODEL = "dpgan"
 DATA_NAME = "/workspaces/SynthOpt/examples/ADNI_cleaned.csv"
+DATA = pd.read_csv(DATA_NAME)
+DATA, CONTROL_DATA = train_test_split(DATA, test_size=0.1)
 PREDICTION_COLUMN = "Combined Depression"
 SENSITIVE_COLUMNS = ["Combined Depression"]
 KEY_COLUMNS = ["PTDOBYY","PTGENDER"]
@@ -30,13 +32,10 @@ ITERATIONS = 10
 SAMPLE_SIZE = 1000
 EPSILON = 2.56
 
-SYNTHETIC_DATA = generate_syntheticdata(MODEL, DATA_NAME, PREDICTION_COLUMN, SENSITIVE_COLUMNS, KEY_COLUMNS, 
+SYNTHETIC_DATA = generate_syntheticdata(MODEL, DATA, CONTROL_DATA, PREDICTION_COLUMN, SENSITIVE_COLUMNS, KEY_COLUMNS, 
                                         ITERATIONS, SAMPLE_SIZE, EPSILON, None, None)
 
 ##
 ## SYNTHETIC DATA PRIVACY EVALUATION TESTING ##
-
-DATA = pd.read_csv(DATA_NAME)
-DATA, CONTROL_DATA = train_test_split(DATA, test_size=0.1, random_state=42) #random state is 42 in syntheticdata module
 
 evaluate_privacy(DATA, SYNTHETIC_DATA, SENSITIVE_COLUMNS, KEY_COLUMNS, CONTROL_DATA)
