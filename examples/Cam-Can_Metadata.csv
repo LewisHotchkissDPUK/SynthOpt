@@ -1,0 +1,1327 @@
+variable name,variable description,data type,values,filename
+CCID,Participant ID,string,CC110019 to CC821090,additional_export
+priority,Into priority mode?,category,"[No, Yes]",additional_export
+student_iv,Student interview,category,"[No, Yes]",additional_export
+quitquestion,question that i/v into priority,numeric,0.0 to 615.0,additional_export
+xBreak,,numeric,75.0 to 707.0,additional_export
+sevens,Number of correct 7s,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 999.0]",additional_export
+dob,Dob of subject,date,,additional_export
+date_iv,Date of interview,date,,additional_export
+age_iv,Age at home interview,numeric,18.0 to 102.0,additional_export
+drug_use,DAST-20 drug use score,numeric,0.0 to 13.0,additional_export
+drug_severity,DAST-20 drug severity score,category,"[Intermediate, Low, Substantial, nan]",additional_export
+drug_intervention,DAST-20 drug intervention score,category,"[Brief Intervention, Intensive, Outpatient (Intensive), nan]",additional_export
+smoker,Smoking summary,category,"[Current smoker, Never smoked, Non current, at least 100, Non current, less than 100, Occasional current, at least 100, Occasional current, less than 100, Past smoker, nan]",additional_export
+alcohol,Alcohol summary,category,"[Drinks daily, Drinks once/twice weekly, Drinks one/three times monthly, Drinks three/four times weekly, Non drinker, Occasional drinker, Past drinker, nan]",additional_export
+ten_mq_total,10MQ total score,numeric,0.0 to 34.0,additional_export
+HADS_anxiety,HADS anxiety score,numeric,0.0 to 20.0,additional_export
+HADS_depression,HADS depression score,numeric,0.0 to 17.0,additional_export
+HADS_anx_category,HADS anxiety category,category,"[Mild, Moderate, Normal, Null, Severe]",additional_export
+HADS_dep_category,HADS depression category,category,"[Mild, Moderate, Normal, Null, Severe]",additional_export
+story_recognition,Story total score,numeric,0.0 to 10.0,additional_export
+STW_total,Spot the word total,numeric,2.0 to 60.0,additional_export
+qual,Highest qualification,category,"[A-level, Degree, GCSE/O-level, None, nan]",additional_export
+attention_orientation,ACE-R attention orientation score,numeric,0.0 to 18.0,additional_export
+memory,ACE-R memory score,numeric,0.0 to 26.0,additional_export
+fluencies,ACE-R fluencies score,numeric,0.0 to 14.0,additional_export
+language,ACE-R language score,numeric,0.0 to 26.0,additional_export
+visuospatial,ACE-R visuospatial score,numeric,0.0 to 16.0,additional_export
+acer,ACE-R total score,numeric,0.0 to 100.0,additional_export
+C1,PSQI C1 subjective sleep quality,category,"[0.0, 1.0, 2.0, 3.0]",additional_export
+C2,PSQI C2 sleep latency,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",additional_export
+C3,PSQI C3 sleep duration,category,"[0.0, 1.0, 2.0, 3.0]",additional_export
+C4,PSQI C4 sleep efficiency,category,"[0.0, 1.0, 2.0, 3.0]",additional_export
+C5,PSQI C5 sleep disturbance,category,"[0.0, 1.0, 2.0, 3.0]",additional_export
+C6,PSQI C6 sleep medication,category,"[0.0, 1.0, 2.0, 3.0]",additional_export
+C7,PSQI C7 daytime dysfunction,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",additional_export
+hours_slept,PSQI hours asleep,numeric,0.0 to 12.0,additional_export
+hours_in_bed,PSQI hours spent in bed,numeric,3.5 to 15.0,additional_export
+sleep_efficiency,PSQI sleep efficiency,numeric,0.0 to 100.0,additional_export
+psqi,Pittsburgh sleep quality index score,numeric,0.0 to 23.0,additional_export
+SC_r,Respondent social class,category,"[-, I, II, IIIM, IIIN, IV, V, nan]",additional_export
+SEG_r,Respondent social economic group,category,"[-, 1.1, 1.2, 10, 11, 12, 14, 15, 17, 2.1, 2.2, 3, 4, 5.1, 5.2, 6, 7, 8, 9, nan]",additional_export
+SC_pt,Partner of respondent - social class,category,"[I, II, IIIM, IIIN, IV, V, nan]",additional_export
+SEG_pt,Partner of respondent - social economic group,numeric,1.1 to 13.0,additional_export
+CCID,Participant ID,string,CC110019 to CC821090,epaq_export
+WKDAYSLEEP,Average daily sleep time (hours) during the week,numeric,3.5 to 13.5,epaq_export
+WKENDDAYSLEEP,Average daily sleep time (hours) during the weekend,numeric,4.0 to 22.0,epaq_export
+GETABOUT_bikedist,Distance (miles/wk) cycled apart from traveling to work,numeric,0.0 to 48.75,epaq_export
+GETABOUT_walkdist,Distance (miles/wk) walked apart from traveling to work,numeric,0.0 to 38.25,epaq_export
+DURGETABOUT_BIKE,Reported duration (hrs/day) cycled apart from traveling to work,numeric,0.0 to 0.69643,epaq_export
+DURGETABOUT_WALK,Reported duration (hrs/day) walked apart from traveling to work,numeric,0.0 to 1.8214,epaq_export
+GETABOUTBIKEadj,,numeric,0.0 to 0.69643,epaq_export
+GETABOUTWALKadj,,numeric,0.0 to 1.8214,epaq_export
+DURGETABOUT,Duration (hrs/day) cycled and walked apart from traveling to work,numeric,0.0 to 1.8214,epaq_export
+DURTV,Reported total TV viewing time (hrs/day),numeric,0.0 to 7.0,epaq_export
+TVadj,"Total TV viewing time (hrs/day), scaled for total overreporting",numeric,0.0 to 7.0,epaq_export
+WALKMILES,Distance (miles/day) walked to and from work,numeric,0.0 to 8.5714,epaq_export
+CYCLEMILES,Distance (miles/day) cycled to and from work,numeric,0.0 to 17.1429,epaq_export
+CARMILES,Distance (miles/day) traveled to and from work by car,numeric,0.0 to 183.3333,epaq_export
+PUBLICMILES,Distance (miles/day) traveled to and from work by public transport,numeric,0.0 to 198.0,epaq_export
+CARadj,"Duration (hrs/day) of commuting by car, adjusted for total overreporting",numeric,0.0 to 4.0741,epaq_export
+PUBLICadj,"Duration (hrs/day) of commuting by public transport, adj for total overreporting",numeric,0.0 to 6.6,epaq_export
+CYCLEadj,"Duration (hrs/day) of commuting by bike, adjusted for total overreporting",numeric,0.0 to 1.7143,epaq_export
+WALKadj,"Duration (hrs/day) of commuting on foot, adjusted for total overreporting",numeric,0.0 to 2.8571,epaq_export
+HOMEtime,"Total duration of home domain activities (hrs/day), adj for total overreporting",numeric,0.0 to 16.3139,epaq_export
+WORKtime,"Total duration of work domain activities (hrs/day), adj for total overreporting",numeric,0.0 to 14.281,epaq_export
+DURJOB,Reported total work hours (hrs/day) averaged over a year,numeric,0.0 to 22.0,epaq_export
+COMMUTEtime,"Total duration of commuting (hrs/day), adj for total overreporting",numeric,0.0 to 7.2667,epaq_export
+LEIStime,"Total duration of leisure time activities (hrs/day), adj for total overreporting",numeric,0.0 to 8.8333,epaq_export
+UNACCOUNTED_TIME,Total time not accounted for by the PAQ (hrs/day),numeric,0.0 to 17.7655,epaq_export
+TOTMETHRS,Total reported duration (hours) of activity times intensity (MET) [METhrs/d],numeric,7.5857 to 70.1675,epaq_export
+TOTMETHRS_w_UNACCtime,Total reported plus unaccounted duration hours) times intensity (MET) [METhrs/d],numeric,22.9375 to 71.5797,epaq_export
+TOTALtime,Total reported duration (hours) [hrs/d],numeric,6.2345 to 24.0,epaq_export
+ACTMETS,Total activity energy expenditure discounting resting [net METhrs/d],numeric,0.0 to 48.2226,epaq_export
+SED_INTENSITY,Sedentary behavior energy expenditure [METhrs/d],numeric,0.0 to 15.8571,epaq_export
+LIGHT_INTENSITY,Light behavior energy expenditure [METhrs/d],numeric,0.0 to 37.5933,epaq_export
+MODERATE_INTENSITY,Moderate intensity energy expenditure [METhrs/d],numeric,0.0 to 37.5472,epaq_export
+VIGOROUS_INTENSITY,Vigorous intensity energy expenditure [METhrs/d],numeric,0.0 to 39.2338,epaq_export
+SLEEPtime,Difference (hours) between reported bed and getting up time,numeric,4.0 to 13.5,epaq_export
+SEDtime,"Time spent sedentary, excluding sleep [hrs/d]",numeric,0.0 to 10.8571,epaq_export
+LIGHTtime,Time spent at light intensity activity [hrs/d],numeric,0.0 to 16.0038,epaq_export
+MODERATEtime,Time spent at moderate intensity activity [hrs/d],numeric,0.0 to 9.281,epaq_export
+VIGOROUStime,Time spent at vigorous intensity activity [hrs/d],numeric,0.0 to 5.2312,epaq_export
+HOME_METS,Home domain energy expenditure [METhrs/d],numeric,0.0 to 35.8711,epaq_export
+WORK_METS,Work domain energy expenditure [METhrs/d],numeric,0.0 to 44.8779,epaq_export
+LEIS_METS,Leisure domain energy expenditure [METhrs/d],numeric,0.0 to 37.0833,epaq_export
+COMMUTE_METS,Commute domain energy expenditure [METhrs/d],numeric,0.0 to 10.7414,epaq_export
+leisure_missing_all_data,number of leisure activities missing all data (max. 35),category,"[0.0, 1.0, 35.0]",epaq_export
+leisure_missing_freq,number of leisure activities missing frequency data (max. 35),numeric,0.0 to 35.0,epaq_export
+leisure_missing_duration,number of leisure activities missing duration data (max. 35),category,"[0.0, 2.0]",epaq_export
+activities_done,number of activities done,numeric,0.0 to 35.0,epaq_export
+PAEE,Total PAEE calculated from self-report ACTMETS (kJ/day/kg),numeric,0.0 to 206.0793,epaq_export
+HOME_PAEE,Home domain PAEE calculated from self-report ACTMETS (kJ/day/kg),numeric,0.0 to 87.5863,epaq_export
+WORK_PAEE,Work domain PAEE calculated from self-report ACTMETS (kJ/day/kg),numeric,0.0 to 159.4293,epaq_export
+LEIS_PAEE,Leisure domain PAEE calculated from self-report ACTMETS (kJ/day/kg),numeric,0.0 to 120.7264,epaq_export
+COMMUTE_PAEE,Commuting PAEE calculated from self-report ACTMETS (kJ/day/kg),numeric,0.0 to 37.9873,epaq_export
+CCID,Participant ID,string,CC110019 to CC821090,homeint_export
+version,Version of i/v program,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 5.1]",homeint_export
+wave,wave of i/v,category,[CamCAN_3000],homeint_export
+interviewerid,Interviewer ID,numeric,,homeint_export
+sex,Gender,category,"[F, M]",homeint_export
+start_time,Interview start time,time,,homeint_export
+finish_time,Interview end time,time,,homeint_export
+duration,Length of i/v (min),numeric,-656.0 to 1096.0,homeint_export
+priority,Into priority mode?,category,"[No, Yes]",homeint_export
+student_iv,Student interview,category,"[No, Yes]",homeint_export
+has_elig,HAS_elig,category,"[FALSE, TRUE]",homeint_export
+elig_700,Eligible for 700 phase?,category,"[FALSE, TRUE, nan]",homeint_export
+elig_280,Eligible for 280 phase?,category,"[FALSE, TRUE, nan]",homeint_export
+mmse_i,MMSE score calculated during i/v,numeric,11.0 to 30.0,homeint_export
+handedness,Handedness score,numeric,-100.0 to 999.0,homeint_export
+quitquestion,question that i/v into priority,numeric,0.0 to 615.0,homeint_export
+xBreak,,numeric,75.0 to 707.0,homeint_export
+break_s,,numeric,[],homeint_export
+sevens,Number of correct 7s,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 999.0]",homeint_export
+v1,CONFIRM SEX,category,"[1.0, 2.0]",homeint_export
+v4,Address correct?,category,"[1.0, 2.0, 3.0]",homeint_export
+v5,Marital status?,category,"[1.0, 2.0, 3.0, 4.0, 5.0]",homeint_export
+v6,Type of accommodation?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]",homeint_export
+v8,TYPE OF CARE HOME,category,"[1.0, 2.0, 3.0, 7.0, 8.0]",homeint_export
+v9,RATE TYPE OF ACCOMMODATION WITHIN HOME,category,[2.0],homeint_export
+v10,Who funds accomdation?,category,"[1.0, 2.0, 3.0, 7.0, 8.0]",homeint_export
+v11,,numeric,0.0 to 1992.0,homeint_export
+v12,Accommodation owned or rented?,numeric,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]",homeint_export
+v13,How many people in household?,numeric,0.0 to 77.0,homeint_export
+v14,Relationship to household members?,string,,homeint_export
+v15,Average total household income?,category,"[777, 9999, A, B, C, D, E, F]",homeint_export
+v16,Where were you born?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",homeint_export
+v17,Specify other place of birth,string,"[9999, Albania, Algeria, America, Argentina, Armenia, Australia, Austria, Bangladesh, Belgium, Bosnia, Botswana, Brazil, Brunei, Brussels, Bulgaria, Burma, Cameroon, Canada, Canary Islands, Ceylon, Chile, China, Colombia, Corfu, Crete, Cyprus, Czech Republic, Czechoslovakia, Denmark, Dubai, Egypt, Estonia, Fiji, Finland, France, Germany, Ghana, Gibraltar, Greece, Guatemala, Guyana, Holland, Hong Kong, Hungary, India, Indonesia, Iran, Ireland, Isle of Man, Israel, Italy, Ivory Coast, Jamaica, Jersey, Kenya, Kuala Lumpur, Latvia, Lithuania, Madeira, Malawi, Malaysia, Malta, Mauritius, Mexico, Moldova, Mongolia, Morocco, Nairobi, Netherlands, New Zealand, Nigeria, Norway, Pakistan, Peru, Philippines, Poland, Portugal, Romania, Russia, Seychelles, Singapore, Slovakia, Slovenia, South Africa, South America, South Korea, Soviet Union, Spain, Sri Lanka, Sweden, Switzerland, Taiwan, Tanzania, Tasmania, Tehran, Thailand, Trinidad, Tunisia, Turkey, USA, Uganda, Ukraine, Vanuatu, Venezuela, Zimbabwe, Zurich]",homeint_export
+v18,Year first come to live in UK?,numeric,4.0 to 19972.0,homeint_export
+v19,What was your first language?,category,"[1.0, 2.0, 3.0, 4.0, 6.0, 7.0]",homeint_export
+v20,Specify other first language,string,"[9999, Afrikans, Akwapim twi, Albanian, Arabic, Armenian, Assamese, Bamileke, Bangla, Bengali, Bosnian, Both French and Italian, Bulgarian, Canadian English, Cantonese, Catalan, Chinese, Creole, Czech, Danish, Denish, Dutch, Estonian, Farsi, Fijian, Filipine, Filipino, Finnish, French, French/Dutch, Gaelic, German, German, check, Greek, Gujarati, Hausa, Hebrew, Hindi, Hungarian, Ibo, Indonesian, Italian, Kannada, Korean, Kurdish, Latvian, Lithuanian, Malayalam, Maltese/English, Marathi, Meru, Mongolian, Moroccan Arabic, Norwegian, Persian, Pharsee, Polish, Portuguese, Punjabi, Punjabua, Romanian, Russian, Serbian/German bilingual, Serbo - Croat, Shona, Sinhala, Sinhalese, Slovak, Slovakian, Slovenian, Spanish, Swedish, Swiss German, Swiss German dialect, Tamil, Tel, Telugu, Thai, Turkish, Ukrainian, Urdu, Welsh, Yiddish, cz, erse/english]",homeint_export
+v21,Have you been bilingual from birth?,category,"[1.0, 2.0, 7.0]",homeint_export
+v22,What was your second language?,category,"[1.0, 2.0, 3.0, 4.0, 6.0, 7.0]",homeint_export
+v23,Specify other second language,string,"[9999, Afrikaans, Armenia and Greek, Assamese, Basque, Bengali, Both French and Italian, Considers English as first language, Czech, Russian, English, Danish, Dutch, English, English, Hindi, French, French (English later), French Canadian, Ga; and Asante twi, Gaelic, Galician, German, Greek, Gujarati, Hindi, Hindi, Punjabi, Hindustani mixture ( of URdu and Hindi, Irish, Italian, Itsekiri, Latvian, Mexican sign language, Nguemba (Cameroun), Punjabi, Romanian, Russian, Russian/german, Slovak, Spanish, Swahili, Swahli, Tamal (from nursemai, Tamil, Turkish, Urdu, Valencian (Catalan), Visayan, Welsh, Yiddish, czech, norwegian, French, other lan in Uganda, telegu]",homeint_export
+v24,Ethnic group?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]",homeint_export
+v25,Ethnic background - white?,category,"[1.0, 2.0, 3.0]",homeint_export
+v26,Ethnic background - mixed?,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v27,Ethnic background - asian or asian british?,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v28,Ethnic background - black or black british?,category,"[1.0, 2.0]",homeint_export
+v29,Ever had paid work?,category,"[1.0, 2.0]",homeint_export
+v30,Current situation - not had paid work?,category,"[3.0, 4.0, 6.0, 7.0, 8.0, 306.0, 507.0]",homeint_export
+v31,Current situation - had paid work?,string,,homeint_export
+v32,Live in Cambridge during term time only?,category,"[1.0, 2.0]",homeint_export
+v33,OK to complete student IV?,category,[1.0],homeint_export
+v34,Age retired?,numeric,14.0 to 777.0,homeint_export
+v35,Do/did you work as an employee or are/were you self-employed?,category,"[1.0, 2.0, 3.0, 8.0, 888.0]",homeint_export
+v36,Number of employees?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 888.0]",homeint_export
+v39,Do/did you supervise any other employees?,category,"[1.0, 2.0, 888.0]",homeint_export
+v41,,numeric,0.0 to 888.0,homeint_export
+v42,,numeric,0.0 to 888.0,homeint_export
+v43,Job involve shift work?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 888.0]",homeint_export
+v44,Job involve night shift work?,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v45,SEX OF PARTNER?,category,"[1.0, 2.0, 9.0]",homeint_export
+v46,Partner's current situation?,numeric,1.0 to 1030604.0,homeint_export
+v47,Have they ever had paid work?,category,"[1.0, 2.0]",homeint_export
+v48,Age partner retired?,numeric,0.0 to 7777.0,homeint_export
+v49,Do/did your partner work as an employee or are/were they self employed?,category,"[1.0, 2.0, 3.0]",homeint_export
+v50,Number of employees?,category,"[1.0, 2.0, 3.0, 4.0, 7777.0]",homeint_export
+v53,Do/did they supervise any other employees?,category,"[1.0, 2.0]",homeint_export
+v55,Final situation of partner?,numeric,1.0 to 20607.0,homeint_export
+v56,Were they ever in paid employment?,category,"[1.0, 2.0]",homeint_export
+v57,Age partner retired?,numeric,0.0 to 777.0,homeint_export
+v58,Did your partner work as an employee or were they self employed?,category,"[1.0, 2.0, 3.0]",homeint_export
+v59,Number of employees?,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v62,Did they supervise any other employees?,category,"[1.0, 2.0]",homeint_export
+v64,Partner's situation when last lived together?,numeric,1.0 to 405.0,homeint_export
+v65,Did they ever have paid employment?,category,"[1.0, 2.0, 8.0, 777.0]",homeint_export
+v66,Age partner retired?,numeric,50.0 to 8888.0,homeint_export
+v67,Did your partner work as an employee or were they self employed?,category,"[1.0, 2.0, 3.0]",homeint_export
+v68,Number of employees?,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v71,Did they supervise any other employees?,category,"[1.0, 2.0]",homeint_export
+v73,Which qualifications do you have?,string,1 to 8,homeint_export
+v74,,numeric,0.0 to 2005.0,homeint_export
+v75,Completed lifetime experience questionnaire?,category,"[1.0, 2.0, 3.0, 4.0, 5.0]",homeint_export
+v76,Practice undertaken - simple?,category,"[1.0, 2.0]",homeint_export
+v77,Reason for non-completion?,category,"[1.0, 3.0, 4.0]",homeint_export
+v78,Real test undertaken - simple?,category,"[1.0, 2.0]",homeint_export
+v79,Reason for non-completion?,category,"[1.0, 2.0, 3.0]",homeint_export
+v80,Simple reaction time file saved?,category,"[1.0, 2.0]",homeint_export
+v81,Practice undertaken - choice?,category,"[1.0, 2.0]",homeint_export
+v82,Reason for non-completion?,category,[2.0],homeint_export
+v83,Real test undertaken - choice?,category,"[1.0, 2.0]",homeint_export
+v84,Reason for non-completion?,category,"[1.0, 3.0]",homeint_export
+v85,Choice reaction time file saved?,category,"[1.0, 2.0]",homeint_export
+v86,Have children?,category,"[1.0, 2.0]",homeint_export
+v87,Number of living children,category,0.0 to 22.0,homeint_export
+v88,Number of dead children,category,"[0.0, 1.0, 2.0, 3.0, 99.0, 999.0]",homeint_export
+v89,Any close relatives in area?,category,"[1.0, 2.0, 3.0]",homeint_export
+v90,How often see relatives to speak to?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 9.0]",homeint_export
+v91,How often speak to relatives over phone?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 9.0]",homeint_export
+v92,How often text/email relatives?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 9.0]",homeint_export
+v93,How often to friends/family visit you?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 77.0]",homeint_export
+v94,How often speak to friends over phone?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 9.0]",homeint_export
+v95,How often text/email friends?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 9.0]",homeint_export
+v96,,string,,homeint_export
+v97,Have friends in community?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v98,How often see neighbours?,numeric,0.0 to 9.0,homeint_export
+v99,Is there someone frail or unwell that requires your help?,category,"[1.0, 2.0]",homeint_export
+v100,Help required because?,category,"[1.0, 2.0, 3.0]",homeint_export
+v101,What is the day?,category,"[0.0, 1.0, 7.0, 9.0]",homeint_export
+v102,What is the date today?,category,"[0.0, 1.0, 7.0, 9.0]",homeint_export
+v103,What is the month?,category,"[0.0, 1.0, 7.0, 9.0]",homeint_export
+v104,What is the year?,category,"[0.0, 1.0, 7.0, 8.0, 9.0]",homeint_export
+v105,What is the season?,category,"[0.0, 1.0, 7.0, 9.0]",homeint_export
+v106,What is your full address - if in own home?,category,"[0.0, 1.0, 9.0]",homeint_export
+v107,What is the name of this place? Location? - if in institution,category,"[0.0, 1.0, 7.0, 9.0]",homeint_export
+v108,What is the city/town/village?,category,"[0.0, 1.0, 9.0]",homeint_export
+v109,What is the county?,category,"[0.0, 1.0, 7.0, 8.0, 9.0]",homeint_export
+v110,What is the country?,category,"[0.0, 1.0, 8.0, 9.0]",homeint_export
+v111,What floor of the building are we on?,category,"[0.0, 1.0, 7.0, 8.0, 9.0]",homeint_export
+v112,Number of S words,numeric,0.0 to 45.0,homeint_export
+v113,NUMBER OF REPEATS,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 11.0]",homeint_export
+v114,Repeat Apple,category,"[0.0, 1.0, 9.0]",homeint_export
+v115,Repeat Table,category,"[0.0, 1.0, 9.0]",homeint_export
+v116,Repeat Penny,category,"[0.0, 1.0, 9.0]",homeint_export
+v117,Serial 7 answers,string,,homeint_export
+v118,Spell WORLD,string,,homeint_export
+v119,Spell WORLD backwards,string,,homeint_export
+v120,Recall Apple,category,"[0.0, 1.0, 7.0, 9.0]",homeint_export
+v121,Recall Table,category,"[0.0, 1.0, 7.0, 9.0]",homeint_export
+v122,Recall Penny,category,"[0.0, 1.0, 7.0, 8.0, 9.0]",homeint_export
+v123,Envelope recognition,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v124,Repeat Harry,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v125,Repeat Barnes,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v126,Repeat 73,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v127,Repeat Orchard,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v128,Repeat Close,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v129,Repeat Kingsbridge,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v130,Repeat Devon,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v131,Number of P words,numeric,0.0 to 99.0,homeint_export
+v132,Number of animals,numeric,1.0 to 99.0,homeint_export
+v133,SHOW 'CLOSE YOUR EYES',category,"[0.0, 1.0, 8.0, 9.0]",homeint_export
+v134,Look at ceiling,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v135,Tap shoulders,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v136,Touch right ear,category,"[1.0, 2.0, 9.0]",homeint_export
+v137,Nod your head,category,"[2.0, 9.0]",homeint_export
+v138,COMPLETE SENTENCE WRITTEN,category,"[0.0, 1.0, 7.0, 8.0, 9.0]",homeint_export
+v139,TAKE PAPER IN RIGHT HAND,category,"[0.0, 1.0, 7.0, 8.0, 9.0]",homeint_export
+v140,FOLDS,category,"[0.0, 1.0, 8.0, 9.0]",homeint_export
+v141,LAP,category,"[0.0, 1.0, 7.0, 8.0, 9.0]",homeint_export
+v142,Put paper in envelope,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v143,Recall envelope instructions,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0]",homeint_export
+v144,Repeat Hippopotamus,category,"[1.0, 2.0, 8.0, 9.0]",homeint_export
+v145,Repeat Eccentricity,category,"[1.0, 2.0, 8.0, 9.0]",homeint_export
+v146,Repeat Unintelligible,category,"[1.0, 2.0, 8.0, 9.0]",homeint_export
+v147,Repeat Statistician,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v148,"Repeat Above, beyond and below",category,"[1.0, 2.0, 9.0]",homeint_export
+v149,"Repeat No ifs, ands or buts",category,"[0.0, 1.0, 8.0, 9.0]",homeint_export
+v150,Name Pencil,category,"[0.0, 1.0, 8.0, 9.0]",homeint_export
+v151,Name Watch,category,"[0.0, 1.0, 9.0]",homeint_export
+v152,Name Kangaroo,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v153,Name Penguin,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v154,Name Anchor,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v155,Name Camel,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v156,Name Harp,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v157,Name Rhinoceros,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v158,Name Barrel,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v159,Name Crown,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v160,Name Crocodile/Alligator,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v161,Name Accordian,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v162,Point Monarchy,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v163,Point Marsupial,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v164,Point Antarctic,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v165,Point Nautical,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v166,Read Sew,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v167,Read Pint,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v168,Read Soot,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v169,Read Dough,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v170,Read Height,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v171,COPY OVERLAPPING PENTAGONS,category,"[0.0, 1.0, 7.0, 8.0, 9.0]",homeint_export
+v172,COPY WIRE CUBE,category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v173,DRAW CLOCK FACE,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v174,ALL NUMBERS,category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v175,SET HANDS TO 11:10,category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v176,Recall Camel,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v177,Recall Watch,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v178,Recall Barrel,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v179,Recall Harp,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v180,Recall Crown,category,"[1.0, 2.0, 9.0]",homeint_export
+v181,COUNT DOTS A,category,"[1.0, 2.0, 8.0, 9.0]",homeint_export
+v182,COUNT DOTS B,category,"[1.0, 2.0, 9.0]",homeint_export
+v183,COUNT DOTS C,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v184,COUNT DOTS D,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v185,IDENTIFY K,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v186,IDENTIFY M,category,"[1.0, 2.0, 9.0]",homeint_export
+v187,IDENTIFY A,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v188,IDENTIFY T,category,"[1.0, 2.0, 8.0, 9.0]",homeint_export
+v189,Recall Harry,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v190,Recall Barnes,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v191,Recall 73,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v192,Recall Orchard,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v193,Recall Close,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v194,Recall Kingsbridge,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v195,Recall Devon,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v196,Name recognition,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v197,Number recognition,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v198,First line address recognition,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v199,Town recognition,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v200,County recognition,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v201,Name current Prime Minister,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v202,Name woman Prime Minister,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v203,Name USA President,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v204,Name USA President assassinated in 1960's,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v205,When did WW1 begin?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v206,When did WW2 begin?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v207,Name present King or Queen,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v208,Who will follow her (him)?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v209,What has been in the news past week or two?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v210,What is Yoko Ono famous for?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v211,Name first man on the moon,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v212,What was Edmund Hilary famous for?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v213,Name first woman Prime Minister of India,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v214,Name famous cinema actress that married Prince Rainier of Monaco,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v215,Name German leader in WW2,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v216,Name Russian leader in WW2,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v217,What was Mae West famous for?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v218,Name famous flyer whose son was kidnapped,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v219,Anna Thompson story recall,category,"[1.0, 2.0, 3.0, 9.0]",homeint_export
+v220,Spot the word practice test completed,category,"[1.0, 2.0]",homeint_export
+v221,Spot the word real test completed,category,"[1.0, 2.0, 3.0]",homeint_export
+v222,How are apple and banana alike?,category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v223,How are shirt and dress alike?,category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v224,How are table and chair alike?,category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v225,How are plant and animal alike?,category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v226,Recognition 1p,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v227,Recognition 10p,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v228,Calculation 11p,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v229,Calculation 89p,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v230,Do you feel you have problems with your memory?,category,"[1.0, 2.0]",homeint_export
+v231,WHAT DAY OF THE WEEK IT IS,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v232,REPEATING SAME STORY/MESSAGE,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v233,FORGET FAMILY/FRIENDS HAVE DIED,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v234,FORGET MONTH/YEAR,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v235,CAN DO SOMETHING AGAIN BEFORE REALISING HAVE DONE IT BEFORE,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0, 9.0]",homeint_export
+v236,GREAT DIFFICULTY FINDING WAY AROUND KNOWN PLACES,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0, 9.0]",homeint_export
+v237,PROBLEM KNOWING WHERE THINGS ARE,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0, 9.0]",homeint_export
+v238,DIFFICULTY REMEMBERING WHAT HAVE READ,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0, 9.0]",homeint_export
+v239,DIFFICULTY FOLLOWING A TV PROGRAMME,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0, 9.0]",homeint_export
+v240,MY MEMORY DIFFICULTIES HAVE A MAJOR IMPACT ON MY ABILITY FOR EVERYDAY THINGS,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v241,Smoke tobacco?,category,"[1.0, 2.0, 3.0, 9.0]",homeint_export
+v242,Age when first started smoking,numeric,6.0 to 999.0,homeint_export
+v243,Type of tobacco smoked?,category,"[1.0, 2.0, 3.0, 9.0]",homeint_export
+v244,Did you previously smoke cigarettes on most or all days?,category,"[1.0, 2.0, 9.0]",homeint_export
+v245,Number cigarettes smoked on average each day - past smoker,category,"[5.0, 15.0, 99.0]",homeint_export
+v246,Age when last smoked cigarettes on most days,category,"[19.0, 22.0, 999.0]",homeint_export
+v247,Number cigarettes smoked on average each day - current smoker,numeric,1.0 to 99.0,homeint_export
+v248,Time of first cigarette,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 8.0, 9.0]",homeint_export
+v249,"Compared to 10 years ago, do you smoke...?",category,"[1.0, 2.0, 3.0, 9.0]",homeint_export
+v250,Why reduce smoking?,numeric,1 to 9,homeint_export
+v251,"In past, how often smoked tobacco?",category,"[1.0, 2.0, 3.0, 4.0, 9.0]",homeint_export
+v252,"In lifetime, have you smoked at least 100 cigarettes?",category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v253,,numeric,0.0 to 52.0,homeint_export
+v254,Type of tobacco smoked?,category,"[1.0, 2.0, 3.0, 4.0, 9.0]",homeint_export
+v255,Did you smoke cigarettes on most or all days?,category,"[1.0, 2.0, 9.0]",homeint_export
+v256,Number cigarettes smoked on average each day - past smoker?,numeric,1.0 to 99.0,homeint_export
+v257,Age when last smoked cigarettes on most days?,numeric,0.0 to 777.0,homeint_export
+v258,Why reduce smoking?,numeric,1 to 9,homeint_export
+v259,Anyone in household smoke?,category,"[1.0, 2.0, 3.0, 8.0, 9.0]",homeint_export
+v260,,numeric,0.0 to 999.0,homeint_export
+v261,,numeric,0.0 to 999.0,homeint_export
+v262,,numeric,0.0 to 99.0,homeint_export
+v263,,numeric,0.0 to 100.0,homeint_export
+v264,Quantity - fresh fruit,numeric,0.0 to 99.0,homeint_export
+v265,Quantity - dried fruit,numeric,0.0 to 99.0,homeint_export
+v266,How often eat oily fish?,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 9.0]",homeint_export
+v267,How often eat other fish?,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 9.0]",homeint_export
+v268,How often eat processed meats?,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 9.0]",homeint_export
+v269,How often eat chicken/turkey/other poultry?,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 9.0]",homeint_export
+v270,How often eat beef?,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 9.0]",homeint_export
+v271,How often eat lamb/mutton?,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 9.0]",homeint_export
+v272,How often eat pork?,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 9.0]",homeint_export
+v273,Age when last ate meat,numeric,0.0 to 999.0,homeint_export
+v274,Which do you never eat?,numeric,1 to 9,homeint_export
+v275,How often eat cheese?,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 9.0]",homeint_export
+v276,Type of milk?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 9.0]",homeint_export
+v277,Type of spread?,numeric,0.0 to 77.0,homeint_export
+v278,Number of bread slices per week,numeric,0.0 to 130.0,homeint_export
+v279,Type of bread?,numeric,1 to 9,homeint_export
+v280,Number of bowls of cereal per week,numeric,0.0 to 99.0,homeint_export
+v281,Type of cereal?,numeric,1 to 9,homeint_export
+v282,Add salt to food?,category,"[1.0, 2.0, 3.0, 4.0, 9.0]",homeint_export
+v283,Number of cups of tea per day,numeric,0.0 to 99.0,homeint_export
+v284,Number of cups of coffee per day,numeric,0.0 to 99.0,homeint_export
+v285,Type of coffee?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v286,How do you like hot drinks?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v287,,numeric,0.0 to 99.0,homeint_export
+v288,Any major diet changes in past 5 years?,category,"[0.0, 1.0, 2.0]",homeint_export
+v289,Does diet vary week to week?,category,"[1.0, 2.0, 3.0, 7.0, 8.0]",homeint_export
+v290,How often drink alcohol?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 9.0]",homeint_export
+v291,Did you previously drink alcohol?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v292,Why did you stop drinking alcohol?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 8.0]",homeint_export
+v293,Number glasses of red wine average week?,numeric,0.0 to 99.0,homeint_export
+v294,Number glasses of white wine/champagne average week?,numeric,0.0 to 99.0,homeint_export
+v295,,numeric,0.0 to 8888.0,homeint_export
+v296,Number standard measures of spirits/liqueurs average week?,numeric,0.0 to 8888.0,homeint_export
+v297,Number glasses of fortified wine average week?,numeric,0.0 to 99.0,homeint_export
+v298,"Compared to 10 years ago, do you drink...?",category,"[1.0, 2.0, 3.0, 7.0, 9.0]",homeint_export
+v299,Reason reduced amount drank,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 9.0]",homeint_export
+v300,Used nonmedical drugs?,category,"[1.0, 2.0, 9.0]",homeint_export
+v301,Abused prescription drugs?,category,"[1.0, 2.0, 9.0]",homeint_export
+v302,Abuse more than 1 drug at a time?,category,"[1.0, 2.0, 9.0]",homeint_export
+v303,Get through week without using drugs?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v304,Able to stop using drugs when want?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v305,Had 'blackouts' or 'flashbacks'?,category,"[1.0, 2.0, 9.0]",homeint_export
+v306,Feel bad/guilty about drug use?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v307,Spouse/partner/parents complain?,category,"[1.0, 2.0, 9.0]",homeint_export
+v308,Drug abuse created problems with spouse/parents?,category,"[1.0, 2.0, 9.0]",homeint_export
+v309,Lost friends?,category,"[1.0, 2.0, 9.0]",homeint_export
+v310,Neglected family?,category,"[1.0, 2.0, 9.0]",homeint_export
+v311,Been in work trouble?,category,"[1.0, 2.0, 9.0]",homeint_export
+v312,Lost a job?,category,"[1.0, 2.0, 9.0]",homeint_export
+v313,Gotten into fights?,category,"[1.0, 2.0, 9.0]",homeint_export
+v314,Engaged in illegal activities?,category,"[1.0, 2.0, 9.0]",homeint_export
+v315,Arrested for possession of illegal drugs?,category,"[1.0, 2.0, 9.0]",homeint_export
+v316,Experience withdrawal symptoms?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v317,Medical problems as a result of drug use?,category,"[1.0, 2.0, 9.0]",homeint_export
+v318,Sought help for drug problem?,category,"[1.0, 2.0, 9.0]",homeint_export
+v319,Involved in drug use treatment program?,category,"[1.0, 2.0, 9.0]",homeint_export
+v320,Currently using these drugs?,category,"[1.0, 2.0, 9.0]",homeint_export
+v321,Estimation of health?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0, 9.0]",homeint_export
+v322,"Over past 12 months, health has been?",category,"[1.0, 2.0, 3.0, 7.0, 9.0]",homeint_export
+v323,Any long-standing illness/disability/infirmity?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v324,Receive any of the following?,numeric,0 to 9,homeint_export
+v325,"Compared with 1 year ago, has weight changed?",category,"[1.0, 2.0, 3.0, 7.0, 9.0]",homeint_export
+v326,Wear glasses/contact lenses?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v327,Age when first wore glasses/contact lenses,numeric,1.0 to 99.0,homeint_export
+v328,Any of the following problems with eyes?,numeric,0 to 9,homeint_export
+v329,Other problems with your eyesight?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v330,Problems interfere with day to day living?,category,"[1.0, 2.0, 9.0, 19.0]",homeint_export
+v331,Consent for vision test?,category,"[1.0, 2.0, 3.0, 5.0]",homeint_export
+v332,USING GLASSES/CONTACT LENSES,category,"[1.0, 2.0]",homeint_export
+v333,Line read - Left eye,category,"[9999, A, B, C, D, E, F, G, H, I, J]",homeint_export
+v334,Line read - Right eye,category,"[9999, A, B, C, D, E, F, G, H, I, J]",homeint_export
+v335,Line read - Both eyes?,category,"[9999, A, B, C, D, E, F, G, H, I, J]",homeint_export
+v336,Any difficulty with hearing?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v337,Problems interfere with day to day living?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v338,Difficulty following a conversation if background noise?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v339,Use a hearing aid?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v340,Can it be removed?,category,"[1.0, 2.0, 9.0]",homeint_export
+v341,Consent for hearing test?,category,"[1.0, 2.0, 9.0]",homeint_export
+v342,WEARING HEARING AID,category,"[1.0, 2.0, 9.0]",homeint_export
+v343,HEARING AID REMOVED,category,"[1.0, 2.0]",homeint_export
+v344,"Number of tones - 1000Hz, Right ear?",category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v345,"Number of tones - 3000Hz, Right ear?",category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v346,"Number of tones - 1000Hz, Left ear?",category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v347,"Number of tones - 3000Hz, Left ear?",category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v348,Been diagnosed with medical conditions?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v349,High blood pressure?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v350,Age?,numeric,0.0 to 7777.0,homeint_export
+v351,Still awaiting specialist investigation?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v352,Receive medication for high blood pressure?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v353,,numeric,0.0 to 999.0,homeint_export
+v354,Is high blood pressure still uncontrolled?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v355,High blood cholesterol?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v356,Age?,numeric,0.0 to 7777.0,homeint_export
+v357,Angina?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v358,Age?,numeric,7.0 to 91.0,homeint_export
+v359,Heart attack (myocardial infarction)?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v360,Age?,numeric,26.0 to 777.0,homeint_export
+v361,Cardiac arrhythmia/palpitations/irregular heartbeat?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v362,Age?,numeric,0.0 to 7777.0,homeint_export
+v363,,string,,homeint_export
+v364,Varicose veins?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v365,Age?,numeric,0.0 to 7777.0,homeint_export
+v366,Migraine?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v367,Age?,numeric,3.0 to 7777.0,homeint_export
+v368,Stroke?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v369,Age?,numeric,23.0 to 777.0,homeint_export
+v370,Pulmonary embolism?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v371,Age?,numeric,20.0 to 88.0,homeint_export
+v372,Deep vein thrombosis?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v373,Age?,numeric,20.0 to 777.0,homeint_export
+v374,Other vascular disease?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v375,Age?,numeric,0.0 to 888.0,homeint_export
+v376,,string,,homeint_export
+v377,Diabetes (not during pregnancy)?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v378,Age?,numeric,1.0 to 777.0,homeint_export
+v379,Thyroid disease?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v380,Age?,numeric,4.0 to 777.0,homeint_export
+v381,,string,,homeint_export
+v382,Peptic ulcer?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v383,Age?,numeric,18.0 to 81.0,homeint_export
+v384,,string,,homeint_export
+v385,Meningitis or encephalitis?,category,"[1.0, 2.0, 3.0, 9.0]",homeint_export
+v386,Age?,numeric,3.0 to 70.0,homeint_export
+v387,Polyps in the large intestine?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v388,Age?,numeric,24.0 to 888.0,homeint_export
+v389,Gallstones?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v390,Age?,numeric,0.0 to 777.0,homeint_export
+v391,Gall bladder removed?,numeric,0.0 to 999.0,homeint_export
+v392,Pancreatitis?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v393,Age?,numeric,25 to 73,homeint_export
+v394,Appendicitis?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v395,Age?,numeric,1.0 to 999.0,homeint_export
+v396,Liver disease?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v397,Age?,numeric,7.0 to 80.0,homeint_export
+v398,,string,,homeint_export
+v399,Hayfever/eczema?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v400,,numeric,0.0 to 7777.0,homeint_export
+v401,Asthma?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v402,,string,,homeint_export
+v403,Asthma in childhood only?,category,"[1.0, 2.0, 9.0]",homeint_export
+v404,Bronchitis/emphysema?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v405,,numeric,0.0 to 777.0,homeint_export
+v406,Allergies?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v407,,numeric,0.0 to 7777.0,homeint_export
+v408,,string,,homeint_export
+v409,Arthritis?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v410,Age?,numeric,1.0 to 777.0,homeint_export
+v411,,string,,homeint_export
+v412,Currently suffering from arthritis?,category,"[1.0, 2.0, 3.0]",homeint_export
+v413,Osteoporosis?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v414,Age?,numeric,25.0 to 94.0,homeint_export
+v415,Tuberculosis?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v416,Age?,numeric,2.0 to 83.0,homeint_export
+v417,,string,,homeint_export
+v418,[Men Only] Enlarged prostate?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v419,Age?,numeric,13.0 to 777.0,homeint_export
+v420,Insomnia requiring treatment?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v421,Age?,numeric,8.0 to 95.0,homeint_export
+v422,Depression requiring treatment?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v423,Age?,numeric,0.0 to 777.0,homeint_export
+v424,Other psychiatric illness?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v425,Age?,numeric,7.0 to 74.0,homeint_export
+v426,,string,,homeint_export
+v427,Ever receive ECT treatment?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v428,Shingles?,category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v429,Benign growths (non cancer)?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v430,Age?,string,,homeint_export
+v431,,string,,homeint_export
+v432,Cancer?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v433,Age?,category,12.0 to 93.0,homeint_export
+v434,,string,,homeint_export
+v435,Currently receiving cancer treatment/had any in last 6 months?,category,"[1.0, 2.0]",homeint_export
+v436,Currently in remission?,category,"[1.0, 2.0]",homeint_export
+v437,How long been in remission?,category,"[1.0, 2.0]",homeint_export
+v438,Intermittent claudication?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v439,Age?,numeric,50.0 to 89.0,homeint_export
+v440,Parkinson's disease?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v441,Age?,category,"[72.0, 73.0, 74.0, 76.0, 79.0, 83.0, 87.0, 90.0]",homeint_export
+v442,Motor Neurone disease?,category,"[1.0, 7.0, 9.0]",homeint_export
+v443,Age?,category,[],homeint_export
+v444,Multiple Sclerosis?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v445,Age?,category,"[29.0, 30.0, 39.0, 49.0]",homeint_export
+v446,Chronic Bronchitis?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v447,Age?,numeric,0.0 to 85.0,homeint_export
+v448,Ever had fits or epilepsy?,category,"[1.0, 2.0, 3.0, 7.0]",homeint_export
+v449,Age?,numeric,1.0 to 999.0,homeint_export
+v450,Ever experienced sudden speech/memory/vision problems?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v451,Age?,numeric,14.0 to 777.0,homeint_export
+v452,Ever experienced sudden weakness in an arm or leg?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v453,Age?,numeric,12.0 to 777.0,homeint_export
+v454,Ever had a general anaesthetic?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v455,Age?,string,,homeint_export
+v456,Number of times?,numeric,0.0 to 777.0,homeint_export
+v457,Ever had serious head injury and been unconscious afterwards?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v458,Age?,numeric,0.6 to 7777.0,homeint_export
+v459,Number of times?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 8.0, 10.0, 12.0]",homeint_export
+v460,Lost consciousness for more than 2 hours?,category,"[1.0, 2.0]",homeint_export
+v461,Fractured any bones?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v462,Fracture hip?,category,"[1.0, 2.0, 9.0]",homeint_export
+v463,Age?,numeric,12.0 to 93.0,homeint_export
+v464,Fracture wrist after age 20?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v465,,numeric,0.0 to 90.0,homeint_export
+v466,Fracture vertabra(e)?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v467,Age?,numeric,13.0 to 80.0,homeint_export
+v468,Fracture skull?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v469,,numeric,0.1 to 79.0,homeint_export
+v470,Had any other medical problem/operation not covered?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v471,,string,,homeint_export
+v473,[Women Only] Age when periods started?,numeric,0.0 to 999.0,homeint_export
+v474,Had your menopause?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0, 9.0]",homeint_export
+v475,Age when periods stopped?,numeric,28.0 to 99.0,homeint_export
+v476,Number of days since last menstrual period?,numeric,0.0 to 2555.0,homeint_export
+v477,Length of menstrual cycle in days?,numeric,3.0 to 2266.0,homeint_export
+v478,Have an IUD or coil?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v479,Type?,category,"[1.0, 2.0, 3.0, 7.0, 9.0]",homeint_export
+v480,Have any of the following?,numeric,0 to 9,homeint_export
+v481,"During past month, time gone to bed?",time,00:00 to 24:00:00,homeint_export
+v482,"During past month, time taken to get to sleep?",numeric,0.0 to 7777.0,homeint_export
+v483,"During past month, time got up?",time,02:30 to 16:00,homeint_export
+v484,"During past month, number of hours sleep each night?",time,00:05 to 12:00,homeint_export
+v485,Cannot get to sleep within 30 minutes?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0, 9.0]",homeint_export
+v486,Wake up middle of night/early morning?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v487,Have to use the bathroom?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v488,Cannot breathe comfortably?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v489,Cough or snore loudly?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v490,Feel too cold?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v491,Feel too hot?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v492,Had bad dreams?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v493,Have pain?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v494,Any other reasons?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0, 9.0]",homeint_export
+v496,Rate overall sleep quality past month,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v497,"During past month, how often taken medicine to help sleep?",category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v498,"During past month, how often had trouble staying awake?",category,"[1.0, 2.0, 3.0, 4.0, 9.0]",homeint_export
+v499,"During past month,any problem with keeping up enthusiasm?",category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0, 9.0]",homeint_export
+v500,Have a bed partner/roommate?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0, 9.0]",homeint_export
+v501,Feel tired during morning?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v502,Feel tired during afternoon?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v503,Feel tired during evening?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v504,Left or right handed?,category,"[1.0, 2.0, 3.0, 7.0, 9.0]",homeint_export
+v505,Handedness - writing?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 9.0]",homeint_export
+v506,Handedness - drawing?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 8.0, 9.0]",homeint_export
+v507,Handedness - throwing?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 8.0, 9.0]",homeint_export
+v508,Handedness - scissors?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 9.0]",homeint_export
+v509,Handedness - toothbrush?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 8.0, 9.0]",homeint_export
+v510,Handedness - knife (without fork)?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 8.0, 9.0]",homeint_export
+v511,Handedness - spoon?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 9.0]",homeint_export
+v512,Handedness - broom (upper hand)?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 8.0, 9.0]",homeint_export
+v513,Handedness - striking a match?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 8.0, 9.0]",homeint_export
+v514,Handedness - opening box (lid)?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 8.0, 9.0]",homeint_export
+v515,Anna Thompson story recall?,category,"[1.0, 2.0, 3.0, 9.0]",homeint_export
+v516,PROMPT GIVEN?,category,"[1.0, 2.0]",homeint_export
+v517,AFTER PROMPT?,category,"[1.0, 2.0, 3.0, 9.0]",homeint_export
+v518,Who was main character?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 8.0, 9.0]",homeint_export
+v519,Where was this woman from?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 8.0, 9.0]",homeint_export
+v520,What kind of work did she do?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 8.0, 9.0]",homeint_export
+v521,What was main event of story?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 8.0, 9.0]",homeint_export
+v522,She told details of event to?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 8.0, 9.0]",homeint_export
+v523,When did event take place?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 8.0, 9.0]",homeint_export
+v524,Her household included?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 8.0, 9.0]",homeint_export
+v525,Who else was mentioned?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 8.0, 9.0]",homeint_export
+v526,People in the story?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 8.0, 9.0]",homeint_export
+v527,What happened at the end?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 8.0, 9.0]",homeint_export
+v528,Feel tense/'wound up'?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v529,Enjoy things used to?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v530,Get a sort of frightened feeling?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v531,Can laugh and see the funny side of things?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v532,Worrying thoughts through mind?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v533,Feel cheerful?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v534,Can sit at ease and feel relaxed?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v535,Feel slowed down?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v536,Get a sort of 'butterflies' feeling in the stomach?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v537,Lost interest in appearance?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v538,Feel restless?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v539,Look forward with enjoyment?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v540,Get sudden feelings of panic?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v541,Can enjoy a good book/TV/radio programme?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v542,Fallen in last year?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v543,Ever fallen?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v544,,numeric,0.0 to 7777.0,homeint_export
+v545,How many times?,numeric,0.0 to 7777.0,homeint_export
+v546,,string,,homeint_export
+v547,,string,,homeint_export
+v548,When - Fall 3?,string,,homeint_export
+v549,When - Fall 4?,string,,homeint_export
+v550,When - Fall 5?,string,,homeint_export
+v551,When - Fall 6?,string,,homeint_export
+v552,Most recent fall due to?,category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v553,Consent for balance test?,category,"[1.0, 2.0, 3.0]",homeint_export
+v554,,string,,homeint_export
+v555,Which is dominant leg?,category,"[1.0, 2.0]",homeint_export
+v556,,numeric,0.0 to 7777.0,homeint_export
+v557,,numeric,0.0 to 7777.0,homeint_export
+v558,Consent for single chair rise test?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v559,OUTCOME OF SINGLE CHAIR RISE,category,"[1.0, 2.0, 3.0]",homeint_export
+v560,REASON NOT UNDERTAKING SINGLE CHAIR RISE TEST,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]",homeint_export
+v561,Consent for 5 chair rise test?,category,"[1.0, 2.0, 8.0, 9.0]",homeint_export
+v562,TIME TO COMPLETE 5 STANDS?,string,,homeint_export
+v563,NUMBER OF STANDS IF LESS THAN 5?,category,"[2.0, 4.0]",homeint_export
+v564,REASON TEST NOT COMPLETED,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v565,Problems with shopping/meals/housework/using phone/taking medications/looking af,category,"[1.0, 2.0, 9.0]",homeint_export
+v566,Manage using telephone?,category,"[1.0, 2.0, 3.0, 4.0, 9.0]",homeint_export
+v567,Manage with shopping?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0]",homeint_export
+v568,Manage preparing meals?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0, 9.0]",homeint_export
+v569,Able to prepare and cook a meal?,category,"[1.0, 2.0, 3.0, 9.0]",homeint_export
+v570,Manage with housework?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v571,Able to do light/heavy cleaning?,category,"[1.0, 2.0, 3.0, 4.0, 9.0]",homeint_export
+v572,Manage with laundry?,category,"[1.0, 2.0, 3.0, 4.0, 8.0, 9.0]",homeint_export
+v573,Able to load washing machine/put things on line?,category,"[1.0, 2.0, 3.0, 9.0]",homeint_export
+v574,Manage with walking?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 8.0, 9.0]",homeint_export
+v575,Use a walking stick/other aid?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 9.0]",homeint_export
+v576,Able to get on bus?,category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v577,Able to go up and down stairs?,category,"[1.0, 2.0, 3.0, 7.0, 9.0]",homeint_export
+v578,Manage with bathing/showering?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v579,Manage with reaching to comb hair?,category,"[1.0, 2.0, 3.0, 4.0, 9.0]",homeint_export
+v580,Able to reach overhead shelf?,category,"[1.0, 2.0, 3.0, 7.0, 9.0]",homeint_export
+v581,Able to tie good knot in piece of string?,category,"[1.0, 2.0, 3.0, 7.0, 9.0]",homeint_export
+v582,Manage with dressing/undressing?,category,"[1.0, 2.0, 3.0, 4.0, 9.0]",homeint_export
+v583,Manage with getting to toilet on time?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 9.0]",homeint_export
+v584,Manage taking medicines?,category,"[1.0, 2.0, 3.0, 4.0, 9.0]",homeint_export
+v585,Able to do household task such as making cup of tea?,category,"[1.0, 2.0, 3.0, 7.0, 9.0]",homeint_export
+v586,Able to manage money?,category,"[1.0, 2.0, 3.0, 8.0, 9.0]",homeint_export
+v587,Needed any help recently to check change?,category,"[1.0, 2.0, 8.0, 9.0]",homeint_export
+v588,Able to follow TV programmes/movies and remember details?,category,"[1.0, 2.0, 3.0, 7.0, 8.0, 9.0]",homeint_export
+v589,IF MEDICATION OR MONEY RATE IF PROBLEM PHYSICAL OR COGNITIVE,category,"[1.0, 2.0, 3.0]",homeint_export
+v590,Who helps?,string,,homeint_export
+v591,,string,,homeint_export
+v592,Think need more help than getting?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v593,Visited by home help/meals on wheels/community nurse in last week?,category,"[1.0, 2.0, 8.0, 9.0]",homeint_export
+v594,Number of visits home help?,category,"[0.0, 1.0, 2.0, 3.0, 7.0, 10.0, 14.0, 21.0, 888.0]",homeint_export
+v595,Number of visits meals on wheels?,category,"[0.0, 1.0, 3.0, 5.0, 7.0]",homeint_export
+v596,Number of visits community nurse?,category,"[0.0, 1.0, 2.0, 4.0, 7.0, 10.0, 28.0]",homeint_export
+v597,Attend day centre/day hospital?,category,"[1.0, 2.0, 3.0, 4.0, 9.0]",homeint_export
+v598,ESTABLISH DEGREE OF MOBILITY,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v599,Adopted as a child?,category,"[1.0, 2.0, 9.0]",homeint_export
+v600,"Twin, triplet or other multiple birth?",category,"[1.0, 2.0, 8.0, 9.0]",homeint_export
+v601,Father still alive?,category,"[1.0, 2.0, 8.0, 9.0]",homeint_export
+v602,Age of father,numeric,0.0 to 7777.0,homeint_export
+v603,Father ever suffered from?,numeric,0 to 8,homeint_export
+v604,Age father died,numeric,8.0 to 777.0,homeint_export
+v605,Did father ever suffer from?,numeric,0 to 11,homeint_export
+v606,Mother still alive?,category,"[1.0, 2.0, 8.0, 9.0]",homeint_export
+v607,Age of mother,numeric,35.0 to 777.0,homeint_export
+v608,Mother ever suffered from?,numeric,0 to 12,homeint_export
+v609,Age mother died,numeric,22.0 to 777.0,homeint_export
+v610,Did mother ever suffer from?,numeric,0 to 12,homeint_export
+v611,Number of brothers,numeric,0.0 to 99.0,homeint_export
+v612,Number of sisters,numeric,0.0 to 99.0,homeint_export
+v613,Have any brothers/sisters ever suffered from,numeric,0 to 12,homeint_export
+v614,Currently taking any medications/tablets/injections?,category,"[1.0, 2.0, 7.0, 8.0, 9.0]",homeint_export
+v615,Number of prescribed drugs,numeric,0.0 to 777.0,homeint_export
+v616,Number of vitamins/over counter drugs,numeric,0.0 to 777.0,homeint_export
+v617,OBVIOUS EVIDENCE OF PARALYSIS/STROKE,category,"[1.0, 2.0, 3.0]",homeint_export
+v618,OBVIOUS EVIDENCE OF OTHER PHYSICAL DISABILITY,category,"[1.0, 2.0, 3.0]",homeint_export
+v619,LACK OF TEETH,category,"[1.0, 2.0, 3.0]",homeint_export
+v620,HEARING PROBLEMS,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v621,POOR/NO EYESIGHT,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v622,STUTTERING,category,"[1.0, 2.0, 3.0]",homeint_export
+v623,POOR GRASP OF LANGUAGE,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v624,INTERVIEW CONDITIONS UNFAVOURABLE,category,"[1.0, 2.0]",homeint_export
+v625,MEMORY DEFECT,category,"[1.0, 2.0, 3.0]",homeint_export
+v626,CONFIDENCE IN DATA,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v627,DOUBTFUL RELIABILITY BECAUSE,category,"[1.0, 2.0, 4.0, 9.0]",homeint_export
+v628,,string,,homeint_export
+v629,High blood pressure,category,"[1.0, 2.0, 9.0]",homeint_export
+v630,Age?,category,13.0 to 87.0,homeint_export
+v631,Still awaiting specialist investigation?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v632,Did/do you receive medication for high blood pressure?,category,"[1.0, 2.0, 7.0, 9.0, 45.0]",homeint_export
+v633,Age?,category,1.0 to 87.0,homeint_export
+v634,High blood pressure still uncontrolled?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v635,Stroke?,category,"[1.0, 2.0, 3.0, 4.0, 7.0, 8.0, 9.0, 45.0]",homeint_export
+v636,Age?,category,"[1.0, 9.0, 48.0, 54.0, 63.0, 75.0, 76.0, 82.0, 83.0]",homeint_export
+v637,Meningitis or encephalitis?,category,"[1.0, 9.0]",homeint_export
+v638,Age?,category,[],homeint_export
+v639,Depression requiring treatment?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v640,Age?,numeric,10.0 to 777.0,homeint_export
+v641,Other psychiatric illness?,category,"[1.0, 2.0, 9.0]",homeint_export
+v642,Age?,category,"[15.0, 16.0, 18.0, 20.0, 53.0, 70.0]",homeint_export
+v643,SPECIFY OTHER PSYCHIATRIC ILLNESS,string,,homeint_export
+v644,Ever receive ECT treatment?,category,"[1.0, 2.0, 9.0]",homeint_export
+v645,Benign growths (non cancer)?,category,"[1.0, 2.0, 9.0]",homeint_export
+v646,Age?,numeric,9.0 to 7777.0,homeint_export
+v648,Cancer?,category,"[1.0, 2.0, 7.0, 9.0]",homeint_export
+v649,Age?,numeric,12.0 to 86.0,homeint_export
+v651,Currently receiving cancer treatment/had any in last 6 months?,category,"[1.0, 2.0]",homeint_export
+v652,Currently in remission?,category,"[1.0, 2.0]",homeint_export
+v653,How long been in remission?,category,"[1.0, 2.0]",homeint_export
+v654,Parkinson's disease?,category,"[1.0, 9.0]",homeint_export
+v655,Age?,category,[],homeint_export
+v656,Motor Neurone disease?,category,"[1.0, 9.0]",homeint_export
+v657,Age?,category,[],homeint_export
+v658,Multiple Sclerosis?,category,"[1.0, 9.0]",homeint_export
+v659,Age?,category,[],homeint_export
+v660,Ever had fits or epilepsy?,category,"[1.0, 2.0, 3.0, 8.0, 9.0]",homeint_export
+v661,Age?,category,[0.75],homeint_export
+v662,Operation on heart or heart valves?,category,"[1.0, 2.0, 9.0]",homeint_export
+v663,What kind?,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v664,Operation on blood vessels?,category,"[1.0, 2.0]",homeint_export
+v665,What kind?,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v666,Operation - pump/electrode/implant/pacemaker inserted?,category,"[1.0, 2.0]",homeint_export
+v667,What kind?,category,"[1.0, 2.0, 3.0]",homeint_export
+v668,Operation on eyes?,category,"[1.0, 2.0]",homeint_export
+v669,What kind?,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v670,Had metal splinter in eyes?,category,"[1.0, 2.0]",homeint_export
+v671,Metal splinters in head/ears not removed?,category,"[1.0, 2.0]",homeint_export
+v672,Had shrapnel anywhere?,category,"[1.0, 2.0]",homeint_export
+v673,Had new joints/metal plates/pins or rods/metal mesh?,category,"[1.0, 2.0]",homeint_export
+v674,New hip/knee/digit joint replacement?,category,"[1.0, 2.0]",homeint_export
+v675,Date of last replacement?,date,,homeint_export
+v676,Metal plates/metal mesh/pins or rods?,category,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]",homeint_export
+v677,Location?,category,"[1.0, 2.0]",homeint_export
+v678,Do you have a non-removable prothesis?,category,"[1.0, 2.0]",homeint_export
+v679,Operation on brain?,category,"[1.0, 2.0]",homeint_export
+v680,Ever had/currently have brain tumor?,category,"[1.0, 2.0, 3.0]",homeint_export
+v681,Could you lie flat for an hour?,category,"[1.0, 2.0]",homeint_export
+v682,Body piercings?,category,"[1.0, 2.0, 3.0]",homeint_export
+v683,Can you walk 10 metres/yards?,category,"[1.0, 2.0]",homeint_export
+v684,Do you use any medication patches/other patches?,category,"[1.0, 2.0]",homeint_export
+v685,Can they be removed?,category,"[1.0, 2.0]",homeint_export
+v686,Have dental braces/dentures?,category,"[1.0, 2.0]",homeint_export
+v687,Can they be removed?,category,"[1.0, 2.0]",homeint_export
+v688,Suffer from claustrophobia?,category,"[1.0, 2.0]",homeint_export
+v689,Currently receive treatment/have bipolar disorder/schizophrenia/any psychotic di,category,"[1.0, 2.0]",homeint_export
+v690,[If female] Are you pregnant/trying to become pregnant?,category,"[1.0, 2.0]",homeint_export
+v691,"Have any tattoos, where?",category,"[1.0, 2.0, 3.0]",homeint_export
+v692,Been diagnosed with dementia/Alzheimer's disease?,category,"[1.0, 2.0]",homeint_export
+v693,Received treatment for drug abuse/currently using drugs?,category,"[1.0, 2.0, 7.0]",homeint_export
+v694,Any surgery in last 8 weeks?,category,"[1.0, 2.0]",homeint_export
+v695,Date of surgery,date,,homeint_export
+v696,Head size OK?,category,"[1.0, 2.0, 3.0]",homeint_export
+v697,Reaction to interview?,category,"[2.0, 3.0, 4.0]",homeint_export
+v699,Reaction to interview?,category,"[3.0, 4.0]",homeint_export
+v700,,string,,homeint_export
+v701,Volunteer refusal?,category,"[1.0, 2.0]",homeint_export
+v702,Consent for contact details?,category,"[1.0, 2.0]",homeint_export
+v703,Consent for contact details?,category,"[1.0, 2.0, 9.0]",homeint_export
+v704,Reaction to interview?,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v706,Consent for informant details?,category,"[0.0, 1.0, 2.0, 9.0]",homeint_export
+v707,Consent for contact details?,category,"[1.0, 2.0]",homeint_export
+mmse_mis,,category,[0.0],homeint_export
+recheck,,category,"[0.0, 1.0]",homeint_export
+yearout,Difference between DOB and age,category,"[0.0, 1.0]",homeint_export
+storyrecall_i,,numeric,0.0 to 99.0,homeint_export
+storyrecall_d,,numeric,0.0 to 99.0,homeint_export
+wordtest_p1,WordTest page1,numeric,0.0 to 99.0,homeint_export
+wordtest_p2,WordTest page2,numeric,0.0 to 99.0,homeint_export
+export,Data export number,numeric,1.0 to 49.0,homeint_export
+dob,Dob of subject,date,,homeint_export
+date_iv,Date of interview,date,,homeint_export
+health_missed,Health questions Q349-Q353 not asked,category,"[0.0, 1.0, 999.0]",homeint_export
+proxy,Data mapped from informant interview,category,[0.0],homeint_export
+place,,category,"[0.0, 1.0, 7.0]",homeint_export
+sevens_n,,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",homeint_export
+mmse01,MMSE Question 1,category,"[0.0, 1.0]",homeint_export
+mmse02,MMSE Question 2,category,"[0.0, 1.0]",homeint_export
+mmse03,MMSE Question 3,category,"[0.0, 1.0]",homeint_export
+mmse04,MMSE Question 4,category,"[0.0, 1.0]",homeint_export
+mmse05,MMSE Question 5,category,"[0.0, 1.0]",homeint_export
+mmse06,MMSE Question 6,category,"[0.0, 1.0]",homeint_export
+mmse07,MMSE Question 7,category,"[0.0, 1.0]",homeint_export
+mmse08,MMSE Question 8,category,"[0.0, 1.0]",homeint_export
+mmse09,MMSE Question 9,category,"[0.0, 1.0]",homeint_export
+mmse10,MMSE Question 10,category,"[0.0, 1.0]",homeint_export
+mmse11,MMSE Question 11,category,"[0.0, 1.0]",homeint_export
+mmse12,MMSE Question 12,category,"[0.0, 1.0]",homeint_export
+mmse13,MMSE Question 13,category,"[0.0, 1.0]",homeint_export
+mmse14,MMSE Question 14,category,"[0.0, 1.0]",homeint_export
+mmse15,MMSE Question 15,category,"[0.0, 1.0]",homeint_export
+mmse16,MMSE Question 16,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",homeint_export
+mmse17,MMSE Question 17,category,"[0.0, 1.0]",homeint_export
+mmse18,MMSE Question 18,category,"[0.0, 1.0]",homeint_export
+mmse19,MMSE Question 19,category,"[0.0, 1.0]",homeint_export
+mmse20,MMSE Question 20,category,"[0.0, 1.0]",homeint_export
+mmse21,MMSE Question 21,category,"[0.0, 1.0]",homeint_export
+mmse22,MMSE Question 22,category,"[0.0, 1.0]",homeint_export
+mmse23,MMSE Question 23,category,"[0.0, 1.0]",homeint_export
+mmse24,MMSE Question 24,category,"[0.0, 1.0]",homeint_export
+mmse25,MMSE Question 25,category,"[0.0, 1.0]",homeint_export
+mmse26,MMSE Question 26,category,"[0.0, 1.0]",homeint_export
+mmse_cal,Re-calculated MMSE score post interview edits,numeric,11.0 to 30.0,homeint_export
+mmse_gp,MMSE group,category,"[1.0, 2.0, 3.0, 4.0]",homeint_export
+v556_edited,Q556 as seconds,numeric,0.0 to 99.0,homeint_export
+v557_edited,Q557 as seconds,numeric,0.0 to 99.0,homeint_export
+v562_edited,Q562 as seconds,string,,homeint_export
+CCID,Participant ID,string,CC110019 to CC821090,scq_export
+YA_date_questionnaire,Date questionnaire completed,date,,scq_export
+YA_cse,YA: CSE,category,"[0.0, 1.0, 2.0]",scq_export
+YA_cse_years,YA: CSE - Number of years,numeric,0.0 to 28.0,scq_export
+YA_nvq1_bteci,YA: NVQ Level 1 / BTEC Introductory,category,"[0.0, 1.0, 2.0]",scq_export
+YA_nvq1_bteci_years,YA: NVQ Level 1 / BTEC Introductory - Number of years,category,"[0.0, 0.5, 1.0, 2.0, 4.0, 5.0]",scq_export
+YA_o_level_gcse_leaving,YA: O Level / GCSE / Leaving certificate,category,"[0.0, 1.0, 2.0]",scq_export
+YA_o_level_gcse_leaving_years,YA: O Level / GCSE / Leaving certificate - Number of years,numeric,0.0 to 48.0,scq_export
+YA_nvq2_btec1,YA: NVQ Level 2 / BTEC First Diploma,category,"[0.0, 1.0, 2.0]",scq_export
+YA_nvq2_btec1_years,YA: NVQ Level 2 / BTEC First Diploma - Number of years,category,"[0.0, 1.0, 2.0, 3.0, 5.0, 12.0, 18.0]",scq_export
+YA_a_level_ib,YA: A Level / Internation Baccalaureate,category,"[0.0, 1.0, 2.0]",scq_export
+YA_a_level_ib_years,YA: A Level / Internation Baccalaureate - Number of years,numeric,0.0 to 46.0,scq_export
+YA_nvq3_btecd,YA: NVQ Level 3 / BTEC Diploma,category,"[0.0, 1.0, 2.0]",scq_export
+YA_nvq3_btecd_years,YA: NVQ Level 3 / BTEC Diploma - Number of years,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 18.0]",scq_export
+YA_hnc_hnd_nvq4_btecp,YA: HNC / HND / NVQ Level 4 / BTEC Professional,category,"[0.0, 1.0, 2.0]",scq_export
+YA_hnc_hnd_nvq4_btecp_years,YA: HNC / HND / NVQ Level 4 / BTEC Professional # yrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 10.0, 18.0]",scq_export
+YA_btec_ad,YA: BTEC Advanced,category,"[0.0, 1.0]",scq_export
+YA_btec_ad_years,YA: BTEC Advanced - Number of years,category,"[0.0, 2.0]",scq_export
+YA_col_dip,YA: College Diploma,category,"[0.0, 1.0, 2.0]",scq_export
+YA_col_dip_years,YA: College Diploma - Number of years,numeric,0.0 to 44.0,scq_export
+YA_undergrad,YA: University Ungergraduate,category,"[0.0, 1.0, 2.0]",scq_export
+YA_undergrad_years,YA: University Ungergraduate - Number of years,numeric,0.0 to 43.0,scq_export
+YA_masters,YA: University Masters,category,"[0.0, 1.0, 2.0]",scq_export
+YA_masters_years,YA: University Masters - Number of years,numeric,0.0 to 35.0,scq_export
+YA_phd_doc,YA: University PhD / Doctorate,category,"[0.0, 1.0, 2.0]",scq_export
+YA_phd_doc_years,YA: University PhD / Doctorate - Number of years,numeric,0.0 to 28.0,scq_export
+YA_cler_admin_book_course,"YA: Clerical, administrative or book-keeping course",category,"[0.0, 1.0, 2.0]",scq_export
+YA_cler_admin_book_course_years,"YA: Clerical, administrative or book-keeping course # yrs",category,"[0.0, 0.5, 1.0, 2.0, 3.0, 4.0, 5.0, 10.0]",scq_export
+YA_business_course,YA: Business course,category,"[0.0, 0.5, 1.0, 2.0]",scq_export
+YA_business_course_years,YA: Business course - Number of years,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 20.0, 21.0]",scq_export
+YA_trade_appre,YA: Trade apprenticeship,category,"[0.0, 1.0, 2.0]",scq_export
+YA_trade_appre_years,YA: Trade apprenticeship - Number of years,numeric,0.0 to 9.0,scq_export
+YA_prof_other,YA: Other professional course (specify if studied),category,"[0.0, 1.0, 2.0]",scq_export
+YA_prof_other_specify,YA: Other professional course (specify),string,,scq_export
+YA_prof_other_years,YA: Other professional course - Number of years,numeric,0.0 to 40.0,scq_export
+YA_technical,YA: Other technical course (specify if studied),category,"[0.0, 1.0, 2.0]",scq_export
+YA_technical_specify,YA: Other technical course (specify),string,,scq_export
+YA_technical_years,YA: Other technical course - Number of years,category,"[0.0, 0.5, 1.0, 2.0, 3.0, 4.0, 5.0, 10.0]",scq_export
+YA_graduate,YA: Other graduate course (specify if studied),category,"[0.0, 1.0, 2.0]",scq_export
+YA_graduate_specify,YA: Other graduate course (specify),string,,scq_export
+YA_graduate_years,YA: Other graduate course - Number of years,category,"[0.0, 1.0, 2.0, 2.5, 3.0, 4.0, 5.0]",scq_export
+YA_other,YA: Any other course (specify if studied),category,"[0.0, 1.0, 2.0]",scq_export
+YA_other_years,YA: Any other course - Number of years,numeric,0.0 to 29.0,scq_export
+YA_comments_ya_training,,string,,scq_export
+YA_uk_ireland,YA - Around the UK / Ireland away from where I lived,category,"[FALSE, TRUE, nan]",scq_export
+YA_south_eur,YA - Southern Europe,category,"[FALSE, TRUE, nan]",scq_export
+YA_north_afr_mid_east,YA - Northern Africa / Middle East,category,"[FALSE, TRUE, nan]",scq_export
+YA_north_america,YA - North America,category,"[FALSE, TRUE, nan]",scq_export
+YA_aust_nz_pac_antarc,YA - Australia / New Zealand / Pacific Islands / Antarctica,category,"[FALSE, TRUE, nan]",scq_export
+YA_north_eur_scand,YA - Northern Europe / Scandinavia,category,"[FALSE, TRUE, nan]",scq_export
+YA_east_eur,YA - Eastern Europe,category,"[FALSE, TRUE, nan]",scq_export
+YA_south_afr,YA - Southern Africa / Asia,category,"[FALSE, TRUE, nan]",scq_export
+YA_south_amer_cent_amer_carrib,YA - South America / Central America / Carribbean,category,"[FALSE, TRUE, nan]",scq_export
+YA_none,YA - None of the above,category,"[FALSE, TRUE, nan]",scq_export
+YA_comments_ya_travel,,string,,scq_export
+YA_outing,"YA - Outing to see family member, friend or group of friends",category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+YA_instrument,YA - Practise or play a musical instrument,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+YA_art,YA - Practice or develop an artistic pastime,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+YA_mild_activ,YA - Mildly energetic activities,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+YA_mod_activ,YA - Moderately energetic activities,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+YA_vig_activ,YA - Vigorous energetic activities,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+YA_read,YA - Read (material or any sort),category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+YA_language,YA - Speak a second language,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+YA_games,YA - Computer games / games consoles,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+YA_internet,YA - Social networking / internet surfing,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+YA_crossword_sudoku,YA - Crossword puzzles / sudoku,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+YA_strategic_games,"YA - Strategic games (eg, chess)",category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+YA_prayer_relig,,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+YA_comments_ya_activities,Comments on activities,string,,scq_export
+in_young_adulthood,,category,[1.0],scq_export
+ML_date_questionnaire,Date questionnaire completed,date,,scq_export
+ML_cse,M: CSE,category,"[0.0, 1.0, 2.0]",scq_export
+ML_cse_years,M: CSE - Number of years,category,"[0.0, 1.0, 5.0]",scq_export
+ML_nvq1_bteci,M: NVQ Level 1 / BTEC Introductory,category,"[0.0, 1.0, 2.0]",scq_export
+ML_nvq1_bteci_years,M: NVQ Level 1 / BTEC Introductory - Number of years,category,"[0.0, 1.0]",scq_export
+ML_o_level_gcse_leaving,M: O Level / GCSE / Leaving certificate,category,"[0.0, 1.0, 2.0]",scq_export
+ML_o_level_gcse_leaving_years,M: O Level / GCSE / Leaving certificate - Number of years,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 10.0]",scq_export
+ML_nvq2_btec1,M: NVQ Level 2 / BTEC First Diploma,category,"[0.0, 1.0, 2.0]",scq_export
+ML_nvq2_btec1_years,M: NVQ Level 2 / BTEC First Diploma - Number of years,category,"[0.0, 1.0, 1.5, 2.0, 5.0, 13.0]",scq_export
+ML_a_level_ib,M: A Level / Internation Baccalaureate,category,"[0.0, 1.0, 2.0]",scq_export
+ML_a_level_ib_years,M: A Level / Internation Baccalaureate - Number of years,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 8.0]",scq_export
+ML_nvq3_btecd,M: NVQ Level 3 / BTEC Diploma,category,"[0.0, 1.0, 2.0]",scq_export
+ML_nvq3_btecd_years,M: NVQ Level 3 / BTEC Diploma - Number of years,category,"[0.0, 1.0, 1.5, 2.0, 2.5, 4.0]",scq_export
+ML_hnc_hnd_nvq4_btecp,M: HNC / HND / NVQ Level 4 / BTEC Professional,category,"[0.0, 1.0, 2.0]",scq_export
+ML_hnc_hnd_nvq4_btecp_years,M: HNC / HND / NVQ Level 4 / BTEC Professional # yrs,category,"[0.0, 1.0, 2.0, 3.0, 5.0]",scq_export
+ML_btec_ad,M: BTEC Advanced,category,"[0.0, 1.0, 2.0]",scq_export
+ML_btec_ad_years,M: BTEC Advanced - Number of years,category,"[0.0, 1.0, 2.0]",scq_export
+ML_col_dip,M: College Diploma,category,"[0.0, 1.0, 2.0]",scq_export
+ML_col_dip_years,M: College Diploma - Number of years,category,"[0.0, 0.06, 1.0, 2.0, 3.0, 5.0]",scq_export
+ML_undergrad,M: University Ungergraduate,category,"[0.0, 1.0, 2.0]",scq_export
+ML_undergrad_years,M: University Ungergraduate - Number of years,category,"[0.0, 0.5, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]",scq_export
+ML_masters,M: University Masters,category,"[0.0, 1.0, 2.0]",scq_export
+ML_masters_years,M: University Masters - Number of years,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+ML_phd_doc,M: University PhD / Doctorate,category,"[0.0, 1.0, 2.0]",scq_export
+ML_phd_doc_years,M: University PhD / Doctorate - Number of years,numeric,0.0 to 30.0,scq_export
+ML_cler_admin_book_course,"M: Clerical, administrative or book-keeping course",category,"[0.0, 1.0, 2.0]",scq_export
+ML_cler_admin_book_course_years,"M: Clerical, administrative or book-keeping course # yrs",category,"[0.0, 0.5, 1.0, 2.0, 4.0, 5.0, 6.0]",scq_export
+ML_business_course,M: Business course,category,"[0.0, 1.0, 2.0]",scq_export
+ML_business_course_years,M: Business course - Number of years,category,"[0.0, 1.0, 1.5, 2.0, 3.0, 6.0]",scq_export
+ML_trade_appre,M: Trade apprenticeship,category,"[0.0, 1.0, 2.0]",scq_export
+ML_trade_appre_years,M: Trade apprenticeship - Number of years,category,"[0.0, 1.0, 3.0, 4.0, 5.0]",scq_export
+ML_prof_other,M: Other professional course (specify if studied),category,"[0.0, 1.0, 2.0]",scq_export
+ML_prof_other_specify,M: Other professional course (specify),string,,scq_export
+ML_prof_other_years,M: Other professional course - Number of years,numeric,0.0 to 40.0,scq_export
+ML_technical,M: Other technical course (specify if studied),category,"[0.0, 1.0, 2.0]",scq_export
+ML_technical_specify,M: Other technical course (specify),string,,scq_export
+ML_technical_years,M: Other technical course - Number of years,numeric,0.0 to 25.0,scq_export
+ML_graduate,M: Other graduate course (specify if studied),category,"[0.0, 1.0, 2.0]",scq_export
+ML_graduate_specify,M: Other graduate course (specify),string,,scq_export
+ML_graduate_years,M: Other graduate course - Number of years,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0, 35.0]",scq_export
+ML_other,M: Any other course (specify if studied),category,"[0.0, 1.0, 2.0]",scq_export
+ML_other_specify,M: Any other course (specify),string,,scq_export
+ML_other_years,M: Any other course - Number of years,numeric,0.0 to 34.0,scq_export
+ML_comments_m_training,Comments on training,string,,scq_export
+ML_uk_ireland,M - Around the UK / Ireland away from where I lived,category,"[FALSE, TRUE, nan]",scq_export
+ML_south_eur,M - Southern Europe,category,"[FALSE, TRUE, nan]",scq_export
+ML_north_afr_mid_east,M - Northern Africa / Middle East,category,"[FALSE, TRUE, nan]",scq_export
+ML_north_america,M - North America,category,"[FALSE, TRUE, nan]",scq_export
+ML_aust_nz_pac_antarc,M - Australia / New Zealand / Pacific Islands / Antarctica,category,"[FALSE, TRUE, nan]",scq_export
+ML_north_eur_scand,M - Northern Europe / Scandinavia,category,"[FALSE, TRUE, nan]",scq_export
+ML_east_eur,M - Eastern Europe,category,"[FALSE, TRUE, nan]",scq_export
+ML_south_afr,M - Southern Africa / Asia,category,"[FALSE, TRUE, nan]",scq_export
+ML_south_amer_cent_amer_carrib,M - South America / Central America / Carribbean,category,"[FALSE, TRUE, nan]",scq_export
+ML_none,M - None of the above,category,"[FALSE, TRUE, nan]",scq_export
+ML_comments_m_travel,Comments on travel,string,,scq_export
+ML_outing,"M - Outing to see family member, friend or group of friends",category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+ML_instrument,M - Practise or play a musical instrument,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+ML_art,M - Practice or develop an artistic pastime,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+ML_mild_activ,M - Mildly energetic activities,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+ML_mod_activ,M - Moderately energetic activities,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+ML_vig_activ,M - Vigorous energetic activities,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+ML_read,M - Read (material or any sort),category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+ML_language,M - Speak a second language,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+ML_games,M - Computer games / games consoles,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+ML_internet,M - Social networking / internet surfing,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+ML_crossword_sudoku,M - Crossword puzzles / sudoku,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+ML_strategic_games,"M - Strategic games (eg, chess)",category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+ML_prayer_relig,,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+ML_comments_m_activities,Comments on activities,string,,scq_export
+in_mid_life,,category,[1.0],scq_export
+LL_date_questionnaire,Date questionnaire completed,date,,scq_export
+LL_cse,L: CSE,category,[0.0],scq_export
+LL_cse_years,L: CSE - Number of years,category,[0.0],scq_export
+LL_nvq1_bteci,L: NVQ Level 1 / BTEC Introductory,category,[0.0],scq_export
+LL_nvq1_bteci_years,L: NVQ Level 1 / BTEC Introductory - Number of years,category,[0.0],scq_export
+LL_o_level_gcse_leaving,L: O Level / GCSE / Leaving certificate,category,"[0.0, 1.0, 2.0]",scq_export
+LL_o_level_gcse_leaving_years,L: O Level / GCSE / Leaving certificate - Number of years,category,"[0.0, 1.0, 2.0]",scq_export
+LL_nvq2_btec1,L: NVQ Level 2 / BTEC First Diploma,category,[0.0],scq_export
+LL_nvq2_btec1_years,L: NVQ Level 2 / BTEC First Diploma - Number of years,category,[0.0],scq_export
+LL_a_level_ib,L: A Level / Internation Baccalaureate,category,"[0.0, 2.0]",scq_export
+LL_a_level_ib_years,L: A Level / Internation Baccalaureate - Number of years,category,"[0.0, 2.0]",scq_export
+LL_nvq3_btecd,L: NVQ Level 3 / BTEC Diploma,category,[0.0],scq_export
+LL_nvq3_btecd_years,L: NVQ Level 3 / BTEC Diploma - Number of years,category,[0.0],scq_export
+LL_hnc_hnd_nvq4_btecp,L: HNC / HND / NVQ Level 4 / BTEC Professional,category,[0.0],scq_export
+LL_hnc_hnd_nvq4_btecp_years,L: HNC / HND / NVQ Level 4 / BTEC Professional # yrs,category,[0.0],scq_export
+LL_btec_ad,L: BTEC Advanced,category,[0.0],scq_export
+LL_btec_ad_years,L: BTEC Advanced - Number of years,category,[0.0],scq_export
+LL_col_dip,L: College Diploma,category,"[0.0, 2.0]",scq_export
+LL_col_dip_years,L: College Diploma - Number of years,category,"[0.0, 2.0, 3.0]",scq_export
+LL_undergrad,L: University Ungergraduate,category,"[0.0, 2.0]",scq_export
+LL_undergrad_years,L: University Ungergraduate - Number of years,category,"[0.0, 2.0, 6.0]",scq_export
+LL_masters,L: University Masters,category,"[0.0, 2.0]",scq_export
+LL_masters_years,L: University Masters - Number of years,category,"[0.0, 3.0]",scq_export
+LL_phd_doc,L: University PhD / Doctorate,category,"[0.0, 2.0]",scq_export
+LL_phd_doc_years,L: University PhD / Doctorate - Number of years,category,"[0.0, 1.0, 4.0]",scq_export
+LL_cler_admin_book_course,"L: Clerical, administrative or book-keeping course",category,"[0.0, 1.0, 2.0]",scq_export
+LL_cler_admin_book_course_years,"L: Clerical, administrative or book-keeping course # yrs",category,"[0.0, 1.0]",scq_export
+LL_business_course,L: Business course,category,"[0.0, 2.0]",scq_export
+LL_business_course_years,L: Business course - Number of years,category,"[0.0, 0.5, 1.0, 3.0]",scq_export
+LL_trade_appre,L: Trade apprenticeship,category,[0.0],scq_export
+LL_trade_appre_years,L: Trade apprenticeship - Number of years,category,[0.0],scq_export
+LL_prof_other,L: Other professional course (specify if studied),category,"[0.0, 1.0, 2.0]",scq_export
+LL_prof_other_specify,L: Other professional course (specify course name),string,,scq_export
+LL_prof_other_years,L: Other professional course - Number of years,category,"[0.0, 0.5, 1.0, 2.0, 3.0, 6.0, 9.0, 18.0]",scq_export
+LL_technical,L: Other technical course (specify if studied),category,"[0.0, 2.0]",scq_export
+LL_technical_specify,L: Other technical course (specify course name),string,,scq_export
+LL_technical_years,L: Other technical course - Number of years,category,"[0.0, 1.0, 2.0]",scq_export
+LL_graduate,L: Other graduate course (specify if studied),category,"[0.0, 2.0]",scq_export
+LL_graduate_specify,L: Other graduate course (specify course name),string,,scq_export
+LL_graduate_years,L: Other graduate course - Number of years,category,"[0.0, 1.0, 2.0, 3.0]",scq_export
+LL_other,L: Any other course (specify if studied),category,"[0.0, 1.0, 2.0]",scq_export
+LL_other_specify,L: Any other course (specify),string,,scq_export
+LL_other_years,L: Any other course - Number of years,numeric,0.0 to 20.0,scq_export
+LL_comments_l_training,,string,,scq_export
+LL_uk_ireland,L - Around the UK / Ireland away from where I lived,category,"[FALSE, TRUE, nan]",scq_export
+LL_south_eur,L - Southern Europe,category,"[FALSE, TRUE, nan]",scq_export
+LL_north_afr_mid_east,L - Northern Africa / Middle East,category,"[FALSE, TRUE, nan]",scq_export
+LL_north_america,L - North America,category,"[FALSE, TRUE, nan]",scq_export
+LL_aust_nz_pac_antarc,L - Australia / New Zealand / Pacific Islands / Antarctica,category,"[FALSE, TRUE, nan]",scq_export
+LL_north_eur_scand,L - Northern Europe / Scandinavia,category,"[FALSE, TRUE, nan]",scq_export
+LL_east_eur,L - Eastern Europe,category,"[FALSE, TRUE, nan]",scq_export
+LL_south_afr,L - Southern Africa / Asia,category,"[FALSE, TRUE, nan]",scq_export
+LL_south_amer_cent_amer_carrib,L - South America / Central America / Carribbean,category,"[FALSE, TRUE, nan]",scq_export
+LL_none,L - None of the above,category,"[FALSE, TRUE, nan]",scq_export
+LL_comments_l_travel,Comments on travel,string,,scq_export
+LL_outing,"L - Outing to see family member, friend or group of friends",category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+LL_instrument,L - Practise or play a musical instrument,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+LL_art,L - Practice or develop an artistic pastime,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+LL_mild_activ,L - Mildly energetic activities,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+LL_mod_activ,L - Moderately energetic activities,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+LL_vig_activ,L - Vigorous energetic activities,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+LL_read,L - Read (material or any sort),category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+LL_language,L - Speak a second language,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+LL_games,L - Computer games / games consoles,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+LL_internet,L - Social networking / internet surfing,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+LL_crossword_sudoku,L - Crossword puzzles / sudoku,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+LL_strategic_games,"L - Strategic games (eg, chess)",category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+LL_prayer_relig,,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+LL_comments_l_activities,Conments on activities,string,,scq_export
+in_later_life,,category,[1.0],scq_export
+date_questionnaire,Date questionnaire completed,date,,scq_export
+socialising_face_to_face,1 - Socialising (face-to-face),category,"[FALSE, TRUE, nan]",scq_export
+reading,1 - Reading,category,"[FALSE, TRUE, nan]",scq_export
+writing,1 - Writing,category,"[FALSE, TRUE, nan]",scq_export
+studying,1 - Studying,category,"[FALSE, TRUE, nan]",scq_export
+teaching,1 - Teaching,category,"[FALSE, TRUE, nan]",scq_export
+volunteer_work,1 - Volunteer work,category,"[FALSE, TRUE, nan]",scq_export
+paidwork,1 - Paid work,category,"[FALSE, TRUE, nan]",scq_export
+socialnetworking_sites,1 - Social networking sites,category,"[FALSE, TRUE, nan]",scq_export
+twitter_texting,Twitter,category,"[0.0, 1.0]",scq_export
+none_of_the_above_activities,1 - None of the above,category,"[FALSE, TRUE, nan]",scq_export
+prayer_relig_ctivity,1 - Prayer / religious activity,category,"[FALSE, TRUE, nan]",scq_export
+helping_friends_family,1 - Helping friends / family,category,"[FALSE, TRUE, nan]",scq_export
+artistry,1 - Artistry,category,"[FALSE, TRUE, nan]",scq_export
+strategic_games,,category,"[0.0, 1.0]",scq_export
+learn_something_new,1 - Learning something new,category,"[FALSE, TRUE, nan]",scq_export
+hobby_pastime,1 - Hobby pastime,category,"[FALSE, TRUE, nan]",scq_export
+braintraining_games,1 - Brain training games,category,"[FALSE, TRUE, nan]",scq_export
+other_computer_based_games,1 - Other computer based games,category,"[FALSE, TRUE, nan]",scq_export
+crosswordpuzzles_sudoku,1 - Crossword puzzles / sudoku,category,"[FALSE, TRUE, nan]",scq_export
+cinema,2 - Going to the cinema,category,"[FALSE, TRUE, nan]",scq_export
+pub,2 - Going to the pub,category,"[FALSE, TRUE, nan]",scq_export
+pop_concerts,2 - Going to pop concerts,category,"[FALSE, TRUE, nan]",scq_export
+sport_events,2 - Going to sporting events,category,"[FALSE, TRUE, nan]",scq_export
+theatre,2 - Going to the theatre,category,"[FALSE, TRUE, nan]",scq_export
+restaurant,2 - Going to a restaurant,category,"[FALSE, TRUE, nan]",scq_export
+festivals,2 - Going to festivals,category,"[FALSE, TRUE, nan]",scq_export
+clubs_societies,Going to clubs and societies,category,"[0.0, 1.0]",scq_export
+none_of_the_above_entertainment,2 - None of the above,category,"[FALSE, TRUE, nan]",scq_export
+no_particular_way,3 - No particular way,category,"[FALSE, TRUE, nan]",scq_export
+tv,3 - TV,category,"[FALSE, TRUE, nan]",scq_export
+newspapers,3 - Newspapers,category,"[FALSE, TRUE, nan]",scq_export
+internet,3 - Internet,category,"[FALSE, TRUE, nan]",scq_export
+friends_word_of_mouth,3 - Friends / word of mouth,category,"[FALSE, TRUE, nan]",scq_export
+radio,3 - Radio,category,"[FALSE, TRUE, nan]",scq_export
+magazines,3 - Magazines,category,"[FALSE, TRUE, nan]",scq_export
+other_way_info,3 - Other (please tick then comment),category,"[FALSE, TRUE, nan]",scq_export
+newspaperarticles,4 - Newspaper articles,category,"[FALSE, TRUE, nan]",scq_export
+novelbooks,4 - Novel / books,category,"[FALSE, TRUE, nan]",scq_export
+other_materials,4 - Other,category,"[0.0, 1.0]",scq_export
+other_materials_specify,4 - Other (details),string,,scq_export
+magazine_articles,4 - Magazine articles,category,"[FALSE, TRUE, nan]",scq_export
+internet_blogs_articles,4 - Internet blogs / articles,category,"[FALSE, TRUE, nan]",scq_export
+none_of_the_above_materials,4 - None of the above,category,"[FALSE, TRUE, nan]",scq_export
+uk_ireland_5yrs,5 - UK Ireland,category,"[0.0, 1.0]",scq_export
+south_eur_5yrs,5 - Southern Europe,category,"[FALSE, TRUE, nan]",scq_export
+north_afr_mid_east_5yrs,5 - Northern Africa / Middle East,category,"[FALSE, TRUE, nan]",scq_export
+north_america_5yrs,5 - North America,category,"[FALSE, TRUE, nan]",scq_export
+aust_nz_pac_antarc_5yrs,5 - Australia / New Zealand / Pacific Islands / Antarctica,category,"[FALSE, TRUE, nan]",scq_export
+north_eur_scand_5yrs,5 - Northern Europe / Scandinavia,category,"[FALSE, TRUE, nan]",scq_export
+east_eur_5yrs,5 - Eastern Europe,category,"[FALSE, TRUE, nan]",scq_export
+south_afr_5yrs,5 - Southern Africa / Asia,category,"[FALSE, TRUE, nan]",scq_export
+south_amer_cent_amer_carrib_5yrs,5 - South America / Central America / Carribbean,category,"[FALSE, TRUE, nan]",scq_export
+none_of_the_above_travel_5yrs,5 - None of the above,category,"[FALSE, TRUE, nan]",scq_export
+soc_no18_19,Job title 18-19:,numeric,0 to 0,scq_export
+no_in_charge18_19,18-19 # people in charge of,numeric,0.0 to 30.0,scq_export
+soc_no20_24,Job title 20-24:,numeric,0 to 10,scq_export
+no_in_charge20_24,20-24 # people in charge of,numeric,0.0 to 200.0,scq_export
+soc_no25_29,Job title 25-29:,numeric,0 to 10,scq_export
+no_in_charge25_29,25-29 # people in charge of,numeric,0.0 to 250.0,scq_export
+soc_no30_34,Job title 30-34:,numeric,0 to 10,scq_export
+no_in_charge30_34,30-34 # people in charge of,numeric,0.0 to 250.0,scq_export
+soc_no35_39,Job title 35-39:,numeric,0 to 10,scq_export
+no_in_charge35_39,35-39 # people in charge of,numeric,0.0 to 250.0,scq_export
+soc_no40_44,Job title 40-44:,numeric,0 to 10,scq_export
+no_in_charge40_44,40-44 # people in charge of,numeric,0.0 to 250.0,scq_export
+soc_no45_49,Job title 45-49:,numeric,0 to 10,scq_export
+no_in_charge45_49,45-49 # people in charge of,numeric,0.0 to 2000.0,scq_export
+soc_no50_54,Job title 50-54:,numeric,0 to 10,scq_export
+no_in_charge50_54,50-54 # people in charge of,numeric,0.0 to 2000.0,scq_export
+soc_no55_59,Job title 55-59:,numeric,0 to 10,scq_export
+no_in_charge55_59,55-59 # people in charge of,numeric,0.0 to 3500.0,scq_export
+soc_no60_64,Job title 60-64:,numeric,0 to 10,scq_export
+no_in_charge60_64,60-64 # people in charge of,numeric,0.0 to 2000.0,scq_export
+soc_no65_69,Job title 65-69:,numeric,0 to 10,scq_export
+no_in_charge65_69,65-69 # people in charge of,numeric,0.0 to 250.0,scq_export
+soc_no70_74,Job title 70-74:,numeric,0 to 10,scq_export
+no_in_charge70_74,70-74 # people in charge of,numeric,0.0 to 210.0,scq_export
+soc_no75_plus,Job title 75+:,string,,scq_export
+no_in_charge75_plus,75+ # people in charge of,category,"[0.0, 1.0, 2.0, 5.0, 6.0, 10.0, 210.0]",scq_export
+in_recent_activities,,category,[1.0],scq_export
+wkday_get_up,Wkday_get_up,time,,scq_export
+wkday_go_to_bed,Weekday time going to bed,time,,scq_export
+wkend_get_up,Wkend_get_up,time,,scq_export
+wkend_go_to_bed,Weekend going to bed,time,,scq_export
+transport_less_1_mile,Transport_less_1_mile,category,"[-2.0, -1.0, 1.0, 2.0, 3.0, 4.0]",scq_export
+transport_1_5_miles,Transport_1_5_miles,category,"[-2.0, -1.0, 1.0, 2.0, 3.0, 4.0]",scq_export
+transport_5miles_plus,Transport_5miles_plus,category,"[-2.0, -1.0, 1.0, 2.0, 3.0, 4.0]",scq_export
+tv_video_wkday_before6,TV_video_wkday_before6,category,"[-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+tv_video_wkday_after6,TV_video_wkday_after6,category,"[-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+tv_video_wkend_before6,TV_video_wkend_before6,category,"[-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+tv_video_wkend_after6,TV_video_wkend_after6,category,"[-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+flights_stairs_wkday,Flights_stairs_wkday,category,"[-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+flights_stairs_wkend,Flights_stairs_wkend,category,"[-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+home_act_food,Home_act_food,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+home_act_food_shop,Home_act_food_shop,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+home_act_other_shop,Home_act_other_shop,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+home_act_clean,Home_act_clean,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+home_act_laundry,Home_act_laundry,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+home_act_care_children,Home_act_care_children,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+home_act_care,Home_act_care,category,"[-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+hrs_week_job1,Hrs_week_job1,numeric,-1.0 to 105.0,scq_export
+months_worked_job1,Months_worked_job1,numeric,-1.0 to 80.0,scq_export
+hrs_week_job2,Hrs_week_job2,numeric,-1.0 to 105.0,scq_export
+months_worked_job2,Months_worked_job2,numeric,-1.0 to 48.0,scq_export
+job1_sit_light,Job1_sit_light,category,"[FALSE, TRUE, nan]",scq_export
+job1_sit_light_hrs,Job1_sit_light_hrs,numeric,0.0 to 99.0,scq_export
+job1_sit_mod,Job1_sit_mod,category,"[FALSE, TRUE, nan]",scq_export
+job1_sit_mod_hrs,Job1_sit_mod_hrs,numeric,0.0 to 25.0,scq_export
+job1_stand_light,Job1_stand_light,category,"[FALSE, TRUE, nan]",scq_export
+job1_stand_light_hrs,Job1_stand_light_hrs,numeric,0.0 to 51.0,scq_export
+job1_stand_light_mod,Job1_stand_light_mod,category,"[FALSE, TRUE, nan]",scq_export
+job1_stand_light_mod_hrs,Job1_stand_light_mod_hrs,numeric,0.0 to 54.0,scq_export
+job1_stand_mod,Job1_stand_mod,category,"[FALSE, TRUE, nan]",scq_export
+job1_stand_mod_hrs,Job1_stand_mod_hrs,numeric,0.0 to 48.0,scq_export
+job1_stand_mod_heavy,Job1_stand_mod_heavy,category,"[FALSE, TRUE, nan]",scq_export
+job1_stand_mod_heavy_hrs,Job1_stand_mod_heavy_hrs,numeric,0.0 to 48.0,scq_export
+job1_walk_light,Job1_walk_light,category,"[0.0, 1.0]",scq_export
+job1_walk_light_hrs,Job1_walk_light_hrs,numeric,0.0 to 45.0,scq_export
+job1_walk_heavy,Job1_walk_heavy,category,"[0.0, 1.0]",scq_export
+job1_walk_heavy_hrs,Job1_walk_heavy_hrs,numeric,0.0 to 40.0,scq_export
+job1_move_push,Job1_move_push,category,"[FALSE, TRUE, nan]",scq_export
+job1_move_push_hrs,Job1_move_push_hrs,numeric,0.0 to 38.0,scq_export
+job2_sit_light,Job2_sit_light,category,"[FALSE, TRUE, nan]",scq_export
+job2_sit_light_hrs,Job2_sit_light_hrs,numeric,0.0 to 50.0,scq_export
+job2_sit_mod,Job2_sit_mod,category,"[FALSE, TRUE, nan]",scq_export
+job2_sit_mod_hrs,Job2_sit_mod_hrs,category,"[0.0, 1.0, 2.5, 3.5, 8.0, 10.0]",scq_export
+job2_stand_light,Job2_stand_light,category,"[FALSE, TRUE, nan]",scq_export
+job2_stand_light_hrs,Job2_stand_light_hrs,numeric,0.0 to 51.0,scq_export
+job2_stand_light_mod,Job2_stand_light_mod,category,"[FALSE, TRUE, nan]",scq_export
+job2_stand_light_mod_hrs,Job2_stand_light_mod_hrs,numeric,0.0 to 38.0,scq_export
+job2_stand_mod,Job2_stand_mod,category,"[FALSE, TRUE, nan]",scq_export
+job2_stand_mod_hrs,Job2_stand_mod_hrs,category,"[0.0, 1.0, 2.0, 2.5, 3.0, 4.0, 7.5, 15.0, 20.0]",scq_export
+job2_stand_mod_heavy,Job2_stand_mod_heavy,category,"[FALSE, TRUE, nan]",scq_export
+job2_stand_mod_heavy_hrs,Job2_stand_mod_heavy_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 12.0, 20.0, 35.0]",scq_export
+job2_walk_light,Job2_walk_light,category,"[0.0, 1.0]",scq_export
+job2_walk_light_hrs,Job2_walk_light_hrs,numeric,0.0 to 50.0,scq_export
+job2_walk_heavy,Job2_walk_heavy,category,"[0.0, 1.0]",scq_export
+job2_walk_heavy_hrs,Job2_walk_heavy_hrs,numeric,0.0 to 17.5,scq_export
+job2_move_push,Job2_move_push,category,"[FALSE, TRUE, nan]",scq_export
+job2_move_push_hrs,Job2_move_push_hrs,category,"[-1.0, 0.0, 0.5, 1.0, 2.0, 5.0, 17.5, 20.0, 30.0]",scq_export
+job1_kneel,Job1_kneel,category,"[-2.0, -1.0, 1.0, 2.0]",scq_export
+job1_squat,Job1_squat,category,"[-2.0, -1.0, 1.0, 2.0]",scq_export
+job1_get_up_30plus,Job1_get_up_30plus,category,"[-2.0, -1.0, 1.0, 2.0]",scq_export
+job2_kneel,Job2_kneel,category,"[-2.0, -1.0, 1.0, 2.0]",scq_export
+job2_squat,Job2_squat,category,"[-2.0, -1.0, 1.0, 2.0]",scq_export
+job2_get_up_30plus,Job2_get_up_30plus,category,"[-2.0, -1.0, 1.0, 2.0]",scq_export
+job1_miles,,numeric,-2.0 to 5000.0,scq_export
+job1_frequency,,numeric,-2.0 to 20.0,scq_export
+job2_miles,,numeric,-2.0 to 5000.0,scq_export
+job2_frequency,,numeric,-2.0 to 30.0,scq_export
+job1_car,Job1_car,category,"[-2.0, -1.0, 1.0, 2.0, 3.0, 4.0]",scq_export
+job1_works_public,Job1_works_public,category,"[-2.0, -1.0, 1.0, 2.0, 3.0, 4.0]",scq_export
+job1_bicycle,Job1_bicycle,category,"[-2.0, -1.0, 1.0, 2.0, 3.0, 4.0]",scq_export
+job1_walk,Job1_walk,category,"[-2.0, -1.0, 1.0, 2.0, 3.0, 4.0]",scq_export
+job2_car,Job2_car,category,"[-2.0, -1.0, 1.0, 2.0, 3.0, 4.0]",scq_export
+job2_works_public,Job2_works_public,category,"[-2.0, -1.0, 1.0, 2.0, 3.0, 4.0]",scq_export
+job2_bicycle,Job2_bicycle,category,"[-2.0, -1.0, 1.0, 2.0, 3.0, 4.0]",scq_export
+job2_walk,Job2_walk,category,"[-2.0, -1.0, 1.0, 2.0, 3.0, 4.0]",scq_export
+job1_stairs,J1_stairs,category,"[-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+job1_ladders,J1_ladders,category,"[-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+job2_stairs,J2_stairs,category,"[-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+job2_ladders,J2_ladders,category,"[-2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 5.0]",scq_export
+swim_comp,Swim_comp,category,"[-1.0, 0.0, 1.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+swim_comp_hrs,Swim_comp_hrs,category,"[-1.0, 0.0, 1.0, 2.0, 3.0]",scq_export
+swim_comp_mins,Swim_comp_mins,category,"[-1.0, 0.0, 20.0, 30.0, 45.0, 50.0]",scq_export
+swim_lei,Swim_lei,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+swim_lei_hrs,Swim_lei_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 6.0]",scq_export
+swim_lei_mins,Swim_lei_mins,numeric,0.0 to 50.0,scq_export
+backpack,Backpack,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+backpack_hrs,Backpack_hrs,numeric,-1.0 to 100.0,scq_export
+backpack_mins,Backpack_mins,category,"[-1.0, 0.0, 15.0, 20.0, 30.0, 40.0, 45.0]",scq_export
+walk_pleas,Walk_pleas,numeric,-1.0 to 8.0,scq_export
+walk_pleas_hrs,Walk_pleas_hrs,numeric,-1.0 to 30.0,scq_export
+walk_pleas_mins,Walk_pleas_mins,numeric,-1.0 to 50.0,scq_export
+race_cycling,Race_cycling,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+race_cycling_hrs,Race_cycling_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 6.0, 7.0]",scq_export
+race_cycling_mins,Race_cycling_mins,category,"[0.0, 4.0, 10.0, 25.0, 30.0, 45.0, 50.0]",scq_export
+pleas_cycling,Pleas_cycling,numeric,-1.0 to 8.0,scq_export
+pleas_cycling_hrs,Pleas_cycling_hrs,numeric,0.0 to 45.0,scq_export
+pleas_cycling_mins,Pleas_cycling_mins,category,"[0.0, 4.0, 10.0, 15.0, 20.0, 25.0, 30.0, 40.0, 45.0]",scq_export
+mow_lawn,Mow_lawn,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+mow_lawn_hrs,Mow_lawn_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]",scq_export
+mow_lawn_mins,Mow_lawn_mins,numeric,0.0 to 50.0,scq_export
+water_lawn,Water_lawn,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+water_lawn_hrs,Water_lawn_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 8.0, 20.0]",scq_export
+water_lawn_mins,Water_lawn_mins,numeric,0.0 to 45.0,scq_export
+dig,Dig,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+dig_hrs,Dig_hrs,numeric,0.0 to 10.0,scq_export
+dig_mins,Dig_mins,category,"[0.0, 5.0, 10.0, 15.0, 20.0, 30.0, 40.0, 45.0, 50.0]",scq_export
+weeding,Weeding,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+weeding_hrs,Weeding_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 10.0]",scq_export
+weeding_mins,Weeding_mins,category,"[0.0, 5.0, 10.0, 15.0, 20.0, 30.0, 40.0, 45.0, 50.0]",scq_export
+diy,DIY,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+diy_hrs,DIY_hrs,numeric,0.0 to 24.0,scq_export
+diy_mins,DIY_mins,category,"[0.0, 8.0, 10.0, 15.0, 20.0, 30.0, 40.0, 45.0]",scq_export
+high_aerobics,High_aerobics,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+high_aerobics_hrs,High_aerobics_hrs,category,"[0.0, 1.0, 2.0, 3.0, 10.0]",scq_export
+high_aerobics_mins,High_aerobics_mins,numeric,0.0 to 55.0,scq_export
+other_aerobics,Other_aerobics,numeric,-1.0 to 8.0,scq_export
+other_aerobics_hrs,Other_aerobics_hrs,category,"[0.0, 1.0, 2.0, 4.0, 5.0, 10.0]",scq_export
+other_aerobics_mins,Other_aerobics_mins,numeric,0.0 to 50.0,scq_export
+weights,Weights,numeric,-1.0 to 8.0,scq_export
+weights_hrs,Weights_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0]",scq_export
+weights_mins,Weights_mins,numeric,0.0 to 55.0,scq_export
+cond_ex,Cond_ex,numeric,-1.0 to 8.0,scq_export
+cond_ex_hrs,Cond_ex_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 10.0]",scq_export
+cond_ex_mins,Cond_ex_mins,numeric,0.0 to 55.0,scq_export
+floor_ex,Floor_ex,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+floor_ex_hrs,Floor_ex_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 10.0]",scq_export
+floor_ex_mins,Floor_ex_mins,numeric,0.0 to 55.0,scq_export
+dancing,Dancing,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+dancing_hrs,Dancing_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 10.0]",scq_export
+dancing_mins,Dancing_mins,category,"[0.0, 10.0, 15.0, 20.0, 30.0, 45.0, 50.0]",scq_export
+running_comp,Running_comp,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+running_comp_hrs,Running_comp_hrs,category,"[0.0, 1.0, 2.0, 3.0]",scq_export
+running_comp_mins,Running_comp_mins,category,"[0.0, 20.0, 30.0, 35.0, 40.0, 45.0]",scq_export
+jogging,Jogging,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+jogging_hrs,Jogging_hrs,category,"[0.0, 1.0, 2.0, 3.0]",scq_export
+jogging_mins,Jogging_mins,numeric,0.0 to 50.0,scq_export
+bowling,Bowling,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+bowling_hrs,Bowling_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+bowling_mins,Bowling_mins,category,"[0.0, 15.0, 30.0, 40.0, 45.0]",scq_export
+tennis_bad,Tennis_bad,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+tennis_bad_hrs,Tennis_bad_hrs,category,"[0.0, 1.0, 2.0, 3.0, 5.0]",scq_export
+tennis_bad_mins,Tennis_bad_mins,category,"[0.0, 5.0, 10.0, 15.0, 20.0, 30.0, 40.0, 45.0]",scq_export
+squash,Squash,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+squash_hrs,Squash_hrs,category,"[0.0, 1.0, 2.0]",scq_export
+squash_mins,Squash_mins,category,"[0.0, 30.0, 40.0, 45.0, 50.0]",scq_export
+table_tennis,Table_tennis,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+table_tennis_hrs,Table_tennis_hrs,category,"[0.0, 1.0, 2.0, 3.0]",scq_export
+table_tennis_mins,Table_tennis_mins,category,"[0.0, 5.0, 10.0, 15.0, 20.0, 25.0, 30.0, 40.0, 45.0]",scq_export
+golf,Golf,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+golf_hrs,Golf_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]",scq_export
+golf_mins,Golf_mins,category,"[0.0, 30.0, 45.0]",scq_export
+football_rugby_hockey,Football_rugby_hockey,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+football_rugby_hockey_hrs,Football_rugby_hockey_hrs,category,"[0.0, 1.0, 2.0, 3.0, 6.0]",scq_export
+football_rugby_hockey_mins,Football_rugby_hockey_mins,category,"[0.0, 10.0, 20.0, 30.0, 35.0, 40.0, 45.0]",scq_export
+cricket,Cricket,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+cricket_hrs,Cricket_hrs,category,"[0.0, 2.0, 3.0, 5.0, 6.0]",scq_export
+cricket_mins,Cricket_mins,category,"[0.0, 10.0, 30.0]",scq_export
+rowing,Rowing,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]",scq_export
+rowing_hrs,Rowing_hrs,category,"[0.0, 1.0, 2.0, 3.0]",scq_export
+rowing_mins,Rowing_mins,category,"[0.0, 15.0, 20.0, 30.0, 40.0, 45.0, 50.0]",scq_export
+netball,Netball,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+netball_hrs,Netball_hrs,category,"[0.0, 1.0, 2.0, 8.0]",scq_export
+netball_mins,Netball_mins,category,"[0.0, 20.0, 30.0, 45.0, 50.0]",scq_export
+fishing,Fishing,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 8.0]",scq_export
+fishing_hrs,Fishing_hrs,numeric,0.0 to 24.0,scq_export
+fishing_mins,Fishing_mins,category,[0.0],scq_export
+horse_riding,Horse_riding,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 8.0]",scq_export
+horse_riding_hrs,Horse_riding_hrs,category,"[0.0, 1.0, 2.0, 3.0]",scq_export
+horse_riding_mins,Horse_riding_mins,category,"[0.0, 15.0, 30.0, 40.0]",scq_export
+snooker,Snooker,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+snooker_hrs,Snooker_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+snooker_mins,Snooker_mins,category,"[0.0, 10.0, 15.0, 20.0, 30.0, 40.0, 45.0]",scq_export
+instrument_sing,Instrument_sing,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0]",scq_export
+instrument_sing_hrs,Instrument_sing_hrs,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 10.0]",scq_export
+instrument_sing_mins,Instrument_sing_mins,numeric,-1.0 to 50.0,scq_export
+ice_skating,Ice_skating,category,"[-1.0, 0.0, 1.0, 2.0, 3.0]",scq_export
+ice_skating_hrs,Ice_skating_hrs,category,"[0.0, 1.0, 2.0, 3.0, 4.0]",scq_export
+ice_skating_mins,Ice_skating_mins,category,"[0.0, 30.0, 40.0, 45.0]",scq_export
+sailing,Sailing,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]",scq_export
+sailing_hrs,Sailing_hrs,numeric,0.0 to 120.0,scq_export
+sailing_mins,Sailing_mins,category,"[0.0, 30.0, 40.0]",scq_export
+martial_arts,Martial_arts,category,"[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 8.0]",scq_export
+martial_arts_hrs,Martial_arts_hrs,category,"[0.0, 1.0, 2.0, 3.0]",scq_export
+martial_arts_mins,Martial_arts_mins,category,"[0.0, 20.0, 30.0, 40.0, 45.0]",scq_export
+in_part2,,category,[1.0],scq_export
+rater,,category,"[1.0, 2.0]",scq_export
+checked,,category,"[0.0, 1.0]",scq_export
