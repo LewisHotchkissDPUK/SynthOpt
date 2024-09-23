@@ -22,8 +22,7 @@ for filename, df in GENERATED_METADATA_DATASETS.items():
 ## SYNTHETIC DATA GENERATION TESTING ##
 
 MODEL = "dpgan"
-DATA_NAME = "/workspaces/SynthOpt/examples/ADNI_cleaned.csv"
-DATA = pd.read_csv(DATA_NAME)
+DATA = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned.csv")
 DATA, CONTROL_DATA = train_test_split(DATA, test_size=0.1)
 PREDICTION_COLUMN = "Combined Depression"
 SENSITIVE_COLUMNS = ["Combined Depression"]
