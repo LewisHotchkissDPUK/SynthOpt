@@ -10,6 +10,7 @@ from sdv.metadata import SingleTableMetadata
 from itertools import combinations
 from anonymeter.evaluators import SinglingOutEvaluator,LinkabilityEvaluator,InferenceEvaluator
 from sklearn.model_selection import train_test_split
+
 def evaluate_privacy(DATA, DATA_COLUMNS, SYNTHETIC_DATA, METADATA, PREDICTION_COLUMN, SENSITIVE_COLUMNS, KEY_COLUMNS, CONTROL_DATA):
     #== Exact Matches ==#
     exact_matches_score = NewRowSynthesis.compute(real_data=DATA, synthetic_data=SYNTHETIC_DATA, metadata=METADATA, numerical_match_tolerance=0.1, synthetic_sample_size=5000)
