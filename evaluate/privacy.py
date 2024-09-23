@@ -20,11 +20,13 @@ def evaluate_privacy(data, synthetic_data, sensitive_columns, key_columns, contr
     inference_protection_score = CategoricalCAP.compute(real_data=data, synthetic_data=synthetic_data, key_fields=key_columns, sensitive_fields=sensitive_columns)
 
     #== Singling Out ==#    
+    print("running singling out attacks")
     singling_evaluator = SinglingOutEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=500)
     singling_evaluator.evaluate(mode='univariate')
     singling_risk = singling_evaluator.risk().value
 
     #== Linkability ==#    
+    print("running linkability attacks")
     linkability_evaluator = LinkabilityEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=500,aux_cols=key_columns,n_neighbors=10)
     linkability_evaluator.evaluate() #n_jobs=-2
     linkability_risk = linkability_evaluator.risk().value
@@ -34,8 +36,10 @@ def evaluate_privacy(data, synthetic_data, sensitive_columns, key_columns, contr
     #inference_evaluator.evaluate() #n_jobs=-2
     #inference_risk = inference_evaluator.risk().value
 
-    print(exact_matches_score)
-    print(detection_score)
-    print(inference_protection_score)
-    print(singling_risk)
-    print(linkability_risk)
+    print(f"exact matches score:        {exact_matches_score}")
+    print(f"detection score:            {detection_score}")
+    print(f"inference protection score: {inference_protection_score}")
+    print(f"singling out score:         {singling_risk}")
+    print(f"linkability score:          {linkability_risk}")
+
+    
