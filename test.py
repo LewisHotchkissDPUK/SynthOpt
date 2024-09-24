@@ -2,6 +2,7 @@ from generate.metadata import generate_metadata
 from generate.syntheticdata import generate_syntheticdata
 
 from evaluate.privacy import evaluate_privacy
+from evaluate.quality import evaluate_quality
 
 from sklearn.model_selection import train_test_split
 import pandas as pd
@@ -38,3 +39,5 @@ SYNTHETIC_DATA = generate_syntheticdata(MODEL, DATA, CONTROL_DATA, PREDICTION_CO
 ## SYNTHETIC DATA PRIVACY EVALUATION TESTING ##
 
 evaluate_privacy(DATA, SYNTHETIC_DATA, SENSITIVE_COLUMNS, KEY_COLUMNS, CONTROL_DATA)
+
+evaluate_quality(DATA, SYNTHETIC_DATA)

@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from sdmetrics.single_column import BoundaryAdherence,CategoryAdherence,KSComplement,TVComplement,StatisticSimilarity,RangeCoverage,CategoryCoverage
 from sdmetrics.column_pairs import CorrelationSimilarity,ContingencySimilarity
 from sdmetrics.single_table import NewRowSynthesis,LogisticDetection,BinaryDecisionTreeClassifier,CategoricalCAP,CategoricalKNN,NumericalMLP
@@ -20,26 +21,57 @@ def evaluate_privacy(data, synthetic_data, sensitive_columns, key_columns, contr
     inference_protection_score = CategoricalCAP.compute(real_data=data, synthetic_data=synthetic_data, key_fields=key_columns, sensitive_fields=sensitive_columns)
 
     #== Singling Out ==#    
-    print("running singling out attacks")
-    singling_evaluator = SinglingOutEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=500)
+    print("[SynthOpt] conducting singling out attacks (this may take a while)")
+    singling_evaluator = SinglingOutEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=100)
     singling_evaluator.evaluate(mode='univariate')
     singling_risk = singling_evaluator.risk().value
 
     #== Linkability ==#    
-    print("running linkability attacks")
-    linkability_evaluator = LinkabilityEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=500,aux_cols=key_columns,n_neighbors=10)
-    linkability_evaluator.evaluate() #n_jobs=-2
+    print("[SynthOpt] conducting linkability attacks (this may take a while)")
+    linkability_evaluator = LinkabilityEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=100,aux_cols=key_columns,n_neighbors=10)
+    linkability_evaluator.evaluate(n_jobs=-2)
     linkability_risk = linkability_evaluator.risk().value
 
     #== Inference ==#    
-    #inference_evaluator = InferenceEvaluator(ori=data,syn=synthetic_data,control=CONTROL_DATA,n_attacks=500,aux_cols=KEY_COLUMNS,secret=sensitive_columns)
-    #inference_evaluator.evaluate() #n_jobs=-2
-    #inference_risk = inference_evaluator.risk().value
+    print("[SynthOpt] conducting inference attacks (this may take a while)")
+    columns = data.columns
+    results = []
+    for secret in columns:
+        aux_cols = [col for col in columns if col != secret]
+        inference_evaluator = InferenceEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=100,aux_cols=key_columns,secret=sensitive_columns)
+        inference_evaluator.evaluate(n_jobs=-2)
+        #results.append((secret, inference_evaluator.results()))
+        results.append(inference_evaluator.results().risk().value)
+    inference_risk = np.mean(results)
 
-    print(f"exact matches score:        {exact_matches_score}")
-    print(f"detection score:            {detection_score}")
+    print()
+    print("== PRIVACY SCORES ==")
+
+    if exact_matches_score == 1:
+        exact_matches_rating = "Good - There are no exact matches"
+    else:
+        exact_matches_rating = "Bad - There may be some exact matches which compromise privacy"
+    print(f"exact matches score: {exact_matches_score}")
+    #print(f"exact matches score: {exact_matches_score} \n({exact_matches_rating})\n")
+
+    if detection_score == 0:
+        detection_rating = "Good - The synthetic data can be differentiated from the real data"
+    else:
+        detection_rating = "Bad - The synthetic data cannot be differentiated from the real data, therefore could be leaking real information"
+    print(f"detection score: {detection_score}")
+    #print(f"detection score: {detection_score} \n({detection_rating})\n")
+
+    if inference_protection_score > 0.8:
+        inference_protection_rating = "Good - The real data is safe from inference attack meaning sensitive values cannot be guessed"
+    elif 0.8 > inference_protection_score > 0.6:
+        inference_protection_rating = "Medium - The real data may potentially be vulnerable to inference attack meaning some sensitive values may be guessed"
+    else:
+        inference_protection_rating = "Bad - The real data is vulnerable to inference attack meaning sensitive values can be guessed"
     print(f"inference protection score: {inference_protection_score}")
-    print(f"singling out score:         {singling_risk}")
-    print(f"linkability score:          {linkability_risk}")
+    #print(f"inference protection score: {inference_protection_score} \n({inference_protection_rating})\n")
 
-    
+    #print()
+    print(f"singling out score: {singling_risk}")
+    print(f"linkability score: {linkability_risk}")
+    print(f"inference score: {inference_risk}")
+
