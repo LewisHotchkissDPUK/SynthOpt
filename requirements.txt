@@ -2,3 +2,4 @@ sdv
 sdmetrics
 synthcity
 anonymeter
+progressbar

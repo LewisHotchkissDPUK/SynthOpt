@@ -24,14 +24,14 @@ for filename, df in GENERATED_METADATA_DATASETS.items():
 ## SYNTHETIC DATA GENERATION TESTING ##
 
 MODEL = "dpgan"
-DATA = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned.csv")
+DATA = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_no_id.csv")
 DATA, CONTROL_DATA = train_test_split(DATA, test_size=0.1)
 PREDICTION_COLUMN = "Combined Depression"
 SENSITIVE_COLUMNS = ["Combined Depression"]
 KEY_COLUMNS = ["PTDOBYY","PTGENDER"]
-ITERATIONS = 10
+ITERATIONS = 100
 SAMPLE_SIZE = 1000
-EPSILON = 2.56
+EPSILON = 0.1
 
 SYNTHETIC_DATA = generate_syntheticdata(MODEL, DATA, CONTROL_DATA, PREDICTION_COLUMN, SENSITIVE_COLUMNS, KEY_COLUMNS, 
                                         ITERATIONS, SAMPLE_SIZE, EPSILON, None, None)
@@ -40,10 +40,9 @@ SYNTHETIC_DATA = generate_syntheticdata(MODEL, DATA, CONTROL_DATA, PREDICTION_CO
 ## SYNTHETIC DATA PRIVACY EVALUATION TESTING ##
 
 evaluate_privacy(DATA, SYNTHETIC_DATA, SENSITIVE_COLUMNS, KEY_COLUMNS, CONTROL_DATA)
-
 evaluate_quality(DATA, SYNTHETIC_DATA)
-
 evaluate_utility(DATA, SYNTHETIC_DATA, PREDICTION_COLUMN)
 
 # have a report boolean variable for each one then have an if statement for return which will return a list of metrics if report is true
 # actually may just do a return statement anyway
+# need to return both whole table and attribute scores

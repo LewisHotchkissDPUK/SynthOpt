@@ -27,7 +27,7 @@ def create_metadata(data):
 # create a method to pass in a custom model (not a name but an actual model)
 # create method for optimisation
 # allow option for single table, multi table and longitudinal
-# pass in identifier column
+# pass in identifier column (synthcity doesnt handle ids so maybe just remove)
 # handle string columns, maybe do encoding
 def generate_syntheticdata(model_name, data, control_data, prediction_column, sensitive_columns, key_columns, iterations, sample_size, dp_epsilon, dp_delta, dp_lambda):
     data = data.select_dtypes(exclude=['object']) # need to properly handle
