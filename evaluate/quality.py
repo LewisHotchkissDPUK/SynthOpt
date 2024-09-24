@@ -20,7 +20,6 @@ def evaluate_quality(data, synthetic_data):
     boundary_adherence_scores = []
     coverage_scores = []
     complement_scores = []
-    correlation_scores = []
     similarity_scores = []
     for column in data_columns:
         if column not in discrete_columns:
@@ -54,7 +53,7 @@ def evaluate_quality(data, synthetic_data):
 
     print()
     print("== QUALITY SCORES ==")
-    print(avg_boundary_adherence_score)
-    print(avg_coverage_score)
-    print(avg_complement_score)
-    print(avg_similarity_score)
+    print(f"boundary adherence score: {avg_boundary_adherence_score}")
+    print(f"coverage score: {avg_coverage_score}")
+    print(f"complement score: {avg_complement_score}")
+    print(f"statistic similarity score: {avg_similarity_score}")
