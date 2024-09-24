@@ -29,7 +29,7 @@ DATA, CONTROL_DATA = train_test_split(DATA, test_size=0.1)
 PREDICTION_COLUMN = "Combined Depression"
 SENSITIVE_COLUMNS = ["Combined Depression"]
 KEY_COLUMNS = ["PTDOBYY","PTGENDER"]
-ITERATIONS = 100
+ITERATIONS = 10
 SAMPLE_SIZE = 1000
 EPSILON = 0.1
 

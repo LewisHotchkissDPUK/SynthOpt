@@ -50,7 +50,7 @@ def evaluate_utility(data, synthetic_data, prediction_column):
             #bar.update(i)
             
 
-    #== ML Efficacy ==# (maybe create own with optimisation of hyperparams) (SHOULD BE ABLE TO CHOOSE REGRESSION / CLASSIFICATION / MULTI-CLASS)
+    #== ML Efficacy ==# (maybe create own with optimisation of hyperparams (as option)) (SHOULD BE ABLE TO CHOOSE REGRESSION / CLASSIFICATION / MULTI-CLASS)
     print("[SynthOpt] training & evaluating performance of machine learning classifiers (this may take a while)")   
     ml_efficacy_score = BinaryDecisionTreeClassifier.compute(test_data=data, train_data=synthetic_data, target=prediction_column, metadata=metadata)
 
