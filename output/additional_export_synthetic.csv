@@ -1,0 +1,801 @@
+CCID,priority,student_iv,sevens,drug_severity,drug_intervention,smoker,alcohol,HADS_anx_category,HADS_dep_category,qual,C1,C2,C3,C4,C5,C6,C7,SC_r,SEG_r,SC_pt
+EHMtcb,Yes,Yes,2.0,nan,Outpatient (Intensive),Never smoked,Drinks one/three times monthly,Normal,Mild,None,3.0,4.0,2.0,3.0,0.0,3.0,0.0,-,3,IIIM
+TIyBkE,No,Yes,0.0,Low,Outpatient (Intensive),Never smoked,Past drinker,Severe,Mild,Degree,2.0,2.0,2.0,1.0,0.0,3.0,1.0,II,1.1,IIIM
+KdhFOa,Yes,No,2.0,nan,nan,Occasional current,Occasional drinker,Normal,Mild,None,3.0,2.0,0.0,2.0,2.0,0.0,0.0,I,6,V
+bybtEn,No,Yes,999.0,Intermediate,nan,Current smoker,Drinks one/three times monthly,Moderate,Normal,GCSE/O-level,3.0,6.0,1.0,0.0,0.0,3.0,2.0,IIIN,2.2,I
+XNUkHY,Yes,No,5.0,Intermediate,nan,at least 100,Drinks one/three times monthly,Null,Severe,GCSE/O-level,1.0,1.0,2.0,2.0,2.0,2.0,4.0,IIIN,nan,V
+WRyWsE,Yes,No,3.0,Low,Outpatient (Intensive),less than 100,Drinks one/three times monthly,Severe,Moderate,A-level,0.0,2.0,2.0,0.0,1.0,2.0,2.0,nan,2.2,I
+FOswHH,Yes,No,0.0,Low,Outpatient (Intensive),nan,Drinks one/three times monthly,Mild,Moderate,A-level,1.0,6.0,2.0,0.0,0.0,1.0,5.0,IV,15,I
+lnwkJf,Yes,Yes,2.0,Substantial,Brief Intervention,less than 100,Non drinker,Normal,Moderate,Degree,3.0,2.0,0.0,3.0,1.0,3.0,4.0,IV,9,nan
+EFEjnR,No,No,0.0,Low,Intensive,Occasional current,Drinks once/twice weekly,Severe,Moderate,A-level,2.0,5.0,2.0,2.0,3.0,0.0,0.0,IIIN,-,I
+znDdjp,Yes,No,1.0,Low,nan,Non current,Occasional drinker,Normal,Moderate,Degree,0.0,2.0,0.0,1.0,2.0,1.0,6.0,IIIN,5.2,IIIM
+PibiXl,Yes,No,4.0,nan,nan,nan,nan,Severe,Normal,nan,1.0,5.0,3.0,3.0,1.0,2.0,5.0,nan,9,V
+HdKKyb,Yes,Yes,1.0,Intermediate,Brief Intervention,at least 100,Drinks once/twice weekly,Null,Normal,GCSE/O-level,2.0,1.0,3.0,0.0,2.0,1.0,2.0,IIIN,10,V
+VaEefR,Yes,No,999.0,Low,nan,less than 100,Non drinker,Severe,Normal,Degree,2.0,6.0,1.0,0.0,0.0,2.0,6.0,IIIN,7,IIIN
+prEpIV,Yes,No,3.0,nan,Intensive,Current smoker,Occasional drinker,Null,Normal,Degree,3.0,5.0,1.0,1.0,3.0,3.0,3.0,IV,3,IIIN
+wtIwmL,No,No,4.0,Low,nan,Non current,Drinks three/four times weekly,Severe,Null,None,3.0,6.0,0.0,3.0,2.0,3.0,4.0,IIIM,2.1,IV
+VyeMOk,Yes,Yes,1.0,nan,Outpatient (Intensive),less than 100,nan,Null,Null,GCSE/O-level,0.0,3.0,3.0,2.0,2.0,1.0,4.0,V,15,II
+xBEacP,No,No,999.0,Intermediate,Brief Intervention,Occasional current,nan,Moderate,Moderate,None,1.0,1.0,1.0,0.0,3.0,3.0,2.0,IIIM,5.1,nan
+ccMrgA,Yes,No,2.0,nan,Intensive,Non current,Drinks three/four times weekly,Normal,Null,None,2.0,0.0,2.0,1.0,2.0,1.0,4.0,nan,14,IIIN
+cEzmQR,No,No,3.0,nan,Brief Intervention,Occasional current,Drinks one/three times monthly,Null,Normal,None,3.0,3.0,3.0,1.0,1.0,0.0,2.0,IV,nan,V
+cdlsXe,No,Yes,5.0,Intermediate,nan,less than 100,Past drinker,Normal,Normal,GCSE/O-level,0.0,3.0,2.0,2.0,0.0,2.0,6.0,IIIM,7,nan
+AhhVbv,Yes,No,5.0,Substantial,Intensive,less than 100,Drinks three/four times weekly,Moderate,Moderate,Degree,2.0,6.0,0.0,0.0,2.0,3.0,2.0,-,14,I
+tGvrBB,Yes,No,4.0,Low,Outpatient (Intensive),Non current,Drinks daily,Severe,Normal,GCSE/O-level,2.0,5.0,0.0,0.0,0.0,1.0,2.0,IIIN,7,IIIN
+jFeuVW,No,No,999.0,nan,nan,Occasional current,Drinks three/four times weekly,Normal,Mild,A-level,0.0,6.0,1.0,2.0,3.0,2.0,4.0,II,10,I
+dHUEue,No,No,1.0,Substantial,Outpatient (Intensive),nan,Drinks daily,Moderate,Null,Degree,0.0,6.0,2.0,3.0,3.0,1.0,5.0,nan,-,II
+UJEvJQ,Yes,Yes,999.0,Intermediate,Outpatient (Intensive),less than 100,Drinks once/twice weekly,Moderate,Severe,Degree,3.0,4.0,3.0,2.0,0.0,3.0,1.0,nan,5.2,II
+QGOVsL,Yes,Yes,5.0,Intermediate,nan,at least 100,Drinks three/four times weekly,Normal,Mild,GCSE/O-level,3.0,2.0,2.0,1.0,1.0,2.0,1.0,IIIN,5.1,nan
+zCtexM,No,Yes,3.0,Substantial,Brief Intervention,Non current,Drinks daily,Mild,Severe,None,0.0,4.0,1.0,1.0,0.0,3.0,2.0,II,5.1,II
+fnxmED,No,Yes,0.0,Substantial,nan,less than 100,Drinks daily,Moderate,Severe,nan,0.0,6.0,2.0,1.0,1.0,1.0,5.0,IV,17,V
+smJfyk,No,No,4.0,nan,Intensive,at least 100,Drinks daily,Moderate,Moderate,nan,3.0,6.0,1.0,3.0,0.0,3.0,0.0,V,-,IIIM
+VuuQjF,Yes,No,2.0,nan,Outpatient (Intensive),Non current,Drinks once/twice weekly,Mild,Null,None,0.0,2.0,0.0,3.0,1.0,3.0,0.0,-,11,IIIN
+HTLcPk,Yes,No,3.0,Substantial,nan,Non current,Drinks daily,Normal,Moderate,A-level,2.0,4.0,3.0,1.0,1.0,3.0,5.0,V,17,II
+nQwFlO,No,No,4.0,Substantial,Brief Intervention,Past smoker,Drinks one/three times monthly,Moderate,Normal,nan,3.0,4.0,1.0,2.0,1.0,3.0,0.0,nan,7,IIIN
+VtSMsm,No,Yes,0.0,nan,Intensive,Occasional current,Drinks three/four times weekly,Mild,Null,A-level,3.0,0.0,2.0,3.0,1.0,1.0,1.0,-,8,V
+wZbvIw,No,Yes,0.0,Intermediate,Intensive,Occasional current,Non drinker,Normal,Mild,None,3.0,1.0,1.0,1.0,1.0,3.0,2.0,V,1.1,nan
+xjEzqP,Yes,No,3.0,nan,Brief Intervention,less than 100,Drinks one/three times monthly,Mild,Null,A-level,1.0,1.0,3.0,0.0,0.0,3.0,0.0,V,11,V
+JMOXqy,Yes,No,1.0,Intermediate,Brief Intervention,Non current,Drinks daily,Severe,Severe,nan,1.0,1.0,3.0,1.0,3.0,0.0,3.0,IIIN,8,V
+kwmlKu,Yes,No,0.0,Low,Outpatient (Intensive),at least 100,Drinks three/four times weekly,Normal,Severe,A-level,0.0,3.0,2.0,3.0,1.0,1.0,4.0,-,2.1,nan
+JbZzWU,Yes,Yes,5.0,Intermediate,Brief Intervention,Never smoked,Non drinker,Null,Normal,A-level,3.0,1.0,2.0,1.0,3.0,1.0,6.0,II,1.2,V
+FskpvA,Yes,Yes,5.0,Low,Outpatient (Intensive),Past smoker,Non drinker,Moderate,Normal,Degree,0.0,4.0,3.0,0.0,0.0,0.0,5.0,IIIM,3,nan
+jvxsFH,No,No,5.0,nan,nan,Never smoked,nan,Severe,Normal,GCSE/O-level,2.0,3.0,2.0,2.0,0.0,0.0,0.0,IIIM,2.1,IIIN
+oDkmsP,Yes,Yes,3.0,Substantial,Outpatient (Intensive),Non current,Drinks three/four times weekly,Mild,Moderate,GCSE/O-level,2.0,5.0,1.0,0.0,1.0,0.0,1.0,II,8,IV
+qqhRnx,No,Yes,3.0,Low,Intensive,Occasional current,Drinks daily,Mild,Null,None,1.0,6.0,1.0,2.0,2.0,0.0,5.0,IIIM,6,V
+KqxzXw,Yes,Yes,0.0,nan,Intensive,Occasional current,nan,Severe,Moderate,None,1.0,6.0,3.0,1.0,2.0,0.0,5.0,II,1.2,V
+UWzkWb,Yes,No,5.0,nan,Brief Intervention,Non current,Occasional drinker,Normal,Severe,None,1.0,1.0,3.0,2.0,0.0,3.0,4.0,IIIN,10,IV
+aeMpHI,Yes,No,2.0,Intermediate,nan,Non current,Drinks daily,Null,Normal,nan,0.0,2.0,1.0,1.0,2.0,2.0,6.0,IIIM,2.1,V
+QumrGS,Yes,Yes,4.0,nan,Intensive,Past smoker,Non drinker,Normal,Null,GCSE/O-level,3.0,1.0,0.0,2.0,0.0,1.0,2.0,V,12,V
+CZJSKk,No,No,1.0,Intermediate,Brief Intervention,less than 100,Drinks one/three times monthly,Null,Null,None,0.0,5.0,2.0,2.0,2.0,0.0,0.0,II,1.2,IV
+AKypXb,Yes,No,2.0,Low,Intensive,at least 100,Past drinker,Normal,Moderate,GCSE/O-level,3.0,5.0,1.0,1.0,0.0,2.0,6.0,I,6,IV
+ayxjYM,Yes,No,2.0,nan,Intensive,Occasional current,nan,Null,Mild,None,0.0,4.0,3.0,2.0,1.0,0.0,2.0,II,17,nan
+fsqwcB,Yes,Yes,5.0,nan,Brief Intervention,Occasional current,Drinks three/four times weekly,Null,Mild,GCSE/O-level,2.0,1.0,0.0,3.0,3.0,2.0,1.0,V,5.1,V
+GkscMK,Yes,No,0.0,Low,nan,at least 100,Drinks three/four times weekly,Mild,Null,A-level,1.0,2.0,0.0,2.0,2.0,2.0,1.0,IV,nan,IIIN
+GlEWqK,No,No,5.0,nan,Outpatient (Intensive),at least 100,Occasional drinker,Null,Null,A-level,2.0,0.0,1.0,0.0,1.0,0.0,5.0,II,nan,V
+mTBJtO,No,No,3.0,Substantial,Outpatient (Intensive),Occasional current,Past drinker,Normal,Normal,GCSE/O-level,1.0,6.0,2.0,3.0,1.0,0.0,1.0,IIIN,1.2,I
+dbGIto,Yes,No,0.0,Intermediate,Outpatient (Intensive),Past smoker,Drinks once/twice weekly,Mild,Normal,Degree,1.0,0.0,3.0,3.0,1.0,2.0,2.0,-,2.2,V
+laBmhq,Yes,No,1.0,Substantial,Brief Intervention,at least 100,Drinks three/four times weekly,Mild,Null,None,1.0,5.0,0.0,1.0,2.0,3.0,4.0,nan,10,IV
+LvWaAo,No,No,3.0,Low,Outpatient (Intensive),less than 100,Non drinker,Moderate,Moderate,None,0.0,3.0,2.0,0.0,1.0,1.0,1.0,IIIM,2.2,IIIN
+CNjuEO,No,No,0.0,nan,nan,Past smoker,Drinks daily,Mild,Severe,None,1.0,1.0,3.0,1.0,2.0,3.0,4.0,I,5.1,V
+YTAOPq,No,Yes,3.0,Substantial,Brief Intervention,Occasional current,Drinks three/four times weekly,Severe,Mild,None,0.0,1.0,0.0,0.0,3.0,0.0,4.0,-,17,IIIN
+vPMZtr,Yes,No,4.0,Intermediate,Outpatient (Intensive),Occasional current,Drinks one/three times monthly,Null,Null,A-level,2.0,5.0,3.0,0.0,2.0,0.0,0.0,-,8,nan
+cSdRHC,No,Yes,3.0,Low,nan,at least 100,Past drinker,Normal,Severe,nan,3.0,1.0,1.0,0.0,3.0,1.0,6.0,I,15,II
+sxbTUG,Yes,No,0.0,Substantial,Intensive,less than 100,Past drinker,Moderate,Null,A-level,1.0,6.0,2.0,0.0,1.0,2.0,3.0,IV,-,IV
+yZIzJX,No,Yes,3.0,Low,nan,Non current,Drinks one/three times monthly,Normal,Mild,GCSE/O-level,1.0,2.0,2.0,0.0,2.0,0.0,0.0,V,7,IV
+tMNhnO,Yes,Yes,999.0,Intermediate,Intensive,Non current,Non drinker,Mild,Normal,Degree,2.0,2.0,2.0,1.0,1.0,3.0,3.0,I,4,V
+mUHZjt,Yes,No,2.0,nan,Outpatient (Intensive),at least 100,Drinks once/twice weekly,Mild,Null,A-level,3.0,6.0,2.0,2.0,2.0,3.0,6.0,IIIM,6,IIIM
+DkGzBE,Yes,Yes,3.0,Intermediate,Brief Intervention,less than 100,Drinks three/four times weekly,Moderate,Null,None,1.0,4.0,1.0,3.0,3.0,2.0,1.0,IIIN,2.1,nan
+ICuCsd,Yes,Yes,4.0,Intermediate,Outpatient (Intensive),Occasional current,Drinks three/four times weekly,Normal,Moderate,GCSE/O-level,2.0,6.0,1.0,0.0,3.0,1.0,0.0,-,7,V
+SkjUTI,Yes,No,0.0,Substantial,Brief Intervention,less than 100,nan,Mild,Mild,None,1.0,6.0,1.0,1.0,3.0,1.0,6.0,-,12,I
+yqCkCh,No,Yes,5.0,Low,Outpatient (Intensive),Non current,nan,Mild,Moderate,None,2.0,2.0,1.0,1.0,2.0,3.0,0.0,II,12,IIIM
+SDLrGf,No,No,1.0,nan,Brief Intervention,Current smoker,Non drinker,Null,Severe,None,1.0,6.0,2.0,1.0,1.0,0.0,4.0,nan,11,IIIM
+ykdWeT,No,Yes,3.0,Intermediate,Outpatient (Intensive),Occasional current,Past drinker,Moderate,Mild,Degree,1.0,4.0,3.0,0.0,1.0,0.0,3.0,nan,1.1,IIIN
+PlmECH,Yes,Yes,0.0,Low,Brief Intervention,Past smoker,nan,Null,Null,Degree,1.0,2.0,1.0,3.0,2.0,3.0,3.0,nan,5.1,IIIM
+xotkow,Yes,No,1.0,Low,Brief Intervention,at least 100,Drinks once/twice weekly,Severe,Mild,GCSE/O-level,3.0,1.0,2.0,3.0,3.0,2.0,4.0,V,2.1,IIIM
+KTqAJF,Yes,No,999.0,Intermediate,Outpatient (Intensive),nan,Drinks daily,Mild,Moderate,A-level,3.0,3.0,3.0,1.0,0.0,1.0,4.0,II,11,I
+TfAXZY,No,No,3.0,Intermediate,Outpatient (Intensive),at least 100,Drinks one/three times monthly,Null,Normal,A-level,2.0,2.0,2.0,2.0,0.0,0.0,0.0,nan,14,IIIN
+fqyJxO,Yes,No,5.0,Low,Intensive,less than 100,Past drinker,Severe,Mild,Degree,0.0,2.0,3.0,1.0,1.0,0.0,5.0,I,11,V
+uhaPSb,No,No,0.0,nan,nan,Past smoker,nan,Severe,Normal,nan,3.0,5.0,3.0,3.0,0.0,1.0,3.0,-,7,II
+ldjUVS,No,No,5.0,Substantial,Brief Intervention,Current smoker,Non drinker,Mild,Null,nan,1.0,0.0,3.0,2.0,0.0,3.0,6.0,II,10,nan
+TTXmlR,Yes,Yes,5.0,nan,Outpatient (Intensive),Past smoker,Drinks daily,Null,Moderate,GCSE/O-level,3.0,6.0,3.0,3.0,1.0,2.0,5.0,IIIM,11,nan
+xxxOjI,No,Yes,999.0,Substantial,Intensive,at least 100,Non drinker,Severe,Mild,None,3.0,2.0,0.0,0.0,0.0,3.0,6.0,-,17,IIIM
+EiLBSL,No,Yes,0.0,Substantial,nan,nan,nan,Mild,Severe,Degree,1.0,3.0,3.0,1.0,3.0,0.0,3.0,IIIN,1.1,nan
+vDyRGl,Yes,Yes,2.0,Substantial,Brief Intervention,nan,Past drinker,Moderate,Null,Degree,0.0,0.0,2.0,3.0,2.0,0.0,1.0,IIIN,2.2,nan
+vdpswq,No,Yes,5.0,Intermediate,Brief Intervention,at least 100,Occasional drinker,Null,Mild,nan,1.0,0.0,3.0,2.0,0.0,0.0,2.0,-,12,IV
+FDtSea,No,Yes,999.0,Substantial,Outpatient (Intensive),less than 100,Drinks once/twice weekly,Mild,Moderate,Degree,0.0,3.0,3.0,1.0,3.0,2.0,5.0,nan,15,II
+SyrOLM,Yes,Yes,2.0,Intermediate,Intensive,Current smoker,Past drinker,Null,Moderate,GCSE/O-level,0.0,0.0,2.0,2.0,2.0,2.0,3.0,II,17,II
+LnEsLd,No,No,4.0,Substantial,Intensive,Non current,Drinks once/twice weekly,Normal,Mild,nan,1.0,6.0,0.0,2.0,1.0,3.0,4.0,IIIM,2.1,II
+vDrRpa,Yes,Yes,2.0,nan,Intensive,at least 100,Occasional drinker,Severe,Moderate,A-level,1.0,4.0,3.0,3.0,3.0,3.0,4.0,I,15,V
+MeVmLN,No,No,999.0,Substantial,nan,Occasional current,nan,Null,Mild,None,3.0,6.0,2.0,3.0,2.0,0.0,5.0,IIIM,2.1,V
+zRWSbC,Yes,Yes,2.0,Low,nan,less than 100,nan,Moderate,Normal,None,1.0,6.0,3.0,0.0,2.0,0.0,6.0,V,17,nan
+IDvrqz,Yes,Yes,3.0,nan,Intensive,at least 100,nan,Mild,Mild,GCSE/O-level,2.0,4.0,3.0,1.0,1.0,3.0,1.0,IV,14,IIIM
+UVcYMH,No,Yes,999.0,Low,Intensive,Current smoker,Drinks daily,Moderate,Severe,A-level,0.0,5.0,0.0,3.0,3.0,0.0,4.0,-,17,IV
+GOAmej,Yes,No,3.0,Substantial,nan,at least 100,Non drinker,Severe,Normal,nan,0.0,4.0,1.0,1.0,1.0,0.0,4.0,nan,2.2,IV
+MRVcaJ,No,No,1.0,Substantial,Brief Intervention,at least 100,Past drinker,Moderate,Null,None,2.0,3.0,0.0,3.0,0.0,3.0,2.0,IIIN,14,I
+jtgdvX,Yes,No,3.0,Low,Intensive,nan,Occasional drinker,Severe,Null,A-level,3.0,0.0,3.0,0.0,1.0,3.0,2.0,IV,3,IIIN
+PaXamq,No,Yes,0.0,Low,nan,at least 100,Non drinker,Normal,Null,Degree,2.0,0.0,1.0,3.0,2.0,1.0,0.0,V,5.2,IIIM
+hajJcs,Yes,No,4.0,Intermediate,Brief Intervention,at least 100,Drinks three/four times weekly,Null,Null,Degree,3.0,3.0,2.0,2.0,0.0,1.0,3.0,IV,14,nan
+WeGhFQ,Yes,No,0.0,Substantial,Intensive,Never smoked,Drinks once/twice weekly,Normal,Null,GCSE/O-level,3.0,2.0,2.0,2.0,3.0,1.0,0.0,IV,1.2,I
+dMJLEC,No,No,0.0,Intermediate,nan,Past smoker,Non drinker,Mild,Mild,nan,0.0,4.0,2.0,0.0,2.0,0.0,4.0,II,9,V
+BLkHWY,No,No,999.0,nan,Brief Intervention,nan,Non drinker,Severe,Normal,nan,1.0,6.0,3.0,3.0,1.0,0.0,6.0,V,6,I
+GgRbVj,Yes,No,4.0,Substantial,nan,at least 100,Occasional drinker,Mild,Null,Degree,3.0,3.0,2.0,1.0,1.0,2.0,0.0,-,1.1,IV
+UqsBrC,No,Yes,3.0,Low,Outpatient (Intensive),Non current,Past drinker,Moderate,Moderate,GCSE/O-level,2.0,0.0,2.0,0.0,0.0,2.0,6.0,II,6,IIIM
+ymUmDo,No,No,1.0,nan,nan,Non current,Drinks one/three times monthly,Mild,Mild,None,3.0,4.0,2.0,1.0,0.0,2.0,5.0,-,15,IIIM
+VoeYVV,Yes,No,0.0,Low,Brief Intervention,at least 100,Drinks daily,Null,Moderate,Degree,2.0,4.0,2.0,1.0,3.0,0.0,2.0,IV,8,nan
+EmSgbc,Yes,Yes,3.0,Intermediate,Intensive,Never smoked,Drinks one/three times monthly,Moderate,Mild,Degree,1.0,1.0,0.0,1.0,0.0,2.0,4.0,I,2.1,IIIN
+wjALzq,No,Yes,2.0,Substantial,Outpatient (Intensive),Non current,Past drinker,Moderate,Moderate,Degree,1.0,3.0,1.0,0.0,1.0,0.0,1.0,-,1.2,V
+GdcsWO,No,No,4.0,Substantial,nan,less than 100,Past drinker,Severe,Moderate,A-level,1.0,2.0,3.0,1.0,3.0,3.0,5.0,I,-,IV
+irBEPJ,No,Yes,2.0,Substantial,Outpatient (Intensive),Non current,Drinks one/three times monthly,Moderate,Moderate,A-level,1.0,6.0,0.0,1.0,3.0,0.0,1.0,I,6,IIIM
+RrBrvE,No,No,999.0,Intermediate,Outpatient (Intensive),less than 100,Past drinker,Severe,Null,None,1.0,2.0,1.0,3.0,0.0,0.0,1.0,IIIM,6,IIIM
+zHnjhe,No,No,3.0,Low,Intensive,nan,Occasional drinker,Severe,Normal,None,2.0,1.0,3.0,3.0,0.0,3.0,6.0,IIIN,14,IIIM
+cThfRx,No,Yes,0.0,Intermediate,Intensive,at least 100,Drinks once/twice weekly,Null,Normal,None,0.0,2.0,1.0,1.0,0.0,2.0,4.0,V,14,nan
+phIaqI,Yes,No,3.0,Low,nan,Past smoker,nan,Moderate,Null,None,2.0,5.0,3.0,3.0,3.0,0.0,3.0,IIIN,17,IIIN
+RpdjuF,Yes,Yes,0.0,Intermediate,Intensive,Occasional current,Drinks daily,Normal,Severe,GCSE/O-level,2.0,2.0,1.0,1.0,3.0,1.0,3.0,-,10,IIIM
+frNbvT,Yes,Yes,5.0,Substantial,Outpatient (Intensive),Never smoked,Non drinker,Null,Severe,GCSE/O-level,0.0,1.0,1.0,1.0,0.0,2.0,2.0,V,12,nan
+PAnsWC,Yes,No,999.0,Intermediate,Outpatient (Intensive),Occasional current,Drinks three/four times weekly,Normal,Normal,A-level,3.0,5.0,3.0,1.0,0.0,1.0,3.0,IIIM,5.2,II
+ekzmAs,No,No,1.0,Low,Intensive,Non current,Drinks once/twice weekly,Mild,Null,nan,0.0,5.0,1.0,3.0,0.0,0.0,4.0,II,12,II
+QnkMBr,Yes,No,0.0,nan,nan,at least 100,nan,Null,Mild,None,1.0,0.0,0.0,1.0,0.0,2.0,0.0,nan,12,IIIM
+mYnPWH,Yes,No,1.0,Substantial,Outpatient (Intensive),Occasional current,Non drinker,Normal,Null,A-level,1.0,5.0,0.0,3.0,1.0,0.0,0.0,II,17,II
+tqvUrS,Yes,No,1.0,Substantial,Intensive,Past smoker,Past drinker,Normal,Normal,None,3.0,0.0,2.0,0.0,3.0,3.0,4.0,I,-,IIIN
+GJdPkp,No,No,4.0,Intermediate,Intensive,Never smoked,Drinks three/four times weekly,Severe,Normal,nan,1.0,5.0,3.0,3.0,3.0,1.0,2.0,II,6,V
+YKmddn,No,No,5.0,Intermediate,Intensive,Occasional current,Non drinker,Mild,Moderate,A-level,0.0,6.0,2.0,0.0,0.0,0.0,2.0,I,9,IV
+fZslZJ,No,No,0.0,Substantial,Outpatient (Intensive),Non current,Past drinker,Severe,Moderate,nan,1.0,3.0,0.0,1.0,2.0,0.0,3.0,IIIM,2.1,V
+TsNUnq,Yes,Yes,999.0,Low,Brief Intervention,nan,Drinks daily,Moderate,Normal,Degree,1.0,5.0,0.0,2.0,1.0,2.0,5.0,IV,8,V
+OGOTsb,No,No,0.0,Low,Brief Intervention,Non current,Drinks three/four times weekly,Normal,Mild,None,0.0,3.0,1.0,0.0,3.0,0.0,3.0,IIIM,11,II
+dwTpMR,Yes,No,3.0,Low,nan,Occasional current,nan,Mild,Severe,GCSE/O-level,2.0,5.0,3.0,2.0,1.0,1.0,5.0,V,-,V
+IYRDTq,No,No,0.0,Substantial,Brief Intervention,at least 100,Drinks three/four times weekly,Severe,Normal,Degree,0.0,6.0,1.0,3.0,1.0,3.0,6.0,II,7,IIIM
+cCQwkr,Yes,No,5.0,nan,Outpatient (Intensive),Never smoked,nan,Normal,Normal,None,1.0,4.0,3.0,1.0,1.0,2.0,4.0,I,1.2,I
+RUtSLh,No,Yes,4.0,Intermediate,nan,at least 100,Occasional drinker,Mild,Null,GCSE/O-level,1.0,0.0,3.0,0.0,3.0,3.0,2.0,-,4,II
+XOptZv,No,Yes,2.0,Low,Brief Intervention,Occasional current,Drinks one/three times monthly,Null,Normal,GCSE/O-level,0.0,4.0,0.0,3.0,0.0,1.0,3.0,nan,4,IIIM
+zYGiJm,Yes,Yes,4.0,Low,nan,Past smoker,Drinks once/twice weekly,Mild,Severe,None,2.0,4.0,3.0,2.0,3.0,2.0,1.0,V,7,I
+xCqcYB,No,Yes,4.0,nan,Outpatient (Intensive),at least 100,Occasional drinker,Moderate,Null,GCSE/O-level,0.0,5.0,1.0,2.0,1.0,1.0,3.0,IV,6,I
+FuENOF,No,Yes,3.0,Intermediate,Brief Intervention,less than 100,nan,Null,Normal,GCSE/O-level,1.0,0.0,0.0,3.0,2.0,1.0,5.0,IV,7,V
+jCOuWi,Yes,Yes,5.0,Substantial,Intensive,Current smoker,Non drinker,Moderate,Severe,None,0.0,4.0,1.0,0.0,2.0,2.0,3.0,IIIM,2.1,V
+yXofbJ,No,Yes,0.0,nan,Brief Intervention,Never smoked,Past drinker,Normal,Severe,GCSE/O-level,2.0,2.0,3.0,2.0,0.0,3.0,1.0,-,2.2,V
+WrbSNG,No,Yes,999.0,Low,Outpatient (Intensive),Past smoker,Non drinker,Severe,Mild,nan,0.0,2.0,2.0,2.0,1.0,3.0,3.0,V,15,IIIN
+PTvIgr,Yes,Yes,1.0,Substantial,nan,at least 100,Drinks three/four times weekly,Normal,Null,A-level,0.0,0.0,2.0,2.0,3.0,0.0,0.0,V,5.2,nan
+PKmdDo,Yes,No,0.0,nan,Intensive,Occasional current,Occasional drinker,Severe,Normal,None,3.0,6.0,0.0,1.0,3.0,0.0,1.0,IV,1.1,II
+CkTDfc,Yes,Yes,4.0,Intermediate,Brief Intervention,Occasional current,Non drinker,Null,Normal,nan,3.0,2.0,0.0,0.0,1.0,3.0,4.0,II,8,II
+oBnQto,Yes,No,5.0,Intermediate,Brief Intervention,Non current,Drinks once/twice weekly,Severe,Mild,Degree,1.0,5.0,0.0,0.0,2.0,2.0,2.0,II,3,IV
+AZLusA,No,Yes,999.0,Substantial,Intensive,Non current,Drinks three/four times weekly,Null,Null,nan,3.0,2.0,3.0,0.0,0.0,3.0,0.0,IIIN,nan,V
+qFVTUO,Yes,No,1.0,Substantial,Brief Intervention,Non current,Non drinker,Severe,Normal,Degree,0.0,5.0,2.0,1.0,0.0,3.0,2.0,IIIM,-,IIIM
+qiLZHG,No,No,999.0,Substantial,Intensive,Current smoker,nan,Null,Null,GCSE/O-level,1.0,1.0,2.0,0.0,2.0,0.0,1.0,V,15,V
+RsWCSC,No,No,4.0,nan,Brief Intervention,less than 100,nan,Null,Severe,Degree,2.0,4.0,2.0,1.0,0.0,0.0,6.0,II,nan,IIIM
+ccKoSd,No,No,4.0,Low,Outpatient (Intensive),Past smoker,Drinks daily,Normal,Null,A-level,3.0,4.0,2.0,0.0,3.0,1.0,5.0,V,-,IV
+IXMKdF,Yes,No,4.0,Low,Brief Intervention,nan,nan,Severe,Moderate,None,0.0,4.0,0.0,1.0,3.0,1.0,2.0,IV,nan,IV
+rmmcwI,No,No,5.0,nan,Outpatient (Intensive),less than 100,Drinks one/three times monthly,Severe,Null,A-level,1.0,1.0,1.0,2.0,2.0,3.0,4.0,IIIM,6,IIIN
+UMKtFz,No,No,3.0,Substantial,Outpatient (Intensive),less than 100,Non drinker,Moderate,Severe,GCSE/O-level,1.0,3.0,2.0,1.0,3.0,0.0,2.0,V,-,IIIM
+SdOHpK,Yes,No,5.0,Low,nan,nan,nan,Normal,Moderate,A-level,1.0,5.0,1.0,0.0,3.0,3.0,3.0,-,2.2,V
+MbUIoK,No,Yes,999.0,Low,nan,Non current,Drinks once/twice weekly,Severe,Mild,None,3.0,3.0,3.0,3.0,3.0,0.0,5.0,IV,8,nan
+Szvvrb,No,No,4.0,nan,Outpatient (Intensive),nan,Non drinker,Severe,Normal,Degree,3.0,2.0,0.0,1.0,1.0,3.0,2.0,IIIN,2.1,nan
+mvMzcF,No,Yes,3.0,Low,Intensive,Occasional current,Occasional drinker,Severe,Normal,A-level,1.0,3.0,0.0,3.0,2.0,0.0,4.0,IIIN,8,I
+APcwTM,No,Yes,999.0,Substantial,nan,at least 100,Drinks once/twice weekly,Moderate,Severe,GCSE/O-level,1.0,5.0,1.0,1.0,1.0,2.0,4.0,nan,8,IV
+MJuJxy,Yes,No,4.0,Low,nan,Non current,nan,Null,Moderate,nan,1.0,5.0,2.0,3.0,3.0,1.0,0.0,V,1.2,IIIM
+IixkqM,Yes,Yes,5.0,Substantial,Intensive,Occasional current,Past drinker,Mild,Mild,None,3.0,3.0,2.0,3.0,2.0,0.0,5.0,-,11,IIIM
+Ejrgoj,Yes,Yes,2.0,Intermediate,Outpatient (Intensive),less than 100,Non drinker,Normal,Mild,None,3.0,2.0,2.0,0.0,1.0,1.0,5.0,II,6,IIIM
+qrkFBN,No,Yes,0.0,Substantial,Intensive,Non current,Non drinker,Moderate,Severe,Degree,2.0,3.0,2.0,2.0,3.0,1.0,1.0,IV,15,V
+iCWwfR,Yes,No,4.0,Low,Outpatient (Intensive),nan,Drinks daily,Moderate,Severe,GCSE/O-level,2.0,6.0,3.0,1.0,0.0,0.0,2.0,IIIM,nan,II
+TlOUUi,Yes,Yes,1.0,nan,nan,nan,Non drinker,Normal,Moderate,None,1.0,5.0,2.0,0.0,2.0,1.0,2.0,II,6,I
+kZVzcN,Yes,No,2.0,Intermediate,Intensive,less than 100,Drinks daily,Severe,Normal,None,1.0,5.0,0.0,0.0,0.0,3.0,5.0,V,5.2,I
+ybvdqL,No,Yes,999.0,Low,nan,Non current,Drinks one/three times monthly,Mild,Severe,Degree,1.0,4.0,1.0,0.0,0.0,3.0,6.0,IIIN,11,IV
+iuucuf,Yes,Yes,2.0,nan,nan,less than 100,Past drinker,Normal,Severe,None,3.0,4.0,0.0,0.0,1.0,1.0,5.0,IIIN,2.1,IV
+eIQOlQ,No,Yes,999.0,nan,Brief Intervention,Never smoked,Occasional drinker,Mild,Mild,GCSE/O-level,2.0,4.0,2.0,0.0,2.0,1.0,6.0,IIIM,1.2,IV
+WUwWOn,No,Yes,999.0,Intermediate,nan,Current smoker,Occasional drinker,Mild,Mild,Degree,3.0,2.0,2.0,2.0,0.0,2.0,4.0,V,5.2,IV
+rhFZto,No,No,999.0,Substantial,Intensive,Occasional current,Non drinker,Mild,Mild,None,3.0,3.0,2.0,2.0,1.0,2.0,3.0,V,10,II
+JOitiE,No,Yes,2.0,Intermediate,Outpatient (Intensive),Occasional current,Drinks one/three times monthly,Normal,Null,A-level,1.0,5.0,1.0,1.0,1.0,3.0,6.0,IV,7,IIIN
+sHGDbO,Yes,Yes,0.0,Intermediate,Intensive,less than 100,Drinks three/four times weekly,Null,Severe,A-level,2.0,2.0,1.0,1.0,2.0,2.0,0.0,V,6,V
+EqgpRS,No,No,5.0,nan,Intensive,Non current,Drinks three/four times weekly,Mild,Severe,A-level,0.0,3.0,1.0,2.0,3.0,1.0,2.0,nan,1.2,V
+kpaJah,Yes,Yes,2.0,Substantial,Outpatient (Intensive),Current smoker,nan,Mild,Null,nan,1.0,5.0,3.0,1.0,0.0,2.0,5.0,IIIM,12,nan
+mreLfF,Yes,No,1.0,Substantial,Brief Intervention,at least 100,Past drinker,Mild,Mild,Degree,3.0,3.0,1.0,1.0,1.0,2.0,0.0,I,11,IIIN
+JBisOL,No,Yes,999.0,nan,Brief Intervention,Occasional current,nan,Severe,Normal,Degree,2.0,5.0,1.0,2.0,2.0,1.0,6.0,IIIN,12,V
+jypXCb,No,No,4.0,Low,nan,at least 100,Drinks one/three times monthly,Severe,Normal,GCSE/O-level,0.0,1.0,2.0,2.0,1.0,1.0,6.0,II,1.1,I
+UthcTq,Yes,Yes,3.0,Intermediate,nan,Occasional current,Occasional drinker,Moderate,Moderate,None,1.0,1.0,2.0,3.0,0.0,2.0,6.0,V,17,II
+MjOQXL,Yes,Yes,1.0,nan,Outpatient (Intensive),Never smoked,Occasional drinker,Moderate,Severe,A-level,0.0,1.0,1.0,1.0,1.0,3.0,2.0,IIIM,11,V
+rZdHlf,Yes,No,2.0,Low,Intensive,Non current,nan,Normal,Severe,Degree,0.0,3.0,1.0,0.0,2.0,0.0,4.0,IIIN,5.1,V
+rYmsLy,Yes,No,5.0,nan,nan,less than 100,Drinks three/four times weekly,Moderate,Moderate,None,2.0,5.0,3.0,2.0,3.0,1.0,6.0,nan,2.1,nan
+ySzTpv,Yes,Yes,4.0,Substantial,nan,at least 100,nan,Null,Severe,A-level,3.0,3.0,2.0,2.0,1.0,1.0,2.0,IIIM,1.2,II
+aUSFqI,Yes,No,1.0,Low,Intensive,at least 100,Drinks one/three times monthly,Severe,Moderate,Degree,3.0,5.0,2.0,0.0,3.0,2.0,5.0,nan,14,I
+qftQoQ,Yes,Yes,2.0,Substantial,Outpatient (Intensive),Current smoker,Occasional drinker,Null,Normal,None,1.0,4.0,3.0,1.0,2.0,2.0,1.0,-,nan,nan
+tkZUEz,Yes,Yes,2.0,Low,Intensive,nan,Drinks once/twice weekly,Mild,Normal,A-level,1.0,4.0,3.0,2.0,3.0,0.0,4.0,V,2.1,IV
+TcbyTJ,No,No,5.0,Substantial,Intensive,Current smoker,Occasional drinker,Mild,Mild,Degree,2.0,1.0,1.0,0.0,2.0,2.0,1.0,II,7,nan
+QNZRlD,Yes,Yes,0.0,Substantial,Intensive,Past smoker,nan,Moderate,Mild,nan,0.0,4.0,2.0,0.0,1.0,3.0,1.0,I,5.1,V
+pBZObG,Yes,Yes,999.0,nan,Outpatient (Intensive),Occasional current,Drinks daily,Severe,Moderate,Degree,3.0,5.0,1.0,3.0,0.0,0.0,3.0,nan,8,I
+ptDSmM,No,No,2.0,Low,Intensive,Never smoked,Drinks once/twice weekly,Severe,Null,nan,0.0,4.0,3.0,2.0,1.0,0.0,3.0,IV,3,V
+ibfqnP,No,Yes,2.0,nan,Intensive,nan,Drinks three/four times weekly,Normal,Moderate,None,1.0,2.0,0.0,1.0,1.0,3.0,2.0,V,8,II
+QuHcyL,No,Yes,4.0,Substantial,Brief Intervention,Past smoker,Non drinker,Severe,Severe,None,3.0,6.0,1.0,2.0,2.0,2.0,5.0,V,17,IIIN
+PcjUlq,Yes,No,3.0,Intermediate,Outpatient (Intensive),less than 100,Past drinker,Severe,Mild,nan,2.0,3.0,2.0,2.0,1.0,0.0,3.0,-,6,V
+kDxvQl,Yes,Yes,3.0,nan,Brief Intervention,Non current,Past drinker,Mild,Severe,None,1.0,3.0,3.0,2.0,1.0,3.0,2.0,nan,14,I
+pifyBk,Yes,No,1.0,nan,Brief Intervention,at least 100,Non drinker,Severe,Moderate,Degree,1.0,5.0,0.0,0.0,2.0,1.0,6.0,V,5.1,IIIM
+gXxdBe,No,No,3.0,Low,nan,Occasional current,nan,Severe,Null,Degree,0.0,1.0,1.0,1.0,3.0,3.0,0.0,IV,4,IV
+UBTzLs,Yes,Yes,1.0,Low,Outpatient (Intensive),nan,Drinks one/three times monthly,Null,Moderate,GCSE/O-level,0.0,1.0,2.0,1.0,2.0,0.0,3.0,II,17,IV
+eKSEfw,Yes,No,1.0,Intermediate,Intensive,at least 100,Past drinker,Normal,Mild,None,0.0,4.0,1.0,2.0,0.0,0.0,0.0,V,11,IV
+rNQmOq,Yes,Yes,3.0,Low,Intensive,less than 100,nan,Null,Mild,None,1.0,1.0,0.0,1.0,1.0,3.0,1.0,IIIM,7,II
+vljOFv,No,No,0.0,Low,Brief Intervention,less than 100,Drinks once/twice weekly,Null,Normal,GCSE/O-level,3.0,1.0,0.0,1.0,3.0,0.0,1.0,I,5.1,V
+xthwrx,No,Yes,2.0,Low,nan,less than 100,Past drinker,Moderate,Normal,None,3.0,3.0,2.0,2.0,0.0,1.0,5.0,-,7,V
+OblvdS,Yes,Yes,999.0,Intermediate,Intensive,Current smoker,Non drinker,Normal,Mild,A-level,3.0,2.0,0.0,3.0,2.0,0.0,4.0,nan,1.1,IIIN
+AjAekG,No,Yes,999.0,Low,Brief Intervention,Occasional current,Drinks one/three times monthly,Moderate,Severe,A-level,0.0,3.0,3.0,1.0,3.0,0.0,0.0,V,1.2,IIIN
+NkoBIm,No,No,4.0,Low,Intensive,Never smoked,Drinks three/four times weekly,Moderate,Severe,A-level,2.0,4.0,0.0,1.0,0.0,2.0,4.0,II,6,II
+YUHNNG,Yes,No,5.0,Intermediate,Intensive,Occasional current,nan,Normal,Moderate,nan,1.0,4.0,2.0,3.0,3.0,2.0,0.0,IV,5.2,II
+ZGIVqB,No,Yes,2.0,nan,nan,less than 100,Past drinker,Moderate,Mild,A-level,3.0,4.0,3.0,2.0,1.0,1.0,5.0,-,1.2,IIIN
+txLYZX,Yes,Yes,4.0,Intermediate,Brief Intervention,Never smoked,Occasional drinker,Mild,Severe,Degree,0.0,5.0,1.0,3.0,3.0,1.0,5.0,-,7,V
+fWPdBT,No,No,1.0,nan,Outpatient (Intensive),Occasional current,Non drinker,Null,Severe,A-level,3.0,2.0,0.0,3.0,0.0,1.0,1.0,II,10,I
+TCdSqE,Yes,No,5.0,Intermediate,Intensive,Never smoked,Non drinker,Moderate,Null,GCSE/O-level,2.0,2.0,3.0,3.0,3.0,2.0,1.0,IV,-,V
+IDCqpR,No,No,2.0,Intermediate,nan,Past smoker,Past drinker,Null,Mild,None,0.0,6.0,2.0,2.0,2.0,0.0,2.0,IV,2.1,I
+csVeGi,Yes,Yes,5.0,Low,nan,Past smoker,Occasional drinker,Null,Moderate,GCSE/O-level,1.0,6.0,0.0,1.0,1.0,2.0,6.0,I,7,IIIN
+wNRzrR,No,No,5.0,nan,nan,at least 100,Past drinker,Severe,Null,A-level,3.0,5.0,1.0,1.0,3.0,0.0,3.0,nan,11,II
+AqtPkZ,No,Yes,5.0,Intermediate,Brief Intervention,Non current,Drinks one/three times monthly,Mild,Normal,GCSE/O-level,1.0,5.0,2.0,0.0,2.0,0.0,2.0,II,-,II
+HNwHws,No,No,5.0,Low,Brief Intervention,Current smoker,Drinks three/four times weekly,Null,Normal,GCSE/O-level,0.0,5.0,2.0,3.0,3.0,2.0,4.0,V,11,IIIM
+cefqgF,Yes,No,2.0,Substantial,nan,Current smoker,Past drinker,Null,Mild,A-level,0.0,0.0,3.0,1.0,2.0,0.0,0.0,IIIN,8,II
+qxFISs,Yes,No,0.0,Low,Brief Intervention,at least 100,Drinks daily,Normal,Severe,A-level,2.0,1.0,2.0,0.0,2.0,2.0,5.0,IIIN,2.1,II
+PbTzNN,No,No,999.0,Substantial,Outpatient (Intensive),Current smoker,Drinks three/four times weekly,Severe,Moderate,GCSE/O-level,3.0,4.0,2.0,2.0,3.0,2.0,0.0,II,1.2,IIIN
+CypDsS,Yes,Yes,4.0,nan,Outpatient (Intensive),Occasional current,Drinks once/twice weekly,Null,Null,GCSE/O-level,1.0,6.0,3.0,3.0,3.0,0.0,6.0,I,1.1,V
+UtpLGY,No,Yes,1.0,Substantial,Brief Intervention,less than 100,nan,Mild,Null,GCSE/O-level,2.0,5.0,3.0,1.0,2.0,0.0,2.0,V,1.1,IIIM
+aOrFUf,No,Yes,3.0,Intermediate,Brief Intervention,Occasional current,Drinks one/three times monthly,Severe,Null,Degree,2.0,1.0,0.0,2.0,3.0,0.0,6.0,IIIN,7,IIIM
+qnPxCT,No,No,0.0,Intermediate,Intensive,at least 100,Drinks once/twice weekly,Null,Mild,Degree,2.0,4.0,2.0,2.0,1.0,2.0,4.0,II,12,IIIM
+SsINGF,Yes,No,3.0,Intermediate,nan,Current smoker,Drinks daily,Severe,Severe,None,2.0,3.0,0.0,1.0,2.0,3.0,4.0,I,7,II
+OLrBym,No,Yes,999.0,Low,Outpatient (Intensive),Never smoked,Drinks three/four times weekly,Severe,Moderate,None,1.0,6.0,0.0,3.0,0.0,1.0,4.0,IIIN,11,IIIM
+HWqUeQ,Yes,No,0.0,Substantial,Brief Intervention,at least 100,Non drinker,Null,Mild,Degree,1.0,2.0,2.0,1.0,2.0,3.0,5.0,IIIN,6,IV
+lUxfQe,Yes,No,999.0,Intermediate,nan,Past smoker,Drinks daily,Normal,Moderate,None,0.0,1.0,2.0,0.0,3.0,0.0,4.0,I,5.2,II
+DSLROd,No,No,2.0,nan,Intensive,less than 100,Past drinker,Null,Mild,Degree,0.0,1.0,3.0,1.0,1.0,0.0,3.0,I,9,nan
+GvrhQR,Yes,No,5.0,Substantial,Intensive,Occasional current,Past drinker,Normal,Null,A-level,1.0,2.0,3.0,0.0,1.0,3.0,3.0,-,7,IV
+QFRyzm,Yes,Yes,999.0,nan,Intensive,less than 100,Past drinker,Moderate,Moderate,nan,2.0,5.0,2.0,0.0,3.0,2.0,3.0,IIIN,2.2,IIIN
+FuVaDh,No,Yes,3.0,Intermediate,nan,Current smoker,Drinks daily,Severe,Normal,Degree,3.0,0.0,0.0,0.0,0.0,2.0,5.0,-,-,IIIM
+pUIOqU,Yes,Yes,3.0,nan,nan,at least 100,Drinks once/twice weekly,Moderate,Mild,nan,1.0,6.0,2.0,0.0,2.0,2.0,2.0,I,11,V
+AmiVAu,Yes,No,3.0,Low,Intensive,Non current,Occasional drinker,Severe,Null,GCSE/O-level,0.0,4.0,0.0,0.0,2.0,0.0,3.0,-,14,IV
+LGkrAH,No,No,5.0,Substantial,Brief Intervention,Non current,nan,Mild,Mild,A-level,1.0,4.0,3.0,1.0,0.0,1.0,2.0,II,2.1,I
+HYKhjU,Yes,No,3.0,Low,nan,less than 100,Non drinker,Moderate,Mild,GCSE/O-level,1.0,3.0,1.0,0.0,1.0,0.0,3.0,IIIM,14,IV
+woWfMl,No,Yes,4.0,Intermediate,Outpatient (Intensive),Non current,Drinks three/four times weekly,Null,Moderate,GCSE/O-level,0.0,5.0,3.0,0.0,1.0,0.0,6.0,II,11,II
+SsktbX,No,Yes,1.0,Low,Intensive,Non current,Drinks once/twice weekly,Moderate,Normal,None,0.0,4.0,0.0,3.0,2.0,0.0,1.0,I,5.1,V
+QnBpbK,Yes,Yes,2.0,nan,Intensive,Occasional current,Drinks three/four times weekly,Normal,Severe,nan,2.0,5.0,0.0,3.0,3.0,1.0,5.0,IIIN,-,IIIN
+AuwnEX,Yes,No,5.0,Low,Brief Intervention,Non current,Drinks one/three times monthly,Severe,Moderate,GCSE/O-level,3.0,5.0,2.0,0.0,2.0,3.0,1.0,II,10,V
+BbSrlh,Yes,Yes,999.0,Substantial,Intensive,nan,Drinks three/four times weekly,Severe,Mild,A-level,3.0,3.0,3.0,0.0,3.0,3.0,1.0,II,7,IV
+kaSipp,No,Yes,2.0,Substantial,Intensive,Occasional current,Drinks one/three times monthly,Null,Severe,Degree,2.0,2.0,3.0,3.0,3.0,1.0,4.0,V,1.2,IIIM
+PJMztF,No,Yes,999.0,nan,Outpatient (Intensive),nan,Drinks daily,Null,Normal,None,2.0,6.0,0.0,3.0,2.0,2.0,5.0,IV,-,I
+zkdNUO,Yes,No,3.0,Substantial,Intensive,nan,Drinks three/four times weekly,Normal,Moderate,None,0.0,2.0,0.0,2.0,3.0,1.0,4.0,-,3,nan
+zcgKmG,No,No,0.0,Substantial,Intensive,at least 100,Past drinker,Severe,Null,GCSE/O-level,2.0,4.0,1.0,1.0,3.0,0.0,4.0,I,9,II
+XuFNcj,No,Yes,5.0,Low,Outpatient (Intensive),less than 100,Past drinker,Normal,Null,Degree,3.0,4.0,3.0,3.0,0.0,1.0,0.0,IV,6,II
+KswlRl,No,Yes,3.0,Intermediate,Intensive,Never smoked,Past drinker,Mild,Null,GCSE/O-level,2.0,3.0,3.0,3.0,2.0,3.0,6.0,-,9,II
+kjkPlx,Yes,Yes,4.0,Low,Brief Intervention,nan,Occasional drinker,Moderate,Mild,nan,3.0,3.0,1.0,3.0,0.0,1.0,0.0,IIIN,7,II
+qWlhuR,No,No,4.0,Low,Intensive,Occasional current,Drinks once/twice weekly,Normal,Severe,Degree,3.0,3.0,3.0,3.0,3.0,3.0,6.0,IV,11,nan
+HhbKcz,No,Yes,999.0,nan,Brief Intervention,Past smoker,Past drinker,Moderate,Severe,A-level,1.0,5.0,3.0,3.0,3.0,3.0,6.0,IIIM,17,nan
+eFeKYq,No,No,2.0,Low,Intensive,Current smoker,Past drinker,Severe,Null,nan,0.0,2.0,3.0,0.0,1.0,0.0,1.0,II,1.1,nan
+KOwhoI,Yes,Yes,999.0,nan,Outpatient (Intensive),less than 100,Drinks one/three times monthly,Mild,Severe,GCSE/O-level,0.0,3.0,3.0,1.0,3.0,3.0,6.0,IV,2.2,IIIN
+jKhoCN,Yes,Yes,2.0,Substantial,Brief Intervention,Non current,Past drinker,Severe,Mild,nan,2.0,3.0,3.0,2.0,0.0,2.0,4.0,-,1.1,II
+fysRhn,Yes,Yes,4.0,Substantial,Intensive,at least 100,nan,Null,Severe,None,0.0,0.0,2.0,1.0,2.0,1.0,3.0,II,14,IV
+RxwAlb,Yes,No,4.0,Low,Intensive,Non current,Drinks daily,Mild,Null,None,3.0,5.0,0.0,3.0,3.0,3.0,6.0,V,15,IIIN
+BtiSKQ,Yes,Yes,4.0,Intermediate,Intensive,at least 100,nan,Null,Moderate,GCSE/O-level,3.0,1.0,2.0,0.0,0.0,0.0,0.0,IIIM,-,I
+XveyXj,Yes,Yes,1.0,Intermediate,Brief Intervention,at least 100,Non drinker,Moderate,Null,GCSE/O-level,3.0,1.0,3.0,3.0,0.0,1.0,6.0,V,3,II
+pIEOik,No,No,1.0,Substantial,nan,Past smoker,Drinks daily,Normal,Severe,A-level,3.0,3.0,2.0,3.0,1.0,2.0,6.0,I,1.2,II
+EhDfaA,Yes,Yes,2.0,Substantial,Outpatient (Intensive),Occasional current,Occasional drinker,Moderate,Mild,GCSE/O-level,1.0,0.0,0.0,0.0,0.0,2.0,2.0,V,5.1,IIIN
+kaGUmT,No,Yes,4.0,nan,nan,Never smoked,nan,Mild,Null,None,2.0,1.0,3.0,1.0,0.0,3.0,2.0,IV,9,V
+ViJhzm,No,Yes,0.0,nan,nan,Current smoker,Drinks one/three times monthly,Mild,Mild,A-level,1.0,5.0,0.0,0.0,1.0,2.0,6.0,II,15,IIIN
+kLeEDj,Yes,Yes,999.0,Intermediate,Intensive,Non current,Drinks once/twice weekly,Normal,Null,Degree,2.0,3.0,2.0,3.0,1.0,1.0,1.0,II,2.1,II
+PYgkLc,Yes,No,1.0,Low,Intensive,at least 100,Past drinker,Severe,Moderate,GCSE/O-level,2.0,2.0,0.0,0.0,0.0,3.0,1.0,IIIM,14,II
+zyZYkA,Yes,No,999.0,Low,nan,at least 100,Non drinker,Mild,Severe,nan,2.0,2.0,0.0,3.0,0.0,2.0,5.0,II,14,nan
+ESySEV,No,Yes,3.0,Low,nan,Non current,Drinks one/three times monthly,Normal,Severe,nan,2.0,5.0,1.0,1.0,3.0,1.0,5.0,nan,9,nan
+QGQJlI,No,No,1.0,Low,Intensive,Occasional current,Non drinker,Moderate,Normal,A-level,0.0,2.0,0.0,3.0,0.0,0.0,5.0,nan,7,I
+JURsSj,No,No,0.0,Substantial,Brief Intervention,nan,Drinks three/four times weekly,Mild,Severe,None,3.0,2.0,0.0,3.0,3.0,3.0,0.0,-,7,I
+wWuGgM,No,Yes,0.0,Substantial,Intensive,Never smoked,Past drinker,Severe,Normal,Degree,1.0,1.0,0.0,1.0,3.0,0.0,0.0,V,17,IV
+KZXjmq,Yes,Yes,2.0,Intermediate,nan,Non current,Drinks once/twice weekly,Severe,Null,A-level,3.0,3.0,2.0,1.0,1.0,0.0,4.0,I,6,V
+KyEeSg,No,No,999.0,Low,Outpatient (Intensive),Non current,nan,Normal,Normal,GCSE/O-level,1.0,4.0,0.0,0.0,3.0,1.0,6.0,V,7,II
+cZhXxA,No,No,2.0,nan,nan,Never smoked,Non drinker,Normal,Mild,A-level,1.0,0.0,0.0,3.0,3.0,0.0,6.0,II,10,IIIM
+SXwoTs,No,No,1.0,nan,nan,Occasional current,Drinks once/twice weekly,Severe,Normal,nan,3.0,1.0,1.0,0.0,0.0,2.0,2.0,-,15,IV
+TWHqVD,No,Yes,999.0,Substantial,Outpatient (Intensive),at least 100,Drinks three/four times weekly,Normal,Moderate,GCSE/O-level,2.0,5.0,1.0,1.0,3.0,0.0,0.0,IIIM,17,V
+VqJVsk,Yes,Yes,5.0,Low,Outpatient (Intensive),less than 100,Drinks one/three times monthly,Severe,Mild,Degree,0.0,0.0,2.0,2.0,3.0,2.0,3.0,V,5.2,V
+ipkvxs,Yes,Yes,999.0,Substantial,nan,less than 100,nan,Moderate,Moderate,Degree,3.0,3.0,3.0,3.0,3.0,3.0,2.0,I,11,IV
+nlbQjQ,No,No,999.0,Low,Outpatient (Intensive),Past smoker,Non drinker,Mild,Null,Degree,0.0,1.0,2.0,0.0,2.0,0.0,6.0,V,5.1,I
+uVmTLo,Yes,Yes,0.0,Low,nan,less than 100,Drinks once/twice weekly,Normal,Normal,nan,0.0,2.0,2.0,1.0,3.0,3.0,3.0,IV,9,I
+FAHQqH,No,Yes,2.0,Substantial,Intensive,Occasional current,Drinks one/three times monthly,Normal,Mild,GCSE/O-level,2.0,4.0,1.0,2.0,0.0,1.0,3.0,IIIN,4,IV
+EuUCry,No,Yes,5.0,Substantial,nan,Current smoker,nan,Mild,Normal,nan,1.0,2.0,1.0,3.0,2.0,2.0,2.0,-,2.1,IV
+KJKGaN,No,No,999.0,Intermediate,Brief Intervention,at least 100,Drinks three/four times weekly,Normal,Null,None,2.0,0.0,1.0,1.0,3.0,2.0,6.0,II,9,IIIN
+SlUblH,No,No,1.0,Low,Outpatient (Intensive),Occasional current,Drinks three/four times weekly,Severe,Null,Degree,1.0,5.0,1.0,3.0,1.0,3.0,3.0,IIIM,4,IIIN
+GUSQCH,No,Yes,0.0,nan,Outpatient (Intensive),Never smoked,Drinks once/twice weekly,Null,Mild,A-level,1.0,1.0,1.0,0.0,1.0,1.0,4.0,IIIN,9,nan
+zKFtkH,No,Yes,4.0,Intermediate,Brief Intervention,at least 100,nan,Moderate,Severe,GCSE/O-level,0.0,1.0,0.0,2.0,2.0,1.0,2.0,-,10,II
+hVKqRc,Yes,No,5.0,Low,nan,at least 100,Occasional drinker,Severe,Mild,A-level,2.0,6.0,0.0,0.0,2.0,2.0,3.0,-,-,II
+zfrxbT,No,No,4.0,nan,Brief Intervention,Current smoker,Past drinker,Severe,Moderate,A-level,2.0,3.0,3.0,0.0,1.0,2.0,3.0,IIIM,14,IIIN
+ZKLSBp,Yes,Yes,3.0,nan,Intensive,Occasional current,Drinks one/three times monthly,Moderate,Mild,nan,0.0,5.0,3.0,3.0,3.0,0.0,2.0,I,2.2,nan
+nONjKS,Yes,Yes,2.0,nan,Intensive,less than 100,nan,Severe,Mild,None,2.0,4.0,0.0,0.0,2.0,2.0,6.0,nan,9,IIIM
+vcOePS,No,Yes,0.0,nan,Intensive,Current smoker,Past drinker,Normal,Moderate,A-level,0.0,4.0,3.0,2.0,3.0,1.0,5.0,IIIN,5.1,V
+DZkdqo,Yes,No,2.0,nan,nan,nan,nan,Normal,Null,Degree,3.0,6.0,3.0,0.0,0.0,3.0,3.0,V,15,II
+rAtdgu,No,Yes,2.0,Intermediate,Brief Intervention,less than 100,Drinks daily,Mild,Moderate,A-level,1.0,3.0,1.0,1.0,0.0,0.0,3.0,IV,-,IV
+DNUbbL,No,Yes,999.0,Substantial,Outpatient (Intensive),at least 100,Drinks daily,Severe,Moderate,None,3.0,3.0,2.0,2.0,1.0,0.0,2.0,nan,5.1,IV
+moWoOq,Yes,Yes,4.0,Substantial,nan,Never smoked,Drinks one/three times monthly,Mild,Moderate,A-level,2.0,5.0,3.0,1.0,2.0,0.0,2.0,I,8,I
+urTZko,Yes,Yes,3.0,nan,nan,Current smoker,Drinks daily,Severe,Mild,GCSE/O-level,0.0,3.0,3.0,3.0,1.0,0.0,5.0,-,12,II
+nRZLMi,No,Yes,5.0,nan,nan,at least 100,Non drinker,Moderate,Mild,A-level,1.0,3.0,1.0,0.0,3.0,1.0,1.0,II,17,IIIN
+KDTViw,No,No,1.0,Intermediate,nan,Never smoked,Non drinker,Severe,Mild,A-level,0.0,0.0,0.0,3.0,1.0,3.0,6.0,IV,6,nan
+YjQSxB,No,No,1.0,Substantial,nan,Non current,Drinks once/twice weekly,Normal,Moderate,None,3.0,2.0,1.0,3.0,1.0,1.0,1.0,I,4,V
+TdzbHP,Yes,Yes,0.0,Substantial,Brief Intervention,at least 100,Drinks daily,Normal,Null,GCSE/O-level,1.0,2.0,0.0,0.0,2.0,0.0,1.0,I,2.1,IIIN
+VIvqBH,No,No,2.0,nan,nan,less than 100,Drinks once/twice weekly,Normal,Null,A-level,2.0,3.0,0.0,3.0,0.0,2.0,1.0,II,7,IIIN
+xERctH,No,No,4.0,Low,Intensive,Non current,nan,Null,Mild,A-level,3.0,5.0,3.0,1.0,3.0,0.0,4.0,IIIN,3,IV
+ccCUGR,Yes,Yes,3.0,Low,Outpatient (Intensive),nan,Occasional drinker,Normal,Severe,None,2.0,2.0,1.0,1.0,1.0,0.0,5.0,IIIN,2.1,V
+aSWahs,Yes,No,4.0,Intermediate,Outpatient (Intensive),at least 100,Drinks one/three times monthly,Null,Moderate,A-level,3.0,3.0,0.0,1.0,1.0,3.0,2.0,-,17,V
+ScBNrE,No,No,999.0,Substantial,Brief Intervention,Past smoker,nan,Mild,Severe,GCSE/O-level,0.0,3.0,2.0,1.0,3.0,3.0,6.0,V,1.2,IIIN
+CRxRkX,Yes,No,5.0,Substantial,Intensive,at least 100,Drinks three/four times weekly,Normal,Normal,nan,0.0,6.0,2.0,2.0,1.0,3.0,2.0,V,11,IIIM
+yekTHH,Yes,No,0.0,Intermediate,nan,Past smoker,Drinks three/four times weekly,Moderate,Mild,GCSE/O-level,1.0,2.0,0.0,3.0,1.0,3.0,1.0,nan,12,I
+QMXfBN,Yes,Yes,0.0,nan,Intensive,at least 100,nan,Moderate,Mild,Degree,3.0,6.0,2.0,0.0,1.0,0.0,2.0,IV,14,nan
+NWJSPh,No,No,5.0,Intermediate,Brief Intervention,at least 100,Occasional drinker,Moderate,Severe,GCSE/O-level,2.0,5.0,3.0,0.0,0.0,0.0,3.0,-,12,IIIM
+sPnGgb,No,Yes,999.0,nan,Outpatient (Intensive),less than 100,Drinks one/three times monthly,Severe,Mild,A-level,2.0,1.0,0.0,0.0,1.0,3.0,2.0,nan,14,II
+ZQKluc,No,No,5.0,Intermediate,nan,nan,Drinks daily,Moderate,Severe,Degree,0.0,6.0,2.0,0.0,3.0,0.0,5.0,IIIM,7,IIIN
+mNmTuc,No,No,5.0,Substantial,Brief Intervention,at least 100,Drinks daily,Null,Severe,nan,2.0,5.0,2.0,0.0,2.0,0.0,5.0,V,12,IIIM
+iulxae,Yes,Yes,3.0,Substantial,Intensive,Non current,Drinks once/twice weekly,Mild,Normal,A-level,2.0,1.0,1.0,3.0,1.0,1.0,2.0,V,1.1,I
+BeatJo,No,No,999.0,Intermediate,Brief Intervention,Current smoker,Drinks three/four times weekly,Normal,Moderate,None,2.0,5.0,3.0,2.0,1.0,2.0,6.0,II,15,V
+YBZbBp,Yes,No,0.0,Low,nan,at least 100,Past drinker,Moderate,Null,None,2.0,2.0,3.0,3.0,0.0,0.0,0.0,I,9,IIIN
+LulVRG,No,Yes,2.0,Intermediate,nan,at least 100,Drinks three/four times weekly,Normal,Moderate,nan,2.0,3.0,2.0,3.0,1.0,3.0,0.0,I,4,II
+cHIdWg,Yes,No,3.0,Intermediate,Brief Intervention,at least 100,Past drinker,Mild,Moderate,None,0.0,3.0,3.0,2.0,3.0,0.0,2.0,I,8,I
+VVvunD,No,No,4.0,Intermediate,Brief Intervention,Current smoker,Non drinker,Mild,Normal,A-level,2.0,4.0,1.0,0.0,0.0,3.0,1.0,nan,2.1,V
+vjPWGh,No,Yes,2.0,Low,Intensive,Never smoked,Past drinker,Mild,Null,Degree,0.0,5.0,1.0,3.0,3.0,0.0,2.0,II,1.2,IV
+fkwZEr,No,Yes,999.0,Substantial,nan,nan,Occasional drinker,Severe,Normal,nan,3.0,2.0,3.0,3.0,0.0,1.0,0.0,V,2.2,I
+XCOsLv,Yes,Yes,4.0,Low,Outpatient (Intensive),at least 100,Past drinker,Moderate,Normal,nan,2.0,3.0,2.0,2.0,2.0,1.0,1.0,nan,3,V
+rAilIU,No,Yes,999.0,Intermediate,Brief Intervention,less than 100,Drinks once/twice weekly,Moderate,Moderate,Degree,2.0,2.0,3.0,3.0,3.0,3.0,2.0,nan,1.1,IIIN
+uRJmIj,Yes,No,999.0,nan,Brief Intervention,at least 100,Drinks one/three times monthly,Null,Moderate,nan,0.0,4.0,0.0,2.0,3.0,3.0,4.0,IIIN,5.2,IIIN
+CTFdAV,Yes,Yes,0.0,Substantial,Brief Intervention,Never smoked,Drinks once/twice weekly,Moderate,Normal,None,0.0,1.0,1.0,1.0,2.0,1.0,4.0,II,2.1,IIIM
+JxYpUA,Yes,No,999.0,Intermediate,Brief Intervention,less than 100,Past drinker,Normal,Normal,A-level,3.0,4.0,2.0,2.0,3.0,2.0,2.0,V,12,II
+pZtqSK,Yes,No,0.0,Intermediate,nan,Occasional current,Drinks once/twice weekly,Normal,Severe,nan,3.0,1.0,2.0,3.0,2.0,2.0,3.0,nan,15,IIIM
+fetFie,No,Yes,3.0,nan,Intensive,Never smoked,Drinks once/twice weekly,Null,Normal,A-level,1.0,6.0,3.0,1.0,3.0,1.0,6.0,nan,9,II
+tccbtn,Yes,Yes,5.0,Intermediate,Brief Intervention,less than 100,Drinks daily,Mild,Null,None,1.0,2.0,3.0,2.0,1.0,0.0,3.0,I,10,I
+IBnkAq,No,Yes,999.0,nan,Brief Intervention,Non current,Past drinker,Null,Normal,nan,0.0,6.0,3.0,0.0,0.0,2.0,0.0,IV,2.2,nan
+wwZOOx,No,No,5.0,Intermediate,Outpatient (Intensive),Current smoker,Drinks three/four times weekly,Normal,Null,None,0.0,3.0,3.0,2.0,1.0,2.0,6.0,II,8,II
+hfCDef,No,Yes,3.0,Substantial,nan,Non current,Drinks three/four times weekly,Mild,Normal,A-level,3.0,1.0,0.0,2.0,1.0,2.0,0.0,nan,1.2,IIIM
+cqKSmV,No,No,3.0,Substantial,Brief Intervention,at least 100,nan,Normal,Mild,nan,0.0,5.0,0.0,0.0,3.0,2.0,5.0,nan,-,nan
+GwFZuL,Yes,Yes,0.0,nan,Brief Intervention,Occasional current,Drinks three/four times weekly,Severe,Severe,Degree,3.0,0.0,3.0,3.0,0.0,0.0,3.0,II,1.1,IV
+uMDoJW,No,No,4.0,Substantial,Outpatient (Intensive),Current smoker,nan,Moderate,Normal,GCSE/O-level,3.0,1.0,2.0,0.0,2.0,1.0,5.0,IIIN,1.1,nan
+ThBLif,No,No,999.0,Low,Outpatient (Intensive),Non current,Past drinker,Severe,Moderate,A-level,0.0,1.0,2.0,3.0,3.0,1.0,5.0,IIIN,1.1,II
+RbdxvH,No,No,1.0,nan,nan,less than 100,Drinks daily,Severe,Severe,A-level,2.0,6.0,0.0,2.0,2.0,2.0,2.0,I,-,IIIM
+rxDcjb,Yes,No,0.0,Substantial,Intensive,at least 100,Non drinker,Moderate,Severe,nan,3.0,6.0,0.0,2.0,3.0,0.0,0.0,-,15,V
+bSUAof,No,Yes,1.0,Substantial,Outpatient (Intensive),at least 100,Drinks one/three times monthly,Mild,Mild,nan,2.0,6.0,1.0,0.0,1.0,3.0,5.0,IIIM,17,V
+bEnuiR,Yes,Yes,0.0,Substantial,Outpatient (Intensive),at least 100,Occasional drinker,Moderate,Severe,nan,2.0,4.0,3.0,0.0,3.0,3.0,1.0,IIIN,1.2,IIIN
+CbIJfw,Yes,No,3.0,Substantial,Outpatient (Intensive),Non current,Drinks one/three times monthly,Mild,Moderate,None,3.0,0.0,0.0,0.0,2.0,1.0,1.0,-,nan,V
+fFzInP,No,Yes,1.0,Intermediate,Intensive,Current smoker,Past drinker,Null,Normal,None,3.0,3.0,3.0,0.0,0.0,1.0,2.0,nan,12,nan
+Ohbmwg,No,No,3.0,nan,Intensive,at least 100,Drinks three/four times weekly,Normal,Moderate,nan,0.0,6.0,2.0,1.0,2.0,2.0,0.0,V,10,II
+kWOgVT,No,No,2.0,Substantial,Intensive,Occasional current,nan,Severe,Null,None,3.0,1.0,2.0,1.0,3.0,2.0,0.0,IIIN,17,IIIN
+PqMExC,No,Yes,3.0,Low,Intensive,Never smoked,Occasional drinker,Normal,Mild,nan,2.0,5.0,3.0,0.0,3.0,0.0,2.0,II,3,IV
+XlAgAW,No,Yes,3.0,Low,nan,at least 100,Past drinker,Normal,Moderate,A-level,0.0,6.0,1.0,2.0,1.0,1.0,5.0,nan,15,II
+zJoRkL,Yes,Yes,5.0,Low,nan,less than 100,Drinks once/twice weekly,Normal,Moderate,Degree,1.0,6.0,3.0,1.0,2.0,3.0,0.0,I,1.2,V
+ryPduj,No,Yes,999.0,Intermediate,Outpatient (Intensive),Past smoker,Occasional drinker,Severe,Null,A-level,3.0,5.0,2.0,0.0,0.0,3.0,4.0,II,17,I
+BvtLop,No,Yes,1.0,Substantial,Outpatient (Intensive),Occasional current,Drinks once/twice weekly,Null,Normal,Degree,3.0,2.0,2.0,3.0,3.0,1.0,4.0,IIIM,4,IIIM
+jSoNwe,Yes,No,4.0,Low,nan,nan,Past drinker,Null,Mild,A-level,1.0,5.0,2.0,3.0,2.0,2.0,0.0,IIIM,12,nan
+bGWJDv,No,No,4.0,nan,Intensive,Non current,Drinks once/twice weekly,Mild,Null,None,3.0,0.0,0.0,1.0,2.0,3.0,5.0,IIIM,10,IIIM
+WXywzf,No,No,5.0,nan,nan,Non current,Past drinker,Null,Null,None,0.0,6.0,1.0,1.0,1.0,2.0,0.0,IV,12,IV
+wSNyFf,No,Yes,1.0,nan,Brief Intervention,Non current,Drinks one/three times monthly,Severe,Null,A-level,1.0,6.0,3.0,3.0,1.0,3.0,3.0,I,2.1,IIIM
+bwyttX,No,Yes,2.0,nan,Brief Intervention,nan,Occasional drinker,Moderate,Severe,None,0.0,3.0,2.0,1.0,0.0,2.0,0.0,I,7,IIIN
+TpUSgY,No,No,0.0,Low,Brief Intervention,Never smoked,Drinks one/three times monthly,Normal,Normal,GCSE/O-level,3.0,2.0,3.0,1.0,0.0,2.0,6.0,II,4,II
+mTZAZK,Yes,Yes,4.0,nan,Brief Intervention,Past smoker,Drinks one/three times monthly,Normal,Null,Degree,2.0,1.0,1.0,2.0,2.0,3.0,1.0,I,nan,IIIN
+YCjiBD,Yes,No,3.0,Low,Intensive,nan,Past drinker,Moderate,Moderate,GCSE/O-level,0.0,3.0,3.0,3.0,3.0,0.0,3.0,II,3,V
+nNNlXm,Yes,Yes,1.0,Intermediate,Outpatient (Intensive),less than 100,Past drinker,Severe,Mild,None,3.0,5.0,3.0,0.0,3.0,0.0,3.0,IV,11,V
+EJuRTk,No,Yes,4.0,Substantial,nan,Occasional current,Drinks daily,Normal,Moderate,GCSE/O-level,0.0,6.0,0.0,0.0,0.0,1.0,6.0,V,2.2,IIIM
+kfzmgk,Yes,No,5.0,Low,Intensive,Non current,Non drinker,Moderate,Null,GCSE/O-level,2.0,0.0,2.0,3.0,1.0,0.0,5.0,II,3,V
+QyMdRo,No,No,5.0,Substantial,Intensive,Non current,Drinks once/twice weekly,Moderate,Normal,None,1.0,1.0,2.0,0.0,0.0,2.0,1.0,nan,-,IIIN
+ncTtiX,Yes,Yes,3.0,Intermediate,nan,Non current,Drinks once/twice weekly,Normal,Mild,Degree,1.0,1.0,0.0,2.0,3.0,0.0,4.0,nan,5.1,IIIM
+CLCYeF,Yes,Yes,1.0,nan,Intensive,Never smoked,nan,Mild,Normal,Degree,2.0,2.0,0.0,0.0,0.0,1.0,0.0,II,5.2,II
+BvOdhb,Yes,No,999.0,nan,Outpatient (Intensive),Occasional current,Drinks one/three times monthly,Severe,Severe,None,3.0,6.0,0.0,1.0,2.0,3.0,0.0,-,5.1,IIIN
+USfcxZ,Yes,Yes,999.0,Intermediate,Outpatient (Intensive),Past smoker,nan,Normal,Mild,None,0.0,3.0,3.0,3.0,1.0,1.0,6.0,V,5.1,IIIM
+TqPAon,Yes,Yes,999.0,Substantial,Outpatient (Intensive),Past smoker,Past drinker,Null,Normal,nan,1.0,3.0,2.0,3.0,1.0,0.0,3.0,V,2.1,II
+KFMIfS,No,No,0.0,Intermediate,Intensive,less than 100,Drinks three/four times weekly,Normal,Mild,A-level,2.0,2.0,1.0,3.0,2.0,0.0,5.0,IV,6,IIIM
+dOPKMH,No,Yes,999.0,Intermediate,Brief Intervention,Never smoked,Drinks daily,Mild,Severe,Degree,1.0,0.0,0.0,3.0,3.0,3.0,1.0,II,2.1,IV
+KLZbok,No,No,1.0,Intermediate,Outpatient (Intensive),less than 100,Drinks three/four times weekly,Normal,Normal,GCSE/O-level,2.0,2.0,3.0,0.0,2.0,1.0,0.0,I,10,I
+qscQmw,Yes,Yes,4.0,Substantial,Outpatient (Intensive),Non current,Drinks one/three times monthly,Normal,Severe,nan,3.0,4.0,2.0,3.0,1.0,0.0,4.0,IV,2.1,IV
+PfWOea,No,Yes,4.0,Intermediate,Brief Intervention,Non current,Occasional drinker,Normal,Severe,Degree,1.0,2.0,1.0,2.0,3.0,2.0,0.0,I,4,IV
+kZXhXP,Yes,No,2.0,Low,Outpatient (Intensive),Non current,nan,Severe,Mild,A-level,3.0,0.0,2.0,2.0,2.0,3.0,5.0,nan,10,I
+iIiOBk,No,No,1.0,nan,Outpatient (Intensive),at least 100,Past drinker,Normal,Moderate,Degree,1.0,5.0,2.0,1.0,2.0,0.0,6.0,II,6,I
+ONRliM,Yes,No,5.0,Intermediate,Intensive,nan,Past drinker,Severe,Severe,Degree,1.0,5.0,2.0,0.0,0.0,0.0,2.0,IV,5.1,nan
+qEtWGG,Yes,No,3.0,Low,Outpatient (Intensive),Occasional current,Occasional drinker,Moderate,Normal,Degree,1.0,0.0,0.0,3.0,3.0,0.0,1.0,I,1.1,II
+pgslpA,No,Yes,1.0,Substantial,Outpatient (Intensive),less than 100,Drinks once/twice weekly,Severe,Severe,Degree,3.0,4.0,0.0,3.0,3.0,1.0,0.0,IIIM,-,I
+VOwIgI,Yes,Yes,0.0,nan,Intensive,nan,Occasional drinker,Moderate,Null,A-level,3.0,6.0,1.0,2.0,1.0,3.0,1.0,IIIN,6,nan
+yvbjgC,No,No,1.0,Low,nan,Non current,nan,Severe,Mild,Degree,0.0,6.0,3.0,3.0,0.0,2.0,4.0,I,3,IV
+GqOXOQ,No,Yes,3.0,nan,Outpatient (Intensive),nan,Past drinker,Moderate,Normal,nan,1.0,0.0,2.0,1.0,1.0,2.0,4.0,IV,15,V
+qAbXFq,No,No,999.0,Low,Brief Intervention,at least 100,Drinks once/twice weekly,Severe,Moderate,GCSE/O-level,3.0,2.0,2.0,0.0,3.0,1.0,6.0,I,1.2,IIIM
+aMAQIH,No,Yes,5.0,Intermediate,Outpatient (Intensive),Non current,Drinks once/twice weekly,Moderate,Normal,A-level,3.0,5.0,3.0,3.0,1.0,0.0,4.0,II,8,IIIM
+dpwFwH,Yes,Yes,1.0,Substantial,Intensive,at least 100,Non drinker,Moderate,Mild,nan,1.0,5.0,2.0,1.0,1.0,0.0,5.0,II,-,IV
+lmvmdE,No,No,2.0,Intermediate,Outpatient (Intensive),at least 100,Non drinker,Moderate,Severe,GCSE/O-level,3.0,0.0,2.0,1.0,0.0,0.0,3.0,IV,10,IV
+SiEfTz,No,Yes,3.0,nan,Intensive,Non current,Non drinker,Normal,Null,Degree,3.0,6.0,3.0,3.0,1.0,1.0,1.0,I,12,IIIN
+zjhdIe,Yes,No,2.0,Low,Outpatient (Intensive),at least 100,Past drinker,Null,Mild,GCSE/O-level,1.0,5.0,0.0,1.0,3.0,3.0,1.0,-,15,nan
+RLexkl,Yes,No,4.0,Low,Brief Intervention,less than 100,Past drinker,Null,Normal,A-level,3.0,4.0,1.0,0.0,2.0,0.0,6.0,IIIM,15,IV
+poiNqJ,Yes,No,2.0,nan,Brief Intervention,Never smoked,Drinks three/four times weekly,Severe,Severe,None,2.0,2.0,1.0,1.0,0.0,1.0,5.0,I,6,I
+dFnvTG,Yes,No,3.0,Substantial,Intensive,less than 100,Drinks once/twice weekly,Severe,Null,GCSE/O-level,3.0,6.0,0.0,3.0,3.0,1.0,1.0,IIIM,15,nan
+ovtUND,Yes,Yes,3.0,nan,Brief Intervention,Past smoker,Occasional drinker,Normal,Severe,Degree,0.0,0.0,2.0,3.0,3.0,3.0,2.0,-,12,IIIM
+lySmtA,No,No,1.0,Substantial,nan,less than 100,Occasional drinker,Null,Moderate,Degree,0.0,1.0,0.0,3.0,2.0,1.0,0.0,IV,3,II
+HWleJN,No,Yes,5.0,Substantial,Intensive,at least 100,Past drinker,Normal,Null,A-level,2.0,4.0,1.0,2.0,1.0,2.0,1.0,I,-,II
+SWyjFQ,Yes,Yes,999.0,Intermediate,Intensive,Current smoker,Past drinker,Moderate,Severe,Degree,1.0,3.0,0.0,0.0,1.0,2.0,5.0,IIIM,14,I
+KvLmJi,No,No,3.0,nan,Brief Intervention,Non current,Drinks three/four times weekly,Normal,Null,GCSE/O-level,2.0,1.0,3.0,1.0,2.0,2.0,3.0,II,6,nan
+NPxycV,No,Yes,3.0,Low,Outpatient (Intensive),Occasional current,Drinks daily,Moderate,Moderate,None,2.0,2.0,1.0,3.0,1.0,0.0,4.0,I,3,IIIN
+aBtbfo,Yes,No,0.0,Low,Outpatient (Intensive),Never smoked,Drinks daily,Moderate,Null,None,1.0,4.0,0.0,1.0,1.0,2.0,1.0,II,2.1,II
+ACdwAU,Yes,Yes,1.0,Low,Outpatient (Intensive),less than 100,Drinks one/three times monthly,Mild,Mild,nan,2.0,0.0,3.0,2.0,3.0,1.0,2.0,II,9,I
+locmiZ,Yes,No,999.0,nan,Intensive,less than 100,Occasional drinker,Mild,Moderate,nan,2.0,5.0,3.0,2.0,1.0,0.0,1.0,II,7,V
+mvFeKA,Yes,Yes,4.0,Substantial,nan,nan,Occasional drinker,Moderate,Normal,Degree,0.0,6.0,3.0,2.0,1.0,1.0,2.0,IV,17,IIIN
+jbuKaD,No,Yes,999.0,Intermediate,nan,less than 100,Drinks daily,Severe,Null,A-level,1.0,6.0,1.0,1.0,3.0,3.0,2.0,IIIM,1.2,I
+hKsffW,Yes,Yes,4.0,Low,nan,less than 100,Drinks once/twice weekly,Mild,Mild,A-level,1.0,4.0,1.0,0.0,2.0,1.0,5.0,V,10,II
+fymMZq,Yes,Yes,999.0,Intermediate,Brief Intervention,less than 100,Non drinker,Moderate,Mild,Degree,2.0,4.0,0.0,2.0,2.0,3.0,4.0,-,12,V
+JPMwFF,Yes,Yes,2.0,Low,Outpatient (Intensive),at least 100,Occasional drinker,Severe,Normal,nan,2.0,3.0,0.0,0.0,2.0,3.0,2.0,V,17,IIIM
+OVLjNx,Yes,Yes,1.0,Intermediate,Outpatient (Intensive),Non current,Drinks daily,Mild,Null,A-level,3.0,1.0,1.0,2.0,1.0,1.0,6.0,IV,12,V
+KXqTEo,No,Yes,5.0,nan,Outpatient (Intensive),less than 100,Drinks daily,Null,Mild,GCSE/O-level,3.0,4.0,1.0,2.0,1.0,0.0,6.0,nan,12,II
+mLFozn,No,Yes,1.0,Low,Intensive,Current smoker,Occasional drinker,Normal,Mild,Degree,2.0,0.0,2.0,0.0,2.0,3.0,2.0,IV,9,I
+ZjILqo,No,No,3.0,Low,nan,Occasional current,Drinks daily,Normal,Severe,A-level,0.0,4.0,2.0,2.0,3.0,0.0,5.0,IV,12,nan
+xoddQj,Yes,No,2.0,Low,Brief Intervention,at least 100,Occasional drinker,Mild,Mild,nan,3.0,4.0,3.0,3.0,2.0,2.0,6.0,nan,3,II
+lpByjg,Yes,Yes,0.0,Substantial,Outpatient (Intensive),less than 100,Past drinker,Null,Severe,A-level,2.0,5.0,3.0,2.0,1.0,1.0,5.0,IIIN,6,IIIM
+SdnBbW,Yes,No,5.0,nan,nan,less than 100,Non drinker,Mild,Moderate,None,1.0,2.0,1.0,3.0,1.0,0.0,5.0,I,2.2,II
+ZRgMjY,No,No,999.0,Substantial,nan,Non current,Drinks once/twice weekly,Moderate,Severe,nan,0.0,6.0,1.0,0.0,2.0,3.0,6.0,I,11,IIIN
+RGbdSE,No,Yes,0.0,Substantial,Outpatient (Intensive),less than 100,nan,Severe,Null,None,0.0,1.0,3.0,3.0,1.0,3.0,0.0,IIIN,15,I
+SUrkUM,Yes,Yes,5.0,Low,Brief Intervention,Non current,Occasional drinker,Null,Mild,Degree,2.0,4.0,2.0,1.0,1.0,3.0,0.0,IIIM,14,IV
+JqKzxb,No,No,1.0,nan,Outpatient (Intensive),Never smoked,Drinks three/four times weekly,Normal,Severe,A-level,2.0,0.0,2.0,3.0,3.0,2.0,2.0,IIIM,17,IIIN
+nMMqFx,No,No,999.0,nan,nan,at least 100,Drinks three/four times weekly,Mild,Null,Degree,3.0,5.0,0.0,3.0,2.0,3.0,5.0,II,2.1,I
+ZNWwNI,Yes,No,1.0,Substantial,nan,Occasional current,Drinks daily,Mild,Moderate,GCSE/O-level,2.0,0.0,1.0,2.0,2.0,3.0,0.0,nan,-,IIIN
+kxwKJo,Yes,No,4.0,Intermediate,Intensive,Non current,Drinks one/three times monthly,Moderate,Moderate,Degree,1.0,3.0,0.0,3.0,1.0,2.0,2.0,IIIN,nan,IV
+NdhygX,Yes,Yes,2.0,Intermediate,nan,Current smoker,Past drinker,Moderate,Severe,GCSE/O-level,1.0,6.0,3.0,2.0,3.0,2.0,3.0,V,15,nan
+yugxlD,No,Yes,999.0,nan,Brief Intervention,Occasional current,Occasional drinker,Severe,Severe,None,1.0,6.0,0.0,3.0,3.0,1.0,4.0,IIIM,5.1,IV
+clomIJ,Yes,No,2.0,Low,nan,Current smoker,Drinks daily,Moderate,Null,None,2.0,3.0,2.0,1.0,1.0,0.0,5.0,II,11,IV
+IgUsOy,No,Yes,999.0,nan,Outpatient (Intensive),Current smoker,Drinks daily,Null,Null,GCSE/O-level,3.0,5.0,2.0,1.0,2.0,1.0,0.0,IIIN,2.2,I
+iuGijx,No,Yes,0.0,Intermediate,nan,Never smoked,Drinks one/three times monthly,Normal,Normal,nan,2.0,1.0,0.0,0.0,0.0,1.0,1.0,IIIM,12,II
+SqdQap,Yes,Yes,2.0,nan,Brief Intervention,Current smoker,Past drinker,Mild,Normal,GCSE/O-level,0.0,6.0,3.0,1.0,3.0,3.0,6.0,V,12,IV
+vzceQT,Yes,No,1.0,Intermediate,Outpatient (Intensive),Never smoked,Occasional drinker,Mild,Null,nan,1.0,6.0,0.0,2.0,1.0,2.0,2.0,IV,9,V
+pQOTEb,Yes,Yes,2.0,nan,Intensive,Current smoker,Drinks one/three times monthly,Severe,Null,nan,1.0,1.0,2.0,1.0,3.0,2.0,6.0,IIIM,nan,II
+xFFnjN,No,No,999.0,nan,nan,Occasional current,Drinks one/three times monthly,Moderate,Null,None,0.0,5.0,0.0,3.0,2.0,3.0,5.0,I,11,IIIM
+xEdRSM,Yes,No,2.0,Intermediate,Brief Intervention,less than 100,Drinks once/twice weekly,Moderate,Mild,A-level,3.0,4.0,0.0,1.0,0.0,3.0,0.0,I,12,II
+HcsJrV,No,No,4.0,Intermediate,Outpatient (Intensive),Never smoked,nan,Null,Mild,Degree,1.0,3.0,2.0,3.0,1.0,3.0,1.0,IV,5.1,IV
+osGrDj,Yes,No,2.0,Low,Brief Intervention,Occasional current,nan,Severe,Normal,A-level,1.0,2.0,3.0,3.0,3.0,3.0,2.0,-,12,IIIM
+XVPlhx,Yes,Yes,4.0,Substantial,nan,less than 100,Occasional drinker,Mild,Moderate,GCSE/O-level,2.0,5.0,2.0,2.0,2.0,2.0,4.0,IIIN,12,nan
+cGdfPK,Yes,No,1.0,Intermediate,nan,Occasional current,Occasional drinker,Mild,Mild,None,0.0,4.0,2.0,1.0,1.0,3.0,1.0,IIIN,17,IIIM
+uQKSUz,No,Yes,4.0,nan,Outpatient (Intensive),at least 100,nan,Mild,Null,A-level,1.0,5.0,0.0,1.0,0.0,0.0,5.0,I,2.2,II
+SUzgvB,No,No,4.0,Low,Intensive,Current smoker,Drinks three/four times weekly,Null,Mild,A-level,1.0,0.0,1.0,3.0,1.0,2.0,0.0,II,9,V
+CQjBOL,Yes,Yes,3.0,Low,Brief Intervention,at least 100,Occasional drinker,Mild,Severe,GCSE/O-level,0.0,2.0,2.0,1.0,0.0,1.0,5.0,-,8,IIIN
+xMjxbF,Yes,No,4.0,Low,Brief Intervention,Past smoker,nan,Mild,Moderate,GCSE/O-level,1.0,5.0,0.0,0.0,0.0,2.0,1.0,I,nan,II
+LzJVVN,No,Yes,3.0,nan,Brief Intervention,Occasional current,Drinks once/twice weekly,Severe,Normal,None,3.0,1.0,0.0,2.0,2.0,0.0,1.0,-,8,IV
+udzqbV,No,No,999.0,nan,Brief Intervention,Occasional current,Drinks one/three times monthly,Moderate,Moderate,A-level,0.0,0.0,0.0,1.0,3.0,0.0,2.0,IIIM,11,IIIN
+IVlfHS,No,Yes,4.0,Intermediate,Intensive,Past smoker,Drinks daily,Severe,Normal,None,3.0,1.0,1.0,1.0,3.0,3.0,2.0,nan,4,IIIM
+ssHmsV,Yes,Yes,999.0,Intermediate,Intensive,Current smoker,Non drinker,Severe,Null,Degree,1.0,6.0,3.0,3.0,1.0,3.0,3.0,IIIM,nan,V
+SOkopk,No,Yes,0.0,nan,Outpatient (Intensive),less than 100,Non drinker,Moderate,Moderate,nan,0.0,3.0,2.0,0.0,0.0,2.0,4.0,IIIM,6,IIIM
+mkNPUk,Yes,Yes,3.0,nan,Intensive,Occasional current,Non drinker,Mild,Moderate,None,2.0,2.0,3.0,0.0,3.0,0.0,2.0,IIIN,1.2,V
+HlsjBd,Yes,No,5.0,Substantial,Intensive,less than 100,Past drinker,Normal,Null,GCSE/O-level,2.0,1.0,2.0,1.0,0.0,2.0,3.0,IIIN,2.1,nan
+zIomDD,Yes,Yes,1.0,Low,Outpatient (Intensive),less than 100,Non drinker,Mild,Moderate,nan,0.0,4.0,2.0,1.0,0.0,2.0,6.0,IIIN,1.2,IIIM
+nsEUlm,Yes,No,3.0,nan,Brief Intervention,at least 100,Past drinker,Mild,Moderate,GCSE/O-level,2.0,1.0,1.0,2.0,3.0,0.0,3.0,IIIM,1.1,I
+hMkBGd,No,Yes,1.0,Low,Brief Intervention,Past smoker,Drinks daily,Null,Moderate,None,0.0,5.0,0.0,0.0,2.0,3.0,6.0,I,9,IIIN
+WYtWFl,No,Yes,3.0,Substantial,Brief Intervention,Non current,Non drinker,Moderate,Severe,A-level,3.0,5.0,0.0,2.0,0.0,0.0,4.0,IV,6,II
+jRbswn,No,No,1.0,Substantial,nan,nan,Past drinker,Null,Mild,Degree,1.0,4.0,0.0,3.0,2.0,3.0,6.0,IIIM,3,nan
+HgcDJT,No,Yes,1.0,nan,Brief Intervention,Occasional current,nan,Moderate,Moderate,GCSE/O-level,1.0,1.0,2.0,2.0,1.0,0.0,6.0,V,1.2,II
+PuWsrT,No,No,3.0,nan,Brief Intervention,at least 100,nan,Null,Severe,Degree,3.0,4.0,3.0,3.0,2.0,0.0,0.0,I,4,I
+ffXotC,No,No,2.0,nan,nan,Occasional current,Drinks daily,Moderate,Severe,nan,0.0,2.0,0.0,0.0,3.0,0.0,0.0,IIIM,10,IIIN
+ySltxH,No,Yes,4.0,Intermediate,nan,less than 100,nan,Moderate,Severe,None,1.0,3.0,1.0,2.0,1.0,1.0,5.0,IV,4,V
+daUvYa,No,No,0.0,Substantial,Intensive,Occasional current,nan,Null,Mild,Degree,1.0,6.0,3.0,1.0,0.0,2.0,3.0,nan,11,IV
+vxFjSQ,No,Yes,1.0,Intermediate,nan,at least 100,Drinks once/twice weekly,Moderate,Null,Degree,2.0,5.0,2.0,2.0,0.0,1.0,6.0,nan,-,I
+BGifaX,No,Yes,2.0,Low,nan,less than 100,Drinks once/twice weekly,Mild,Null,nan,1.0,1.0,2.0,2.0,1.0,2.0,6.0,I,2.1,I
+VQnsyI,Yes,No,4.0,nan,nan,at least 100,Drinks one/three times monthly,Normal,Mild,A-level,1.0,1.0,1.0,1.0,2.0,0.0,2.0,-,17,IV
+kERTxd,No,No,1.0,nan,nan,nan,Occasional drinker,Null,Moderate,A-level,2.0,0.0,1.0,0.0,0.0,1.0,6.0,IV,2.2,IV
+sqsLwz,Yes,No,0.0,Intermediate,Brief Intervention,Past smoker,nan,Null,Null,GCSE/O-level,3.0,2.0,1.0,3.0,2.0,0.0,0.0,nan,nan,IIIN
+wOKjTB,No,No,1.0,Low,nan,at least 100,nan,Mild,Moderate,GCSE/O-level,3.0,0.0,1.0,2.0,0.0,3.0,1.0,V,14,IIIM
+ygOIos,No,No,3.0,Substantial,nan,Non current,Drinks daily,Moderate,Moderate,None,0.0,1.0,1.0,3.0,1.0,1.0,5.0,IIIM,6,IIIM
+AMQOEX,Yes,Yes,0.0,Intermediate,Outpatient (Intensive),Never smoked,Occasional drinker,Mild,Normal,Degree,0.0,6.0,3.0,1.0,2.0,0.0,4.0,-,1.2,IIIN
+zbyuYm,No,Yes,2.0,nan,Outpatient (Intensive),less than 100,Non drinker,Severe,Severe,None,3.0,6.0,2.0,2.0,1.0,1.0,3.0,IV,14,IIIN
+piFHzw,No,No,1.0,Intermediate,Outpatient (Intensive),less than 100,Drinks three/four times weekly,Normal,Normal,None,0.0,4.0,0.0,1.0,2.0,1.0,5.0,IIIM,10,I
+mBoSZB,Yes,No,999.0,nan,Intensive,nan,Non drinker,Normal,Normal,None,2.0,5.0,0.0,3.0,1.0,1.0,6.0,nan,1.2,IIIN
+OLIYtR,No,Yes,4.0,Intermediate,nan,nan,Past drinker,Null,Normal,Degree,0.0,5.0,0.0,1.0,2.0,1.0,2.0,nan,8,nan
+aPekHt,Yes,No,1.0,Low,Intensive,at least 100,Drinks three/four times weekly,Null,Severe,GCSE/O-level,2.0,6.0,2.0,0.0,1.0,3.0,0.0,nan,4,II
+skHCoh,No,No,999.0,Intermediate,Brief Intervention,at least 100,Past drinker,Severe,Moderate,Degree,0.0,2.0,2.0,2.0,0.0,2.0,3.0,V,2.1,II
+mQDAGk,No,No,2.0,Intermediate,Outpatient (Intensive),Current smoker,Occasional drinker,Normal,Normal,Degree,3.0,2.0,2.0,3.0,1.0,3.0,5.0,nan,1.2,V
+HFXwtG,Yes,Yes,999.0,nan,nan,less than 100,Drinks daily,Mild,Null,GCSE/O-level,1.0,5.0,3.0,2.0,3.0,2.0,3.0,IIIM,17,nan
+cMJqnc,Yes,No,999.0,nan,Intensive,Occasional current,Past drinker,Mild,Severe,nan,3.0,2.0,3.0,0.0,0.0,2.0,0.0,I,5.1,IIIM
+hkxsru,Yes,No,999.0,Substantial,nan,Current smoker,Non drinker,Severe,Mild,GCSE/O-level,3.0,5.0,2.0,0.0,2.0,1.0,1.0,I,5.1,IIIM
+kbMino,Yes,Yes,999.0,nan,nan,Occasional current,nan,Moderate,Null,None,2.0,5.0,1.0,2.0,2.0,2.0,6.0,IIIN,14,nan
+MJcXlY,Yes,No,0.0,nan,nan,Occasional current,Non drinker,Mild,Mild,None,0.0,4.0,1.0,1.0,0.0,0.0,6.0,nan,3,V
+mYqPwO,No,Yes,5.0,Low,Outpatient (Intensive),Occasional current,Occasional drinker,Severe,Null,None,1.0,1.0,3.0,3.0,2.0,2.0,0.0,IIIM,nan,V
+FdDqrF,No,Yes,999.0,nan,nan,Current smoker,Drinks daily,Severe,Normal,Degree,2.0,0.0,3.0,1.0,0.0,1.0,3.0,nan,7,IV
+NRGCIM,No,Yes,4.0,nan,nan,less than 100,Drinks one/three times monthly,Moderate,Moderate,None,3.0,2.0,0.0,2.0,3.0,0.0,4.0,IIIN,1.2,nan
+LUKZbW,No,No,5.0,nan,Outpatient (Intensive),less than 100,Drinks once/twice weekly,Null,Mild,GCSE/O-level,1.0,1.0,2.0,0.0,0.0,2.0,4.0,nan,10,IIIN
+ErJput,Yes,No,4.0,Intermediate,Brief Intervention,Occasional current,Past drinker,Normal,Severe,A-level,3.0,2.0,0.0,1.0,2.0,0.0,6.0,nan,11,V
+CEZDju,Yes,Yes,4.0,nan,Intensive,Past smoker,nan,Mild,Mild,nan,3.0,4.0,3.0,0.0,1.0,2.0,2.0,nan,7,IV
+taiOdR,No,No,999.0,Substantial,nan,Occasional current,Non drinker,Null,Severe,nan,1.0,4.0,3.0,1.0,1.0,1.0,5.0,-,10,nan
+aEMVvU,No,No,1.0,Intermediate,Brief Intervention,Non current,Occasional drinker,Mild,Normal,nan,3.0,0.0,1.0,2.0,3.0,1.0,2.0,IIIM,-,nan
+MhUHYY,No,No,4.0,Intermediate,nan,less than 100,Drinks one/three times monthly,Null,Null,None,3.0,1.0,0.0,3.0,3.0,0.0,4.0,nan,12,IIIN
+HGvUbW,No,No,5.0,Substantial,nan,Occasional current,nan,Null,Normal,Degree,0.0,4.0,0.0,3.0,0.0,0.0,4.0,IIIM,14,IIIM
+srMtsr,No,No,5.0,Substantial,nan,at least 100,Drinks daily,Severe,Null,nan,3.0,2.0,0.0,3.0,0.0,1.0,6.0,IV,nan,IIIM
+neLIrB,No,No,2.0,nan,Outpatient (Intensive),Non current,Drinks once/twice weekly,Normal,Normal,Degree,1.0,3.0,3.0,2.0,1.0,1.0,0.0,IV,6,IIIM
+fOOqkS,No,Yes,1.0,Intermediate,Brief Intervention,Occasional current,Drinks three/four times weekly,Severe,Null,None,1.0,0.0,0.0,1.0,2.0,0.0,1.0,IIIM,17,nan
+bZkYsK,Yes,Yes,2.0,Substantial,nan,Current smoker,Drinks daily,Mild,Severe,nan,2.0,4.0,2.0,0.0,2.0,0.0,4.0,IIIM,-,IV
+RVsAzg,No,No,0.0,nan,nan,Non current,Non drinker,Null,Severe,A-level,0.0,4.0,2.0,3.0,1.0,2.0,5.0,nan,1.2,nan
+oLCAWv,Yes,No,0.0,Intermediate,Brief Intervention,Occasional current,Drinks once/twice weekly,Mild,Normal,A-level,0.0,1.0,3.0,1.0,3.0,1.0,4.0,V,10,IIIN
+SOCoIh,No,Yes,1.0,Low,nan,at least 100,Occasional drinker,Null,Moderate,Degree,2.0,1.0,3.0,3.0,0.0,1.0,1.0,nan,2.2,II
+BSulYU,No,Yes,999.0,Intermediate,Outpatient (Intensive),Past smoker,nan,Normal,Moderate,Degree,1.0,3.0,0.0,0.0,3.0,3.0,1.0,II,-,IIIN
+cySYgu,No,Yes,999.0,Intermediate,Brief Intervention,Past smoker,Occasional drinker,Normal,Moderate,None,3.0,2.0,2.0,2.0,2.0,2.0,0.0,V,15,I
+sMPCjc,Yes,Yes,3.0,Low,Outpatient (Intensive),Past smoker,nan,Null,Severe,nan,1.0,3.0,1.0,3.0,3.0,1.0,3.0,IIIN,2.1,II
+lsvQKT,Yes,Yes,4.0,Intermediate,Outpatient (Intensive),nan,Non drinker,Moderate,Normal,GCSE/O-level,1.0,6.0,3.0,1.0,0.0,3.0,5.0,II,2.2,IIIM
+SLKwwU,No,No,0.0,Low,Outpatient (Intensive),nan,Occasional drinker,Severe,Mild,Degree,1.0,3.0,1.0,1.0,3.0,1.0,4.0,-,15,V
+ZOmhzA,No,No,1.0,Intermediate,nan,Occasional current,Drinks one/three times monthly,Null,Mild,nan,0.0,6.0,3.0,1.0,1.0,0.0,4.0,IIIM,10,IIIN
+bnEuHC,No,No,2.0,nan,nan,Occasional current,Drinks once/twice weekly,Severe,Normal,nan,0.0,4.0,1.0,0.0,0.0,0.0,0.0,nan,3,V
+hRuzac,No,Yes,4.0,nan,Outpatient (Intensive),Non current,Drinks three/four times weekly,Moderate,Null,None,3.0,6.0,2.0,0.0,1.0,0.0,1.0,nan,3,IIIN
+KAULud,Yes,Yes,999.0,Intermediate,Brief Intervention,less than 100,Drinks daily,Severe,Mild,None,2.0,5.0,0.0,3.0,0.0,0.0,2.0,IIIM,5.2,nan
+ONrnxU,No,No,999.0,Intermediate,Brief Intervention,at least 100,nan,Mild,Severe,A-level,2.0,4.0,0.0,2.0,0.0,2.0,6.0,I,12,nan
+QqZUKf,No,Yes,2.0,Low,Intensive,Occasional current,Drinks daily,Mild,Mild,A-level,1.0,3.0,0.0,3.0,0.0,3.0,6.0,IV,11,nan
+YOOCzV,Yes,No,2.0,nan,Brief Intervention,Occasional current,Past drinker,Moderate,Moderate,nan,2.0,1.0,0.0,1.0,0.0,0.0,6.0,IV,14,nan
+XpdpYG,Yes,Yes,1.0,nan,nan,Non current,nan,Severe,Mild,A-level,2.0,3.0,1.0,2.0,1.0,3.0,3.0,IIIM,8,V
+ckoGsJ,Yes,No,1.0,Intermediate,Outpatient (Intensive),Non current,Non drinker,Mild,Severe,Degree,3.0,5.0,3.0,1.0,2.0,3.0,4.0,IIIM,-,IV
+yxdTxf,Yes,No,5.0,Substantial,Brief Intervention,Past smoker,Drinks one/three times monthly,Normal,Normal,GCSE/O-level,0.0,1.0,1.0,3.0,1.0,1.0,5.0,I,-,IIIM
+sguCEW,No,Yes,4.0,Substantial,Brief Intervention,less than 100,Drinks once/twice weekly,Null,Normal,A-level,3.0,0.0,0.0,2.0,1.0,2.0,2.0,V,6,II
+OUmxoD,Yes,Yes,0.0,Intermediate,Intensive,Never smoked,Past drinker,Severe,Mild,nan,2.0,2.0,3.0,1.0,2.0,0.0,5.0,nan,5.1,I
+NJFeUi,Yes,No,5.0,Intermediate,Intensive,Current smoker,Drinks daily,Null,Severe,nan,0.0,0.0,0.0,1.0,0.0,0.0,6.0,IV,5.2,IV
+VMQoLE,Yes,Yes,0.0,Substantial,nan,at least 100,Drinks daily,Null,Severe,GCSE/O-level,1.0,5.0,0.0,3.0,1.0,1.0,1.0,II,11,IIIM
+HDPBUm,No,Yes,5.0,Intermediate,Outpatient (Intensive),at least 100,Past drinker,Moderate,Mild,Degree,3.0,1.0,2.0,3.0,2.0,0.0,1.0,IIIM,1.1,IIIN
+FhjmvZ,No,Yes,4.0,Low,Brief Intervention,Current smoker,Drinks once/twice weekly,Moderate,Moderate,A-level,2.0,0.0,1.0,2.0,1.0,3.0,5.0,V,2.2,I
+FzrTdx,No,No,2.0,Low,Brief Intervention,Non current,nan,Mild,Normal,Degree,3.0,1.0,1.0,1.0,2.0,2.0,3.0,V,4,IIIM
+UobMoL,No,Yes,999.0,nan,Brief Intervention,at least 100,Drinks daily,Severe,Severe,nan,2.0,5.0,1.0,1.0,0.0,2.0,3.0,V,2.1,IIIM
+mEglbP,Yes,No,5.0,Low,Outpatient (Intensive),Non current,Drinks one/three times monthly,Severe,Mild,nan,0.0,6.0,0.0,1.0,1.0,2.0,3.0,V,2.2,V
+JArdom,No,Yes,5.0,Low,nan,Non current,Drinks once/twice weekly,Normal,Moderate,GCSE/O-level,3.0,0.0,3.0,0.0,2.0,2.0,3.0,IIIN,14,II
+APLMjI,No,Yes,5.0,Low,Brief Intervention,Past smoker,Drinks daily,Normal,Mild,None,1.0,2.0,3.0,2.0,2.0,1.0,0.0,nan,1.1,I
+SFJXMD,Yes,Yes,4.0,nan,Outpatient (Intensive),less than 100,Drinks three/four times weekly,Moderate,Null,A-level,3.0,6.0,0.0,0.0,0.0,2.0,3.0,II,nan,nan
+tJORjw,No,Yes,5.0,Intermediate,Intensive,Past smoker,Past drinker,Normal,Severe,nan,2.0,2.0,3.0,1.0,2.0,1.0,5.0,IIIN,11,IV
+kOgQOw,Yes,No,4.0,Low,nan,nan,nan,Moderate,Severe,None,2.0,3.0,2.0,1.0,1.0,0.0,3.0,-,2.2,V
+oRUiUa,Yes,Yes,1.0,Low,Outpatient (Intensive),Occasional current,Non drinker,Null,Moderate,A-level,2.0,0.0,3.0,3.0,3.0,3.0,2.0,II,7,V
+zSFPNn,No,Yes,4.0,Low,Intensive,Non current,nan,Severe,Mild,nan,0.0,0.0,2.0,2.0,0.0,0.0,1.0,IIIM,5.1,nan
+HSBDtJ,No,No,1.0,Low,nan,less than 100,Drinks three/four times weekly,Normal,Null,Degree,1.0,1.0,3.0,0.0,2.0,1.0,0.0,II,5.2,nan
+MmUbbG,No,No,999.0,nan,nan,Occasional current,Past drinker,Mild,Severe,None,3.0,5.0,3.0,2.0,2.0,0.0,5.0,IIIM,5.2,nan
+PmeJZz,No,Yes,5.0,Substantial,nan,Past smoker,Non drinker,Severe,Mild,Degree,0.0,3.0,2.0,3.0,3.0,3.0,1.0,IV,1.1,V
+wQuHCm,No,Yes,0.0,nan,Intensive,nan,nan,Null,Null,None,3.0,0.0,0.0,3.0,2.0,0.0,1.0,IV,4,V
+hYsYfB,No,No,2.0,nan,Intensive,Non current,Non drinker,Severe,Moderate,GCSE/O-level,3.0,3.0,3.0,1.0,1.0,2.0,0.0,-,2.1,IV
+bgysgl,No,No,4.0,Substantial,Intensive,at least 100,Past drinker,Severe,Severe,Degree,0.0,3.0,3.0,2.0,3.0,3.0,3.0,IV,9,I
+YdsHZm,No,Yes,5.0,nan,Intensive,Occasional current,nan,Mild,Severe,Degree,2.0,4.0,3.0,0.0,3.0,3.0,3.0,nan,17,IIIN
+ygWRhH,Yes,No,5.0,Low,nan,nan,nan,Moderate,Null,Degree,0.0,2.0,1.0,0.0,2.0,2.0,6.0,II,3,IIIN
+sYGite,No,No,999.0,Low,Intensive,nan,Drinks daily,Moderate,Normal,GCSE/O-level,1.0,0.0,1.0,2.0,2.0,3.0,6.0,II,7,IIIN
+qJWJou,Yes,Yes,1.0,nan,Brief Intervention,Occasional current,Non drinker,Mild,Moderate,GCSE/O-level,0.0,4.0,3.0,2.0,0.0,2.0,2.0,nan,12,nan
+Cnpsmo,No,Yes,0.0,nan,nan,Occasional current,nan,Severe,Null,None,2.0,0.0,2.0,1.0,0.0,2.0,1.0,II,9,IIIM
+VJvFOO,Yes,Yes,4.0,Substantial,Outpatient (Intensive),less than 100,Non drinker,Moderate,Null,A-level,1.0,4.0,0.0,2.0,0.0,0.0,1.0,I,12,V
+kqZvKX,Yes,No,5.0,Substantial,nan,Never smoked,Past drinker,Moderate,Normal,GCSE/O-level,1.0,0.0,3.0,0.0,3.0,1.0,6.0,nan,7,IIIM
+SHxPdH,No,Yes,5.0,Substantial,Intensive,nan,Drinks one/three times monthly,Moderate,Moderate,None,1.0,4.0,1.0,3.0,0.0,2.0,2.0,IIIN,nan,IIIN
+qVtDpi,Yes,Yes,1.0,Low,Outpatient (Intensive),less than 100,Past drinker,Mild,Mild,Degree,0.0,3.0,1.0,1.0,0.0,2.0,2.0,IIIM,nan,IV
+TfwvNP,Yes,Yes,0.0,nan,nan,Current smoker,Drinks daily,Severe,Mild,GCSE/O-level,0.0,3.0,1.0,0.0,2.0,3.0,1.0,II,8,nan
+qbieAT,No,No,5.0,Substantial,Outpatient (Intensive),Occasional current,Drinks one/three times monthly,Severe,Severe,None,2.0,0.0,3.0,3.0,3.0,1.0,6.0,nan,8,II
+uMqGMw,No,No,2.0,Low,Outpatient (Intensive),nan,Drinks once/twice weekly,Normal,Normal,A-level,0.0,4.0,0.0,3.0,1.0,1.0,6.0,II,1.1,V
+FCPJGO,Yes,Yes,1.0,nan,Intensive,less than 100,Past drinker,Normal,Moderate,A-level,1.0,4.0,3.0,3.0,1.0,1.0,1.0,I,14,V
+EvESwu,No,Yes,999.0,Low,Brief Intervention,at least 100,Drinks one/three times monthly,Mild,Normal,None,2.0,4.0,1.0,3.0,3.0,2.0,5.0,II,12,I
+JfqYuh,Yes,No,1.0,Low,Intensive,Occasional current,Occasional drinker,Normal,Mild,nan,0.0,3.0,0.0,2.0,2.0,2.0,3.0,IV,12,IIIN
+kjztYK,Yes,Yes,5.0,Intermediate,Intensive,less than 100,Drinks one/three times monthly,Normal,Severe,nan,1.0,1.0,0.0,2.0,1.0,3.0,4.0,II,5.1,V
+ODMwrL,Yes,No,3.0,Intermediate,nan,less than 100,Past drinker,Moderate,Moderate,nan,1.0,0.0,1.0,0.0,2.0,2.0,2.0,V,12,IV
+NfRCdO,Yes,No,4.0,Intermediate,Outpatient (Intensive),less than 100,Drinks three/four times weekly,Normal,Normal,GCSE/O-level,1.0,4.0,2.0,2.0,2.0,0.0,5.0,II,6,IV
+eIFxtw,Yes,Yes,0.0,nan,nan,Non current,Drinks one/three times monthly,Moderate,Mild,Degree,1.0,3.0,3.0,3.0,1.0,3.0,2.0,V,9,II
+qprPqX,No,No,2.0,nan,Outpatient (Intensive),Current smoker,Drinks once/twice weekly,Moderate,Normal,Degree,0.0,3.0,2.0,3.0,1.0,2.0,0.0,nan,12,IV
+HSitmd,No,No,4.0,Low,nan,Non current,Drinks three/four times weekly,Severe,Moderate,A-level,3.0,4.0,3.0,2.0,1.0,3.0,5.0,IV,8,I
+kSqDml,No,No,0.0,Low,Outpatient (Intensive),Never smoked,Drinks once/twice weekly,Severe,Null,Degree,2.0,2.0,1.0,0.0,3.0,1.0,3.0,-,5.1,IIIM
+TOVAEM,No,Yes,0.0,nan,Intensive,Non current,Occasional drinker,Severe,Moderate,GCSE/O-level,2.0,1.0,1.0,1.0,1.0,0.0,6.0,IIIM,6,V
+VPIcTw,Yes,No,3.0,Substantial,Outpatient (Intensive),nan,Non drinker,Mild,Normal,A-level,2.0,6.0,2.0,1.0,1.0,0.0,1.0,IV,15,V
+RdBarp,Yes,Yes,3.0,Intermediate,nan,Occasional current,Drinks daily,Null,Normal,None,3.0,2.0,2.0,3.0,2.0,3.0,5.0,I,10,nan
+HyduYO,Yes,No,0.0,Intermediate,Brief Intervention,Current smoker,nan,Severe,Severe,nan,2.0,3.0,1.0,0.0,2.0,3.0,0.0,-,5.1,II
+vffmat,No,Yes,0.0,Low,Outpatient (Intensive),Non current,nan,Moderate,Severe,Degree,2.0,2.0,1.0,0.0,1.0,1.0,4.0,V,3,nan
+EuyjqD,Yes,No,2.0,Intermediate,Outpatient (Intensive),less than 100,nan,Moderate,Moderate,None,0.0,2.0,3.0,1.0,0.0,3.0,6.0,-,3,V
+OGLLvT,No,No,4.0,Low,nan,Non current,Drinks once/twice weekly,Normal,Moderate,GCSE/O-level,3.0,4.0,1.0,3.0,2.0,3.0,6.0,V,12,I
+aiYYJx,No,Yes,1.0,Intermediate,Outpatient (Intensive),Past smoker,Drinks three/four times weekly,Normal,Normal,GCSE/O-level,1.0,3.0,1.0,0.0,2.0,3.0,3.0,V,4,II
+AbKNVC,Yes,No,999.0,Substantial,Brief Intervention,at least 100,Past drinker,Moderate,Mild,A-level,3.0,0.0,0.0,3.0,3.0,1.0,2.0,IIIM,2.2,IV
+FAHsYi,No,Yes,2.0,Low,Intensive,Non current,Occasional drinker,Mild,Moderate,nan,2.0,4.0,2.0,3.0,3.0,3.0,4.0,V,7,I
+qALZsG,Yes,Yes,4.0,Low,Brief Intervention,less than 100,Drinks daily,Normal,Normal,A-level,1.0,0.0,3.0,3.0,2.0,3.0,6.0,IV,12,nan
+IwUAGr,Yes,Yes,5.0,Substantial,Brief Intervention,Occasional current,Drinks daily,Normal,Null,A-level,2.0,4.0,0.0,2.0,2.0,3.0,2.0,nan,nan,I
+HzbOpI,No,Yes,4.0,Substantial,nan,Past smoker,Non drinker,Moderate,Normal,None,2.0,2.0,2.0,1.0,1.0,1.0,5.0,I,7,IV
+yvUhFA,Yes,No,5.0,nan,Brief Intervention,Occasional current,Drinks three/four times weekly,Normal,Severe,nan,1.0,4.0,3.0,1.0,0.0,1.0,6.0,I,2.2,IIIN
+qrlltG,No,Yes,3.0,Low,Outpatient (Intensive),less than 100,Drinks once/twice weekly,Null,Severe,Degree,1.0,0.0,3.0,3.0,0.0,3.0,6.0,IIIN,1.1,II
+uBswNL,No,No,3.0,nan,Outpatient (Intensive),at least 100,Past drinker,Mild,Null,A-level,2.0,5.0,0.0,1.0,1.0,1.0,6.0,IIIM,2.2,IIIN
+zaPxKb,Yes,Yes,5.0,nan,Brief Intervention,Non current,Occasional drinker,Null,Null,None,2.0,0.0,0.0,3.0,0.0,2.0,5.0,IIIN,14,V
+CGjuNr,Yes,No,4.0,Substantial,Outpatient (Intensive),at least 100,Past drinker,Moderate,Mild,None,1.0,6.0,2.0,0.0,1.0,0.0,2.0,II,2.2,IV
+VDvARk,Yes,Yes,2.0,Intermediate,nan,Occasional current,Non drinker,Null,Null,Degree,0.0,2.0,0.0,1.0,1.0,0.0,1.0,IIIN,9,nan
+geDqUp,No,No,5.0,nan,Outpatient (Intensive),less than 100,Past drinker,Mild,Null,Degree,0.0,4.0,0.0,0.0,2.0,3.0,5.0,IIIN,14,IIIM
+vgbRfz,No,Yes,1.0,Substantial,Intensive,at least 100,Drinks once/twice weekly,Moderate,Severe,None,2.0,2.0,0.0,2.0,0.0,1.0,5.0,II,-,IIIN
+xUsBHa,Yes,No,5.0,Intermediate,Intensive,Non current,Non drinker,Normal,Moderate,GCSE/O-level,1.0,1.0,3.0,1.0,2.0,3.0,5.0,I,11,V
+JzrCpX,Yes,No,5.0,Substantial,nan,Occasional current,Drinks daily,Mild,Moderate,None,1.0,3.0,2.0,0.0,1.0,2.0,0.0,IIIM,2.1,II
+GzKNiA,No,Yes,4.0,nan,Brief Intervention,at least 100,Drinks once/twice weekly,Severe,Null,nan,0.0,3.0,2.0,2.0,3.0,2.0,2.0,I,7,nan
+YEmyCw,No,No,2.0,Substantial,Brief Intervention,Current smoker,Drinks daily,Moderate,Moderate,Degree,2.0,5.0,2.0,0.0,3.0,3.0,6.0,IV,14,IV
+VqOKYH,No,Yes,4.0,Low,Brief Intervention,Non current,nan,Null,Mild,nan,2.0,1.0,2.0,0.0,2.0,1.0,1.0,II,7,I
+ROZQiw,Yes,Yes,4.0,nan,nan,less than 100,nan,Null,Severe,A-level,1.0,1.0,0.0,1.0,0.0,2.0,5.0,IIIM,12,IIIM
+GztGpb,No,No,4.0,Low,Outpatient (Intensive),less than 100,Drinks three/four times weekly,Null,Severe,nan,0.0,3.0,3.0,1.0,0.0,1.0,6.0,IIIN,4,IIIM
+rJkBnQ,Yes,No,5.0,Substantial,Outpatient (Intensive),at least 100,nan,Mild,Moderate,nan,2.0,2.0,3.0,1.0,1.0,1.0,2.0,IV,6,IIIM
+ZTysVh,Yes,Yes,5.0,Substantial,nan,Non current,Non drinker,Null,Severe,Degree,1.0,2.0,1.0,3.0,1.0,2.0,5.0,-,3,II
+TtrpYz,No,Yes,5.0,Low,Intensive,Never smoked,Past drinker,Severe,Severe,GCSE/O-level,0.0,0.0,2.0,0.0,0.0,0.0,2.0,-,5.2,IV
+EcUhyZ,Yes,No,1.0,Low,Outpatient (Intensive),less than 100,Drinks daily,Severe,Normal,nan,1.0,2.0,3.0,3.0,1.0,3.0,1.0,IIIM,8,nan
+zmFACf,No,Yes,0.0,Intermediate,Outpatient (Intensive),Non current,Drinks three/four times weekly,Mild,Normal,nan,3.0,4.0,2.0,1.0,1.0,0.0,6.0,-,9,II
+EYQVdN,Yes,Yes,0.0,Low,Brief Intervention,Past smoker,Past drinker,Moderate,Normal,A-level,2.0,0.0,1.0,1.0,1.0,2.0,2.0,V,9,IV
+pOEUIs,No,No,1.0,Substantial,Outpatient (Intensive),Occasional current,Past drinker,Severe,Severe,Degree,0.0,1.0,0.0,1.0,2.0,1.0,3.0,-,2.1,IV
+bAaiiZ,Yes,No,0.0,Intermediate,Intensive,Occasional current,nan,Null,Moderate,None,0.0,3.0,0.0,2.0,1.0,2.0,1.0,V,2.1,IIIM
+DaMbiz,Yes,No,999.0,Substantial,Outpatient (Intensive),Occasional current,Drinks daily,Severe,Normal,GCSE/O-level,1.0,2.0,2.0,3.0,3.0,1.0,5.0,V,17,II
+TvjJJq,Yes,No,3.0,Substantial,Outpatient (Intensive),Non current,Drinks daily,Normal,Mild,A-level,1.0,4.0,0.0,2.0,3.0,2.0,4.0,IIIN,9,IIIN
+UYcica,Yes,Yes,999.0,Low,Outpatient (Intensive),at least 100,Non drinker,Mild,Severe,None,0.0,3.0,3.0,2.0,3.0,3.0,4.0,-,11,II
+lIVhyx,Yes,No,1.0,Intermediate,Intensive,less than 100,Drinks daily,Severe,Moderate,GCSE/O-level,3.0,4.0,2.0,3.0,1.0,0.0,3.0,IIIM,14,V
+VTFnDH,Yes,Yes,3.0,Intermediate,Outpatient (Intensive),less than 100,Drinks one/three times monthly,Null,Moderate,nan,0.0,1.0,1.0,1.0,0.0,3.0,2.0,IV,4,IIIM
+xHwvUJ,No,Yes,5.0,Intermediate,Outpatient (Intensive),nan,Non drinker,Null,Null,GCSE/O-level,2.0,2.0,2.0,3.0,0.0,3.0,6.0,IIIN,15,nan
+wgMoBl,No,Yes,999.0,Intermediate,Outpatient (Intensive),Current smoker,Non drinker,Mild,Severe,Degree,1.0,3.0,3.0,0.0,0.0,3.0,5.0,IIIM,2.1,IV
+sYoFmK,Yes,No,4.0,Substantial,Intensive,less than 100,Occasional drinker,Moderate,Normal,nan,1.0,5.0,1.0,2.0,1.0,0.0,5.0,II,4,IIIM
+SHPmzg,No,No,0.0,nan,Intensive,Current smoker,Drinks once/twice weekly,Moderate,Mild,Degree,1.0,2.0,0.0,2.0,1.0,2.0,5.0,V,9,nan
+xFPyws,No,No,0.0,Substantial,nan,Never smoked,Occasional drinker,Severe,Normal,GCSE/O-level,1.0,4.0,1.0,3.0,0.0,1.0,0.0,I,2.2,IIIM
+FdgfLU,No,No,5.0,Low,Outpatient (Intensive),less than 100,Drinks daily,Severe,Moderate,A-level,2.0,1.0,1.0,2.0,0.0,3.0,1.0,IV,7,IV
+ktpHVU,No,No,2.0,Low,nan,nan,Drinks three/four times weekly,Mild,Normal,None,3.0,4.0,3.0,1.0,2.0,2.0,3.0,IIIN,12,V
+OrQICW,Yes,Yes,4.0,Low,nan,less than 100,Drinks three/four times weekly,Normal,Severe,None,2.0,4.0,0.0,3.0,1.0,0.0,3.0,IV,2.2,IV
+PKzZzE,Yes,No,0.0,Substantial,nan,Never smoked,Past drinker,Mild,Normal,GCSE/O-level,3.0,3.0,3.0,1.0,2.0,3.0,4.0,V,12,IIIN
+EWJnzl,Yes,Yes,999.0,Intermediate,Intensive,less than 100,Drinks one/three times monthly,Null,Normal,A-level,3.0,5.0,3.0,2.0,1.0,1.0,5.0,-,10,IV
+FcgYow,Yes,No,0.0,Substantial,Intensive,Occasional current,Past drinker,Null,Normal,nan,0.0,4.0,2.0,0.0,2.0,3.0,0.0,I,3,IIIM
+aYxnBw,No,No,999.0,Low,Brief Intervention,Non current,nan,Mild,Moderate,GCSE/O-level,0.0,1.0,2.0,1.0,0.0,2.0,0.0,II,6,IIIN
+PmzknE,Yes,Yes,2.0,Intermediate,Brief Intervention,Past smoker,Past drinker,Severe,Null,nan,3.0,0.0,3.0,2.0,2.0,1.0,3.0,nan,12,I
+ofAeIP,Yes,No,4.0,Low,nan,at least 100,Drinks daily,Mild,Mild,A-level,2.0,6.0,0.0,2.0,2.0,2.0,3.0,IIIM,6,I
+kpEawm,No,No,5.0,Low,Brief Intervention,Non current,Occasional drinker,Normal,Moderate,Degree,3.0,3.0,3.0,1.0,3.0,3.0,5.0,-,11,nan
+wBnUYc,Yes,Yes,1.0,Low,Outpatient (Intensive),Past smoker,nan,Null,Normal,None,3.0,2.0,3.0,1.0,0.0,3.0,3.0,V,1.1,nan
+MFYLUq,No,Yes,1.0,nan,Brief Intervention,Occasional current,nan,Normal,Moderate,A-level,3.0,2.0,3.0,0.0,0.0,0.0,1.0,-,3,V
+QFCfJt,Yes,No,4.0,Low,nan,Past smoker,Drinks three/four times weekly,Mild,Severe,None,2.0,5.0,0.0,0.0,2.0,2.0,3.0,IIIM,3,I
+DFteXS,No,Yes,2.0,nan,Intensive,Non current,nan,Mild,Null,nan,0.0,6.0,1.0,0.0,1.0,1.0,6.0,IV,15,nan
+cgPeMq,No,Yes,4.0,Low,Outpatient (Intensive),at least 100,Drinks daily,Severe,Severe,nan,3.0,6.0,2.0,2.0,1.0,0.0,0.0,IIIM,6,II
+lzDZtm,Yes,No,0.0,Low,Outpatient (Intensive),less than 100,Drinks one/three times monthly,Severe,Null,A-level,2.0,6.0,2.0,3.0,0.0,3.0,3.0,I,nan,IIIN
+qzLmtr,Yes,No,2.0,Intermediate,Brief Intervention,less than 100,Occasional drinker,Null,Normal,A-level,0.0,1.0,0.0,3.0,1.0,0.0,5.0,IIIN,4,II
+MrrPIb,Yes,Yes,999.0,nan,Intensive,Current smoker,Occasional drinker,Moderate,Null,A-level,2.0,2.0,0.0,1.0,1.0,2.0,4.0,IIIN,1.2,I
+blXkeu,Yes,Yes,4.0,Substantial,Brief Intervention,at least 100,Drinks one/three times monthly,Moderate,Mild,None,0.0,0.0,0.0,0.0,3.0,1.0,1.0,-,1.1,IIIM
+pPvCeR,Yes,No,0.0,Intermediate,nan,Occasional current,Drinks three/four times weekly,Moderate,Severe,Degree,0.0,0.0,3.0,3.0,1.0,3.0,3.0,I,5.1,IV
+EEzzJX,Yes,Yes,0.0,Substantial,nan,less than 100,Drinks daily,Normal,Normal,None,0.0,0.0,1.0,2.0,0.0,1.0,0.0,IIIM,17,IIIN
+aoGDSL,No,Yes,5.0,Low,Intensive,Non current,Drinks one/three times monthly,Normal,Moderate,GCSE/O-level,3.0,5.0,2.0,1.0,2.0,0.0,1.0,I,11,IIIM
+NyGpLq,Yes,No,0.0,nan,nan,Current smoker,Occasional drinker,Null,Normal,GCSE/O-level,2.0,4.0,3.0,1.0,1.0,3.0,2.0,I,1.1,V
+wnRnnB,No,No,3.0,Low,Outpatient (Intensive),Never smoked,Drinks once/twice weekly,Severe,Normal,nan,2.0,6.0,3.0,0.0,2.0,1.0,4.0,II,4,II
+vEUSMu,Yes,Yes,2.0,Substantial,Outpatient (Intensive),at least 100,Drinks one/three times monthly,Mild,Normal,A-level,0.0,0.0,0.0,1.0,2.0,1.0,0.0,IV,15,IIIN
+UDAKsH,Yes,Yes,0.0,Substantial,Intensive,nan,Drinks daily,Mild,Moderate,A-level,3.0,3.0,3.0,1.0,2.0,0.0,1.0,IIIN,nan,I
+BJQgaE,No,No,999.0,Substantial,nan,Occasional current,Non drinker,Moderate,Moderate,nan,3.0,1.0,3.0,0.0,3.0,2.0,6.0,V,10,V
+MnPDib,No,No,1.0,Intermediate,Brief Intervention,less than 100,Drinks once/twice weekly,Normal,Severe,None,0.0,6.0,1.0,3.0,0.0,3.0,1.0,II,5.2,IIIN
+EJvgsm,No,Yes,1.0,Low,nan,less than 100,nan,Null,Mild,nan,3.0,6.0,1.0,0.0,2.0,1.0,2.0,IV,8,IIIN
+YLYslY,Yes,Yes,999.0,Substantial,Outpatient (Intensive),at least 100,Past drinker,Normal,Severe,nan,0.0,3.0,2.0,0.0,1.0,3.0,0.0,II,-,IIIN
+DhtkOa,Yes,Yes,0.0,Low,Outpatient (Intensive),Non current,Non drinker,Mild,Normal,None,1.0,1.0,0.0,3.0,3.0,2.0,6.0,V,5.1,nan
+CscZej,No,Yes,2.0,Low,nan,Non current,Drinks three/four times weekly,Normal,Severe,A-level,3.0,3.0,0.0,3.0,1.0,2.0,1.0,V,2.1,V
+ovtoyJ,No,No,999.0,Low,Intensive,Past smoker,Occasional drinker,Mild,Normal,nan,0.0,1.0,1.0,1.0,2.0,0.0,5.0,IIIN,5.2,IV
+dsLHeg,Yes,Yes,1.0,Intermediate,nan,Non current,Drinks once/twice weekly,Severe,Mild,nan,2.0,1.0,3.0,0.0,1.0,3.0,4.0,II,4,V
+CBqBFy,Yes,Yes,1.0,Substantial,Outpatient (Intensive),less than 100,Non drinker,Mild,Normal,GCSE/O-level,1.0,1.0,1.0,1.0,3.0,0.0,3.0,II,-,II
+lBmifY,Yes,No,999.0,nan,Outpatient (Intensive),Non current,Drinks once/twice weekly,Normal,Mild,GCSE/O-level,0.0,5.0,2.0,1.0,2.0,3.0,5.0,-,5.2,IIIN
+nOLpDE,Yes,No,2.0,nan,nan,Current smoker,Occasional drinker,Severe,Null,nan,1.0,1.0,1.0,0.0,3.0,2.0,3.0,nan,1.2,II
+vRmBPW,No,Yes,999.0,nan,Intensive,at least 100,Past drinker,Mild,Severe,Degree,1.0,1.0,1.0,3.0,3.0,3.0,5.0,nan,12,II
+zuPROI,No,No,3.0,Intermediate,nan,Occasional current,Drinks daily,Moderate,Mild,None,3.0,4.0,3.0,2.0,0.0,3.0,5.0,nan,1.2,V
+mOdCDs,Yes,Yes,4.0,Substantial,Intensive,Past smoker,Drinks three/four times weekly,Null,Severe,GCSE/O-level,3.0,3.0,1.0,0.0,3.0,3.0,0.0,V,9,IIIN
+eWNIGT,No,Yes,999.0,nan,nan,at least 100,Occasional drinker,Null,Null,nan,0.0,4.0,2.0,1.0,3.0,1.0,4.0,V,10,IIIM
+pGEuPk,No,No,999.0,nan,Brief Intervention,Non current,Drinks three/four times weekly,Null,Mild,A-level,3.0,2.0,2.0,1.0,3.0,1.0,5.0,nan,4,IIIN
+haKNtA,No,Yes,0.0,Substantial,nan,Occasional current,Drinks one/three times monthly,Moderate,Moderate,Degree,0.0,2.0,2.0,0.0,3.0,3.0,4.0,I,17,II
+goQrkQ,Yes,No,999.0,Substantial,Intensive,less than 100,Drinks daily,Moderate,Mild,nan,0.0,0.0,3.0,1.0,3.0,1.0,5.0,I,1.1,IV
+YRPKsM,Yes,Yes,0.0,Intermediate,nan,Occasional current,Drinks three/four times weekly,Mild,Mild,nan,3.0,4.0,1.0,0.0,3.0,1.0,5.0,V,14,IIIM
+bNZBCk,Yes,Yes,0.0,nan,Brief Intervention,less than 100,Occasional drinker,Null,Null,GCSE/O-level,3.0,6.0,0.0,3.0,3.0,0.0,6.0,I,11,IIIM
+YbIsYx,No,Yes,3.0,nan,Brief Intervention,Occasional current,Drinks once/twice weekly,Severe,Moderate,A-level,3.0,5.0,3.0,1.0,3.0,0.0,4.0,nan,3,V
+xwTUaZ,Yes,Yes,4.0,Substantial,Brief Intervention,Non current,Drinks three/four times weekly,Moderate,Normal,A-level,2.0,0.0,2.0,2.0,3.0,2.0,0.0,IIIN,7,I
+zBhfOL,No,No,1.0,nan,nan,Non current,Occasional drinker,Mild,Severe,Degree,2.0,5.0,2.0,0.0,1.0,1.0,1.0,IV,nan,IIIN
+SGiyaG,Yes,No,2.0,Low,nan,Past smoker,nan,Null,Moderate,GCSE/O-level,0.0,3.0,0.0,1.0,0.0,3.0,2.0,IV,15,IV
+LcNxDQ,Yes,Yes,2.0,Intermediate,nan,less than 100,Past drinker,Moderate,Moderate,Degree,1.0,6.0,2.0,2.0,2.0,1.0,4.0,II,8,IV
+IrCXPd,No,No,4.0,nan,nan,at least 100,Non drinker,Moderate,Normal,A-level,0.0,6.0,1.0,1.0,2.0,1.0,6.0,V,-,IV
+ZijRzo,No,Yes,1.0,Low,Outpatient (Intensive),less than 100,nan,Normal,Severe,Degree,3.0,2.0,2.0,1.0,1.0,1.0,5.0,nan,14,IIIM
+CHVhcm,No,Yes,1.0,Low,nan,Occasional current,Past drinker,Null,Normal,Degree,1.0,3.0,3.0,0.0,2.0,2.0,3.0,nan,15,II
+OebJOK,Yes,No,1.0,nan,Brief Intervention,Non current,Drinks one/three times monthly,Null,Normal,Degree,3.0,3.0,1.0,2.0,2.0,2.0,2.0,I,8,IIIM
+LQynsI,No,No,0.0,nan,Intensive,less than 100,Drinks daily,Mild,Normal,GCSE/O-level,3.0,6.0,2.0,1.0,3.0,2.0,6.0,IV,14,IV
+eUSWuQ,Yes,No,1.0,Intermediate,Outpatient (Intensive),Occasional current,Non drinker,Null,Severe,GCSE/O-level,3.0,3.0,2.0,0.0,1.0,1.0,6.0,-,5.2,IIIN
+MRVfww,Yes,Yes,1.0,nan,nan,Past smoker,nan,Moderate,Mild,nan,2.0,5.0,1.0,0.0,0.0,0.0,1.0,IIIN,15,IIIN
+BYMKTT,No,Yes,5.0,Substantial,Intensive,Never smoked,Drinks daily,Moderate,Mild,Degree,3.0,6.0,1.0,0.0,1.0,3.0,3.0,IIIN,5.2,IIIM
+HmnqIp,No,No,3.0,Low,nan,at least 100,Non drinker,Moderate,Severe,GCSE/O-level,3.0,1.0,1.0,0.0,2.0,3.0,6.0,IV,nan,IIIM
+cymZoX,No,No,2.0,Substantial,nan,Non current,Occasional drinker,Moderate,Null,None,1.0,4.0,2.0,0.0,1.0,3.0,6.0,IIIM,-,V
+cjDpQa,Yes,No,3.0,Intermediate,Intensive,Occasional current,nan,Moderate,Null,None,2.0,4.0,3.0,3.0,1.0,0.0,4.0,II,11,I
+JlEXVa,No,Yes,2.0,nan,Brief Intervention,Occasional current,Drinks daily,Mild,Null,GCSE/O-level,2.0,1.0,2.0,3.0,3.0,2.0,3.0,-,4,I
+FUcEOL,No,No,2.0,nan,Intensive,less than 100,Non drinker,Normal,Moderate,A-level,0.0,5.0,3.0,2.0,0.0,3.0,3.0,II,15,V
+wpxeTY,Yes,Yes,5.0,Substantial,nan,Non current,Drinks daily,Severe,Moderate,nan,2.0,5.0,1.0,1.0,2.0,1.0,5.0,IIIM,5.1,V
+psPzxT,No,No,1.0,Substantial,Intensive,Never smoked,Drinks three/four times weekly,Mild,Null,None,1.0,0.0,1.0,3.0,2.0,1.0,4.0,-,9,V
+FHfpJK,No,No,0.0,Intermediate,nan,Never smoked,Drinks one/three times monthly,Mild,Moderate,GCSE/O-level,1.0,3.0,2.0,1.0,0.0,2.0,3.0,IV,1.1,I
+FxGmjm,Yes,No,1.0,nan,Outpatient (Intensive),less than 100,Drinks three/four times weekly,Moderate,Null,nan,2.0,1.0,3.0,3.0,1.0,2.0,6.0,V,1.2,II
+gZmWQJ,No,No,4.0,Low,Brief Intervention,Occasional current,Non drinker,Normal,Severe,A-level,3.0,1.0,2.0,2.0,3.0,2.0,5.0,I,9,IIIN
+ATfaze,No,Yes,4.0,Substantial,nan,at least 100,nan,Null,Mild,A-level,1.0,3.0,0.0,3.0,0.0,1.0,4.0,IIIM,8,IIIM
+ymLSLI,Yes,Yes,4.0,nan,Outpatient (Intensive),Current smoker,Non drinker,Normal,Moderate,Degree,2.0,1.0,0.0,3.0,1.0,1.0,2.0,-,17,IV
+jzgdBA,No,No,0.0,Substantial,Brief Intervention,Occasional current,nan,Normal,Null,nan,0.0,5.0,3.0,1.0,1.0,2.0,3.0,I,-,V
+aHBWWG,Yes,Yes,999.0,Intermediate,Intensive,nan,Past drinker,Mild,Null,GCSE/O-level,1.0,1.0,3.0,3.0,3.0,3.0,2.0,IV,4,I
+TZmkrT,No,Yes,3.0,Low,Brief Intervention,less than 100,Occasional drinker,Mild,Moderate,Degree,1.0,5.0,2.0,2.0,2.0,3.0,5.0,-,4,IV
+zCJhGV,Yes,No,4.0,Intermediate,Brief Intervention,Never smoked,Drinks once/twice weekly,Moderate,Severe,Degree,0.0,6.0,3.0,2.0,2.0,2.0,3.0,IIIM,7,II
+WbNeCL,Yes,No,3.0,Substantial,Brief Intervention,Current smoker,nan,Moderate,Mild,None,3.0,3.0,0.0,1.0,2.0,1.0,5.0,-,11,I
+EFLsrp,No,Yes,4.0,Substantial,Outpatient (Intensive),Occasional current,Non drinker,Severe,Mild,Degree,2.0,3.0,3.0,2.0,1.0,0.0,4.0,IIIN,8,nan
+gnzXLS,Yes,Yes,5.0,nan,Outpatient (Intensive),Current smoker,Past drinker,Mild,Mild,GCSE/O-level,1.0,1.0,3.0,0.0,0.0,0.0,2.0,IV,15,I
+DODpqF,Yes,No,999.0,Intermediate,nan,Non current,Occasional drinker,Null,Moderate,A-level,2.0,3.0,2.0,1.0,1.0,0.0,4.0,IV,5.1,V
+VGgKBg,Yes,Yes,1.0,Low,Brief Intervention,Non current,Occasional drinker,Severe,Null,None,2.0,0.0,0.0,0.0,2.0,3.0,2.0,IIIN,1.1,IIIM
+apgNRI,No,No,5.0,Intermediate,nan,at least 100,nan,Normal,Normal,GCSE/O-level,2.0,4.0,1.0,3.0,0.0,1.0,5.0,V,4,nan
+OxYfSv,No,No,5.0,nan,Brief Intervention,at least 100,Past drinker,Moderate,Severe,A-level,0.0,1.0,1.0,1.0,0.0,2.0,0.0,I,14,IIIM
+DfbSII,Yes,Yes,1.0,nan,Outpatient (Intensive),Current smoker,Drinks three/four times weekly,Mild,Mild,Degree,0.0,6.0,0.0,2.0,2.0,1.0,5.0,-,6,nan
+WnEssr,Yes,Yes,1.0,nan,nan,nan,Past drinker,Normal,Severe,None,2.0,1.0,2.0,0.0,3.0,2.0,5.0,IIIN,5.2,nan
+dtEaZR,Yes,Yes,5.0,Intermediate,Outpatient (Intensive),Non current,Non drinker,Normal,Severe,Degree,2.0,1.0,1.0,2.0,3.0,1.0,1.0,IIIM,7,nan
+rfycrL,No,Yes,0.0,Low,Outpatient (Intensive),Current smoker,Occasional drinker,Normal,Severe,nan,2.0,5.0,2.0,3.0,0.0,1.0,6.0,IIIN,1.1,IIIN
+nstPFt,No,Yes,5.0,Substantial,Intensive,Non current,Drinks daily,Moderate,Null,A-level,3.0,5.0,0.0,3.0,0.0,0.0,4.0,I,14,IV
+OrTpEx,Yes,Yes,1.0,Low,Brief Intervention,Past smoker,Occasional drinker,Normal,Mild,A-level,0.0,5.0,1.0,3.0,0.0,3.0,6.0,IIIN,8,V
+gHZvPC,No,Yes,5.0,nan,nan,less than 100,Occasional drinker,Moderate,Severe,GCSE/O-level,0.0,5.0,0.0,1.0,2.0,0.0,4.0,IIIN,5.1,IIIM
+omkGxW,Yes,No,2.0,Substantial,Outpatient (Intensive),nan,Non drinker,Severe,Severe,A-level,3.0,0.0,2.0,1.0,3.0,3.0,0.0,IIIN,17,IIIN
+seISnP,Yes,Yes,0.0,nan,Outpatient (Intensive),less than 100,Drinks once/twice weekly,Severe,Severe,Degree,1.0,1.0,2.0,0.0,0.0,3.0,4.0,nan,10,I
+ckVspq,Yes,Yes,3.0,nan,Intensive,at least 100,Drinks three/four times weekly,Null,Normal,Degree,3.0,1.0,0.0,2.0,2.0,3.0,3.0,-,5.2,nan
+OsooIY,Yes,Yes,2.0,nan,Brief Intervention,less than 100,Drinks three/four times weekly,Severe,Null,Degree,2.0,5.0,0.0,3.0,0.0,2.0,5.0,nan,14,IV
+RRotSM,No,Yes,3.0,Intermediate,Outpatient (Intensive),Non current,Drinks once/twice weekly,Null,Moderate,A-level,0.0,4.0,1.0,2.0,0.0,1.0,5.0,I,2.2,II
+hBZQgb,No,Yes,0.0,Substantial,Brief Intervention,less than 100,Drinks one/three times monthly,Moderate,Normal,nan,2.0,5.0,0.0,0.0,3.0,0.0,4.0,II,nan,V
+UQgERP,No,No,5.0,Substantial,Outpatient (Intensive),at least 100,Drinks three/four times weekly,Mild,Moderate,nan,2.0,2.0,1.0,3.0,2.0,1.0,2.0,IIIN,15,nan
+BPrzGI,No,Yes,4.0,nan,nan,Non current,Past drinker,Normal,Normal,None,1.0,3.0,1.0,0.0,3.0,3.0,5.0,IIIN,nan,V
+IQVzci,Yes,Yes,3.0,Low,Brief Intervention,Occasional current,Drinks one/three times monthly,Null,Moderate,None,0.0,4.0,3.0,2.0,1.0,3.0,0.0,V,3,V
+OdlDyY,Yes,No,5.0,nan,Brief Intervention,less than 100,Drinks daily,Mild,Normal,GCSE/O-level,0.0,1.0,2.0,0.0,2.0,2.0,4.0,IIIN,8,IIIM
+KnqhOk,No,Yes,3.0,Low,nan,Non current,Occasional drinker,Severe,Mild,nan,3.0,2.0,1.0,0.0,1.0,3.0,5.0,nan,2.2,IV
+kZlPec,No,No,5.0,Substantial,nan,at least 100,Past drinker,Severe,Normal,GCSE/O-level,3.0,0.0,2.0,1.0,0.0,3.0,4.0,IIIN,5.2,nan
+sZNCLT,No,No,3.0,nan,Outpatient (Intensive),Past smoker,nan,Normal,Normal,Degree,0.0,0.0,0.0,0.0,3.0,3.0,3.0,IV,9,I
+mgSZXh,Yes,Yes,0.0,Substantial,Outpatient (Intensive),at least 100,nan,Normal,Mild,nan,2.0,1.0,0.0,1.0,2.0,0.0,4.0,nan,17,IIIM
+ziYfuW,Yes,Yes,1.0,Intermediate,Outpatient (Intensive),Past smoker,Drinks once/twice weekly,Mild,Null,None,2.0,1.0,3.0,2.0,1.0,1.0,0.0,I,12,IIIN
+wBYPvW,No,Yes,0.0,Intermediate,Intensive,nan,Occasional drinker,Severe,Mild,nan,0.0,5.0,3.0,2.0,3.0,0.0,3.0,-,17,IV
+crtxCU,No,No,4.0,Intermediate,Outpatient (Intensive),Occasional current,Past drinker,Severe,Normal,None,1.0,1.0,1.0,3.0,1.0,3.0,6.0,II,17,I
+LIeglV,No,No,1.0,Low,Outpatient (Intensive),Occasional current,Drinks three/four times weekly,Normal,Moderate,A-level,1.0,3.0,1.0,2.0,1.0,0.0,0.0,II,7,V
+mhLexW,No,Yes,2.0,Substantial,Outpatient (Intensive),Past smoker,Drinks one/three times monthly,Mild,Severe,nan,0.0,2.0,0.0,0.0,0.0,3.0,2.0,nan,6,V
+LmgwTC,Yes,Yes,5.0,Substantial,nan,Non current,Past drinker,Normal,Null,Degree,0.0,5.0,1.0,0.0,2.0,0.0,3.0,nan,4,V
+IbzSaE,No,No,3.0,Substantial,Outpatient (Intensive),nan,Past drinker,Severe,Mild,A-level,1.0,6.0,1.0,0.0,2.0,2.0,1.0,IV,10,IV
+AwBKlh,Yes,Yes,4.0,Low,Brief Intervention,Occasional current,Drinks one/three times monthly,Mild,Normal,Degree,1.0,5.0,0.0,3.0,2.0,2.0,3.0,IIIN,14,IV
+NKqCAX,Yes,Yes,4.0,nan,Outpatient (Intensive),Past smoker,Occasional drinker,Severe,Normal,nan,1.0,4.0,3.0,1.0,2.0,3.0,4.0,IIIN,7,IV
+GnUovW,Yes,Yes,999.0,Intermediate,Intensive,at least 100,Drinks one/three times monthly,Moderate,Normal,A-level,2.0,2.0,1.0,0.0,1.0,0.0,4.0,nan,-,IV
+CQoaIu,Yes,No,999.0,Substantial,Brief Intervention,Past smoker,Past drinker,Normal,Severe,A-level,1.0,0.0,0.0,1.0,0.0,0.0,3.0,IIIN,2.1,nan
+aoGDLN,No,Yes,1.0,Intermediate,Outpatient (Intensive),nan,Drinks once/twice weekly,Moderate,Mild,None,2.0,5.0,0.0,0.0,1.0,1.0,4.0,IIIM,14,IV
+pgYGEZ,Yes,Yes,4.0,nan,Brief Intervention,Current smoker,Drinks one/three times monthly,Null,Severe,Degree,1.0,5.0,2.0,0.0,3.0,3.0,1.0,V,8,I
+ZdoVKy,No,Yes,1.0,Low,nan,nan,Past drinker,Null,Normal,None,2.0,0.0,1.0,1.0,0.0,0.0,3.0,-,-,II
+CfpJIo,Yes,Yes,4.0,nan,Outpatient (Intensive),at least 100,Drinks daily,Moderate,Moderate,A-level,1.0,1.0,1.0,0.0,0.0,2.0,6.0,II,17,V
+SLOwkm,Yes,No,1.0,nan,Brief Intervention,Occasional current,Drinks one/three times monthly,Null,Severe,A-level,1.0,0.0,1.0,0.0,1.0,2.0,0.0,II,4,IIIN
+mydirS,Yes,Yes,999.0,Intermediate,nan,at least 100,nan,Null,Mild,nan,0.0,1.0,2.0,2.0,1.0,0.0,0.0,nan,17,IIIM
+tBXrRx,No,No,5.0,Intermediate,nan,Occasional current,Occasional drinker,Normal,Null,GCSE/O-level,3.0,4.0,3.0,2.0,1.0,0.0,1.0,I,10,I
+bSqrkd,Yes,No,5.0,Substantial,Outpatient (Intensive),Non current,nan,Mild,Severe,nan,1.0,4.0,1.0,0.0,1.0,0.0,4.0,II,9,II
+AgQqOf,No,Yes,0.0,Intermediate,nan,Never smoked,Drinks three/four times weekly,Normal,Severe,None,3.0,3.0,1.0,2.0,0.0,1.0,0.0,nan,7,I
+ZYYCgi,Yes,Yes,5.0,Intermediate,Outpatient (Intensive),Current smoker,Non drinker,Normal,Mild,nan,2.0,0.0,3.0,3.0,1.0,3.0,3.0,I,2.1,I
+uRJJEH,No,Yes,4.0,Intermediate,Outpatient (Intensive),at least 100,Drinks once/twice weekly,Moderate,Normal,GCSE/O-level,1.0,4.0,0.0,2.0,2.0,1.0,4.0,I,2.2,IIIM
+qhtPTU,Yes,Yes,3.0,nan,Outpatient (Intensive),Never smoked,Drinks one/three times monthly,Null,Null,GCSE/O-level,2.0,3.0,1.0,1.0,3.0,1.0,1.0,-,7,I
+Ayjcfd,No,No,5.0,Substantial,Intensive,Current smoker,Past drinker,Severe,Null,Degree,3.0,1.0,2.0,1.0,0.0,1.0,1.0,I,11,nan
+rWsjNc,Yes,No,2.0,nan,Intensive,Never smoked,Occasional drinker,Mild,Normal,GCSE/O-level,3.0,2.0,1.0,1.0,3.0,0.0,4.0,II,8,IIIM
+yBPWYl,No,Yes,1.0,nan,Brief Intervention,Current smoker,Non drinker,Moderate,Mild,None,3.0,3.0,3.0,0.0,0.0,2.0,0.0,nan,7,I
+AFpqmH,Yes,No,5.0,Low,Outpatient (Intensive),Non current,Past drinker,Null,Severe,None,0.0,3.0,0.0,2.0,1.0,3.0,0.0,II,11,IIIN
+vZyzHS,No,No,999.0,nan,Intensive,at least 100,nan,Null,Null,GCSE/O-level,1.0,4.0,2.0,0.0,1.0,3.0,1.0,I,5.2,II
+cKffXx,No,No,1.0,Substantial,Outpatient (Intensive),at least 100,Past drinker,Null,Moderate,Degree,2.0,2.0,3.0,3.0,0.0,3.0,3.0,IIIN,nan,II
+krJbCU,Yes,Yes,3.0,Substantial,Outpatient (Intensive),nan,Drinks one/three times monthly,Null,Null,nan,0.0,6.0,3.0,0.0,0.0,0.0,4.0,IIIM,5.2,IIIM
+HfoMyR,No,No,999.0,Intermediate,nan,nan,Occasional drinker,Null,Normal,A-level,2.0,2.0,1.0,3.0,3.0,3.0,0.0,I,5.1,nan
+GIpJPY,Yes,Yes,5.0,Low,Outpatient (Intensive),at least 100,Drinks once/twice weekly,Normal,Normal,GCSE/O-level,1.0,2.0,2.0,3.0,0.0,0.0,0.0,nan,-,IIIN
+QFenIC,Yes,Yes,999.0,Intermediate,Intensive,Current smoker,Non drinker,Severe,Normal,A-level,1.0,6.0,0.0,1.0,3.0,2.0,6.0,IIIM,-,IIIM
+TItUDL,No,No,2.0,Low,Brief Intervention,nan,Occasional drinker,Normal,Mild,GCSE/O-level,2.0,3.0,2.0,0.0,3.0,1.0,6.0,IV,2.2,II
+sntIPW,Yes,Yes,0.0,Substantial,nan,Occasional current,nan,Moderate,Severe,GCSE/O-level,2.0,5.0,1.0,0.0,3.0,2.0,2.0,IIIN,4,IIIN
+uZcNxh,No,Yes,2.0,Substantial,Intensive,Occasional current,Past drinker,Moderate,Mild,GCSE/O-level,3.0,2.0,1.0,0.0,2.0,1.0,2.0,I,14,IV
+VFowHk,No,Yes,5.0,nan,Intensive,Non current,Drinks one/three times monthly,Severe,Severe,None,3.0,2.0,1.0,0.0,0.0,1.0,6.0,IV,14,II
+lcboti,No,No,2.0,Low,Outpatient (Intensive),at least 100,Drinks one/three times monthly,Severe,Null,Degree,0.0,1.0,3.0,0.0,2.0,1.0,0.0,-,17,V
+XJSQpU,Yes,Yes,4.0,Low,nan,less than 100,Drinks three/four times weekly,Normal,Normal,GCSE/O-level,0.0,4.0,1.0,3.0,0.0,1.0,1.0,IIIM,17,IV
+xzSqNF,Yes,No,5.0,Low,Intensive,Non current,Drinks daily,Severe,Null,nan,3.0,4.0,0.0,1.0,0.0,0.0,5.0,V,6,nan
+IxWIHB,Yes,No,5.0,Low,Intensive,Occasional current,Past drinker,Null,Null,nan,1.0,1.0,2.0,2.0,1.0,1.0,0.0,nan,8,I
+SGfkCL,No,No,2.0,Intermediate,Outpatient (Intensive),nan,Past drinker,Severe,Mild,nan,1.0,3.0,2.0,2.0,1.0,0.0,6.0,IV,4,nan
+vQmCZT,No,No,0.0,Low,Outpatient (Intensive),Non current,Non drinker,Moderate,Moderate,nan,3.0,6.0,2.0,1.0,0.0,1.0,4.0,V,nan,IV
+dmxUjG,Yes,No,5.0,Low,Intensive,Occasional current,Occasional drinker,Mild,Mild,None,3.0,2.0,3.0,0.0,3.0,2.0,5.0,I,12,V
+kvrNuI,No,Yes,4.0,Low,Intensive,less than 100,Non drinker,Mild,Normal,Degree,2.0,4.0,3.0,0.0,0.0,0.0,0.0,-,6,I
+FdGDsn,Yes,No,4.0,Substantial,nan,Past smoker,Past drinker,Moderate,Null,A-level,2.0,4.0,2.0,1.0,3.0,0.0,2.0,IIIN,nan,nan
+zSOOrR,Yes,Yes,999.0,Low,nan,at least 100,Drinks one/three times monthly,Null,Moderate,None,1.0,5.0,0.0,0.0,2.0,3.0,1.0,-,5.2,I
+WgRhch,No,No,0.0,Substantial,Intensive,Past smoker,Occasional drinker,Mild,Mild,A-level,1.0,0.0,3.0,2.0,3.0,0.0,0.0,V,11,IIIM
+LSyydy,Yes,Yes,4.0,nan,Brief Intervention,at least 100,nan,Null,Mild,Degree,1.0,4.0,3.0,3.0,1.0,1.0,6.0,IIIN,nan,I
+EtDFzf,Yes,Yes,1.0,Low,nan,at least 100,Drinks daily,Mild,Normal,GCSE/O-level,2.0,1.0,2.0,0.0,0.0,0.0,6.0,-,6,V
+WvYAph,Yes,No,999.0,Low,nan,Never smoked,Non drinker,Moderate,Severe,None,3.0,0.0,0.0,0.0,3.0,1.0,2.0,nan,8,IIIM
+HEbSec,No,No,4.0,Substantial,nan,at least 100,Past drinker,Severe,Normal,GCSE/O-level,0.0,3.0,1.0,2.0,3.0,2.0,4.0,nan,nan,IV
+TXEYuS,Yes,Yes,0.0,nan,Brief Intervention,Occasional current,Drinks one/three times monthly,Mild,Severe,Degree,3.0,3.0,0.0,2.0,2.0,1.0,4.0,nan,10,IIIM
+pCTQEj,Yes,No,1.0,Low,nan,Occasional current,Drinks three/four times weekly,Severe,Normal,None,1.0,0.0,2.0,3.0,1.0,3.0,5.0,I,2.2,V
+RsKKCw,Yes,No,3.0,Intermediate,Outpatient (Intensive),nan,Drinks daily,Null,Severe,A-level,3.0,4.0,2.0,1.0,1.0,2.0,3.0,IV,15,IV
+EHuRxm,No,Yes,3.0,Low,Outpatient (Intensive),at least 100,Occasional drinker,Mild,Normal,Degree,0.0,0.0,3.0,0.0,0.0,2.0,5.0,II,2.1,IIIM
+elVUXb,Yes,No,5.0,Intermediate,nan,Non current,Non drinker,Moderate,Mild,GCSE/O-level,3.0,1.0,3.0,2.0,1.0,1.0,4.0,IV,5.1,I
+uuJRmt,Yes,No,2.0,Intermediate,Brief Intervention,Occasional current,Drinks one/three times monthly,Null,Moderate,GCSE/O-level,0.0,4.0,0.0,2.0,0.0,1.0,1.0,IIIM,3,IIIN
+mLIBYe,Yes,Yes,1.0,Low,Outpatient (Intensive),at least 100,Non drinker,Mild,Severe,None,0.0,5.0,2.0,2.0,3.0,3.0,1.0,IIIN,11,I
+PpBamk,No,No,1.0,Low,Brief Intervention,Occasional current,Drinks daily,Null,Normal,None,2.0,1.0,1.0,1.0,3.0,1.0,0.0,IIIN,2.1,V
+bFuRZt,Yes,No,4.0,Low,Brief Intervention,Occasional current,Drinks one/three times monthly,Null,Null,None,0.0,0.0,1.0,2.0,3.0,0.0,2.0,V,6,IIIM
+LBTLRi,Yes,Yes,3.0,Substantial,Outpatient (Intensive),Past smoker,Drinks once/twice weekly,Null,Mild,Degree,2.0,4.0,2.0,1.0,0.0,0.0,5.0,nan,1.2,I
+YBuLxe,Yes,No,3.0,Intermediate,Intensive,Past smoker,Drinks daily,Mild,Mild,None,3.0,0.0,2.0,3.0,0.0,1.0,0.0,IIIM,5.2,V
+XAfMIV,No,Yes,999.0,Substantial,Outpatient (Intensive),less than 100,Non drinker,Mild,Moderate,Degree,3.0,0.0,2.0,1.0,3.0,0.0,3.0,V,-,nan
+hHeevV,No,Yes,0.0,Substantial,Brief Intervention,Never smoked,Past drinker,Moderate,Moderate,None,0.0,1.0,3.0,0.0,0.0,0.0,5.0,IV,10,IV
+gOZxDG,Yes,No,1.0,Intermediate,Outpatient (Intensive),Occasional current,Past drinker,Null,Severe,Degree,0.0,1.0,0.0,1.0,2.0,1.0,1.0,nan,8,II
+OzKxoz,Yes,No,4.0,Intermediate,Brief Intervention,Past smoker,Drinks daily,Mild,Normal,Degree,0.0,1.0,0.0,3.0,0.0,2.0,4.0,I,17,IV
+TiokBk,Yes,Yes,999.0,Low,Outpatient (Intensive),Current smoker,Drinks daily,Normal,Severe,Degree,2.0,2.0,0.0,0.0,2.0,3.0,1.0,IIIM,12,nan
+iaddWl,No,No,5.0,Substantial,Intensive,Non current,nan,Moderate,Moderate,Degree,1.0,4.0,2.0,2.0,0.0,3.0,3.0,-,1.1,V
+ZDxJKv,No,Yes,4.0,Substantial,Brief Intervention,Past smoker,Drinks once/twice weekly,Moderate,Moderate,None,2.0,6.0,2.0,1.0,0.0,0.0,0.0,II,1.1,II
+mlWBhb,No,No,2.0,Substantial,Brief Intervention,less than 100,Drinks once/twice weekly,Moderate,Mild,Degree,3.0,2.0,1.0,2.0,1.0,3.0,6.0,II,2.1,IV
+YxnxAr,No,Yes,5.0,Intermediate,Intensive,Occasional current,Non drinker,Mild,Mild,nan,2.0,5.0,1.0,1.0,2.0,1.0,6.0,IIIM,6,V
+tfCqHS,Yes,No,1.0,Low,Outpatient (Intensive),Non current,Past drinker,Null,Mild,nan,3.0,2.0,3.0,2.0,2.0,1.0,6.0,IV,14,I
+TdgxBA,No,Yes,2.0,Intermediate,nan,Current smoker,nan,Mild,Mild,nan,2.0,5.0,3.0,2.0,2.0,2.0,2.0,-,9,IIIM
+jUZTUZ,Yes,No,3.0,Low,Outpatient (Intensive),less than 100,nan,Moderate,Mild,nan,2.0,3.0,2.0,1.0,1.0,1.0,5.0,IIIN,2.1,V
+dIBQVa,No,No,1.0,Low,nan,less than 100,Drinks once/twice weekly,Severe,Null,A-level,2.0,4.0,0.0,0.0,1.0,1.0,2.0,V,1.2,nan
+vKzWOj,No,Yes,5.0,nan,Outpatient (Intensive),less than 100,Drinks three/four times weekly,Mild,Moderate,A-level,1.0,0.0,1.0,1.0,3.0,0.0,6.0,nan,nan,I
+kefLor,Yes,No,999.0,Low,Outpatient (Intensive),less than 100,nan,Mild,Severe,nan,3.0,5.0,0.0,3.0,3.0,1.0,3.0,IIIN,5.1,IIIN
+GNWzkU,Yes,No,3.0,Low,Intensive,less than 100,nan,Severe,Null,Degree,3.0,4.0,1.0,3.0,2.0,0.0,6.0,nan,6,IIIM
+kfWClI,No,No,0.0,Substantial,Outpatient (Intensive),nan,Non drinker,Moderate,Severe,A-level,0.0,4.0,3.0,0.0,2.0,2.0,2.0,IIIM,11,I
+ukVupK,Yes,No,4.0,Intermediate,Brief Intervention,at least 100,nan,Moderate,Normal,GCSE/O-level,3.0,6.0,3.0,3.0,0.0,1.0,5.0,nan,14,nan
+tHIKDO,No,No,0.0,nan,Outpatient (Intensive),Occasional current,Drinks daily,Normal,Severe,A-level,0.0,6.0,0.0,0.0,1.0,3.0,2.0,-,17,IV
+LOMAdN,Yes,No,0.0,Low,nan,Past smoker,Past drinker,Mild,Severe,GCSE/O-level,3.0,4.0,0.0,0.0,3.0,0.0,2.0,I,5.2,IIIM
+RQAtNf,Yes,Yes,5.0,Intermediate,Outpatient (Intensive),less than 100,Drinks three/four times weekly,Null,Mild,GCSE/O-level,0.0,1.0,0.0,2.0,2.0,1.0,4.0,V,-,IIIM
+kcoWNy,Yes,Yes,5.0,Intermediate,Brief Intervention,at least 100,Drinks three/four times weekly,Normal,Moderate,GCSE/O-level,1.0,4.0,1.0,3.0,1.0,1.0,1.0,nan,6,IV
+TNZRfm,Yes,Yes,999.0,Substantial,Brief Intervention,Current smoker,nan,Normal,Normal,A-level,2.0,4.0,1.0,1.0,0.0,2.0,3.0,nan,12,IIIM
+FyvZRS,No,Yes,4.0,nan,Outpatient (Intensive),Current smoker,nan,Severe,Severe,None,3.0,4.0,2.0,1.0,3.0,1.0,1.0,II,5.2,IV
+IZhXpE,No,Yes,2.0,Low,Brief Intervention,Current smoker,Non drinker,Mild,Normal,None,0.0,5.0,0.0,1.0,2.0,3.0,4.0,nan,11,V
+XPSJxY,Yes,Yes,0.0,Substantial,nan,Occasional current,Drinks once/twice weekly,Normal,Moderate,nan,2.0,1.0,2.0,0.0,2.0,3.0,0.0,nan,2.2,IV
+QrFZny,Yes,Yes,5.0,nan,Outpatient (Intensive),less than 100,Drinks one/three times monthly,Severe,Severe,nan,3.0,5.0,1.0,1.0,2.0,3.0,1.0,IIIM,12,IIIM
+heakYc,Yes,Yes,2.0,Intermediate,nan,Non current,Past drinker,Moderate,Mild,nan,2.0,3.0,1.0,2.0,0.0,3.0,3.0,IV,6,IV
+oUHWnI,Yes,No,2.0,Low,Outpatient (Intensive),nan,Drinks once/twice weekly,Normal,Mild,Degree,1.0,1.0,1.0,2.0,2.0,0.0,3.0,V,2.2,IV
+klzcjC,Yes,No,3.0,Intermediate,Brief Intervention,Current smoker,nan,Moderate,Mild,A-level,0.0,0.0,0.0,3.0,0.0,0.0,6.0,nan,8,nan
+oRhHhQ,No,No,0.0,nan,nan,Occasional current,Drinks once/twice weekly,Normal,Null,nan,1.0,3.0,2.0,3.0,0.0,2.0,5.0,IV,8,IIIN
+jrzbWY,No,Yes,1.0,Low,Outpatient (Intensive),less than 100,Drinks once/twice weekly,Mild,Severe,nan,3.0,0.0,1.0,0.0,2.0,2.0,5.0,I,nan,IIIM
+olaGSS,No,No,1.0,nan,Brief Intervention,Occasional current,Non drinker,Null,Severe,None,2.0,4.0,3.0,0.0,2.0,0.0,2.0,IIIM,4,I
+YjXtzV,Yes,Yes,2.0,Low,Brief Intervention,less than 100,Drinks one/three times monthly,Severe,Severe,Degree,3.0,4.0,0.0,2.0,1.0,3.0,5.0,IIIN,1.1,IIIM
+adqaQR,No,No,5.0,Substantial,Outpatient (Intensive),less than 100,Drinks one/three times monthly,Mild,Normal,None,3.0,6.0,1.0,0.0,0.0,3.0,5.0,nan,2.1,II
+TaoEbU,Yes,Yes,5.0,Substantial,nan,Occasional current,Drinks three/four times weekly,Null,Normal,GCSE/O-level,1.0,5.0,3.0,3.0,3.0,2.0,3.0,V,4,nan
+XSpzSd,No,No,3.0,Substantial,Brief Intervention,Past smoker,nan,Normal,Severe,GCSE/O-level,0.0,4.0,1.0,0.0,1.0,2.0,5.0,IIIM,14,II
+tjSmAE,Yes,Yes,0.0,Substantial,Intensive,Non current,Non drinker,Normal,Moderate,None,2.0,0.0,2.0,2.0,1.0,0.0,0.0,IV,2.1,V
+whUEMo,No,No,3.0,Intermediate,Intensive,nan,Past drinker,Severe,Mild,GCSE/O-level,0.0,1.0,0.0,2.0,0.0,0.0,4.0,IIIM,4,V
+RPGklO,Yes,No,5.0,nan,Brief Intervention,at least 100,Non drinker,Normal,Mild,None,1.0,0.0,0.0,1.0,0.0,1.0,2.0,V,14,IIIN
+GojrRY,Yes,No,1.0,Intermediate,Outpatient (Intensive),Current smoker,Drinks one/three times monthly,Mild,Mild,None,2.0,2.0,1.0,3.0,1.0,0.0,5.0,IIIM,1.1,II
+QygqtD,No,No,3.0,nan,Intensive,at least 100,Non drinker,Normal,Severe,GCSE/O-level,0.0,0.0,3.0,3.0,2.0,1.0,4.0,II,14,V
+cAXmRH,No,No,5.0,Low,Brief Intervention,Occasional current,Past drinker,Normal,Severe,A-level,3.0,0.0,0.0,2.0,2.0,0.0,3.0,IIIM,7,II
+DzNuUI,Yes,Yes,0.0,Intermediate,nan,Non current,Occasional drinker,Normal,Mild,nan,0.0,1.0,0.0,0.0,0.0,1.0,1.0,I,nan,IIIN
+FDRTCr,No,No,1.0,nan,nan,Past smoker,Occasional drinker,Normal,Normal,Degree,2.0,1.0,3.0,1.0,1.0,1.0,4.0,nan,-,IIIM
+khAqbG,Yes,Yes,5.0,Low,nan,at least 100,Drinks three/four times weekly,Null,Mild,Degree,1.0,1.0,1.0,3.0,3.0,3.0,3.0,I,14,V
+JKptVc,No,No,2.0,Intermediate,Intensive,Never smoked,Non drinker,Moderate,Severe,nan,2.0,2.0,2.0,3.0,3.0,1.0,0.0,IIIM,4,I
+GYeTrl,Yes,No,999.0,Low,Intensive,Occasional current,Drinks one/three times monthly,Severe,Mild,A-level,2.0,3.0,0.0,1.0,3.0,0.0,4.0,IIIM,7,nan
+VGqjYl,No,Yes,4.0,nan,nan,less than 100,Drinks one/three times monthly,Moderate,Null,None,3.0,1.0,1.0,2.0,2.0,2.0,1.0,IIIN,4,V
+eKbndb,No,Yes,1.0,Substantial,Intensive,less than 100,Past drinker,Normal,Normal,None,1.0,2.0,1.0,2.0,0.0,2.0,5.0,IIIN,1.1,IIIN
+UpJZJh,No,No,3.0,Substantial,nan,Non current,nan,Null,Null,None,0.0,4.0,1.0,3.0,0.0,1.0,4.0,II,7,II
+LMCqQM,No,No,4.0,nan,nan,Past smoker,Non drinker,Null,Null,nan,0.0,3.0,1.0,1.0,1.0,2.0,5.0,nan,1.2,nan
+ZbEJNC,No,No,4.0,Low,nan,Non current,Drinks once/twice weekly,Null,Moderate,GCSE/O-level,0.0,3.0,3.0,2.0,1.0,2.0,4.0,-,14,II
+HbPTvz,No,No,4.0,nan,nan,nan,Drinks three/four times weekly,Severe,Normal,A-level,0.0,2.0,1.0,3.0,0.0,0.0,2.0,V,2.2,nan
+RsAqoJ,No,No,4.0,nan,nan,Never smoked,nan,Moderate,Normal,Degree,1.0,2.0,2.0,1.0,2.0,0.0,0.0,V,1.2,IIIN
+UmtSWL,No,No,3.0,Low,nan,at least 100,Drinks one/three times monthly,Null,Null,Degree,1.0,0.0,1.0,0.0,1.0,1.0,4.0,II,2.2,II
+pEHjOd,No,No,3.0,nan,Brief Intervention,Occasional current,Occasional drinker,Moderate,Moderate,None,0.0,5.0,2.0,2.0,1.0,0.0,4.0,II,8,V

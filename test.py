@@ -11,23 +11,24 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 
 ## METADATA GENERATION TESTING ##
-"""
+
 METADATA_FILENAME = "/workspaces/SynthOpt/examples/Cam-Can_Metadata.csv"
 SAMPLE_SIZE = 800
-SAVE_LOCATION = "/workspaces/SynthOpt/examples"
+SAVE_LOCATION = "/workspaces/SynthOpt/output"
 
 GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, SAVE_LOCATION)
 
 for filename, df in GENERATED_METADATA_DATASETS.items():
     print(f"\nData for {filename}:")
     print(df.head())
-"""
+
 ##
 ## SYNTHETIC DATA GENERATION TESTING ##
-
+"""
 MODEL = "pategan"
-DATA = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_no_id.csv")
+DATA = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned.csv")
 DATA, CONTROL_DATA = train_test_split(DATA, test_size=0.1)
+IDENTIFIER_COLUMN = "RID"
 PREDICTION_COLUMN = "Combined Depression"
 SENSITIVE_COLUMNS = ["Combined Depression"]
 KEY_COLUMNS = ["PTDOBYY","PTGENDER"]
@@ -35,7 +36,7 @@ ITERATIONS = 10
 SAMPLE_SIZE = 800
 EPSILON = 5
 
-SYNTHETIC_DATA = generate_syntheticdata(MODEL, DATA, CONTROL_DATA, PREDICTION_COLUMN, SENSITIVE_COLUMNS, KEY_COLUMNS, 
+SYNTHETIC_DATA = generate_syntheticdata(MODEL, DATA, IDENTIFIER_COLUMN, PREDICTION_COLUMN, SENSITIVE_COLUMNS, 
                                         ITERATIONS, SAMPLE_SIZE, EPSILON, None, None)
 
 SYNTHETIC_DATA.to_csv("/workspaces/SynthOpt/output/example_synthetic_data.csv")
@@ -50,7 +51,4 @@ quality_scores = evaluate_quality(DATA, SYNTHETIC_DATA)
 utility_scores = evaluate_utility(DATA, SYNTHETIC_DATA, PREDICTION_COLUMN)
 
 table_vis(privacy_scores, quality_scores, utility_scores, DATA.columns)
-
-# have a report boolean variable for each one then have an if statement for return which will return a list of metrics if report is true
-# actually may just do a return statement anyway
-# need to return both whole table and attribute scores
+"""

@@ -30,10 +30,11 @@ def create_metadata(data):
 # allow option for single table, multi table and longitudinal
 # pass in identifier column (synthcity doesnt handle ids so maybe just remove)
 # handle string columns, maybe do encoding
-def generate_syntheticdata(model_name, data, control_data, prediction_column, sensitive_columns, key_columns, iterations, sample_size, dp_epsilon, dp_delta, dp_lambda):
+def generate_syntheticdata(model_name, data, identifier_column, prediction_column, sensitive_columns, iterations, sample_size, dp_epsilon, dp_delta, dp_lambda):
+    data = data.drop(columns=[identifier_column])
     data = data.select_dtypes(exclude=['object']) # need to properly handle
     metadata = create_metadata(data)
-    data, control_data = train_test_split(data, test_size=0.1, random_state=42)
+    #data, control_data = train_test_split(data, test_size=0.1, random_state=42)
     available_columns = data.columns.tolist()
     discrete_columns = []
     for col, meta in metadata.columns.items():
@@ -68,7 +69,17 @@ def generate_syntheticdata(model_name, data, control_data, prediction_column, se
     synthetic_data = synthesizer.generate(count=sample_size).dataframe()
     synthetic_data.columns = data_columns
 
+    synthetic_data.insert(0, identifier_column, range(1, len(synthetic_data) + 1))
+
+    # Generate unique ten-digit identifiers
+    #num_rows = len(synthetic_data)
+    #unique_identifiers = set()
+    #while len(unique_identifiers) < num_rows:
+    #    identifier = random.randint(1000000000, 9999999999)
+    #    unique_identifiers.add(identifier)
+    # Convert the set to a list and insert it into the DataFrame
+    #synthetic_data.insert(0, identifier_column, list(unique_identifiers))
+
     # save datasets if save location exists, and model is model save location exists
-    
     
     return synthetic_data
