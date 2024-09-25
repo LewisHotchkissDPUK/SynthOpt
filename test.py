@@ -70,6 +70,7 @@ SYNTHETIC_DATA[0].to_csv("/workspaces/SynthOpt/output/example_synthetic_data_sub
 SYNTHETIC_DATA[1].to_csv("/workspaces/SynthOpt/output/example_synthetic_data_subset2.csv", index=False)
 SYNTHETIC_DATA[2].to_csv("/workspaces/SynthOpt/output/example_synthetic_data_subset3.csv", index=False)
 
+
 ##
 ## SYNTHETIC DATA PRIVACY EVALUATION TESTING ##
 

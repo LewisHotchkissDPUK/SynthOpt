@@ -13,7 +13,11 @@ def evaluate_privacy(type, data, synthetic_data, identifier_column, sensitive_co
     if type == 'multi':
         data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
         control_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), control_data)
+        synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data)
     data = data.drop(columns=[identifier_column])
+
+    print(data.columns)
+    print(synthetic_data.columns)
 
     METADATA = create_metadata(data)
 

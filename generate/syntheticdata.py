@@ -31,7 +31,6 @@ def create_metadata(data):
 # allow option for single table, multi table and longitudinal
 # handle string columns, maybe do encoding
 def generate_syntheticdata(type, model_name, data, identifier_column, prediction_column, sensitive_columns, iterations, sample_size, dp_epsilon, dp_delta, dp_lambda):
-    
     if type == 'multi':
         column_dict = {}
         for i, df in enumerate(data):
@@ -80,7 +79,6 @@ def generate_syntheticdata(type, model_name, data, identifier_column, prediction
         split_synthetic_dfs = []
         for key, columns in column_dict.items():
             split_synthetic_dfs.append(synthetic_data[columns])
-            print(columns)
         synthetic_data = split_synthetic_dfs
 
     # Generate unique ten-digit identifiers
