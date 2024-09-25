@@ -23,21 +23,25 @@ for filename, df in GENERATED_METADATA_DATASETS.items():
 ##
 ## SYNTHETIC DATA GENERATION TESTING ##
 
-MODEL = "dpgan"
+MODEL = "pategan"
 DATA = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_no_id.csv")
 DATA, CONTROL_DATA = train_test_split(DATA, test_size=0.1)
 PREDICTION_COLUMN = "Combined Depression"
 SENSITIVE_COLUMNS = ["Combined Depression"]
 KEY_COLUMNS = ["PTDOBYY","PTGENDER"]
 ITERATIONS = 10
-SAMPLE_SIZE = 1000
-EPSILON = 0.1
+SAMPLE_SIZE = 800
+EPSILON = 5
 
 SYNTHETIC_DATA = generate_syntheticdata(MODEL, DATA, CONTROL_DATA, PREDICTION_COLUMN, SENSITIVE_COLUMNS, KEY_COLUMNS, 
                                         ITERATIONS, SAMPLE_SIZE, EPSILON, None, None)
 
+SYNTHETIC_DATA.to_csv("/workspaces/SynthOpt/examples/example_synthetic_data.csv")
+
 ##
 ## SYNTHETIC DATA PRIVACY EVALUATION TESTING ##
+
+# maybe add a risk appetite level for determining how many attacks to run etc and thresholds for evaluations
 
 evaluate_privacy(DATA, SYNTHETIC_DATA, SENSITIVE_COLUMNS, KEY_COLUMNS, CONTROL_DATA)
 evaluate_quality(DATA, SYNTHETIC_DATA)

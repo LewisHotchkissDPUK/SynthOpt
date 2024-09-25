@@ -25,6 +25,7 @@ def create_metadata(data):
     return metadata
 
 # create a method to pass in a custom model (not a name but an actual model)
+# add other model options from other packages like sdv and ydata
 # create method for optimisation
 # allow option for single table, multi table and longitudinal
 # pass in identifier column (synthcity doesnt handle ids so maybe just remove)
@@ -50,7 +51,7 @@ def generate_syntheticdata(model_name, data, control_data, prediction_column, se
 
     DATA_PROCESSED = data
     
-    imputer = KNNImputer(n_neighbors=3)
+    imputer = KNNImputer(n_neighbors=3) ## Maybe improve this or add other options (hyperimpute maybe)
     DATA_PROCESSED = imputer.fit_transform(DATA_PROCESSED)
     DATA_PROCESSED = pd.DataFrame(DATA_PROCESSED, columns=data_columns)
 
@@ -59,7 +60,7 @@ def generate_syntheticdata(model_name, data, control_data, prediction_column, se
             DATA_PROCESSED[column] = DATA_PROCESSED[column].astype(int)
             
     if model_name == "ctgan":
-        DATA_PROCESSED = add_noise(DATA_PROCESSED, dp_epsilon, discrete_columns) 
+        DATA_PROCESSED = add_noise(DATA_PROCESSED, dp_epsilon, discrete_columns) # maybe should be the inverse of epsilon
 
     DATA_PROCESSED = GenericDataLoader(DATA_PROCESSED, target_column=prediction_column, sensitive_columns=sensitive_columns)
     synthesizer.fit(DATA_PROCESSED)
