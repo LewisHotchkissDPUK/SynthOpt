@@ -29,7 +29,7 @@ def create_metadata(data):
 # create method for optimisation
 # allow option for single table, multi table and longitudinal
 # handle string columns, maybe do encoding
-def generate_syntheticdata(model_name, data, identifier_column, prediction_column, sensitive_columns, iterations, sample_size, dp_epsilon, dp_delta, dp_lambda):
+def generate_syntheticdata(type, model_name, data, identifier_column, prediction_column, sensitive_columns, iterations, sample_size, dp_epsilon, dp_delta, dp_lambda):
     data = data.drop(columns=[identifier_column])
     data = data.select_dtypes(exclude=['object']) # need to properly handle
     metadata = create_metadata(data)

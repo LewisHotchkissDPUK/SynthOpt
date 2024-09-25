@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 
 ## METADATA GENERATION TESTING ##
-
+"""
 METADATA_FILENAME = "/workspaces/SynthOpt/examples/Cam-Can_Metadata.csv"
 SAMPLE_SIZE = 800
 SAVE_LOCATION = "/workspaces/SynthOpt/output"
@@ -21,10 +21,11 @@ GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, 
 for filename, df in GENERATED_METADATA_DATASETS.items():
     print(f"\nData for {filename}:")
     print(df.head())
-
+"""
 ##
 ## SYNTHETIC DATA GENERATION TESTING ##
-"""
+
+TYPE = "single" #multi, temporal
 MODEL = "pategan"
 DATA = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned.csv")
 DATA, CONTROL_DATA = train_test_split(DATA, test_size=0.1)
@@ -36,7 +37,7 @@ ITERATIONS = 10
 SAMPLE_SIZE = 800
 EPSILON = 5
 
-SYNTHETIC_DATA = generate_syntheticdata(MODEL, DATA, IDENTIFIER_COLUMN, PREDICTION_COLUMN, SENSITIVE_COLUMNS, 
+SYNTHETIC_DATA = generate_syntheticdata(TYPE, MODEL, DATA, IDENTIFIER_COLUMN, PREDICTION_COLUMN, SENSITIVE_COLUMNS, 
                                         ITERATIONS, SAMPLE_SIZE, EPSILON, None, None)
 
 SYNTHETIC_DATA.to_csv("/workspaces/SynthOpt/output/example_synthetic_data.csv")
@@ -51,4 +52,3 @@ quality_scores = evaluate_quality(DATA, SYNTHETIC_DATA)
 utility_scores = evaluate_utility(DATA, SYNTHETIC_DATA, PREDICTION_COLUMN)
 
 table_vis(privacy_scores, quality_scores, utility_scores, DATA.columns)
-"""
