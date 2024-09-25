@@ -11,6 +11,10 @@ import os
 def random_string(length=6):
     return ''.join(random.choices(string.ascii_letters, k=length))
 
+def random_integer(length=6):
+    # Generate a random integer between 10^(length-1) and 10^length - 1
+    return random.randint(10**(length-1), (10**length) - 1)
+
 # Function to generate random dates between a given range
 def random_date(start, end):
     start_date = datetime.strptime(start, "%d/%m/%Y")
@@ -33,6 +37,10 @@ def generate_metadata(metadata_csv, num_records=100, save_location=None):
 
     # Get unique filenames
     filenames = metadata['filename'].unique()
+
+    # generate unique participant ids
+    participant_ids_string = [random_string() for _ in range(num_records)]
+    participant_ids_integer = [random_string() for _ in range(num_records)]
 
     # Dictionary to store dataframes for each filename
     datasets = {}
@@ -58,8 +66,11 @@ def generate_metadata(metadata_csv, num_records=100, save_location=None):
 
             # Generate random data based on the data type
             if data_type == 'integer':
-                min_val, max_val = parse_range(value_range)
-                data[col_name] = np.random.randint(min_val, max_val + 1, num_records)
+                if 'Participant ID' in row['variable description']:
+                    data[col_name] = participant_ids_integer
+                else:
+                    min_val, max_val = parse_range(value_range)
+                    data[col_name] = np.random.randint(min_val, max_val + 1, num_records)
             
             elif data_type == 'float':
                 min_val, max_val = parse_range(value_range)
@@ -70,9 +81,10 @@ def generate_metadata(metadata_csv, num_records=100, save_location=None):
                 data[col_name] = [random.choice(values) for _ in range(num_records)]
             
             elif data_type == 'string':
-                if 'id' in row['variable description'].lower():
+                if 'Participant ID' in row['variable description']: # DO THE SAME FOR INTEGERS AND FLOATS TOO
                     # Ensure uniqueness for IDs
-                    data[col_name] = [random_string() for _ in range(num_records)]
+                    # data[col_name] = [random_string() for _ in range(num_records)]
+                    data[col_name] = participant_ids_string
                 else:
                     data[col_name] = [random_string() for _ in range(num_records)]
             

@@ -28,7 +28,6 @@ def create_metadata(data):
 # add other model options from other packages like sdv and ydata
 # create method for optimisation
 # allow option for single table, multi table and longitudinal
-# pass in identifier column (synthcity doesnt handle ids so maybe just remove)
 # handle string columns, maybe do encoding
 def generate_syntheticdata(model_name, data, identifier_column, prediction_column, sensitive_columns, iterations, sample_size, dp_epsilon, dp_delta, dp_lambda):
     data = data.drop(columns=[identifier_column])
