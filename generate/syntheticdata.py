@@ -36,14 +36,7 @@ def generate_syntheticdata(type, model_name, data, identifier_column, prediction
         column_dict = {}
         for i, df in enumerate(data):
             column_dict[f"DataFrame_{i+1}"] = df.columns.tolist()
-        print(column_dict)
         data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
-        print(column_dict)
-
-        #merged_df = data[0]
-        #for df in data[1:]:
-        #    merged_df = pd.merge(merged_df, df, on=identifier_column)
-        #data = merged_df
     
     data = data.drop(columns=[identifier_column])
     data = data.select_dtypes(exclude=['object']) # need to properly handle

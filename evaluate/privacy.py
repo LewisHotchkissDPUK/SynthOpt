@@ -7,8 +7,14 @@ from sdv.metadata import SingleTableMetadata
 from itertools import combinations
 from anonymeter.evaluators import SinglingOutEvaluator,LinkabilityEvaluator,InferenceEvaluator
 from generate.syntheticdata import create_metadata
+from functools import reduce
 
-def evaluate_privacy(data, synthetic_data, sensitive_columns, key_columns, control_data):
+def evaluate_privacy(type, data, synthetic_data, identifier_column, sensitive_columns, key_columns, control_data):
+    if type == 'multi':
+        data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
+        control_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), control_data)
+    data = data.drop(columns=[identifier_column])
+
     METADATA = create_metadata(data)
 
     #== Exact Matches ==#

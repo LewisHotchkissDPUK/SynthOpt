@@ -7,8 +7,14 @@ from sdv.metadata import SingleTableMetadata
 from itertools import combinations
 from anonymeter.evaluators import SinglingOutEvaluator,LinkabilityEvaluator,InferenceEvaluator
 from generate.syntheticdata import create_metadata
+from functools import reduce
 
-def evaluate_quality(data, synthetic_data):
+def evaluate_quality(type, data, synthetic_data, identifier_column):
+    if type == 'multi':
+        data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
+        control_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), control_data)
+    data = data.drop(columns=[identifier_column])
+
     metadata = create_metadata(data)
 
     discrete_columns = []
