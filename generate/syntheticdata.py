@@ -7,6 +7,7 @@ from sklearn.impute import KNNImputer
 from sklearn.model_selection import train_test_split
 from sdv.metadata import SingleTableMetadata
 import random
+from functools import reduce
 
 def add_noise(data, scale, discrete_cols): # need to add constraints for integers (think ive done this)
     noised_data = data.copy()
@@ -30,6 +31,20 @@ def create_metadata(data):
 # allow option for single table, multi table and longitudinal
 # handle string columns, maybe do encoding
 def generate_syntheticdata(type, model_name, data, identifier_column, prediction_column, sensitive_columns, iterations, sample_size, dp_epsilon, dp_delta, dp_lambda):
+    
+    if type == 'multi':
+        column_dict = {}
+        for i, df in enumerate(data):
+            column_dict[f"DataFrame_{i+1}"] = df.columns.tolist()
+        print(column_dict)
+        data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
+        print(column_dict)
+
+        #merged_df = data[0]
+        #for df in data[1:]:
+        #    merged_df = pd.merge(merged_df, df, on=identifier_column)
+        #data = merged_df
+    
     data = data.drop(columns=[identifier_column])
     data = data.select_dtypes(exclude=['object']) # need to properly handle
     metadata = create_metadata(data)
@@ -50,7 +65,6 @@ def generate_syntheticdata(type, model_name, data, identifier_column, prediction
         synthesizer = Plugins().get(model_name, n_iter=iterations)
 
     DATA_PROCESSED = data
-    
     imputer = KNNImputer(n_neighbors=3) ## Maybe improve this or add other options (hyperimpute maybe)
     DATA_PROCESSED = imputer.fit_transform(DATA_PROCESSED)
     DATA_PROCESSED = pd.DataFrame(DATA_PROCESSED, columns=data_columns)
@@ -67,8 +81,14 @@ def generate_syntheticdata(type, model_name, data, identifier_column, prediction
     
     synthetic_data = synthesizer.generate(count=sample_size).dataframe()
     synthetic_data.columns = data_columns
-
     synthetic_data.insert(0, identifier_column, range(1, len(synthetic_data) + 1))
+
+    if type == 'multi':
+        split_synthetic_dfs = []
+        for key, columns in column_dict.items():
+            split_synthetic_dfs.append(synthetic_data[columns])
+            print(columns)
+        synthetic_data = split_synthetic_dfs
 
     # Generate unique ten-digit identifiers
     #num_rows = len(synthetic_data)
