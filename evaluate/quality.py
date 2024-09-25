@@ -14,6 +14,7 @@ def evaluate_quality(type, data, synthetic_data, identifier_column):
         data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
         synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data)
     data = data.drop(columns=[identifier_column])
+    synthetic_data = synthetic_data.drop(columns=[identifier_column])
 
     metadata = create_metadata(data)
 

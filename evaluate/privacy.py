@@ -15,9 +15,10 @@ def evaluate_privacy(type, data, synthetic_data, identifier_column, sensitive_co
         control_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), control_data)
         synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data)
     data = data.drop(columns=[identifier_column])
+    control_data = control_data.drop(columns=[identifier_column])
+    synthetic_data = synthetic_data.drop(columns=[identifier_column])
 
-    print(data.columns)
-    print(synthetic_data.columns)
+    number_attacks = round(data.shape[0]*0.1)
 
     METADATA = create_metadata(data)
 
@@ -32,13 +33,13 @@ def evaluate_privacy(type, data, synthetic_data, identifier_column, sensitive_co
 
     #== Singling Out ==#    
     print("[SynthOpt] conducting singling out attacks (this may take a while)")
-    singling_evaluator = SinglingOutEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=100)
+    singling_evaluator = SinglingOutEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=number_attacks) # number of records to attack (CONVERT TO PERCENTAGE)
     singling_evaluator.evaluate(mode='univariate')
     singling_risk = singling_evaluator.risk().value
 
     #== Linkability ==#    
     print("[SynthOpt] conducting linkability attacks (this may take a while)")
-    linkability_evaluator = LinkabilityEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=100,aux_cols=key_columns,n_neighbors=10)
+    linkability_evaluator = LinkabilityEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=number_attacks,aux_cols=key_columns,n_neighbors=10)
     linkability_evaluator.evaluate(n_jobs=-2)
     linkability_risk = linkability_evaluator.risk().value
 
@@ -48,7 +49,7 @@ def evaluate_privacy(type, data, synthetic_data, identifier_column, sensitive_co
     results = []
     for secret in columns:
         aux_cols = [col for col in columns if col != secret]
-        inference_evaluator = InferenceEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=100,aux_cols=key_columns,secret=sensitive_columns)
+        inference_evaluator = InferenceEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=number_attacks,aux_cols=key_columns,secret=sensitive_columns)
         inference_evaluator.evaluate(n_jobs=-2)
         #results.append((secret, inference_evaluator.results()))
         results.append(inference_evaluator.results().risk().value)

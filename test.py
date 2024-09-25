@@ -48,11 +48,11 @@ SYNTHETIC_DATA.to_csv("/workspaces/SynthOpt/output/example_synthetic_data.csv", 
 TYPE = "multi"
 MODEL = "pategan"
 DATA1 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset1.csv")
-DATA1, CONTROL_DATA1 = train_test_split(DATA1, test_size=0.1)
+DATA1, CONTROL_DATA1 = train_test_split(DATA1, test_size=0.1, random_state=42)
 DATA2 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset2.csv")
-DATA2, CONTROL_DATA2 = train_test_split(DATA2, test_size=0.1)
+DATA2, CONTROL_DATA2 = train_test_split(DATA2, test_size=0.1, random_state=42)
 DATA3 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset3.csv")
-DATA3, CONTROL_DATA3 = train_test_split(DATA3, test_size=0.1)
+DATA3, CONTROL_DATA3 = train_test_split(DATA3, test_size=0.1, random_state=42)
 DATA = [DATA1,DATA2,DATA3]
 CONTROL_DATA = [CONTROL_DATA1,CONTROL_DATA2,CONTROL_DATA3]
 IDENTIFIER_COLUMN = "RID"
