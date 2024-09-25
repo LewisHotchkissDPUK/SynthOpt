@@ -60,4 +60,12 @@ def evaluate_utility(data, synthetic_data, prediction_column):
     print(f"correlation score: {avg_correlation_score}")
     print(f"ml efficacy score: {ml_efficacy_score}")
 
+    utility_scores = {
+        'Similarity Total': avg_similarity_score,
+        'Similarity Individual': similarity_scores,
+        'Correlation Total': avg_correlation_score,
+        'Correlation Individual': correlation_scores,
+        'ML Efficacy': ml_efficacy_score
+    }
+
     return avg_similarity_score, similarity_scores, avg_correlation_score, correlation_scores, ml_efficacy_score

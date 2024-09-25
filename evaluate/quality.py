@@ -20,7 +20,7 @@ def evaluate_quality(data, synthetic_data):
     boundary_adherence_scores = []
     coverage_scores = []
     complement_scores = []
-    similarity_scores = []
+    #similarity_scores = []
     for column in data_columns:
         if column not in discrete_columns:
             #== Boundary Adherence ==#
@@ -33,8 +33,8 @@ def evaluate_quality(data, synthetic_data):
             complement_score = KSComplement.compute(real_data=data[column], synthetic_data=synthetic_data[column])
             complement_scores.append(complement_score)
             #== Statistic Similarity ==#
-            similarity_score = StatisticSimilarity.compute(real_data=data[column], synthetic_data=synthetic_data[column], statistic='mean')
-            similarity_scores.append(similarity_score)
+            #similarity_score = StatisticSimilarity.compute(real_data=data[column], synthetic_data=synthetic_data[column], statistic='mean')
+            #similarity_scores.append(similarity_score)
         else:
             #== Boundary Adherence ==#
             adherence_score = CategoryAdherence.compute(real_data=data[column], synthetic_data=synthetic_data[column])
@@ -49,13 +49,21 @@ def evaluate_quality(data, synthetic_data):
     avg_boundary_adherence_score = np.round(np.mean(boundary_adherence_scores), 2)
     avg_coverage_score = np.round(np.mean(coverage_scores), 2)
     avg_complement_score = np.round(np.mean(complement_scores), 2)
-    avg_similarity_score = np.round(np.mean(similarity_scores), 2)
+    #avg_similarity_score = np.round(np.mean(similarity_scores), 2)
 
     print()
     print("== QUALITY SCORES ==")
     print(f"boundary adherence score: {avg_boundary_adherence_score}")
     print(f"coverage score: {avg_coverage_score}")
     print(f"complement score: {avg_complement_score}")
-    print(f"statistic similarity score: {avg_similarity_score}")
 
-    return avg_boundary_adherence_score, boundary_adherence_scores, avg_coverage_score, coverage_scores, avg_complement_score, complement_scores, avg_similarity_score, similarity_scores
+    quality_scores = {
+        'Boundary Adherence Total': avg_boundary_adherence_score,
+        'Boundary Adherence Individual': boundary_adherence_scores,
+        'Coverage Total': avg_coverage_score,
+        'Coverage Individual': coverage_scores,
+        'Complement Total': avg_complement_score,
+        'Complement Individual': complement_scores,
+    }
+
+    return quality_scores

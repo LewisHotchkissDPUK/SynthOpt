@@ -75,5 +75,13 @@ def evaluate_privacy(data, synthetic_data, sensitive_columns, key_columns, contr
     print(f"linkability score: {linkability_risk}")
     print(f"inference score: {inference_risk}")
 
-    return exact_matches_score, detection_score, inference_protection_score, singling_risk, linkability_risk, inference_risk
+    privacy_scores = {
+        'Exact Matches Total': exact_matches_score,
+        'Detection Total': detection_score,
+        'Inference Protection Total': inference_protection_score,
+        'Singling Risk Total': singling_risk,
+        'Linkability Risk Total': linkability_risk,
+        'Inference Risk Total': inference_risk
+    }
 
+    return privacy_scores

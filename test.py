@@ -5,6 +5,8 @@ from evaluate.privacy import evaluate_privacy
 from evaluate.quality import evaluate_quality
 from evaluate.utility import evaluate_utility
 
+from evaluate.visualisation import table_vis
+
 from sklearn.model_selection import train_test_split
 import pandas as pd
 
@@ -43,9 +45,11 @@ SYNTHETIC_DATA.to_csv("/workspaces/SynthOpt/examples/example_synthetic_data.csv"
 
 # maybe add a risk appetite level for determining how many attacks to run etc and thresholds for evaluations
 
-evaluate_privacy(DATA, SYNTHETIC_DATA, SENSITIVE_COLUMNS, KEY_COLUMNS, CONTROL_DATA)
-evaluate_quality(DATA, SYNTHETIC_DATA)
-evaluate_utility(DATA, SYNTHETIC_DATA, PREDICTION_COLUMN)
+privacy_scores = evaluate_privacy(DATA, SYNTHETIC_DATA, SENSITIVE_COLUMNS, KEY_COLUMNS, CONTROL_DATA)
+quality_scores = evaluate_quality(DATA, SYNTHETIC_DATA)
+utility_scores = evaluate_utility(DATA, SYNTHETIC_DATA, PREDICTION_COLUMN)
+
+table_vis(privacy_scores, quality_scores, utility_scores, DATA.columns)
 
 # have a report boolean variable for each one then have an if statement for return which will return a list of metrics if report is true
 # actually may just do a return statement anyway
