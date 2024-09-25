@@ -57,3 +57,5 @@ def evaluate_quality(data, synthetic_data):
     print(f"coverage score: {avg_coverage_score}")
     print(f"complement score: {avg_complement_score}")
     print(f"statistic similarity score: {avg_similarity_score}")
+
+    return avg_boundary_adherence_score, boundary_adherence_scores, avg_coverage_score, coverage_scores, avg_complement_score, complement_scores, avg_similarity_score, similarity_scores

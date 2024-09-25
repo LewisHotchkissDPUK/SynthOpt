@@ -28,12 +28,12 @@ def evaluate_utility(data, synthetic_data, prediction_column):
             similarity_scores.append(similarity_score)
 
     #== Correlation ==#
-    print()
-    print("[SynthOpt] calculating correlation scores (this may take a while)")
+    #print()
+    #print("[SynthOpt] calculating correlation scores (this may take a while)")
     correlation_scores = []
     if not synthetic_data.columns[synthetic_data.nunique()==1].tolist():
         column_pairs = list(combinations(data_columns, 2))
-        column_pairs = random.sample(column_pairs, 10)    # For testing!, takes random sample of column pairs to speed up time
+        #column_pairs = random.sample(column_pairs, 10)    # For testing!, takes random sample of column pairs to speed up time
 
         for col1, col2 in column_pairs:        
             correlation_score = data[col1].corr(data[col2]) - synthetic_data[col1].corr(synthetic_data[col2])
@@ -48,7 +48,7 @@ def evaluate_utility(data, synthetic_data, prediction_column):
 
 
     #== ML Efficacy ==# (maybe create own with optimisation of hyperparams (as option)) (SHOULD BE ABLE TO CHOOSE REGRESSION / CLASSIFICATION / MULTI-CLASS)
-    print("[SynthOpt] training & evaluating performance of machine learning classifiers (this may take a while)")   
+    #print("[SynthOpt] training & evaluating performance of machine learning classifiers (this may take a while)")   
     ml_efficacy_score = BinaryDecisionTreeClassifier.compute(test_data=data, train_data=synthetic_data, target=prediction_column, metadata=metadata)
 
     avg_similarity_score = np.round(np.mean(similarity_scores), 2)
@@ -59,3 +59,5 @@ def evaluate_utility(data, synthetic_data, prediction_column):
     print(f"statistic similarity score: {avg_similarity_score}")
     print(f"correlation score: {avg_correlation_score}")
     print(f"ml efficacy score: {ml_efficacy_score}")
+
+    return avg_similarity_score, similarity_scores, avg_correlation_score, correlation_scores, ml_efficacy_score
