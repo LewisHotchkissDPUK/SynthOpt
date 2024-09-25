@@ -68,4 +68,4 @@ def evaluate_utility(data, synthetic_data, prediction_column):
         'ML Efficacy': ml_efficacy_score
     }
 
-    return avg_similarity_score, similarity_scores, avg_correlation_score, correlation_scores, ml_efficacy_score
+    return utility_scores

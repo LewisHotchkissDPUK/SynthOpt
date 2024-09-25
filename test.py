@@ -38,7 +38,7 @@ EPSILON = 5
 SYNTHETIC_DATA = generate_syntheticdata(MODEL, DATA, CONTROL_DATA, PREDICTION_COLUMN, SENSITIVE_COLUMNS, KEY_COLUMNS, 
                                         ITERATIONS, SAMPLE_SIZE, EPSILON, None, None)
 
-SYNTHETIC_DATA.to_csv("/workspaces/SynthOpt/examples/example_synthetic_data.csv")
+SYNTHETIC_DATA.to_csv("/workspaces/SynthOpt/output/example_synthetic_data.csv")
 
 ##
 ## SYNTHETIC DATA PRIVACY EVALUATION TESTING ##
