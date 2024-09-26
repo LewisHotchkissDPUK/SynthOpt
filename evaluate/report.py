@@ -2,9 +2,10 @@ import matplotlib.pyplot as plt
 from reportlab.lib.pagesizes import A4
 from reportlab.lib import colors
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle, Image
-from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from io import BytesIO
 import pandas as pd
+from evaluate.visualisation import combine_dicts
 
 # Function to create a Matplotlib figure
 def create_matplotlib_figure():
@@ -24,72 +25,49 @@ def save_figure_to_image(fig):
     img_data.seek(0)
     return img_data
 
-# Create a sample table using Pandas
-def create_sample_table():
-    data = {'Name': ['Alice', 'Bob', 'Charlie', 'David'],
-            'Age': [25, 30, 35, 40],
-            'Occupation': ['Engineer', 'Doctor', 'Artist', 'Lawyer']}
+def create_metric_table(privacy_scores, quality_scores, utility_scores):
+    combined = combine_dicts(privacy_scores, quality_scores, utility_scores)
+    total_combined = {key: value for key, value in combined.items() if 'Total' in key}
+    x = list(total_combined.keys())
+    y = list(total_combined.values())
+    data = {'Metric Name': x, 'Score': y}
     df = pd.DataFrame(data)
     return df
 
-# Convert a Pandas DataFrame into a format suitable for ReportLab Table
-def convert_df_to_table_data(df):
-    # Convert DataFrame to list of lists
-    table_data = [df.columns.tolist()] + df.values.tolist()
-    return table_data
-
 # Create the PDF report with text, a table, and a plot
-def create_pdf_report():
-    # Set up the PDF document with A4 page size
-    pdf_file = "A4_report_with_plot_and_table.pdf"
+def create_pdf_report(privacy_scores, quality_scores, utility_scores, data_columns):
+    pdf_file = "Evaluation Report.pdf"
     pdf = SimpleDocTemplate(pdf_file, pagesize=A4)
 
-    # Get the sample style for text
     styles = getSampleStyleSheet()
     content = []
+    subtitle_style = ParagraphStyle(name='Subtitle', fontSize=14, spaceAfter=10, textColor=colors.blue)
 
-    # Add a title
-    content.append(Paragraph("A4 Report with Text, Table, and Plot", styles['Title']))
+    content.append(Paragraph("Synthetic Data Evaluation Report", styles['Title']))
+    content.append(Paragraph("This report details the quality, privacy and utility evaluation metrics gained from the synthetic data, and visualisations to help interpret them. \n", styles['Normal']))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+    content.append(Paragraph("Metrics Summary", subtitle_style))
 
-    # Add some text
-    content.append(Paragraph("This is a sample report that includes a table and a Matplotlib plot.", styles['Normal']))
-
-    # Add a table
-    df = create_sample_table()
-    table_data = convert_df_to_table_data(df)
-    
-    # Create the Table object
-    table = Table(table_data)
-
-    # Style the table
+    df = create_metric_table(privacy_scores, quality_scores, utility_scores)
+    table_data = [df.columns.tolist()] + df.values.tolist()
+    table = Table(table_data, hAlign='LEFT')
     table.setStyle(TableStyle([
-        ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
-        ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
-        ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+        ('BACKGROUND', (0, 0), (-1, 0), colors.blue),
+        ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
+        ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
         ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
         ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
-        ('BACKGROUND', (0, 1), (-1, -1), colors.beige),
-        ('GRID', (0, 0), (-1, -1), 1, colors.black),
+        ('BACKGROUND', (0, 1), (-1, -1), colors.lightblue),
+        ('GRID', (0, 0), (-1, -1), 1, colors.white),
     ]))
-    
-    # Add the table to the content
     content.append(table)
 
-    # Add some space between table and plot
     content.append(Paragraph("<br/><br/>", styles['Normal']))
 
-    # Add the Matplotlib plot as a flowable Image
     fig = create_matplotlib_figure()
     img_data = save_figure_to_image(fig)
-    
-    # Add the image to the flowable content
     img = Image(img_data, width=400, height=300)  # Specify the width and height of the image in the PDF
     content.append(img)
 
-    # Build the PDF
     pdf.build(content)
-
     print(f"PDF report created: {pdf_file}")
-
-# Generate the PDF report
-create_pdf_report()

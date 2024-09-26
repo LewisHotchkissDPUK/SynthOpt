@@ -7,7 +7,7 @@ from evaluate.utility import evaluate_utility
 
 from evaluate.visualisation import table_vis, attribute_vis
 
-from evaluate import report
+from evaluate.report import create_pdf_report
 
 from sklearn.model_selection import train_test_split
 import pandas as pd
@@ -48,7 +48,7 @@ SYNTHETIC_DATA.to_csv("/workspaces/SynthOpt/output/example_synthetic_data.csv", 
 """
 ##
 ## SYNTHETIC DATA GENERATION TESTING (MULTI) ##
-"""
+
 TYPE = "multi"
 MODEL = "pategan"
 DATA1 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset1.csv")
@@ -63,7 +63,7 @@ IDENTIFIER_COLUMN = "RID"
 PREDICTION_COLUMN = "Combined Depression"
 SENSITIVE_COLUMNS = ["Combined Depression"]
 KEY_COLUMNS = ["PTDOBYY","PTGENDER"]
-ITERATIONS = 10
+ITERATIONS = 1
 SAMPLE_SIZE = 800
 EPSILON = 5
 PREDICTION_TYPE = 'binary'
@@ -92,7 +92,6 @@ vis_data = vis_data.drop(columns=[IDENTIFIER_COLUMN])
 DATA_COLUMNS = vis_data.columns
 
 attribute_vis(privacy_scores, quality_scores, utility_scores, DATA_COLUMNS) # maybe pass in data instead of columns to handle the identifier column and multi 
-"""
 
-report()
 
+create_pdf_report(privacy_scores, quality_scores, utility_scores, DATA_COLUMNS)

@@ -89,10 +89,10 @@ def evaluate_privacy(table_type, data, synthetic_data, identifier_column, sensit
     privacy_scores = {
         'Exact Matches Total': exact_matches_score,
         'Detection Total': detection_score,
-        'Inference Protection Total': inference_protection_score,
-        'Singling Risk Total': singling_risk,
-        'Linkability Risk Total': linkability_risk,
-        'Inference Risk Total': inference_risk
+        'Inference Protection Total': round(inference_protection_score, 2),
+        'Singling Risk Total': round(singling_risk, 2),
+        'Linkability Risk Total': round(linkability_risk, 2),
+        'Inference Risk Total': round(inference_risk, 2)
     }
 
     return privacy_scores
