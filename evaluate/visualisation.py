@@ -7,7 +7,7 @@ def combine_dicts(*dicts):
             combined[key] = value  # Directly assign the value to the key
     return combined
 
-def table_vis(privacy_scores, quality_scores, utility_scores, data_columns):
+def table_vis(privacy_scores, quality_scores, utility_scores):
 
     combined = combine_dicts(privacy_scores, quality_scores, utility_scores)
     total_combined = {key: value for key, value in combined.items() if 'Total' in key}

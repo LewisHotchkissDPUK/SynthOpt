@@ -80,4 +80,4 @@ privacy_scores = evaluate_privacy(TYPE, DATA, SYNTHETIC_DATA, IDENTIFIER_COLUMN,
 quality_scores = evaluate_quality(TYPE, DATA, SYNTHETIC_DATA, IDENTIFIER_COLUMN)
 utility_scores = evaluate_utility(TYPE, DATA, SYNTHETIC_DATA, IDENTIFIER_COLUMN, PREDICTION_TYPE, PREDICTION_COLUMN)
 
-table_vis(privacy_scores, quality_scores, utility_scores, DATA.columns)
+table_vis(privacy_scores, quality_scores, utility_scores)
