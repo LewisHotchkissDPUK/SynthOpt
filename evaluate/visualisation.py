@@ -23,6 +23,8 @@ def table_vis(privacy_scores, quality_scores, utility_scores):
     plt.savefig("/workspaces/SynthOpt/output/table_vis.png")
 
 def attribute_vis(privacy_scores, quality_scores, utility_scores, data_columns):
+    # SHOW TOP 20 AND BOTTOM 20
+    # Maybe add x and y to a dictionary to then be able to sort
 
     combined = combine_dicts(privacy_scores, quality_scores, utility_scores)
     total_combined = {key: value for key, value in combined.items() if 'Individual' in key}
