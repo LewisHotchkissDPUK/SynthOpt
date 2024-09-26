@@ -93,5 +93,4 @@ DATA_COLUMNS = vis_data.columns
 
 attribute_vis(privacy_scores, quality_scores, utility_scores, DATA_COLUMNS) # maybe pass in data instead of columns to handle the identifier column and multi 
 
-
 create_pdf_report(privacy_scores, quality_scores, utility_scores, DATA_COLUMNS)

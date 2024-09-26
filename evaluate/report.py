@@ -38,7 +38,9 @@ def create_metric_table(privacy_scores, quality_scores, utility_scores):
     utility_df = pd.DataFrame({'Utility Metrics': utility_scores.keys(), 
                                 'Score': utility_scores.values()})
     utility_df['Utility Metrics'] = utility_df['Utility Metrics'].str.replace(r'\bTotal\b', '', regex=True).str.strip()
+    
     df = pd.concat([privacy_df, quality_df, utility_df], axis=1)
+    #df = df.fillna('-', inplace=True)
     
     #combined = combine_dicts(privacy_scores, quality_scores, utility_scores)
     #total_combined = {key: value for key, value in combined.items() if 'Total' in key}
