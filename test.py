@@ -5,10 +5,12 @@ from evaluate.privacy import evaluate_privacy
 from evaluate.quality import evaluate_quality
 from evaluate.utility import evaluate_utility
 
-from evaluate.visualisation import table_vis
+from evaluate.visualisation import table_vis, attribute_vis
 
 from sklearn.model_selection import train_test_split
 import pandas as pd
+from functools import reduce
+
 
 ## METADATA GENERATION TESTING ##
 """
@@ -59,7 +61,7 @@ IDENTIFIER_COLUMN = "RID"
 PREDICTION_COLUMN = "Combined Depression"
 SENSITIVE_COLUMNS = ["Combined Depression"]
 KEY_COLUMNS = ["PTDOBYY","PTGENDER"]
-ITERATIONS = 10
+ITERATIONS = 1
 SAMPLE_SIZE = 800
 EPSILON = 5
 PREDICTION_TYPE = 'binary'
@@ -81,3 +83,10 @@ quality_scores = evaluate_quality(TYPE, DATA, SYNTHETIC_DATA, IDENTIFIER_COLUMN)
 utility_scores = evaluate_utility(TYPE, DATA, SYNTHETIC_DATA, IDENTIFIER_COLUMN, PREDICTION_TYPE, PREDICTION_COLUMN)
 
 table_vis(privacy_scores, quality_scores, utility_scores)
+
+vis_data = reduce(lambda left, right: pd.merge(left, right, on=IDENTIFIER_COLUMN), DATA)
+vis_data = vis_data.drop(columns=[IDENTIFIER_COLUMN])
+
+DATA_COLUMNS = vis_data.columns
+
+attribute_vis(privacy_scores, quality_scores, utility_scores, DATA_COLUMNS) # maybe pass in data instead of columns to handle the identifier column and multi 

@@ -9,8 +9,8 @@ from anonymeter.evaluators import SinglingOutEvaluator,LinkabilityEvaluator,Infe
 from generate.syntheticdata import create_metadata
 from functools import reduce
 
-def evaluate_privacy(type, data, synthetic_data, identifier_column, sensitive_columns, key_columns, control_data):
-    if type == 'multi':
+def evaluate_privacy(table_type, data, synthetic_data, identifier_column, sensitive_columns, key_columns, control_data):
+    if table_type == 'multi':
         data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
         control_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), control_data)
         synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data)

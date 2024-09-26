@@ -30,8 +30,8 @@ def create_metadata(data):
 # create method for optimisation
 # allow option for single table, multi table and longitudinal
 # handle string columns, maybe do encoding
-def generate_syntheticdata(type, model_name, data, identifier_column, prediction_column, sensitive_columns, iterations, sample_size, dp_epsilon, dp_delta, dp_lambda):
-    if type == 'multi':
+def generate_syntheticdata(table_type, model_name, data, identifier_column, prediction_column, sensitive_columns, iterations, sample_size, dp_epsilon, dp_delta, dp_lambda):
+    if table_type == 'multi':
         column_dict = {}
         for i, df in enumerate(data):
             column_dict[f"DataFrame_{i+1}"] = df.columns.tolist()
@@ -75,7 +75,7 @@ def generate_syntheticdata(type, model_name, data, identifier_column, prediction
     synthetic_data.columns = data_columns
     synthetic_data.insert(0, identifier_column, range(1, len(synthetic_data) + 1))
 
-    if type == 'multi':
+    if table_type == 'multi':
         split_synthetic_dfs = []
         for key, columns in column_dict.items():
             split_synthetic_dfs.append(synthetic_data[columns])
