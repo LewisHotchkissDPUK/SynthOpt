@@ -20,7 +20,9 @@ def evaluate_quality(table_type, data, synthetic_data, identifier_column):
 
     discrete_columns = []
     for col, meta in metadata.columns.items():
-        if ('sdtype' in meta and meta['sdtype'] == 'categorical') or (data[col].fillna(9999) % 1 == 0).all():
+        # second part of or is to detect integers but unecessary so removed as metrics are for categories
+        #if ('sdtype' in meta and meta['sdtype'] == 'categorical') or (data[col].fillna(9999) % 1 == 0).all():
+        if ('sdtype' in meta and meta['sdtype'] == 'categorical'):
             discrete_columns.append(col)
     data_columns = data.columns
 

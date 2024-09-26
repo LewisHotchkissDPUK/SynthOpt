@@ -22,7 +22,8 @@ def evaluate_utility(table_type, data, synthetic_data, identifier_column, predic
 
     discrete_columns = []
     for col, meta in metadata.columns.items():
-        if ('sdtype' in meta and meta['sdtype'] == 'categorical') or (data[col].fillna(9999) % 1 == 0).all():
+        #if ('sdtype' in meta and meta['sdtype'] == 'categorical') or (data[col].fillna(9999) % 1 == 0).all():
+        if ('sdtype' in meta and meta['sdtype'] == 'categorical'):
             discrete_columns.append(col)
     data_columns = data.columns
 
@@ -33,6 +34,7 @@ def evaluate_utility(table_type, data, synthetic_data, identifier_column, predic
             similarity_score = StatisticSimilarity.compute(real_data=data[column], synthetic_data=synthetic_data[column], statistic='mean')
             similarity_scores.append(similarity_score)
 
+    """
     #== Correlation ==#
     #print()
     #print("[SynthOpt] calculating correlation scores (this may take a while)")
@@ -46,6 +48,22 @@ def evaluate_utility(table_type, data, synthetic_data, identifier_column, predic
             #print(f"(corr) real data correlation : {data[col1].corr(data[col2])} | synthetic data correlation : {synthetic_data[col1].corr(synthetic_data[col2])}")
             #print(correlation_score)
             correlation_scores.append(correlation_score)
+    """
+
+    #== Correlation ==#
+    print()
+    print("[SynthOpt] calculating correlation scores (this may take a while)")
+    correlation_scores = []
+    if not synthetic_data.columns[synthetic_data.nunique()==1].tolist():
+        column_pairs = list(combinations(data_columns, 2))
+        column_pairs = random.sample(column_pairs, 10)    # For testing!, takes random sample of column pairs to speed up time
+        for col1, col2 in column_pairs:
+            if col1 not in discrete_columns and col2 not in discrete_columns:
+                correlation_score = CorrelationSimilarity.compute(real_data=data[[col1,col2]], synthetic_data=synthetic_data[[col1,col2]])
+                correlation_scores.append(correlation_score)
+            else:
+                correlation_score = ContingencySimilarity.compute(real_data=data[[col1,col2]], synthetic_data=synthetic_data[[col1,col2]])
+                correlation_scores.append(correlation_score)
 
 
     # Calculate the Pearson correlation matrices for both datasets
