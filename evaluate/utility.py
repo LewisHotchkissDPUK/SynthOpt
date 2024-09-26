@@ -89,7 +89,7 @@ def evaluate_utility(table_type, data, synthetic_data, identifier_column, predic
         'Similarity Individual': similarity_scores,
         'Correlation Total': avg_correlation_score,
         'Correlation Individual': correlation_scores,
-        'ML Efficacy': ml_efficacy_score
+        'ML Efficacy Total': round(ml_efficacy_score, 2)
     }
 
     return utility_scores

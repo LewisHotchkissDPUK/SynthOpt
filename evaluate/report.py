@@ -26,12 +26,26 @@ def save_figure_to_image(fig):
     return img_data
 
 def create_metric_table(privacy_scores, quality_scores, utility_scores):
-    combined = combine_dicts(privacy_scores, quality_scores, utility_scores)
-    total_combined = {key: value for key, value in combined.items() if 'Total' in key}
-    x = list(total_combined.keys())
-    y = list(total_combined.values())
-    data = {'Metric Name': x, 'Score': y}
-    df = pd.DataFrame(data)
+    privacy_scores = {key: value for key, value in privacy_scores.items() if 'Total' in key}
+    privacy_df = pd.DataFrame({'Privacy Metrics': privacy_scores.keys(), 
+                                'Score': privacy_scores.values()})
+    privacy_df['Privacy Metrics'] = privacy_df['Privacy Metrics'].str.replace(r'\bTotal\b', '', regex=True).str.strip()
+    quality_scores = {key: value for key, value in quality_scores.items() if 'Total' in key}
+    quality_df = pd.DataFrame({'Quality Metrics': quality_scores.keys(), 
+                                'Score': quality_scores.values()})
+    quality_df['Quality Metrics'] = quality_df['Quality Metrics'].str.replace(r'\bTotal\b', '', regex=True).str.strip()
+    utility_scores = {key: value for key, value in utility_scores.items() if 'Total' in key}
+    utility_df = pd.DataFrame({'Utility Metrics': utility_scores.keys(), 
+                                'Score': utility_scores.values()})
+    utility_df['Utility Metrics'] = utility_df['Utility Metrics'].str.replace(r'\bTotal\b', '', regex=True).str.strip()
+    df = pd.concat([privacy_df, quality_df, utility_df], axis=1)
+    
+    #combined = combine_dicts(privacy_scores, quality_scores, utility_scores)
+    #total_combined = {key: value for key, value in combined.items() if 'Total' in key}
+    #x = list(total_combined.keys())
+    #y = list(total_combined.values())
+    #data = {'Metric Name': x, 'Score': y}
+    #df = pd.DataFrame(data)
     return df
 
 # Create the PDF report with text, a table, and a plot
