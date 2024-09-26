@@ -7,6 +7,8 @@ from evaluate.utility import evaluate_utility
 
 from evaluate.visualisation import table_vis, attribute_vis
 
+from evaluate import report
+
 from sklearn.model_selection import train_test_split
 import pandas as pd
 from functools import reduce
@@ -46,7 +48,7 @@ SYNTHETIC_DATA.to_csv("/workspaces/SynthOpt/output/example_synthetic_data.csv", 
 """
 ##
 ## SYNTHETIC DATA GENERATION TESTING (MULTI) ##
-
+"""
 TYPE = "multi"
 MODEL = "pategan"
 DATA1 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset1.csv")
@@ -90,3 +92,7 @@ vis_data = vis_data.drop(columns=[IDENTIFIER_COLUMN])
 DATA_COLUMNS = vis_data.columns
 
 attribute_vis(privacy_scores, quality_scores, utility_scores, DATA_COLUMNS) # maybe pass in data instead of columns to handle the identifier column and multi 
+"""
+
+report()
+
