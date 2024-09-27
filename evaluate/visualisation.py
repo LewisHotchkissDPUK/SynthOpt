@@ -75,14 +75,14 @@ def attribute_vis(metric_name, scores, data_columns):
     axs[0].set_title(f'Top 10 Variables for {metric_name}')
     axs[0].invert_yaxis()  # Highest values at the top
     axs[0].set_xlabel('Value')
-    axs[0].set_xlim(0, 1)
+    axs[0].set_xlim(0, 1.1)
     
     # Plot the bottom 10 variables
     axs[1].barh(bottom_10_names, bottom_10_values, color='red')
     axs[1].set_title(f'Bottom 10 Variables for {metric_name}')
     axs[1].invert_yaxis()  # Lowest values at the top
     axs[1].set_xlabel('Value')
-    axs[1].set_xlim(0, 1)
+    axs[1].set_xlim(0, 1.1)
 
     # Adjust layout for clarity
     plt.tight_layout()

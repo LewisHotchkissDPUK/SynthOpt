@@ -30,9 +30,14 @@ def evaluate_utility(table_type, data, synthetic_data, identifier_column, predic
     #== Statistic Similarity ==# (in quality as well but should it be?)
     similarity_scores = []
     for column in data_columns:
-        if column not in discrete_columns:
-            similarity_score = StatisticSimilarity.compute(real_data=data[column], synthetic_data=synthetic_data[column], statistic='mean')
-            similarity_scores.append(similarity_score)
+        #if column not in discrete_columns:
+        #    # only does mean, maybe add standard deviation and median etc
+        #    similarity_score = StatisticSimilarity.compute(real_data=data[column], synthetic_data=synthetic_data[column], statistic='mean')
+        #    similarity_scores.append(similarity_score)
+        #meant to only be for continous not discrete, but there doesnt seem to be discrete alternative
+        similarity_score = StatisticSimilarity.compute(real_data=data[column], synthetic_data=synthetic_data[column], statistic='mean')
+        similarity_scores.append(similarity_score)
+
 
     """
     #== Correlation ==#
