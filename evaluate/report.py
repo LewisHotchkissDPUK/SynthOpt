@@ -70,7 +70,7 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, data_colum
 
     fig = table_vis(privacy_scores, quality_scores, utility_scores)
     img_data = save_figure_to_image(fig)
-    img = Image(img_data, width=400, height=250)  #  Specify the width and height of the image in the PDF
+    img = Image(img_data, width=440, height=275)  #  Specify the width and height of the image in the PDF
     content.append(img)
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
@@ -80,14 +80,43 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, data_colum
 
     content.append(PageBreak())
 
+    #### Boundary Adherence
+
     content.append(Paragraph("(Quality) Boundary Adherence Scores", subtitle_style))
-    content.append(Paragraph("Boundary adherence measures whether values stay within the original min/max ranges of the data. \n 0.0: means none of the attributes have the same min/max ranges \n 1.0: means all attributes have the same min/max ranges", styles['Normal']))
+    content.append(Paragraph("Boundary adherence measures whether values stay within the original min/max ranges of the data. (0.0: means none of the attributes have the same min/max ranges, 1.0: means all attributes have the same min/max ranges)", styles['Normal']))
+
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+    fig = attribute_vis("Boundary Adherence Individual", quality_scores, data_columns)
+    img_data = save_figure_to_image(fig)
+    img = Image(img_data, width=504, height=216)
+    content.append(img)
+
+    #### Coverage
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
 
-    fig = attribute_vis("Boundary Adherence Individual", quality_scores, data_columns)
+    content.append(Paragraph("(Quality) Coverage Scores", subtitle_style))
+    content.append(Paragraph("Coverage measures whether the whole range of values are represented. (0.0: means none of the values are represented, 1.0: means all values are represented)", styles['Normal']))
+
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+    fig = attribute_vis("Coverage Individual", quality_scores, data_columns)
     img_data = save_figure_to_image(fig)
-    img = Image(img_data, width=504, height=216)  #  Specify the width and height of the image in the PDF
+    img = Image(img_data, width=504, height=216)
+    content.append(img)
+
+    content.append(PageBreak())
+
+    #### Complement
+
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    content.append(Paragraph("(Quality) Complement Scores", subtitle_style))
+    content.append(Paragraph("Complement measures whether the distributions look the same. (0.0: means the distributions are as different as they can be, 1.0: means the distributions are exactly the same)", styles['Normal']))
+
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+    fig = attribute_vis("Complement Individual", quality_scores, data_columns)
+    img_data = save_figure_to_image(fig)
+    img = Image(img_data, width=504, height=216)
     content.append(img)
     
 
