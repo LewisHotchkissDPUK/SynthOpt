@@ -82,7 +82,7 @@ def attribute_vis(metric_name, scores, data_columns):
     axs[1].set_title(f'Bottom 10 Variables for {metric_name}')
     axs[1].invert_yaxis()  # Lowest values at the top
     axs[1].set_xlabel('Value')
-    axs[0].set_xlim(0, 1)
+    axs[1].set_xlim(0, 1)
 
     # Adjust layout for clarity
     plt.tight_layout()
