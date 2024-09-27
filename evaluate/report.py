@@ -136,6 +136,9 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, data_colum
     img_data = save_figure_to_image(fig)
     img = Image(img_data, width=504, height=216)
     content.append(img)
+
+    #for each set of scores maybe include a rating
+    #show some distribution and correlation plot comparisons for real vs fake, make sure its smoothed with no points.
     
 
     pdf.build(content)
