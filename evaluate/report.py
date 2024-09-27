@@ -3,19 +3,13 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib import colors
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle, Image
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.lib.enums import TA_CENTER
+from reportlab.platypus import PageBreak
 from io import BytesIO
 import pandas as pd
 from evaluate.visualisation import combine_dicts
-
-# Function to create a Matplotlib figure
-def create_matplotlib_figure():
-    fig, ax = plt.subplots()
-    ax.plot([1, 2, 3, 4], [1, 4, 2, 3], label="Sample Plot")
-    ax.set_title("Sample Matplotlib Plot")
-    ax.set_xlabel("X-Axis")
-    ax.set_ylabel("Y-Axis")
-    ax.legend()
-    return fig
+from evaluate.visualisation import table_vis
+from evaluate.visualisation import attribute_vis
 
 # Save the Matplotlib figure to an image in memory
 def save_figure_to_image(fig):
@@ -40,14 +34,7 @@ def create_metric_table(privacy_scores, quality_scores, utility_scores):
     utility_df['Utility Metrics'] = utility_df['Utility Metrics'].str.replace(r'\bTotal\b', '', regex=True).str.strip()
     
     df = pd.concat([privacy_df, quality_df, utility_df], axis=1)
-    #df = df.fillna('-', inplace=True)
-    
-    #combined = combine_dicts(privacy_scores, quality_scores, utility_scores)
-    #total_combined = {key: value for key, value in combined.items() if 'Total' in key}
-    #x = list(total_combined.keys())
-    #y = list(total_combined.values())
-    #data = {'Metric Name': x, 'Score': y}
-    #df = pd.DataFrame(data)
+
     return df
 
 # Create the PDF report with text, a table, and a plot
@@ -57,7 +44,8 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, data_colum
 
     styles = getSampleStyleSheet()
     content = []
-    subtitle_style = ParagraphStyle(name='Subtitle', fontSize=14, spaceAfter=10, textColor=colors.blue)
+    subtitle_style = ParagraphStyle(name='Subtitle', fontSize=14, spaceAfter=10, textColor=colors.blue, alignment=TA_CENTER, fontName='Helvetica')
+    subtitle_style2 = ParagraphStyle(name='Subtitle', fontSize=10, spaceAfter=10, textColor=colors.black, fontName='Helvetica-Bold')
 
     content.append(Paragraph("Synthetic Data Evaluation Report", styles['Title']))
     content.append(Paragraph("This report details the quality, privacy and utility evaluation metrics gained from the synthetic data, and visualisations to help interpret them. \n", styles['Normal']))
@@ -66,7 +54,7 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, data_colum
 
     df = create_metric_table(privacy_scores, quality_scores, utility_scores)
     table_data = [df.columns.tolist()] + df.values.tolist()
-    table = Table(table_data, hAlign='LEFT')
+    table = Table(table_data, hAlign='CENTER')
     table.setStyle(TableStyle([
         ('BACKGROUND', (0, 0), (-1, 0), colors.blue),
         ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
@@ -80,10 +68,28 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, data_colum
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
 
-    fig = create_matplotlib_figure()
+    fig = table_vis(privacy_scores, quality_scores, utility_scores)
     img_data = save_figure_to_image(fig)
-    img = Image(img_data, width=400, height=300)  # Specify the width and height of the image in the PDF
+    img = Image(img_data, width=400, height=250)  #  Specify the width and height of the image in the PDF
     content.append(img)
+
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+    level = 'Correlated Synthetic Data'
+    content.append(Paragraph(f"Synthetic Data Categorisation Level: {level}", subtitle_style2))
+    content.append(Paragraph("Correlated Synthetic Data is categorised as the highest risk due to capturing information about relationships and patterns between variables. Therefore, the privacy metrics should be evaluated carefully to ensure individuals arent at risk of being identifiable.", styles['Normal']))
+
+    content.append(PageBreak())
+
+    content.append(Paragraph("(Quality) Boundary Adherence Scores", subtitle_style))
+    content.append(Paragraph("Boundary adherence measures whether values stay within the original min/max ranges of the data. \n 0.0: means none of the attributes have the same min/max ranges \n 1.0: means all attributes have the same min/max ranges", styles['Normal']))
+
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    fig = attribute_vis("Boundary Adherence Individual", quality_scores, data_columns)
+    img_data = save_figure_to_image(fig)
+    img = Image(img_data, width=504, height=216)  #  Specify the width and height of the image in the PDF
+    content.append(img)
+    
 
     pdf.build(content)
     print(f"PDF report created: {pdf_file}")
