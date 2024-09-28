@@ -29,7 +29,7 @@ def table_vis(privacy_scores, quality_scores, utility_scores):
     ax.set_title('Summary of Scores for Each Metric')
 
     fig.tight_layout()
-    fig.savefig("/workspaces/SynthOpt/output/table_vis.png")
+    #fig.savefig("/workspaces/SynthOpt/output/table_vis.png")
 
     return fig
 
