@@ -11,6 +11,8 @@ import pandas as pd
 from evaluate.visualisation import combine_dicts
 from evaluate.visualisation import table_vis
 from evaluate.visualisation import attribute_vis
+from evaluate.visualisation import distribution_vis, correlation_vis
+from functools import reduce
 
 # Save the Matplotlib figure to an image in memory
 def save_figure_to_image(fig):
@@ -39,7 +41,13 @@ def create_metric_table(privacy_scores, quality_scores, utility_scores):
     return df
 
 # Create the PDF report with text, a table, and a plot
-def create_pdf_report(privacy_scores, quality_scores, utility_scores, data_columns):
+def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type, identifier_column, data, synthetic_data, data_columns):
+    if table_type == 'multi':
+        data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
+        synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data)
+    data = data.drop(columns=[identifier_column])
+    synthetic_data = synthetic_data.drop(columns=[identifier_column])
+
     pdf_file = "Evaluation Report.pdf"
     pdf = SimpleDocTemplate(pdf_file, pagesize=A4)
 
@@ -83,11 +91,11 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, data_colum
     external_img = Image("/workspaces/SynthOpt/examples/sds.png", width=436, height=260)  # Adjust width and height based on image size
     content.append(external_img)
 
-    content.append(PageBreak())
-
     #### Boundary Adherence
 
-    content.append(Paragraph("(Quality) Boundary Adherence Scores", subtitle_style))
+    content.append(PageBreak())
+
+    content.append(Paragraph("Boundary Adherence Scores", subtitle_style))
     content.append(Paragraph("Boundary adherence measures whether values stay within the original min/max ranges of the data. (0.0: means none of the attributes have the same min/max ranges, 1.0: means all attributes have the same min/max ranges)", styles['Normal']))
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
@@ -100,7 +108,7 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, data_colum
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
 
-    content.append(Paragraph("(Quality) Coverage Scores", subtitle_style))
+    content.append(Paragraph("Coverage Scores", subtitle_style))
     content.append(Paragraph("Coverage measures whether the whole range of values are represented. (0.0: means none of the values are represented, 1.0: means all values are represented)", styles['Normal']))
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
@@ -109,13 +117,11 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, data_colum
     img = Image(img_data, width=504, height=216)
     content.append(img)
 
-    content.append(PageBreak())
-
     #### Complement
 
-    content.append(Paragraph("<br/><br/>", styles['Normal']))
+    content.append(PageBreak())
 
-    content.append(Paragraph("(Quality) Complement Scores", subtitle_style))
+    content.append(Paragraph("Complement Scores", subtitle_style))
     content.append(Paragraph("Complement measures whether the distributions look the same. (0.0: means the distributions are as different as they can be, 1.0: means the distributions are exactly the same)", styles['Normal']))
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
@@ -124,11 +130,11 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, data_colum
     img = Image(img_data, width=504, height=216)
     content.append(img)
 
-    #### Complement
+    #### Similarity
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
 
-    content.append(Paragraph("(Utility) Similarity Scores", subtitle_style))
+    content.append(Paragraph("Similarity Scores", subtitle_style))
     content.append(Paragraph("Statistic similarity measures how similar the summary statistics are such as mean and standard deviation. (0.0: means the summary statistics are extremely different to each other, 1.0: means the summary statistics are exactly the same)", styles['Normal']))
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
@@ -136,6 +142,31 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, data_colum
     img_data = save_figure_to_image(fig)
     img = Image(img_data, width=504, height=216)
     content.append(img)
+
+    ####
+
+    content.append(PageBreak())
+
+    content.append(Paragraph("Example Distribution Comparisons", subtitle_style))
+
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+    fig = distribution_vis(data, synthetic_data, data_columns)
+    img_data = save_figure_to_image(fig)
+    img = Image(img_data, width=500, height=555)
+    content.append(img)
+
+    ####
+
+    content.append(PageBreak())
+
+    content.append(Paragraph("Example Correlation Comparisons", subtitle_style))
+
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+    fig = correlation_vis(data, synthetic_data, data_columns)
+    img_data = save_figure_to_image(fig)
+    img = Image(img_data, width=500, height=555)
+    content.append(img)
+
 
     #for each set of scores maybe include a rating
     #show some distribution and correlation plot comparisons for real vs fake, make sure its smoothed with no points.

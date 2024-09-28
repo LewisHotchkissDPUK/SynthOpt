@@ -86,9 +86,10 @@ utility_scores = evaluate_utility(TYPE, DATA, SYNTHETIC_DATA, IDENTIFIER_COLUMN,
 
 table_vis(privacy_scores, quality_scores, utility_scores)
 
+# because multi
 vis_data = reduce(lambda left, right: pd.merge(left, right, on=IDENTIFIER_COLUMN), DATA)
 vis_data = vis_data.drop(columns=[IDENTIFIER_COLUMN])
-
 DATA_COLUMNS = vis_data.columns
+DATA_COLUMNS = list(DATA_COLUMNS)
 
-create_pdf_report(privacy_scores, quality_scores, utility_scores, DATA_COLUMNS)
+create_pdf_report(privacy_scores, quality_scores, utility_scores, TYPE, IDENTIFIER_COLUMN, DATA, SYNTHETIC_DATA, DATA_COLUMNS)
