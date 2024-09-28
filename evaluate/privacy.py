@@ -39,6 +39,8 @@ def evaluate_privacy(table_type, data, synthetic_data, identifier_column, sensit
 
     #== Linkability ==#    
     print("[SynthOpt] conducting linkability attacks (this may take a while)")
+    #aux_cols should be a list of two seperate lists represetning two different sets of key attributs which could be linked
+    #split up the list into two
     linkability_evaluator = LinkabilityEvaluator(ori=data,syn=synthetic_data,control=control_data,n_attacks=number_attacks,aux_cols=key_columns,n_neighbors=10)
     linkability_evaluator.evaluate(n_jobs=-2)
     linkability_risk = linkability_evaluator.risk().value

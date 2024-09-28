@@ -210,6 +210,27 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
     content.append(Paragraph("(worst) 0.0: The real data is not at all safe from the attack. The attacker is able to correctly guess every sensitive value by applying the chosen attack algorithm.", red_style))
     content.append(Paragraph("<br/><br/>", styles['Normal']))
 
+    content.append(Paragraph(f"(Privacy) Singling Out Risk", subtitle_style2))
+    content.append(Paragraph("This metric measures how much the synthetic data can help an attacker finding a combination of attributes that single out records in the training data. This attack evaluates the robustness of the synthetic data to finding unique values of some attribute which single out an individual.", styles['Normal']))
+    content.append(Paragraph(f" ", subtitle_style2))
+    content.append(Paragraph("(worst) 1.0: There is a high risk that an individual can be singled out by a unique combination of their attributes.", red_style))
+    content.append(Paragraph("(best) 0.0: There is a low risk that an individual can be singled out by a unique combination of their attributes.", green_style))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    content.append(Paragraph(f"(Privacy) Linkability Risk", subtitle_style2))
+    content.append(Paragraph("This metric measures how much the synthetic data will help an adversary who tries to link two other datasets based on a subset of attributes. For example, suppose that the adversary finds dataset A containing, among other fields, information about the profession and education of people, and dataset B containing some demographic and health related information. Can the attacker use the synthetic dataset to link these two datasets? (It is assumed the attacker knows the key fields of the individual and that they are split across different datasets.)", styles['Normal']))
+    content.append(Paragraph(f" ", subtitle_style2))
+    content.append(Paragraph("(worst) 1.0: There is a high risk that attributes can be linked to identify an individual.", red_style))
+    content.append(Paragraph("(best) 0.0: There is a low risk that attributes can be linked to identify an individual.", green_style))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    content.append(Paragraph(f"(Privacy) Inference Risk", subtitle_style2))
+    content.append(Paragraph("This metric measures  the inference risk. It does so by measuring the success of an attacker that tries to discover the value of some secret attribute for a set of target records on which some auxiliary knowledge is available. (Again, like the linkability risk, it assumes the attacker knows the key fields)", styles['Normal']))
+    content.append(Paragraph(f" ", subtitle_style2))
+    content.append(Paragraph("(worst) 1.0: There is a high risk that sensitive attributes can be inferred.", red_style))
+    content.append(Paragraph("(best) 0.0: There is a low risk that sensitive attributes can be inferred.", green_style))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
 
     pdf.build(content)
     print(f"PDF report created: {pdf_file}")
