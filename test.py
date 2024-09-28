@@ -1,4 +1,5 @@
 from generate.metadata import generate_metadata
+from generate.metadata import test_correlated_metadata
 from generate.syntheticdata import generate_syntheticdata
 
 from evaluate.privacy import evaluate_privacy
@@ -12,6 +13,7 @@ from evaluate.report import create_pdf_report
 from sklearn.model_selection import train_test_split
 import pandas as pd
 from functools import reduce
+import seaborn as sns
 
 
 ## METADATA GENERATION TESTING ##
