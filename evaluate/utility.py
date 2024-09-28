@@ -100,8 +100,8 @@ def evaluate_utility(table_type, data, synthetic_data, control_data, identifier_
     print(f"ml efficacy score: {ml_efficacy_score}")
 
     utility_scores = {
-        'Similarity Total': avg_similarity_score,
-        'Similarity Individual': similarity_scores,
+        'Statistic Similarity Total': avg_similarity_score,
+        'Statistic Similarity Individual': similarity_scores,
         'Correlation Total': avg_correlation_score,
         'Correlation Individual': correlation_scores,
         'ML Efficacy Total': round(ml_efficacy_score, 2)

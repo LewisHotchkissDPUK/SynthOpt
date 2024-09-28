@@ -153,7 +153,7 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
     content.append(Paragraph("Statistic similarity measures how similar the summary statistics are such as mean and standard deviation. (0.0: means the summary statistics are extremely different to each other, 1.0: means the summary statistics are exactly the same)", styles['Normal']))
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
-    fig = attribute_vis("Similarity Individual", utility_scores, data_columns)
+    fig = attribute_vis("Statistic Similarity Individual", utility_scores, data_columns)
     img_data = save_figure_to_image(fig)
     img = Image(img_data, width=504, height=216)
     content.append(img)
@@ -225,10 +225,52 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
     content.append(Paragraph("<br/><br/>", styles['Normal']))
 
     content.append(Paragraph(f"(Privacy) Inference Risk", subtitle_style2))
-    content.append(Paragraph("This metric measures  the inference risk. It does so by measuring the success of an attacker that tries to discover the value of some secret attribute for a set of target records on which some auxiliary knowledge is available. (Again, like the linkability risk, it assumes the attacker knows the key fields)", styles['Normal']))
+    content.append(Paragraph("This metric measures the inference risk. It does so by measuring the success of an attacker that tries to discover the value of some secret attribute for a set of target records on which some auxiliary knowledge is available. (Again, like the linkability risk, it assumes the attacker knows the key fields)", styles['Normal']))
     content.append(Paragraph(f" ", subtitle_style2))
     content.append(Paragraph("(worst) 1.0: There is a high risk that sensitive attributes can be inferred.", red_style))
     content.append(Paragraph("(best) 0.0: There is a low risk that sensitive attributes can be inferred.", green_style))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    content.append(Paragraph(f"(Quality) Boundary Adherence", subtitle_style2))
+    content.append(Paragraph("This metric measures whether a synthetic column respects the minimum and maximum values of the real column. It returns the percentage of synthetic rows that adhere to the real boundaries.", styles['Normal']))
+    content.append(Paragraph(f" ", subtitle_style2))
+    content.append(Paragraph("(best) 1.0: All values in the synthetic data respect the min/max boundaries of the real data.", green_style))
+    content.append(Paragraph("(worst) 0.0: No value in the synthetic data is in between the min and max value of the real data.", red_style))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    content.append(Paragraph(f"(Quality) Coverage", subtitle_style2))
+    content.append(Paragraph("This metric measures whether a synthetic column covers the full range of values that are present in a real column.", styles['Normal']))
+    content.append(Paragraph(f" ", subtitle_style2))
+    content.append(Paragraph("(best) 1.0: The synthetic column covers the range of values present in the real column.", green_style))
+    content.append(Paragraph("(worst) 0.0:  The synthetic column does not overlap at all with the range of values in the real column.", red_style))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    content.append(Paragraph(f"(Quality) Complement", subtitle_style2))
+    content.append(Paragraph("This metric computes the similarity of a real column vs. a synthetic column in terms of the column shapes -- aka the marginal distribution or 1D histogram of the column.", styles['Normal']))
+    content.append(Paragraph(f" ", subtitle_style2))
+    content.append(Paragraph("(best) 1.0: The synthetic distribution shapes are exactly the same to the real data.", green_style))
+    content.append(Paragraph("(worst) 0.0: The synthetic distribution shapes are nothing like the real data.", red_style))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    content.append(Paragraph(f"(Utility) Statistic Similarity", subtitle_style2))
+    content.append(Paragraph("This metric measures the similarity between a real column and a synthetic column by comparing a summary statistic (mean, median, standard deviation).", styles['Normal']))
+    content.append(Paragraph(f" ", subtitle_style2))
+    content.append(Paragraph("(best) 1.0: The summary statistics are exactly the same.", green_style))
+    content.append(Paragraph("(worst) 0.0: The summary statistics are completely different.", red_style))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    content.append(Paragraph(f"(Utility) Correlation Similarity", subtitle_style2))
+    content.append(Paragraph("This metric measures the correlation between a pair of numerical columns and computes the similarity between the real and synthetic data -- aka it compares the trends of 2D distributions.", styles['Normal']))
+    content.append(Paragraph(f" ", subtitle_style2))
+    content.append(Paragraph("(best) 1.0: The pairwise correlations of the real and synthetic data are exactly the same.", green_style))
+    content.append(Paragraph("(worst) 0.0: The pairwise correlations are as different as they can possibly be.", red_style))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    content.append(Paragraph(f"(Utility) ML Efficacy", subtitle_style2))
+    content.append(Paragraph("This metric calculates the success of using synthetic data to perform an ML prediction task.", styles['Normal']))
+    content.append(Paragraph(f" ", subtitle_style2))
+    content.append(Paragraph("(best) 1.0: Given the synthetic training data, you will be able to perform ML tasks with 100% accuracy on the real data", green_style))
+    content.append(Paragraph("(worst) 0.0: Given the synthetic training data, you will not be able to predict any of the real data correctly.", red_style))
     content.append(Paragraph("<br/><br/>", styles['Normal']))
 
 
