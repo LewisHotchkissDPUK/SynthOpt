@@ -96,7 +96,6 @@ def distribution_vis(data, synthetic_data, data_columns):
     num_columns = min(12, len(data_columns)) ## use the same method for plotting individual metric scores top and bottom 10 or min
     selected_columns = random.sample(data_columns, num_columns)
 
-    # Create a 3x3 plot grid
     fig, axes = plt.subplots(4, 3, figsize=(18, 16))
     axes = axes.flatten()  # Flatten the axes array for easier iteration
     
@@ -134,7 +133,6 @@ def correlation_vis(data, synthetic_data, data_columns):
     num_plots = min(12, num_columns * (num_columns - 1) // 2)  # Max number of unique pairs
     column_pairs = random.sample([(x, y) for x in data_columns for y in data_columns if x != y], num_plots)
 
-    # Create a 4x3 plot grid
     fig, axes = plt.subplots(4, 3, figsize=(18, 16))
     axes = axes.flatten()  # Flatten the axes array for easier iteration
 
