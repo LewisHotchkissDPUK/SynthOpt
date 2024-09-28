@@ -133,6 +133,10 @@ def correlation_vis(data, synthetic_data, data_columns):
     num_plots = min(12, num_columns * (num_columns - 1) // 2)  # Max number of unique pairs
     column_pairs = random.sample([(x, y) for x in data_columns for y in data_columns if x != y], num_plots)
 
+    # Ensure synthetic data has the same number of samples as the real data
+    if len(synthetic_data) > len(data):
+        synthetic_data = synthetic_data.sample(n=len(data), random_state=42).reset_index(drop=True)
+
     fig, axes = plt.subplots(4, 3, figsize=(18, 16))
     axes = axes.flatten()  # Flatten the axes array for easier iteration
 

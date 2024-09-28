@@ -82,7 +82,7 @@ SYNTHETIC_DATA[2].to_csv("/workspaces/SynthOpt/output/example_synthetic_data_sub
 
 privacy_scores = evaluate_privacy(TYPE, DATA, SYNTHETIC_DATA, IDENTIFIER_COLUMN, SENSITIVE_COLUMNS, KEY_COLUMNS, CONTROL_DATA)
 quality_scores = evaluate_quality(TYPE, DATA, SYNTHETIC_DATA, IDENTIFIER_COLUMN)
-utility_scores = evaluate_utility(TYPE, DATA, SYNTHETIC_DATA, IDENTIFIER_COLUMN, PREDICTION_TYPE, PREDICTION_COLUMN)
+utility_scores = evaluate_utility(TYPE, DATA, SYNTHETIC_DATA, CONTROL_DATA, IDENTIFIER_COLUMN, PREDICTION_TYPE, PREDICTION_COLUMN)
 
 table_vis(privacy_scores, quality_scores, utility_scores)
 

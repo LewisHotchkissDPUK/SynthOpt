@@ -56,6 +56,21 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
     subtitle_style = ParagraphStyle(name='Subtitle', fontSize=14, spaceAfter=10, textColor=HexColor("#3f1af6"), alignment=TA_CENTER, fontName='Helvetica')
     subtitle_style2 = ParagraphStyle(name='Subtitle', fontSize=10, spaceAfter=10, textColor=colors.black, fontName='Helvetica-Bold')
 
+    red_style = ParagraphStyle(
+        name='RedNormal',
+        parent=styles['Normal'],
+        textColor=HexColor('#e92751'),  # Hex code for red
+        fontName='Helvetica',
+        fontSize=10
+    )
+    green_style = ParagraphStyle(
+        name='GreenNormal',
+        parent=styles['Normal'],
+        textColor=HexColor('#29c96a'),  # Hex code for green
+        fontName='Helvetica',
+        fontSize=10
+    )
+
     content.append(Paragraph("Synthetic Data Evaluation Report", styles['Title']))
     content.append(Paragraph("This report details the quality, privacy and utility evaluation metrics gained from the synthetic data, and visualisations to help interpret them. \n", styles['Normal']))
     content.append(Paragraph("<br/><br/>", styles['Normal']))
@@ -167,10 +182,34 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
     img = Image(img_data, width=500, height=555)
     content.append(img)
 
-
     #for each set of scores maybe include a rating
     #show some distribution and correlation plot comparisons for real vs fake, make sure its smoothed with no points.
     
+    content.append(PageBreak())
+    content.append(Paragraph("Meaning of Metrics", subtitle_style))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    content.append(Paragraph(f"(Privacy) Exact Matches", subtitle_style2))
+    content.append(Paragraph("This metric measures whether each row in the synthetic data is novel, or whether it exactly matches an original row in the real data.", styles['Normal']))
+    content.append(Paragraph(f" ", subtitle_style2))
+    content.append(Paragraph("(best) 1.0: The rows in the synthetic data are all new. There are no matches with the real data.", green_style))
+    content.append(Paragraph("(worst) 0.0: All the rows in the synthetic data are copies of rows in the real data.", red_style))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    content.append(Paragraph(f"(Privacy) Detection", subtitle_style2))
+    content.append(Paragraph("This metric calculate how difficult it is to tell apart the real data from the synthetic data using machine learning techniques.A score of 1 may indicate high quality but it could also be a clue that the synthetic data is leaking privacy (for example, if the synthetic data is copying the rows in the real data).", styles['Normal']))
+    content.append(Paragraph(f" ", subtitle_style2))
+    content.append(Paragraph("(worst) 1.0: The machine learning model cannot identify the synthetic data apart from the real data.", red_style))
+    content.append(Paragraph("(best) 0.0: The machine learning model can perfectly identify synthetic data apart from the real data.", green_style))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    content.append(Paragraph(f"(Privacy) Inference Protection", subtitle_style2))
+    content.append(Paragraph("This metric calculates the risk of an attacker being able to infer real, sensitive values. It is assumed that an attacker already possess a few columns of real data; they will combine it with the synthetic data to make educated guesses.", styles['Normal']))
+    content.append(Paragraph(f" ", subtitle_style2))
+    content.append(Paragraph("(best) 1.0: The real data is 100% safe from the attack. The attacker is not able to correctly guess any of the sensitive values by applying the chosen attack algorithm.", green_style))
+    content.append(Paragraph("(worst) 0.0: The real data is not at all safe from the attack. The attacker is able to correctly guess every sensitive value by applying the chosen attack algorithm.", red_style))
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+
 
     pdf.build(content)
     print(f"PDF report created: {pdf_file}")

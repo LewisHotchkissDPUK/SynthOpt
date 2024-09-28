@@ -11,12 +11,14 @@ import random
 from scipy import stats
 from functools import reduce
 
-def evaluate_utility(table_type, data, synthetic_data, identifier_column, prediction_type, prediction_column):
+def evaluate_utility(table_type, data, synthetic_data, control_data, identifier_column, prediction_type, prediction_column):
     if table_type == 'multi':
         data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
         synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data)
+        control_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), control_data)
     data = data.drop(columns=[identifier_column])
     synthetic_data = synthetic_data.drop(columns=[identifier_column])
+    control_data = control_data.drop(columns=[identifier_column])
 
     metadata = create_metadata(data)
 
@@ -61,7 +63,8 @@ def evaluate_utility(table_type, data, synthetic_data, identifier_column, predic
     correlation_scores = []
     if not synthetic_data.columns[synthetic_data.nunique()==1].tolist():
         column_pairs = list(combinations(data_columns, 2))
-        column_pairs = random.sample(column_pairs, 10)    # For testing!, takes random sample of column pairs to speed up time
+        # change so its either 20 or total rows whichever is the minimum
+        column_pairs = random.sample(column_pairs, 20)    # For testing!, takes random sample of column pairs to speed up time
         for col1, col2 in column_pairs:
             if col1 not in discrete_columns and col2 not in discrete_columns:
                 correlation_score = CorrelationSimilarity.compute(real_data=data[[col1,col2]], synthetic_data=synthetic_data[[col1,col2]])
@@ -78,7 +81,14 @@ def evaluate_utility(table_type, data, synthetic_data, identifier_column, predic
 
     #== ML Efficacy ==# (maybe create own with optimisation of hyperparams (as option)) (SHOULD BE ABLE TO CHOOSE REGRESSION / CLASSIFICATION / MULTI-CLASS)
     #print("[SynthOpt] training & evaluating performance of machine learning classifiers (this may take a while)")   
-    ml_efficacy_score = BinaryDecisionTreeClassifier.compute(test_data=data, train_data=synthetic_data, target=prediction_column, metadata=metadata)
+    #ml_efficacy_score_real = BinaryDecisionTreeClassifier.compute(test_data=control_data, train_data=data, target=prediction_column, metadata=metadata)
+    #print(f"real ml = {ml_efficacy_score_real}")
+    #ml_efficacy_score_synth = BinaryDecisionTreeClassifier.compute(test_data=control_data, train_data=synthetic_data, target=prediction_column, metadata=metadata)
+    #print(f"synthetic ml = {ml_efficacy_score_synth}")
+    #ml_efficacy_score = ml_efficacy_score_real - ml_efficacy_score_synth
+
+    # add multi class and regression prediction types
+    ml_efficacy_score = BinaryDecisionTreeClassifier.compute(test_data=control_data, train_data=synthetic_data, target=prediction_column, metadata=metadata)
 
     avg_similarity_score = np.round(np.mean(similarity_scores), 2)
     avg_correlation_score = np.round(np.mean(correlation_scores), 2) # the lower the better

@@ -38,7 +38,7 @@ def generate_syntheticdata(table_type, model_name, data, identifier_column, pred
         data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
     
     data = data.drop(columns=[identifier_column])
-    data = data.select_dtypes(exclude=['object']) # need to properly handle
+    data = data.select_dtypes(exclude=['object']) # need to properly handle (if there are object or string columns then throw error)
     metadata = create_metadata(data)
     #data, control_data = train_test_split(data, test_size=0.1, random_state=42)
     available_columns = data.columns.tolist()
