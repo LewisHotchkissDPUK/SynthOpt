@@ -63,7 +63,6 @@ def evaluate_utility(data, synthetic_data, control_data, identifier_column, pred
     correlation_scores = []
     if not synthetic_data.columns[synthetic_data.nunique()==1].tolist():
         column_pairs = list(combinations(data_columns, 2))
-        # change so its either 20 or total rows whichever is the minimum
         num = min(30, len(data.columns))
         column_pairs = random.sample(column_pairs, num)    # For testing!, takes random sample of column pairs to speed up time
         for col1, col2 in column_pairs:
