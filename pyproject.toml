@@ -12,7 +12,6 @@ authors = [
     { name = "Lewis Hotchkiss", email = "lewishotchkiss123@gmail.com" }
 ]
 license = { name = "Apache-2.0" }
-requires-python = ">=3.8, <3.11"
 keywords = ["synthetic data", "optimization", "data science", "AI"]
 
 [project.urls]
