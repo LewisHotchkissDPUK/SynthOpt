@@ -42,14 +42,14 @@ def create_metric_table(privacy_scores, quality_scores, utility_scores):
     return df
 
 # Create the PDF report with text, a table, and a plot
-def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type, identifier_column, data, synthetic_data, data_columns):
+def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type, identifier_column, data, synthetic_data, data_columns, save_location):
     if table_type == 'multi':
         data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
         synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data)
     data = data.drop(columns=[identifier_column])
     synthetic_data = synthetic_data.drop(columns=[identifier_column])
 
-    pdf_file = "Evaluation Report.pdf"
+    pdf_file = save_location
     pdf = SimpleDocTemplate(pdf_file, pagesize=A4)
 
     styles = getSampleStyleSheet()
