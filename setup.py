@@ -38,7 +38,6 @@ setuptools.setup(
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Scientific/Engineering :: Data Science",
     ],
-    python_requires="3.10",
     install_requires=INSTALL_REQUIRES,
     packages=setuptools.find_packages(),  # Automatically discover your package
     long_description=Path("README.md").read_text(),
