@@ -3,7 +3,7 @@ import setuptools
 
 VERSION = "0.1.0"  # PEP-440
 
-NAME = "synthopt"
+NAME = "SynthOpt"
 
 INSTALL_REQUIRES = [
     "sdmetrics",
@@ -17,9 +17,9 @@ setuptools.setup(
     name=NAME,
     version=VERSION,
     description="A package for synthetic data generation, evaluation and optimisation.",
-    url="https://github.com/LewisHotchkissDPUK/synthopt",
+    url="https://github.com/LewisHotchkissDPUK/SynthOpt",
     project_urls={
-        "Source Code": "https://github.com/LewisHotchkissDPUK/synthopt",
+        "Source Code": "https://github.com/LewisHotchkissDPUK/SynthOpt",
     },
     author="Lewis Hotchkiss", 
     author_email="lewishotchkiss123@gmail.com",
