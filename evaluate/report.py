@@ -12,6 +12,7 @@ from evaluate.visualisation import combine_dicts
 from evaluate.visualisation import table_vis
 from evaluate.visualisation import attribute_vis
 from evaluate.visualisation import distribution_vis, correlation_vis
+from evaluate.visualisation import reduction_vis
 from functools import reduce
 
 # Save the Matplotlib figure to an image in memory
@@ -272,6 +273,12 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
     content.append(Paragraph("(best) 1.0: Given the synthetic training data, you will be able to perform ML tasks with 100% accuracy on the real data", green_style))
     content.append(Paragraph("(worst) 0.0: Given the synthetic training data, you will not be able to predict any of the real data correctly.", red_style))
     content.append(Paragraph("<br/><br/>", styles['Normal']))
+
+    content.append(Paragraph("<br/><br/>", styles['Normal']))
+    fig = reduction_vis(data, synthetic_data)
+    img_data = save_figure_to_image(fig)
+    img = Image(img_data, width=520, height=390)
+    content.append(img)
 
 
     pdf.build(content)

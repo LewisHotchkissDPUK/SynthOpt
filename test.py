@@ -13,6 +13,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 from functools import reduce
 import seaborn as sns
+from sklearn.impute import KNNImputer
 
 
 ## METADATA GENERATION TESTING ##
@@ -54,12 +55,29 @@ TYPE = "multi"
 MODEL = "pategan"
 DATA1 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset1.csv")
 DATA1, CONTROL_DATA1 = train_test_split(DATA1, test_size=0.1, random_state=42)
+DATA_PROCESSED1 = DATA1
+imputer = KNNImputer(n_neighbors=3)
+DATA_PROCESSED1 = imputer.fit_transform(DATA_PROCESSED1)
+DATA_PROCESSED1 = pd.DataFrame(DATA_PROCESSED1, columns=DATA1.columns)
+
 DATA2 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset2.csv")
 DATA2, CONTROL_DATA2 = train_test_split(DATA2, test_size=0.1, random_state=42)
+DATA_PROCESSED2 = DATA2
+imputer = KNNImputer(n_neighbors=3)
+DATA_PROCESSED2 = imputer.fit_transform(DATA_PROCESSED2)
+DATA_PROCESSED2 = pd.DataFrame(DATA_PROCESSED2, columns=DATA2.columns)
+
 DATA3 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset3.csv")
 DATA3, CONTROL_DATA3 = train_test_split(DATA3, test_size=0.1, random_state=42)
+DATA_PROCESSED3 = DATA3
+imputer = KNNImputer(n_neighbors=3)
+DATA_PROCESSED3 = imputer.fit_transform(DATA_PROCESSED3)
+DATA_PROCESSED3 = pd.DataFrame(DATA_PROCESSED3, columns=DATA3.columns)
+
 DATA = [DATA1,DATA2,DATA3]
 CONTROL_DATA = [CONTROL_DATA1,CONTROL_DATA2,CONTROL_DATA3]
+DATA_PROCESSED = [DATA_PROCESSED1,DATA_PROCESSED2,DATA_PROCESSED3]
+
 IDENTIFIER_COLUMN = "RID"
 PREDICTION_COLUMN = "Combined Depression"
 SENSITIVE_COLUMNS = ["Combined Depression"]
@@ -69,12 +87,14 @@ SAMPLE_SIZE = 800
 EPSILON = 5
 PREDICTION_TYPE = 'binary'
 
-SYNTHETIC_DATA = generate_syntheticdata(TYPE, MODEL, DATA, IDENTIFIER_COLUMN, PREDICTION_COLUMN, SENSITIVE_COLUMNS, 
-                                        ITERATIONS, SAMPLE_SIZE, EPSILON, None, None)
+#maybe add function to process data including - imputation, categorical/string handling, outlier removal etc
+
+
+SYNTHETIC_DATA = generate_syntheticdata(DATA_PROCESSED, IDENTIFIER_COLUMN, PREDICTION_COLUMN, SENSITIVE_COLUMNS, 
+                                        SAMPLE_SIZE, TYPE, MODEL, ITERATIONS, EPSILON)
 SYNTHETIC_DATA[0].to_csv("/workspaces/SynthOpt/output/example_synthetic_data_subset1.csv", index=False)
 SYNTHETIC_DATA[1].to_csv("/workspaces/SynthOpt/output/example_synthetic_data_subset2.csv", index=False)
 SYNTHETIC_DATA[2].to_csv("/workspaces/SynthOpt/output/example_synthetic_data_subset3.csv", index=False)
-
 
 ##
 ## SYNTHETIC DATA PRIVACY EVALUATION TESTING ##

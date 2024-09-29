@@ -2,6 +2,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import random
+from sklearn.manifold import TSNE
+import pandas as pd
+from sklearn.impute import KNNImputer
+from sklearn.decomposition import PCA
+from sklearn.neighbors import KernelDensity
 
 def combine_dicts(*dicts):
     combined = {}
@@ -161,4 +166,38 @@ def correlation_vis(data, synthetic_data, data_columns):
     plt.tight_layout()
 
     # Return the figure object
+    return fig
+
+
+def reduction_vis(real_data, synthetic_data):
+    # Ensure real_data and synthetic_data have the same number of columns (features)
+    if real_data.shape[1] != synthetic_data.shape[1]:
+        raise ValueError("Real and synthetic data must have the same number of features (columns).")
+    
+    data_columns = real_data.columns
+    real_data = real_data
+    imputer = KNNImputer(n_neighbors=3) ## Maybe improve this or add other options (hyperimpute maybe)
+    real_data = imputer.fit_transform(real_data)
+    real_data = pd.DataFrame(real_data, columns=data_columns)
+    
+    # Combine real and synthetic data
+    combined_data = pd.concat([real_data, synthetic_data], axis=0)
+    
+    # Perform PCA
+    pca = PCA(n_components=2)
+    pca_results = pca.fit_transform(combined_data)
+    
+    # Split PCA results back into real and synthetic components
+    real_pca = pca_results[:real_data.shape[0], :]
+    synthetic_pca = pca_results[real_data.shape[0]:, :]
+    
+    # Create the plot
+    fig, ax = plt.subplots(figsize=(8, 6))
+    ax.scatter(real_pca[:, 0], real_pca[:, 1], color='blue', label='Real Data', alpha=0.6)
+    ax.scatter(synthetic_pca[:, 0], synthetic_pca[:, 1], color='red', label='Synthetic Data', alpha=0.6)
+    ax.set_title('PCA Plot of Real and Synthetic Data')
+    ax.set_xlabel('Principal Component 1')
+    ax.set_ylabel('Principal Component 2')
+    ax.legend()
+    ax.grid(True)
     return fig

@@ -27,10 +27,9 @@ def create_metadata(data):
 
 # create a method to pass in a custom model (not a name but an actual model)
 # add other model options from other packages like sdv and ydata
-# create method for optimisation
 # allow option for single table, multi table and longitudinal
 # handle string columns, maybe do encoding
-def generate_syntheticdata(table_type, model_name, data, identifier_column, prediction_column, sensitive_columns, iterations, sample_size, dp_epsilon, dp_delta, dp_lambda):
+def generate_syntheticdata(data, identifier_column, prediction_column, sensitive_columns, sample_size, table_type = 'single', model_name = 'pategan', iterations = 100, dp_epsilon = 1, dp_delta = None, dp_lambda = None, save_location=None):
     if table_type == 'multi':
         column_dict = {}
         for i, df in enumerate(data):
@@ -38,9 +37,12 @@ def generate_syntheticdata(table_type, model_name, data, identifier_column, pred
         data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
     
     data = data.drop(columns=[identifier_column])
-    data = data.select_dtypes(exclude=['object']) # need to properly handle (if there are object or string columns then throw error)
+
+    object_or_string_cols = data.select_dtypes(include=['object', 'string'])
+    if not object_or_string_cols.empty:
+        raise TypeError(f"Data must not contain string or object data types, please handle these. Columns with object or string types: {list(object_or_string_cols.columns)}")
+
     metadata = create_metadata(data)
-    #data, control_data = train_test_split(data, test_size=0.1, random_state=42)
     available_columns = data.columns.tolist()
     discrete_columns = []
     for col, meta in metadata.columns.items():
@@ -52,24 +54,20 @@ def generate_syntheticdata(table_type, model_name, data, identifier_column, pred
         sample_size = len(data)
 
     if model_name != "ctgan":
+        # add delta and lambda for dpgan and pategan
         synthesizer = Plugins().get(model_name, n_iter=iterations, epsilon=dp_epsilon)
     else:
         synthesizer = Plugins().get(model_name, n_iter=iterations)
 
-    DATA_PROCESSED = data
-    imputer = KNNImputer(n_neighbors=3) ## Maybe improve this or add other options (hyperimpute maybe)
-    DATA_PROCESSED = imputer.fit_transform(DATA_PROCESSED)
-    DATA_PROCESSED = pd.DataFrame(DATA_PROCESSED, columns=data_columns)
-
     for column in data_columns:
-        if (DATA_PROCESSED[column] % 1).all() == 0:
-            DATA_PROCESSED[column] = DATA_PROCESSED[column].astype(int)
+        if (data[column] % 1).all() == 0:
+            data[column] = data[column].astype(int)
             
     if model_name == "ctgan":
-        DATA_PROCESSED = add_noise(DATA_PROCESSED, dp_epsilon, discrete_columns) # maybe should be the inverse of epsilon
+        data = add_noise(data, dp_epsilon, discrete_columns) # maybe should be the inverse of epsilon
 
-    DATA_PROCESSED = GenericDataLoader(DATA_PROCESSED, target_column=prediction_column, sensitive_columns=sensitive_columns)
-    synthesizer.fit(DATA_PROCESSED)
+    data = GenericDataLoader(data, target_column=prediction_column, sensitive_columns=sensitive_columns)
+    synthesizer.fit(data)
     
     synthetic_data = synthesizer.generate(count=sample_size).dataframe()
     synthetic_data.columns = data_columns
@@ -91,5 +89,7 @@ def generate_syntheticdata(table_type, model_name, data, identifier_column, pred
     #synthetic_data.insert(0, identifier_column, list(unique_identifiers))
 
     # save datasets if save location exists, and model is model save location exists
-    
+    if save_location != None:
+        save_to_file(save_location, synthesizer)
+
     return synthetic_data
