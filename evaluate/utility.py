@@ -11,7 +11,7 @@ import random
 from scipy import stats
 from functools import reduce
 
-def evaluate_utility(table_type, data, synthetic_data, control_data, identifier_column, prediction_type, prediction_column):
+def evaluate_utility(data, synthetic_data, control_data, identifier_column, prediction_column, table_type = 'single', prediction_type = 'binary'):
     if table_type == 'multi':
         data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
         synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data)

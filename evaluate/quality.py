@@ -9,7 +9,7 @@ from anonymeter.evaluators import SinglingOutEvaluator,LinkabilityEvaluator,Infe
 from generate.syntheticdata import create_metadata
 from functools import reduce
 
-def evaluate_quality(table_type, data, synthetic_data, identifier_column):
+def evaluate_quality(data, synthetic_data, identifier_column, table_type = 'single'):
     if table_type == 'multi':
         data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
         synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data)
