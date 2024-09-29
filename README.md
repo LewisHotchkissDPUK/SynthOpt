@@ -15,5 +15,5 @@ Optimise the privacy/utility trade-off depending on your requirements - generate
 ------------
 
 ## Documentation
-Below is a link to the documentation for this package:
+Here is a link to the documentation for this package:
 [SynthOpt Documentation](https://lewishotchkiss.gitbook.io/synthopt "SynthOpt Documentation")
