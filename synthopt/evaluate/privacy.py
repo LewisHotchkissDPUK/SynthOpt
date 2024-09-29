@@ -6,7 +6,7 @@ from sdmetrics.single_table import NewRowSynthesis,LogisticDetection,BinaryDecis
 from sdv.metadata import SingleTableMetadata
 from itertools import combinations
 from anonymeter.evaluators import SinglingOutEvaluator,LinkabilityEvaluator,InferenceEvaluator
-from generate.syntheticdata import create_metadata
+from synthopt.generate.syntheticdata import create_metadata
 from functools import reduce
 
 def evaluate_privacy(data, synthetic_data, identifier_column, sensitive_columns, key_columns, control_data, table_type = 'single'):

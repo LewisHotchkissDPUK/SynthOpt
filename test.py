@@ -1,14 +1,14 @@
-from generate.metadata import generate_metadata
-from generate.syntheticdata import generate_syntheticdata
-from generate.syntheticdata import process
+from synthopt.generate.metadata import generate_metadata
+from synthopt.generate.syntheticdata import generate_syntheticdata
+from synthopt.generate.syntheticdata import process
 
-from evaluate.privacy import evaluate_privacy
-from evaluate.quality import evaluate_quality
-from evaluate.utility import evaluate_utility
+from synthopt.evaluate.privacy import evaluate_privacy
+from synthopt.evaluate.quality import evaluate_quality
+from synthopt.evaluate.utility import evaluate_utility
 
-from evaluate.visualisation import table_vis, attribute_vis
+from synthopt.evaluate.visualisation import table_vis, attribute_vis
 
-from evaluate.report import create_pdf_report
+from synthopt.evaluate.report import create_pdf_report
 
 from sklearn.model_selection import train_test_split
 import pandas as pd
@@ -16,7 +16,7 @@ from functools import reduce
 import seaborn as sns
 from sklearn.impute import KNNImputer
 
-from optimise.optimise import optimize_epsilon
+from synthopt.optimise.optimise import optimize_epsilon
 
 
 ## METADATA GENERATION TESTING ##

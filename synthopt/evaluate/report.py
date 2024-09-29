@@ -8,11 +8,11 @@ from reportlab.platypus import PageBreak
 from reportlab.lib.colors import HexColor
 from io import BytesIO
 import pandas as pd
-from evaluate.visualisation import combine_dicts
-from evaluate.visualisation import table_vis
-from evaluate.visualisation import attribute_vis
-from evaluate.visualisation import distribution_vis, correlation_vis
-from evaluate.visualisation import reduction_vis
+from synthopt.evaluate.visualisation import combine_dicts
+from synthopt.evaluate.visualisation import table_vis
+from synthopt.evaluate.visualisation import attribute_vis
+from synthopt.evaluate.visualisation import distribution_vis, correlation_vis
+from synthopt.evaluate.visualisation import reduction_vis
 from functools import reduce
 
 # Save the Matplotlib figure to an image in memory

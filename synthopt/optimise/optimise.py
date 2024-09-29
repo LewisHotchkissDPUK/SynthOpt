@@ -1,7 +1,7 @@
-from generate.syntheticdata import generate_syntheticdata
-from evaluate.privacy import evaluate_privacy
-from evaluate.utility import evaluate_utility
-from evaluate.quality import evaluate_quality
+from synthopt.generate.syntheticdata import generate_syntheticdata
+from synthopt.evaluate.privacy import evaluate_privacy
+from synthopt.evaluate.utility import evaluate_utility
+from synthopt.evaluate.quality import evaluate_quality
 import numpy as np
 from scipy.optimize import minimize
 
