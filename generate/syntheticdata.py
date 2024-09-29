@@ -60,70 +60,125 @@ def process(data, table_type='single'): #, subset_size=None
 
     
 
-def generate_syntheticdata(data, identifier_column, prediction_column, sensitive_columns, sample_size, table_type = 'single', model_name = 'pategan', iterations = 100, dp_epsilon = 1, dp_delta = None, dp_lambda = 0.001, save_location=None):
-    if table_type == 'multi':
-        column_dict = {}
-        for i, df in enumerate(data):
-            column_dict[f"DataFrame_{i+1}"] = df.columns.tolist()
-        data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
-    
-    data = data.drop(columns=[identifier_column])
+def generate_syntheticdata(data, identifier_column, prediction_column, sensitive_columns, sample_size, table_type='single', model_name='pategan', iterations=100, dp_epsilon=1, dp_delta=None, dp_lambda=0.001, save_location=None):
+    try:
+        # Check if data is a pandas DataFrame (for single table) or a list of DataFrames (for multi table)
+        if table_type == 'single' and not isinstance(data, pd.DataFrame):
+            raise ValueError("For single table type, data must be a pandas DataFrame.")
+        elif table_type == 'multi' and not isinstance(data, list):
+            raise ValueError("For multi table type, data must be a list of pandas DataFrames.")
 
-    object_or_string_cols = data.select_dtypes(include=['object', 'string'])
-    if not object_or_string_cols.empty:
-        raise TypeError(f"Data must not contain string or object data types, please handle these. Columns with object or string types: {list(object_or_string_cols.columns)}")
+        # Multi-table handling
+        if table_type == 'multi':
+            column_dict = {}
+            for i, df in enumerate(data):
+                if not isinstance(df, pd.DataFrame):
+                    raise ValueError(f"Element {i+1} in the data list is not a pandas DataFrame.")
+                column_dict[f"DataFrame_{i+1}"] = df.columns.tolist()
 
-    metadata = create_metadata(data)
-    available_columns = data.columns.tolist()
-    discrete_columns = []
-    for col, meta in metadata.columns.items():
-        if ('sdtype' in meta and meta['sdtype'] == 'categorical') or (data[col].fillna(9999) % 1 == 0).all():
-            discrete_columns.append(col)
-    data_columns = data.columns
+            try:
+                data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
+            except KeyError as e:
+                raise KeyError(f"Identifier column '{identifier_column}' not found in one or more DataFrames.") from e
 
-    if sample_size == None:
-        sample_size = len(data)
+        # Drop identifier column from the data
+        if identifier_column not in data.columns:
+            raise KeyError(f"Identifier column '{identifier_column}' not found in the data.")
+        data = data.drop(columns=[identifier_column])
 
-    if model_name == "ctgan":
-        synthesizer = Plugins().get(model_name, n_iter=iterations)
-    elif model_name == "dpgan":
-        synthesizer = Plugins().get(model_name, n_iter=iterations, epsilon=dp_epsilon, delta=dp_delta)
-    elif model_name == "pategan":
-        synthesizer = Plugins().get(model_name, n_iter=iterations, epsilon=dp_epsilon, delta=dp_delta, lamda=dp_lambda)
-    else:
-        print("Not a valid model name")
+        # Check for object or string columns that are not allowed
+        object_or_string_cols = data.select_dtypes(include=['object', 'string'])
+        if not object_or_string_cols.empty:
+            raise TypeError(f"Data must not contain string or object data types. Columns with object or string types: {list(object_or_string_cols.columns)}")
 
-    for column in data_columns:
-        if (data[column] % 1).all() == 0:
-            data[column] = data[column].astype(int)
-            
-    if model_name == "ctgan":
-        data = add_noise(data, dp_epsilon, discrete_columns) # maybe should be the inverse of epsilon
+        # Create metadata and identify discrete columns
+        metadata = create_metadata(data)
+        available_columns = data.columns.tolist()
+        discrete_columns = []
+        for col, meta in metadata.columns.items():
+            if ('sdtype' in meta and meta['sdtype'] == 'categorical') or (data[col].fillna(9999) % 1 == 0).all():
+                discrete_columns.append(col)
 
-    data = GenericDataLoader(data, target_column=prediction_column, sensitive_columns=sensitive_columns)
-    synthesizer.fit(data)
-    
-    synthetic_data = synthesizer.generate(count=sample_size).dataframe()
-    synthetic_data.columns = data_columns
-    synthetic_data.insert(0, identifier_column, range(1, len(synthetic_data) + 1))
+        data_columns = data.columns
 
-    if table_type == 'multi':
-        split_synthetic_dfs = []
-        for key, columns in column_dict.items():
-            split_synthetic_dfs.append(synthetic_data[columns])
-        synthetic_data = split_synthetic_dfs
+        # Validate the sample size
+        if sample_size is None:
+            sample_size = len(data)
+        elif sample_size > len(data):
+            raise ValueError("Sample size cannot be larger than the number of rows in the dataset.")
 
-    # Generate unique ten-digit identifiers
-    #num_rows = len(synthetic_data)
-    #unique_identifiers = set()
-    #while len(unique_identifiers) < num_rows:
-    #    identifier = random.randint(1000000000, 9999999999)
-    #    unique_identifiers.add(identifier)
-    # Convert the set to a list and insert it into the DataFrame
-    #synthetic_data.insert(0, identifier_column, list(unique_identifiers))
+        # Check if the model name is valid and create the appropriate synthesizer
+        try:
+            if model_name == "ctgan":
+                synthesizer = Plugins().get(model_name, n_iter=iterations)
+            elif model_name == "dpgan":
+                synthesizer = Plugins().get(model_name, n_iter=iterations, epsilon=dp_epsilon, delta=dp_delta)
+            elif model_name == "pategan":
+                synthesizer = Plugins().get(model_name, n_iter=iterations, epsilon=dp_epsilon, delta=dp_delta, lamda=dp_lambda)
+            else:
+                raise ValueError(f"Not a valid model name: '{model_name}'")
+        except Exception as e:
+            raise ValueError(f"Failed to initialize the synthesizer model '{model_name}'. Please check the model name and parameters.") from e
 
-    # save datasets if save location exists, and model is model save location exists
-    if save_location != None:
-        save_to_file(save_location, synthesizer)
+        # Ensure integer columns stay integers
+        for column in data_columns:
+            if (data[column] % 1).all() == 0:
+                data[column] = data[column].astype(int)
 
-    return synthetic_data
+        # Apply noise to data if using ctgan model
+        if model_name == "ctgan":
+            try:
+                data = add_noise(data, dp_epsilon, discrete_columns)  # Noise added for ctgan only
+            except Exception as e:
+                raise ValueError("Error occurred while adding noise to the data.") from e
+
+        # Convert data to GenericDataLoader
+        try:
+            data = GenericDataLoader(data, target_column=prediction_column, sensitive_columns=sensitive_columns)
+        except Exception as e:
+            raise ValueError("Failed to create GenericDataLoader. Please check the input data and columns.") from e
+
+        # Fit the synthesizer to the data
+        try:
+            synthesizer.fit(data)
+        except Exception as e:
+            raise RuntimeError("Error occurred during model training. Please ensure the data and model are properly configured.") from e
+
+        # Generate synthetic data
+        try:
+            synthetic_data = synthesizer.generate(count=sample_size).dataframe()
+        except Exception as e:
+            raise RuntimeError("Error occurred during synthetic data generation.") from e
+
+        # Ensure the synthetic data has the correct columns
+        synthetic_data.columns = data_columns
+        synthetic_data.insert(0, identifier_column, range(1, len(synthetic_data) + 1))
+
+        # Split synthetic data into multiple tables if using multi-table
+        if table_type == 'multi':
+            split_synthetic_dfs = []
+            for key, columns in column_dict.items():
+                split_synthetic_dfs.append(synthetic_data[columns])
+            synthetic_data = split_synthetic_dfs
+
+        # Save the model and/or synthetic data if a save location is provided
+        if save_location is not None:
+            try:
+                save_to_file(save_location, synthesizer)
+            except Exception as e:
+                raise IOError(f"Failed to save the model to the specified location: {save_location}") from e
+
+        return synthetic_data
+
+    except ValueError as ve:
+        print(f"ValueError: {str(ve)}")
+    except KeyError as ke:
+        print(f"KeyError: {str(ke)}")
+    except TypeError as te:
+        print(f"TypeError: {str(te)}")
+    except IOError as ioe:
+        print(f"IOError: {str(ioe)}")
+    except RuntimeError as re:
+        print(f"RuntimeError: {str(re)}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {str(e)}")
