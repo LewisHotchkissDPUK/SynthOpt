@@ -60,12 +60,7 @@ def process(data, table_type='single'): #, subset_size=None
 
     
 
-
-# create a method to pass in a custom model (not a name but an actual model)
-# add other model options from other packages like sdv and ydata
-# allow option for single table, multi table and longitudinal
-# handle string columns, maybe do encoding
-def generate_syntheticdata(data, identifier_column, prediction_column, sensitive_columns, sample_size, table_type = 'single', model_name = 'pategan', iterations = 100, dp_epsilon = 1, dp_delta = None, dp_lambda = None, save_location=None):
+def generate_syntheticdata(data, identifier_column, prediction_column, sensitive_columns, sample_size, table_type = 'single', model_name = 'pategan', iterations = 100, dp_epsilon = 1, dp_delta = None, dp_lambda = 0.001, save_location=None):
     if table_type == 'multi':
         column_dict = {}
         for i, df in enumerate(data):
@@ -89,11 +84,14 @@ def generate_syntheticdata(data, identifier_column, prediction_column, sensitive
     if sample_size == None:
         sample_size = len(data)
 
-    if model_name != "ctgan":
-        # add delta and lambda for dpgan and pategan
-        synthesizer = Plugins().get(model_name, n_iter=iterations, epsilon=dp_epsilon)
-    else:
+    if model_name == "ctgan":
         synthesizer = Plugins().get(model_name, n_iter=iterations)
+    elif model_name == "dpgan":
+        synthesizer = Plugins().get(model_name, n_iter=iterations, epsilon=dp_epsilon, delta=dp_delta)
+    elif model_name == "pategan":
+        synthesizer = Plugins().get(model_name, n_iter=iterations, epsilon=dp_epsilon, delta=dp_delta, lamda=dp_lambda)
+    else:
+        print("Not a valid model name")
 
     for column in data_columns:
         if (data[column] % 1).all() == 0:
