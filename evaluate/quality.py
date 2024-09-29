@@ -20,8 +20,6 @@ def evaluate_quality(data, synthetic_data, identifier_column, table_type = 'sing
 
     discrete_columns = []
     for col, meta in metadata.columns.items():
-        # second part of or is to detect integers but unecessary so removed as metrics are for categories
-        #if ('sdtype' in meta and meta['sdtype'] == 'categorical') or (data[col].fillna(9999) % 1 == 0).all():
         if ('sdtype' in meta and meta['sdtype'] == 'categorical'):
             discrete_columns.append(col)
     data_columns = data.columns
@@ -29,7 +27,6 @@ def evaluate_quality(data, synthetic_data, identifier_column, table_type = 'sing
     boundary_adherence_scores = []
     coverage_scores = []
     complement_scores = []
-    #similarity_scores = []
     for column in data_columns:
         if column not in discrete_columns:
             #== Boundary Adherence ==#
@@ -41,9 +38,6 @@ def evaluate_quality(data, synthetic_data, identifier_column, table_type = 'sing
             #== Complement ==#
             complement_score = KSComplement.compute(real_data=data[column], synthetic_data=synthetic_data[column])
             complement_scores.append(complement_score)
-            #== Statistic Similarity ==#
-            #similarity_score = StatisticSimilarity.compute(real_data=data[column], synthetic_data=synthetic_data[column], statistic='mean')
-            #similarity_scores.append(similarity_score)
         else:
             #== Boundary Adherence ==#
             adherence_score = CategoryAdherence.compute(real_data=data[column], synthetic_data=synthetic_data[column])
@@ -58,7 +52,6 @@ def evaluate_quality(data, synthetic_data, identifier_column, table_type = 'sing
     avg_boundary_adherence_score = np.round(np.mean(boundary_adherence_scores), 2)
     avg_coverage_score = np.round(np.mean(coverage_scores), 2)
     avg_complement_score = np.round(np.mean(complement_scores), 2)
-    #avg_similarity_score = np.round(np.mean(similarity_scores), 2)
 
     print()
     print("== QUALITY SCORES ==")

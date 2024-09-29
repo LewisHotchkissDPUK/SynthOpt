@@ -60,30 +60,9 @@ def evaluate_privacy(data, synthetic_data, identifier_column, sensitive_columns,
     print()
     print("== PRIVACY SCORES ==")
 
-    if exact_matches_score == 1:
-        exact_matches_rating = "Good - There are no exact matches"
-    else:
-        exact_matches_rating = "Bad - There may be some exact matches which compromise privacy"
     print(f"exact matches score: {exact_matches_score}")
-    #print(f"exact matches score: {exact_matches_score} \n({exact_matches_rating})\n")
-
-    if detection_score == 0:
-        detection_rating = "Good - The synthetic data can be differentiated from the real data"
-    else:
-        detection_rating = "Bad - The synthetic data cannot be differentiated from the real data, therefore could be leaking real information"
     print(f"detection score: {detection_score}")
-    #print(f"detection score: {detection_score} \n({detection_rating})\n")
-
-    if inference_protection_score > 0.8:
-        inference_protection_rating = "Good - The real data is safe from inference attack meaning sensitive values cannot be guessed"
-    elif 0.8 > inference_protection_score > 0.6:
-        inference_protection_rating = "Medium - The real data may potentially be vulnerable to inference attack meaning some sensitive values may be guessed"
-    else:
-        inference_protection_rating = "Bad - The real data is vulnerable to inference attack meaning sensitive values can be guessed"
     print(f"inference protection score: {inference_protection_score}")
-    #print(f"inference protection score: {inference_protection_score} \n({inference_protection_rating})\n")
-
-    #print()
     print(f"singling out score: {singling_risk}")
     print(f"linkability score: {linkability_risk}")
     print(f"inference score: {inference_risk}")

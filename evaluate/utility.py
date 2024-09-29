@@ -74,11 +74,6 @@ def evaluate_utility(data, synthetic_data, control_data, identifier_column, pred
                 correlation_scores.append(correlation_score)
 
 
-    # Calculate the Pearson correlation matrices for both datasets
-    #real_corr_matrix = data.corr(method='pearson')
-    #synth_corr_matrix = synthetic_data.corr(method='pearson')
-
-
     #== ML Efficacy ==# (maybe create own with optimisation of hyperparams (as option)) (SHOULD BE ABLE TO CHOOSE REGRESSION / CLASSIFICATION / MULTI-CLASS)
     #print("[SynthOpt] training & evaluating performance of machine learning classifiers (this may take a while)")   
     #ml_efficacy_score_real = BinaryDecisionTreeClassifier.compute(test_data=control_data, train_data=data, target=prediction_column, metadata=metadata)

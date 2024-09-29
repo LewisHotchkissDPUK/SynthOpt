@@ -29,6 +29,7 @@ def parse_range(value_range):
     return None
 
 # Function to generate random data based on metadata for each filename
+# NEED TO FIX DATE AND TIME
 def generate_metadata(metadata_csv, num_records=100, save_location=None):
     try:
         # Load the metadata CSV
