@@ -25,6 +25,42 @@ def create_metadata(data):
     metadata.detect_from_dataframe(data)
     return metadata
 
+# imputation, categorical/string handling, outlier removal etc
+def process(data, table_type='single'): #, subset_size=None
+    if table_type == 'multi':
+        imputer = KNNImputer(n_neighbors=3)
+        processed_dataframes = []
+        control_dataframes = []
+        for df in data:
+            imputed_data = imputer.fit_transform(df)
+            processed_df = pd.DataFrame(imputed_data, columns=df.columns)
+            processed_df, control_df = train_test_split(processed_df, test_size=0.1, random_state=42)
+            #if subset_size != None:
+            #    subset_size = subset_size * 0.9
+            #    processed_df = processed_df.sample(n=subset_size)
+            processed_dataframes.append(processed_df)
+            control_dataframes.append(control_df)
+
+        return processed_dataframes, control_dataframes
+
+    if table_type == 'single':
+        imputer = KNNImputer(n_neighbors=3)
+        data_processed = imputer.fit_transform(data)
+        data_processed = pd.DataFrame(data_processed, columns=data.columns)
+        #if subset_size != None:
+        #    subset_size = subset_size * 0.9
+        #    data_processed = data_processed.sample(n=subset_size)
+        data_processed, control_data = train_test_split(data_processed, test_size=0.1, random_state=42)
+
+        return data_processed, control_data
+    
+    else:
+        print("Please select an appropriate table type")
+        return None
+
+    
+
+
 # create a method to pass in a custom model (not a name but an actual model)
 # add other model options from other packages like sdv and ydata
 # allow option for single table, multi table and longitudinal
