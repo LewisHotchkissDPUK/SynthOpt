@@ -11,7 +11,7 @@ readme-content-type = "text/markdown"
 authors = [
     { name = "Lewis Hotchkiss", email = "lewishotchkiss123@gmail.com" }
 ]
-license = { name = "Apache-2.0" }
+license = { text = "Apache-2.0" }
 keywords = ["synthetic data", "optimization", "data science", "AI"]
 
 [project.urls]
