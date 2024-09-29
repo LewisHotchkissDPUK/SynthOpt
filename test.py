@@ -16,6 +16,8 @@ from functools import reduce
 import seaborn as sns
 from sklearn.impute import KNNImputer
 
+from optimise.optimise import optimize_epsilon
+
 
 ## METADATA GENERATION TESTING ##
 """
@@ -69,6 +71,8 @@ SAMPLE_SIZE = 800
 EPSILON = 5
 PREDICTION_TYPE = 'binary'
 
+
+
 SYNTHETIC_DATA = generate_syntheticdata(DATA_PROCESSED, IDENTIFIER_COLUMN, PREDICTION_COLUMN, SENSITIVE_COLUMNS, 
                                         SAMPLE_SIZE, TYPE, MODEL, ITERATIONS, EPSILON)
 SYNTHETIC_DATA[0].to_csv("/workspaces/SynthOpt/output/example_synthetic_data_subset1.csv", index=False)
@@ -94,3 +98,24 @@ DATA_COLUMNS = list(DATA_COLUMNS)
 #
 
 create_pdf_report(privacy_scores, quality_scores, utility_scores, TYPE, IDENTIFIER_COLUMN, DATA, SYNTHETIC_DATA, DATA_COLUMNS)
+
+
+
+
+"""
+# Example weights
+weights = {
+    'quality': 0.5,
+    'utility': 0.3,
+    'privacy': 0.2
+}
+
+# Call the optimization function
+optimized_epsilon, optimized_score = optimize_epsilon(
+    DATA_PROCESSED, MODEL, TYPE, IDENTIFIER_COLUMN, PREDICTION_COLUMN, PREDICTION_TYPE, SENSITIVE_COLUMNS, KEY_COLUMNS,
+    CONTROL_DATA, SAMPLE_SIZE, ITERATIONS, weights
+)
+
+print("Optimized Epsilon:", optimized_epsilon)
+print("Optimized Score:", optimized_score)
+"""
