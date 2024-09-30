@@ -91,16 +91,22 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
     ]))
     content.append(table)
 
-    #content.append(Paragraph("<br/><br/>", styles['Normal']))
-    #fig = table_vis(privacy_scores, quality_scores, utility_scores)
-    #img_data = save_figure_to_image(fig)
-    #img = Image(img_data, width=440, height=275)  #  Specify the width and height of the image in the PDF
-    #content.append(img)
+    if quality_scores['Boundary Adherence Total'] < 0.7 and quality_scores['Coverage Total'] < 0.7 and quality_scores['Complement Total'] < 0.7 and utility_scores['Statistic Similarity Total'] < 0.7 and utility_scores['Correlation Total'] < 0.7:
+        level = "Random Data"
+        desc = ""
+    if quality_scores['Boundary Adherence Total'] >= 0.7 and quality_scores['Coverage Total'] >= 0.7 and quality_scores['Complement Total'] < 0.7 and utility_scores['Statistic Similarity Total'] < 0.7 and utility_scores['Correlation Total'] < 0.7:
+        level = "Structural Synthetic Data"
+        desc = "Structural synthetic data is classified as the lowest fidelity of synthetic data. This means that the data value ranges are the same, and a majority of the values are represented, but there is no statistial similarity. This means there is a very low privacy risk as no statistics or correlations are captured from the real data."
+    if quality_scores['Boundary Adherence Total'] >= 0.7 and quality_scores['Coverage Total'] >= 0.7 and quality_scores['Complement Total'] >= 0.7 and utility_scores['Statistic Similarity Total'] >= 0.7 and utility_scores['Correlation Total'] < 0.7:
+        level = "Statistical Synthetic Data"
+        desc = "Statistical synthetic data means that the distributions and summary statistics are roughly the same compared to the real data but that no relationships between the features are captured. This means that there may be some privacy risk, but is much lower compared to correlated data."
+    if quality_scores['Boundary Adherence Total'] >= 0.7 and quality_scores['Coverage Total'] >= 0.7 and quality_scores['Complement Total'] >= 0.7 and utility_scores['Statistic Similarity Total'] >= 0.7 and utility_scores['Correlation Total'] >= 0.7:
+        level = "Correlated Synthetic Data"
+        desc = "Correlated Synthetic Data is categorised as the highest risk due to capturing information about relationships and patterns between variables. Therefore, the privacy metrics should be evaluated carefully to ensure individuals arent at risk of being identifiable."
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
-    level = 'Correlated Synthetic Data'
     content.append(Paragraph(f"Synthetic Data Categorisation Level: {level}", subtitle_style2))
-    content.append(Paragraph("Correlated Synthetic Data is categorised as the highest risk due to capturing information about relationships and patterns between variables. Therefore, the privacy metrics should be evaluated carefully to ensure individuals arent at risk of being identifiable.", styles['Normal']))
+    content.append(Paragraph(f"{desc}", styles['Normal']))
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
 
