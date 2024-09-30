@@ -18,12 +18,12 @@ def evaluate_privacy(data, synthetic_data, identifier_column, sensitive_columns,
     control_data = control_data.drop(columns=[identifier_column])
     synthetic_data = synthetic_data.drop(columns=[identifier_column])
 
-    number_attacks = round(data.shape[0]*0.1)
+    number_attacks = round(control_data.shape[0])
 
     METADATA = create_metadata(data)
 
     #== Exact Matches ==#
-    exact_matches_score = NewRowSynthesis.compute(real_data=data, synthetic_data=synthetic_data, metadata=METADATA, numerical_match_tolerance=0.1) # , synthetic_sample_size=5000
+    exact_matches_score = NewRowSynthesis.compute(real_data=data, synthetic_data=synthetic_data, metadata=METADATA, numerical_match_tolerance=1) # , synthetic_sample_size=5000
 
     #== Detection ==#        
     detection_score = LogisticDetection.compute(real_data=data, synthetic_data=synthetic_data, metadata=METADATA)

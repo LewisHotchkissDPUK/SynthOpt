@@ -16,34 +16,34 @@ from functools import reduce
 import seaborn as sns
 from sklearn.impute import KNNImputer
 
-from synthopt.optimise.optimise import optimize_epsilon
+from synthopt.optimise.optimise import optimise_epsilon
 
 
 ## METADATA GENERATION TESTING ##
-
+"""
 METADATA_FILENAME = "/workspaces/SynthOpt/examples/example_metadata.csv"
 SAMPLE_SIZE = 800
 SAVE_LOCATION = "/workspaces/SynthOpt/output"
 
 GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, SAVE_LOCATION)
-
+"""
 ##
 ## SYNTHETIC DATA GENERATION TESTING (MULTI) ##
 
 TYPE = "multi"
 MODEL = "pategan"
-DATA1 = pd.read_csv("/workspaces/SynthOpt/examples/alzheimers_disease_data_subset1.csv")
-DATA2 = pd.read_csv("/workspaces/SynthOpt/examples/alzheimers_disease_data_subset2.csv")
-DATA3 = pd.read_csv("/workspaces/SynthOpt/examples/alzheimers_disease_data_subset3.csv")
+DATA1 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset1.csv")
+DATA2 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset2.csv")
+DATA3 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset3.csv")
 DATA = [DATA1,DATA2,DATA3]
 #SUBSET_SIZE = 800
 DATA_PROCESSED, CONTROL_DATA = process(DATA, TYPE) # ,SUBSET_SIZE
-IDENTIFIER_COLUMN = "PatientID"
-PREDICTION_COLUMN = "Diagnosis"
+IDENTIFIER_COLUMN = "RID"
+PREDICTION_COLUMN = "Depression"
 SENSITIVE_COLUMNS = ["Depression"]
-KEY_COLUMNS = ["Ethnicity","Age","Gender","EducationLevel"]
+KEY_COLUMNS = ["PTDOBYY","PTGENDER"]
 ITERATIONS = 1
-SAMPLE_SIZE = 800
+SAMPLE_SIZE = 1000
 EPSILON = 5
 PREDICTION_TYPE = 'binary'
 
@@ -74,21 +74,20 @@ create_pdf_report(privacy_scores, quality_scores, utility_scores, TYPE, IDENTIFI
 
 
 
-
 """
 # Example weights
 weights = {
-    'quality': 0.5,
-    'utility': 0.3,
+    'utility': 0.8,
     'privacy': 0.2
 }
 
-# Call the optimization function
-optimized_epsilon, optimized_score = optimize_epsilon(
+# Call the optimisation function
+optimised_epsilon, optimised_score = optimise_epsilon(
     DATA_PROCESSED, MODEL, TYPE, IDENTIFIER_COLUMN, PREDICTION_COLUMN, PREDICTION_TYPE, SENSITIVE_COLUMNS, KEY_COLUMNS,
     CONTROL_DATA, SAMPLE_SIZE, ITERATIONS, weights
 )
 
-print("Optimized Epsilon:", optimized_epsilon)
-print("Optimized Score:", optimized_score)
+print()
+print("Optimized Epsilon:", optimised_epsilon)
+print("Optimized Score:", optimised_score)
 """
