@@ -7,6 +7,7 @@ import pandas as pd
 from sklearn.impute import KNNImputer
 from sklearn.decomposition import PCA
 from sklearn.neighbors import KernelDensity
+from synthopt.generate.syntheticdata import create_metadata
 
 def combine_dicts(*dicts):
     combined = {}
@@ -39,22 +40,6 @@ def table_vis(privacy_scores, quality_scores, utility_scores):
     return fig
 
 def attribute_vis(metric_name, scores, data_columns):
-    # SHOW TOP 20 AND BOTTOM 20
-    # Maybe add x and y to a dictionary to then be able to sort
-
-    #total_combined = {key: value for key, value in combined.items() if 'Individual' in key}
-    
-    #boundary_adherence = total_combined['Boundary Adherence Individual']
-    #x = list(data_columns)
-    #y = list(boundary_adherence)
-    #plt.figure(figsize=(5, 9))
-    #plt.barh(x, y, color='b')
-    #plt.tight_layout()
-    #plt.savefig("/workspaces/SynthOpt/output/attribute_boundary_adherence_vis.png")
-
-    # MAKE SURE THE BOTTOM AXIS ALWAYS GOES UP TO SCORE 1
-
-
     y = scores.get(metric_name, [])
     
     # Check if the lengths of data_columns and y match
@@ -134,9 +119,19 @@ def distribution_vis(data, synthetic_data, data_columns):
     return fig
 
 def correlation_vis(data, synthetic_data, data_columns):
-    num_columns = len(data_columns)
+    metadata = create_metadata(data)
+    cat_columns = []
+    for col, meta in metadata.columns.items():
+        if ('sdtype' in meta and meta['sdtype'] == 'categorical'):
+            cat_columns.append(col)
+    continuous_columns = [col for col in data_columns if col not in cat_columns]
+    num_columns = len(continuous_columns)
+    if num_columns < 2:
+        print("Not enough continuous columns to plot correlations.")
+        return
+
     num_plots = min(12, num_columns * (num_columns - 1) // 2)  # Max number of unique pairs
-    column_pairs = random.sample([(x, y) for x in data_columns for y in data_columns if x != y], num_plots)
+    column_pairs = random.sample([(x, y) for x in continuous_columns for y in continuous_columns if x != y], num_plots)
 
     # Ensure synthetic data has the same number of samples as the real data
     if len(synthetic_data) > len(data):
