@@ -34,7 +34,7 @@ def process(data, table_type='single'): #, subset_size=None
         for df in data:
             imputed_data = imputer.fit_transform(df)
             processed_df = pd.DataFrame(imputed_data, columns=df.columns)
-            processed_df, control_df = train_test_split(processed_df, test_size=0.1, random_state=42)
+            processed_df, control_df = train_test_split(processed_df, test_size=0.1)
             #if subset_size != None:
             #    subset_size = subset_size * 0.9
             #    processed_df = processed_df.sample(n=subset_size)
@@ -104,8 +104,6 @@ def generate_syntheticdata(data, identifier_column, prediction_column, sensitive
         # Validate the sample size
         if sample_size is None:
             sample_size = len(data)
-        elif sample_size > len(data):
-            raise ValueError("Sample size cannot be larger than the number of rows in the dataset.")
 
         # Check if the model name is valid and create the appropriate synthesizer
         try:

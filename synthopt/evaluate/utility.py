@@ -10,6 +10,83 @@ from synthopt.generate.syntheticdata import create_metadata
 import random
 from scipy import stats
 from functools import reduce
+from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
+from sklearn.metrics import f1_score, mean_squared_error, r2_score
+
+def classifier_performance(real_data, synthetic_data, control_data, prediction_column, prediction_type):
+    # Prepare the data
+    X_real = real_data.drop(columns=[prediction_column])
+    y_real = real_data[prediction_column]
+    
+    X_synthetic = synthetic_data.drop(columns=[prediction_column])
+    y_synthetic = synthetic_data[prediction_column]
+    
+    X_control = control_data.drop(columns=[prediction_column])
+    y_control = control_data[prediction_column]
+
+    # Initialize variables to store results
+    f1_real = None
+    f1_synthetic = None
+    r2_real = None
+    r2_synthetic = None
+    score_difference = None
+
+    # Train and test models based on prediction_type
+    if prediction_type == 'binary' or prediction_type == 'multiclass':
+        # Use DecisionTreeClassifier for classification
+        classifier_real = DecisionTreeClassifier()
+        classifier_real.fit(X_real, y_real)
+        y_pred_real = classifier_real.predict(X_control)
+        
+        # Calculate F1 score or accuracy depending on the prediction_type
+        if prediction_type == 'binary':
+            f1_real = f1_score(y_control, y_pred_real, average='binary')
+        else:
+            f1_real = f1_score(y_control, y_pred_real, average='weighted')
+
+        classifier_synthetic = DecisionTreeClassifier()
+        classifier_synthetic.fit(X_synthetic, y_synthetic)
+        y_pred_synthetic = classifier_synthetic.predict(X_control)
+        
+        if prediction_type == 'binary':
+            f1_synthetic = f1_score(y_control, y_pred_synthetic, average='binary')
+        else:
+            f1_synthetic = f1_score(y_control, y_pred_synthetic, average='weighted')
+
+        # Calculate the difference in F1 scores
+        score_difference = f1_real - f1_synthetic
+
+        # Output performance comparison
+        print(f"F1 Score (Real Data): {f1_real:.4f}")
+        print(f"F1 Score (Synthetic Data): {f1_synthetic:.4f}")
+        print(f"Difference in F1 Scores (Synthetic - Real): {score_difference:.4f}")
+
+    elif prediction_type == 'regression':
+        # Use DecisionTreeRegressor for regression
+        regressor_real = DecisionTreeRegressor()
+        regressor_real.fit(X_real, y_real)
+        y_pred_real = regressor_real.predict(X_control)
+        
+        r2_real = r2_score(y_control, y_pred_real)
+
+        regressor_synthetic = DecisionTreeRegressor()
+        regressor_synthetic.fit(X_synthetic, y_synthetic)
+        y_pred_synthetic = regressor_synthetic.predict(X_control)
+        
+        r2_synthetic = r2_score(y_control, y_pred_synthetic)
+
+        # Calculate the difference in R-squared values
+        score_difference =  r2_real - r2_synthetic
+
+        # Output performance comparison
+        print(f"R-squared (Real Data): {r2_real:.4f}")
+        print(f"R-squared (Synthetic Data): {r2_synthetic:.4f}")
+        print(f"Difference in R-squared (Synthetic - Real): {score_difference:.4f}")
+
+    else:
+        raise ValueError("Invalid prediction_type. Use 'binary', 'multiclass', or 'regression'.")
+
+    return 1-score_difference
 
 def evaluate_utility(data, synthetic_data, control_data, identifier_column, prediction_column, table_type = 'single', prediction_type = 'binary'):
     if table_type == 'multi':
@@ -83,7 +160,8 @@ def evaluate_utility(data, synthetic_data, control_data, identifier_column, pred
     #ml_efficacy_score = ml_efficacy_score_real - ml_efficacy_score_synth
 
     # add multi class and regression prediction types
-    ml_efficacy_score = BinaryDecisionTreeClassifier.compute(test_data=control_data, train_data=synthetic_data, target=prediction_column, metadata=metadata)
+    #ml_efficacy_score = BinaryDecisionTreeClassifier.compute(test_data=control_data, train_data=synthetic_data, target=prediction_column, metadata=metadata)
+    ml_efficacy_score = classifier_performance(data, synthetic_data, control_data, prediction_column, prediction_type)
 
     avg_similarity_score = np.round(np.mean(similarity_scores), 2)
     avg_correlation_score = np.round(np.mean(correlation_scores), 2) # the lower the better

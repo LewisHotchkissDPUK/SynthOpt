@@ -91,6 +91,9 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
     ]))
     content.append(table)
 
+    level = ""
+    desc = ""
+
     if quality_scores['Boundary Adherence Total'] < 0.7 and quality_scores['Coverage Total'] < 0.7 and quality_scores['Complement Total'] < 0.7 and utility_scores['Statistic Similarity Total'] < 0.7 and utility_scores['Correlation Total'] < 0.7:
         level = "Random Data"
         desc = ""

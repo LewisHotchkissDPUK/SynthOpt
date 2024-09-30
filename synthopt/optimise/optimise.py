@@ -21,38 +21,45 @@ def objective_function(epsilon, weights, data, model, table_type, identifier_col
         dp_epsilon=epsilon
     )
 
+    print(f"Trying epsilon value {epsilon}")
+
     # Evaluate privacy, quality, and utility scores
     privacy_scores = evaluate_privacy(data, synthetic_data, identifier_column, sensitive_columns, key_columns, control_data, table_type)
     quality_scores = evaluate_quality(data, synthetic_data, identifier_column, table_type)
     utility_scores = evaluate_utility(data, synthetic_data, control_data, identifier_column, prediction_column, table_type, prediction_type)
 
-    # Convert scores to numpy arrays and filter out non-numeric values
-    privacy_values = np.array(list(privacy_scores.values()), dtype=float)
-    quality_values = np.array(list(quality_scores.values()), dtype=float)
-    utility_values = np.array(list(utility_scores.values()), dtype=float)
+    privacy_scores['Detection Total'] = 1 - privacy_scores['Detection Total']
+    privacy_scores['Singling Risk Total'] = 1 - privacy_scores['Singling Risk Total']
+    privacy_scores['Linkability Risk Total'] = 1 - privacy_scores['Linkability Risk Total']
+    privacy_scores['Inference Risk Total'] = 1 - privacy_scores['Inference Risk Total']
 
-    # Check for NaN values and remove them
-    privacy_values = privacy_values[~np.isnan(privacy_values)]
-    quality_values = quality_values[~np.isnan(quality_values)]
-    utility_values = utility_values[~np.isnan(utility_values)]
+    privacy_total_scores = [value for key, value in privacy_scores.items() if 'Total' in key]
+    privacy_mean_total_score = sum(privacy_total_scores) / len(privacy_total_scores)
 
-    # Calculate means safely
-    mean_privacy = np.mean(privacy_values) if privacy_values.size > 0 else 0
-    mean_quality = np.mean(quality_values) if quality_values.size > 0 else 0
-    mean_utility = np.mean(utility_values) if utility_values.size > 0 else 0
+    utility_total_scores = [value for key, value in utility_scores.items() if 'Total' in key]
+    utility_mean_total_score = sum(utility_total_scores) / len(utility_total_scores)
+
+    quality_total_scores = [value for key, value in quality_scores.items() if 'Total' in key]
+    quality_mean_total_score = sum(quality_total_scores) / len(quality_total_scores)
+
+    utility_quality_total_scores = utility_total_scores + quality_total_scores
+    utility_quality_mean_total_score = sum(utility_quality_total_scores) / len(utility_quality_total_scores)
 
     # Calculate a weighted score
     total_score = (
-        weights['privacy'] * mean_privacy +
-        weights['quality'] * mean_quality +
-        weights['utility'] * mean_utility
+        weights['privacy'] * privacy_mean_total_score +
+        weights['utility'] * utility_quality_mean_total_score
     )
+
+    print(f"Got privacy score {privacy_mean_total_score}")
+    print(f"Got utility score {utility_quality_mean_total_score}")
+    print()
     
     return -total_score  # Minimize the negative score
 
-def optimize_epsilon(data, model, table_type, identifier_column, prediction_column, prediction_type, sensitive_columns, key_columns, control_data, sample_size, iterations, weights):
+def optimise_epsilon(data, model, table_type, identifier_column, prediction_column, prediction_type, sensitive_columns, key_columns, control_data, sample_size, iterations, weights):
     # Define the bounds for epsilon
-    bounds = [(0.1, 10)]  # Epsilon can vary between 0.1 and 10
+    bounds = [(0.01, 10)]  # Epsilon can vary between 0.1 and 10
 
     # Use minimize to optimize epsilon
     result = minimize(
@@ -60,7 +67,8 @@ def optimize_epsilon(data, model, table_type, identifier_column, prediction_colu
         x0=[5],  # Initial guess for epsilon
         args=(weights, data, model, table_type, identifier_column, prediction_column, prediction_type, sensitive_columns, key_columns, control_data, sample_size, iterations),
         bounds=bounds,
-        method='L-BFGS-B'
+        method='L-BFGS-B',
+        options={'maxiter': 100, 'ftol': 0.001}
     )
 
     optimal_epsilon = result.x[0]
