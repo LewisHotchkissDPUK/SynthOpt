@@ -86,6 +86,15 @@ data={
     }
 from synthopt.generate.syntheticdata import generate_relational_syntheticdata
 synthetic_data_dict = generate_relational_syntheticdata(data)
+
+for table_name, synthetic_df in synthetic_data_dict.items():
+    # Define the filename (you can adjust the path as needed)
+    filename = f"/workspaces/SynthOpt/output/{table_name}_synthetic_data.csv"
+    
+    # Save the DataFrame to a CSV file
+    synthetic_df.to_csv(filename, index=False)
+    print(f"Saved {table_name} synthetic data to {filename}")
+
 print(synthetic_data_dict)
 
 """
