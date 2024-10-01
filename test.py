@@ -29,7 +29,7 @@ GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, 
 """
 ##
 ## SYNTHETIC DATA GENERATION TESTING (MULTI) ##
-
+"""
 TYPE = "multi"
 MODEL = "pategan"
 DATA1 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset1.csv")
@@ -72,7 +72,21 @@ DATA_COLUMNS = list(DATA_COLUMNS)
 
 create_pdf_report(privacy_scores, quality_scores, utility_scores, TYPE, IDENTIFIER_COLUMN, DATA, SYNTHETIC_DATA, DATA_COLUMNS,"/workspaces/SynthOpt/output/EvaluationReport.pdf")
 
+"""
 
+
+data={
+        'bio': pd.read_csv("/workspaces/SynthOpt/examples/bio.csv"),
+        'dispat': pd.read_csv("/workspaces/SynthOpt/examples/dispat.csv"),
+        'indis': pd.read_csv("/workspaces/SynthOpt/examples/indis.csv"),
+        'inf': pd.read_csv("/workspaces/SynthOpt/examples/inf.csv"),
+        'rel11': pd.read_csv("/workspaces/SynthOpt/examples/rel11.csv"),
+        'rel12': pd.read_csv("/workspaces/SynthOpt/examples/rel12.csv"),
+        'rel13': pd.read_csv("/workspaces/SynthOpt/examples/rel13.csv")
+    }
+from synthopt.generate.syntheticdata import generate_relational_syntheticdata
+synthetic_data_dict = generate_relational_syntheticdata(data)
+print(synthetic_data_dict)
 
 """
 # Example weights
