@@ -5,7 +5,7 @@ from synthcity.plugins.core.dataloader import GenericDataLoader
 from synthcity.utils.serialization import load, load_from_file, save, save_to_file
 from sklearn.impute import KNNImputer
 from sklearn.model_selection import train_test_split
-from sdv.metadata import SingleTableMetadata
+from sdv.metadata import SingleTableMetadata, MultiTableMetadata
 import random
 from functools import reduce
 
@@ -23,6 +23,11 @@ def add_noise(data, scale, discrete_cols): # need to add constraints for integer
 def create_metadata(data):
     metadata = SingleTableMetadata()
     metadata.detect_from_dataframe(data)
+    return metadata
+
+def create_relational_metadata(data):
+    metadata = MultiTableMetadata()
+    metadata.detect_from_dataframes(data)
     return metadata
 
 # imputation, categorical/string handling, outlier removal etc
@@ -43,7 +48,7 @@ def process(data, table_type='single'): #, subset_size=None
 
         return processed_dataframes, control_dataframes
 
-    if table_type == 'single':
+    elif table_type == 'single':
         imputer = KNNImputer(n_neighbors=3)
         data_processed = imputer.fit_transform(data)
         data_processed = pd.DataFrame(data_processed, columns=data.columns)
@@ -54,10 +59,77 @@ def process(data, table_type='single'): #, subset_size=None
 
         return data_processed, control_data
     
+    #elif table_type == "relational":
+    
+    
     else:
         print("Please select an appropriate table type")
         return None
 
+
+def handle_relational(data):
+    # detect relational metadata
+    # remove keys from dataframes
+    # impute missing values
+    # split all dataframes into train and control
+    # return a list of train dataframes and control dataframes
+
+    metadata = create_relational_metadata(data)
+
+    # Step 1: Collect primary keys using get_table_metadata
+    primary_keys = {table_name: metadata.get_table_metadata(table_name).primary_key for table_name in data.keys()}
+
+    # Step 2: Collect foreign keys from relationships
+    foreign_keys = {}
+    for relationship in metadata.relationships:
+        # Accessing relationship as a dictionary
+        child_table = relationship["child_table_name"]
+        foreign_key = relationship["child_foreign_key"]
+
+        if child_table not in foreign_keys:
+            foreign_keys[child_table] = set()
+        foreign_keys[child_table].add(foreign_key)
+
+    # Dictionary to hold the results
+    result = {}
+
+    # Step 3: Process each dataframe
+    for table_name, df in data.items():
+        keys_to_remove = set()
+
+        # Get the primary key for this table (if it exists)
+        primary_key = primary_keys.get(table_name)
+        if primary_key:
+            keys_to_remove.add(primary_key)
+
+        # Get the foreign keys for this table (if they exist)
+        table_foreign_keys = list(foreign_keys.get(table_name, set()))
+        keys_to_remove.update(table_foreign_keys)
+
+        # Step 4: Drop primary and foreign keys from the dataframe
+        df_cleaned = df.drop(columns=keys_to_remove, errors='ignore')
+
+        # Step 5: Impute missing values using KNNImputer
+        if not df_cleaned.empty:
+            imputer = KNNImputer(n_neighbors=3)
+            df_imputed = imputer.fit_transform(df_cleaned)
+            df_imputed = pd.DataFrame(df_imputed, columns=df_cleaned.columns)
+        else:
+            df_imputed = df_cleaned
+
+        # Step 6: Split the dataframe into training and control sets
+        train_df, control_df = train_test_split(df_imputed, test_size=0.1, random_state=42)
+
+        # Step 7: Add to the result dictionary
+        result[table_name] = {
+            "training_data": train_df,
+            "control_data": control_df,
+            "primary_key": primary_key,
+            "foreign_keys": table_foreign_keys
+        }
+
+    # Step 8: Return the result dictionary
+    return result
     
 
 def generate_syntheticdata(data, identifier_column, prediction_column, sensitive_columns, sample_size, table_type='single', model_name='pategan', iterations=100, dp_epsilon=1, dp_delta=None, dp_lambda=0.001, save_location=None):
@@ -65,8 +137,9 @@ def generate_syntheticdata(data, identifier_column, prediction_column, sensitive
         # Check if data is a pandas DataFrame (for single table) or a list of DataFrames (for multi table)
         if table_type == 'single' and not isinstance(data, pd.DataFrame):
             raise ValueError("For single table type, data must be a pandas DataFrame.")
-        elif table_type == 'multi' and not isinstance(data, list):
+        if table_type == 'multi' and not isinstance(data, list):
             raise ValueError("For multi table type, data must be a list of pandas DataFrames.")
+        
 
         # Multi-table handling
         if table_type == 'multi':
@@ -180,3 +253,55 @@ def generate_syntheticdata(data, identifier_column, prediction_column, sensitive
         print(f"RuntimeError: {str(re)}")
     except Exception as e:
         print(f"An unexpected error occurred: {str(e)}")
+
+
+
+def generate_relational_syntheticdata(data):
+    # Call the process_and_split_dataframes function to get processed data
+    processed_data = handle_relational(data)
+
+    synthetic_data_dict = {}
+
+    for table_name, table_info in processed_data.items():
+        training_data = table_info['training_data']
+        primary_key = table_info['primary_key']
+        foreign_keys = table_info['foreign_keys']
+
+        # Step 1: Generate synthetic data using synthcity
+        print(f"Generating synthetic data for table: {table_name}")
+
+        # Convert the training data into a format that synthcity can use
+        data_loader = GenericDataLoader(training_data)
+
+        # Choose a synthetic data generation plugin from synthcity
+        plugin = Plugins().get("ctgan")  # You can change the method as needed (e.g., "gan", "ctgan", etc.)
+
+        # Generate synthetic data (same number of records as the training data)
+        synthetic_data = plugin.fit(data_loader).generate(len(training_data))
+
+        # Convert the synthetic data back to a dataframe
+        synthetic_df = synthetic_data
+
+        # Step 2: Add unique primary keys to the synthetic data
+        if primary_key:
+            synthetic_df[primary_key] = np.arange(1, len(synthetic_df) + 1)
+
+        # Step 3: Handle foreign keys while preserving the original frequency distribution
+        for foreign_key in foreign_keys:
+            # Get frequency distribution of foreign keys in the original training data
+            foreign_key_distribution = training_data[foreign_key].value_counts(normalize=True)
+
+            # Sample foreign key values based on the original frequency distribution
+            synthetic_foreign_keys = np.random.choice(
+                foreign_key_distribution.index,
+                size=len(synthetic_df),
+                p=foreign_key_distribution.values
+            )
+
+            # Add the foreign keys to the synthetic dataframe
+            synthetic_df[foreign_key] = synthetic_foreign_keys
+
+        # Step 4: Add the synthetic dataframe to the result dictionary
+        synthetic_data_dict[table_name] = synthetic_df
+
+    return synthetic_data_dict
