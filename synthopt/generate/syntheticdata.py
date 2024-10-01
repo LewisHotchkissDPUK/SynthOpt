@@ -68,12 +68,7 @@ def process(data, table_type='single'): #, subset_size=None
 
 
 def handle_relational(data):
-    # detect relational metadata
-    # remove keys from dataframes
-    # impute missing values
-    # split all dataframes into train and control
-    # return a list of train dataframes and control dataframes
-
+    # Detect relational metadata
     metadata = create_relational_metadata(data)
 
     # Step 1: Collect primary keys using get_table_metadata
@@ -82,10 +77,8 @@ def handle_relational(data):
     # Step 2: Collect foreign keys from relationships
     foreign_keys = {}
     for relationship in metadata.relationships:
-        # Accessing relationship as a dictionary
         child_table = relationship["child_table_name"]
         foreign_key = relationship["child_foreign_key"]
-
         if child_table not in foreign_keys:
             foreign_keys[child_table] = set()
         foreign_keys[child_table].add(foreign_key)
@@ -125,12 +118,11 @@ def handle_relational(data):
             "training_data": train_df,
             "control_data": control_df,
             "primary_key": primary_key,
-            "foreign_keys": table_foreign_keys
+            "foreign_keys": table_foreign_keys,
         }
 
     # Step 8: Return the result dictionary
     return result
-    
 
 def generate_syntheticdata(data, identifier_column, prediction_column, sensitive_columns, sample_size, table_type='single', model_name='pategan', iterations=100, dp_epsilon=1, dp_delta=None, dp_lambda=0.001, save_location=None):
     try:
@@ -255,7 +247,6 @@ def generate_syntheticdata(data, identifier_column, prediction_column, sensitive
         print(f"An unexpected error occurred: {str(e)}")
 
 
-
 def generate_relational_syntheticdata(data):
     # Call the process_and_split_dataframes function to get processed data
     processed_data = handle_relational(data)
@@ -274,32 +265,36 @@ def generate_relational_syntheticdata(data):
         data_loader = GenericDataLoader(training_data)
 
         # Choose a synthetic data generation plugin from synthcity
-        plugin = Plugins().get("ctgan")  # You can change the method as needed (e.g., "gan", "ctgan", etc.)
+        plugin = Plugins().get("ctgan", n_iter=1)  # You can change the method as needed
 
         # Generate synthetic data (same number of records as the training data)
-        synthetic_data = plugin.fit(data_loader).generate(len(training_data))
+        synthetic_data = plugin.fit(data_loader).generate(len(training_data)).dataframe()
 
         # Convert the synthetic data back to a dataframe
         synthetic_df = synthetic_data
 
         # Step 2: Add unique primary keys to the synthetic data
         if primary_key:
-            synthetic_df[primary_key] = np.arange(1, len(synthetic_df) + 1)
+            synthetic_df.insert(0, primary_key, np.arange(1, len(synthetic_df) + 1))
 
         # Step 3: Handle foreign keys while preserving the original frequency distribution
         for foreign_key in foreign_keys:
-            # Get frequency distribution of foreign keys in the original training data
-            foreign_key_distribution = training_data[foreign_key].value_counts(normalize=True)
+            if foreign_key in data[table_name].columns:
+                # Get frequency distribution of foreign keys in the original data
+                foreign_key_distribution = data[table_name][foreign_key].value_counts(normalize=True)
 
-            # Sample foreign key values based on the original frequency distribution
-            synthetic_foreign_keys = np.random.choice(
-                foreign_key_distribution.index,
-                size=len(synthetic_df),
-                p=foreign_key_distribution.values
-            )
+                # Generate synthetic foreign key values based on the distribution
+                synthetic_foreign_keys = np.random.choice(
+                    foreign_key_distribution.index,
+                    size=len(synthetic_df),
+                    p=foreign_key_distribution.values
+                )
 
-            # Add the foreign keys to the synthetic dataframe
-            synthetic_df[foreign_key] = synthetic_foreign_keys
+                # Add the foreign keys to the synthetic dataframe
+                synthetic_df[foreign_key] = synthetic_foreign_keys
+            else:
+                print(f"Warning: Foreign key '{foreign_key}' not found in the original data for table '{table_name}'.")
+
 
         # Step 4: Add the synthetic dataframe to the result dictionary
         synthetic_data_dict[table_name] = synthetic_df
