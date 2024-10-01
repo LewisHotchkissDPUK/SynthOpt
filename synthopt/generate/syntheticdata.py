@@ -120,14 +120,29 @@ def process(data, table_type='single'): #, subset_size=None
         print("Please select an appropriate table type")
         return None
 
-def generate_syntheticdata(data, identifier_column, prediction_column, sensitive_columns, sample_size, table_type='single', model_name='pategan', iterations=100, dp_epsilon=1, dp_delta=None, dp_lambda=0.001, save_location=None):
+def generate_syntheticdata(data, identifier_column=None, prediction_column=None, sensitive_columns=None, sample_size=None, table_type='single', model_name='pategan', iterations=100, dp_epsilon=1, dp_delta=None, dp_lambda=0.001, save_location=None):
     try:
         # Check if data is a pandas DataFrame (for single table) or a list of DataFrames (for multi table)
         if table_type == 'single' and not isinstance(data, pd.DataFrame):
             raise ValueError("For single table type, data must be a pandas DataFrame.")
         if table_type == 'multi' and not isinstance(data, list):
             raise ValueError("For multi table type, data must be a list of pandas DataFrames.")
+        if table_type == 'relational' and not isinstance(data, dict):
+            raise ValueError("For relational table type, data must be a dictionary of table name : pandas DataFrames pairs.")
         
+        if sample_size == None:
+            sample_size = len(data)
+
+        if table_type == "relational":
+            return generate_relational_syntheticdata(data, iterations) #save_location, model type etc
+        
+        metadata = create_metadata(data)
+
+        try:
+            if identifier_column == None:
+                identifier_column = metadata.primary_key
+        except Exception:
+            print("Couldnt detect the identifier column, please specify")
 
         # Multi-table handling
         if table_type == 'multi':
@@ -151,20 +166,9 @@ def generate_syntheticdata(data, identifier_column, prediction_column, sensitive
         object_or_string_cols = data.select_dtypes(include=['object', 'string'])
         if not object_or_string_cols.empty:
             raise TypeError(f"Data must not contain string or object data types. Columns with object or string types: {list(object_or_string_cols.columns)}")
-
-        # Create metadata and identify discrete columns
-        metadata = create_metadata(data)
-        available_columns = data.columns.tolist()
-        discrete_columns = []
-        for col, meta in metadata.columns.items():
-            if ('sdtype' in meta and meta['sdtype'] == 'categorical') or (data[col].fillna(9999) % 1 == 0).all():
-                discrete_columns.append(col)
-
+        
+        
         data_columns = data.columns
-
-        # Validate the sample size
-        if sample_size is None:
-            sample_size = len(data)
 
         # Check if the model name is valid and create the appropriate synthesizer
         try:
@@ -183,13 +187,6 @@ def generate_syntheticdata(data, identifier_column, prediction_column, sensitive
         for column in data_columns:
             if (data[column] % 1).all() == 0:
                 data[column] = data[column].astype(int)
-
-        # Apply noise to data if using ctgan model
-        if model_name == "ctgan":
-            try:
-                data = add_noise(data, dp_epsilon, discrete_columns)  # Noise added for ctgan only
-            except Exception as e:
-                raise ValueError("Error occurred while adding noise to the data.") from e
 
         # Convert data to GenericDataLoader
         try:
@@ -243,7 +240,7 @@ def generate_syntheticdata(data, identifier_column, prediction_column, sensitive
         print(f"An unexpected error occurred: {str(e)}")
 
 
-def generate_relational_syntheticdata(data):
+def generate_relational_syntheticdata(data, iterations):
     # Call the process_and_split_dataframes function to get processed data
     processed_data = process(data, 'relational')
 
@@ -261,7 +258,7 @@ def generate_relational_syntheticdata(data):
         data_loader = GenericDataLoader(training_data)
 
         # Choose a synthetic data generation plugin from synthcity
-        plugin = Plugins().get("ctgan", n_iter=1)  # You can change the method as needed
+        plugin = Plugins().get("ctgan", n_iter=iterations)
 
         # Generate synthetic data (same number of records as the training data)
         synthetic_data = plugin.fit(data_loader).generate(len(training_data)).dataframe()
