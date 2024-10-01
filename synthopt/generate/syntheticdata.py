@@ -59,70 +59,66 @@ def process(data, table_type='single'): #, subset_size=None
 
         return data_processed, control_data
     
-    #elif table_type == "relational":
-    
+    elif table_type == "relational":
+        # Detect relational metadata
+        metadata = create_relational_metadata(data)
+
+        # Step 1: Collect primary keys using get_table_metadata
+        primary_keys = {table_name: metadata.get_table_metadata(table_name).primary_key for table_name in data.keys()}
+
+        # Step 2: Collect foreign keys from relationships
+        foreign_keys = {}
+        for relationship in metadata.relationships:
+            child_table = relationship["child_table_name"]
+            foreign_key = relationship["child_foreign_key"]
+            if child_table not in foreign_keys:
+                foreign_keys[child_table] = set()
+            foreign_keys[child_table].add(foreign_key)
+
+        # Dictionary to hold the results
+        result = {}
+
+        # Step 3: Process each dataframe
+        for table_name, df in data.items():
+            keys_to_remove = set()
+
+            # Get the primary key for this table (if it exists)
+            primary_key = primary_keys.get(table_name)
+            if primary_key:
+                keys_to_remove.add(primary_key)
+
+            # Get the foreign keys for this table (if they exist)
+            table_foreign_keys = list(foreign_keys.get(table_name, set()))
+            keys_to_remove.update(table_foreign_keys)
+
+            # Step 4: Drop primary and foreign keys from the dataframe
+            df_cleaned = df.drop(columns=keys_to_remove, errors='ignore')
+
+            # Step 5: Impute missing values using KNNImputer
+            if not df_cleaned.empty:
+                imputer = KNNImputer(n_neighbors=3)
+                df_imputed = imputer.fit_transform(df_cleaned)
+                df_imputed = pd.DataFrame(df_imputed, columns=df_cleaned.columns)
+            else:
+                df_imputed = df_cleaned
+
+            # Step 6: Split the dataframe into training and control sets
+            train_df, control_df = train_test_split(df_imputed, test_size=0.1, random_state=42)
+
+            # Step 7: Add to the result dictionary
+            result[table_name] = {
+                "training_data": train_df,
+                "control_data": control_df,
+                "primary_key": primary_key,
+                "foreign_keys": table_foreign_keys,
+            }
+
+        # Step 8: Return the result dictionary
+        return result
     
     else:
         print("Please select an appropriate table type")
         return None
-
-
-def handle_relational(data):
-    # Detect relational metadata
-    metadata = create_relational_metadata(data)
-
-    # Step 1: Collect primary keys using get_table_metadata
-    primary_keys = {table_name: metadata.get_table_metadata(table_name).primary_key for table_name in data.keys()}
-
-    # Step 2: Collect foreign keys from relationships
-    foreign_keys = {}
-    for relationship in metadata.relationships:
-        child_table = relationship["child_table_name"]
-        foreign_key = relationship["child_foreign_key"]
-        if child_table not in foreign_keys:
-            foreign_keys[child_table] = set()
-        foreign_keys[child_table].add(foreign_key)
-
-    # Dictionary to hold the results
-    result = {}
-
-    # Step 3: Process each dataframe
-    for table_name, df in data.items():
-        keys_to_remove = set()
-
-        # Get the primary key for this table (if it exists)
-        primary_key = primary_keys.get(table_name)
-        if primary_key:
-            keys_to_remove.add(primary_key)
-
-        # Get the foreign keys for this table (if they exist)
-        table_foreign_keys = list(foreign_keys.get(table_name, set()))
-        keys_to_remove.update(table_foreign_keys)
-
-        # Step 4: Drop primary and foreign keys from the dataframe
-        df_cleaned = df.drop(columns=keys_to_remove, errors='ignore')
-
-        # Step 5: Impute missing values using KNNImputer
-        if not df_cleaned.empty:
-            imputer = KNNImputer(n_neighbors=3)
-            df_imputed = imputer.fit_transform(df_cleaned)
-            df_imputed = pd.DataFrame(df_imputed, columns=df_cleaned.columns)
-        else:
-            df_imputed = df_cleaned
-
-        # Step 6: Split the dataframe into training and control sets
-        train_df, control_df = train_test_split(df_imputed, test_size=0.1, random_state=42)
-
-        # Step 7: Add to the result dictionary
-        result[table_name] = {
-            "training_data": train_df,
-            "control_data": control_df,
-            "primary_key": primary_key,
-            "foreign_keys": table_foreign_keys,
-        }
-
-    # Step 8: Return the result dictionary
-    return result
 
 def generate_syntheticdata(data, identifier_column, prediction_column, sensitive_columns, sample_size, table_type='single', model_name='pategan', iterations=100, dp_epsilon=1, dp_delta=None, dp_lambda=0.001, save_location=None):
     try:
@@ -249,7 +245,7 @@ def generate_syntheticdata(data, identifier_column, prediction_column, sensitive
 
 def generate_relational_syntheticdata(data):
     # Call the process_and_split_dataframes function to get processed data
-    processed_data = handle_relational(data)
+    processed_data = process(data, 'relational')
 
     synthetic_data_dict = {}
 
