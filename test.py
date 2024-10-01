@@ -74,7 +74,7 @@ create_pdf_report(privacy_scores, quality_scores, utility_scores, TYPE, IDENTIFI
 
 """
 
-
+"""
 data={
         'bio': pd.read_csv("/workspaces/SynthOpt/examples/bio.csv"),
         'dispat': pd.read_csv("/workspaces/SynthOpt/examples/dispat.csv"),
@@ -96,6 +96,9 @@ for table_name, synthetic_df in synthetic_data_dict.items():
     print(f"Saved {table_name} synthetic data to {filename}")
 
 print(synthetic_data_dict)
+"""
+
+generate_syntheticdata(pd.read_csv("/workspaces/SynthOpt/examples/indis.csv"))
 
 """
 # Example weights
