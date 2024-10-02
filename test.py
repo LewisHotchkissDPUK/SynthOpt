@@ -70,6 +70,7 @@ DATA_COLUMNS = vis_data.columns
 DATA_COLUMNS = list(DATA_COLUMNS)
 #
 
+
 create_pdf_report(privacy_scores, quality_scores, utility_scores, TYPE, IDENTIFIER_COLUMN, DATA, SYNTHETIC_DATA, DATA_COLUMNS,"/workspaces/SynthOpt/output/EvaluationReport.pdf")
 
 """
