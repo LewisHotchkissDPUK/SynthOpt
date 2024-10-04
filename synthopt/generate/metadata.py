@@ -4,6 +4,8 @@ import random
 import string
 from datetime import datetime, timedelta
 import os
+from scipy.stats import truncnorm
+from scipy.stats import multivariate_normal
 
 # Function to generate a random string
 def random_string(length=6):
@@ -147,3 +149,76 @@ def generate_metadata(metadata_csv, num_records=100, save_location=None):
         print(f"IOError: {str(ioe)}")
     except Exception as e:
         print(f"An unexpected error occurred: {str(e)}")
+
+
+# Function to generate correlated samples with truncated bounds using rejection sampling
+def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
+
+    # Initialize samples array
+    samples = []
+
+    # Loop until the required number of samples is obtained
+    while len(samples) < size:
+        # Draw a batch of multivariate normal samples
+        batch_size = size - len(samples)
+        candidate_samples = multivariate_normal.rvs(mean=mean, cov=cov, size=batch_size)
+
+        # Apply truncation: Keep only samples within the bounds for all variables
+        within_bounds = np.all((candidate_samples >= lower) & (candidate_samples <= upper), axis=1)
+        valid_samples = candidate_samples[within_bounds]
+
+        # Append the valid samples to our final sample list
+        samples.extend(valid_samples)
+
+    # Convert to a numpy array of the desired size
+    return np.array(samples[:size])
+
+
+def generate_correlated_metadata(metadata_csv, correlation_matrix, num_records=100, save_location=None):
+    metadata = pd.read_csv(metadata_csv)
+
+    # Number of samples to generate
+    num_rows = len(num_records)
+
+    # Initialize lists to store means, std_devs, and value ranges
+    means = []
+    std_devs = []
+    variable_names = []
+    lower_bounds = []
+    upper_bounds = []
+
+    # Collect means, standard deviations, and value ranges for each variable
+    for i, (index, row) in enumerate(metadata.iterrows()):
+        means.append(row['mean'])
+        std_devs.append(row['standard_deviation'])
+        variable_names.append(row['variable_name'])
+        lower, upper = row['values']
+        lower_bounds.append(lower)
+        upper_bounds.append(upper)
+
+    # Create the covariance matrix using the correlation and standard deviations
+    covariance_matrix = np.diag(std_devs) @ correlation_matrix @ np.diag(std_devs)
+
+    # Generate truncated multivariate normal data
+    synthetic_samples = generate_truncated_multivariate_normal(
+        mean=means,
+        cov=covariance_matrix,
+        lower=lower_bounds,
+        upper=upper_bounds,
+        size=num_rows
+    )
+
+    # Convert samples into a Pandas DataFrame
+    synthetic_data = pd.DataFrame(synthetic_samples, columns=variable_names)
+
+    # Introduce missing values (NaNs) according to the completeness percentages
+    for i, (index, row) in enumerate(metadata.iterrows()):
+        completeness = row['completeness'] / 100  # Convert to a decimal
+        num_valid_rows = int(num_rows * completeness)  # Number of valid rows based on completeness
+
+        # Randomly set some of the data to NaN based on completeness
+        if completeness < 1.0:
+            nan_indices = np.random.choice(num_rows, size=(num_rows - num_valid_rows), replace=False)
+            synthetic_data.iloc[nan_indices, i] = np.nan
+
+    return synthetic_data

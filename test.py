@@ -27,6 +27,15 @@ SAVE_LOCATION = "/workspaces/SynthOpt/output"
 
 GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, SAVE_LOCATION)
 """
+
+"""
+METADATA_FILENAME = "/workspaces/SynthOpt/examples/example_metadata_correlated.csv"
+SAMPLE_SIZE = 800
+SAVE_LOCATION = "/workspaces/SynthOpt/output"
+
+GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, SAVE_LOCATION)
+"""
+
 ##
 ## SYNTHETIC DATA GENERATION TESTING (MULTI) ##
 """
@@ -75,7 +84,7 @@ create_pdf_report(privacy_scores, quality_scores, utility_scores, TYPE, IDENTIFI
 
 """
 
-
+"""
 data={
         'bio': pd.read_csv("/workspaces/SynthOpt/examples/bio.csv"),
         'dispat': pd.read_csv("/workspaces/SynthOpt/examples/dispat.csv"),
@@ -103,7 +112,7 @@ print(synthetic_data_dict)
 #    # Check if the table exists in the synthetic data dictionary
 #    if table_name in synthetic_data_dict:
 #        synthetic_df = synthetic_data_dict[table_name]
-
+"""
 
 
 """
