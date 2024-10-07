@@ -12,6 +12,8 @@ from scipy import stats
 from functools import reduce
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 from sklearn.metrics import f1_score, mean_squared_error, r2_score
+from scipy.stats import randint
+from sklearn.model_selection import RandomizedSearchCV
 
 def classifier_performance(real_data, synthetic_data, control_data, prediction_column, prediction_type):
     # Prepare the data
@@ -24,6 +26,25 @@ def classifier_performance(real_data, synthetic_data, control_data, prediction_c
     X_control = control_data.drop(columns=[prediction_column])
     y_control = control_data[prediction_column]
 
+     # Hyperparameter distributions for RandomizedSearchCV
+    param_distributions_classifier = {
+        'criterion': ['gini', 'entropy', 'log_loss'],
+        'splitter': ['best', 'random'],
+        'max_depth': randint(5, 50),
+        'min_samples_split': randint(2, 20),
+        'min_samples_leaf': randint(1, 20),
+        'max_features': [None, 'sqrt', 'log2']
+    }
+
+    param_distributions_regressor = {
+        'criterion': ['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
+        'splitter': ['best', 'random'],
+        'max_depth': randint(5, 50),
+        'min_samples_split': randint(2, 20),
+        'min_samples_leaf': randint(1, 20),
+        'max_features': [None, 'sqrt', 'log2']
+    }
+
     # Initialize variables to store results
     f1_real = None
     f1_synthetic = None
@@ -34,7 +55,7 @@ def classifier_performance(real_data, synthetic_data, control_data, prediction_c
     # Train and test models based on prediction_type
     if prediction_type == 'binary' or prediction_type == 'multiclass':
         # Use DecisionTreeClassifier for classification
-        classifier_real = DecisionTreeClassifier()
+        classifier_real = RandomizedSearchCV(DecisionTreeClassifier(), param_distributions_classifier)
         classifier_real.fit(X_real, y_real)
         y_pred_real = classifier_real.predict(X_control)
         
@@ -44,7 +65,7 @@ def classifier_performance(real_data, synthetic_data, control_data, prediction_c
         else:
             f1_real = f1_score(y_control, y_pred_real, average='weighted')
 
-        classifier_synthetic = DecisionTreeClassifier()
+        classifier_synthetic = RandomizedSearchCV(DecisionTreeClassifier(), param_distributions_classifier)
         classifier_synthetic.fit(X_synthetic, y_synthetic)
         y_pred_synthetic = classifier_synthetic.predict(X_control)
         
@@ -63,7 +84,7 @@ def classifier_performance(real_data, synthetic_data, control_data, prediction_c
 
     elif prediction_type == 'regression':
         # Use DecisionTreeRegressor for regression
-        regressor_real = DecisionTreeRegressor()
+        regressor_real = RandomizedSearchCV(DecisionTreeRegressor(), param_distributions_regressor)
         regressor_real.fit(X_real, y_real)
         y_pred_real = regressor_real.predict(X_control)
         
