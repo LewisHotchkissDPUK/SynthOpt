@@ -14,9 +14,10 @@ def evaluate_privacy(data, synthetic_data, identifier_column, sensitive_columns,
         data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
         control_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), control_data)
         synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data)
-    data = data.drop(columns=[identifier_column])
-    control_data = control_data.drop(columns=[identifier_column])
-    synthetic_data = synthetic_data.drop(columns=[identifier_column])
+    if identifier_column != None:
+        data = data.drop(columns=[identifier_column])
+        control_data = control_data.drop(columns=[identifier_column])
+        synthetic_data = synthetic_data.drop(columns=[identifier_column])
 
     number_attacks = round(control_data.shape[0])
 
