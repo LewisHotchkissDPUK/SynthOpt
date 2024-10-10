@@ -138,11 +138,12 @@ def generate_syntheticdata(data, identifier_column=None, prediction_column=None,
         
         metadata = create_metadata(data)
 
-        try:
-            if identifier_column == None:
-                identifier_column = metadata.primary_key
-        except Exception:
-            print("Couldnt detect the identifier column, please specify")
+        # Soemtimes there may not be an identifier column, how should this be handled.
+        #try:
+        #    if identifier_column == None:
+        #        identifier_column = metadata.primary_key
+        #except Exception:
+        #    print("Couldnt detect the identifier column, please specify")
 
         # Multi-table handling
         if table_type == 'multi':
@@ -152,13 +153,14 @@ def generate_syntheticdata(data, identifier_column=None, prediction_column=None,
                     raise ValueError(f"Element {i+1} in the data list is not a pandas DataFrame.")
                 column_dict[f"DataFrame_{i+1}"] = df.columns.tolist()
 
-            try:
-                data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
-            except KeyError as e:
-                raise KeyError(f"Identifier column '{identifier_column}' not found in one or more DataFrames.") from e
+            if identifier_column != None:
+                try:
+                    data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
+                except KeyError as e:
+                    raise KeyError(f"Identifier column '{identifier_column}' not found in one or more DataFrames.") from e
 
         # Drop identifier column from the data
-        if identifier_column not in data.columns:
+        if identifier_column != None and identifier_column not in data.columns:
             raise KeyError(f"Identifier column '{identifier_column}' not found in the data.")
         data = data.drop(columns=[identifier_column])
 
