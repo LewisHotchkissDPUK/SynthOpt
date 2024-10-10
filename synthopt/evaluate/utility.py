@@ -114,9 +114,10 @@ def evaluate_utility(data, synthetic_data, control_data, identifier_column, pred
         data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
         synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data)
         control_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), control_data)
-    data = data.drop(columns=[identifier_column])
-    synthetic_data = synthetic_data.drop(columns=[identifier_column])
-    control_data = control_data.drop(columns=[identifier_column])
+    if identifier_column != None:
+        data = data.drop(columns=[identifier_column])
+        synthetic_data = synthetic_data.drop(columns=[identifier_column])
+        control_data = control_data.drop(columns=[identifier_column])
 
     metadata = create_metadata(data)
 
