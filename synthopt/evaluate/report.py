@@ -115,9 +115,15 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
 
-    image_path = os.path.join(os.path.dirname(__file__), '..', 'evaluate', 'sds.png')
-    image_path = os.path.join(examples.__path__[0], 'sds.png')
-    external_img = Image(image_path, width=436, height=260)  # Adjust width and height based on image size
+    try:
+        image_path = os.path.join(os.path.dirname(__file__), '..', 'evaluate', 'sds.png')
+        image_path = os.path.join(evaluate.__path__[0], 'sds.png')
+        external_img = Image(image_path, width=436, height=260)  # Adjust width and height based on image size
+    except Exception:
+        try:
+            external_img = Image("synthopt/evaluate/sds.png", width=436, height=260)
+        except Exception:
+            None
 
     content.append(external_img)
 
