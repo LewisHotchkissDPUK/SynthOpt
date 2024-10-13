@@ -16,6 +16,9 @@ from synthopt.evaluate.visualisation import reduction_vis
 from synthopt import evaluate
 from functools import reduce
 import os
+from PIL import Image
+import requests
+from StringIO import StringIO
 
 # Save the Matplotlib figure to an image in memory
 def save_figure_to_image(fig):
@@ -116,14 +119,13 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
     content.append(Paragraph("<br/><br/>", styles['Normal']))
 
     try:
-        image_path = os.path.join(os.path.dirname(__file__), '..', 'evaluate', 'sds.png')
-        image_path = os.path.join(evaluate.__path__[0], 'sds.png')
-        external_img = Image(image_path, width=436, height=260)  # Adjust width and height based on image size
+        response = requests.get("https://github.com/LewisHotchkissDPUK/SynthOpt/blob/46027d9ece6a65997876ef6bbb121ab6f27a58ab/synthopt/evaluate/sds.png")
+        external_img = Image(response, width=436, height=260)  # Adjust width and height based on image size
+        #image_path = os.path.join(os.path.dirname(__file__), '..', 'evaluate', 'sds.png')
+        #image_path = os.path.join(evaluate.__path__[0], 'sds.png')
+        #external_img = Image(image_path, width=436, height=260)  # Adjust width and height based on image size
     except Exception:
-        try:
-            external_img = Image("synthopt/evaluate/sds.png", width=436, height=260)
-        except Exception:
-            None
+        print("couldnt load image")
 
     content.append(external_img)
 
