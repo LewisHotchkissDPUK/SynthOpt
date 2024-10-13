@@ -18,7 +18,7 @@ from functools import reduce
 import os
 from PIL import Image as PILImage
 import requests
-from StringIO import StringIO
+from io import StringIO 
 
 # Save the Matplotlib figure to an image in memory
 def save_figure_to_image(fig):
