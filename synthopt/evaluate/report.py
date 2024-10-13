@@ -125,10 +125,10 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
         #image_path = os.path.join(os.path.dirname(__file__), '..', 'evaluate', 'sds.png')
         #image_path = os.path.join(evaluate.__path__[0], 'sds.png')
         #external_img = Image(image_path, width=436, height=260)  # Adjust width and height based on image size
+
+        content.append(external_img)
     except Exception:
         print("couldnt load image")
-
-    content.append(external_img)
 
     #### Boundary Adherence
 
