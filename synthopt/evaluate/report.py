@@ -13,6 +13,7 @@ from synthopt.evaluate.visualisation import table_vis
 from synthopt.evaluate.visualisation import attribute_vis
 from synthopt.evaluate.visualisation import distribution_vis, correlation_vis
 from synthopt.evaluate.visualisation import reduction_vis
+from synthopt import evaluate
 from functools import reduce
 
 # Save the Matplotlib figure to an image in memory
@@ -113,7 +114,10 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
 
-    external_img = Image("examples/sds.png", width=436, height=260)  # Adjust width and height based on image size
+    image_path = os.path.join(os.path.dirname(__file__), '..', 'evaluate', 'sds.png')
+    image_path = os.path.join(examples.__path__[0], 'sds.png')
+    external_img = Image(image_path, width=436, height=260)  # Adjust width and height based on image size
+
     content.append(external_img)
 
     #### Boundary Adherence
