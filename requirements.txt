@@ -3,3 +3,4 @@ sdmetrics
 synthcity
 anonymeter
 seaborn
+reportlab
