@@ -15,6 +15,7 @@ from synthopt.evaluate.visualisation import distribution_vis, correlation_vis
 from synthopt.evaluate.visualisation import reduction_vis
 from synthopt import evaluate
 from functools import reduce
+import os
 
 # Save the Matplotlib figure to an image in memory
 def save_figure_to_image(fig):
