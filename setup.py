@@ -11,6 +11,7 @@ INSTALL_REQUIRES = [
     "synthcity",
     "anonymeter",
     "seaborn",
+    "reportlab",
 ]
 
 setuptools.setup(
