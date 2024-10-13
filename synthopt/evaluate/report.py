@@ -16,7 +16,7 @@ from synthopt.evaluate.visualisation import reduction_vis
 from synthopt import evaluate
 from functools import reduce
 import os
-from PIL import Image
+from PIL import Image as PILImage
 import requests
 from StringIO import StringIO
 
@@ -121,7 +121,7 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
     try:
         response = requests.get("https://github.com/LewisHotchkissDPUK/SynthOpt/blob/46027d9ece6a65997876ef6bbb121ab6f27a58ab/synthopt/evaluate/sds.png")
         img = Image.open(StringIO(response.content))
-        external_img = Image(img, width=436, height=260)  # Adjust width and height based on image size
+        external_img = PILImage(img, width=436, height=260)  # Adjust width and height based on image size
         #image_path = os.path.join(os.path.dirname(__file__), '..', 'evaluate', 'sds.png')
         #image_path = os.path.join(evaluate.__path__[0], 'sds.png')
         #external_img = Image(image_path, width=436, height=260)  # Adjust width and height based on image size
