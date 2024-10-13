@@ -113,7 +113,7 @@ def create_pdf_report(privacy_scores, quality_scores, utility_scores, table_type
 
     content.append(Paragraph("<br/><br/>", styles['Normal']))
 
-    external_img = Image("SynthOpt/examples/sds.png", width=436, height=260)  # Adjust width and height based on image size
+    external_img = Image("examples/sds.png", width=436, height=260)  # Adjust width and height based on image size
     content.append(external_img)
 
     #### Boundary Adherence
