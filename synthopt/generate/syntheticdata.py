@@ -159,10 +159,13 @@ def generate_syntheticdata(data, identifier_column=None, prediction_column=None,
                 except KeyError as e:
                     raise KeyError(f"Identifier column '{identifier_column}' not found in one or more DataFrames.") from e
 
+        if identifier_column != None and identifier_column in data.columns:
+            data = data.drop(columns=[identifier_column])
+
         # Drop identifier column from the data
-        if identifier_column != None and identifier_column not in data.columns:
-            raise KeyError(f"Identifier column '{identifier_column}' not found in the data.")
-        data = data.drop(columns=[identifier_column])
+        #if identifier_column != None and identifier_column not in data.columns:
+        #    raise KeyError(f"Identifier column '{identifier_column}' not found in the data.")
+        #data = data.drop(columns=[identifier_column])
 
         # Check for object or string columns that are not allowed
         object_or_string_cols = data.select_dtypes(include=['object', 'string'])
