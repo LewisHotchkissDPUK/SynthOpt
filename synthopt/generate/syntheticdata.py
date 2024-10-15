@@ -213,7 +213,8 @@ def generate_syntheticdata(data, identifier_column=None, prediction_column=None,
 
         # Ensure the synthetic data has the correct columns
         synthetic_data.columns = data_columns
-        synthetic_data.insert(0, identifier_column, range(1, len(synthetic_data) + 1))
+        if identifier_column != None:
+            synthetic_data.insert(0, identifier_column, range(1, len(synthetic_data) + 1))
 
         # Split synthetic data into multiple tables if using multi-table
         if table_type == 'multi':
