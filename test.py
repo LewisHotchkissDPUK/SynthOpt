@@ -21,17 +21,17 @@ from synthopt.optimise.optimise import optimise_epsilon
 
 ## METADATA GENERATION TESTING ##
 """
-METADATA_FILENAME = "/workspaces/SynthOpt/examples/example_metadata.csv"
+METADATA_FILENAME = "C:/Users/Lewis Hotchkiss/OneDrive/Documents/SynthOpt/examples/example_metadata.csv"
 SAMPLE_SIZE = 800
-SAVE_LOCATION = "/workspaces/SynthOpt/output"
+SAVE_LOCATION = "C:/Users/Lewis Hotchkiss/OneDrive/Documents/SynthOpt/output"
 
 GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, SAVE_LOCATION)
 """
 
 """
-METADATA_FILENAME = "/workspaces/SynthOpt/examples/example_metadata_correlated.csv"
+METADATA_FILENAME = "examples/example_metadata_correlated.csv"
 SAMPLE_SIZE = 800
-SAVE_LOCATION = "/workspaces/SynthOpt/output"
+SAVE_LOCATION = "output"
 
 GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, SAVE_LOCATION)
 """
@@ -41,9 +41,9 @@ GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, 
 """
 TYPE = "multi"
 MODEL = "pategan"
-DATA1 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset1.csv")
-DATA2 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset2.csv")
-DATA3 = pd.read_csv("/workspaces/SynthOpt/examples/ADNI_cleaned_subset3.csv")
+DATA1 = pd.read_csv("examples/ADNI_cleaned_subset1.csv")
+DATA2 = pd.read_csv("examples/ADNI_cleaned_subset2.csv")
+DATA3 = pd.read_csv("examples/ADNI_cleaned_subset3.csv")
 DATA = [DATA1,DATA2,DATA3]
 #SUBSET_SIZE = 800
 DATA_PROCESSED, CONTROL_DATA = process(DATA, TYPE) # ,SUBSET_SIZE
@@ -59,9 +59,9 @@ PREDICTION_TYPE = 'binary'
 
 SYNTHETIC_DATA = generate_syntheticdata(DATA_PROCESSED, IDENTIFIER_COLUMN, PREDICTION_COLUMN, SENSITIVE_COLUMNS, 
                                         SAMPLE_SIZE, TYPE, MODEL, ITERATIONS, EPSILON)
-SYNTHETIC_DATA[0].to_csv("/workspaces/SynthOpt/output/example_synthetic_data_subset1.csv", index=False)
-SYNTHETIC_DATA[1].to_csv("/workspaces/SynthOpt/output/example_synthetic_data_subset2.csv", index=False)
-SYNTHETIC_DATA[2].to_csv("/workspaces/SynthOpt/output/example_synthetic_data_subset3.csv", index=False)
+SYNTHETIC_DATA[0].to_csv("output/example_synthetic_data_subset1.csv", index=False)
+SYNTHETIC_DATA[1].to_csv("output/example_synthetic_data_subset2.csv", index=False)
+SYNTHETIC_DATA[2].to_csv("output/example_synthetic_data_subset3.csv", index=False)
 
 ##
 ## SYNTHETIC DATA PRIVACY EVALUATION TESTING ##
@@ -80,26 +80,26 @@ DATA_COLUMNS = list(DATA_COLUMNS)
 #
 
 
-create_pdf_report(privacy_scores, quality_scores, utility_scores, TYPE, IDENTIFIER_COLUMN, DATA, SYNTHETIC_DATA, DATA_COLUMNS,"/workspaces/SynthOpt/output/EvaluationReport.pdf")
+create_pdf_report(privacy_scores, quality_scores, utility_scores, TYPE, IDENTIFIER_COLUMN, DATA, SYNTHETIC_DATA, DATA_COLUMNS,"output/EvaluationReport.pdf")
 
 """
 
 """
 data={
-        'bio': pd.read_csv("/workspaces/SynthOpt/examples/bio.csv"),
-        'dispat': pd.read_csv("/workspaces/SynthOpt/examples/dispat.csv"),
-        'indis': pd.read_csv("/workspaces/SynthOpt/examples/indis.csv"),
-        'inf': pd.read_csv("/workspaces/SynthOpt/examples/inf.csv"),
-        'rel11': pd.read_csv("/workspaces/SynthOpt/examples/rel11.csv"),
-        'rel12': pd.read_csv("/workspaces/SynthOpt/examples/rel12.csv"),
-        'rel13': pd.read_csv("/workspaces/SynthOpt/examples/rel13.csv")
+        'bio': pd.read_csv("examples/bio.csv"),
+        'dispat': pd.read_csv("examples/dispat.csv"),
+        'indis': pd.read_csv("examples/indis.csv"),
+        'inf': pd.read_csv("examples/inf.csv"),
+        'rel11': pd.read_csv("examples/rel11.csv"),
+        'rel12': pd.read_csv("examples/rel12.csv"),
+        'rel13': pd.read_csv("examples/rel13.csv")
     }
 from synthopt.generate.syntheticdata import generate_relational_syntheticdata
-synthetic_data_dict = generate_relational_syntheticdata(data)
+synthetic_data_dict = generate_relational_syntheticdata(data, iterations=1)
 
 for table_name, synthetic_df in synthetic_data_dict.items():
     # Define the filename (you can adjust the path as needed)
-    filename = f"/workspaces/SynthOpt/output/{table_name}_synthetic_data.csv"
+    filename = f"output/{table_name}_synthetic_data.csv"
     
     # Save the DataFrame to a CSV file
     synthetic_df.to_csv(filename, index=False)
