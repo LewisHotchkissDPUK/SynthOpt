@@ -119,7 +119,7 @@ def metadata_process(data, correlated=False):
         })
         metadata = pd.concat([metadata, new_row], ignore_index=True)
 
-    data_numerical_only = data[list(set(data.describe().columns))]
+    data_numerical_only = data[list(set(data.columns) - set(data[non_categorical_string_columns]))]
     correlation_matrix = data_numerical_only.corr()
 
     if correlated == True:
