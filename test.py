@@ -38,10 +38,12 @@ GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, 
 
 
 ## CORRELATED METADATA TESTING ##
-DATA = pd.read_csv("examples/alzheimers_disease_data.csv")
+DATA = pd.read_csv("examples\healthcare_dataset.csv")
 METADATA, CORRELATION_MATRIX = metadata_process(DATA, True)
-SYNTHETIC_DATA = generate_correlated_metadata(METADATA, CORRELATION_MATRIX, 400, identifier_column="PatientID")
-SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
+print(METADATA)
+
+#SYNTHETIC_DATA = generate_correlated_metadata(METADATA, CORRELATION_MATRIX, 400, identifier_column="PatientID")
+#SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
 
 
 ##

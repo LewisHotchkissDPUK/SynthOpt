@@ -8,6 +8,10 @@ from scipy.stats import truncnorm
 from scipy.stats import skew
 from scipy.stats import skewnorm, multivariate_normal
 from numpy.linalg import cholesky
+from sklearn.preprocessing import LabelEncoder
+import random
+import string
+from datetime import datetime
 
 # Function to generate a random string
 def random_string(length=6):
@@ -32,16 +36,77 @@ def parse_range(value_range):
         return float(parts[0].strip()), float(parts[1].strip())
     return None
 
+def calculate_average_length(df, columns):
+  results = []
+  for column in columns:
+    char_lengths = []
+    space_lengths = []
+    for value in df[column]:
+      if isinstance(value, str):
+        char_lengths.append(len(value))
+        space_lengths.append(value.count(" "))
+    avg_char_length = sum(char_lengths) / len(char_lengths) if char_lengths else 0
+    avg_space_length = sum(space_lengths) / len(space_lengths) if space_lengths else 0
+
+    results.append({
+        "column": column,
+        "avg_char_length": avg_char_length,
+        "avg_space_length": avg_space_length,
+    })
+  return results
+
 def metadata_process(data, correlated=False):
     metadata = pd.DataFrame(columns=['variable_name', 'datatype', 'completeness', 'values', 'mean', 'standard_deviation', 'skew'])
-    correlation_matrix = data.corr()
+
+    non_numerical_columns = list(set(data.columns) - set(data.describe().columns))
+    date_columns = []
+    for column in non_numerical_columns:
+        try:
+            pd.to_datetime(data[column])
+            date_columns.append(column)
+        except ValueError:
+            pass
+    # string/object only columns
+    all_string_columns = list(set(non_numerical_columns) - set(date_columns))
+    # estimating which string columns are categorical (if unique is less than 20% of data)
+    categorical_string_columns = []
+    for column in data[all_string_columns].columns:
+        if data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.2:
+            categorical_string_columns.append(column)
+    ## converting to categorical data type
+    ##for column in categorical_string_columns:
+    ##    training_data[column] = training_data[column].astype('category')
+    ## non categorical string columns - so likely free text columns
+    non_categorical_string_columns = list(set(all_string_columns) - set(categorical_string_columns))
+    average_lengths_df = calculate_average_length(data, non_categorical_string_columns)
+    # encoding of the categorical strings 
+    le = LabelEncoder()
+    for column in categorical_string_columns:
+        data[column] = le.fit_transform(data[column])
+
+    for col in date_columns:
+        if col in data.columns:
+            data[col] = pd.to_datetime(data[col], errors='coerce')
+    for column in date_columns:
+        data[column] = pd.to_datetime(data[column])
+        data[column + '_year'] = data[column].dt.year
+        data[column + '_month'] = data[column].dt.month
+        data[column + '_day'] = data[column].dt.day
+    data = data.drop(date_columns, axis=1)
 
     for column in data.columns:
         completeness = (data[column].notna().sum() / len(data)) * 100
-        value_range = (data[column].min(), data[column].max())
-        mean = data[column].mean()
-        std_dev = data[column].std()
-        skewness_value = skew(data[column])
+        if column in non_categorical_string_columns:
+            value_range = None
+            mean = next((item['avg_char_length'] for item in average_lengths_df if item['column'] == column), None)
+            std_dev = next((item['avg_space_length'] for item in average_lengths_df if item['column'] == column), None)
+            skewness_value = None
+        else:
+            value_range = (data[column].min(), data[column].max())
+            mean = data[column].mean()
+            std_dev = data[column].std()
+            skewness_value = skew(data[column])
+            
 
         new_row = pd.DataFrame({
             'variable_name': [column],
@@ -53,6 +118,9 @@ def metadata_process(data, correlated=False):
             'skew': [skewness_value]
         })
         metadata = pd.concat([metadata, new_row], ignore_index=True)
+
+    data_numerical_only = data[list(set(data.describe().columns))]
+    correlation_matrix = data_numerical_only.corr()
 
     if correlated == True:
         return metadata, correlation_matrix
