@@ -5,7 +5,9 @@ import string
 from datetime import datetime, timedelta
 import os
 from scipy.stats import truncnorm
-from scipy.stats import multivariate_normal
+from scipy.stats import skew
+from scipy.stats import skewnorm, multivariate_normal
+from numpy.linalg import cholesky
 
 # Function to generate a random string
 def random_string(length=6):
@@ -30,9 +32,36 @@ def parse_range(value_range):
         return float(parts[0].strip()), float(parts[1].strip())
     return None
 
+def metadata_process(data, correlated=False):
+    metadata = pd.DataFrame(columns=['variable_name', 'datatype', 'completeness', 'values', 'mean', 'standard_deviation', 'skew'])
+    correlation_matrix = data.corr()
+
+    for column in data.columns:
+        completeness = (data[column].notna().sum() / len(data)) * 100
+        value_range = (data[column].min(), data[column].max())
+        mean = data[column].mean()
+        std_dev = data[column].std()
+        skewness_value = skew(data[column])
+
+        new_row = pd.DataFrame({
+            'variable_name': [column],
+            'datatype': [data[column].dtype],
+            'completeness': [completeness],
+            'values': [value_range],
+            'mean': [mean],
+            'standard_deviation': [std_dev],
+            'skew': [skewness_value]
+        })
+        metadata = pd.concat([metadata, new_row], ignore_index=True)
+
+    if correlated == True:
+        return metadata, correlation_matrix
+    else:
+        return metadata
+
 # Function to generate random data based on metadata for each filename
 # NEED TO FIX DATE AND TIME
-def generate_metadata(metadata_csv, num_records=100, save_location=None):
+def generate_structural_metadata(metadata_csv, num_records=100, save_location=None):
     try:
         # Load the metadata CSV
         try:
@@ -55,7 +84,7 @@ def generate_metadata(metadata_csv, num_records=100, save_location=None):
 
         # Generate unique participant IDs
         participant_ids_string = [random_string() for _ in range(num_records)]
-        participant_ids_integer = [random_string() for _ in range(num_records)]  # Should this be random_integer instead?
+        participant_ids_integer = [random_integer() for _ in range(num_records)]  # Should this be random_integer instead?
 
         # Dictionary to store dataframes for each filename
         datasets = {}
@@ -153,18 +182,21 @@ def generate_metadata(metadata_csv, num_records=100, save_location=None):
 
 # Function to generate correlated samples with truncated bounds using rejection sampling
 def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
-
     # Initialize samples array
     samples = []
+
+    lower = np.array(lower)
+    upper = np.array(upper)
 
     # Loop until the required number of samples is obtained
     while len(samples) < size:
         # Draw a batch of multivariate normal samples
         batch_size = size - len(samples)
-        candidate_samples = multivariate_normal.rvs(mean=mean, cov=cov, size=batch_size)
+        candidate_samples = np.atleast_2d(multivariate_normal.rvs(mean=mean, cov=cov, size=batch_size))
 
         # Apply truncation: Keep only samples within the bounds for all variables
         within_bounds = np.all((candidate_samples >= lower) & (candidate_samples <= upper), axis=1)
+
         valid_samples = candidate_samples[within_bounds]
 
         # Append the valid samples to our final sample list
@@ -174,11 +206,9 @@ def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
     return np.array(samples[:size])
 
 
-def generate_correlated_metadata(metadata_csv, correlation_matrix, num_records=100, save_location=None):
-    metadata = pd.read_csv(metadata_csv)
-
+def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, identifier_column=None):
     # Number of samples to generate
-    num_rows = len(num_records)
+    num_rows = num_records
 
     # Initialize lists to store means, std_devs, and value ranges
     means = []
@@ -220,5 +250,11 @@ def generate_correlated_metadata(metadata_csv, correlation_matrix, num_records=1
         if completeness < 1.0:
             nan_indices = np.random.choice(num_rows, size=(num_rows - num_valid_rows), replace=False)
             synthetic_data.iloc[nan_indices, i] = np.nan
+
+    if identifier_column != None:
+        participant_ids_integer = [random_integer() for _ in range(num_records)] 
+        synthetic_data = synthetic_data.drop(columns=[identifier_column])
+        synthetic_data.insert(0,identifier_column,participant_ids_integer)
+
 
     return synthetic_data

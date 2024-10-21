@@ -1,4 +1,4 @@
-from synthopt.generate.metadata import generate_metadata
+from synthopt.generate.metadata import generate_structural_metadata, generate_correlated_metadata, metadata_process
 from synthopt.generate.syntheticdata import generate_syntheticdata
 from synthopt.generate.syntheticdata import process
 
@@ -35,6 +35,14 @@ SAVE_LOCATION = "output"
 
 GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, SAVE_LOCATION)
 """
+
+
+## CORRELATED METADATA TESTING ##
+DATA = pd.read_csv("examples/alzheimers_disease_data.csv")
+METADATA, CORRELATION_MATRIX = metadata_process(DATA, True)
+SYNTHETIC_DATA = generate_correlated_metadata(METADATA, CORRELATION_MATRIX, 400, identifier_column="PatientID")
+SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
+
 
 ##
 ## SYNTHETIC DATA GENERATION TESTING (MULTI) ##
