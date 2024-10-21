@@ -41,7 +41,6 @@ GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, 
 DATA = pd.read_csv("examples\healthcare_dataset.csv")
 METADATA, CORRELATION_MATRIX, LABEL_MAPPING = metadata_process(DATA, True)
 print(METADATA)
-print(LABEL_MAPPING)
 
 #SYNTHETIC_DATA = generate_correlated_metadata(METADATA, CORRELATION_MATRIX, 400, identifier_column="PatientID")
 #SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
