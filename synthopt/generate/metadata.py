@@ -122,8 +122,12 @@ def metadata_process(data, correlated=False):
     data_numerical_only = data[list(set(data.columns) - set(data[non_categorical_string_columns]))]
     correlation_matrix = data_numerical_only.corr()
 
+    label_mapping = {}
+    for column in categorical_string_columns:
+        label_mapping[column] = dict(zip(le.fit_transform(data[column].unique()), data[column].unique()))
+
     if correlated == True:
-        return metadata, correlation_matrix
+        return metadata, correlation_matrix, label_mapping
     else:
         return metadata
 
