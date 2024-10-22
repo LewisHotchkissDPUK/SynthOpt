@@ -57,6 +57,9 @@ print()
 print(SYNTHETIC_DATA)
 #SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
 
+SYNTHETIC_DATA["healthcare"].to_csv("output/healthcare_correlated_metadata_synthetic_data.csv", index=False)
+SYNTHETIC_DATA["mentalhealth"].to_csv("output/mentalhealth_correlated_metadata_synthetic_data.csv", index=False)
+
 
 ##
 ## SYNTHETIC DATA GENERATION TESTING (MULTI) ##

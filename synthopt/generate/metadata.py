@@ -178,6 +178,11 @@ def metadata_process(data, type="correlated"):
     else:
         # If input is a single DataFrame, process directly
         metadata, label_mapping, processed_data = process_single_dataframe(data)
+
+        # FIX
+        #numerical_data = processed_data.select_dtypes(include=['number'])
+        #correlation_matrix = numerical_data.corr()
+
         correlation_matrix = processed_data.corr() if type == "correlated" else None
 
         if type == "correlated":
@@ -337,10 +342,6 @@ def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
 
 
 def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, identifier_column=None, label_mapping=None):
-
-    # add table_name. prefix in front of variable names
-    # need to add code at the end to seperate data into seperate tables if table_name is not none. 
-    # if table_name is not none, then label mapping needs handling seperately
 
     metadata['variable_name'] = metadata.apply(lambda x: f"{x['table_name']}.{x['variable_name']}", axis=1)
 
