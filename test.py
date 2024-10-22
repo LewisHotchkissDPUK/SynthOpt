@@ -43,8 +43,9 @@ DATA2 = pd.read_csv("examples/Impact_of_Remote_Work_on_Mental_Health.csv")
 
 DATASETS = {"healthcare":DATA, "mentalhealth":DATA2}
 
-#METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATA, "correlated")
-METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATASETS, "correlated")
+METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATA, "correlated")
+
+#METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATASETS, "correlated")
 
 
 print(METADATA)
@@ -57,8 +58,8 @@ print()
 print(SYNTHETIC_DATA)
 #SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
 
-SYNTHETIC_DATA["healthcare"].to_csv("output/healthcare_correlated_metadata_synthetic_data.csv", index=False)
-SYNTHETIC_DATA["mentalhealth"].to_csv("output/mentalhealth_correlated_metadata_synthetic_data.csv", index=False)
+#SYNTHETIC_DATA["healthcare"].to_csv("output/healthcare_correlated_metadata_synthetic_data.csv", index=False)
+#SYNTHETIC_DATA["mentalhealth"].to_csv("output/mentalhealth_correlated_metadata_synthetic_data.csv", index=False)
 
 
 ##

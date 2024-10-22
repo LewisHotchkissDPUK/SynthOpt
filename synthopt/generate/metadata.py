@@ -180,10 +180,12 @@ def metadata_process(data, type="correlated"):
         metadata, label_mapping, processed_data = process_single_dataframe(data)
 
         # FIX
-        #numerical_data = processed_data.select_dtypes(include=['number'])
-        #correlation_matrix = numerical_data.corr()
+        numerical_data = processed_data.select_dtypes(include=['number'])
+        correlation_matrix = numerical_data.corr()
 
-        correlation_matrix = processed_data.corr() if type == "correlated" else None
+        #correlation_matrix = processed_data.corr() if type == "correlated" else None
+
+        # if statistical or structural then only return metadata with columns needed (metadata[columns])
 
         if type == "correlated":
             return metadata, label_mapping, correlation_matrix
@@ -402,9 +404,10 @@ def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, 
             # Round the values in the column if the datatype is an integer
             synthetic_data[column] = synthetic_data[column].round()# .astype(int)
 
-    # label mapping
-    for column, mapping in label_mapping.items():
-        synthetic_data[column] = synthetic_data[column].map(mapping)
+    if metadata['table_name'].iloc[0] is not None:
+        # label mapping
+        for column, mapping in label_mapping.items():
+            synthetic_data[column] = synthetic_data[column].map(mapping)
 
     # date combine
     # Identify columns that match the pattern *_year, *_month, *_day
@@ -467,6 +470,7 @@ def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, 
         synthetic_data = synthetic_data.drop(columns=[identifier_column])
         synthetic_data.insert(0,identifier_column,participant_ids_integer)
 
+
     # Remove the prefixes
     dataframes_dict = {}
     for column in synthetic_data.columns:
@@ -474,8 +478,16 @@ def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, 
         if prefix not in dataframes_dict:
             prefix_columns = [col for col in synthetic_data.columns if col.startswith(prefix)]            
             new_df = synthetic_data[prefix_columns].copy()            
-            new_df.columns = [col[len(prefix) + 1:] for col in new_df.columns]  # Remove prefix            
+            new_df.columns = [col[len(prefix) + 1:] for col in new_df.columns]  # Remove prefix           
+            if metadata['table_name'].iloc[0] is None:
+                # label mapping
+                for column, mapping in label_mapping.items():
+                    new_df[column] = new_df[column].map(mapping)
+
             dataframes_dict[prefix] = new_df
     synthetic_data = dataframes_dict
+
+    if metadata['table_name'].iloc[0] is None:
+        synthetic_data = synthetic_data['None']
 
     return synthetic_data
