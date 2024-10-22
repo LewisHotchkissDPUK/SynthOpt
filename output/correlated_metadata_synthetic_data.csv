@@ -1,401 +1,401 @@
-Employee_ID,Age,Gender,Job_Role,Industry,Years_of_Experience,Work_Location,Hours_Worked_Per_Week,Number_of_Virtual_Meetings,Work_Life_Balance_Rating,Stress_Level,Mental_Health_Condition,Access_to_Mental_Health_Resources,Productivity_Change,Social_Isolation_Rating,Satisfaction_with_Remote_Work,Company_Support_for_Remote_Work,Physical_Activity,Sleep_Quality,Region
-565390,45,Female,Project Manager,Finance,20,Onsite,25,8,4,Low,Depression,Yes,Increase,5,Satisfied,3,Weekly,Poor,North America
-371700,30,Male,Marketing,Consulting,19,Hybrid,46,8,4,Medium,Burnout,Yes,No Change,3,Satisfied,3,Weekly,Good,Oceania
-291605,39,Female,Designer,Finance,6,Onsite,41,4,4,Medium,Depression,Yes,Decrease,4,Satisfied,3,,Good,Oceania
-657594,37,Male,Software Engineer,Education,18,Remote,50,9,3,Low,Anxiety,Yes,Increase,2,Neutral,3,Weekly,Good,Asia
-631503,49,Non-binary,Project Manager,Retail,16,Onsite,21,2,2,High,Burnout,Yes,No Change,4,Unsatisfied,2,Weekly,Good,Asia
-298392,54,Male,Data Scientist,Healthcare,17,Remote,42,8,3,Low,Burnout,Yes,Increase,5,Satisfied,1,Weekly,Good,Asia
-360825,52,Non-binary,Project Manager,Education,19,Onsite,36,2,3,High,Depression,Yes,Increase,4,Unsatisfied,2,Daily,Good,Europe
-608982,43,Male,Project Manager,Finance,17,Hybrid,29,6,3,Low,Depression,No,Increase,5,Satisfied,2,Weekly,Average,North America
-799191,45,Non-binary,Designer,IT,31,Onsite,35,7,3,Medium,Depression,Yes,Decrease,1,Neutral,5,Weekly,Good,Asia
-166755,27,Male,Designer,Finance,22,Onsite,50,5,3,High,Depression,Yes,No Change,3,Neutral,4,Weekly,Poor,Europe
-349214,56,Prefer not to say,HR,Healthcare,31,Remote,39,9,4,Medium,Depression,Yes,Increase,3,Satisfied,2,Weekly,Average,North America
-178364,47,Non-binary,Data Scientist,IT,28,Remote,39,2,3,Low,Burnout,Yes,Increase,2,Unsatisfied,4,Weekly,Average,Oceania
-481552,51,Male,Marketing,Consulting,20,Onsite,57,3,1,Low,Depression,No,Increase,3,Satisfied,4,Weekly,Poor,Europe
-977829,45,Male,Marketing,IT,22,Onsite,47,3,4,Low,Depression,No,Increase,3,Satisfied,4,Daily,Poor,South America
-688412,58,Non-binary,Data Scientist,Retail,18,Onsite,45,3,4,Low,Depression,No,Increase,4,Satisfied,2,Daily,Average,Europe
-122528,46,Male,Sales,Healthcare,24,Onsite,35,11,2,Low,Depression,Yes,Decrease,2,Satisfied,2,Weekly,Average,Europe
-421210,38,Male,Marketing,Healthcare,12,Remote,52,11,3,Medium,Burnout,Yes,Increase,4,Satisfied,2,Daily,Poor,Oceania
-614324,44,Male,Project Manager,Manufacturing,34,Remote,27,5,2,Low,,No,Increase,2,Unsatisfied,5,,Average,North America
-112544,39,Male,HR,Manufacturing,7,Onsite,38,11,3,Low,Depression,No,Increase,1,Satisfied,4,Weekly,Poor,Oceania
-552340,46,Non-binary,HR,Manufacturing,20,Onsite,28,8,4,Medium,Anxiety,No,Increase,3,Neutral,4,Daily,Good,North America
-231374,60,Male,Project Manager,Finance,11,Onsite,34,6,3,Low,Depression,Yes,Increase,3,Unsatisfied,2,Weekly,Good,North America
-774433,41,Female,Sales,Healthcare,31,Onsite,43,9,4,Low,Burnout,Yes,No Change,2,Unsatisfied,3,Daily,Poor,Asia
-998753,46,Prefer not to say,Designer,Manufacturing,31,Onsite,28,7,3,Low,Burnout,Yes,Increase,3,Neutral,3,Weekly,Good,North America
-430997,44,Prefer not to say,Sales,Education,23,Onsite,26,13,3,High,Depression,No,Increase,2,Neutral,3,Weekly,Average,Europe
-127272,36,Prefer not to say,Sales,Healthcare,17,Remote,24,4,2,High,Depression,Yes,Increase,4,Satisfied,2,Weekly,Good,North America
-487053,49,Male,HR,Healthcare,6,Onsite,39,8,2,High,,Yes,Increase,4,Satisfied,4,,Average,North America
-524493,49,Non-binary,Marketing,Education,15,Remote,48,9,1,Low,Depression,No,Increase,3,Satisfied,3,,Good,Oceania
-952865,44,Non-binary,Marketing,Healthcare,20,Remote,46,13,5,Low,Depression,Yes,Increase,2,Satisfied,3,Daily,Poor,Oceania
-770127,55,Non-binary,Marketing,Retail,9,Onsite,36,11,4,Low,,No,No Change,2,Satisfied,4,Daily,Good,South America
-305934,55,Non-binary,Designer,Finance,25,Hybrid,60,9,3,Low,Burnout,Yes,Increase,4,Satisfied,2,Daily,Good,South America
-455791,32,Non-binary,HR,Education,21,Onsite,35,8,5,Low,Depression,No,Decrease,4,Satisfied,1,Weekly,Poor,South America
-226713,48,Male,Project Manager,Healthcare,17,Onsite,37,8,2,High,Depression,Yes,Increase,3,Satisfied,2,Weekly,Average,North America
-805749,36,Non-binary,Project Manager,Healthcare,15,Onsite,23,11,3,Low,Burnout,Yes,Increase,2,Unsatisfied,4,Weekly,Average,Oceania
-238773,44,Male,HR,Finance,15,Onsite,41,3,3,Low,Depression,No,Increase,4,Satisfied,4,,Poor,North America
-109796,40,Male,Sales,Education,27,Onsite,48,4,4,Low,Depression,No,Increase,1,Neutral,3,,Good,Oceania
-451219,45,Non-binary,Marketing,IT,10,Onsite,50,1,5,Medium,Depression,Yes,Increase,2,Satisfied,2,Weekly,Average,North America
-248274,37,Male,Marketing,Healthcare,18,Onsite,49,4,4,Medium,Anxiety,Yes,Increase,3,Unsatisfied,3,Weekly,Good,South America
-185651,34,Prefer not to say,Project Manager,Healthcare,21,Hybrid,42,7,2,High,Anxiety,No,No Change,3,Satisfied,3,,Good,North America
-838237,37,Male,Sales,IT,23,Remote,53,5,4,Low,Depression,No,Increase,3,Neutral,4,Weekly,Poor,Europe
-737099,48,Prefer not to say,Sales,Healthcare,16,Onsite,31,7,4,Low,Burnout,No,Increase,5,Neutral,3,Daily,Average,Europe
-621358,48,Non-binary,HR,IT,19,Remote,47,2,4,Low,Depression,No,Increase,4,Unsatisfied,3,,Good,Europe
-388647,37,Female,Sales,IT,13,Onsite,46,7,4,Low,Depression,Yes,Decrease,2,Unsatisfied,2,Weekly,Poor,North America
-328627,34,Non-binary,Marketing,Finance,13,Onsite,25,5,3,Medium,Burnout,No,Increase,3,Unsatisfied,4,Weekly,Good,Oceania
-936252,48,Non-binary,Marketing,Education,17,Onsite,29,5,2,High,Burnout,No,Increase,3,Neutral,4,Weekly,Good,North America
-192524,57,Male,Sales,Manufacturing,11,Onsite,26,2,4,Low,Depression,Yes,Increase,3,Satisfied,4,Weekly,Good,South America
-809468,53,Non-binary,Marketing,Healthcare,35,Hybrid,46,1,1,Low,Depression,No,Increase,2,Satisfied,5,Weekly,Poor,Europe
-241140,35,Non-binary,Marketing,Healthcare,14,Onsite,34,7,5,Low,Burnout,Yes,Increase,4,Unsatisfied,3,Weekly,Good,Oceania
-230276,59,Non-binary,Sales,Education,11,Onsite,47,7,4,Low,Depression,Yes,No Change,1,Satisfied,2,,Good,Asia
-899027,37,Male,HR,IT,12,Onsite,38,11,3,Medium,Burnout,No,Increase,4,Satisfied,2,Weekly,Good,Europe
-407487,47,Male,Project Manager,Consulting,30,Onsite,32,3,2,Medium,Anxiety,Yes,Decrease,3,Satisfied,2,Weekly,Good,South America
-431378,45,Female,Sales,IT,15,Onsite,44,0,3,Medium,,Yes,No Change,3,Satisfied,4,Weekly,Average,Asia
-931622,35,Non-binary,Designer,IT,25,Onsite,44,10,3,Low,Depression,No,Increase,1,Satisfied,4,,Average,Asia
-587082,46,Prefer not to say,Designer,Education,25,Onsite,26,10,1,Low,Depression,Yes,No Change,2,Satisfied,3,Daily,Good,Oceania
-681478,29,Male,HR,Manufacturing,15,Onsite,33,11,4,Low,Burnout,No,Increase,4,Satisfied,4,Weekly,Good,Africa
-173913,59,Non-binary,Designer,Healthcare,16,Onsite,41,1,4,Low,Depression,Yes,No Change,4,Neutral,1,,Good,North America
-642906,41,Male,Sales,Finance,3,Remote,38,8,3,Low,Burnout,Yes,Increase,5,Satisfied,4,Weekly,Good,Asia
-186154,44,Non-binary,Designer,IT,4,Remote,57,8,3,Low,Depression,No,No Change,4,Satisfied,4,,Good,Oceania
-259236,56,Non-binary,HR,Healthcare,28,Onsite,51,10,4,Low,Anxiety,No,Decrease,2,Satisfied,4,Weekly,Good,North America
-265839,31,Prefer not to say,Project Manager,IT,13,Onsite,33,11,4,Low,Anxiety,Yes,Increase,4,Satisfied,4,Weekly,Good,Europe
-326846,30,Non-binary,Designer,IT,6,Onsite,49,5,2,High,Depression,No,Increase,4,Satisfied,3,Daily,Good,Asia
-740291,48,Male,HR,IT,22,Hybrid,42,10,2,Low,Depression,No,Decrease,3,Satisfied,3,Weekly,Good,Europe
-788510,30,Non-binary,HR,IT,26,Onsite,28,2,5,Medium,Depression,Yes,Increase,4,Satisfied,4,Weekly,Good,Europe
-665252,54,Prefer not to say,Data Scientist,Finance,9,Onsite,35,4,2,Low,Depression,No,Decrease,4,Neutral,4,,Average,Oceania
-347810,30,Non-binary,Project Manager,Retail,16,Hybrid,40,6,1,Medium,Anxiety,Yes,Decrease,2,Neutral,3,Weekly,Good,Europe
-774273,37,Non-binary,Project Manager,Education,11,Remote,46,14,3,Medium,Depression,No,Increase,3,Satisfied,3,,Poor,Oceania
-373361,35,Female,Marketing,Manufacturing,7,Hybrid,38,9,4,High,,No,Increase,4,Satisfied,2,Daily,Poor,Oceania
-540128,37,Prefer not to say,HR,Finance,23,Onsite,37,8,3,High,Depression,Yes,Increase,3,Satisfied,3,,Good,North America
-570440,39,Non-binary,Project Manager,Finance,13,Onsite,46,5,3,Low,Depression,Yes,Decrease,5,Satisfied,3,,Good,Asia
-238788,38,Non-binary,Marketing,Education,19,Onsite,29,13,3,Low,Depression,No,Increase,4,Satisfied,3,Daily,Average,North America
-820849,43,Non-binary,Data Scientist,Retail,31,Onsite,39,4,5,Medium,Depression,Yes,Decrease,3,Neutral,4,Daily,Poor,North America
-715193,39,Non-binary,Project Manager,Manufacturing,20,Remote,45,0,3,Low,Anxiety,No,Decrease,2,Satisfied,2,Weekly,Poor,North America
-805991,34,Male,HR,Finance,30,Onsite,41,5,3,Medium,Depression,No,Increase,2,Unsatisfied,2,Daily,Good,Europe
-765918,31,Non-binary,Marketing,IT,35,Hybrid,36,7,4,Low,Burnout,No,Increase,3,Unsatisfied,3,Weekly,Good,Europe
-739901,51,Female,Marketing,Healthcare,13,Remote,41,10,4,Medium,Depression,Yes,Increase,3,Satisfied,3,Weekly,Poor,North America
-938924,40,Female,Project Manager,Manufacturing,34,Onsite,43,7,1,Low,Anxiety,No,Increase,2,Unsatisfied,4,Weekly,Average,Europe
-862250,36,Non-binary,Designer,Finance,20,Remote,57,1,3,Low,Depression,No,No Change,4,Satisfied,4,Weekly,Good,Oceania
-220999,43,Non-binary,Software Engineer,Manufacturing,18,Hybrid,43,9,4,Low,Depression,Yes,Increase,3,Satisfied,3,Daily,Poor,Europe
-614032,35,Male,HR,Healthcare,15,Onsite,30,12,5,Low,Burnout,Yes,Increase,3,Satisfied,3,,Good,Europe
-305964,45,Non-binary,Sales,Manufacturing,19,Onsite,38,7,2,Medium,Anxiety,No,Increase,2,Unsatisfied,3,Daily,Good,Europe
-264536,49,Male,Marketing,Healthcare,21,Remote,46,2,4,High,Burnout,No,Increase,2,Satisfied,3,Daily,Good,Europe
-784930,35,Non-binary,Marketing,Healthcare,10,Onsite,53,12,3,High,Anxiety,No,Increase,4,Unsatisfied,2,Weekly,Average,Asia
-912889,50,Non-binary,Designer,Finance,26,Onsite,51,1,4,Low,Anxiety,Yes,Increase,3,Satisfied,3,,Poor,North America
-262823,24,Non-binary,Data Scientist,Healthcare,27,Onsite,31,6,3,Medium,Depression,Yes,Increase,3,Neutral,3,,Average,North America
-127662,54,Male,HR,Finance,9,Onsite,37,3,3,Low,,Yes,Decrease,4,Unsatisfied,3,Weekly,Poor,Europe
-615056,40,Non-binary,Project Manager,Education,11,Remote,35,8,3,Medium,Burnout,Yes,Decrease,4,Satisfied,3,Weekly,Good,North America
-562095,47,Female,HR,IT,23,Onsite,46,5,3,High,Depression,No,Increase,2,Satisfied,3,Weekly,Good,Europe
-576399,41,Non-binary,Project Manager,Finance,14,Onsite,56,12,3,Low,Depression,No,Decrease,3,Neutral,2,Daily,Poor,Oceania
-791579,51,Male,Sales,IT,21,Onsite,41,11,4,Low,Burnout,Yes,Decrease,2,Satisfied,3,Weekly,Poor,Asia
-205747,40,Non-binary,Sales,Finance,30,Onsite,52,10,4,Low,Depression,Yes,Increase,5,Satisfied,4,Weekly,Poor,Oceania
-536380,44,Non-binary,Sales,Education,10,Onsite,47,9,3,High,,Yes,Increase,5,Satisfied,4,Daily,Average,North America
-178184,26,Male,Data Scientist,Healthcare,3,Onsite,49,8,4,Low,Anxiety,Yes,Increase,5,Neutral,3,Daily,Good,Oceania
-227508,50,Male,HR,Finance,20,Onsite,41,7,5,Low,Burnout,No,Increase,3,Satisfied,4,Daily,Poor,North America
-846353,39,Non-binary,Sales,IT,10,Onsite,27,13,4,Low,Depression,No,Increase,2,Satisfied,3,Weekly,Good,North America
-169998,28,Non-binary,Software Engineer,IT,22,Hybrid,29,8,3,Low,Depression,No,Decrease,4,Unsatisfied,2,Weekly,Good,Europe
-105839,42,Non-binary,HR,Finance,22,Onsite,57,5,2,Low,Burnout,Yes,Increase,3,Satisfied,1,Weekly,Good,North America
-782015,45,Non-binary,Marketing,Healthcare,20,Remote,26,1,3,Low,Depression,No,Increase,4,Neutral,4,Weekly,Good,North America
-912898,36,Male,Data Scientist,Healthcare,1,Remote,24,6,4,Medium,Burnout,Yes,Increase,2,Unsatisfied,2,Daily,Average,Europe
-736938,39,Male,Sales,Finance,13,Remote,37,11,2,High,Burnout,Yes,Decrease,1,Satisfied,3,,Average,North America
-853701,52,Prefer not to say,Project Manager,Finance,19,Onsite,35,11,4,High,Anxiety,Yes,No Change,1,Satisfied,3,Daily,Good,Africa
-450977,25,Non-binary,Project Manager,Finance,23,Hybrid,47,3,2,High,Burnout,No,No Change,4,Unsatisfied,1,Daily,Good,Europe
-854075,32,Prefer not to say,Marketing,Retail,25,Hybrid,31,10,3,Low,Depression,No,Increase,3,Satisfied,2,Daily,Poor,Africa
-952701,30,Male,Project Manager,IT,26,Onsite,46,14,2,Low,Anxiety,No,No Change,1,Unsatisfied,1,Weekly,Average,Oceania
-143745,32,Male,HR,IT,18,Onsite,34,14,2,Low,Burnout,No,Increase,4,Neutral,2,Weekly,Poor,Oceania
-919284,46,Female,Marketing,Finance,2,Onsite,25,3,2,Low,Depression,No,No Change,3,Satisfied,1,Daily,Average,Europe
-831533,39,Non-binary,Software Engineer,IT,25,Onsite,45,11,4,Low,,Yes,Increase,3,Satisfied,5,,Poor,Europe
-303918,42,Female,HR,Finance,29,Onsite,26,12,4,Low,Depression,No,No Change,4,Neutral,2,Weekly,Average,South America
-319062,38,Female,Project Manager,Healthcare,7,Remote,41,2,3,High,Burnout,Yes,Decrease,3,Satisfied,4,,Good,Europe
-573826,24,Male,Project Manager,Education,32,Onsite,35,12,4,High,Burnout,No,Increase,3,Satisfied,4,Daily,Poor,Oceania
-905197,58,Non-binary,Project Manager,IT,22,Hybrid,43,4,3,High,Burnout,Yes,Decrease,4,Satisfied,1,Daily,Good,Europe
-762045,55,Non-binary,Sales,Finance,27,Onsite,22,7,4,Low,Anxiety,Yes,Increase,3,Satisfied,4,Weekly,Good,Asia
-610054,46,Female,Marketing,Manufacturing,16,Remote,41,2,4,Low,Depression,Yes,Increase,2,Satisfied,2,Daily,Average,Asia
-685590,54,Female,Project Manager,IT,14,Remote,45,8,2,Medium,Burnout,No,Decrease,2,Satisfied,1,Weekly,Good,Oceania
-735634,45,Male,Project Manager,Manufacturing,25,Onsite,26,8,3,Low,Depression,No,Increase,2,Unsatisfied,5,Weekly,Poor,Europe
-349256,40,Male,HR,IT,8,Onsite,28,10,3,Medium,,No,Increase,3,Satisfied,4,,Good,Oceania
-230646,43,Non-binary,HR,IT,18,Hybrid,31,14,2,Low,Depression,Yes,Increase,2,Neutral,4,Weekly,Good,Europe
-228691,43,Female,Sales,Healthcare,23,Onsite,32,5,3,Medium,Anxiety,Yes,Increase,5,Satisfied,3,Daily,Good,Oceania
-455503,55,Non-binary,Marketing,Manufacturing,4,Onsite,56,8,4,High,Depression,No,Increase,3,Satisfied,3,Weekly,Good,Africa
-210549,56,Female,Project Manager,Finance,30,Onsite,43,14,3,Low,Burnout,No,Increase,1,Unsatisfied,3,Daily,Poor,Oceania
-366244,44,Female,Marketing,Healthcare,5,Hybrid,43,11,3,High,Burnout,No,Increase,4,Satisfied,4,Weekly,Average,Europe
-592942,36,Non-binary,Project Manager,Finance,24,Onsite,26,7,1,Low,Burnout,Yes,No Change,2,Satisfied,2,Weekly,Good,Oceania
-549729,37,Prefer not to say,HR,IT,28,Onsite,56,6,3,Medium,Burnout,No,Decrease,5,Satisfied,3,Weekly,Poor,Asia
-137971,41,Non-binary,Designer,Education,18,Hybrid,49,10,2,High,Burnout,Yes,Decrease,2,Unsatisfied,2,Daily,Good,Oceania
-418147,43,Non-binary,Designer,Education,32,Hybrid,33,14,1,Medium,Depression,Yes,Increase,4,Satisfied,4,Weekly,Average,Europe
-855829,44,Non-binary,Project Manager,Education,22,Onsite,34,11,4,Medium,Burnout,Yes,Decrease,2,Neutral,3,Weekly,Good,North America
-668419,37,Male,Sales,Education,21,Onsite,47,8,3,High,Depression,No,Decrease,2,Neutral,4,Weekly,Good,Oceania
-130441,24,Female,HR,Healthcare,19,Onsite,26,7,3,Low,Burnout,No,Decrease,2,Neutral,4,Daily,Poor,Africa
-281928,23,Male,HR,Healthcare,24,Onsite,38,1,4,High,,Yes,Increase,4,Satisfied,3,Weekly,Good,North America
-767444,38,Male,Sales,Finance,18,Remote,41,9,3,High,Depression,No,Increase,5,Neutral,3,Daily,Average,North America
-320544,37,Prefer not to say,Project Manager,Retail,20,Hybrid,58,8,1,High,Burnout,Yes,Increase,3,Satisfied,1,Weekly,Good,Africa
-404541,47,Prefer not to say,Marketing,Education,20,Onsite,41,13,5,Low,Anxiety,No,Increase,2,Satisfied,3,Weekly,Good,Africa
-430010,55,Male,Marketing,IT,17,Onsite,53,7,4,Low,Depression,No,Decrease,2,Satisfied,1,Weekly,Good,North America
-943868,23,Non-binary,Designer,Healthcare,15,Remote,27,10,2,Medium,Burnout,Yes,Increase,1,Unsatisfied,1,,Good,Europe
-875648,52,Male,Project Manager,Education,21,Onsite,46,10,3,Low,Depression,Yes,Increase,3,Satisfied,2,Daily,Average,Oceania
-912628,22,Non-binary,Marketing,Manufacturing,17,Onsite,41,7,5,Medium,Burnout,Yes,Decrease,4,Satisfied,4,,Poor,Europe
-420350,40,Non-binary,Software Engineer,IT,23,Onsite,28,9,5,Low,Depression,No,No Change,1,Neutral,3,,Good,Asia
-370085,35,Male,Sales,Education,13,Hybrid,28,13,4,Low,Depression,No,Increase,2,Satisfied,4,Weekly,Good,Africa
-868502,40,Non-binary,Sales,Education,9,Onsite,51,10,4,Low,Depression,No,Decrease,4,Satisfied,3,Weekly,Average,Asia
-653652,54,Male,HR,Manufacturing,7,Hybrid,55,14,5,Medium,Anxiety,No,Increase,5,Satisfied,4,Weekly,Poor,South America
-363850,26,Non-binary,Project Manager,Healthcare,18,Onsite,34,4,4,Low,Burnout,No,Increase,3,Satisfied,2,,Poor,Asia
-762799,42,Non-binary,Marketing,Finance,16,Onsite,24,5,4,High,Burnout,No,Decrease,4,Neutral,2,Weekly,Average,Africa
-765432,39,Male,Sales,Healthcare,15,Hybrid,34,8,5,Low,Anxiety,Yes,No Change,3,Satisfied,2,Daily,Good,North America
-901463,36,Non-binary,Project Manager,Retail,21,Hybrid,32,13,3,Medium,Burnout,Yes,Increase,2,Unsatisfied,4,Weekly,Good,Europe
-853014,47,Non-binary,Marketing,IT,21,Remote,46,9,3,High,Depression,Yes,No Change,2,Satisfied,2,Weekly,Good,Europe
-843135,40,Non-binary,Project Manager,IT,23,Onsite,32,10,3,Low,Depression,Yes,Increase,1,Satisfied,3,Weekly,Good,Europe
-816747,34,Male,Designer,Healthcare,18,Onsite,51,10,1,Medium,Depression,No,Increase,2,Satisfied,3,Weekly,Good,Europe
-335681,31,Male,Project Manager,Finance,22,Onsite,30,5,2,Low,Burnout,Yes,Decrease,4,Satisfied,2,,Poor,North America
-964241,23,Male,HR,Finance,29,Onsite,31,9,4,High,Depression,No,Increase,3,Satisfied,3,Weekly,Good,North America
-850284,46,Male,Sales,Finance,15,Onsite,42,0,3,Low,Burnout,Yes,Increase,5,Satisfied,4,Weekly,Good,North America
-274854,37,Male,Sales,Healthcare,13,Onsite,45,2,5,Medium,Depression,Yes,Increase,3,Satisfied,3,Weekly,Good,Asia
-284909,29,Female,Sales,IT,15,Remote,53,10,4,Low,Depression,Yes,Decrease,2,Satisfied,2,,Average,Europe
-624819,43,Male,Marketing,IT,34,Onsite,48,3,4,Medium,,Yes,No Change,3,Unsatisfied,5,Weekly,Average,Asia
-707016,27,Male,HR,Healthcare,19,Remote,54,13,3,Low,Depression,No,Increase,4,Satisfied,2,Weekly,Average,Europe
-832128,30,Non-binary,Project Manager,IT,20,Onsite,33,3,2,Low,Anxiety,No,Increase,2,Satisfied,3,Weekly,Good,Europe
-492063,32,Non-binary,Designer,IT,12,Onsite,29,6,3,Low,Depression,No,Increase,4,Satisfied,4,Weekly,Average,Africa
-122505,38,Prefer not to say,Project Manager,Retail,14,Onsite,44,12,2,High,Depression,Yes,Increase,1,Unsatisfied,4,Daily,Good,North America
-296516,33,Non-binary,HR,Healthcare,19,Onsite,40,4,1,Low,,Yes,No Change,3,Satisfied,3,Weekly,Poor,Oceania
-405951,52,Male,Designer,Education,12,Onsite,25,7,3,Low,Burnout,No,Increase,5,Satisfied,2,Weekly,Average,North America
-206193,50,Non-binary,Designer,Manufacturing,7,Onsite,35,8,2,Low,Depression,Yes,Increase,2,Satisfied,4,Weekly,Poor,Oceania
-424636,39,Male,Project Manager,IT,21,Hybrid,40,9,2,Medium,Burnout,Yes,Decrease,3,Unsatisfied,4,Weekly,Poor,North America
-613079,48,Male,Project Manager,IT,20,Remote,44,9,4,Medium,Burnout,Yes,No Change,2,Satisfied,3,Weekly,Good,North America
-319372,42,Male,Project Manager,Finance,30,Onsite,31,10,3,Low,Anxiety,Yes,Increase,3,Unsatisfied,4,,Average,Oceania
-797898,42,Non-binary,Marketing,Finance,15,Onsite,47,1,4,High,Burnout,Yes,Decrease,5,Satisfied,4,Weekly,Good,Oceania
-117420,42,Male,Software Engineer,Healthcare,18,Onsite,44,5,5,Low,Depression,Yes,Decrease,4,Satisfied,5,,Good,Asia
-571737,24,Male,Sales,Manufacturing,26,Onsite,25,3,3,Low,Burnout,Yes,Increase,5,Satisfied,3,Weekly,Good,North America
-883553,34,Male,Designer,IT,21,Remote,47,3,4,High,Burnout,Yes,Decrease,4,Satisfied,2,Daily,Good,Europe
-346205,54,Non-binary,Designer,IT,3,Onsite,27,15,2,Low,Anxiety,Yes,No Change,2,Satisfied,4,Weekly,Poor,North America
-560849,23,Non-binary,Designer,IT,22,Onsite,33,5,5,Medium,Depression,No,Increase,3,Satisfied,3,Daily,Poor,Africa
-705935,25,Non-binary,HR,Finance,30,Onsite,39,8,3,Medium,Burnout,Yes,Increase,3,Satisfied,4,Weekly,Good,Asia
-122633,31,Female,Designer,Healthcare,32,Onsite,37,5,2,Medium,Burnout,Yes,Increase,4,Satisfied,3,,Good,Europe
-177917,42,Non-binary,HR,Manufacturing,25,Onsite,42,6,3,High,Burnout,No,Increase,3,Unsatisfied,1,Weekly,Poor,Africa
-887843,44,Male,Marketing,Finance,14,Onsite,46,10,2,High,Depression,No,No Change,2,Unsatisfied,2,Weekly,Poor,Asia
-340625,44,Non-binary,Project Manager,Healthcare,19,Hybrid,31,13,4,Medium,Burnout,No,Increase,4,Unsatisfied,3,Daily,Good,Oceania
-628194,35,Non-binary,HR,Healthcare,12,Hybrid,48,6,2,High,Burnout,No,No Change,3,Satisfied,2,,Poor,North America
-585733,38,Male,Sales,Education,19,Onsite,48,14,3,Low,Burnout,No,Increase,1,Unsatisfied,4,Daily,Good,North America
-881667,32,Male,Designer,IT,21,Onsite,21,12,5,High,,No,No Change,3,Satisfied,3,Weekly,Good,Europe
-566172,32,Female,Marketing,Manufacturing,4,Onsite,37,11,4,High,Depression,Yes,No Change,4,Satisfied,2,Weekly,Good,North America
-495761,58,Non-binary,Designer,Education,13,Onsite,32,12,2,Low,Burnout,No,Increase,2,Satisfied,3,,Average,Africa
-187383,47,Non-binary,Marketing,Consulting,24,Onsite,40,6,1,Low,Depression,No,No Change,3,Unsatisfied,3,Weekly,Good,Asia
-138205,53,Male,Sales,Healthcare,33,Onsite,43,10,3,Low,,Yes,Increase,3,Satisfied,3,Weekly,Good,North America
-204159,31,Prefer not to say,Software Engineer,Finance,27,Onsite,40,4,4,High,Depression,No,Increase,2,Satisfied,1,Weekly,Average,Europe
-973488,45,Non-binary,Project Manager,Education,22,Onsite,32,4,2,Low,Depression,Yes,Increase,2,Satisfied,4,Weekly,Good,Africa
-699963,49,Female,HR,Finance,23,Hybrid,37,12,1,High,Burnout,No,No Change,3,Satisfied,5,Weekly,Good,North America
-836730,49,Female,Project Manager,Healthcare,16,Onsite,49,3,2,High,Depression,No,No Change,2,Satisfied,2,Daily,Good,North America
-142154,57,Non-binary,HR,IT,21,Onsite,37,2,4,Low,Burnout,No,Increase,1,Satisfied,3,,Average,North America
-167909,42,Prefer not to say,Marketing,Manufacturing,27,Onsite,50,10,5,Low,Burnout,Yes,Decrease,1,Satisfied,3,Daily,Good,Oceania
-829588,40,Non-binary,HR,Finance,21,Onsite,22,8,4,Low,Burnout,No,No Change,2,Satisfied,5,,Good,North America
-267840,38,Prefer not to say,Sales,Manufacturing,20,Onsite,23,3,4,Low,Burnout,Yes,No Change,3,Satisfied,5,Weekly,Good,North America
-467954,54,Female,Project Manager,Healthcare,11,Hybrid,34,11,5,Low,Depression,Yes,Decrease,2,Satisfied,3,Weekly,Average,North America
-578800,42,Female,Project Manager,Finance,12,Onsite,36,5,1,High,Burnout,No,Increase,3,Satisfied,5,,Good,North America
-564933,30,Male,Project Manager,Finance,22,Onsite,43,3,3,Low,,No,Increase,3,Satisfied,2,Daily,Average,Europe
-585522,45,Non-binary,Marketing,Education,17,Onsite,54,14,3,Medium,Anxiety,Yes,Decrease,3,Neutral,2,Weekly,Good,Europe
-934397,45,Male,Marketing,Healthcare,28,Onsite,31,9,3,Medium,Burnout,Yes,Increase,2,Satisfied,4,,Average,Oceania
-779179,34,Non-binary,Data Scientist,Healthcare,12,Onsite,41,5,1,Low,,No,No Change,4,Unsatisfied,3,,Good,Asia
-634927,31,Male,Designer,Education,21,Onsite,55,13,1,Low,Anxiety,Yes,No Change,3,Satisfied,5,Weekly,Good,Europe
-527227,26,Male,Designer,Healthcare,20,Onsite,56,14,2,Low,Depression,No,Increase,4,Satisfied,1,Weekly,Average,Asia
-286958,36,Non-binary,Marketing,IT,9,Remote,45,12,2,Low,Depression,No,Decrease,3,Satisfied,2,Weekly,Good,Europe
-364689,23,Male,Marketing,Healthcare,25,Remote,48,1,5,Low,Burnout,Yes,Increase,2,Satisfied,3,Weekly,Good,North America
-958274,42,Male,HR,Consulting,17,Hybrid,49,10,2,Low,Depression,Yes,Increase,3,Neutral,5,Weekly,Poor,Europe
-314003,27,Male,Marketing,Manufacturing,20,Onsite,46,5,4,High,Burnout,No,Decrease,4,Satisfied,4,,Good,Oceania
-205119,45,Female,HR,IT,15,Hybrid,42,0,3,High,Anxiety,No,Decrease,3,Satisfied,3,Weekly,Good,Europe
-259480,48,Non-binary,Marketing,IT,21,Onsite,38,9,4,Low,Depression,No,Increase,3,Satisfied,4,,Good,Europe
-304723,47,Male,Sales,Healthcare,8,Hybrid,45,1,2,High,,Yes,No Change,2,Unsatisfied,4,Weekly,Average,Oceania
-431014,45,Non-binary,Marketing,Healthcare,4,Onsite,56,5,4,Low,Burnout,No,Increase,5,Unsatisfied,2,Weekly,Good,Europe
-135304,46,Male,Marketing,Finance,25,Remote,48,11,4,Low,Burnout,No,Decrease,3,Unsatisfied,3,Weekly,Average,Asia
-597106,57,Non-binary,Designer,IT,25,Onsite,29,7,4,High,,No,Increase,1,Neutral,2,Weekly,Good,Oceania
-287995,42,Prefer not to say,Data Scientist,Education,30,Onsite,57,3,5,Low,Depression,No,Decrease,3,Unsatisfied,5,Weekly,Good,North America
-492034,26,Non-binary,Project Manager,Finance,15,Onsite,48,6,3,Low,Burnout,No,Increase,3,Satisfied,3,Daily,Average,Europe
-538036,41,Non-binary,Marketing,Manufacturing,24,Onsite,41,11,2,Low,Burnout,Yes,No Change,4,Satisfied,4,Weekly,Average,Oceania
-175389,50,Male,Designer,IT,19,Onsite,51,2,4,Low,,Yes,Increase,2,Satisfied,4,Weekly,Good,Asia
-438153,34,Male,Marketing,Healthcare,31,Onsite,54,5,3,Low,Burnout,Yes,Decrease,4,Unsatisfied,3,Daily,Average,Europe
-888876,56,Male,Designer,Finance,25,Hybrid,55,11,3,Low,,Yes,Increase,1,Neutral,2,Weekly,Poor,North America
-642158,31,Male,Project Manager,Finance,22,Hybrid,53,15,3,Medium,Burnout,Yes,No Change,4,Neutral,3,Daily,Average,Oceania
-156269,52,Prefer not to say,Marketing,Healthcare,10,Onsite,48,7,2,Low,Anxiety,No,Decrease,3,Satisfied,3,,Good,Europe
-585634,30,Prefer not to say,HR,Education,27,Onsite,25,0,3,Low,Burnout,No,No Change,1,Satisfied,3,,Good,Oceania
-325435,31,Male,Project Manager,Finance,12,Remote,31,9,4,Low,Burnout,Yes,Decrease,2,Satisfied,2,Weekly,Good,North America
-932477,48,Male,Designer,Healthcare,12,Onsite,43,12,3,Medium,Burnout,No,No Change,3,Satisfied,3,,Poor,North America
-977962,43,Non-binary,Project Manager,IT,28,Onsite,31,4,5,Medium,Anxiety,No,Decrease,4,Neutral,1,,Average,South America
-864651,54,Male,Data Scientist,Finance,23,Onsite,52,1,3,Medium,Burnout,No,No Change,4,Satisfied,3,Weekly,Good,North America
-435849,28,Male,Marketing,Manufacturing,14,Onsite,44,5,4,Low,Depression,Yes,Increase,3,Neutral,3,Weekly,Average,Europe
-146853,53,Prefer not to say,HR,Retail,12,Onsite,31,14,1,Low,Anxiety,No,Increase,4,Unsatisfied,3,,Poor,Oceania
-284710,53,Non-binary,Marketing,Manufacturing,35,Onsite,26,2,3,High,Depression,No,Increase,3,Unsatisfied,2,,Good,Europe
-606110,39,Prefer not to say,Designer,Finance,17,Hybrid,43,8,5,Low,Anxiety,No,Decrease,3,Satisfied,2,Daily,Good,North America
-139413,34,Non-binary,Project Manager,Education,16,Onsite,25,8,3,Low,Anxiety,Yes,Increase,5,Unsatisfied,4,Weekly,Good,North America
-476803,23,Non-binary,Project Manager,Healthcare,28,Remote,41,2,4,Medium,Anxiety,Yes,Increase,3,Satisfied,1,Weekly,Average,Asia
-653390,49,Non-binary,Designer,Healthcare,31,Remote,47,5,4,Low,Burnout,No,Increase,3,Satisfied,5,Weekly,Good,North America
-675962,25,Female,Designer,IT,23,Hybrid,37,5,3,Low,Burnout,No,Increase,4,Neutral,2,Weekly,Good,North America
-211653,40,Non-binary,HR,Healthcare,22,Onsite,24,7,3,Medium,Burnout,No,Increase,3,Satisfied,4,Weekly,Good,North America
-627941,48,Non-binary,Project Manager,IT,11,Onsite,49,6,3,Low,Burnout,Yes,Increase,4,Satisfied,4,Weekly,Good,Oceania
-904116,33,Male,Project Manager,Manufacturing,15,Remote,28,11,3,High,Burnout,Yes,No Change,4,Satisfied,4,Weekly,Good,Oceania
-678674,30,Female,Project Manager,Education,27,Onsite,35,8,3,Low,,No,Increase,2,Satisfied,3,Weekly,Poor,North America
-158031,37,Non-binary,Marketing,IT,16,Onsite,36,5,3,Low,Burnout,Yes,Decrease,3,Unsatisfied,3,Daily,Good,Asia
-395445,47,Prefer not to say,Sales,Manufacturing,24,Onsite,48,7,5,Low,,Yes,Decrease,3,Unsatisfied,3,Weekly,Good,North America
-699502,43,Non-binary,Marketing,Education,13,Onsite,42,10,4,Medium,Anxiety,No,Increase,4,Satisfied,4,Weekly,Poor,Oceania
-141528,30,Non-binary,HR,Finance,9,Remote,51,1,4,Low,Depression,Yes,Decrease,4,Satisfied,1,,Average,Europe
-757484,42,Non-binary,Designer,Healthcare,27,Remote,46,5,4,High,Depression,No,No Change,2,Satisfied,4,Weekly,Good,North America
-128601,36,Male,HR,Manufacturing,6,Onsite,39,10,3,Medium,Depression,Yes,No Change,3,Satisfied,1,Weekly,Average,Asia
-431920,24,Female,Sales,Finance,5,Onsite,60,9,1,Low,Depression,No,Increase,5,Satisfied,2,Weekly,Poor,Asia
-810170,37,Non-binary,Designer,Manufacturing,9,Onsite,34,11,2,Low,,No,Increase,4,Satisfied,3,Daily,Poor,Oceania
-450016,44,Non-binary,Marketing,IT,13,Hybrid,26,12,2,Low,Burnout,Yes,Increase,2,Unsatisfied,1,Weekly,Good,Oceania
-465316,45,Male,Sales,Finance,30,Onsite,47,1,3,Low,Burnout,No,Increase,3,Satisfied,5,Weekly,Good,Africa
-415347,40,Female,HR,Healthcare,11,Onsite,53,5,3,Low,Depression,Yes,Increase,5,Satisfied,3,Weekly,Good,Europe
-349830,24,Prefer not to say,HR,Healthcare,19,Onsite,48,4,3,Medium,Burnout,No,No Change,4,Satisfied,2,Weekly,Good,Asia
-622989,41,Male,Sales,Education,1,Hybrid,52,8,2,High,Depression,Yes,Increase,3,Satisfied,5,Weekly,Good,North America
-634547,36,Male,Marketing,IT,17,Onsite,34,7,2,Low,Burnout,Yes,Increase,3,Unsatisfied,4,Weekly,Average,Asia
-482173,46,Prefer not to say,Sales,Healthcare,31,Hybrid,43,7,1,Low,Depression,Yes,Increase,5,Satisfied,1,,Good,Asia
-855653,29,Female,Designer,Education,24,Onsite,39,10,3,Low,Burnout,No,Decrease,2,Satisfied,3,,Average,Europe
-979047,32,Female,Sales,Healthcare,20,Onsite,40,14,1,High,Burnout,No,Increase,4,Satisfied,3,Weekly,Good,North America
-564062,29,Male,Project Manager,IT,20,Onsite,34,12,5,Low,,No,Decrease,4,Satisfied,4,Daily,Good,South America
-121583,32,Prefer not to say,Designer,Finance,27,Hybrid,35,8,1,Low,Burnout,No,Increase,3,Neutral,5,,Good,Europe
-396095,34,Prefer not to say,Designer,Finance,25,Hybrid,53,4,2,Low,Burnout,Yes,Decrease,2,Satisfied,4,Weekly,Average,North America
-749795,31,Non-binary,Designer,Healthcare,23,Onsite,23,11,1,Low,Depression,No,Decrease,1,Satisfied,5,Weekly,Average,Asia
-133301,22,Non-binary,Project Manager,Healthcare,22,Onsite,30,6,3,Low,Depression,Yes,No Change,2,Satisfied,2,Weekly,Average,North America
-574708,27,Male,Project Manager,Healthcare,19,Onsite,48,8,3,Medium,Depression,Yes,No Change,3,Neutral,4,Weekly,Average,Asia
-803488,35,Male,Designer,Finance,25,Onsite,60,8,3,Medium,,No,No Change,3,Satisfied,2,,Good,Europe
-846743,30,Prefer not to say,Designer,Manufacturing,21,Remote,58,6,5,Low,,No,Decrease,1,Satisfied,2,Daily,Good,North America
-115613,52,Prefer not to say,Sales,Retail,15,Onsite,42,10,3,Low,Anxiety,Yes,Increase,3,Satisfied,3,Weekly,Average,North America
-281229,38,Male,HR,Finance,15,Onsite,24,12,1,Medium,Depression,Yes,Increase,3,Unsatisfied,3,,Average,Asia
-915523,50,Non-binary,Marketing,Finance,12,Onsite,31,1,5,Low,Burnout,No,Increase,5,Neutral,3,,Poor,Europe
-926647,46,Female,Marketing,Healthcare,9,Onsite,34,13,2,Low,Burnout,No,Decrease,4,Satisfied,1,Weekly,Good,Europe
-887612,34,Non-binary,Marketing,Education,28,Remote,47,7,4,Medium,Burnout,No,Increase,2,Satisfied,5,,Average,Europe
-245250,25,Prefer not to say,Designer,IT,13,Onsite,50,3,2,Low,Anxiety,No,No Change,4,Unsatisfied,4,Weekly,Good,Oceania
-818821,49,Male,Marketing,Consulting,16,Remote,33,7,2,Low,Burnout,Yes,Increase,4,Satisfied,3,,Good,Europe
-639314,41,Non-binary,Designer,Finance,19,Remote,41,13,2,Low,Depression,Yes,Increase,4,Satisfied,2,,Average,Asia
-387310,41,Male,Data Scientist,Manufacturing,20,Onsite,40,2,4,Low,Burnout,No,Increase,3,Unsatisfied,3,Weekly,Average,Europe
-697833,29,Non-binary,Designer,Healthcare,28,Onsite,43,5,3,Low,,No,Increase,3,Unsatisfied,1,Weekly,Average,Europe
-105343,31,Female,Project Manager,Healthcare,11,Hybrid,37,10,4,Low,Depression,Yes,No Change,1,Neutral,5,Weekly,Poor,North America
-430685,34,Non-binary,Sales,IT,24,Onsite,29,6,4,Low,Burnout,No,Increase,2,Satisfied,2,Weekly,Average,Asia
-229482,58,Prefer not to say,Designer,Healthcare,21,Hybrid,36,5,2,Medium,Depression,Yes,Increase,4,Satisfied,3,Daily,Good,South America
-122465,50,Male,Marketing,Healthcare,20,Hybrid,40,1,3,Low,Depression,No,Increase,5,Unsatisfied,3,Weekly,Average,Oceania
-731929,32,Female,Project Manager,Education,20,Onsite,30,1,3,Low,Depression,Yes,Increase,2,Satisfied,5,,Poor,Africa
-128421,28,Non-binary,Marketing,Finance,25,Onsite,25,13,3,Low,Burnout,Yes,No Change,3,Unsatisfied,3,Daily,Poor,Asia
-721034,38,Female,Sales,Healthcare,19,Onsite,50,11,3,Low,Depression,No,Increase,1,Neutral,2,,Good,Asia
-517969,30,Non-binary,Marketing,Education,13,Remote,47,4,3,Low,Depression,No,Decrease,4,Satisfied,4,Weekly,Good,Africa
-897047,52,Non-binary,Software Engineer,IT,18,Remote,28,1,4,Medium,Burnout,Yes,Increase,2,Neutral,4,,Good,Europe
-538604,30,Non-binary,Project Manager,Healthcare,8,Remote,22,8,3,High,Depression,Yes,Increase,3,Unsatisfied,2,Weekly,Good,Europe
-221846,33,Male,Marketing,IT,24,Onsite,48,2,2,High,Burnout,Yes,Decrease,4,Satisfied,3,Weekly,Good,Africa
-636166,55,Non-binary,Marketing,Finance,15,Remote,21,1,4,Low,Depression,No,No Change,5,Satisfied,3,,Good,Europe
-902075,50,Non-binary,Project Manager,Healthcare,28,Onsite,30,8,1,Low,Depression,No,Increase,3,Satisfied,3,,Good,Africa
-871501,36,Male,Marketing,Education,14,Onsite,42,15,2,Medium,Depression,Yes,No Change,4,Satisfied,4,,Good,Europe
-112204,42,Male,Project Manager,Healthcare,27,Onsite,41,6,3,Low,Burnout,Yes,Increase,3,Neutral,5,Daily,Good,North America
-658923,46,Non-binary,HR,IT,29,Hybrid,52,6,2,High,Depression,No,Decrease,1,Neutral,2,Weekly,Poor,Europe
-614782,29,Male,Project Manager,Education,2,Remote,33,3,2,High,Burnout,Yes,Increase,2,Neutral,2,Weekly,Good,Asia
-567885,31,Male,Designer,Consulting,16,Hybrid,41,8,4,Low,Depression,No,Increase,4,Satisfied,1,Weekly,Good,Africa
-616593,58,Male,HR,Manufacturing,19,Onsite,38,7,1,Medium,Burnout,No,Decrease,1,Unsatisfied,3,,Poor,Asia
-882115,30,Male,Software Engineer,Consulting,24,Remote,56,2,4,High,Burnout,Yes,Increase,4,Satisfied,3,Weekly,Good,Europe
-465317,45,Male,Designer,IT,16,Hybrid,34,14,2,Medium,Depression,No,Decrease,2,Satisfied,2,,Good,North America
-963409,36,Female,HR,Education,19,Onsite,39,5,3,Medium,Anxiety,Yes,Increase,5,Satisfied,4,Weekly,Average,North America
-511761,52,Male,Sales,Healthcare,25,Remote,33,7,3,High,Anxiety,No,Increase,3,Unsatisfied,3,Daily,Good,Europe
-558932,48,Male,Project Manager,Manufacturing,6,Onsite,34,0,2,Low,Anxiety,No,Decrease,2,Unsatisfied,2,Weekly,Poor,Europe
-679684,38,Male,Marketing,Finance,34,Onsite,51,2,5,High,Burnout,No,Increase,4,Unsatisfied,5,Weekly,Average,Asia
-684720,50,Male,Sales,Education,11,Onsite,34,4,3,High,Depression,No,No Change,2,Neutral,4,Weekly,Poor,North America
-884752,27,Prefer not to say,HR,Finance,12,Hybrid,29,2,2,Medium,,Yes,Decrease,5,Satisfied,5,Weekly,Good,Oceania
-797807,48,Male,Designer,Finance,8,Onsite,43,6,2,Low,Anxiety,No,Increase,3,Satisfied,4,Weekly,Good,Europe
-803609,37,Male,Project Manager,Manufacturing,2,Onsite,35,7,3,Low,Burnout,No,Decrease,3,Unsatisfied,4,Weekly,Good,Africa
-183076,48,Female,Project Manager,Healthcare,15,Hybrid,30,6,3,Low,Burnout,No,No Change,4,Satisfied,4,,Poor,Asia
-181310,39,Male,Data Scientist,IT,6,Onsite,43,2,2,Low,Depression,Yes,No Change,4,Satisfied,4,Daily,Good,Europe
-150921,46,Male,HR,Finance,12,Onsite,28,7,4,Low,Burnout,Yes,Decrease,4,Neutral,1,,Poor,Europe
-965489,51,Prefer not to say,Project Manager,Healthcare,8,Remote,40,14,4,Low,Depression,Yes,Increase,4,Neutral,5,Daily,Good,Oceania
-562289,38,Male,Project Manager,Manufacturing,17,Onsite,59,12,2,Low,Depression,No,No Change,2,Neutral,5,Weekly,Good,Europe
-386408,43,Male,Software Engineer,Healthcare,17,Onsite,58,4,2,Low,Depression,No,Increase,2,Satisfied,3,Weekly,Good,Asia
-167891,34,Male,Marketing,Finance,3,Onsite,36,7,2,Low,Burnout,Yes,Decrease,3,Neutral,4,Weekly,Good,Europe
-223102,28,Male,Marketing,IT,12,Onsite,47,12,2,Low,Anxiety,Yes,No Change,5,Neutral,2,Weekly,Good,Oceania
-204376,49,Non-binary,HR,Consulting,21,Remote,47,6,3,Low,Burnout,Yes,Increase,2,Satisfied,4,,Poor,North America
-611522,26,Non-binary,Sales,Retail,20,Onsite,42,9,3,Low,Depression,Yes,Increase,3,Satisfied,3,Weekly,Average,Asia
-725111,38,Male,Sales,IT,13,Hybrid,47,9,3,Medium,,Yes,Decrease,4,Satisfied,2,Weekly,Poor,Asia
-466334,39,Non-binary,Designer,Manufacturing,12,Hybrid,54,5,3,High,Anxiety,Yes,Increase,3,Unsatisfied,3,Weekly,Poor,Asia
-782282,25,Non-binary,Project Manager,IT,30,Onsite,51,8,2,Low,Burnout,Yes,Increase,2,Neutral,3,Weekly,Good,Africa
-237443,40,Non-binary,Project Manager,Education,12,Onsite,40,11,2,Low,Depression,No,Decrease,3,Unsatisfied,4,Weekly,Good,Europe
-440152,42,Male,Designer,Consulting,10,Onsite,43,1,3,Low,Anxiety,No,No Change,3,Satisfied,1,Weekly,Good,Asia
-154929,45,Non-binary,Sales,Consulting,27,Onsite,27,4,3,High,Burnout,No,Decrease,2,Satisfied,5,,Poor,Oceania
-770224,38,Male,Sales,Manufacturing,31,Onsite,24,13,2,High,Burnout,Yes,No Change,4,Unsatisfied,2,Daily,Good,North America
-367372,34,Male,Project Manager,IT,10,Onsite,35,12,3,Low,Depression,No,No Change,4,Satisfied,3,Daily,Good,Asia
-624422,30,Male,Data Scientist,Education,17,Onsite,23,5,3,Low,Depression,Yes,Increase,2,Satisfied,3,Daily,Poor,Asia
-494298,24,Male,Data Scientist,Finance,25,Hybrid,55,11,1,Low,Depression,Yes,Decrease,2,Neutral,3,Daily,Average,Oceania
-239059,45,Non-binary,HR,IT,5,Onsite,41,6,1,Low,,No,Increase,4,Satisfied,4,Daily,Good,North America
-978935,38,Prefer not to say,Marketing,Education,6,Hybrid,33,9,3,Medium,Depression,No,Decrease,2,Satisfied,3,Daily,Good,Oceania
-706644,34,Male,Project Manager,Healthcare,19,Onsite,22,5,5,Low,Burnout,No,Increase,4,Neutral,2,Weekly,Poor,North America
-261238,24,Male,HR,IT,23,Hybrid,30,7,2,Low,Burnout,Yes,Increase,1,Satisfied,5,Daily,Poor,Europe
-891150,44,Non-binary,Sales,Consulting,6,Onsite,33,5,3,High,Depression,Yes,Increase,3,Unsatisfied,3,Weekly,Good,Asia
-670113,32,Male,Designer,Finance,20,Onsite,51,7,3,High,Burnout,No,Decrease,4,Unsatisfied,3,Daily,Good,Africa
-779538,47,Prefer not to say,Software Engineer,Manufacturing,18,Onsite,40,11,4,Medium,Depression,No,Increase,4,Satisfied,4,Weekly,Good,North America
-263979,40,Non-binary,Marketing,Healthcare,30,Onsite,36,2,2,Medium,Burnout,No,Decrease,4,Satisfied,3,Daily,Good,Asia
-900654,54,Male,Project Manager,IT,13,Hybrid,30,5,4,Low,Burnout,No,No Change,4,Satisfied,3,Weekly,Poor,North America
-863311,52,Prefer not to say,Software Engineer,Consulting,15,Hybrid,40,7,3,Low,Burnout,Yes,Increase,2,Satisfied,4,Daily,Good,Oceania
-624819,46,Non-binary,Project Manager,Healthcare,31,Remote,31,6,1,Low,Depression,No,Increase,2,Satisfied,2,Weekly,Good,Europe
-804045,34,Non-binary,Sales,Finance,27,Hybrid,59,15,1,Low,Depression,Yes,No Change,4,Satisfied,2,Weekly,Good,North America
-153355,47,Male,Designer,Finance,30,Hybrid,46,9,4,Medium,Burnout,No,Increase,2,Satisfied,2,Weekly,Good,South America
-563173,38,Non-binary,Designer,Healthcare,19,Onsite,22,3,5,Low,Depression,Yes,Decrease,2,Neutral,3,,Good,Oceania
-693860,31,Non-binary,Project Manager,Finance,18,Hybrid,49,9,3,High,Burnout,No,Increase,5,Neutral,4,Weekly,Poor,Oceania
-932437,36,Male,Marketing,Finance,15,Onsite,45,12,3,Low,Depression,No,Increase,4,Satisfied,2,Weekly,Average,Europe
-243358,36,Non-binary,Project Manager,Education,26,Remote,48,10,3,Medium,Burnout,No,Decrease,3,Unsatisfied,3,Weekly,Good,Europe
-386590,48,Female,Data Scientist,Retail,13,Onsite,22,11,3,Medium,Depression,Yes,Increase,2,Satisfied,1,Daily,Average,Africa
-503776,42,Prefer not to say,Designer,IT,15,Onsite,54,9,3,Low,Anxiety,No,No Change,3,Satisfied,5,Daily,Good,Asia
-528096,34,Non-binary,HR,Education,23,Onsite,33,6,3,Low,,No,Increase,2,Unsatisfied,5,,Good,North America
-429929,45,Non-binary,Designer,IT,8,Onsite,29,12,3,Low,Anxiety,No,Increase,4,Unsatisfied,4,,Poor,Europe
-208843,40,Male,Designer,Manufacturing,20,Hybrid,50,4,2,Medium,Burnout,No,Decrease,3,Unsatisfied,2,Weekly,Good,North America
-986724,32,Non-binary,HR,Healthcare,15,Hybrid,35,7,3,Low,Burnout,Yes,No Change,3,Satisfied,5,Weekly,Average,Asia
-867821,53,Non-binary,Project Manager,Healthcare,23,Onsite,35,1,3,Medium,Depression,No,No Change,1,Satisfied,2,Weekly,Poor,Europe
-876421,28,Female,Sales,Finance,31,Onsite,38,3,2,Low,Anxiety,No,Decrease,5,Satisfied,2,Weekly,Good,Europe
-986360,29,Non-binary,Project Manager,Education,13,Remote,31,11,3,Medium,Depression,No,Increase,4,Unsatisfied,4,,Poor,Europe
-755531,30,Non-binary,Data Scientist,Finance,15,Onsite,44,12,5,High,Depression,No,Increase,2,Neutral,3,Daily,Good,Europe
-638976,52,Non-binary,Sales,IT,2,Remote,24,4,4,High,Burnout,No,Increase,4,Satisfied,5,Daily,Poor,South America
-819456,32,Non-binary,Project Manager,Healthcare,10,Onsite,42,8,4,Low,Anxiety,No,Decrease,3,Unsatisfied,2,Weekly,Good,Asia
-144316,30,Prefer not to say,HR,Healthcare,10,Remote,40,15,4,Medium,Depression,No,Increase,5,Satisfied,2,Weekly,Average,Oceania
-741194,31,Prefer not to say,HR,Finance,15,Onsite,58,10,4,Low,Depression,No,Increase,5,Satisfied,3,Weekly,Good,South America
-565330,31,Male,Designer,Healthcare,33,Remote,43,5,1,Low,Depression,No,Increase,4,Satisfied,1,Daily,Good,Europe
-168681,52,Female,HR,Healthcare,16,Onsite,33,11,3,Medium,Depression,No,Increase,2,Satisfied,2,Weekly,Good,North America
-864488,58,Non-binary,Designer,IT,29,Hybrid,24,5,5,Low,Depression,Yes,No Change,2,Satisfied,3,Weekly,Good,North America
-358645,36,Male,Designer,IT,18,Onsite,47,6,2,Medium,Depression,Yes,Increase,2,Unsatisfied,3,,Poor,Europe
-999180,46,Male,HR,Finance,31,Onsite,27,1,2,High,Depression,No,Increase,4,Satisfied,1,Weekly,Good,Europe
-344479,32,Male,Marketing,Finance,3,Hybrid,29,5,3,High,Depression,No,Increase,3,Neutral,3,Weekly,Good,Europe
-542347,48,Male,Software Engineer,Education,16,Hybrid,46,7,3,Medium,Burnout,Yes,Increase,5,Satisfied,3,Weekly,Good,Oceania
-525633,46,Prefer not to say,Sales,Finance,32,Onsite,55,5,2,Low,,No,Increase,1,Satisfied,5,Weekly,Poor,North America
-625707,46,Male,Designer,Education,27,Remote,35,12,5,Medium,,No,Increase,3,Satisfied,4,Weekly,Poor,South America
-471565,48,Non-binary,Marketing,Manufacturing,30,Onsite,38,11,5,Low,Depression,No,Increase,2,Unsatisfied,3,Weekly,Good,Oceania
-347810,39,Male,Marketing,IT,21,Onsite,37,11,2,Low,Depression,No,Increase,3,Unsatisfied,3,Weekly,Good,North America
-260655,48,Prefer not to say,Project Manager,IT,14,Onsite,24,11,1,High,Depression,No,No Change,2,Satisfied,4,,Good,Europe
-633921,46,Non-binary,Project Manager,Finance,14,Remote,42,8,4,High,Burnout,Yes,Increase,5,Unsatisfied,3,Daily,Average,Oceania
-959794,35,Non-binary,Marketing,Healthcare,9,Remote,55,11,3,Medium,Depression,No,Decrease,3,Neutral,4,Weekly,Good,Oceania
-382782,34,Prefer not to say,Data Scientist,Education,12,Hybrid,42,14,3,Low,Depression,No,Increase,4,Satisfied,2,Daily,Good,North America
-444002,43,Non-binary,Data Scientist,Retail,30,Onsite,52,2,4,Low,Depression,No,Increase,5,Unsatisfied,2,Weekly,Good,Europe
-428095,45,Male,Designer,Healthcare,22,Remote,36,10,2,High,Depression,No,No Change,3,Satisfied,3,,Good,Africa
-208020,33,Male,Data Scientist,Finance,15,Remote,40,6,3,Low,Burnout,No,Increase,4,Satisfied,3,Weekly,Good,North America
-200028,31,Male,Marketing,Healthcare,16,Hybrid,58,2,3,Medium,Burnout,No,Decrease,2,Satisfied,2,Weekly,Good,North America
-978383,34,Non-binary,Designer,Consulting,3,Onsite,46,4,2,Low,Depression,Yes,Increase,5,Neutral,1,Daily,Good,Oceania
-986398,26,Female,Designer,Retail,26,Onsite,36,7,1,Low,Depression,No,Decrease,5,Satisfied,5,Weekly,Good,Asia
-859906,33,Non-binary,Marketing,Healthcare,14,Onsite,36,7,3,Low,Depression,No,Increase,3,Satisfied,4,Daily,Good,Asia
-799791,50,Prefer not to say,Designer,Manufacturing,29,Remote,41,8,2,High,,No,Decrease,1,Satisfied,2,Weekly,Average,Oceania
-575354,46,Non-binary,Marketing,Healthcare,11,Onsite,33,7,3,Medium,Depression,No,Increase,3,Neutral,3,Weekly,Good,Oceania
-668925,31,Prefer not to say,Sales,Healthcare,21,Onsite,47,2,1,Low,Burnout,No,Increase,3,Unsatisfied,2,Weekly,Poor,Europe
-606955,35,Male,Marketing,IT,14,Hybrid,34,6,3,Medium,Anxiety,No,No Change,3,Satisfied,3,Weekly,Average,Europe
-179378,47,Non-binary,Project Manager,Manufacturing,15,Onsite,41,10,3,Low,Depression,Yes,Increase,3,Satisfied,3,Weekly,Poor,Europe
-741683,29,Male,Project Manager,Healthcare,25,Onsite,34,11,2,Low,Burnout,Yes,No Change,2,Satisfied,2,Daily,Good,Europe
-558286,46,Female,Sales,Education,23,Onsite,44,6,2,High,Burnout,No,Increase,2,Satisfied,1,Weekly,Poor,North America
-347470,35,Non-binary,HR,IT,24,Onsite,45,1,2,Low,,No,No Change,2,Neutral,3,Daily,Good,Europe
-913704,55,Non-binary,Designer,Finance,11,Onsite,35,5,2,Low,Depression,Yes,Decrease,2,Satisfied,1,Daily,Good,Oceania
-259754,26,Male,HR,Finance,7,Hybrid,21,2,3,Low,Depression,No,Decrease,3,Unsatisfied,4,,Average,North America
-205867,42,Non-binary,Project Manager,Education,26,Onsite,41,2,3,High,Burnout,Yes,Increase,3,Satisfied,4,Weekly,Good,Europe
-550044,38,Male,Sales,Education,29,Hybrid,49,14,4,High,,No,Decrease,3,Unsatisfied,2,Weekly,Good,Europe
-196171,31,Non-binary,Sales,Education,21,Remote,37,9,3,Low,,Yes,No Change,4,Unsatisfied,4,Daily,Good,Oceania
-178246,52,Female,Project Manager,Healthcare,23,Onsite,33,5,3,Low,Burnout,No,Increase,1,Satisfied,4,,Poor,Asia
-389015,27,Non-binary,Data Scientist,Finance,19,Onsite,50,8,2,High,Burnout,No,No Change,3,Satisfied,4,Daily,Poor,North America
-229852,36,Male,Marketing,Finance,1,Remote,29,7,3,High,Depression,Yes,Decrease,4,Neutral,1,Weekly,Good,Oceania
-253198,55,Male,Data Scientist,Manufacturing,6,Onsite,37,9,2,High,Depression,Yes,Decrease,3,Neutral,2,Weekly,Good,North America
-924820,44,Female,Software Engineer,Education,21,Remote,55,1,3,Medium,Depression,No,Increase,2,Satisfied,1,,Poor,Africa
-747216,31,Non-binary,Project Manager,IT,9,Onsite,45,10,2,Medium,Depression,No,Increase,4,Satisfied,3,Daily,Average,Europe
-233303,32,Non-binary,Marketing,IT,21,Remote,35,14,4,Medium,Depression,Yes,Increase,3,Unsatisfied,2,,Average,Africa
-462207,26,Male,Sales,Manufacturing,17,Onsite,27,5,2,High,Depression,Yes,Decrease,2,Neutral,1,,Average,Oceania
-433325,42,Non-binary,Marketing,IT,26,Onsite,48,9,5,Low,Burnout,No,No Change,2,Satisfied,3,Weekly,Poor,Europe
-623830,50,Prefer not to say,Designer,Healthcare,28,Hybrid,59,5,3,Low,Depression,No,No Change,3,Satisfied,1,Weekly,Poor,Europe
-349177,22,Prefer not to say,HR,Healthcare,26,Onsite,46,12,2,Low,Burnout,No,Increase,2,Satisfied,3,Weekly,Poor,Asia
-808331,43,Male,HR,IT,18,Onsite,35,6,3,Low,Depression,Yes,No Change,2,Satisfied,4,,Poor,North America
-804460,48,Non-binary,Marketing,Education,25,Onsite,48,4,3,High,Depression,No,Increase,4,Satisfied,3,Daily,Average,North America
-249098,38,Male,HR,Finance,16,Onsite,40,15,3,Low,Depression,No,Decrease,1,Unsatisfied,4,Weekly,Average,Oceania
-751043,40,Non-binary,Project Manager,Healthcare,4,Hybrid,60,7,4,Low,Burnout,Yes,No Change,4,Satisfied,4,Daily,Average,Oceania
-282491,30,Non-binary,HR,IT,22,Onsite,35,4,3,Low,Anxiety,Yes,Increase,3,Satisfied,3,Weekly,Average,North America
-769541,37,Male,Software Engineer,Manufacturing,6,Remote,42,6,3,Low,Anxiety,No,Increase,4,Neutral,3,Weekly,Good,North America
-705472,30,Non-binary,Project Manager,Manufacturing,22,Remote,50,3,4,Medium,Anxiety,No,Increase,3,Satisfied,2,Weekly,Good,Oceania
-696795,47,Female,Sales,Consulting,8,Onsite,31,4,3,Medium,Burnout,No,Decrease,2,Neutral,4,,Good,Europe
-540583,24,Non-binary,Marketing,Manufacturing,15,Hybrid,52,5,3,Low,Anxiety,No,Decrease,3,Satisfied,4,Daily,Good,Africa
+Timestamp,Choose your gender,Age,What is your course?,Your current year of Study,What is your CGPA?,Marital status,Do you have Depression?,Do you have Anxiety?,Do you have Panic attack?,Did you seek any specialist for a treatment?
+FM NqVOvFJTTQ,Female,21.0,BexAhQFl,year 2,3.50 - 4.00,Yes,No,No,No,No
+SWBDWChdVMeML LO,Female,21.0,AwmUrcJK,year 2,3.50 - 4.00,No,No,No,No,No
+ugnCUdfkO ugnCUdfkOKYUtt,Female,24.0,hVapwJwF,year 4,3.00 - 3.49,Yes,Yes,Yes,Yes,No
+IQM kHYIgIIfwm,Female,22.0,jBVROiqo,year 4,3.00 - 3.49,No,Yes,No,No,No
+Oua HLwHx,Female,22.0,HLWrvWEo,year 2,3.00 - 3.49,No,Yes,No,No,No
+KNFifSWZLPnqYk qYk,Female,22.0,lwpDtsal,year 3,3.50 - 4.00,No,No,No,No,No
+ttVZAZt TNreuh,Female,21.0,OPpWsMVe,year 2,3.50 - 4.00 ,Yes,Yes,Yes,No,No
+LcsLrlQlz q,Female,18.0,pFreHUmT,year 2,3.00 - 3.49,Yes,Yes,No,Yes,No
+yXCdwrleb JSrr,Female,20.0,KIghpfNZ,year 3,3.50 - 4.00,Yes,No,No,Yes,No
+m EOuVdUofqWKsk,Female,21.0,melsCutv,year 1,3.50 - 4.00 ,No,No,No,No,No
+ hOBXUnPaFeDPnA,Female,20.0,VxkelDRH,year 1,3.00 - 3.49,Yes,No,No,Yes,No
+xIbcsSjOfKBHf sSjOfKBHfN,Female,20.0,TxqwrXHJ,year 2,2.50 - 2.99,No,No,No,Yes,No
+GVklDBJmhbHLS HLSg,Female,22.0,OhIEnNFH,year 2,3.50 - 4.00,Yes,Yes,Yes,Yes,No
+V hgImUfkexXp,Female,23.0,ASWxeogW,year 2,3.50 - 4.00,No,No,Yes,No,No
+TOVMBKj KWRl,Female,22.0,FYGoMgWm,Year 3,3.00 - 3.49,No,No,No,No,No
+ r,Male,20.0,bRoIlOPw,year 2,3.50 - 4.00,No,No,No,Yes,No
+ulesrkP srkPKYPZXrX,Male,22.0,GpzIbJmE,Year 3,3.50 - 4.00,No,Yes,No,Yes,No
+COTzoF OTzoFslbRvTii,Female,21.0,bfMlsISa,year 1,3.00 - 3.49,Yes,Yes,No,No,No
+BsrJDOWwE DOWwEesDbK,Male,21.0,JyRZoegu,year 1,3.00 - 3.49,No,No,No,Yes,No
+IWP gUr,Female,20.0,ATlBOAXy,year 2,3.50 - 4.00,Yes,No,Yes,No,No
+TWqXttkKrLSwvT SwvT,Male,19.0,fHslTmIB,year 2,3.50 - 4.00,No,Yes,Yes,No,No
+XRkOc DiB,Male,23.0,pnoNphtq,year 2,3.00 - 3.49,No,Yes,No,No,No
+lswTrdzW MWg,Female,20.0,QvLyrJII,year 3,3.50 - 4.00,No,Yes,Yes,No,No
+VHKvBL IZOt,Female,23.0,dnARJPiu,Year 3,3.00 - 3.49,No,No,No,No,No
+gile XTZwUJoC,Female,20.0,zRkPfnRU,Year 3,3.50 - 4.00,No,No,No,No,No
+VQtjcSGuSiZ ZBcM,Male,22.0,BLeuhPwU,year 1,3.50 - 4.00,Yes,No,Yes,No,No
+MNuOLxMV uOLxMVGInboB,Female,23.0,oGHEOuQG,year 2,3.00 - 3.49,No,Yes,Yes,Yes,No
+ZeIuVebiImTbQ iImTbQi,Male,22.0,SDdQDyLC,year 4,3.50 - 4.00,No,Yes,No,No,No
+rHEeEkhV eEkhVwQnRVn,Female,20.0,fopCUqyR,year 2,3.50 - 4.00,No,No,No,Yes,No
+OR ,Male,21.0,wgVWcGTK,year 3,3.00 - 3.49,No,No,Yes,No,No
+DpKBhrdX KBhrdXcJpjkP,Male,19.0,UnXbGmHd,year 2,2.50 - 2.99,Yes,Yes,Yes,Yes,No
+jPvQlilldeko ldekolS,Female,24.0,ZMoUatdx,year 3,3.00 - 3.49,Yes,No,No,No,No
+EjiuiU MWkDqO,Male,19.0,OrHhonYg,Year 3,3.00 - 3.49,No,No,Yes,No,No
+VUAsyND VUAsyNDVNyPTVm,Female,20.0,iNJGgckt,year 2,3.00 - 3.49,No,Yes,No,No,No
+ JgflR,Male,24.0,EtByVQGs,year 2,3.00 - 3.49,No,Yes,Yes,No,No
+zSUbXMJRsg vh,Female,23.0,tqOwZraZ,year 1,3.50 - 4.00 ,No,No,No,No,No
+dpLhFpXp ,Female,19.0,akOKXLDz,year 1,3.00 - 3.49,Yes,No,No,Yes,No
+wjdRAKXPNE NEyGJh,Male,22.0,bbmNBcfE,year 1,3.00 - 3.49,No,Yes,No,No,No
+SRy AZRBFNuk,Female,22.0,PklwzGfZ,year 2,3.50 - 4.00,No,No,Yes,No,No
+wSjmzuAQtcd xCV,Female,21.0,qxPndRyH,year 3,3.00 - 3.49,Yes,No,No,No,No
+DYWqgaN ,Female,20.0,uVcUgMot,Year 3,3.00 - 3.49,Yes,No,No,Yes,No
+lfIxPs DUJQiSY,Female,22.0,qtHuxqIF,year 1,3.50 - 4.00,No,No,Yes,Yes,No
+UF OjCKHlIVijhe,Female,23.0,URVKOWby,year 1,3.50 - 4.00,No,Yes,No,No,No
+ HDsmT,Female,19.0,RMyXrrQY,year 2,3.00 - 3.49,No,Yes,No,No,No
+gKard qIk,Female,20.0,DIABeckO,Year 3,3.50 - 4.00,Yes,No,Yes,No,No
+MbyP r,Male,20.0,VYjacomz,year 1,3.50 - 4.00,No,No,Yes,No,No
+EBKsD az,Female,19.0,JAcSsiRQ,Year 3,3.50 - 4.00 ,No,No,No,No,No
+fOmKKqmJpPhT mJpPhTOl,Male,21.0,PdiHvuSi,year 1,2.50 - 2.99,No,Yes,No,Yes,No
+ mWRqTvwcxv,Male,21.0,KvWMExWA,Year 3,2.50 - 2.99,No,Yes,No,Yes,No
+aMWXpJDUuEaxN m,Female,22.0,XMHPjzTL,year 2,2.50 - 2.99,No,Yes,Yes,No,No
+JIFYIs CTojjQ,Female,23.0,PnDlXYjt,year 2,3.50 - 4.00,Yes,Yes,No,No,No
+YukvrFpZkBm mhjs,Female,22.0,AbNqJhwu,year 1,3.50 - 4.00,No,No,Yes,Yes,No
+BFIhFPoOrWi FIhFPoOrWivcf,Male,21.0,PFDKmpNn,year 1,2.50 - 2.99,Yes,Yes,No,No,No
+oeKnQEzkgQkG gQkGTd,Female,19.0,RcOtwFwJ,year 2,3.00 - 3.49,No,No,Yes,No,No
+L JAGfm,Male,21.0,EiLwlBwZ,year 2,3.50 - 4.00,Yes,No,Yes,No,No
+czTZafsVoyZts ,Female,18.0,EYzDxYAD,year 1,3.50 - 4.00,No,No,Yes,No,No
+AblqglZYR qglZYRTfLvk,Female,21.0,sDdrtEtI,year 1,3.00 - 3.49,Yes,Yes,No,No,No
+raooXebaCSSfk aooXebaCSSfkq,Female,19.0,xAqkkjmg,year 2,3.00 - 3.49,No,No,Yes,No,Yes
+VFiTfoaiXzqC oaiXzqCBQ,Male,19.0,rmHjBZZK,Year 3,3.00 - 3.49,No,Yes,Yes,No,No
+vWYw IWMne,Female,21.0,xokMczWJ,year 3,3.50 - 4.00,Yes,No,No,Yes,No
+EGdKGxTcFTB Z,Female,20.0,dERTWvCU,year 3,3.50 - 4.00,No,No,Yes,No,No
+XW opKzPcckbAj,Female,23.0,QRyVqmqS,year 1,3.50 - 4.00,No,No,Yes,No,No
+XEi DbFRHSrjG,Male,22.0,xIjKpKUj,year 1,3.50 - 4.00 ,No,Yes,No,Yes,No
+TmKiH iHVPQYSqXvm,Female,18.0,AGliyugl,Year 3,3.00 - 3.49,No,Yes,No,No,No
+KzGWsUxXmvq zGWsUxXmvqNsn,Female,19.0,UkdbPxkx,year 2,3.50 - 4.00,No,No,No,No,No
+qtSyoeijeBk ijeBkKCE,Male,19.0,UiEJQYUj,Year 2,2.50 - 2.99,No,Yes,Yes,Yes,No
+DjUJ UJCmlZeygNAc,Male,20.0,StFWFJBH,year 1,2.00 - 2.49,No,No,No,Yes,No
+c cVURbSWjYntnwq,Female,20.0,uxwWdgNF,year 2,3.50 - 4.00 ,No,Yes,Yes,No,No
+wS NRiDFBp,Female,21.0,mqvANfno,Year 3,3.50 - 4.00 ,No,No,Yes,Yes,No
+vP HSD,Male,21.0,JWTRgauU,year 4,3.00 - 3.49,No,Yes,No,No,No
+YQwFPsOKb WN,Male,19.0,rzAUnxDt,year 2,3.00 - 3.49,No,No,No,Yes,No
+mv ecUBFgz,Female,22.0,xyWGYEUF,year 1,3.50 - 4.00,No,Yes,No,No,No
+AjiFXYFCGoAhcv YFCGoAhcv,Male,22.0,NHttgYwJ,Year 3,3.50 - 4.00,No,No,Yes,No,No
+t qCEslTyuJK,Male,23.0,nVXGrrZB,Year 2,2.50 - 2.99,Yes,No,No,Yes,No
+iv NFgbOpxPeyt,Female,20.0,YjlSLFVF,year 1,3.00 - 3.49,No,Yes,Yes,No,No
+cETFqeSZkqVL qeSZkqVLCk,Female,18.0,JtvVTCQu,year 2,2.50 - 2.99,No,No,Yes,No,Yes
+zRCsxPc PcIxzJXgv,Female,22.0,hRKQEZdh,year 1,3.00 - 3.49,No,No,No,No,No
+RvPenSJNabUr RvPenSJNabUrRO,Female,24.0,eEvHZtbZ,year 2,3.00 - 3.49,No,Yes,No,No,Yes
+FPcc ccmyAgestXKq,Female,21.0,tjHwUXJo,year 3,3.00 - 3.49,No,No,Yes,No,No
+pLUHtsLrq UHtsLrqHBAbd,Female,20.0,AzhNXwEL,year 1,2.50 - 2.99,No,Yes,No,Yes,No
+JdqNkxvKsGE vKsGEltP,Male,23.0,ZZZdRBYY,year 3,3.00 - 3.49,No,Yes,No,No,No
+WuplEHKT CUla,Male,22.0,CPtDSjEF,year 3,3.50 - 4.00,No,No,No,Yes,No
+has asrOHtHUWDlJx,Male,19.0,czBopMFm,year 1,3.00 - 3.49,No,No,No,Yes,No
+gmrygVP PIIGYRmA,Female,21.0,KtjcYnFt,year 1,2.50 - 2.99,No,Yes,No,No,No
+RNCeWCVJoDArKV VJoDArKV,Female,19.0,wkqYkUSw,year 2,2.50 - 2.99,Yes,Yes,No,No,No
+kwibJfwvArHXjp wvArHXjp,Female,19.0,LPENkCRj,Year 3,3.50 - 4.00,No,No,Yes,No,No
+MLeeHlrgkCMP HlrgkCMPmm,Male,21.0,pwXRtJGa,year 2,2.50 - 2.99,No,Yes,Yes,No,No
+wnFVADdle nFVADdleKNXsX,Male,23.0,XICDWtUB,year 2,3.00 - 3.49,No,Yes,Yes,No,No
+JINybJ NNo,Female,19.0,lSLyTqTq,year 1,3.50 - 4.00,No,Yes,No,Yes,No
+PJWVXS VXSfFUOsBNA,Female,18.0,pxdfcAwU,Year 2,3.00 - 3.49,No,Yes,No,No,No
+AED zTcUNt,Male,20.0,MhCpbceR,Year 3,2.50 - 2.99,Yes,Yes,Yes,No,No
+uSISHXtjeFbJZ JZO,Female,23.0,bJjrIqku,year 2,3.50 - 4.00,No,Yes,Yes,Yes,No
+PehqdyrhInO PehqdyrhInOQCQ,Female,22.0,hbjVNeCK,Year 3,3.00 - 3.49,No,No,Yes,No,No
+xMTfBZokO ,Female,19.0,XqPFZbSk,year 1,3.50 - 4.00,Yes,Yes,No,Yes,No
+RfYAgfwqX qmVlO,Female,21.0,taxqBnLk,year 2,2.50 - 2.99,No,Yes,No,No,No
+ZAlXIVsphmJo mJolW,Male,23.0,iqeyXGvO,Year 3,2.50 - 2.99,No,No,No,No,No
+HHNsuBAGwUsBpj NsuBAGwUsBpj,Female,24.0,YHUbhacs,year 3,3.50 - 4.00,No,Yes,Yes,No,No
+DsayTsrvg eaA,Female,19.0,HUjTEWuv,year 1,2.00 - 2.49,Yes,Yes,No,Yes,No
+el lEROcCSPVxhFM,Female,19.0,dqzmXnZV,year 1,3.50 - 4.00 ,Yes,Yes,Yes,No,No
+HPgoxIwfQa QaCUxy,Female,20.0,KAznjYFW,year 1,3.50 - 4.00,No,No,No,No,No
+gyIjA gyIjANgSlqWLDv,Male,21.0,BRzgApfa,year 2,3.00 - 3.49,No,Yes,Yes,Yes,No
+lHKoIMSFNmX X,Male,22.0,zMcZllJN,year 2,3.50 - 4.00 ,No,No,Yes,Yes,No
+xw TCbDbKJ,Female,19.0,RCHxtmlQ,Year 3,3.00 - 3.49,No,No,No,No,No
+syTTInMj TTInMjHROGDF,Male,19.0,VqhRUNNW,Year 3,2.50 - 2.99,No,No,No,Yes,No
+unUuNIlu UuNIluwIRyET,Male,23.0,UWRdxdVp,year 1,2.50 - 2.99,No,Yes,Yes,Yes,No
+Adxmd Wny,Female,19.0,TeDotXoq,year 3,2.00 - 2.49,No,Yes,No,No,No
+gqubSHAmY ubSHAmYQBnjR,Male,19.0,WPqarIoV,year 2,3.00 - 3.49,No,No,Yes,Yes,No
+YsRB RBAAVmKDtfqZ,Male,21.0,jXWRAQnl,Year 3,3.00 - 3.49,No,Yes,Yes,Yes,No
+rq qKrWISIiJYAhr,Male,22.0,dozUWbCO,Year 2,3.00 - 3.49,No,Yes,Yes,Yes,No
+WMLUscC MLUscCGwlyLFg,Male,20.0,LpbVgqnk,Year 3,3.50 - 4.00,Yes,No,No,Yes,No
+s ijGAvYseZvoV,Female,23.0,rXiQHmrZ,year 3,3.50 - 4.00,No,Yes,No,Yes,No
+bAkCdRdmjc jcFvxl,Female,22.0,MZCqFtny,year 2,2.50 - 2.99,No,Yes,Yes,Yes,No
+XhNYvWmEqWAiyL L,Male,19.0,eXarRUSU,Year 2,3.50 - 4.00,Yes,No,Yes,Yes,No
+YByxqqXxrCcITr xrCcITr,Male,21.0,HkPqqZtC,Year 1,3.50 - 4.00,No,Yes,Yes,No,No
+ YiaLHEAPjV,Female,19.0,aoLOFamC,year 3,3.00 - 3.49,No,Yes,No,Yes,No
+pv vNrMHcGrFZmII,Female,20.0,HsRQaMMK,year 1,3.50 - 4.00,No,Yes,Yes,No,No
+pDAbwFnfvEVCHH pDAbwFnfvEVCHH,Female,23.0,nwWVnPIx,year 3,3.00 - 3.49,Yes,Yes,No,No,No
+zqBjydlIA AhLHJH,Male,19.0,uyTjprCh,year 1,3.00 - 3.49,No,Yes,No,No,No
+nfwHOrQyTDYSGA nfwHOrQyTDYSGA,Male,20.0,HgCuVoRG,year 1,3.50 - 4.00,No,No,Yes,No,No
+HKLGoebJRY b,Male,20.0,zLjAvjdj,Year 3,3.00 - 3.49,No,No,Yes,No,No
+osREJFIfSsuk EJFIfSsukQS,Female,20.0,ocJMQnyV,Year 3,3.00 - 3.49,No,Yes,No,Yes,No
+nZqQo ZqQoTfdAWELFl,Male,18.0,mEzFPDbe,year 1,3.50 - 4.00,Yes,No,Yes,No,No
+VAhKbHo k,Female,22.0,TdcMWhyp,year 1,3.00 - 3.49,No,No,Yes,No,No
+oWZqy BCGAvj,Male,24.0,nXodfWCG,year 1,3.00 - 3.49,No,Yes,No,Yes,No
+XH YFTIQQYEBdg,Female,21.0,EvpQyRHH,year 3,3.50 - 4.00,No,No,No,No,Yes
+gWLDPoFdyIiTi oFdyIiTiV,Male,22.0,gKOxzeaw,year 3,2.50 - 2.99,No,No,No,No,No
+qpHX TMGIDrkz,Male,21.0,aTKCHbhN,Year 3,3.00 - 3.49,No,No,Yes,Yes,No
+bfKkVM tWMbJx,Male,23.0,frnVbsDr,year 1,3.00 - 3.49,No,No,No,No,No
+CWpNepWvmv ,Female,24.0,DnYDYubu,year 2,3.50 - 4.00 ,No,No,No,No,No
+ngp proOlYmsUToS,Male,21.0,jTVxSuty,year 2,2.50 - 2.99,No,No,No,No,No
+jfAWQzZLX zZLXVRvjZ,Male,21.0,idpZuUvA,year 2,3.00 - 3.49,No,No,Yes,No,No
+ ph,Female,19.0,rDrSopMh,year 2,3.00 - 3.49,No,No,No,Yes,No
+zdEW EWttoXgoSEDH,Male,21.0,kevpvzoq,year 2,3.00 - 3.49,No,No,Yes,No,No
+pMuwvLa pMuwvLaQTpsMPV,Female,22.0,OzPgRbea,year 1,3.50 - 4.00,Yes,No,Yes,Yes,No
+cFKTHlFQq lFQqBPNSf,Male,20.0,hJnJIEqS,Year 3,3.00 - 3.49,No,Yes,No,Yes,No
+OCWn nhNZRZFjHNc,Female,19.0,eClRYJjP,year 2,3.50 - 4.00,No,Yes,Yes,Yes,No
+SIbTxoHCcjF CcjFhug,Female,23.0,MTrqeHNs,Year 3,3.00 - 3.49,No,No,No,Yes,No
+k c,Male,22.0,HrwlJgtH,year 2,3.50 - 4.00 ,No,No,No,Yes,No
+ sXoaqGDwm,Female,21.0,VMQGmDGv,year 4,3.50 - 4.00 ,Yes,Yes,Yes,No,No
+Oz cGidYph,Female,22.0,lzPcbFgJ,year 1,3.50 - 4.00,No,No,No,No,No
+zVXMLYh YhgswHNSd,Male,23.0,PMamtqZt,year 3,3.50 - 4.00,No,No,Yes,No,No
+ uHpKfsUNWvd,Female,19.0,adSUBDHB,Year 3,3.00 - 3.49,No,Yes,Yes,No,No
+xLvP GqJeKr,Male,23.0,cPpusacT,year 1,2.50 - 2.99,No,No,No,Yes,No
+jXEM HLCdCP,Female,23.0,HAbwmvFn,year 1,3.00 - 3.49,Yes,No,No,No,No
+BNjCjqN CjqNLBwLkAm,Female,22.0,PsyZRknD,year 1,3.50 - 4.00 ,Yes,No,Yes,No,No
+Xj ccopi,Female,22.0,zKLHGbQs,year 2,3.50 - 4.00,No,No,No,No,No
+mtVovGLQELps VovGLQELpsOC,Male,23.0,LVWoniSF,year 1,3.00 - 3.49,No,No,Yes,No,No
+XotxmJVTatYa YaCU,Female,21.0,hiUgmQfM,Year 3,3.50 - 4.00 ,No,No,Yes,No,No
+kCw vkEO,Male,,icxhYOiG,year 1,3.50 - 4.00,Yes,No,Yes,No,No
+qoRcGjHQBUbv jHQBUbvTz,Female,21.0,qCTmgyGj,Year 3,2.50 - 2.99,No,No,No,Yes,No
+EnS EnSZsEHArTupJI,Female,19.0,Cwvwavzi,Year 2,2.50 - 2.99,No,No,No,No,No
+WEstMUuh Rd,Male,22.0,iARbtcvK,year 3,3.50 - 4.00,No,Yes,Yes,Yes,No
+ gkmDOVYKuA,Female,20.0,JohBkuqk,year 1,2.50 - 2.99,No,Yes,No,No,No
+TPQOAUNthdprE prEr,Male,20.0,oFbtLoet,year 1,3.00 - 3.49,No,No,No,No,No
+ctANOHevmcTX tANOHevmcTXDe,Female,21.0,DwjZQbkQ,year 2,3.00 - 3.49,Yes,No,No,No,No
+kcnICVx CVxqeKlmDA,Male,19.0,RfnWFszZ,Year 3,2.50 - 2.99,No,No,No,Yes,No
+ QdaCaCkZobks,Female,23.0,wcCfEDcG,year 2,3.00 - 3.49,Yes,Yes,Yes,Yes,No
+DVPreoaBfw D,Female,21.0,VXFXdibz,Year 3,3.50 - 4.00,No,Yes,Yes,Yes,No
+uyWsL unGpFkPH,Female,22.0,PgcgjCWp,year 3,3.50 - 4.00,Yes,Yes,No,No,No
+rQHBx WxN,Female,20.0,ouOfXNpk,year 2,3.50 - 4.00,No,No,Yes,Yes,No
+rPcopsoumBOiVu BOiVu,Male,22.0,EgoMfLoF,year 2,2.50 - 2.99,No,Yes,No,Yes,No
+agBPFeq PFeqmnrbKDk,Male,22.0,KOgNEvIP,Year 3,3.00 - 3.49,No,No,Yes,No,No
+G pXQXUErHmoq,Female,23.0,zPFBAsSL,year 1,2.50 - 2.99,No,No,Yes,No,No
+tsJMHXpYcXiJGK sJMHXpYcXiJGK,Male,22.0,eKzbcAOy,year 2,3.00 - 3.49,No,No,No,Yes,No
+mJgwEsZezpl EsZezplUyj,Female,21.0,GvLDIsDv,year 3,2.50 - 2.99,No,No,No,Yes,No
+ cLDOYUTzKyQ,Male,20.0,QMQOcoWf,Year 3,2.50 - 2.99,Yes,Yes,No,Yes,No
+LieZaVQPc rOB,Female,20.0,XcrXRVOR,Year 3,3.00 - 3.49,No,Yes,No,No,No
+YFA ZhxjFEcG,Female,22.0,WPmGgHwT,Year 3,3.50 - 4.00,No,No,No,No,No
+Ocihe HflBT,Female,19.0,lVkEnwQv,Year 3,2.50 - 2.99,No,No,No,No,No
+r ERWZ,Female,21.0,wfbHEzaj,year 1,3.50 - 4.00 ,Yes,Yes,No,Yes,No
+gVJdQTCF TCFKDudkN,Female,21.0,NRbgYaqb,Year 3,2.50 - 2.99,No,Yes,No,No,No
+VLyScFB ,Female,22.0,aUGPiPme,year 2,3.50 - 4.00,No,No,Yes,Yes,No
+TwUqBSZgvC UqBSZgvCMPLu,Female,22.0,uyrdgKiG,year 3,3.00 - 3.49,No,Yes,No,No,No
+xMLGiptCnGkG ,Male,23.0,yHraTwpp,year 1,3.00 - 3.49,No,No,Yes,No,No
+a UNUa,Male,21.0,ToQQTOQL,year 4,2.50 - 2.99,No,Yes,Yes,Yes,No
+oDFopML MLMQSypnb,Male,20.0,esKXIPjp,year 1,2.50 - 2.99,Yes,Yes,No,Yes,No
+YU ,Female,24.0,bAsXImxv,year 3,2.50 - 2.99,No,Yes,No,No,No
+xl VEzZT,Male,23.0,xJbQXFyg,year 2,3.00 - 3.49,Yes,Yes,Yes,Yes,Yes
+ sJEinpwF,Female,23.0,TxjJjDBR,year 1,3.50 - 4.00,No,Yes,No,Yes,No
+s gRJ,Female,18.0,lQgfGXbd,year 2,2.50 - 2.99,No,Yes,Yes,Yes,No
+SJuajgyPoUVWJ SJuajgyPoUVWJK,Female,22.0,GQluYeQX,year 1,3.50 - 4.00,No,No,No,Yes,No
+mFYQRyOMoU QRyOMoURuqn,Female,19.0,QnNfOVUK,year 3,3.00 - 3.49,No,Yes,No,Yes,No
+f glMNaCfrMyMhk,Male,22.0,cEAEFlni,year 4,3.50 - 4.00,Yes,Yes,No,No,No
+bkZMmeT gmmAhF,Female,19.0,yGfHvXrs,year 1,3.00 - 3.49,No,Yes,Yes,Yes,No
+lcpKalXZrRm ,Male,24.0,KyAIKQvK,year 4,3.00 - 3.49,Yes,Yes,Yes,Yes,No
+pbkceqoyMfBscC MfBscC,Male,20.0,XfvRddoz,year 3,3.00 - 3.49,No,Yes,No,No,No
+QiuCCHJXsrIg srIgOK,Female,22.0,NqnOytJw,year 1,3.00 - 3.49,Yes,Yes,No,Yes,No
+yuG EhAWLiziua,Female,21.0,NLuDJgCZ,year 3,3.50 - 4.00,No,Yes,Yes,Yes,No
+NEUme CW,Female,22.0,gnNnxoPe,year 1,3.00 - 3.49,Yes,Yes,No,No,No
+l ,Male,21.0,elJRbXOz,year 2,3.00 - 3.49,No,No,Yes,Yes,No
+yy V,Male,20.0,VZnLKjco,Year 3,3.50 - 4.00,No,No,No,No,No
+H cZMHgHhi,Female,,wjLOKOFl,Year 3,3.50 - 4.00,Yes,No,Yes,No,No
+yRAIpgwhcH AIpgwhcHVEXS,Female,20.0,edtvSFhG,Year 3,3.50 - 4.00,Yes,No,No,Yes,No
+mR RprruUwcJxboN,Male,23.0,ZTwfExgu,year 2,3.50 - 4.00 ,No,Yes,Yes,Yes,No
+lYjKW lYjKWhzvoMltmO,Female,20.0,lWclDXIy,year 1,3.50 - 4.00,Yes,Yes,No,Yes,No
+VYwLeOIv FnLMgL,Female,22.0,TiTOjHOh,year 1,2.50 - 2.99,No,No,No,No,No
+omhXcK ieanYEvS,Female,21.0,WYXEQxVe,year 2,3.00 - 3.49,Yes,No,No,No,No
+ddkJvqFzqOul qFzqOulVZ,Female,19.0,yXqjyJcs,year 1,3.50 - 4.00,No,Yes,No,No,No
+SOWtkaHK X,Male,19.0,leMoXbJj,year 1,3.00 - 3.49,No,Yes,No,Yes,No
+EMtRlyQje g,Male,22.0,SrwOovOt,year 3,3.00 - 3.49,Yes,No,No,Yes,No
+ZrWheshh eshhLnoMJE,Male,21.0,Xuxevypk,year 3,3.50 - 4.00,No,Yes,No,No,No
+KJYzpMeVJyVMdF F,Female,21.0,WqWIZWZs,year 2,3.50 - 4.00,No,No,No,No,No
+ZBvqvJYWLqsaD ZBvqvJYWLqsaDl,Male,19.0,cWeuPZcA,Year 3,2.00 - 2.49,No,Yes,Yes,No,No
+N EoWFvBTcerSZ,Male,23.0,adawHzge,year 3,3.00 - 3.49,Yes,Yes,No,Yes,No
+BirGsj IHyXZsK,Female,20.0,jyajRgtK,year 3,3.50 - 4.00,No,Yes,Yes,Yes,No
+IBgXICe XICeSwXfTZA,Male,21.0,BwrmJkQf,year 2,3.50 - 4.00,No,Yes,Yes,No,No
+OqKGBCxVNNqf E,Male,24.0,POhisEQU,year 2,3.50 - 4.00,No,Yes,Yes,Yes,No
+SICTEjQCRITj ITjFP,Female,23.0,BbeYPRRw,year 3,2.50 - 2.99,No,Yes,No,Yes,No
+xvhsQgmOcUUM gmOcUUMUd,Male,19.0,gHhruxGt,year 2,3.50 - 4.00,No,No,Yes,No,No
+JryepdbX tzNLH,Female,20.0,okltfRuZ,year 2,3.00 - 3.49,No,No,No,No,No
+vQTbxykfgULkM gULkMR,Male,20.0,OLZrbTZM,year 2,3.50 - 4.00,No,No,No,No,No
+lnJbiFbcdXlu biFbcdXlucn,Male,22.0,SomjHMOM,year 1,3.50 - 4.00 ,No,Yes,No,No,No
+CsfqqtLfkVSmGA qtLfkVSmGA,Male,21.0,syZcBVpV,Year 3,3.00 - 3.49,No,No,No,Yes,No
+Wa WasNxzoEtTvbuf,Male,22.0,xggnjXQb,year 1,3.50 - 4.00,No,No,No,No,No
+lGCjfhzvgp qG,Male,24.0,IrNgwIUx,year 1,3.00 - 3.49,No,No,No,Yes,No
+ErTbgfIbGnnDXH rTbgfIbGnnDXH,Female,19.0,DhhDrfTM,year 2,3.00 - 3.49,No,No,No,No,Yes
+URbKclFmp yjvfT,Male,20.0,FDPAMGOo,year 2,2.50 - 2.99,No,Yes,Yes,No,No
+ y,Male,22.0,EGDLbRKi,year 2,3.00 - 3.49,No,Yes,Yes,No,No
+PbWtxbz VEc,Female,23.0,PeCLfqOY,year 1,3.50 - 4.00,Yes,No,Yes,Yes,No
+HmKgRWY YZuWDkch,Female,20.0,eYwYfIvO,year 2,2.50 - 2.99,No,No,No,No,No
+eSDANXmkivnxQ QV,Female,21.0,wjhIKqPQ,Year 3,3.50 - 4.00,No,Yes,Yes,No,No
+yLFe SRstPfjDML,Female,19.0,JbWevGDT,Year 3,3.00 - 3.49,No,No,No,No,No
+aUfihc cjRVHp,Female,24.0,bHDKjGne,year 1,2.50 - 2.99,Yes,No,No,Yes,No
+PbKkeLxiLhKgM gMx,Female,21.0,cGWQZujY,Year 3,3.00 - 3.49,No,Yes,Yes,No,No
+MDtD MDtDPHZAFwScEz,Female,23.0,BaovAOcC,Year 3,3.50 - 4.00,No,Yes,No,No,No
+QhC ,Female,22.0,qNkoEFjS,year 2,3.50 - 4.00,Yes,No,No,No,No
+XhJdhR ,Female,19.0,oGwsJkJB,year 3,3.00 - 3.49,No,No,No,Yes,No
+CoagV dEXNM,Male,24.0,QOMGlZQH,year 2,3.00 - 3.49,No,Yes,No,No,No
+tq fr,Male,22.0,rPQlcLOB,year 3,2.50 - 2.99,No,No,No,Yes,No
+gTtEWUOLVMXo T,Male,23.0,UtFVTofY,year 2,3.00 - 3.49,No,No,No,No,No
+a YvbPVIZdlhrkp,Female,23.0,IzxiZEti,year 2,2.50 - 2.99,No,No,No,No,No
+nApKVYYZYiq qCem,Male,21.0,gRcQRlSy,year 1,3.00 - 3.49,Yes,No,No,No,No
+iHkKufajkT HkKufajkTcmnn,Female,20.0,ZUZggLrh,year 1,3.50 - 4.00,No,No,No,No,No
+JLt LtojOuFpVcGdG,Female,23.0,AnDdgibf,year 2,3.50 - 4.00,No,Yes,No,Yes,No
+phuORB ,Male,23.0,QxkoIlkV,year 2,3.00 - 3.49,No,Yes,Yes,No,No
+PFEhdjHLCnyMPh EhdjHLCnyMPh,Male,21.0,TKlZxSiK,year 2,2.50 - 2.99,Yes,No,No,Yes,No
+PYmqkdNmGrEEF dNmGrEEFI,Male,20.0,hXjDsSGS,year 1,3.00 - 3.49,Yes,No,Yes,No,No
+prH CPO,Male,23.0,CAAniKYW,year 3,3.00 - 3.49,Yes,No,No,No,No
+XRPip tOlcTrRsL,Male,23.0,AEpgesug,year 3,3.00 - 3.49,No,Yes,No,No,No
+gdKtVDwdVn DwdVnjicM,Female,19.0,tzpGlfSJ,year 1,3.50 - 4.00,No,No,No,No,No
+ozXfKIvn ,Female,20.0,HBnPnTVE,year 1,3.50 - 4.00,No,No,No,No,No
+qO oRUDdnshWYx,Female,20.0,lVzIOKOw,year 1,3.50 - 4.00,No,No,No,Yes,No
+VP cMnKGewflVyP,Female,22.0,gpGtmNYi,year 1,3.50 - 4.00,No,No,No,Yes,No
+NnRBixWrQMXrAP BixWrQMXrAP,Female,22.0,ESDWwetE,year 2,3.50 - 4.00,Yes,No,Yes,No,No
+wg giLDVEvRHtNBC,Female,22.0,rQroaace,Year 3,2.50 - 2.99,No,No,No,No,No
+tkLOVevoU voUCAZUz,Female,22.0,baKsLYgg,year 3,3.00 - 3.49,No,No,No,No,No
+ ADfCF,Male,19.0,yvrvPmCJ,year 1,3.50 - 4.00 ,No,Yes,Yes,No,No
+NlsREIgoQxxz REIgoQxxzkk,Female,20.0,LKCWEDSh,year 1,2.50 - 2.99,No,Yes,No,No,No
+PJJUWyhpJVFjFO O,Male,23.0,DuUFylfa,year 3,3.00 - 3.49,No,Yes,Yes,No,No
+xRswMrE RswMrEELwBNdQ,Female,18.0,otEnagzz,Year 2,2.50 - 2.99,No,No,No,Yes,No
+brvkmzXP XPJyzWpN,Female,18.0,oNfFOMTQ,year 4,3.50 - 4.00,No,No,No,Yes,Yes
+Sa bF,Male,21.0,VfbVnIDy,year 2,2.50 - 2.99,No,Yes,No,Yes,No
+WjqAUVhDAhEBu hDAhEBue,Female,24.0,EvJdAchW,year 3,3.50 - 4.00,No,Yes,Yes,Yes,No
+B xYfpMJxYp,Male,19.0,PgSnodhI,Year 3,3.00 - 3.49,No,No,No,Yes,No
+ GgUC,Female,22.0,LqEPvXaU,year 4,3.50 - 4.00,Yes,No,No,No,No
+GXdqNtQwThkP qNtQwThkPkJ,Male,23.0,mUFCPMSb,year 1,3.50 - 4.00,Yes,Yes,No,Yes,No
+ODYdzdRzsAW DYdzdRzsAWMGE,Male,23.0,SglHYlWh,year 4,3.50 - 4.00,No,Yes,Yes,Yes,No
+VxUZc AAeluNXe,Male,19.0,jTgXwkDr,Year 3,3.50 - 4.00,No,No,No,Yes,No
+SviweoJBQoz ozSKC,Female,21.0,nmYaztLr,year 3,3.00 - 3.49,No,No,Yes,Yes,No
+EhCxoin mO,Female,21.0,aYmABtIL,year 2,3.00 - 3.49,No,No,No,No,No
+DoU qTwhLmcl,Female,18.0,XeGxxLDa,year 2,3.50 - 4.00,No,No,No,No,No
+pGp DZGDbvQEH,Female,21.0,RROkvNvh,Year 3,3.50 - 4.00,No,Yes,No,No,No
+ fQRqBwQltP,Male,21.0,YEAdeGTU,Year 2,3.00 - 3.49,Yes,Yes,Yes,Yes,No
+E VFMEe,Male,22.0,KMSFjuRm,year 2,3.00 - 3.49,Yes,Yes,No,No,No
+edblBCjz CahB,Male,19.0,eYVIvYDb,year 2,2.50 - 2.99,No,No,Yes,Yes,No
+pANUxquDQH NUxquDQHgQev,Male,22.0,wFnNFzFt,year 2,2.50 - 2.99,No,No,Yes,No,No
+IdyEKmDMywC mDMywCQtx,Female,20.0,BQFBhvQG,year 1,3.50 - 4.00,No,No,Yes,Yes,No
+AkKnSVqVgxqOLa xqOLa,Female,18.0,EmHliBgv,year 1,3.50 - 4.00,No,No,Yes,No,No
+YaUiCpLIez zwlck,Male,22.0,JTqSJhal,Year 3,3.00 - 3.49,No,Yes,Yes,No,No
+zGpgcCJYaJ EXGX,Female,21.0,zBRggsar,year 1,3.00 - 3.49,No,No,No,No,No
+UTA EbWX,Male,23.0,PpAOWSew,year 1,3.00 - 3.49,No,No,Yes,Yes,No
+kD gjFWdcss,Female,20.0,ellIOuDs,year 3,3.00 - 3.49,No,Yes,Yes,No,No
+KPdLeZFjdR ZFjdRnPax,Male,20.0,OxpDDAJz,year 2,3.50 - 4.00,No,No,No,No,No
+xoSi xoSiDYGluLKoLj,Male,23.0,ASZCMIzQ,year 2,3.00 - 3.49,No,No,No,No,No
+wVytrTb VXGJXUy,Female,20.0,fBIQKeHp,year 2,3.00 - 3.49,Yes,No,Yes,Yes,No
+ShdOBoxtQtjn Aj,Female,21.0,PiDAHJUW,year 2,3.50 - 4.00,No,Yes,Yes,Yes,No
+V rWwe,Female,20.0,PJOYRqpe,year 1,3.00 - 3.49,No,Yes,No,Yes,No
+CJDWWmlivJzp ,Female,22.0,YCOcvQlv,year 2,3.50 - 4.00,No,Yes,Yes,No,No
+ZAjpwkoYXAedNy y,Male,23.0,qWhkbfHT,Year 3,3.00 - 3.49,No,Yes,No,No,No
+bqfQt aaqW,Female,,fAYmduKc,year 1,3.00 - 3.49,No,Yes,No,Yes,No
+eUIUYpxiwusd dFK,Male,20.0,VpnvPKuF,Year 3,3.50 - 4.00 ,No,No,Yes,No,No
+qMon qMonTLsMGlQihQ,Female,22.0,ecpTvCQb,year 3,3.00 - 3.49,No,Yes,Yes,No,No
+JY FcoU,Female,21.0,emhsDTUB,year 1,3.00 - 3.49,No,No,Yes,No,No
+VUkVwgW A,Male,21.0,SzpIFliV,Year 2,2.00 - 2.49,No,Yes,No,No,No
+FfnktPZZpsc Myk,Female,20.0,oLeTwPGc,Year 3,3.50 - 4.00 ,No,No,Yes,No,No
+e AWFjtGaK,Male,20.0,dRVJgRdO,Year 3,3.50 - 4.00,No,Yes,No,No,No
+pzGA LGJVCd,Male,24.0,chVhdHII,Year 3,3.50 - 4.00 ,No,Yes,Yes,No,No
+JtIYszFSmtCrYc mtCrYc,Female,21.0,DafYNtbD,year 2,3.50 - 4.00 ,No,No,No,No,No
+IeAIHL yvek,Male,21.0,wRfFYtbZ,year 3,3.00 - 3.49,No,Yes,Yes,No,No
+zfusWHgaDl T,Male,18.0,bAtAuMiM,year 1,3.50 - 4.00,No,No,No,No,No
+HBWIsgdfSA IsgdfSAQlTZ,Female,21.0,gbAZRHLg,year 2,2.50 - 2.99,No,Yes,No,Yes,No
+vBYkvwsTeNrG vBYkvwsTeNrGPN,Female,21.0,dARzmXPW,year 1,3.00 - 3.49,No,Yes,No,Yes,No
+LxLNPW WVyqPegkr,Female,20.0,VeqdVNdo,year 2,2.50 - 2.99,No,No,No,No,No
+ NcSLZbgCmef,Male,19.0,zUnjgFDo,year 2,3.50 - 4.00,No,No,Yes,No,No
+OHHTEUQJcdZt OHHTEUQJcdZtKR,Male,21.0,YqMRgvWS,year 2,3.50 - 4.00,No,No,Yes,No,No
+bMl zsn,Male,21.0,NMmzrTrH,Year 2,2.50 - 2.99,No,No,No,No,No
+s ARNAcFauPN,Female,21.0,hnrQQzzd,year 3,3.50 - 4.00,Yes,Yes,No,Yes,No
+YcJKYaXveBL PjF,Female,20.0,baWVDFnX,year 1,3.50 - 4.00,Yes,Yes,No,No,No
+rRuP rRuPgufTqgqGKX,Female,22.0,mxZnkXiY,Year 3,3.50 - 4.00 ,No,No,No,Yes,No
+ev vcLo,Male,20.0,RyogFQmo,year 3,3.00 - 3.49,No,Yes,No,No,No
+uOXq val,Male,23.0,HdXGedSL,year 2,2.50 - 2.99,Yes,Yes,Yes,Yes,No
+CnXtPuOpOdILLg PuOpOdILLg,Female,19.0,TuWikrkw,year 1,3.50 - 4.00 ,Yes,No,Yes,No,No
+ymHfdyfCO COBnYHb,Female,19.0,hrKdpCTj,Year 3,3.50 - 4.00,Yes,No,No,Yes,No
+jjie mcpySgmdj,Female,22.0,dRmSIYst,year 1,2.50 - 2.99,No,No,No,Yes,No
+CDoxSGrdG euS,Male,24.0,cqnZWGVq,year 2,2.50 - 2.99,No,Yes,Yes,Yes,No
+ WWMSlqqzspWACt,Male,19.0,LkgFUSdw,Year 3,3.50 - 4.00,No,Yes,No,No,No
+sgk mZkpusXj,Female,22.0,bcaYNzwh,year 3,3.50 - 4.00,No,No,No,No,No
+LMLKqLZQ QPDmQWL,Female,20.0,VNsmganO,year 2,3.50 - 4.00,No,Yes,No,Yes,No
+ NKtKWNtA,Female,18.0,cfdodtEc,year 2,3.50 - 4.00,No,Yes,Yes,Yes,No
+odYBDAgJlqTg zo,Female,22.0,dvWRMoXv,year 1,3.50 - 4.00,No,Yes,Yes,No,No
+FfC j,Female,22.0,Cfbxjoku,year 1,3.00 - 3.49,No,No,No,No,No
+lSrPQRhHM ,Female,22.0,aylAcqfL,year 3,2.50 - 2.99,No,Yes,No,Yes,No
+AWSsfRPO ZnVkY,Female,23.0,PuztACYU,year 2,3.00 - 3.49,Yes,No,No,No,No
+ rzqxLIsoOUg,Female,19.0,ODZnTyBA,Year 3,3.50 - 4.00,Yes,Yes,No,No,No
+y FmKTovIHkEbqz,Female,21.0,bdAqpgEU,year 1,3.00 - 3.49,Yes,Yes,No,Yes,No
+obbHnkZjUS ,Male,19.0,mgAqyXVX,year 2,3.00 - 3.49,No,No,No,Yes,No
+NioZc Ad,Female,23.0,ZamLlkqF,year 1,3.50 - 4.00,No,No,Yes,Yes,No
+AKRwcGg fwqo,Female,20.0,NlhNlHfU,Year 3,3.50 - 4.00,No,No,No,No,No
+dMDFcVNVuGq ,Male,18.0,GeoOCgWj,year 3,3.50 - 4.00 ,No,No,No,No,No
+UKbE j,Female,19.0,IDcCjrUg,year 2,3.50 - 4.00,Yes,No,No,Yes,No
+MSxRWYNEcjAolX ,Female,23.0,xFAWZWYr,year 2,3.00 - 3.49,Yes,No,Yes,Yes,No
+CyS nidNbAxokP,Male,23.0,XiNapcgH,year 3,2.50 - 2.99,Yes,Yes,Yes,Yes,No
+iyjxD ,Male,21.0,SbcUVTGo,year 1,3.50 - 4.00,No,Yes,Yes,Yes,No
+O IdCTaDpqDfwCa,Female,21.0,vhUtYnfB,year 2,3.50 - 4.00,No,No,Yes,No,No
+L hI,Male,21.0,noKqypTM,Year 3,2.50 - 2.99,No,No,Yes,No,Yes
+AmzDLxbGCA zDLxbGCAvoXz,Female,22.0,nMTsBnsB,year 1,2.50 - 2.99,No,Yes,No,No,No
+TEkGftGP ,Female,20.0,uIMrjAcg,year 3,3.00 - 3.49,No,Yes,No,Yes,No
+phmcCFkX phmcCFkXaPRCAQ,Female,24.0,KfIJMJiy,year 3,3.50 - 4.00,Yes,Yes,No,No,No
+bVmbclSoSTO ,Female,21.0,hAvOTsnt,year 2,3.50 - 4.00,No,Yes,No,No,No
+WNPXCXO PXCXOlemcTJx,Male,20.0,MZkaPqJy,year 1,2.00 - 2.49,Yes,No,Yes,Yes,No
+msvCwtY msvCwtYUfAphyh,Female,20.0,fvZOOIlh,Year 3,3.50 - 4.00,No,No,No,Yes,No
+EITs nyMci,Male,22.0,ABTYbqNO,Year 3,2.50 - 2.99,No,No,Yes,No,No
+hZpjq BoJmzEdjY,Female,21.0,FyzDnkMs,year 2,3.00 - 3.49,No,No,No,No,No
+w qtNYbRQIJrxJI,Female,23.0,RQSCtCIY,year 1,3.50 - 4.00,No,No,No,No,No
+NNJITQvbcB NJITQvbcBZRFR,Female,23.0,GnnFXHBg,year 3,3.50 - 4.00,No,Yes,Yes,Yes,No
+DJqIYHXabQM bQMMDq,Female,22.0,bwuelbbH,year 2,3.50 - 4.00,No,Yes,Yes,No,No
+ GnjiO,Male,21.0,QmPJhNEA,year 3,3.00 - 3.49,No,Yes,No,Yes,No
+UrUcz UrUczhUFMXZpzh,Male,20.0,UNrlqqLC,year 1,3.00 - 3.49,Yes,No,Yes,No,No
+QPjKlKGiO Adt,Male,20.0,TUfBFhVO,year 1,2.50 - 2.99,Yes,No,Yes,Yes,No
+TPYfhNDHZaQ fN,Female,23.0,UPanZMFn,year 2,3.00 - 3.49,No,Yes,No,No,No
+iMAzPITeEP TeEPorlC,Male,20.0,uWTHPxeS,year 1,2.50 - 2.99,No,Yes,No,No,No
+SsER ERnrAcWidIru,Female,23.0,JqVBMJLV,year 2,3.50 - 4.00 ,No,Yes,No,No,No
+Pxn vAWpdXTtPX,Male,20.0,jGApMhfi,year 1,3.00 - 3.49,No,No,No,No,No
+NnXrzivgBfQwCi ,Female,24.0,sEsxakVd,Year 3,3.50 - 4.00 ,No,Yes,No,No,No
+HblhAlb VV,Female,19.0,hyZarcTq,year 2,2.50 - 2.99,No,No,Yes,No,No
+rJ VoTTyBERb,Male,18.0,EGxlMhGu,year 1,3.50 - 4.00,No,No,No,Yes,No
+ztD bmuhZGwgz,Female,21.0,fyPcHayy,year 1,3.00 - 3.49,No,No,No,No,No
+yyiQONvLAyng ONvLAyngYm,Female,21.0,duWsWKYW,year 1,3.50 - 4.00,No,No,No,No,No
+altINhIdVjxMXM IdVjxMXM,Female,18.0,GoPoztPE,year 1,3.00 - 3.49,No,Yes,No,Yes,No
+xQOkg OkgjutyOnivd,Female,19.0,JhAjXTEs,Year 3,3.00 - 3.49,No,No,No,Yes,No
+oUFU Fz,Male,21.0,DZsfMgKy,year 2,3.00 - 3.49,Yes,Yes,No,Yes,No
+sBJKGmPHPQONgH ONgH,Male,23.0,llByfBoM,year 2,3.00 - 3.49,No,No,No,No,No
+WYVItMePwK b,Female,20.0,zFzoXlZy,year 2,3.50 - 4.00,No,No,No,Yes,No
+mdoCCIFGihyw oCCIFGihywyn,Male,24.0,lNMetnyi,year 3,3.00 - 3.49,No,No,Yes,Yes,No
+yBGoRczcZoZBr BrJ,Male,20.0,tSCFCdtS,year 1,3.00 - 3.49,No,No,No,No,No
+YizTQelNde TQelNdeFrUJ,Male,20.0,fggojctz,year 2,3.00 - 3.49,No,No,Yes,Yes,No
+X BTjGsqiOb,Male,24.0,qgkeSdbK,year 2,3.00 - 3.49,No,Yes,Yes,No,No
+fnj njaLbePRAgqrb,Female,23.0,ZOsMoZpp,year 1,3.00 - 3.49,No,No,Yes,No,No
+ jPRnygfYQ,Female,22.0,ETtSUxPK,Year 3,3.50 - 4.00,No,Yes,Yes,Yes,No
+ByLNu zlmYNds,Male,22.0,bKJlOzjY,Year 1,3.50 - 4.00,No,No,No,Yes,No
+jjsftQKPxTR PxTReia,Male,22.0,oLkhkkdJ,year 1,0 - 1.99,No,Yes,Yes,Yes,No
+bXiutzatfO zatfOSzQF,Female,22.0,thKdoDIv,year 1,3.00 - 3.49,No,Yes,No,Yes,No
+cuLdKZDqJdR uLdKZDqJdRutC,Female,21.0,njrJnALx,year 2,3.00 - 3.49,No,No,Yes,No,No
+elTlavcvpYG elTlavcvpYGHXp,Male,23.0,NskBhZzk,year 3,2.50 - 2.99,Yes,No,No,Yes,No
+ugYykH ,Female,18.0,UjguInns,year 2,3.50 - 4.00,No,No,No,No,No
+NeFaYxpuIFAkls kls,Female,22.0,vibRqOOQ,year 2,3.00 - 3.49,Yes,Yes,No,Yes,No
+vsAhAzIqidMdEP sAhAzIqidMdEP,Male,20.0,uJwxZiwq,Year 2,2.50 - 2.99,No,No,Yes,Yes,No
+HlAJ ObWmWa,Female,21.0,clxCgjRa,year 1,3.00 - 3.49,No,No,No,Yes,No
+b vghJfQIFahuK,Male,20.0,CNAmOPDj,year 2,3.50 - 4.00,No,No,Yes,No,Yes
+UeHN ,Female,21.0,uUWBZJnw,Year 3,3.00 - 3.49,No,No,No,No,No
+jMwa gXqmcbB,Female,22.0,zrwIgMMr,year 1,3.00 - 3.49,No,No,No,Yes,No
+p r,Male,23.0,QHCfHbmC,year 1,2.50 - 2.99,No,Yes,Yes,No,No
+tk oOvDDxlKaL,Female,21.0,TVshpSci,year 1,2.50 - 2.99,No,No,No,No,No
+cPMHDaxNcFBcNa PMHDaxNcFBcNa,Male,21.0,qMdPGWPN,year 1,3.00 - 3.49,No,No,No,No,No
+PnFmZjYx qF,Female,22.0,ipUPHdye,Year 3,2.50 - 2.99,No,No,Yes,Yes,No
+RUywrAmfiK KLtPW,Male,24.0,MaWLHPtQ,Year 3,3.00 - 3.49,No,No,Yes,Yes,No
+LBOW WprWbGKfMLg,Male,22.0,PKpVtIOG,year 3,3.00 - 3.49,No,Yes,No,No,No
+ZDv QEQxMP,Male,24.0,mhYIsWML,year 3,3.50 - 4.00,No,No,No,Yes,Yes
+wbNJSnvzQ Cs,Male,19.0,jOIlBdVZ,year 1,3.00 - 3.49,No,No,No,Yes,No
+vy vyMilHyZtCizoo,Female,20.0,MVAIZOPT,year 2,3.50 - 4.00,No,Yes,Yes,No,No
+USzKbcevuOv vm,Male,21.0,WURivRWg,year 2,3.00 - 3.49,Yes,No,Yes,Yes,No
+M mIGfhXBZTIH,Female,23.0,atkMqEBU,year 1,2.50 - 2.99,No,No,Yes,No,No
+CGl lKyjrDUKQIKP,Female,21.0,UjXNzoQB,year 2,2.50 - 2.99,No,Yes,No,Yes,No
+GeJQvSXZWFzA eJQvSXZWFzAyH,Male,22.0,hLAqNJfo,year 1,2.50 - 2.99,Yes,Yes,No,No,No
+P gKppsDTc,Male,21.0,zggHOGdS,year 1,3.00 - 3.49,No,Yes,No,No,No
+OSuSk mznOCsP,Female,18.0,NSqnzLqX,Year 3,3.00 - 3.49,No,No,No,No,No
+ wwMoYUJGRHTTY,Female,20.0,LgOqzdbY,Year 2,3.00 - 3.49,No,Yes,Yes,No,No
+rDePB aB,Male,22.0,ULErheBE,Year 3,3.50 - 4.00 ,Yes,No,No,No,No
+upT KeIczv,Male,20.0,xAZjsGuc,year 1,3.50 - 4.00,No,No,No,Yes,No
+wwVTT dIjCOG,Male,19.0,ZCbmxmKo,year 2,3.00 - 3.49,Yes,No,Yes,No,Yes
+Fim ScmRc,Female,22.0,CPqGdGaK,year 1,3.00 - 3.49,No,No,No,Yes,No
+Y WwRjQd,Male,,ocUOSrpy,year 2,2.00 - 2.49,No,Yes,Yes,Yes,No
+hfnQurBVTlOYGU VTlOYGU,Male,19.0,PEpJyHDX,year 1,3.00 - 3.49,No,Yes,Yes,No,No
+lUpm lUpmMbcMFsIpym,Female,21.0,jOHbRRWY,year 1,3.50 - 4.00 ,Yes,No,Yes,No,No
+ExpcvJtJ QZYKVU,Male,18.0,FEHHBOXo,year 1,3.00 - 3.49,No,Yes,Yes,No,No
+mrvs rvsfuLyrEHPln,Female,20.0,pIanXjlh,year 1,3.00 - 3.49,Yes,No,Yes,No,No
+obIfm Z,Male,20.0,jwmvgswd,year 2,2.50 - 2.99,No,No,Yes,No,No
+TEbTvvHTaA TEbTvvHTaAwTEK,Male,24.0,NQaBIorA,year 2,3.00 - 3.49,Yes,No,No,Yes,No
+jmMtkltqO Nu,Male,19.0,JUukfGGg,year 2,0 - 1.99,No,No,Yes,Yes,No
+mmvh bdRae,Female,20.0,syqSKcLP,year 2,3.50 - 4.00,No,Yes,Yes,No,No

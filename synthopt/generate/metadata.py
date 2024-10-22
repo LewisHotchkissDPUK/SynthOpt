@@ -69,6 +69,11 @@ def metadata_process(data, correlated=False):
 
     column_order = data.columns
 
+    for column in data.select_dtypes(include='float'):
+        # Check if all values are integers (no remainder when divided by 1)
+        if (data[column].dropna() % 1 == 0).all():
+            data[column] = data[column].astype("Int64")
+
     non_numerical_columns = list(set(data.columns) - set(data.describe().columns))
     date_columns = []
     for column in non_numerical_columns:
@@ -344,9 +349,9 @@ def generate_correlated_metadata(metadata, correlation_matrix, column_order, num
     for column in synthetic_data.columns:
         # Find the corresponding datatype in the metadata
         datatype = metadata.loc[metadata['variable_name'] == column, 'datatype'].values
-        if len(datatype) > 0 and np.issubdtype(datatype[0], np.integer):
+        if len(datatype) > 0 and "int" in str(datatype[0]).lower():   #if len(datatype) > 0 and np.issubdtype(datatype[0], np.integer):
             # Round the values in the column if the datatype is an integer
-            synthetic_data[column] = synthetic_data[column].round().astype(int)
+            synthetic_data[column] = synthetic_data[column].round()# .astype(int)
 
     # label mapping
     for column, mapping in label_mapping.items():
