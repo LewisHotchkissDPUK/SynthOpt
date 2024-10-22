@@ -36,6 +36,15 @@ def parse_range(value_range):
         return float(parts[0].strip()), float(parts[1].strip())
     return None
 
+def generate_random_string(avg_char_length, avg_space_length):
+  num_chars = int(round(avg_char_length))
+  num_spaces = int(round(avg_space_length))
+  random_string = ''.join(random.choice(string.ascii_letters) for i in range(num_chars - num_spaces))
+  for i in range(num_spaces):
+    random_string = random_string[:random.randint(0, len(random_string))] + ' ' + random_string[random.randint(0, len(random_string)):]
+
+  return random_string
+
 def calculate_average_length(df, columns):
   results = []
   for column in columns:
@@ -57,6 +66,8 @@ def calculate_average_length(df, columns):
 
 def metadata_process(data, correlated=False):
     metadata = pd.DataFrame(columns=['variable_name', 'datatype', 'completeness', 'values', 'mean', 'standard_deviation', 'skew'])
+
+    column_order = data.columns
 
     non_numerical_columns = list(set(data.columns) - set(data.describe().columns))
     date_columns = []
@@ -128,9 +139,9 @@ def metadata_process(data, correlated=False):
         label_mapping[column] = dict(zip(le.fit_transform(orig_data[column].unique()), orig_data[column].unique()))
 
     if correlated == True:
-        return metadata, correlation_matrix, label_mapping
+        return metadata, correlation_matrix, label_mapping, column_order
     else:
-        return metadata
+        return metadata, label_mapping, column_order
 
 # Function to generate random data based on metadata for each filename
 # NEED TO FIX DATE AND TIME
@@ -279,7 +290,7 @@ def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
     return np.array(samples[:size])
 
 
-def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, identifier_column=None, label_mapping=None):
+def generate_correlated_metadata(metadata, correlation_matrix, column_order, num_records=100, identifier_column=None, label_mapping=None):
     # Number of samples to generate
     num_rows = num_records
 
@@ -287,6 +298,7 @@ def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, 
         return pd.api.types.is_integer_dtype(datatype) or pd.api.types.is_float_dtype(datatype)
 
     numerical_metadata = metadata[metadata['datatype'].apply(is_int_or_float)]
+    non_numerical_metadata = metadata[~metadata['datatype'].apply(is_int_or_float)]
 
     # Initialize lists to store means, std_devs, and value ranges
     means = []
@@ -348,7 +360,6 @@ def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, 
 
     # date combine
     # Identify columns that match the pattern *_year, *_month, *_day
-    # Identify columns that match the pattern *_year, *_month, *_day
     date_cols = {}
     
     for col in synthetic_data.columns:
@@ -366,14 +377,27 @@ def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, 
     for base_name, cols in date_cols.items():
         if 'year' in cols and 'month' in cols and 'day' in cols:
             # Create the new date column with error handling
-            synthetic_data[base_name + '_date'] = pd.to_datetime(
+            synthetic_data[base_name] = pd.to_datetime(
                 synthetic_data[[cols['year'], cols['month'], cols['day']]].rename(
                     columns={cols['year']: 'year', cols['month']: 'month', cols['day']: 'day'}
                 ),
                 errors='coerce'  # Convert invalid dates to NaT
             )
             
-            # Optionally, drop the original year, month, and day columns
-            synthetic_data.drop(columns=[cols['year'], cols['month'], cols['day']], inplace=True)
+            # Drop the original year, month, and day columns
+            synthetic_data.drop(columns=[cols['year'], cols['month'], cols['day']], inplace=True)#
+
+    # free text handling!!
+    for index, row in non_numerical_metadata.iterrows():
+        column_name = row['variable_name']
+        mean = row['mean']
+        std_dev = row['standard_deviation']
+    
+        # Check if mean and std_dev are not NaN
+        if not pd.isna(mean) and not pd.isna(std_dev):
+            # Call the generate_random_string function and assign the result to the data
+            synthetic_data[column_name] = [generate_random_string(mean, std_dev) for _ in range(len(synthetic_data))]
+
+    synthetic_data = synthetic_data[column_order]
 
     return synthetic_data
