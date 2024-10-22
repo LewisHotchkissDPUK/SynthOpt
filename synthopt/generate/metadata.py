@@ -146,7 +146,7 @@ def metadata_process(data, type="correlated"):
         label_mapping[column] = dict(zip(le.fit_transform(orig_data[column].unique()), orig_data[column].unique()))
 
     if type == "correlated":
-        return metadata, correlation_matrix, label_mapping, column_order
+        return metadata, label_mapping, column_order, correlation_matrix
     else:
         return metadata, label_mapping, column_order
 
