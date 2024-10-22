@@ -80,6 +80,7 @@ def metadata_process(data, correlated=False):
     non_categorical_string_columns = list(set(all_string_columns) - set(categorical_string_columns))
     average_lengths_df = calculate_average_length(data, non_categorical_string_columns)
     # encoding of the categorical strings 
+    orig_data = data.copy()
     le = LabelEncoder()
     for column in categorical_string_columns:
         data[column] = le.fit_transform(data[column])
@@ -124,7 +125,7 @@ def metadata_process(data, correlated=False):
 
     label_mapping = {}
     for column in categorical_string_columns:
-        label_mapping[column] = dict(zip(le.fit_transform(data[column].unique()), data[column].unique()))
+        label_mapping[column] = dict(zip(le.fit_transform(orig_data[column].unique()), orig_data[column].unique()))
 
     if correlated == True:
         return metadata, correlation_matrix, label_mapping
@@ -278,9 +279,14 @@ def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
     return np.array(samples[:size])
 
 
-def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, identifier_column=None):
+def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, identifier_column=None, label_mapping=None):
     # Number of samples to generate
     num_rows = num_records
+
+    def is_int_or_float(datatype):
+        return pd.api.types.is_integer_dtype(datatype) or pd.api.types.is_float_dtype(datatype)
+
+    numerical_metadata = metadata[metadata['datatype'].apply(is_int_or_float)]
 
     # Initialize lists to store means, std_devs, and value ranges
     means = []
@@ -290,7 +296,7 @@ def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, 
     upper_bounds = []
 
     # Collect means, standard deviations, and value ranges for each variable
-    for i, (index, row) in enumerate(metadata.iterrows()):
+    for i, (index, row) in enumerate(numerical_metadata.iterrows()):
         means.append(row['mean'])
         std_devs.append(row['standard_deviation'])
         variable_names.append(row['variable_name'])
@@ -314,7 +320,7 @@ def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, 
     synthetic_data = pd.DataFrame(synthetic_samples, columns=variable_names)
 
     # Introduce missing values (NaNs) according to the completeness percentages
-    for i, (index, row) in enumerate(metadata.iterrows()):
+    for i, (index, row) in enumerate(numerical_metadata.iterrows()):
         completeness = row['completeness'] / 100  # Convert to a decimal
         num_valid_rows = int(num_rows * completeness)  # Number of valid rows based on completeness
 
@@ -328,5 +334,46 @@ def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, 
         synthetic_data = synthetic_data.drop(columns=[identifier_column])
         synthetic_data.insert(0,identifier_column,participant_ids_integer)
 
+
+    for column in synthetic_data.columns:
+        # Find the corresponding datatype in the metadata
+        datatype = metadata.loc[metadata['variable_name'] == column, 'datatype'].values
+        if len(datatype) > 0 and np.issubdtype(datatype[0], np.integer):
+            # Round the values in the column if the datatype is an integer
+            synthetic_data[column] = synthetic_data[column].round().astype(int)
+
+    # label mapping
+    for column, mapping in label_mapping.items():
+        synthetic_data[column] = synthetic_data[column].map(mapping)
+
+    # date combine
+    # Identify columns that match the pattern *_year, *_month, *_day
+    # Identify columns that match the pattern *_year, *_month, *_day
+    date_cols = {}
+    
+    for col in synthetic_data.columns:
+        if col.endswith('_year'):
+            base_name = col[:-5]
+            date_cols.setdefault(base_name, {})['year'] = col
+        elif col.endswith('_month'):
+            base_name = col[:-6]
+            date_cols.setdefault(base_name, {})['month'] = col
+        elif col.endswith('_day'):
+            base_name = col[:-4]
+            date_cols.setdefault(base_name, {})['day'] = col
+
+    # Combine identified columns into a new date column
+    for base_name, cols in date_cols.items():
+        if 'year' in cols and 'month' in cols and 'day' in cols:
+            # Create the new date column with error handling
+            synthetic_data[base_name + '_date'] = pd.to_datetime(
+                synthetic_data[[cols['year'], cols['month'], cols['day']]].rename(
+                    columns={cols['year']: 'year', cols['month']: 'month', cols['day']: 'day'}
+                ),
+                errors='coerce'  # Convert invalid dates to NaT
+            )
+            
+            # Optionally, drop the original year, month, and day columns
+            synthetic_data.drop(columns=[cols['year'], cols['month'], cols['day']], inplace=True)
 
     return synthetic_data
