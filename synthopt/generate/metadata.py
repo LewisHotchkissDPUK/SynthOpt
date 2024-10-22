@@ -64,7 +64,9 @@ def calculate_average_length(df, columns):
     })
   return results
 
-def metadata_process(data, correlated=False):
+def metadata_process(data, type="correlated"):
+    # !!!!!! if structural return only structural cols, is statistical also return mean and sd, is correlated then add corr matrix !!!!!!!
+
     metadata = pd.DataFrame(columns=['variable_name', 'datatype', 'completeness', 'values', 'mean', 'standard_deviation', 'skew'])
 
     column_order = data.columns
@@ -143,7 +145,7 @@ def metadata_process(data, correlated=False):
     for column in categorical_string_columns:
         label_mapping[column] = dict(zip(le.fit_transform(orig_data[column].unique()), orig_data[column].unique()))
 
-    if correlated == True:
+    if type == "correlated":
         return metadata, correlation_matrix, label_mapping, column_order
     else:
         return metadata, label_mapping, column_order
