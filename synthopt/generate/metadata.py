@@ -467,8 +467,12 @@ def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, 
 
     if identifier_column != None:
         participant_ids_integer = [random_integer() for _ in range(num_records)] 
-        synthetic_data = synthetic_data.drop(columns=[identifier_column])
-        synthetic_data.insert(0,identifier_column,participant_ids_integer)
+        #synthetic_data = synthetic_data.drop(columns=[identifier_column])
+        #synthetic_data.insert(0,identifier_column,participant_ids_integer)
+
+        for column in synthetic_data.columns:
+            if column.endswith('.' + identifier_column):
+                synthetic_data[column] = participant_ids_integer
 
 
     # Remove the prefixes
