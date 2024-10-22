@@ -69,8 +69,6 @@ def metadata_process(data, type="correlated"):
 
     metadata = pd.DataFrame(columns=['variable_name', 'datatype', 'completeness', 'values', 'mean', 'standard_deviation', 'skew'])
 
-    column_order = data.columns
-
     for column in data.select_dtypes(include='float'):
         # Check if all values are integers (no remainder when divided by 1)
         if (data[column].dropna() % 1 == 0).all():
@@ -111,6 +109,9 @@ def metadata_process(data, type="correlated"):
         data[column + '_year'] = data[column].dt.year
         data[column + '_month'] = data[column].dt.month
         data[column + '_day'] = data[column].dt.day
+        data.insert(data.columns.get_loc(column) + 1, column + '_year', data.pop(column + '_year'))
+        data.insert(data.columns.get_loc(column) + 2, column + '_month', data.pop(column + '_month'))
+        data.insert(data.columns.get_loc(column) + 3, column + '_day', data.pop(column + '_day'))
     data = data.drop(date_columns, axis=1)
 
     for column in data.columns:
@@ -146,9 +147,9 @@ def metadata_process(data, type="correlated"):
         label_mapping[column] = dict(zip(le.fit_transform(orig_data[column].unique()), orig_data[column].unique()))
 
     if type == "correlated":
-        return metadata, label_mapping, column_order, correlation_matrix
+        return metadata, label_mapping, correlation_matrix
     else:
-        return metadata, label_mapping, column_order
+        return metadata, label_mapping
 
 # Function to generate random data based on metadata for each filename
 # NEED TO FIX DATE AND TIME
@@ -297,7 +298,7 @@ def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
     return np.array(samples[:size])
 
 
-def generate_correlated_metadata(metadata, correlation_matrix, column_order, num_records=100, identifier_column=None, label_mapping=None):
+def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, identifier_column=None, label_mapping=None):
     # Number of samples to generate
     num_rows = num_records
 
@@ -399,7 +400,22 @@ def generate_correlated_metadata(metadata, correlation_matrix, column_order, num
             # Call the generate_random_string function and assign the result to the data
             synthetic_data[column_name] = [generate_random_string(mean, std_dev) for _ in range(len(synthetic_data))]
 
-    synthetic_data = synthetic_data[column_order]
+    #synthetic_data = synthetic_data[column_order]
+    def strip_suffix(variable_name):
+        if variable_name.endswith('_year'):
+            return variable_name[:-5]  # Remove the '_year' suffix
+        elif variable_name.endswith('_month'):
+            return variable_name[:-6]  # Remove the '_month' suffix
+        elif variable_name.endswith('_day'):
+            return variable_name[:-4]  # Remove the '_day' suffix
+        else:
+            return variable_name
+    # Apply the function to create a new column for base names
+    metadata_temp = metadata.copy()
+    metadata_temp['base_name'] = metadata['variable_name'].apply(strip_suffix)
+    # Get unique base names
+    unique_variable_names = metadata_temp['base_name'].unique().tolist()
+    synthetic_data = synthetic_data[unique_variable_names]
 
     if identifier_column != None:
         participant_ids_integer = [random_integer() for _ in range(num_records)] 
