@@ -341,12 +341,6 @@ def generate_correlated_metadata(metadata, correlation_matrix, column_order, num
             nan_indices = np.random.choice(num_rows, size=(num_rows - num_valid_rows), replace=False)
             synthetic_data.iloc[nan_indices, i] = np.nan
 
-    if identifier_column != None:
-        participant_ids_integer = [random_integer() for _ in range(num_records)] 
-        synthetic_data = synthetic_data.drop(columns=[identifier_column])
-        synthetic_data.insert(0,identifier_column,participant_ids_integer)
-
-
     for column in synthetic_data.columns:
         # Find the corresponding datatype in the metadata
         datatype = metadata.loc[metadata['variable_name'] == column, 'datatype'].values
@@ -399,5 +393,10 @@ def generate_correlated_metadata(metadata, correlation_matrix, column_order, num
             synthetic_data[column_name] = [generate_random_string(mean, std_dev) for _ in range(len(synthetic_data))]
 
     synthetic_data = synthetic_data[column_order]
+
+    if identifier_column != None:
+        participant_ids_integer = [random_integer() for _ in range(num_records)] 
+        synthetic_data = synthetic_data.drop(columns=[identifier_column])
+        synthetic_data.insert(0,identifier_column,participant_ids_integer)
 
     return synthetic_data
