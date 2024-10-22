@@ -39,12 +39,19 @@ GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, 
 
 ## CORRELATED METADATA TESTING ##
 DATA = pd.read_csv("examples\healthcare_dataset.csv")
-METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATA, "correlated")
+DATA2 = pd.read_csv("examples/Impact_of_Remote_Work_on_Mental_Health.csv")
+
+DATASETS = {"healthcare":DATA, "mentalhealth":DATA2}
+
+#METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATA, "correlated")
+METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATASETS, "correlated")
+
+
 print(METADATA)
 print(LABEL_MAPPING)
 
-SYNTHETIC_DATA = generate_correlated_metadata(METADATA, CORRELATION_MATRIX, 400, label_mapping=LABEL_MAPPING) #, identifier_column="PatientID"
-SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
+#SYNTHETIC_DATA = generate_correlated_metadata(METADATA, CORRELATION_MATRIX, 400, label_mapping=LABEL_MAPPING) #, identifier_column="PatientID"
+#SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
 
 
 ##

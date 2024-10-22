@@ -64,89 +64,115 @@ def calculate_average_length(df, columns):
     })
   return results
 
+
 def metadata_process(data, type="correlated"):
-    # !!!!!! if structural return only structural cols, is statistical also return mean and sd, is correlated then add corr matrix !!!!!!!
+    def process_single_dataframe(data, table_name=None):
+        metadata = pd.DataFrame(columns=['variable_name', 'datatype', 'completeness', 'values', 'mean', 'standard_deviation', 'skew', 'table_name'])
 
-    metadata = pd.DataFrame(columns=['variable_name', 'datatype', 'completeness', 'values', 'mean', 'standard_deviation', 'skew'])
+        # Convert floats that are actually integers
+        for column in data.select_dtypes(include='float'):
+            if (data[column].dropna() % 1 == 0).all():
+                data[column] = data[column].astype("Int64")
 
-    for column in data.select_dtypes(include='float'):
-        # Check if all values are integers (no remainder when divided by 1)
-        if (data[column].dropna() % 1 == 0).all():
-            data[column] = data[column].astype("Int64")
+        # Identify non-numerical columns
+        non_numerical_columns = list(set(data.columns) - set(data.describe().columns))
+        date_columns = []
+        for column in non_numerical_columns:
+            try:
+                pd.to_datetime(data[column])
+                date_columns.append(column)
+            except ValueError:
+                pass
 
-    non_numerical_columns = list(set(data.columns) - set(data.describe().columns))
-    date_columns = []
-    for column in non_numerical_columns:
-        try:
-            pd.to_datetime(data[column])
-            date_columns.append(column)
-        except ValueError:
-            pass
-    # string/object only columns
-    all_string_columns = list(set(non_numerical_columns) - set(date_columns))
-    # estimating which string columns are categorical (if unique is less than 20% of data)
-    categorical_string_columns = []
-    for column in data[all_string_columns].columns:
-        if data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.2:
-            categorical_string_columns.append(column)
-    ## non categorical string columns - so likely free text columns
-    non_categorical_string_columns = list(set(all_string_columns) - set(categorical_string_columns))
-    average_lengths_df = calculate_average_length(data, non_categorical_string_columns)
-    # encoding of the categorical strings 
-    orig_data = data.copy()
-    le = LabelEncoder()
-    for column in categorical_string_columns:
-        data[column] = le.fit_transform(data[column])
+        # Identify string/object columns
+        all_string_columns = list(set(non_numerical_columns) - set(date_columns))
+        categorical_string_columns = []
+        for column in data[all_string_columns].columns:
+            if data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.2:
+                categorical_string_columns.append(column)
+        non_categorical_string_columns = list(set(all_string_columns) - set(categorical_string_columns))
+        
+        # Calculate average lengths of non-categorical strings
+        average_lengths_df = calculate_average_length(data, non_categorical_string_columns)
 
-    for col in date_columns:
-        if col in data.columns:
-            data[col] = pd.to_datetime(data[col], errors='coerce')
-    for column in date_columns:
-        data[column] = pd.to_datetime(data[column])
-        data[column + '_year'] = data[column].dt.year
-        data[column + '_month'] = data[column].dt.month
-        data[column + '_day'] = data[column].dt.day
-        data.insert(data.columns.get_loc(column) + 1, column + '_year', data.pop(column + '_year'))
-        data.insert(data.columns.get_loc(column) + 2, column + '_month', data.pop(column + '_month'))
-        data.insert(data.columns.get_loc(column) + 3, column + '_day', data.pop(column + '_day'))
-    data = data.drop(date_columns, axis=1)
+        # Encode categorical strings
+        orig_data = data.copy()
+        le = LabelEncoder()
+        for column in categorical_string_columns:
+            data[column] = le.fit_transform(data[column])
 
-    for column in data.columns:
-        completeness = (data[column].notna().sum() / len(data)) * 100
-        if column in non_categorical_string_columns:
-            value_range = None
-            mean = next((item['avg_char_length'] for item in average_lengths_df if item['column'] == column), None)
-            std_dev = next((item['avg_space_length'] for item in average_lengths_df if item['column'] == column), None)
-            skewness_value = None
-        else:
-            value_range = (data[column].min(), data[column].max())
-            mean = data[column].mean()
-            std_dev = data[column].std()
-            skewness_value = skew(data[column])
-            
+        # Handle date columns by expanding them
+        for col in date_columns:
+            if col in data.columns:
+                data[col] = pd.to_datetime(data[col], errors='coerce')
+        for column in date_columns:
+            data[column] = pd.to_datetime(data[column])
+            data[column + '_year'] = data[column].dt.year
+            data[column + '_month'] = data[column].dt.month
+            data[column + '_day'] = data[column].dt.day
+            data.insert(data.columns.get_loc(column) + 1, column + '_year', data.pop(column + '_year'))
+            data.insert(data.columns.get_loc(column) + 2, column + '_month', data.pop(column + '_month'))
+            data.insert(data.columns.get_loc(column) + 3, column + '_day', data.pop(column + '_day'))
+        data = data.drop(date_columns, axis=1)
 
-        new_row = pd.DataFrame({
-            'variable_name': [column],
-            'datatype': [data[column].dtype],
-            'completeness': [completeness],
-            'values': [value_range],
-            'mean': [mean],
-            'standard_deviation': [std_dev],
-            'skew': [skewness_value]
-        })
-        metadata = pd.concat([metadata, new_row], ignore_index=True)
+        # Create metadata for each column
+        for column in data.columns:
+            completeness = (data[column].notna().sum() / len(data)) * 100
+            if column in non_categorical_string_columns:
+                value_range = None
+                mean = next((item['avg_char_length'] for item in average_lengths_df if item['column'] == column), None)
+                std_dev = next((item['avg_space_length'] for item in average_lengths_df if item['column'] == column), None)
+                skewness_value = None
+            else:
+                value_range = (data[column].min(), data[column].max())
+                mean = data[column].mean()
+                std_dev = data[column].std()
+                skewness_value = skew(data[column])
+                
+            new_row = pd.DataFrame({
+                'variable_name': [column],
+                'datatype': [data[column].dtype],
+                'completeness': [completeness],
+                'values': [value_range],
+                'mean': [mean],
+                'standard_deviation': [std_dev],
+                'skew': [skewness_value],
+                'table_name': [table_name] if table_name else [None]
+            })
+            metadata = pd.concat([metadata, new_row], ignore_index=True)
 
-    data_numerical_only = data[list(set(data.columns) - set(data[non_categorical_string_columns]))]
-    correlation_matrix = data_numerical_only.corr()
+        # Numerical columns for correlation
+        data_numerical_only = data[list(set(data.columns) - set(non_categorical_string_columns))]
+        correlation_matrix = data_numerical_only.corr()
 
-    label_mapping = {}
-    for column in categorical_string_columns:
-        label_mapping[column] = dict(zip(le.fit_transform(orig_data[column].unique()), orig_data[column].unique()))
+        # Create label mapping for categorical variables
+        label_mapping = {}
+        for column in categorical_string_columns:
+            label_mapping[column] = dict(zip(le.fit_transform(orig_data[column].unique()), orig_data[column].unique()))
 
-    if type == "correlated":
         return metadata, label_mapping, correlation_matrix
+
+    # If the input is a dictionary, process each table individually
+    if isinstance(data, dict):
+        combined_metadata = pd.DataFrame()
+        combined_label_mapping = {}
+        combined_correlation_matrices = {}
+
+        for table_name, df in data.items():
+            table_metadata, table_label_mapping, table_correlation_matrix = process_single_dataframe(df, table_name)
+            combined_metadata = pd.concat([combined_metadata, table_metadata], ignore_index=True)
+            combined_label_mapping[table_name] = table_label_mapping
+            combined_correlation_matrices[table_name] = table_correlation_matrix
+
+        if type == "correlated":
+            return combined_metadata, combined_label_mapping, combined_correlation_matrices
+        else:
+            return combined_metadata, combined_label_mapping
     else:
-        return metadata, label_mapping
+        # If input is a single DataFrame, process directly
+        return process_single_dataframe(data)
+
+
 
 # Function to generate random data based on metadata for each filename
 # NEED TO FIX DATE AND TIME
