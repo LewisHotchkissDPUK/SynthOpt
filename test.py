@@ -49,8 +49,12 @@ METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATASETS, "correl
 
 print(METADATA)
 print(LABEL_MAPPING)
+print(CORRELATION_MATRIX)
 
-#SYNTHETIC_DATA = generate_correlated_metadata(METADATA, CORRELATION_MATRIX, 400, label_mapping=LABEL_MAPPING) #, identifier_column="PatientID"
+SYNTHETIC_DATA = generate_correlated_metadata(METADATA, CORRELATION_MATRIX, 400, label_mapping=LABEL_MAPPING) #, identifier_column="PatientID"
+
+print()
+print(SYNTHETIC_DATA)
 #SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
 
 

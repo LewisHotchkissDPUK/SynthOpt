@@ -141,36 +141,50 @@ def metadata_process(data, type="correlated"):
             })
             metadata = pd.concat([metadata, new_row], ignore_index=True)
 
-        # Numerical columns for correlation
-        data_numerical_only = data[list(set(data.columns) - set(non_categorical_string_columns))]
-        correlation_matrix = data_numerical_only.corr()
-
-        # Create label mapping for categorical variables
+        # Create label mapping for categorical variables with table name prefix
         label_mapping = {}
         for column in categorical_string_columns:
-            label_mapping[column] = dict(zip(le.fit_transform(orig_data[column].unique()), orig_data[column].unique()))
+            prefixed_column = f"{table_name}.{column}" if table_name else column  # Add table name prefix
+            label_mapping[prefixed_column] = dict(zip(le.fit_transform(orig_data[column].unique()), orig_data[column].unique()))
 
-        return metadata, label_mapping, correlation_matrix
+        return metadata, label_mapping, data
 
     # If the input is a dictionary, process each table individually
     if isinstance(data, dict):
         combined_metadata = pd.DataFrame()
         combined_label_mapping = {}
-        combined_correlation_matrices = {}
+        combined_data = pd.DataFrame()
 
         for table_name, df in data.items():
-            table_metadata, table_label_mapping, table_correlation_matrix = process_single_dataframe(df, table_name)
+            table_metadata, table_label_mapping, processed_data = process_single_dataframe(df, table_name)
             combined_metadata = pd.concat([combined_metadata, table_metadata], ignore_index=True)
-            combined_label_mapping[table_name] = table_label_mapping
-            combined_correlation_matrices[table_name] = table_correlation_matrix
+            
+            # Update with the new label mapping, flattening it
+            for key, value in table_label_mapping.items():
+                combined_label_mapping[key] = value  # Add the prefixed key directly
+
+            # Prefix columns with table name to prevent conflicts
+            processed_data.columns = [f"{table_name}.{col}" for col in processed_data.columns]
+            combined_data = pd.concat([combined_data, processed_data], axis=1)
+
+        # Correlation across combined numerical data
+        combined_numerical_data = combined_data.select_dtypes(include=['number'])
+        correlation_matrix = combined_numerical_data.corr()
 
         if type == "correlated":
-            return combined_metadata, combined_label_mapping, combined_correlation_matrices
+            return combined_metadata, combined_label_mapping, correlation_matrix
         else:
             return combined_metadata, combined_label_mapping
     else:
         # If input is a single DataFrame, process directly
-        return process_single_dataframe(data)
+        metadata, label_mapping, processed_data = process_single_dataframe(data)
+        correlation_matrix = processed_data.corr() if type == "correlated" else None
+
+        if type == "correlated":
+            return metadata, label_mapping, correlation_matrix
+        else:
+            return metadata, label_mapping
+
 
 
 
@@ -321,7 +335,15 @@ def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
     return np.array(samples[:size])
 
 
+
 def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, identifier_column=None, label_mapping=None):
+
+    # add table_name. prefix in front of variable names
+    # need to add code at the end to seperate data into seperate tables if table_name is not none. 
+    # if table_name is not none, then label mapping needs handling seperately
+
+    metadata['variable_name'] = metadata.apply(lambda x: f"{x['table_name']}.{x['variable_name']}", axis=1)
+
     # Number of samples to generate
     num_rows = num_records
 
@@ -443,5 +465,16 @@ def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, 
         participant_ids_integer = [random_integer() for _ in range(num_records)] 
         synthetic_data = synthetic_data.drop(columns=[identifier_column])
         synthetic_data.insert(0,identifier_column,participant_ids_integer)
+
+    # Remove the prefixes
+    dataframes_dict = {}
+    for column in synthetic_data.columns:
+        prefix = column.split('.')[0]  
+        if prefix not in dataframes_dict:
+            prefix_columns = [col for col in synthetic_data.columns if col.startswith(prefix)]            
+            new_df = synthetic_data[prefix_columns].copy()            
+            new_df.columns = [col[len(prefix) + 1:] for col in new_df.columns]  # Remove prefix            
+            dataframes_dict[prefix] = new_df
+    synthetic_data = dataframes_dict
 
     return synthetic_data
