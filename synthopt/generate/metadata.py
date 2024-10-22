@@ -89,9 +89,6 @@ def metadata_process(data, type="correlated"):
     for column in data[all_string_columns].columns:
         if data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.2:
             categorical_string_columns.append(column)
-    ## converting to categorical data type
-    ##for column in categorical_string_columns:
-    ##    training_data[column] = training_data[column].astype('category')
     ## non categorical string columns - so likely free text columns
     non_categorical_string_columns = list(set(all_string_columns) - set(categorical_string_columns))
     average_lengths_df = calculate_average_length(data, non_categorical_string_columns)
@@ -400,7 +397,6 @@ def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, 
             # Call the generate_random_string function and assign the result to the data
             synthetic_data[column_name] = [generate_random_string(mean, std_dev) for _ in range(len(synthetic_data))]
 
-    #synthetic_data = synthetic_data[column_order]
     def strip_suffix(variable_name):
         if variable_name.endswith('_year'):
             return variable_name[:-5]  # Remove the '_year' suffix
