@@ -80,10 +80,11 @@ def metadata_process(data, type="correlated"):
         date_columns = []
         for column in non_numerical_columns:
             try:
-                pd.to_datetime(data[column])
+                pd.to_datetime(data[column], errors='coerce', infer_datetime_format=True)
                 date_columns.append(column)
             except ValueError:
                 pass
+        print(date_columns)
 
         # Identify string/object columns
         all_string_columns = list(set(non_numerical_columns) - set(date_columns))
@@ -105,9 +106,9 @@ def metadata_process(data, type="correlated"):
         # Handle date columns by expanding them
         for col in date_columns:
             if col in data.columns:
-                data[col] = pd.to_datetime(data[col], errors='coerce')
+                data[col] = pd.to_datetime(data[col], errors='coerce', infer_datetime_format=True)
         for column in date_columns:
-            data[column] = pd.to_datetime(data[column])
+            data[column] = pd.to_datetime(data[column], errors='coerce', infer_datetime_format=True)
             data[column + '_year'] = data[column].dt.year
             data[column + '_month'] = data[column].dt.month
             data[column + '_day'] = data[column].dt.day
@@ -125,9 +126,16 @@ def metadata_process(data, type="correlated"):
                 std_dev = next((item['avg_space_length'] for item in average_lengths_df if item['column'] == column), None)
                 skewness_value = None
             else:
-                value_range = (data[column].min(), data[column].max())
-                mean = data[column].mean()
-                std_dev = data[column].std()
+                try:
+                    value_range = (data[column].min(), data[column].max())
+                except Exception:
+                    value_range = None
+                try:
+                    mean = data[column].mean()
+                    std_dev = data[column].std()
+                except Exception:
+                    mean = None
+                    std_dev = None
                 try:
                     skewness_value = skew(data[column])
                 except Exception:
