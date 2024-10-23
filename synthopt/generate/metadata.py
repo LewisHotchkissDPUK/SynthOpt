@@ -199,9 +199,6 @@ def metadata_process(data, type="correlated"):
 
 
 
-
-
-
 # Function to generate random data based on metadata for each filename
 def generate_structural_data(metadata, label_mapping=None, num_records=100, identifier_column=None):
     single = False
@@ -344,17 +341,6 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
                 # Track combined columns to update table columns list later
                 combined_date_cols.update({components['year']: combined_column_name, components['month']: combined_column_name, components['day']: combined_column_name})
 
-
-        # Reorder the DataFrame columns based on original variable order
-        #new_columns_order = []
-        #for col in original_order:
-        #    if col in combined_date_cols:
-        #        new_columns_order.append(combined_date_cols[col])  # Use the combined datetime column
-        #    else:
-        #        new_columns_order.append(col)  # Retain the original column
-        # Set the DataFrame columns in the original order
-        #generated_data[table_name] = generated_data[table_name][new_columns_order]
-
         new_columns_order = []
         added_base_names = set()  # Track columns from base_names that have been added
         for col in original_order:
@@ -396,11 +382,7 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
     else:
         return generated_data
     
-
-
-
-
-
+    
 
 
 # Function to generate correlated samples with truncated bounds using rejection sampling
