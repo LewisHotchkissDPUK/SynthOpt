@@ -53,14 +53,14 @@ print(METADATA)
 print(LABEL_MAPPING)
 #print(CORRELATION_MATRIX)
 
-SYNTHETIC_DATA = generate_structural_data(METADATA, LABEL_MAPPING, identifier_column="Employee_ID") 
-print(SYNTHETIC_DATA)
+#SYNTHETIC_DATA = generate_structural_data(METADATA, LABEL_MAPPING, identifier_column="Employee_ID") 
+#print(SYNTHETIC_DATA)
 
 #, identifier_column="Employee_ID" if an identifier column is passed, it wont be recognised because prefix is added - handle this
-#SYNTHETIC_DATA = generate_correlated_data(METADATA, CORRELATION_MATRIX, 400, identifier_column="Employee_ID", label_mapping=LABEL_MAPPING) #, identifier_column="PatientID"
+SYNTHETIC_DATA = generate_correlated_data(METADATA, CORRELATION_MATRIX, 400, identifier_column="Employee_ID", label_mapping=LABEL_MAPPING) #, identifier_column="PatientID"
 
-#print(SYNTHETIC_DATA)
-#SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
+print(SYNTHETIC_DATA)
+SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
 
 #SYNTHETIC_DATA["healthcare"].to_csv("output/healthcare_correlated_metadata_synthetic_data.csv", index=False)
 #SYNTHETIC_DATA["mentalhealth"].to_csv("output/mentalhealth_correlated_metadata_synthetic_data.csv", index=False)

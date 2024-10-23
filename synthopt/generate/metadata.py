@@ -382,7 +382,7 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
     else:
         return generated_data
     
-    
+
 
 
 # Function to generate correlated samples with truncated bounds using rejection sampling
@@ -412,7 +412,7 @@ def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
 
 
 
-def generate_correlated_data(metadata, correlation_matrix, num_records=100, identifier_column=None, label_mapping=None):
+def generate_correlated_data(metadata, correlation_matrix, num_records=100, identifier_column=None, label_mapping={}):
 
     metadata['variable_name'] = metadata.apply(lambda x: f"{x['table_name']}.{x['variable_name']}", axis=1)
 
