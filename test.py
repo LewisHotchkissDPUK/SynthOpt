@@ -1,4 +1,4 @@
-from synthopt.generate.metadata import generate_structural_metadata, generate_correlated_metadata, metadata_process
+from synthopt.generate.metadata import generate_structural_data, generate_correlated_data, metadata_process
 from synthopt.generate.syntheticdata import generate_syntheticdata
 from synthopt.generate.syntheticdata import process
 
@@ -45,19 +45,22 @@ DATASETS = {"healthcare":DATA, "mentalhealth":DATA2}
 
 #METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATA2, "correlated")
 
-METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATASETS, "correlated")
+#METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATASETS, "correlated")
+METADATA, LABEL_MAPPING = metadata_process(DATA, "structural")
 
 
 print(METADATA)
 print(LABEL_MAPPING)
-print(CORRELATION_MATRIX)
+#print(CORRELATION_MATRIX)
+
+SYNTHETIC_DATA = generate_structural_data(METADATA, LABEL_MAPPING)
+print(SYNTHETIC_DATA)
 
 
 #, identifier_column="Employee_ID" if an identifier column is passed, it wont be recognised because prefix is added - handle this
-SYNTHETIC_DATA = generate_correlated_metadata(METADATA, CORRELATION_MATRIX, 400, identifier_column="Employee_ID", label_mapping=LABEL_MAPPING) #, identifier_column="PatientID"
+#SYNTHETIC_DATA = generate_correlated_metadata(METADATA, CORRELATION_MATRIX, 400, identifier_column="Employee_ID", label_mapping=LABEL_MAPPING) #, identifier_column="PatientID"
 
-print()
-print(SYNTHETIC_DATA)
+#print(SYNTHETIC_DATA)
 #SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
 
 #SYNTHETIC_DATA["healthcare"].to_csv("output/healthcare_correlated_metadata_synthetic_data.csv", index=False)

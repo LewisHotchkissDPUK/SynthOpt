@@ -12,6 +12,7 @@ from sklearn.preprocessing import LabelEncoder
 import random
 import string
 from datetime import datetime
+import calendar
 
 # Function to generate a random string
 def random_string(length=6):
@@ -173,6 +174,8 @@ def metadata_process(data, type="correlated"):
 
         if type == "correlated":
             return combined_metadata, combined_label_mapping, correlation_matrix
+        elif type == "structural":
+            return combined_metadata[['variable_name', 'datatype', 'completeness', 'values', 'table_name']], combined_label_mapping
         else:
             return combined_metadata, combined_label_mapping
     else:
@@ -189,6 +192,8 @@ def metadata_process(data, type="correlated"):
 
         if type == "correlated":
             return metadata, label_mapping, correlation_matrix
+        elif type == "structural":
+            return metadata[['variable_name', 'datatype', 'completeness', 'values', 'table_name']], label_mapping
         else:
             return metadata, label_mapping
 
@@ -196,124 +201,133 @@ def metadata_process(data, type="correlated"):
 
 
 # Function to generate random data based on metadata for each filename
-# NEED TO FIX DATE AND TIME
-def generate_structural_metadata(metadata_csv, num_records=100, save_location=None):
-    try:
-        # Load the metadata CSV
-        try:
-            metadata = pd.read_csv(metadata_csv)
-        except FileNotFoundError:
-            raise FileNotFoundError(f"Metadata CSV file '{metadata_csv}' not found. Please check the file path.")
-        except pd.errors.EmptyDataError:
-            raise ValueError("The provided metadata CSV is empty or corrupted.")
-        except Exception as e:
-            raise IOError(f"An error occurred while reading the metadata CSV: {str(e)}")
-
-        # Check if the required columns exist in the metadata
-        required_columns = ['filename', 'variable name', 'data type', 'values', 'variable description']
-        for col in required_columns:
-            if col not in metadata.columns:
-                raise ValueError(f"Missing required column '{col}' in the metadata CSV.")
-
-        # Get unique filenames
-        filenames = metadata['filename'].unique()
-
-        # Generate unique participant IDs
-        participant_ids_string = [random_string() for _ in range(num_records)]
-        participant_ids_integer = [random_integer() for _ in range(num_records)]  # Should this be random_integer instead?
-
-        # Dictionary to store dataframes for each filename
-        datasets = {}
-
-        for filename in filenames:
-            # Filter the metadata for the current filename
-            file_metadata = metadata[metadata['filename'] == filename]
-
-            # Create an empty dictionary to store the generated data
-            data = {}
-
-            for _, row in file_metadata.iterrows():
+def generate_structural_data(metadata, label_mapping=None, num_records=100):
+    def generate_random_value(row):
+        dtype = row['datatype']
+        value_range = row['values']
+        
+        if pd.isna(value_range) or value_range == "None":
+            if 'object' in str(dtype):
+                return ''.join(random.choices('abcdefghijklmnopqrstuvwxyz', k=random.randint(5, 10)))
+            elif 'int' in str(dtype):
+                return random.randint(0, 100)
+            elif 'float' in str(dtype):
+                return round(random.uniform(0.0, 100.0), 2)
+        else:
+            if 'object' in str(dtype):
+                return ''.join(random.choices('abcdefghijklmnopqrstuvwxyz', k=random.randint(5, 10)))
+            else:
                 try:
-                    col_name = row['variable name']
-                    data_type = row['data type']
-                    value_range = row['values']
-
-                    # Handle missing or NaN value_range
-                    if pd.isna(value_range) or value_range.strip() == '':
-                        if data_type == 'string':
-                            data[col_name] = [random_string() for _ in range(num_records)]
-                        else:
-                            raise ValueError(f"Missing or invalid value range for column '{col_name}' with data type '{data_type}'")
-                        continue
-
-                    # Generate random data based on the data type
-                    if data_type == 'integer':
-                        if 'Participant ID' in row['variable description']:
-                            data[col_name] = participant_ids_integer
-                        else:
-                            min_val, max_val = parse_range(value_range)
-                            if min_val is None or max_val is None:
-                                raise ValueError(f"Invalid range specified for integer column '{col_name}'")
-                            data[col_name] = np.random.randint(min_val, max_val + 1, num_records)
-
-                    elif data_type == 'float':
-                        min_val, max_val = parse_range(value_range)
-                        if min_val is None or max_val is None:
-                            raise ValueError(f"Invalid range specified for float column '{col_name}'")
-                        data[col_name] = np.random.uniform(min_val, max_val, num_records)
-
-                    elif data_type == 'category':
-                        values = value_range.strip('[]').split(', ')
-                        if not values:
-                            raise ValueError(f"Category column '{col_name}' has no valid categories listed.")
-                        data[col_name] = [random.choice(values) for _ in range(num_records)]
-
-                    elif data_type == 'string':
-                        if 'Participant ID' in row['variable description']:
-                            data[col_name] = participant_ids_string
-                        else:
-                            data[col_name] = [random_string() for _ in range(num_records)]
-
-                    elif data_type == 'date':
-                        try:
-                            start_date, end_date = value_range.split('to')
-                            data[col_name] = [random_date(start_date.strip(), end_date.strip()).strftime("%d/%m/%Y") for _ in range(num_records)]
-                        except ValueError:
-                            raise ValueError(f"Invalid date range specified for date column '{col_name}'")
-
+                    if isinstance(value_range, str):
+                        value_range = eval(value_range)
+                    if isinstance(value_range, (tuple, list)) and len(value_range) == 2:
+                        if 'int' in str(dtype):
+                            return random.randint(value_range[0], value_range[1])
+                        elif 'float' in str(dtype):
+                            return round(random.uniform(value_range[0], value_range[1]), 2)
                 except Exception as e:
-                    print(f"Error processing column '{col_name}' in file '{filename}': {str(e)}")
-                    continue
+                    print(f"Error parsing values: {e}")
+                    return None
 
-            # Convert the data dictionary into a pandas DataFrame
-            datasets[filename] = pd.DataFrame(data)
+    def generate_column_data(row, num_records):
+        data = [generate_random_value(row) for _ in range(num_records)]
+        completeness = row['completeness']
+        if completeness < 100.0:
+            num_missing = int(num_records * (1 - (completeness / 100.0)))
+            missing_indices = random.sample(range(num_records), num_missing)
+            for idx in missing_indices:
+                data[idx] = None
+        return data
+    
+    generated_data = {}
+    for index, row in metadata.iterrows():
+        column_name = row['variable_name']
+        generated_data[column_name] = generate_column_data(row, num_records)
+    
+    df = pd.DataFrame(generated_data)
+    
+    date_columns = {}
+    for col in df.columns:
+        if col.endswith('_year'):
+            base_name = col[:-5]
+            if base_name not in date_columns:
+                date_columns[base_name] = {}
+            date_columns[base_name]['year'] = col
+        elif col.endswith('_month'):
+            base_name = col[:-6]
+            if base_name not in date_columns:
+                date_columns[base_name] = {}
+            date_columns[base_name]['month'] = col
+        elif col.endswith('_day'):
+            base_name = col[:-4]
+            if base_name not in date_columns:
+                date_columns[base_name] = {}
+            date_columns[base_name]['day'] = col
 
-            output_filename = os.path.basename(filename)
+    combined_date_cols = {}
+    for base_name, components in date_columns.items():
+        if all(key in components for key in ['year', 'month', 'day']):
+            years = df[components['year']]
+            months = df[components['month']]
+            days = df[components['day']]
+            
+            valid_days = []
+            for y, m, d in zip(years, months, days):
+                if pd.notna(y) and pd.notna(m):
+                    last_day = calendar.monthrange(y, m)[1]
+                    valid_days.append(min(d, last_day))
+                else:
+                    valid_days.append(None)
+            
+            df[components['day']] = valid_days
+            
+            df[base_name] = pd.to_datetime(
+                df[[components['year'], components['month'], components['day']]].rename(
+                    columns={
+                        components['year']: 'year',
+                        components['month']: 'month',
+                        components['day']: 'day'
+                    }),
+                errors='coerce'
+            )
+            
+            df.drop(columns=[components['year'], components['month'], components['day']], inplace=True)
+            
+            column_list = list(df.columns)
+            target_pos = metadata[metadata['variable_name'] == components['year']].index[0]
+            column_list.insert(target_pos, column_list.pop(column_list.index(base_name)))
+            df = df[column_list]
 
-            # Save the dataframe as a CSV file, using the filename (from metadata) to name it
-            if save_location is not None:
-                try:
-                    os.makedirs(save_location, exist_ok=True)  # Ensure directory exists
-                    datasets[filename].to_csv(f"{save_location}/{output_filename}_synthetic.csv", index=False)
-                except PermissionError:
-                    raise PermissionError(f"Permission denied: Unable to save the file in the specified location: {save_location}")
-                except FileNotFoundError:
-                    raise FileNotFoundError(f"Save location '{save_location}' not found.")
-                except Exception as e:
-                    raise IOError(f"Could not save the file '{output_filename}_synthetic.csv'. Error: {str(e)}")
+            # Track combined columns to update table columns list later
+            combined_date_cols.update({components['year']: base_name, components['month']: base_name, components['day']: base_name})
 
-            print(f"Generated: {output_filename}_synthetic.csv")
-
-        return datasets
-
-    except ValueError as ve:
-        print(f"ValueError: {str(ve)}")
-    except KeyError as ke:
-        print(f"KeyError: {str(ke)}")
-    except IOError as ioe:
-        print(f"IOError: {str(ioe)}")
-    except Exception as e:
-        print(f"An unexpected error occurred: {str(e)}")
+    table_names = metadata['table_name'].dropna().unique()
+    result = {}
+    
+    if len(table_names) > 0:
+        for table in table_names:
+            table_columns = metadata[metadata['table_name'] == table]['variable_name'].tolist()
+            
+            # Update table columns with combined date columns
+            table_columns = [
+                combined_date_cols.get(col, col) for col in table_columns if combined_date_cols.get(col, col) in df.columns
+            ]
+            
+            table_df = df[table_columns].copy()
+            
+            if label_mapping:
+                for col in table_columns:
+                    full_key = f"{table}.{col}"
+                    if full_key in label_mapping:
+                        table_df[col] = table_df[col].map(label_mapping[full_key]).fillna(table_df[col])
+            result[table] = table_df
+        return result
+    else:
+        if label_mapping:
+            for col in df.columns:
+                if col in label_mapping:
+                    df[col] = df[col].map(label_mapping[col]).fillna(df[col])
+        return df
 
 
 # Function to generate correlated samples with truncated bounds using rejection sampling
@@ -343,7 +357,7 @@ def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
 
 
 
-def generate_correlated_metadata(metadata, correlation_matrix, num_records=100, identifier_column=None, label_mapping=None):
+def generate_correlated_data(metadata, correlation_matrix, num_records=100, identifier_column=None, label_mapping=None):
 
     metadata['variable_name'] = metadata.apply(lambda x: f"{x['table_name']}.{x['variable_name']}", axis=1)
 
