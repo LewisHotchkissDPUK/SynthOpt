@@ -200,12 +200,33 @@ def metadata_process(data, type="correlated"):
 
 
 
+
+
 # Function to generate random data based on metadata for each filename
 def generate_structural_data(metadata, label_mapping=None, num_records=100):
+    # Initialize a dictionary to hold generated data for each table
+    generated_data = {}
+
+    # Create a mapping for each table to handle variable generation
+    table_variable_mapping = {}
+    
+    for index, row in metadata.iterrows():
+        table_name = row['table_name']
+        variable_name = row['variable_name']
+        
+        # Initialize the table if it doesn't exist
+        if table_name not in table_variable_mapping:
+            table_variable_mapping[table_name] = []
+
+        # Append variable row details to the specific table
+        table_variable_mapping[table_name].append(row)
+
+    # Function to generate a random value based on the metadata row
     def generate_random_value(row):
         dtype = row['datatype']
         value_range = row['values']
-        
+
+        # Check if value_range is valid
         if pd.isna(value_range) or value_range == "None":
             if 'object' in str(dtype):
                 return ''.join(random.choices('abcdefghijklmnopqrstuvwxyz', k=random.randint(5, 10)))
@@ -219,9 +240,12 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100):
             else:
                 try:
                     if isinstance(value_range, str):
-                        value_range = eval(value_range)
+                        value_range = eval(value_range)  # Evaluate the string representation of a tuple/list
                     if isinstance(value_range, (tuple, list)) and len(value_range) == 2:
                         if 'int' in str(dtype):
+                            # Special case for binary values
+                            if value_range == (0, 1):
+                                return random.choice([0, 1])  # For binary values, return either 0 or 1
                             return random.randint(value_range[0], value_range[1])
                         elif 'float' in str(dtype):
                             return round(random.uniform(value_range[0], value_range[1]), 2)
@@ -229,105 +253,140 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100):
                     print(f"Error parsing values: {e}")
                     return None
 
-    def generate_column_data(row, num_records):
-        data = [generate_random_value(row) for _ in range(num_records)]
-        completeness = row['completeness']
-        if completeness < 100.0:
-            num_missing = int(num_records * (1 - (completeness / 100.0)))
-            missing_indices = random.sample(range(num_records), num_missing)
-            for idx in missing_indices:
-                data[idx] = None
-        return data
-    
-    generated_data = {}
-    for index, row in metadata.iterrows():
-        column_name = row['variable_name']
-        generated_data[column_name] = generate_column_data(row, num_records)
-    
-    df = pd.DataFrame(generated_data)
-    
-    date_columns = {}
-    for col in df.columns:
-        if col.endswith('_year'):
-            base_name = col[:-5]
-            if base_name not in date_columns:
-                date_columns[base_name] = {}
-            date_columns[base_name]['year'] = col
-        elif col.endswith('_month'):
-            base_name = col[:-6]
-            if base_name not in date_columns:
-                date_columns[base_name] = {}
-            date_columns[base_name]['month'] = col
-        elif col.endswith('_day'):
-            base_name = col[:-4]
-            if base_name not in date_columns:
-                date_columns[base_name] = {}
-            date_columns[base_name]['day'] = col
+    # Loop through each table and generate its data
+    for table_name, variables in table_variable_mapping.items():
+        generated_data[table_name] = {}
+        
+        for row in variables:
+            column_name = row['variable_name']
+            data = []
 
-    combined_date_cols = {}
-    for base_name, components in date_columns.items():
-        if all(key in components for key in ['year', 'month', 'day']):
-            years = df[components['year']]
-            months = df[components['month']]
-            days = df[components['day']]
-            
-            valid_days = []
-            for y, m, d in zip(years, months, days):
-                if pd.notna(y) and pd.notna(m):
-                    last_day = calendar.monthrange(y, m)[1]
-                    valid_days.append(min(d, last_day))
-                else:
-                    valid_days.append(None)
-            
-            df[components['day']] = valid_days
-            
-            df[base_name] = pd.to_datetime(
-                df[[components['year'], components['month'], components['day']]].rename(
-                    columns={
-                        components['year']: 'year',
-                        components['month']: 'month',
-                        components['day']: 'day'
-                    }),
-                errors='coerce'
-            )
-            
-            df.drop(columns=[components['year'], components['month'], components['day']], inplace=True)
-            
-            column_list = list(df.columns)
-            target_pos = metadata[metadata['variable_name'] == components['year']].index[0]
-            column_list.insert(target_pos, column_list.pop(column_list.index(base_name)))
-            df = df[column_list]
+            # Generate data for the current variable
+            for _ in range(num_records):
+                value = generate_random_value(row)
+                data.append(value)
 
-            # Track combined columns to update table columns list later
-            combined_date_cols.update({components['year']: base_name, components['month']: base_name, components['day']: base_name})
+            # Handle completeness
+            completeness = row['completeness']
+            if completeness < 100.0:
+                num_missing = int(num_records * (1 - (completeness / 100.0)))
+                missing_indices = random.sample(range(num_records), num_missing)
+                for idx in missing_indices:
+                    data[idx] = None
+            
+            generated_data[table_name][column_name] = data
 
-    table_names = metadata['table_name'].dropna().unique()
-    result = {}
-    
-    if len(table_names) > 0:
-        for table in table_names:
-            table_columns = metadata[metadata['table_name'] == table]['variable_name'].tolist()
-            
-            # Update table columns with combined date columns
-            table_columns = [
-                combined_date_cols.get(col, col) for col in table_columns if combined_date_cols.get(col, col) in df.columns
-            ]
-            
-            table_df = df[table_columns].copy()
-            
-            if label_mapping:
-                for col in table_columns:
-                    full_key = f"{table}.{col}"
-                    if full_key in label_mapping:
-                        table_df[col] = table_df[col].map(label_mapping[full_key]).fillna(table_df[col])
-            result[table] = table_df
-        return result
-    else:
+        # Create DataFrame for the current table
+        generated_data[table_name] = pd.DataFrame(generated_data[table_name])
+
+        # Handle date combination and avoid duplications
+        date_columns = {}
+        for col in generated_data[table_name].columns:
+            if col.endswith('_year'):
+                base_name = col[:-5]
+                if base_name not in date_columns:
+                    date_columns[base_name] = {}
+                date_columns[base_name]['year'] = col
+            elif col.endswith('_month'):
+                base_name = col[:-6]
+                if base_name not in date_columns:
+                    date_columns[base_name] = {}
+                date_columns[base_name]['month'] = col
+            elif col.endswith('_day'):
+                base_name = col[:-4]
+                if base_name not in date_columns:
+                    date_columns[base_name] = {}
+                date_columns[base_name]['day'] = col
+
+        # Create a list to track the original variable order
+        original_order = list(generated_data[table_name].columns)
+
+        base_names = []
+
+        combined_date_cols = {}
+        for base_name, components in date_columns.items():
+            base_names.append(base_name)
+            if all(key in components for key in ['year', 'month', 'day']):
+                years = generated_data[table_name][components['year']]
+                months = generated_data[table_name][components['month']]
+                days = generated_data[table_name][components['day']]
+
+                valid_days = []
+                for y, m, d in zip(years, months, days):
+                    if pd.notna(y) and pd.notna(m):
+                        last_day = calendar.monthrange(y, m)[1]
+                        valid_days.append(min(d, last_day))
+                    else:
+                        valid_days.append(None)
+
+                generated_data[table_name][components['day']] = valid_days
+
+                # Combine the date components into a datetime column
+                combined_column_name = base_name  # Use base_name as the new datetime column name
+                generated_data[table_name][combined_column_name] = pd.to_datetime(
+                    generated_data[table_name][[components['year'], components['month'], components['day']]].rename(
+                        columns={
+                            components['year']: 'year',
+                            components['month']: 'month',
+                            components['day']: 'day'
+                        }),
+                    errors='coerce'
+                )
+
+                # Drop the original date columns
+                generated_data[table_name].drop(columns=[components['year'], components['month'], components['day']], inplace=True)
+
+                # Track combined columns to update table columns list later
+                combined_date_cols.update({components['year']: combined_column_name, components['month']: combined_column_name, components['day']: combined_column_name})
+
+
+        # Reorder the DataFrame columns based on original variable order
+        #new_columns_order = []
+        #for col in original_order:
+        #    if col in combined_date_cols:
+        #        new_columns_order.append(combined_date_cols[col])  # Use the combined datetime column
+        #    else:
+        #        new_columns_order.append(col)  # Retain the original column
+        # Set the DataFrame columns in the original order
+        #generated_data[table_name] = generated_data[table_name][new_columns_order]
+
+        new_columns_order = []
+        added_base_names = set()  # Track columns from base_names that have been added
+        for col in original_order:
+            if col in combined_date_cols:
+                # Use the combined datetime column
+                new_col = combined_date_cols[col]
+            else:
+                # Retain the original column
+                new_col = col
+            # Check if the column is in base_names and has already been added
+            if new_col in base_names and new_col in added_base_names:
+                continue  # Skip if already added
+            # Add the column to the new order
+            new_columns_order.append(new_col)
+            # Track the column if it's in base_names
+            if new_col in base_names:
+                added_base_names.add(new_col)
+        # Set the DataFrame columns in the new order
+        generated_data[table_name] = generated_data[table_name][new_columns_order]
+
+
+        # Apply label mapping if provided
         if label_mapping:
-            for col in df.columns:
-                if col in label_mapping:
-                    df[col] = df[col].map(label_mapping[col]).fillna(df[col])
-        return df
+            for col in generated_data[table_name].columns:
+                full_key = f"{table_name}.{col}"
+                if full_key in label_mapping:
+                    # Map the values, ensuring NaN values are handled correctly
+                    generated_data[table_name][col] = generated_data[table_name][col].map(label_mapping[full_key]).where(
+                        generated_data[table_name][col].notna(), np.nan)
+
+    return generated_data
+    
+
+
+
+
+
 
 
 # Function to generate correlated samples with truncated bounds using rejection sampling
