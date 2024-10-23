@@ -204,6 +204,11 @@ def metadata_process(data, type="correlated"):
 
 # Function to generate random data based on metadata for each filename
 def generate_structural_data(metadata, label_mapping=None, num_records=100, identifier_column=None):
+    single = False
+    if metadata['table_name'].iloc[0] is None:
+        single = True
+        metadata['table_name'] = 'single'
+
     # Initialize a dictionary to hold generated data for each table
     generated_data = {}
 
@@ -386,7 +391,10 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
                 if identifier_column in column:
                     generated_data[table_name][column] = participant_ids_integer
 
-    return generated_data
+    if single == True:
+        return generated_data['single']
+    else:
+        return generated_data
     
 
 

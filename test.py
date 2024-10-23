@@ -45,7 +45,7 @@ DATASETS = {"healthcare":DATA, "mentalhealth":DATA2}
 
 #METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATA2, "correlated")
 
-METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATASETS, "correlated")
+METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATA2, "correlated")
 #METADATA, LABEL_MAPPING = metadata_process(DATASETS, "structural")
 
 
@@ -53,8 +53,7 @@ print(METADATA)
 print(LABEL_MAPPING)
 #print(CORRELATION_MATRIX)
 
-# DATE COLUMN DUPLICATED THREE TIMES!!!
-SYNTHETIC_DATA = generate_structural_data(METADATA, LABEL_MAPPING, identifier_column="Employee_ID")  # HANDLE IDENTIFIER COLUMN !!!!!!
+SYNTHETIC_DATA = generate_structural_data(METADATA, LABEL_MAPPING, identifier_column="Employee_ID") 
 print(SYNTHETIC_DATA)
 
 #, identifier_column="Employee_ID" if an identifier column is passed, it wont be recognised because prefix is added - handle this
@@ -63,8 +62,8 @@ print(SYNTHETIC_DATA)
 #print(SYNTHETIC_DATA)
 #SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
 
-SYNTHETIC_DATA["healthcare"].to_csv("output/healthcare_correlated_metadata_synthetic_data.csv", index=False)
-SYNTHETIC_DATA["mentalhealth"].to_csv("output/mentalhealth_correlated_metadata_synthetic_data.csv", index=False)
+#SYNTHETIC_DATA["healthcare"].to_csv("output/healthcare_correlated_metadata_synthetic_data.csv", index=False)
+#SYNTHETIC_DATA["mentalhealth"].to_csv("output/mentalhealth_correlated_metadata_synthetic_data.csv", index=False)
 
 
 ##
