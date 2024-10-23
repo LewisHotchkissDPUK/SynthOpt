@@ -128,7 +128,10 @@ def metadata_process(data, type="correlated"):
                 value_range = (data[column].min(), data[column].max())
                 mean = data[column].mean()
                 std_dev = data[column].std()
-                skewness_value = skew(data[column])
+                try:
+                    skewness_value = skew(data[column])
+                except Exception:
+                    skewness_value = None
                 
             new_row = pd.DataFrame({
                 'variable_name': [column],
