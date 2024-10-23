@@ -54,7 +54,7 @@ print(LABEL_MAPPING)
 #print(CORRELATION_MATRIX)
 
 # DATE COLUMN DUPLICATED THREE TIMES!!!
-SYNTHETIC_DATA = generate_structural_data(METADATA, LABEL_MAPPING)  # HANDLE IDENTIFIER COLUMN !!!!!!
+SYNTHETIC_DATA = generate_structural_data(METADATA, LABEL_MAPPING, identifier_column="Employee_ID")  # HANDLE IDENTIFIER COLUMN !!!!!!
 print(SYNTHETIC_DATA)
 
 #, identifier_column="Employee_ID" if an identifier column is passed, it wont be recognised because prefix is added - handle this

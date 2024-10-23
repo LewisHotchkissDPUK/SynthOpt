@@ -1,101 +1,101 @@
 Employee_ID,Age,Gender,Job_Role,Industry,Years_of_Experience,Work_Location,Hours_Worked_Per_Week,Number_of_Virtual_Meetings,Work_Life_Balance_Rating,Stress_Level,Mental_Health_Condition,Access_to_Mental_Health_Resources,Productivity_Change,Social_Isolation_Rating,Satisfaction_with_Remote_Work,Company_Support_for_Remote_Work,Physical_Activity,Sleep_Quality,Region
-ylxbndhaae,22,Male,Sales,Retail,10,Onsite,58,7,4,Low,Depression,No,Increase,4,Unsatisfied,5,Weekly,Poor,Africa
-srlzbcph,60,Male,Designer,IT,17,Hybrid,43,13,2,Medium,Anxiety,Yes,No Change,1,Neutral,3,,Poor,South America
-pjtifgpzs,53,Prefer not to say,HR,Manufacturing,10,Remote,43,6,2,High,Burnout,Yes,No Change,4,Neutral,4,Weekly,Poor,Asia
-osjdqcydby,24,Prefer not to say,Sales,Manufacturing,28,Hybrid,37,3,1,High,Burnout,Yes,Decrease,3,Unsatisfied,3,Daily,Poor,Africa
-lvlbbl,27,Female,Software Engineer,Manufacturing,23,Hybrid,59,10,5,Medium,Depression,No,No Change,3,Neutral,4,Weekly,Good,Asia
-rtkjzxs,45,Prefer not to say,HR,Retail,4,Onsite,43,1,1,Low,,Yes,No Change,4,Neutral,5,Weekly,Good,North America
-qwvmhv,35,Female,Marketing,Finance,3,Hybrid,29,9,2,Medium,Burnout,Yes,Decrease,5,Satisfied,5,Weekly,Good,South America
-gsjleot,36,Female,Sales,IT,9,Hybrid,25,0,3,Medium,Depression,Yes,Increase,3,Unsatisfied,3,,Poor,South America
-bqvqe,53,Prefer not to say,Project Manager,Healthcare,1,Hybrid,24,8,1,Medium,Burnout,Yes,Decrease,5,Neutral,4,Daily,Poor,North America
-xyucpqusn,43,Male,Sales,Education,6,Remote,54,1,1,Low,Anxiety,No,Decrease,5,Neutral,5,Daily,Average,Asia
-fdknqrcehz,35,Female,Designer,Education,28,Remote,21,12,1,Low,,Yes,Increase,5,Neutral,3,,Good,Oceania
-txbnkmjptc,51,Male,Marketing,Consulting,2,Hybrid,58,2,5,Low,Depression,Yes,Increase,5,Satisfied,2,Weekly,Good,Africa
-aatkz,44,Male,HR,Education,34,Hybrid,55,15,4,Medium,Burnout,Yes,Decrease,5,Unsatisfied,4,,Good,Oceania
-xvnkyuwjc,39,Female,Data Scientist,Education,14,Remote,42,5,5,High,Depression,No,Decrease,2,Neutral,1,Daily,Poor,Oceania
-atkpnrz,24,Female,Data Scientist,Consulting,11,Hybrid,35,13,4,Medium,,No,Decrease,5,Neutral,4,,Average,Oceania
-dgjzykxci,50,Male,Software Engineer,IT,24,Onsite,33,8,4,Medium,,Yes,No Change,3,Neutral,3,Weekly,Good,Asia
-znxiqomu,39,Male,Project Manager,Healthcare,11,Hybrid,24,11,3,High,Anxiety,Yes,No Change,4,Unsatisfied,2,Weekly,Poor,Oceania
-kmotv,40,Prefer not to say,Project Manager,IT,29,Onsite,28,8,5,Medium,Burnout,Yes,Increase,5,Neutral,4,Daily,Poor,North America
-amdulwpwpr,56,Non-binary,Marketing,Healthcare,17,Hybrid,30,12,4,Low,Burnout,Yes,No Change,4,Satisfied,4,Weekly,Good,Africa
-ufgooskfe,28,Non-binary,Sales,Finance,25,Remote,51,11,4,Medium,,Yes,No Change,1,Unsatisfied,3,Weekly,Good,South America
-mlbpsgnrq,56,Male,Sales,Finance,25,Onsite,21,8,5,High,Depression,Yes,Increase,4,Satisfied,2,Daily,Good,North America
-ksbpt,60,Male,Sales,Education,30,Remote,37,2,3,Low,,No,Decrease,3,Satisfied,2,,Poor,North America
-psovb,49,Male,Designer,IT,20,Hybrid,25,12,5,Medium,Burnout,Yes,Decrease,5,Unsatisfied,2,Daily,Average,Oceania
-pigwbtnyx,59,Prefer not to say,Data Scientist,Healthcare,28,Hybrid,23,12,4,High,Burnout,Yes,Increase,1,Unsatisfied,5,Weekly,Average,Oceania
-kbxdfk,23,Non-binary,Designer,Consulting,5,Remote,31,7,2,Low,Depression,Yes,Decrease,3,Unsatisfied,3,,Average,South America
-aziat,23,Male,Project Manager,IT,15,Remote,48,0,3,Low,Burnout,Yes,No Change,5,Unsatisfied,5,Weekly,Average,Europe
-wwqzvpej,48,Male,Marketing,Healthcare,16,Onsite,48,6,4,Low,Anxiety,Yes,Increase,5,Satisfied,4,,Average,Europe
-oymisndsah,58,Male,Data Scientist,Finance,28,Hybrid,44,3,3,Low,Burnout,Yes,No Change,2,Unsatisfied,4,Weekly,Average,Europe
-crljjs,50,Male,Designer,Manufacturing,34,Onsite,34,5,1,Medium,Burnout,No,Decrease,4,Unsatisfied,1,,Average,North America
-lcdtko,55,Male,Data Scientist,Manufacturing,3,Hybrid,40,6,2,High,Depression,No,No Change,2,Unsatisfied,1,Weekly,Good,North America
-zpcvqyso,47,Prefer not to say,Project Manager,Consulting,15,Onsite,48,12,5,Medium,Depression,Yes,No Change,2,Unsatisfied,3,Weekly,Poor,Oceania
-tctyikl,38,Male,Marketing,Education,30,Onsite,33,4,2,High,,Yes,Decrease,4,Neutral,2,Daily,Good,Africa
-rnsycrgzha,60,Non-binary,HR,Finance,23,Hybrid,25,12,5,Low,Anxiety,No,No Change,4,Satisfied,2,Weekly,Poor,Asia
-adjaw,49,Non-binary,Marketing,Education,5,Hybrid,51,4,5,High,Anxiety,Yes,No Change,1,Unsatisfied,5,Weekly,Average,Europe
-jbfmpllkha,30,Male,Software Engineer,Healthcare,28,Remote,37,9,4,Low,Burnout,Yes,No Change,3,Satisfied,3,Daily,Good,North America
-whzucf,57,Prefer not to say,Project Manager,Finance,11,Hybrid,25,2,1,High,,Yes,Increase,3,Unsatisfied,4,Weekly,Good,Africa
-uqljpkp,42,Non-binary,Project Manager,Retail,25,Remote,47,9,3,Low,,No,Decrease,4,Neutral,2,Weekly,Good,Asia
-sqzjd,32,Male,Project Manager,Education,13,Remote,48,1,5,Low,Depression,No,Increase,4,Satisfied,4,Daily,Average,South America
-qjlotmrf,26,Prefer not to say,Project Manager,Healthcare,4,Onsite,24,7,1,High,,No,No Change,3,Satisfied,4,,Average,Asia
-rnegotyipm,49,Prefer not to say,Sales,Education,2,Hybrid,35,11,4,High,Depression,No,Decrease,1,Satisfied,4,Daily,Average,Asia
-wdpampk,34,Non-binary,Software Engineer,Consulting,1,Remote,35,8,5,Low,Burnout,No,Increase,1,Satisfied,2,,Poor,Europe
-fdgys,60,Male,Marketing,Healthcare,24,Onsite,42,2,4,High,Depression,No,Decrease,1,Satisfied,2,Weekly,Good,Oceania
-undfpac,24,Non-binary,Designer,Finance,23,Remote,43,9,2,Medium,Burnout,No,Decrease,5,Neutral,2,Weekly,Good,Europe
-yxugtjsd,28,Female,Sales,Finance,29,Remote,28,7,4,Medium,,Yes,Decrease,4,Satisfied,1,Weekly,Poor,Europe
-gxool,24,Non-binary,Designer,Education,21,Hybrid,52,7,2,Low,Burnout,No,Increase,3,Neutral,5,,Good,Africa
-qygfjn,27,Prefer not to say,HR,Retail,10,Remote,34,0,3,Medium,Burnout,No,Decrease,4,Satisfied,3,Daily,Average,Oceania
-lfpyyykmy,52,Prefer not to say,Data Scientist,Manufacturing,10,Remote,20,14,3,Medium,Anxiety,Yes,No Change,2,Unsatisfied,1,,Average,North America
-ryfpad,22,Prefer not to say,Marketing,Education,22,Remote,49,10,5,Medium,,No,No Change,4,Neutral,1,Weekly,Good,Oceania
-botazohm,36,Female,Designer,Finance,9,Hybrid,42,12,3,Low,Depression,No,Decrease,3,Unsatisfied,5,,Good,Europe
-hlivwht,27,Female,Marketing,Consulting,22,Onsite,43,10,5,Low,Burnout,Yes,No Change,3,Satisfied,4,Daily,Good,North America
-rphjjkvqfg,37,Female,Project Manager,Finance,15,Hybrid,32,13,2,High,,No,Increase,5,Neutral,1,Weekly,Good,Asia
-askqupaqvy,34,Male,Software Engineer,Education,18,Onsite,41,12,2,High,Burnout,Yes,Decrease,1,Neutral,3,Weekly,Poor,Asia
-hupvsk,47,Non-binary,Software Engineer,IT,10,Onsite,41,11,1,Medium,,Yes,Increase,5,Unsatisfied,1,Daily,Average,Oceania
-tuiudacav,46,Prefer not to say,HR,Manufacturing,10,Remote,36,14,1,Medium,,Yes,No Change,1,Satisfied,4,Weekly,Poor,South America
-vhfbwour,25,Prefer not to say,Project Manager,Retail,33,Remote,50,8,2,Medium,Burnout,Yes,No Change,4,Satisfied,1,Daily,Poor,Europe
-mixivt,56,Female,Sales,Manufacturing,22,Onsite,41,1,4,Low,Anxiety,No,No Change,4,Unsatisfied,5,,Poor,Asia
-omcmvblyz,59,Male,Sales,Consulting,35,Hybrid,38,8,4,Low,,Yes,No Change,2,Neutral,2,Daily,Poor,North America
-urqyccp,59,Female,Sales,Retail,23,Remote,34,8,1,Low,Anxiety,No,No Change,5,Neutral,2,Daily,Good,Europe
-ejecvudie,23,Non-binary,Data Scientist,Retail,8,Hybrid,54,6,5,High,Burnout,No,Increase,4,Unsatisfied,2,,Good,North America
-rzzmhcucc,45,Prefer not to say,Project Manager,Consulting,28,Hybrid,42,10,5,High,Depression,No,No Change,1,Satisfied,1,Daily,Poor,Africa
-etxpx,22,Prefer not to say,Project Manager,Healthcare,31,Onsite,23,0,2,Medium,Depression,No,Increase,2,Unsatisfied,3,Daily,Average,South America
-oorzhmuk,58,Female,Designer,IT,17,Remote,31,10,4,Medium,Depression,No,Decrease,5,Satisfied,4,,Good,Europe
-mkjsylscoj,30,Male,Marketing,Education,32,Onsite,59,13,4,Low,,No,No Change,5,Unsatisfied,1,Daily,Average,Europe
-eblhso,34,Female,Project Manager,Finance,27,Hybrid,57,6,3,High,,Yes,No Change,2,Neutral,3,Daily,Poor,North America
-uukkh,36,Male,Marketing,Education,21,Onsite,37,6,5,Medium,Depression,Yes,Decrease,2,Satisfied,3,Weekly,Average,Africa
-roomplds,40,Non-binary,Software Engineer,Retail,21,Hybrid,20,11,2,Low,Depression,No,No Change,2,Satisfied,5,Weekly,Good,Asia
-lcpshr,51,Female,Designer,Manufacturing,26,Remote,23,15,2,Low,,No,Decrease,5,Unsatisfied,1,,Poor,Africa
-apxbqkgc,41,Non-binary,Software Engineer,Retail,17,Remote,31,2,5,Medium,Anxiety,Yes,Decrease,2,Unsatisfied,4,,Average,South America
-frrcbz,55,Non-binary,Designer,Healthcare,20,Hybrid,52,8,1,Medium,,Yes,No Change,2,Unsatisfied,4,Daily,Average,South America
-piqegdvwj,30,Male,Data Scientist,Retail,18,Remote,57,9,3,Low,Depression,No,Increase,3,Satisfied,2,,Good,Asia
-fmgqyoukan,53,Male,Project Manager,Healthcare,1,Remote,26,9,3,Medium,,No,No Change,4,Unsatisfied,5,Daily,Poor,Oceania
-offamxmh,42,Non-binary,Data Scientist,Consulting,6,Onsite,22,3,2,Low,Burnout,Yes,Decrease,5,Neutral,3,Weekly,Poor,Asia
-hctjx,37,Prefer not to say,Designer,Education,27,Remote,53,14,3,High,,Yes,No Change,2,Satisfied,2,Weekly,Good,Asia
-aobnx,34,Male,HR,IT,7,Onsite,28,15,4,Medium,Depression,Yes,Increase,2,Unsatisfied,5,Weekly,Poor,North America
-ujcyntvvp,50,Male,Designer,Education,9,Onsite,46,1,5,High,,No,Decrease,5,Satisfied,5,,Good,Asia
-glmqlk,50,Female,Marketing,Consulting,9,Onsite,25,6,5,Low,Anxiety,No,Increase,4,Unsatisfied,2,Weekly,Average,North America
-buddmxik,44,Prefer not to say,Data Scientist,Healthcare,6,Remote,57,10,3,High,Anxiety,Yes,Decrease,3,Satisfied,1,Weekly,Poor,South America
-wvqzv,57,Non-binary,Sales,Retail,18,Hybrid,44,1,3,High,Anxiety,Yes,Decrease,2,Unsatisfied,5,Weekly,Good,Africa
-wcicnwhu,24,Male,HR,Healthcare,21,Onsite,58,3,4,High,,Yes,Increase,4,Unsatisfied,5,,Average,Africa
-omnxyvxeb,47,Female,Marketing,Consulting,6,Hybrid,42,12,4,High,Anxiety,No,Increase,1,Neutral,2,Weekly,Poor,Africa
-abbyu,42,Male,Sales,Consulting,18,Hybrid,21,3,1,Medium,Anxiety,No,No Change,2,Unsatisfied,2,,Poor,Africa
-pedss,43,Prefer not to say,Marketing,IT,31,Hybrid,53,8,4,High,,Yes,No Change,1,Satisfied,5,,Good,South America
-kigfdg,55,Non-binary,HR,Education,21,Onsite,45,6,3,High,,No,Decrease,4,Satisfied,1,Weekly,Good,Asia
-gjfug,52,Non-binary,Designer,Consulting,15,Remote,54,8,5,Medium,Anxiety,Yes,No Change,5,Satisfied,2,Weekly,Poor,Europe
-kpdfbg,31,Prefer not to say,Marketing,Retail,8,Onsite,26,7,2,Medium,,No,No Change,2,Unsatisfied,4,Daily,Good,Asia
-zvavt,51,Male,Marketing,Finance,7,Onsite,40,3,5,Low,,Yes,No Change,1,Neutral,5,Weekly,Good,South America
-btmmo,32,Non-binary,Sales,Education,26,Remote,25,7,5,Low,Anxiety,No,No Change,2,Satisfied,2,,Good,Oceania
-fdiqxkdgcq,45,Prefer not to say,HR,Retail,12,Remote,42,6,3,High,Burnout,No,No Change,5,Unsatisfied,2,,Poor,Africa
-bvkcaf,37,Prefer not to say,Sales,IT,18,Hybrid,49,5,4,Medium,Depression,Yes,Decrease,5,Satisfied,2,Weekly,Average,Asia
-ifind,23,Prefer not to say,HR,Consulting,14,Hybrid,60,8,5,Low,Depression,No,Increase,3,Satisfied,4,Weekly,Good,Asia
-lmzoe,35,Prefer not to say,Data Scientist,Retail,1,Onsite,52,12,4,Low,,No,Decrease,5,Neutral,2,Daily,Good,Europe
-ieexcyr,25,Non-binary,Data Scientist,Education,3,Hybrid,46,12,4,High,Anxiety,Yes,Increase,4,Satisfied,1,,Poor,South America
-yexyvlwuq,35,Prefer not to say,HR,IT,6,Onsite,53,1,4,High,Anxiety,Yes,Decrease,4,Unsatisfied,3,Weekly,Good,Oceania
-zbbcbow,44,Non-binary,Project Manager,Manufacturing,33,Onsite,46,10,2,High,Depression,No,No Change,2,Unsatisfied,2,Daily,Poor,Asia
-keqzjqa,34,Non-binary,Data Scientist,Healthcare,15,Onsite,51,15,5,High,Depression,No,Decrease,2,Unsatisfied,4,,Average,Africa
-rtnvf,26,Non-binary,Sales,Education,19,Hybrid,52,4,2,Medium,Burnout,No,Decrease,5,Satisfied,3,Weekly,Poor,Asia
-tpmjtr,48,Prefer not to say,Project Manager,Education,7,Onsite,50,4,2,High,Burnout,Yes,Increase,1,Unsatisfied,5,,Good,Oceania
-byadguc,23,Female,Designer,IT,18,Onsite,29,0,2,Medium,,No,No Change,4,Neutral,5,,Average,Oceania
-kmlmqsd,33,Male,Project Manager,Retail,9,Remote,45,0,4,Low,Depression,No,Increase,5,Neutral,3,Weekly,Good,Oceania
-sklvozbgd,53,Male,Project Manager,Consulting,25,Hybrid,40,13,2,Medium,Depression,No,Increase,5,Neutral,2,Weekly,Poor,Oceania
+846574,37,Prefer not to say,Project Manager,Finance,19,Remote,40,0,3,Low,Anxiety,Yes,Decrease,3,Satisfied,4,,Average,North America
+521214,26,Prefer not to say,HR,Manufacturing,14,Onsite,23,11,3,Medium,,Yes,Decrease,2,Unsatisfied,2,,Good,North America
+332729,56,Male,Designer,Healthcare,12,Remote,33,4,3,High,,Yes,Decrease,5,Neutral,4,Daily,Good,Asia
+902606,22,Male,Sales,IT,30,Remote,21,4,4,Medium,Depression,No,No Change,3,Neutral,3,,Poor,South America
+441575,32,Female,Sales,Manufacturing,15,Remote,33,3,1,Low,,No,Increase,5,Unsatisfied,3,Weekly,Poor,Asia
+435448,40,Male,Software Engineer,Retail,28,Hybrid,55,14,5,Medium,,No,No Change,1,Neutral,2,Daily,Poor,South America
+390922,48,Non-binary,Data Scientist,Finance,35,Remote,32,13,1,High,Burnout,Yes,Decrease,4,Satisfied,5,Daily,Good,Europe
+960531,59,Female,Software Engineer,Retail,8,Onsite,27,3,3,Low,Depression,Yes,Increase,1,Satisfied,2,,Average,Asia
+150565,57,Male,Software Engineer,Healthcare,22,Onsite,36,8,5,Medium,,Yes,Increase,3,Satisfied,2,Weekly,Poor,Asia
+289101,22,Female,Designer,Education,11,Remote,43,0,5,Medium,Burnout,No,No Change,5,Unsatisfied,3,,Average,Africa
+922177,28,Female,Marketing,Education,14,Remote,56,11,1,Medium,Depression,Yes,Increase,4,Satisfied,4,,Good,South America
+776761,56,Prefer not to say,Software Engineer,Healthcare,2,Remote,55,1,1,High,Anxiety,No,No Change,5,Unsatisfied,5,Daily,Average,Asia
+230159,42,Non-binary,Marketing,Retail,14,Remote,59,8,2,Low,Burnout,Yes,No Change,4,Unsatisfied,1,Daily,Poor,North America
+194707,24,Female,Software Engineer,Manufacturing,19,Hybrid,37,2,5,Medium,Depression,Yes,No Change,1,Unsatisfied,4,,Average,Europe
+474082,22,Female,Sales,Finance,34,Remote,58,6,1,Low,Burnout,Yes,Increase,5,Unsatisfied,5,,Average,South America
+230709,23,Prefer not to say,Marketing,Healthcare,14,Onsite,21,2,3,Low,Depression,Yes,No Change,4,Unsatisfied,4,Daily,Poor,Oceania
+185998,23,Male,Marketing,Manufacturing,28,Onsite,25,15,3,Low,Depression,Yes,No Change,3,Satisfied,2,Weekly,Average,South America
+521163,36,Male,Software Engineer,Manufacturing,9,Onsite,29,11,5,High,Anxiety,Yes,No Change,5,Unsatisfied,2,Daily,Poor,Asia
+589498,23,Prefer not to say,Sales,IT,15,Hybrid,23,11,5,High,Depression,Yes,Increase,3,Satisfied,3,Daily,Average,North America
+200489,42,Prefer not to say,Marketing,Healthcare,25,Remote,57,9,1,High,,No,No Change,2,Unsatisfied,3,Daily,Average,Africa
+285218,54,Non-binary,Designer,Education,18,Hybrid,31,7,1,High,Depression,Yes,Increase,2,Satisfied,3,Daily,Average,Africa
+825133,35,Male,Project Manager,Manufacturing,30,Onsite,20,9,1,High,,No,Decrease,3,Satisfied,2,,Average,Asia
+764562,44,Non-binary,HR,Consulting,9,Onsite,58,7,3,Low,Depression,Yes,Decrease,2,Unsatisfied,3,Weekly,Good,Europe
+631295,46,Female,Project Manager,Education,32,Remote,55,4,3,Medium,,No,Increase,3,Neutral,2,Weekly,Average,Africa
+645510,58,Prefer not to say,HR,Consulting,18,Hybrid,32,5,3,High,Depression,No,No Change,3,Neutral,2,Weekly,Good,South America
+805087,57,Male,HR,Manufacturing,18,Remote,36,13,1,Low,,No,Increase,2,Unsatisfied,4,,Poor,Asia
+491439,27,Non-binary,Project Manager,Finance,30,Remote,28,14,3,High,Depression,Yes,Decrease,1,Neutral,4,,Good,South America
+149729,53,Prefer not to say,Project Manager,Finance,23,Remote,60,14,2,Low,,No,Increase,2,Satisfied,3,,Average,Europe
+486987,52,Non-binary,Data Scientist,Manufacturing,3,Onsite,52,10,5,Medium,,Yes,No Change,2,Neutral,1,Daily,Average,South America
+216561,34,Male,Designer,Retail,16,Hybrid,48,5,3,Low,,No,Decrease,1,Satisfied,3,Weekly,Good,Europe
+303178,33,Non-binary,Software Engineer,Manufacturing,2,Remote,43,12,1,High,,Yes,Increase,3,Unsatisfied,3,,Poor,North America
+195538,32,Non-binary,Data Scientist,Consulting,6,Hybrid,24,10,2,High,,No,Decrease,5,Neutral,3,,Average,South America
+123954,56,Male,Project Manager,Consulting,27,Hybrid,23,0,3,High,Depression,Yes,No Change,3,Neutral,5,Weekly,Average,Africa
+335540,41,Non-binary,Software Engineer,IT,15,Hybrid,32,4,5,Medium,Burnout,Yes,Increase,3,Satisfied,4,,Poor,Europe
+917860,50,Female,HR,Retail,16,Hybrid,44,13,4,High,Depression,Yes,No Change,4,Satisfied,1,,Poor,Africa
+553320,52,Prefer not to say,Project Manager,Manufacturing,14,Hybrid,30,8,2,Medium,Depression,No,No Change,3,Unsatisfied,4,Weekly,Average,South America
+806955,54,Non-binary,Sales,Retail,16,Remote,36,1,5,High,,No,Decrease,1,Satisfied,2,,Good,Africa
+484152,51,Female,HR,Retail,31,Hybrid,21,7,4,High,Anxiety,No,Increase,3,Neutral,5,Daily,Average,Asia
+246037,29,Prefer not to say,Software Engineer,IT,7,Onsite,59,11,3,High,,No,Increase,3,Neutral,1,Weekly,Good,Europe
+605275,44,Prefer not to say,Data Scientist,Manufacturing,2,Hybrid,28,9,2,Low,,Yes,No Change,2,Unsatisfied,1,,Good,Africa
+351674,51,Non-binary,Data Scientist,Retail,13,Remote,47,11,5,Medium,Depression,Yes,Increase,3,Unsatisfied,3,Daily,Average,Asia
+682729,41,Female,Software Engineer,IT,8,Onsite,49,13,2,Low,Depression,Yes,Decrease,4,Satisfied,2,Weekly,Good,South America
+619421,59,Female,Data Scientist,IT,2,Onsite,56,15,4,Low,Burnout,Yes,Decrease,5,Satisfied,4,,Poor,North America
+219378,46,Male,Project Manager,Finance,18,Remote,39,8,2,Medium,Anxiety,Yes,Decrease,2,Satisfied,1,,Poor,Asia
+760221,26,Female,Software Engineer,Education,25,Remote,28,0,3,Low,Depression,Yes,Increase,2,Unsatisfied,2,Weekly,Good,Africa
+442258,58,Male,Software Engineer,Education,9,Onsite,49,0,4,Medium,Depression,No,Increase,2,Satisfied,3,Daily,Average,South America
+478241,24,Prefer not to say,Designer,Retail,1,Onsite,25,12,5,Medium,Anxiety,No,Decrease,4,Neutral,3,Daily,Good,North America
+653004,29,Prefer not to say,Software Engineer,Finance,1,Remote,43,2,1,High,,Yes,Increase,4,Satisfied,5,,Poor,Africa
+442519,28,Female,Project Manager,Healthcare,15,Remote,52,9,3,Medium,Burnout,No,Decrease,4,Unsatisfied,1,Daily,Good,South America
+288558,51,Male,Designer,Education,18,Hybrid,50,5,2,Low,Anxiety,Yes,Increase,3,Unsatisfied,2,Daily,Good,Africa
+398496,58,Male,Project Manager,Finance,15,Remote,50,10,5,Medium,,Yes,Decrease,1,Satisfied,3,Weekly,Poor,South America
+735385,59,Female,Marketing,Consulting,7,Hybrid,47,8,4,Medium,Anxiety,No,No Change,3,Unsatisfied,4,Weekly,Good,Europe
+346441,23,Female,Sales,Finance,20,Hybrid,29,15,1,Low,Depression,No,Decrease,3,Unsatisfied,2,,Poor,Asia
+937559,31,Male,Software Engineer,Education,16,Onsite,38,1,5,Medium,Anxiety,Yes,Increase,5,Unsatisfied,3,,Average,Asia
+132216,58,Non-binary,HR,Healthcare,7,Hybrid,27,7,3,Medium,Burnout,Yes,Increase,2,Neutral,1,Weekly,Poor,South America
+453802,35,Male,Project Manager,Finance,7,Remote,30,14,4,Low,Burnout,No,Decrease,2,Unsatisfied,3,Daily,Average,Africa
+466869,22,Male,Designer,Manufacturing,11,Remote,58,4,4,Medium,,Yes,Increase,5,Neutral,5,,Good,Oceania
+330494,44,Male,Designer,Manufacturing,11,Remote,56,11,2,Medium,Depression,Yes,Decrease,5,Satisfied,2,Daily,Average,Europe
+173287,60,Prefer not to say,Data Scientist,Finance,18,Remote,20,0,1,High,,Yes,Decrease,4,Neutral,3,Weekly,Good,Oceania
+363506,52,Female,Designer,IT,8,Remote,27,10,2,Low,,No,No Change,4,Unsatisfied,2,Daily,Average,Europe
+580480,54,Male,Software Engineer,Finance,2,Remote,42,6,2,Medium,Depression,No,Increase,2,Satisfied,5,,Average,Africa
+425024,46,Male,Sales,Finance,25,Hybrid,29,7,1,Medium,Anxiety,No,Decrease,2,Unsatisfied,5,Daily,Average,Africa
+677897,30,Female,Sales,Education,33,Onsite,51,10,3,High,Anxiety,Yes,Decrease,2,Unsatisfied,5,,Good,Africa
+126955,59,Female,Project Manager,Manufacturing,5,Remote,29,13,1,Medium,Anxiety,Yes,Increase,4,Neutral,3,Daily,Poor,Africa
+197981,33,Male,HR,Finance,27,Remote,41,1,3,Low,Anxiety,No,Decrease,2,Unsatisfied,4,Weekly,Good,Europe
+598460,40,Non-binary,HR,Manufacturing,23,Hybrid,31,12,3,High,,No,Decrease,3,Neutral,4,Daily,Average,Africa
+646648,40,Male,Project Manager,Education,29,Hybrid,50,10,1,Low,Anxiety,No,Increase,1,Unsatisfied,4,,Average,Oceania
+517253,45,Female,Software Engineer,Healthcare,29,Onsite,32,3,2,High,,No,Decrease,4,Satisfied,1,,Poor,North America
+123474,43,Non-binary,Software Engineer,Finance,9,Onsite,32,10,5,High,,No,Decrease,5,Unsatisfied,1,Weekly,Average,Africa
+544909,28,Prefer not to say,Sales,Finance,25,Hybrid,59,13,2,High,Anxiety,Yes,No Change,5,Unsatisfied,2,Daily,Good,Africa
+523589,46,Non-binary,Designer,Healthcare,4,Onsite,58,12,2,Medium,Anxiety,Yes,No Change,2,Satisfied,1,,Good,Africa
+361086,29,Male,Data Scientist,Finance,5,Remote,22,1,3,Medium,Anxiety,No,Increase,1,Neutral,1,,Good,Oceania
+882597,31,Non-binary,Sales,Healthcare,25,Hybrid,45,8,5,High,Burnout,Yes,No Change,4,Neutral,2,Weekly,Average,North America
+180242,42,Prefer not to say,HR,Consulting,3,Remote,58,15,2,Low,Burnout,No,Decrease,3,Unsatisfied,3,Daily,Good,Asia
+107936,57,Female,Marketing,Retail,3,Onsite,50,0,3,High,,Yes,No Change,3,Neutral,3,Weekly,Good,Asia
+895467,25,Female,Data Scientist,Retail,24,Hybrid,45,0,5,Low,Anxiety,No,No Change,2,Neutral,2,Weekly,Poor,Asia
+570953,31,Female,Software Engineer,Consulting,34,Onsite,40,8,2,Low,Burnout,Yes,No Change,4,Satisfied,2,Weekly,Good,Africa
+398519,45,Male,Project Manager,Finance,12,Onsite,36,1,3,High,Anxiety,No,Decrease,5,Neutral,5,Daily,Average,Oceania
+487493,45,Male,Marketing,Manufacturing,23,Remote,39,10,1,High,Depression,No,Decrease,4,Satisfied,4,,Poor,Europe
+822232,40,Non-binary,Data Scientist,Manufacturing,24,Onsite,58,11,2,Low,,Yes,Increase,5,Unsatisfied,1,Daily,Poor,North America
+332504,24,Non-binary,Project Manager,Healthcare,1,Hybrid,21,9,3,Medium,Anxiety,No,Decrease,1,Unsatisfied,2,,Poor,North America
+516500,27,Male,Sales,Finance,9,Remote,35,11,4,High,,No,Decrease,1,Neutral,5,Weekly,Average,South America
+260004,54,Non-binary,Data Scientist,IT,16,Hybrid,46,9,3,Low,Anxiety,Yes,Decrease,1,Neutral,2,Daily,Average,Asia
+182357,38,Male,Project Manager,Finance,11,Onsite,26,7,2,High,Depression,Yes,Increase,1,Satisfied,5,,Good,Oceania
+855168,42,Prefer not to say,Data Scientist,Consulting,14,Hybrid,24,0,1,Low,Depression,Yes,Increase,3,Satisfied,3,Weekly,Good,North America
+401317,28,Female,Marketing,Consulting,23,Remote,41,9,3,Medium,Depression,Yes,Decrease,5,Neutral,5,,Poor,Europe
+288919,41,Female,Software Engineer,Healthcare,25,Remote,39,3,1,Medium,Depression,Yes,Decrease,2,Satisfied,5,Daily,Average,Europe
+585611,29,Non-binary,HR,IT,12,Onsite,41,15,2,Low,Burnout,Yes,Decrease,4,Satisfied,1,Weekly,Average,Asia
+464079,27,Male,Project Manager,Education,10,Hybrid,35,7,2,High,Depression,Yes,Decrease,4,Satisfied,1,,Poor,Europe
+612409,51,Female,Marketing,IT,4,Remote,30,1,3,High,Anxiety,No,Increase,3,Satisfied,2,Daily,Good,Africa
+509191,41,Prefer not to say,Data Scientist,IT,3,Remote,44,3,1,Low,Depression,No,Increase,3,Satisfied,1,Daily,Poor,Asia
+452165,57,Prefer not to say,Sales,Consulting,25,Remote,28,7,1,Low,Burnout,No,Decrease,2,Neutral,2,Weekly,Good,Europe
+116399,38,Male,Marketing,IT,33,Remote,28,7,3,High,Burnout,Yes,Increase,4,Neutral,1,Daily,Average,South America
+523245,33,Prefer not to say,Project Manager,Healthcare,9,Remote,37,0,2,Medium,Depression,No,Decrease,3,Neutral,2,Daily,Poor,South America
+222501,29,Non-binary,Designer,Manufacturing,34,Remote,27,2,4,Medium,,No,Decrease,4,Neutral,4,Daily,Average,Oceania
+874130,37,Male,Marketing,IT,20,Hybrid,44,3,3,Low,,No,Decrease,4,Unsatisfied,1,,Average,North America
+316227,33,Prefer not to say,Project Manager,IT,33,Onsite,58,15,3,High,Anxiety,No,Increase,4,Neutral,5,,Average,Asia
+460029,29,Non-binary,Project Manager,Manufacturing,33,Hybrid,29,8,5,Medium,Depression,No,Increase,3,Satisfied,1,Daily,Average,Asia
+150222,22,Non-binary,Sales,Manufacturing,10,Onsite,48,11,5,High,,Yes,Increase,3,Unsatisfied,1,Weekly,Average,North America
+841526,53,Male,Designer,Manufacturing,17,Hybrid,42,11,5,High,Depression,Yes,Increase,1,Satisfied,2,,Poor,Europe

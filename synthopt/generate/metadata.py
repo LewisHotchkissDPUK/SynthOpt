@@ -203,7 +203,7 @@ def metadata_process(data, type="correlated"):
 
 
 # Function to generate random data based on metadata for each filename
-def generate_structural_data(metadata, label_mapping=None, num_records=100):
+def generate_structural_data(metadata, label_mapping=None, num_records=100, identifier_column=None):
     # Initialize a dictionary to hold generated data for each table
     generated_data = {}
 
@@ -379,6 +379,12 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100):
                     # Map the values, ensuring NaN values are handled correctly
                     generated_data[table_name][col] = generated_data[table_name][col].map(label_mapping[full_key]).where(
                         generated_data[table_name][col].notna(), np.nan)
+                    
+        if identifier_column != None:
+            participant_ids_integer = [random_integer() for _ in range(num_records)] 
+            for column in generated_data[table_name].columns:
+                if identifier_column in column:
+                    generated_data[table_name][column] = participant_ids_integer
 
     return generated_data
     
