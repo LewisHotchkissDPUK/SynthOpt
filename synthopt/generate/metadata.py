@@ -13,6 +13,8 @@ import random
 import string
 from datetime import datetime
 import calendar
+import warnings
+warnings.filterwarnings('ignore')
 
 # Function to generate a random string
 def random_string(length=6):
@@ -108,8 +110,8 @@ def metadata_process(data, type="correlated"):
         #    if col in data.columns:
         #        data[col] = pd.to_datetime(data[col], errors='coerce')
         for column in date_columns:
-            if pd.to_datetime(data[column], errors='coerce').dt.year.dtype != float:
-                data[column] = pd.to_datetime(data[column], errors='coerce')
+            if not pd.to_datetime(data[column], errors='coerce', infer_datetime_format=True).isna().all():
+                data[column] = pd.to_datetime(data[column], errors='coerce', infer_datetime_format=True)
                 data[column + '_year'] = data[column].dt.year
                 data[column + '_month'] = data[column].dt.month
                 data[column + '_day'] = data[column].dt.day
