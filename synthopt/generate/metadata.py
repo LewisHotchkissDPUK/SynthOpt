@@ -76,15 +76,15 @@ def metadata_process(data, type="correlated"):
                 data[column] = data[column].astype("Int64")
 
         # Identify non-numerical columns
-        non_numerical_columns = list(set(data.columns) - set(data.describe().columns))
+        #non_numerical_columns = list(set(data.columns) - set(data.describe().columns))
+        non_numerical_columns = data.select_dtypes(exclude=['number']).columns.tolist()
         date_columns = []
         for column in non_numerical_columns:
             try:
-                pd.to_datetime(data[column], errors='coerce', infer_datetime_format=True)
+                pd.to_datetime(data[column])
                 date_columns.append(column)
             except ValueError:
                 pass
-        print(date_columns)
 
         # Identify string/object columns
         all_string_columns = list(set(non_numerical_columns) - set(date_columns))
@@ -104,18 +104,23 @@ def metadata_process(data, type="correlated"):
             data[column] = le.fit_transform(data[column])
 
         # Handle date columns by expanding them
-        for col in date_columns:
-            if col in data.columns:
-                data[col] = pd.to_datetime(data[col], errors='coerce', infer_datetime_format=True)
+        #for col in date_columns:
+        #    if col in data.columns:
+        #        data[col] = pd.to_datetime(data[col], errors='coerce')
         for column in date_columns:
-            data[column] = pd.to_datetime(data[column], errors='coerce', infer_datetime_format=True)
-            data[column + '_year'] = data[column].dt.year
-            data[column + '_month'] = data[column].dt.month
-            data[column + '_day'] = data[column].dt.day
-            data.insert(data.columns.get_loc(column) + 1, column + '_year', data.pop(column + '_year'))
-            data.insert(data.columns.get_loc(column) + 2, column + '_month', data.pop(column + '_month'))
-            data.insert(data.columns.get_loc(column) + 3, column + '_day', data.pop(column + '_day'))
-        data = data.drop(date_columns, axis=1)
+            if pd.to_datetime(data[column], errors='coerce').dt.year.dtype != float:
+                data[column] = pd.to_datetime(data[column], errors='coerce')
+                data[column + '_year'] = data[column].dt.year
+                data[column + '_month'] = data[column].dt.month
+                data[column + '_day'] = data[column].dt.day
+                data.insert(data.columns.get_loc(column) + 1, column + '_year', data.pop(column + '_year'))
+                data.insert(data.columns.get_loc(column) + 2, column + '_month', data.pop(column + '_month'))
+                data.insert(data.columns.get_loc(column) + 3, column + '_day', data.pop(column + '_day'))
+
+                data = data.drop(columns=[column], axis=1)
+
+        #data = data.drop(date_columns, axis=1)
+
 
         # Create metadata for each column
         for column in data.columns:

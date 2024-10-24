@@ -37,6 +37,7 @@ GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, 
 """
 
 
+
 ## CORRELATED METADATA TESTING ##
 DATA = pd.read_csv("examples\healthcare_dataset.csv")
 DATA2 = pd.read_csv("examples/Impact_of_Remote_Work_on_Mental_Health.csv")
@@ -45,7 +46,7 @@ DATASETS = {"healthcare":DATA, "mentalhealth":DATA2}
 
 #METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATA2, "correlated")
 
-METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATA2, "correlated")
+METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATASETS, "correlated")
 #METADATA, LABEL_MAPPING = metadata_process(DATASETS, "structural")
 
 
