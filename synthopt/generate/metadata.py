@@ -83,8 +83,10 @@ def metadata_process(data, type="correlated"):
         date_columns = []
         for column in non_numerical_columns:
             try:
-                pd.to_datetime(data[column])
-                date_columns.append(column)
+                converted_column = pd.to_datetime(data[column], errors='coerce', infer_datetime_format=True)
+                if converted_column.notna().any():
+                    print(column)
+                    date_columns.append(column)
             except ValueError:
                 pass
 
