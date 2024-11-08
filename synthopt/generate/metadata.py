@@ -448,12 +448,14 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
 
     empty_metadata = metadata[metadata["completeness"]==0]
     zero_metadata = metadata[metadata["mean"]==0]
+    single_value_metadata = metadata[metadata["standard_deviation"]==0] 
 
     numerical_metadata = metadata[metadata['datatype'].apply(is_int_or_float)]
     non_numerical_metadata = metadata[~metadata['datatype'].apply(is_int_or_float)]
 
     numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(empty_metadata['variable_name'])]
     numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(zero_metadata['variable_name'])]
+    numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(single_value_metadata['variable_name'])]
 
     # doesnt work because of prexix
     #correlation_matrix = correlation_matrix[~correlation_matrix.index.isin(empty_metadata['variable_name'])]
@@ -567,6 +569,9 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
     for index, row in empty_metadata.iterrows():
         column_name = row['variable_name']
         synthetic_data[column_name] = None
+    for index, row in single_value_metadata.iterrows():
+        column_name = row['variable_name']
+        synthetic_data[column_name] = single_value_metadata[single_value_metadata['variable_name']==row['variable_name']]['mean'].values[0]
 
     def strip_suffix(variable_name):
         if variable_name.endswith('_year'):
