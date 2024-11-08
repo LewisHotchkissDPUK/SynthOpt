@@ -42,6 +42,11 @@ GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, 
 DATA = pd.read_csv("examples\healthcare_dataset.csv")
 DATA2 = pd.read_csv("examples/Impact_of_Remote_Work_on_Mental_Health.csv")
 
+#DATA = DATA.drop(columns=['TestDate']) #, 'TestTrunc'
+#DATA['TestTrunc'] = DATA['TestTrunc'].fillna(0)
+
+#DATA['TestTrunc'].fillna(DATA['TestTrunc'].mean(), inplace=True)
+
 DATASETS = {"healthcare":DATA, "mentalhealth":DATA2}
 
 METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATA, "correlated")
@@ -53,7 +58,8 @@ METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATA, "correlated
 print(METADATA)
 print()
 print(LABEL_MAPPING)
-#print(CORRELATION_MATRIX)
+print()
+print(CORRELATION_MATRIX)
 
 #SYNTHETIC_DATA = generate_structural_data(METADATA, LABEL_MAPPING, identifier_column="Employee_ID") 
 #print(SYNTHETIC_DATA)

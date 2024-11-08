@@ -76,6 +76,12 @@ def metadata_process(data, type="correlated"):
         for column in data.select_dtypes(include='float'):
             if (data[column].dropna() % 1 == 0).all():
                 data[column] = data[column].astype("Int64")
+                if data[column].notna().any():
+                    data[column] = data[column].fillna(data[column].mean().round())
+
+        # fill na of numerical columns with mean
+        float_columns = data.select_dtypes(include=['float']).columns
+        data[float_columns] = data[float_columns].fillna(data[float_columns].mean())
 
         # Identify non-numerical columns
         #non_numerical_columns = list(set(data.columns) - set(data.describe().columns))
@@ -113,9 +119,19 @@ def metadata_process(data, type="correlated"):
         for column in date_columns:
             if not pd.to_datetime(data[column], errors='coerce', infer_datetime_format=True).isna().all():
                 data[column] = pd.to_datetime(data[column], errors='coerce', infer_datetime_format=True)
+
                 data[column + '_year'] = data[column].dt.year
+                if data[column + '_year'].notna().any():
+                    data[column + '_year'] = data[column + '_year'].fillna(data[column + '_year'].mean().round())
+
                 data[column + '_month'] = data[column].dt.month
+                if data[column + '_month'].notna().any():
+                    data[column + '_month'] = data[column + '_month'].fillna(data[column + '_month'].mean().round())
+
                 data[column + '_day'] = data[column].dt.day
+                if data[column + '_day'].notna().any():
+                    data[column + '_day'] = data[column + '_day'].fillna(data[column + '_day'].mean().round())
+
                 data.insert(data.columns.get_loc(column) + 1, column + '_year', data.pop(column + '_year'))
                 data.insert(data.columns.get_loc(column) + 2, column + '_month', data.pop(column + '_month'))
                 data.insert(data.columns.get_loc(column) + 3, column + '_day', data.pop(column + '_day'))
@@ -419,6 +435,7 @@ def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
 
     # Loop until the required number of samples is obtained
     while len(samples) < size:
+        print(len(samples))
         # Draw a batch of multivariate normal samples
         batch_size = size - len(samples)
         candidate_samples = np.atleast_2d(multivariate_normal.rvs(mean=mean, cov=cov, size=batch_size))
@@ -504,7 +521,6 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
     # Introduce missing values (NaNs) according to the completeness percentages (ONLY DOES IT FOR NUMERICAL!!! CHANGE!)
     for i, (index, row) in enumerate(numerical_metadata.iterrows()):
         completeness = row['completeness'] / 100  # Convert to a decimal
-        print(completeness)
         num_valid_rows = int(num_rows * completeness)  # Number of valid rows based on completeness
 
         # Randomly set some of the data to NaN based on completeness
@@ -524,6 +540,18 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
         for column, mapping in label_mapping.items():
             synthetic_data[column] = synthetic_data[column].map(mapping)
 
+
+    for index, row in zero_metadata.iterrows():
+        column_name = row['variable_name']
+        synthetic_data[column_name] = 0
+    for index, row in empty_metadata.iterrows():
+        column_name = row['variable_name']
+        synthetic_data[column_name] = None
+    for index, row in single_value_metadata.iterrows():
+        column_name = row['variable_name']
+        synthetic_data[column_name] = single_value_metadata[single_value_metadata['variable_name']==row['variable_name']]['mean'].values[0]
+
+
     # date combine
     # Identify columns that match the pattern *_year, *_month, *_day
     date_cols = {}
@@ -538,6 +566,8 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
         elif col.endswith('_day'):
             base_name = col[:-4]
             date_cols.setdefault(base_name, {})['day'] = col
+
+    print(date_cols)
 
     # Combine identified columns into a new date column
     for base_name, cols in date_cols.items():
@@ -564,16 +594,7 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
             # Call the generate_random_string function and assign the result to the data
             synthetic_data[column_name] = [generate_random_string(mean, std_dev) for _ in range(len(synthetic_data))]
 
-    for index, row in zero_metadata.iterrows():
-        column_name = row['variable_name']
-        synthetic_data[column_name] = 0
-    for index, row in empty_metadata.iterrows():
-        column_name = row['variable_name']
-        synthetic_data[column_name] = None
-    for index, row in single_value_metadata.iterrows():
-        column_name = row['variable_name']
-        synthetic_data[column_name] = single_value_metadata[single_value_metadata['variable_name']==row['variable_name']]['mean'].values[0]
-
+    
     def strip_suffix(variable_name):
         if variable_name.endswith('_year'):
             return variable_name[:-5]  # Remove the '_year' suffix
@@ -588,6 +609,10 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
     metadata_temp['base_name'] = metadata['variable_name'].apply(strip_suffix)
     # Get unique base names
     unique_variable_names = metadata_temp['base_name'].unique().tolist()
+
+    print(metadata_temp)
+    print(synthetic_data.columns.tolist())
+
     synthetic_data = synthetic_data[unique_variable_names]
 
     if identifier_column != None:
