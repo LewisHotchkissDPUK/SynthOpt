@@ -186,6 +186,7 @@ def metadata_process(data, type="correlated"):
         label_mapping = {}
         for column in categorical_string_columns:
             prefixed_column = f"{table_name}.{column}" if table_name else column  # Add table name prefix
+            orig_data[column] = orig_data[column].astype(str)
             label_mapping[prefixed_column] = dict(zip(le.fit_transform(orig_data[column].unique()), orig_data[column].unique()))
 
         return metadata, label_mapping, data
