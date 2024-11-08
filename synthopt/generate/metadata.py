@@ -427,29 +427,34 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
 
 # Function to generate correlated samples with truncated bounds using rejection sampling
 def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
-    # Initialize samples array
-    samples = []
-
     lower = np.array(lower)
     upper = np.array(upper)
+    samples = np.zeros((size, len(mean)))  # Preallocate fixed-size array
+    num_generated = 0  # Track how many samples are accepted
 
-    # Loop until the required number of samples is obtained
-    while len(samples) < size:
-        print(len(samples))
-        # Draw a batch of multivariate normal samples
-        batch_size = size - len(samples)
-        candidate_samples = np.atleast_2d(multivariate_normal.rvs(mean=mean, cov=cov, size=batch_size))
+    batch_size = 10 * size  # Start with a larger batch size
+    while num_generated < size:
+        # Generate a batch of candidate samples
+        candidate_samples = multivariate_normal.rvs(mean=mean, cov=cov, size=batch_size)
 
-        # Apply truncation: Keep only samples within the bounds for all variables
+        # Check which samples are within bounds
         within_bounds = np.all((candidate_samples >= lower) & (candidate_samples <= upper), axis=1)
-
         valid_samples = candidate_samples[within_bounds]
 
-        # Append the valid samples to our final sample list
-        samples.extend(valid_samples)
+        # Compute number of slots remaining
+        remaining_slots = size - num_generated
+        if len(valid_samples) > remaining_slots:
+            valid_samples = valid_samples[:remaining_slots]  # Trim excess samples
 
-    # Convert to a numpy array of the desired size
-    return np.array(samples[:size])
+        # Place valid samples in the preallocated array
+        samples[num_generated:num_generated + len(valid_samples)] = valid_samples
+        num_generated += len(valid_samples)  # Update the count of generated samples
+
+        # Adjust batch size if too few valid samples are obtained
+        if len(valid_samples) < batch_size * 0.1:  # If less than 10% are valid, decrease batch size
+            batch_size = max(2 * remaining_slots, batch_size // 2)
+
+    return samples
 
 
 
