@@ -520,6 +520,7 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
     #    upper=upper_bounds,
     #    size=num_rows
     #)
+    # New method for truncated multivariate normal data
     mean = np.array(means)
     cov = np.array(covariance_matrix)
     lower = np.array(lower_bounds)
