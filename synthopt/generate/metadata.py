@@ -91,7 +91,7 @@ def metadata_process(data, type="correlated"):
         for column in non_numerical_columns:
             try:
                 converted_column = pd.to_datetime(data[column], errors='coerce', infer_datetime_format=True)
-                if converted_column.notna().any():
+                if converted_column.notna().any() and converted_column.nunique() != 1:
                     date_columns.append(column)
             except ValueError:
                 pass
@@ -124,14 +124,17 @@ def metadata_process(data, type="correlated"):
                 data[column + '_year'] = data[column].dt.year
                 if data[column + '_year'].notna().any():
                     data[column + '_year'] = data[column + '_year'].fillna(round(data[column + '_year'].mean()))
+                    data[column + '_year'] = data[column + '_year'].astype('Int64')
 
                 data[column + '_month'] = data[column].dt.month
                 if data[column + '_month'].notna().any():
                     data[column + '_month'] = data[column + '_month'].fillna(round(data[column + '_month'].mean()))
+                    data[column + '_month'] = data[column + '_month'].astype('Int64')
 
                 data[column + '_day'] = data[column].dt.day
                 if data[column + '_day'].notna().any():
                     data[column + '_day'] = data[column + '_day'].fillna(round(data[column + '_day'].mean()))
+                    data[column + '_day'] = data[column + '_day'].astype('Int64')
 
                 data.insert(data.columns.get_loc(column) + 1, column + '_year', data.pop(column + '_year'))
                 data.insert(data.columns.get_loc(column) + 2, column + '_month', data.pop(column + '_month'))
@@ -525,6 +528,7 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
     # Create the covariance matrix using the correlation and standard deviations
     covariance_matrix = np.diag(std_devs) @ correlation_matrix @ np.diag(std_devs)
 
+    # new for TruncatedMVN
     covariance_matrix = make_positive_semi_definite(covariance_matrix)
 
     # Generate truncated multivariate normal data
@@ -535,6 +539,7 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
     #    upper=upper_bounds,
     #    size=num_rows
     #)
+
     # New method for truncated multivariate normal data
     mean = np.array(means)
     cov = np.array(covariance_matrix)
