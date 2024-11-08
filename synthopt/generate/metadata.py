@@ -448,7 +448,7 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
 
     empty_metadata = metadata[metadata["completeness"]==0]
     zero_metadata = metadata[metadata["mean"]==0]
-    single_value_metadata = metadata[metadata["standard_deviation"]==0] 
+    single_value_metadata = metadata[(metadata["standard_deviation"] == 0) | (pd.isna(metadata["standard_deviation"]))]
 
     numerical_metadata = metadata[metadata['datatype'].apply(is_int_or_float)]
     non_numerical_metadata = metadata[~metadata['datatype'].apply(is_int_or_float)]
