@@ -77,7 +77,7 @@ def metadata_process(data, type="correlated"):
             if (data[column].dropna() % 1 == 0).all():
                 data[column] = data[column].astype("Int64")
                 if data[column].notna().any():
-                    data[column] = data[column].fillna(data[column].mean().round())
+                    data[column] = data[column].fillna(round(data[column].mean()))
 
         # fill na of numerical columns with mean
         float_columns = data.select_dtypes(include=['float']).columns
@@ -122,15 +122,15 @@ def metadata_process(data, type="correlated"):
 
                 data[column + '_year'] = data[column].dt.year
                 if data[column + '_year'].notna().any():
-                    data[column + '_year'] = data[column + '_year'].fillna(data[column + '_year'].mean().round())
+                    data[column + '_year'] = data[column + '_year'].fillna(round(data[column + '_year'].mean()))
 
                 data[column + '_month'] = data[column].dt.month
                 if data[column + '_month'].notna().any():
-                    data[column + '_month'] = data[column + '_month'].fillna(data[column + '_month'].mean().round())
+                    data[column + '_month'] = data[column + '_month'].fillna(round(data[column + '_month'].mean()))
 
                 data[column + '_day'] = data[column].dt.day
                 if data[column + '_day'].notna().any():
-                    data[column + '_day'] = data[column + '_day'].fillna(data[column + '_day'].mean().round())
+                    data[column + '_day'] = data[column + '_day'].fillna(round(data[column + '_day'].mean()))
 
                 data.insert(data.columns.get_loc(column) + 1, column + '_year', data.pop(column + '_year'))
                 data.insert(data.columns.get_loc(column) + 2, column + '_month', data.pop(column + '_month'))
@@ -538,7 +538,7 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
         datatype = metadata.loc[metadata['variable_name'] == column, 'datatype'].values
         if len(datatype) > 0 and "int" in str(datatype[0]).lower():   #if len(datatype) > 0 and np.issubdtype(datatype[0], np.integer):
             # Round the values in the column if the datatype is an integer
-            synthetic_data[column] = synthetic_data[column].round()# .astype(int)
+            synthetic_data[column] = round(synthetic_data[column])# .astype(int)
 
     if metadata['table_name'].iloc[0] is not None:
         # label mapping
