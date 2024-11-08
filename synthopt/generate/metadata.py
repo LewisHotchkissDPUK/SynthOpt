@@ -501,9 +501,10 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
     # Convert samples into a Pandas DataFrame
     synthetic_data = pd.DataFrame(synthetic_samples, columns=variable_names)
 
-    # Introduce missing values (NaNs) according to the completeness percentages
+    # Introduce missing values (NaNs) according to the completeness percentages (ONLY DOES IT FOR NUMERICAL!!! CHANGE!)
     for i, (index, row) in enumerate(numerical_metadata.iterrows()):
         completeness = row['completeness'] / 100  # Convert to a decimal
+        print(completeness)
         num_valid_rows = int(num_rows * completeness)  # Number of valid rows based on completeness
 
         # Randomly set some of the data to NaN based on completeness
