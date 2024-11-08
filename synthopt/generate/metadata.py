@@ -111,6 +111,7 @@ def metadata_process(data, type="correlated"):
         orig_data = data.copy()
         le = LabelEncoder()
         for column in categorical_string_columns:
+            data[column] = data[column].astype(str)
             data[column] = le.fit_transform(data[column])
 
         # Handle date columns by expanding them
