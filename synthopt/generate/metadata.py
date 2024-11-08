@@ -567,8 +567,6 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
             base_name = col[:-4]
             date_cols.setdefault(base_name, {})['day'] = col
 
-    print(date_cols)
-
     # Combine identified columns into a new date column
     for base_name, cols in date_cols.items():
         if 'year' in cols and 'month' in cols and 'day' in cols:
@@ -609,9 +607,6 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
     metadata_temp['base_name'] = metadata['variable_name'].apply(strip_suffix)
     # Get unique base names
     unique_variable_names = metadata_temp['base_name'].unique().tolist()
-
-    print(metadata_temp)
-    print(synthetic_data.columns.tolist())
 
     synthetic_data = synthetic_data[unique_variable_names]
 
