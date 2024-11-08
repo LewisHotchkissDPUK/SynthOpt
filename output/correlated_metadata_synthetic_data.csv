@@ -1,401 +1,401 @@
-Employee_ID,Age,Gender,Job_Role,Industry,Years_of_Experience,Work_Location,Hours_Worked_Per_Week,Number_of_Virtual_Meetings,Work_Life_Balance_Rating,Stress_Level,Mental_Health_Condition,Access_to_Mental_Health_Resources,Productivity_Change,Social_Isolation_Rating,Satisfaction_with_Remote_Work,Company_Support_for_Remote_Work,Physical_Activity,Sleep_Quality,Region
-483826,60.0,Non-binary,Designer,Finance,31.0,Hybrid,49.0,13.0,2.0,Low,Burnout,Yes,Decrease,2.0,Satisfied,5.0,Weekly,Good,Oceania
-914384,39.0,Non-binary,Marketing,Consulting,23.0,Hybrid,50.0,3.0,5.0,High,Burnout,Yes,Increase,5.0,Satisfied,2.0,,Average,Europe
-189518,37.0,Non-binary,Data Scientist,Healthcare,29.0,Remote,52.0,3.0,3.0,Low,Depression,No,Increase,3.0,Satisfied,3.0,,Poor,Oceania
-756373,36.0,Prefer not to say,HR,Education,20.0,Onsite,24.0,7.0,2.0,High,Burnout,Yes,Increase,4.0,Satisfied,1.0,Weekly,Average,Africa
-598584,45.0,Non-binary,Project Manager,Consulting,21.0,Onsite,44.0,8.0,3.0,Medium,,Yes,Increase,4.0,Satisfied,2.0,Weekly,Good,North America
-736349,52.0,Non-binary,Marketing,Healthcare,11.0,Hybrid,33.0,11.0,2.0,Low,Burnout,Yes,Increase,4.0,Satisfied,3.0,Daily,Good,Europe
-535941,52.0,Non-binary,HR,IT,5.0,Onsite,52.0,7.0,3.0,Low,Burnout,Yes,Increase,4.0,Neutral,2.0,Weekly,Average,Europe
-376782,39.0,Non-binary,Project Manager,Manufacturing,12.0,Remote,42.0,2.0,5.0,Low,Burnout,No,Decrease,2.0,Satisfied,3.0,Weekly,Poor,Europe
-328250,35.0,Female,Sales,IT,19.0,Remote,31.0,6.0,2.0,Low,Burnout,No,No Change,5.0,Satisfied,3.0,,Poor,Europe
-593341,41.0,Non-binary,Project Manager,Finance,26.0,Remote,44.0,6.0,2.0,High,Anxiety,Yes,Increase,3.0,Unsatisfied,2.0,Weekly,Poor,Europe
-839972,57.0,Non-binary,Sales,IT,11.0,Onsite,35.0,14.0,4.0,Low,,No,Decrease,3.0,Unsatisfied,2.0,,Poor,Oceania
-167011,59.0,Prefer not to say,Marketing,Healthcare,15.0,Onsite,49.0,11.0,2.0,High,Burnout,No,Decrease,1.0,Satisfied,4.0,Weekly,Average,Asia
-572413,32.0,Non-binary,Project Manager,IT,9.0,Hybrid,44.0,10.0,3.0,High,Depression,No,Increase,4.0,Unsatisfied,2.0,Weekly,Good,Asia
-282630,52.0,Male,Marketing,Healthcare,22.0,Remote,47.0,9.0,3.0,Low,Burnout,No,Increase,3.0,Satisfied,4.0,Daily,Good,South America
-104223,41.0,Male,Project Manager,IT,18.0,Remote,25.0,9.0,4.0,Low,Anxiety,Yes,Decrease,3.0,Satisfied,2.0,Weekly,Average,Europe
-285751,53.0,Male,Designer,Education,26.0,Onsite,32.0,9.0,3.0,Low,Depression,Yes,Decrease,3.0,Neutral,3.0,Weekly,Good,Oceania
-664396,41.0,Male,Designer,Education,12.0,Onsite,32.0,5.0,2.0,Low,Burnout,No,No Change,2.0,Unsatisfied,3.0,,Good,Europe
-844011,32.0,Male,Sales,Healthcare,3.0,Hybrid,48.0,3.0,4.0,Low,Depression,No,Increase,4.0,Satisfied,2.0,Weekly,Poor,Asia
-310717,26.0,Male,Project Manager,Finance,10.0,Remote,35.0,6.0,4.0,High,Anxiety,Yes,Increase,3.0,Satisfied,4.0,Weekly,Poor,Africa
-274568,40.0,Non-binary,HR,Finance,9.0,Onsite,52.0,5.0,2.0,Low,Burnout,No,Decrease,4.0,Satisfied,3.0,Weekly,Good,Oceania
-575810,31.0,Male,Sales,Finance,21.0,Remote,45.0,7.0,2.0,Medium,Depression,No,Increase,3.0,Satisfied,2.0,Weekly,Poor,North America
-915285,41.0,Male,Software Engineer,IT,13.0,Onsite,40.0,13.0,3.0,Low,Depression,No,No Change,3.0,Satisfied,5.0,Weekly,Average,North America
-987015,46.0,Female,HR,Education,20.0,Remote,41.0,9.0,4.0,Low,Burnout,No,No Change,2.0,Satisfied,3.0,,Good,Africa
-522176,25.0,Non-binary,Project Manager,IT,10.0,Onsite,50.0,10.0,3.0,Medium,Depression,No,Increase,2.0,Neutral,2.0,,Good,Oceania
-764780,43.0,Male,Marketing,Retail,20.0,Remote,58.0,9.0,2.0,Low,Depression,No,No Change,4.0,Satisfied,3.0,,Good,South America
-223094,47.0,Non-binary,Sales,Finance,13.0,Hybrid,37.0,4.0,2.0,Low,Depression,No,Decrease,2.0,Satisfied,1.0,Weekly,Good,Africa
-322237,42.0,Male,Marketing,IT,23.0,Hybrid,47.0,6.0,4.0,Medium,Burnout,Yes,Increase,2.0,Satisfied,3.0,Weekly,Poor,Asia
-998085,46.0,Male,HR,IT,26.0,Onsite,39.0,5.0,1.0,Low,,No,Increase,2.0,Neutral,1.0,Daily,Poor,Europe
-319116,58.0,Female,Designer,Finance,34.0,Onsite,43.0,13.0,4.0,Low,Depression,No,Increase,2.0,Neutral,2.0,Weekly,Average,North America
-861667,33.0,Male,Marketing,IT,34.0,Remote,34.0,11.0,2.0,Low,,No,Increase,3.0,Satisfied,3.0,Weekly,Average,Europe
-974868,41.0,Non-binary,HR,Finance,17.0,Remote,30.0,7.0,3.0,Low,Burnout,No,Decrease,2.0,Neutral,3.0,Daily,Good,Asia
-354067,23.0,Non-binary,HR,Healthcare,19.0,Remote,44.0,7.0,5.0,Medium,Burnout,No,Increase,2.0,Satisfied,3.0,Weekly,Good,North America
-603512,33.0,Female,Marketing,IT,32.0,Onsite,32.0,14.0,2.0,Low,Burnout,No,Increase,3.0,Unsatisfied,3.0,Weekly,Poor,Asia
-295695,38.0,Non-binary,Marketing,Manufacturing,13.0,Onsite,41.0,2.0,3.0,Low,Burnout,No,Increase,2.0,Satisfied,2.0,Weekly,Average,Europe
-874004,26.0,Prefer not to say,HR,Education,5.0,Onsite,56.0,9.0,4.0,Low,Burnout,No,Increase,2.0,Satisfied,4.0,Weekly,Good,North America
-620320,54.0,Non-binary,HR,Finance,7.0,Remote,34.0,6.0,1.0,Low,Burnout,No,Increase,4.0,Satisfied,1.0,Weekly,Average,North America
-442459,43.0,Male,Marketing,Finance,19.0,Onsite,36.0,10.0,3.0,Medium,Burnout,Yes,Increase,4.0,Satisfied,3.0,Weekly,Average,North America
-493114,33.0,Prefer not to say,Designer,Finance,4.0,Onsite,45.0,6.0,4.0,Low,,Yes,No Change,5.0,Satisfied,3.0,Weekly,Good,North America
-971464,44.0,Male,Marketing,Finance,20.0,Hybrid,37.0,4.0,3.0,Low,,No,Increase,5.0,Satisfied,1.0,Weekly,Good,Africa
-420020,57.0,Male,HR,IT,31.0,Onsite,36.0,4.0,4.0,Low,Burnout,Yes,Increase,2.0,Satisfied,3.0,Weekly,Good,North America
-331060,24.0,Male,Sales,IT,32.0,Onsite,44.0,9.0,4.0,Medium,Depression,Yes,No Change,4.0,Satisfied,2.0,Weekly,Good,North America
-883313,44.0,Female,Marketing,Finance,29.0,Hybrid,47.0,12.0,3.0,Medium,Depression,No,Increase,4.0,Unsatisfied,1.0,Weekly,Average,South America
-287070,52.0,Male,Software Engineer,Healthcare,27.0,Onsite,44.0,5.0,3.0,Low,Burnout,No,No Change,4.0,Neutral,3.0,,Good,Oceania
-956050,33.0,Prefer not to say,HR,Retail,21.0,Hybrid,47.0,6.0,2.0,Low,Depression,No,Increase,2.0,Satisfied,2.0,Weekly,Poor,Europe
-165576,49.0,Male,Project Manager,Finance,6.0,Onsite,52.0,12.0,4.0,High,Burnout,No,No Change,3.0,Satisfied,1.0,Weekly,Average,South America
-850814,58.0,Female,Project Manager,Healthcare,15.0,Hybrid,25.0,10.0,1.0,Low,Burnout,No,Increase,3.0,Neutral,3.0,Weekly,Good,North America
-704336,39.0,Female,HR,Consulting,20.0,Hybrid,51.0,11.0,3.0,Low,Burnout,Yes,Increase,3.0,Neutral,4.0,Weekly,Poor,North America
-758521,36.0,Female,Marketing,Finance,14.0,Remote,34.0,8.0,4.0,Low,Depression,No,Increase,2.0,Satisfied,4.0,Daily,Poor,Oceania
-766846,47.0,Non-binary,Software Engineer,Finance,17.0,Onsite,31.0,6.0,4.0,Low,Burnout,No,Increase,2.0,Satisfied,3.0,Weekly,Good,Africa
-921601,52.0,Non-binary,Project Manager,IT,13.0,Onsite,47.0,9.0,5.0,Medium,Burnout,No,Increase,5.0,Neutral,4.0,Weekly,Good,North America
-517145,35.0,Non-binary,Marketing,Healthcare,16.0,Onsite,44.0,10.0,2.0,Medium,,No,Increase,4.0,Satisfied,2.0,Weekly,Good,North America
-502359,45.0,Non-binary,Software Engineer,Healthcare,32.0,Onsite,32.0,14.0,2.0,Medium,Depression,No,Increase,4.0,Satisfied,3.0,,Good,North America
-843226,26.0,Non-binary,Project Manager,IT,8.0,Onsite,48.0,4.0,4.0,Low,Burnout,No,Increase,2.0,Satisfied,4.0,Daily,Poor,Europe
-102690,43.0,Male,HR,IT,13.0,Onsite,58.0,4.0,3.0,Low,Depression,Yes,No Change,3.0,Satisfied,5.0,Weekly,Poor,Europe
-181296,38.0,Male,Marketing,Healthcare,19.0,Hybrid,44.0,8.0,2.0,Low,Depression,Yes,No Change,3.0,Satisfied,2.0,Weekly,Poor,Asia
-455568,25.0,Male,Marketing,IT,15.0,Remote,25.0,7.0,3.0,Medium,Burnout,Yes,Increase,3.0,Satisfied,4.0,Weekly,Average,Europe
-353444,36.0,Non-binary,HR,Retail,15.0,Remote,27.0,10.0,5.0,Low,Depression,Yes,Decrease,3.0,Satisfied,1.0,,Good,North America
-462107,46.0,Male,Software Engineer,IT,20.0,Onsite,22.0,7.0,3.0,Low,Anxiety,Yes,Increase,2.0,Satisfied,3.0,Weekly,Good,Europe
-717458,39.0,Female,Designer,IT,13.0,Remote,41.0,6.0,2.0,High,,Yes,Increase,3.0,Unsatisfied,4.0,,Poor,North America
-410490,35.0,Prefer not to say,Designer,Education,34.0,Onsite,33.0,10.0,2.0,Low,,Yes,Increase,4.0,Satisfied,2.0,Daily,Average,Asia
-559783,46.0,Non-binary,Marketing,IT,3.0,Onsite,22.0,0.0,3.0,Low,Depression,No,No Change,3.0,Satisfied,3.0,Weekly,Poor,Asia
-112150,45.0,Non-binary,HR,IT,18.0,Onsite,23.0,4.0,3.0,Low,Anxiety,No,Increase,2.0,Satisfied,1.0,Daily,Good,Africa
-610606,54.0,Male,Project Manager,Healthcare,15.0,Onsite,44.0,5.0,4.0,Medium,Burnout,No,Decrease,2.0,Unsatisfied,4.0,,Poor,North America
-357117,37.0,Male,Marketing,IT,12.0,Onsite,45.0,10.0,3.0,Low,Depression,No,Increase,3.0,Unsatisfied,3.0,Weekly,Average,North America
-422260,45.0,Non-binary,Software Engineer,Healthcare,23.0,Onsite,40.0,9.0,4.0,Low,,Yes,Increase,3.0,Unsatisfied,3.0,Daily,Poor,Asia
-340240,24.0,Female,Designer,Finance,13.0,Hybrid,55.0,2.0,2.0,High,Depression,Yes,Increase,4.0,Satisfied,3.0,Weekly,Good,North America
-920916,45.0,Male,Marketing,Education,8.0,Remote,23.0,4.0,3.0,Medium,Depression,Yes,Decrease,3.0,Satisfied,4.0,,Average,Europe
-254014,45.0,Non-binary,Designer,Healthcare,30.0,Onsite,29.0,6.0,4.0,Low,Depression,No,Decrease,4.0,Neutral,5.0,,Average,Oceania
-299510,54.0,Male,Marketing,Finance,6.0,Remote,47.0,8.0,4.0,Low,Depression,No,Decrease,2.0,Satisfied,2.0,Weekly,Good,North America
-833877,42.0,Male,HR,Manufacturing,14.0,Onsite,56.0,10.0,5.0,High,Depression,No,Increase,4.0,Neutral,2.0,Weekly,Good,Asia
-339334,51.0,Male,Project Manager,Education,31.0,Hybrid,39.0,9.0,3.0,Low,Depression,No,Decrease,3.0,Neutral,3.0,Weekly,Good,Oceania
-606450,33.0,Non-binary,Designer,Healthcare,17.0,Onsite,22.0,3.0,3.0,Low,Depression,No,Increase,1.0,Satisfied,3.0,Weekly,Poor,Europe
-749165,44.0,Prefer not to say,Marketing,Healthcare,17.0,Onsite,26.0,11.0,4.0,Low,Burnout,No,Increase,3.0,Satisfied,5.0,,Average,Oceania
-953270,37.0,Female,Project Manager,Finance,13.0,Onsite,28.0,9.0,3.0,Low,Depression,No,Increase,3.0,Satisfied,3.0,Weekly,Good,Oceania
-219016,49.0,Prefer not to say,Project Manager,Finance,6.0,Onsite,42.0,5.0,2.0,High,,Yes,Increase,2.0,Satisfied,5.0,Weekly,Good,Europe
-548296,27.0,Male,HR,Consulting,14.0,Onsite,37.0,6.0,2.0,High,,No,Increase,2.0,Satisfied,3.0,Weekly,Good,North America
-238546,39.0,Prefer not to say,Sales,Healthcare,8.0,Onsite,57.0,13.0,2.0,High,Burnout,Yes,Increase,3.0,Unsatisfied,4.0,Weekly,Poor,Asia
-634011,45.0,Prefer not to say,Sales,Healthcare,28.0,Onsite,46.0,0.0,3.0,High,Depression,Yes,Increase,1.0,Satisfied,4.0,,Poor,Oceania
-298796,35.0,Male,Marketing,Manufacturing,8.0,Onsite,53.0,5.0,2.0,Medium,Anxiety,Yes,Increase,4.0,Satisfied,4.0,Weekly,Average,Oceania
-540847,39.0,Non-binary,Marketing,Manufacturing,22.0,Remote,41.0,7.0,3.0,Low,Burnout,Yes,No Change,3.0,Unsatisfied,3.0,Weekly,Good,Europe
-612763,37.0,Non-binary,HR,Healthcare,19.0,Onsite,37.0,11.0,3.0,Low,Burnout,No,No Change,2.0,Neutral,3.0,,Good,Europe
-607942,46.0,Non-binary,Designer,Manufacturing,1.0,Onsite,54.0,10.0,5.0,High,Anxiety,No,No Change,3.0,Satisfied,2.0,,Good,Europe
-879981,44.0,Male,Marketing,Healthcare,30.0,Onsite,36.0,7.0,2.0,Medium,Depression,No,Decrease,1.0,Neutral,3.0,Daily,Poor,North America
-168554,24.0,Male,Marketing,Healthcare,29.0,Hybrid,43.0,7.0,2.0,Low,Anxiety,No,Increase,2.0,Satisfied,2.0,Weekly,Good,Oceania
-163291,38.0,Non-binary,Sales,Finance,32.0,Hybrid,41.0,8.0,4.0,Low,Burnout,No,Decrease,4.0,Unsatisfied,2.0,Weekly,Good,South America
-159351,55.0,Non-binary,Designer,Education,15.0,Onsite,44.0,4.0,3.0,Low,Anxiety,Yes,Increase,4.0,Neutral,3.0,Daily,Good,Asia
-156608,43.0,Male,HR,Healthcare,19.0,Onsite,35.0,9.0,3.0,Low,Burnout,No,Increase,3.0,Satisfied,3.0,Weekly,Good,North America
-682405,45.0,Female,Software Engineer,Healthcare,23.0,Onsite,40.0,13.0,3.0,Low,Burnout,No,Decrease,3.0,Neutral,1.0,Weekly,Poor,Europe
-371445,36.0,Male,HR,Education,31.0,Hybrid,52.0,10.0,3.0,High,Burnout,No,Decrease,2.0,Unsatisfied,5.0,,Good,Oceania
-727356,44.0,Female,HR,Finance,6.0,Hybrid,41.0,3.0,3.0,Low,Anxiety,Yes,Decrease,3.0,Neutral,2.0,Weekly,Poor,Europe
-180605,36.0,Prefer not to say,Marketing,Education,10.0,Remote,45.0,9.0,2.0,Low,Burnout,Yes,Increase,4.0,Neutral,3.0,Weekly,Good,North America
-757309,47.0,Male,Project Manager,Healthcare,11.0,Remote,34.0,1.0,3.0,Low,Burnout,No,Increase,4.0,Unsatisfied,4.0,Weekly,Poor,Europe
-684049,39.0,Male,Marketing,Healthcare,8.0,Onsite,27.0,12.0,1.0,Medium,Burnout,No,Decrease,5.0,Satisfied,4.0,,Poor,Europe
-135134,42.0,Non-binary,Project Manager,Finance,9.0,Onsite,26.0,11.0,2.0,High,,Yes,No Change,3.0,Satisfied,2.0,Weekly,Good,Asia
-942214,35.0,Male,Sales,Consulting,10.0,Onsite,33.0,3.0,1.0,Low,Anxiety,Yes,Increase,3.0,Satisfied,1.0,Daily,Average,Europe
-126448,59.0,Female,Project Manager,Education,11.0,Hybrid,38.0,4.0,2.0,Medium,Anxiety,No,Increase,4.0,Satisfied,3.0,Daily,Good,Europe
-970167,46.0,Female,Sales,IT,7.0,Onsite,46.0,9.0,4.0,High,Depression,Yes,Increase,3.0,Neutral,3.0,Weekly,Good,North America
-260014,35.0,Non-binary,HR,Education,24.0,Onsite,42.0,3.0,1.0,High,Depression,Yes,Increase,4.0,Neutral,2.0,Weekly,Good,Oceania
-239358,53.0,Male,Project Manager,Healthcare,13.0,Remote,28.0,6.0,2.0,Medium,Depression,Yes,Increase,2.0,Satisfied,2.0,,Good,Africa
-791983,34.0,Non-binary,Sales,Consulting,23.0,Onsite,38.0,12.0,4.0,Low,Burnout,Yes,Increase,2.0,Neutral,3.0,Weekly,Poor,Europe
-760789,35.0,Prefer not to say,Data Scientist,Consulting,8.0,Onsite,45.0,9.0,3.0,Low,Depression,No,No Change,3.0,Satisfied,5.0,Weekly,Good,Europe
-793183,54.0,Non-binary,Project Manager,Healthcare,9.0,Hybrid,35.0,8.0,2.0,Low,Depression,Yes,Increase,4.0,Satisfied,1.0,Weekly,Poor,Asia
-927629,47.0,Non-binary,Marketing,Healthcare,16.0,Onsite,41.0,1.0,2.0,Low,Burnout,No,Increase,4.0,Neutral,1.0,,Good,Europe
-994191,57.0,Non-binary,Designer,Finance,5.0,Onsite,34.0,5.0,1.0,Low,Burnout,No,Increase,3.0,Satisfied,4.0,,Good,Asia
-909061,27.0,Non-binary,HR,Finance,9.0,Remote,38.0,6.0,4.0,Low,Depression,Yes,Increase,3.0,Satisfied,2.0,Daily,Good,Asia
-396939,48.0,Prefer not to say,Designer,Healthcare,11.0,Remote,58.0,13.0,2.0,Low,Depression,Yes,Increase,4.0,Neutral,2.0,Weekly,Good,North America
-325710,48.0,Non-binary,Project Manager,IT,13.0,Onsite,23.0,5.0,4.0,Medium,Depression,No,Increase,4.0,Satisfied,3.0,Weekly,Poor,Oceania
-628677,48.0,Non-binary,HR,Finance,14.0,Remote,53.0,6.0,4.0,High,Burnout,No,Increase,2.0,Satisfied,3.0,Daily,Poor,South America
-644313,27.0,Male,Data Scientist,Healthcare,20.0,Onsite,29.0,12.0,1.0,Medium,Depression,Yes,Increase,2.0,Satisfied,3.0,Weekly,Good,Europe
-434640,46.0,Female,Project Manager,Finance,16.0,Onsite,50.0,9.0,3.0,Medium,,No,Decrease,5.0,Neutral,4.0,,Good,North America
-917356,34.0,Non-binary,Designer,Healthcare,28.0,Onsite,38.0,1.0,3.0,Low,Anxiety,Yes,Decrease,3.0,Satisfied,4.0,Weekly,Poor,North America
-560500,33.0,Male,Marketing,Education,26.0,Onsite,22.0,11.0,5.0,Low,Burnout,No,Increase,2.0,Satisfied,2.0,Weekly,Good,Europe
-930144,27.0,Non-binary,Marketing,IT,26.0,Onsite,56.0,8.0,1.0,Low,Burnout,No,Decrease,2.0,Satisfied,5.0,Daily,Good,Africa
-391447,53.0,Female,Designer,Finance,13.0,Onsite,22.0,9.0,2.0,High,Burnout,Yes,No Change,3.0,Neutral,3.0,Daily,Good,Oceania
-313999,36.0,Male,Sales,Retail,3.0,Onsite,21.0,13.0,2.0,Low,Burnout,No,Decrease,4.0,Satisfied,2.0,Weekly,Good,North America
-752488,24.0,Female,Marketing,Education,32.0,Onsite,30.0,4.0,3.0,Low,Depression,No,No Change,3.0,Satisfied,4.0,Weekly,Good,Europe
-319126,37.0,Male,Marketing,Manufacturing,8.0,Onsite,34.0,8.0,1.0,High,Burnout,Yes,Increase,4.0,Satisfied,4.0,Daily,Good,North America
-674686,40.0,Male,Marketing,Finance,13.0,Onsite,51.0,8.0,3.0,High,Depression,No,Decrease,4.0,Satisfied,4.0,Weekly,Good,Asia
-937464,39.0,Male,Marketing,IT,5.0,Onsite,34.0,11.0,3.0,Low,Burnout,No,Decrease,4.0,Neutral,3.0,Weekly,Average,Oceania
-828244,39.0,Non-binary,HR,Healthcare,21.0,Onsite,32.0,12.0,3.0,Low,Depression,No,Increase,4.0,Satisfied,3.0,Weekly,Good,Europe
-217485,37.0,Male,Designer,Education,23.0,Hybrid,50.0,9.0,3.0,Medium,Burnout,No,Increase,2.0,Satisfied,4.0,Weekly,Average,South America
-303138,45.0,Non-binary,Project Manager,Consulting,2.0,Onsite,42.0,5.0,4.0,Low,Depression,Yes,Decrease,4.0,Neutral,2.0,Daily,Average,Europe
-698009,52.0,Non-binary,Sales,IT,2.0,Onsite,29.0,13.0,2.0,Low,Depression,Yes,Increase,4.0,Neutral,2.0,Weekly,Good,North America
-493738,35.0,Non-binary,Marketing,Finance,19.0,Remote,27.0,6.0,4.0,Medium,Anxiety,No,No Change,4.0,Neutral,4.0,Daily,Average,Europe
-261241,34.0,Non-binary,Project Manager,Healthcare,12.0,Onsite,32.0,0.0,1.0,Low,Anxiety,No,Increase,3.0,Satisfied,4.0,Weekly,Good,North America
-584267,54.0,Male,Project Manager,Education,7.0,Onsite,42.0,12.0,2.0,High,Depression,No,Increase,2.0,Neutral,3.0,Weekly,Good,Europe
-747740,35.0,Female,Project Manager,IT,4.0,Onsite,47.0,8.0,4.0,High,Depression,Yes,Increase,3.0,Unsatisfied,2.0,Daily,Good,Oceania
-795757,47.0,Non-binary,Data Scientist,Manufacturing,14.0,Onsite,42.0,9.0,4.0,Medium,Anxiety,Yes,Increase,4.0,Neutral,3.0,Weekly,Good,Africa
-650361,38.0,Female,Marketing,IT,23.0,Remote,39.0,1.0,3.0,Low,Burnout,No,Increase,2.0,Satisfied,4.0,Weekly,Good,Europe
-273008,31.0,Non-binary,Designer,Manufacturing,9.0,Hybrid,44.0,15.0,4.0,Low,Burnout,Yes,Increase,4.0,Unsatisfied,1.0,,Poor,North America
-803276,47.0,Male,Marketing,IT,25.0,Onsite,23.0,8.0,4.0,Medium,Depression,No,Increase,3.0,Satisfied,2.0,Weekly,Good,North America
-903575,40.0,Male,Project Manager,Education,12.0,Remote,52.0,13.0,2.0,Low,,No,Increase,3.0,Satisfied,3.0,Daily,Good,North America
-564690,57.0,Male,Software Engineer,Healthcare,29.0,Onsite,50.0,12.0,3.0,Low,Depression,Yes,Increase,3.0,Neutral,4.0,Weekly,Poor,North America
-874910,34.0,Male,Marketing,Finance,1.0,Onsite,31.0,8.0,3.0,Low,Depression,Yes,Increase,5.0,Satisfied,2.0,Weekly,Average,North America
-419647,32.0,Male,Software Engineer,Education,27.0,Onsite,29.0,10.0,3.0,Medium,Burnout,Yes,Increase,3.0,Satisfied,3.0,,Good,Europe
-341719,32.0,Male,Marketing,Healthcare,23.0,Hybrid,51.0,6.0,3.0,High,Burnout,Yes,Decrease,3.0,Satisfied,2.0,Weekly,Average,Asia
-437009,41.0,Male,Sales,Healthcare,28.0,Hybrid,53.0,11.0,1.0,Medium,Burnout,No,Increase,2.0,Neutral,4.0,,Poor,Europe
-388685,23.0,Prefer not to say,Designer,Manufacturing,23.0,Onsite,39.0,6.0,5.0,High,Burnout,Yes,No Change,3.0,Neutral,2.0,,Average,Europe
-784679,46.0,Non-binary,Software Engineer,Healthcare,30.0,Remote,23.0,11.0,2.0,High,Anxiety,Yes,No Change,3.0,Satisfied,3.0,Weekly,Good,Asia
-743982,40.0,Non-binary,Sales,IT,29.0,Remote,56.0,14.0,2.0,Low,Burnout,Yes,No Change,3.0,Satisfied,1.0,,Good,Europe
-397603,51.0,Non-binary,HR,Finance,26.0,Onsite,31.0,8.0,3.0,Low,Depression,No,Decrease,2.0,Satisfied,3.0,,Good,Asia
-494085,47.0,Male,Project Manager,Education,16.0,Hybrid,43.0,13.0,3.0,Low,Burnout,No,Increase,2.0,Satisfied,2.0,Weekly,Poor,Europe
-848362,38.0,Prefer not to say,Marketing,IT,17.0,Onsite,34.0,9.0,2.0,Low,Burnout,Yes,Decrease,4.0,Satisfied,3.0,Weekly,Poor,Asia
-755139,57.0,Non-binary,Marketing,Manufacturing,27.0,Onsite,49.0,7.0,4.0,Low,Depression,Yes,Increase,1.0,Unsatisfied,3.0,,Poor,North America
-344866,43.0,Non-binary,Marketing,IT,18.0,Remote,36.0,4.0,5.0,High,Depression,No,Increase,4.0,Satisfied,4.0,Daily,Good,Africa
-764498,49.0,Prefer not to say,HR,IT,35.0,Onsite,30.0,3.0,2.0,Medium,Depression,Yes,Increase,3.0,Satisfied,4.0,Weekly,Poor,Asia
-931238,59.0,Non-binary,Sales,Retail,12.0,Hybrid,52.0,6.0,3.0,High,Anxiety,Yes,Decrease,1.0,Satisfied,4.0,Weekly,Good,South America
-795123,53.0,Male,Marketing,Healthcare,14.0,Remote,33.0,10.0,3.0,High,Anxiety,Yes,No Change,4.0,Unsatisfied,3.0,,Good,North America
-343659,43.0,Non-binary,Sales,Finance,10.0,Onsite,37.0,5.0,2.0,Low,Burnout,No,Increase,4.0,Unsatisfied,3.0,Weekly,Good,Oceania
-302520,49.0,Non-binary,Project Manager,IT,21.0,Onsite,52.0,7.0,3.0,Low,Burnout,No,No Change,2.0,Neutral,1.0,Weekly,Good,Asia
-947676,38.0,Male,HR,Healthcare,17.0,Hybrid,30.0,10.0,3.0,High,Burnout,Yes,Increase,3.0,Satisfied,4.0,Weekly,Good,Europe
-439142,25.0,Non-binary,Marketing,Manufacturing,29.0,Onsite,44.0,12.0,3.0,High,Burnout,Yes,Decrease,2.0,Unsatisfied,3.0,Daily,Poor,North America
-117169,55.0,Male,Marketing,Healthcare,12.0,Onsite,42.0,1.0,2.0,Low,Burnout,No,Decrease,2.0,Neutral,5.0,Daily,Good,North America
-374935,37.0,Non-binary,Project Manager,Education,19.0,Remote,35.0,10.0,1.0,Low,,Yes,Increase,2.0,Unsatisfied,1.0,Weekly,Good,North America
-535242,49.0,Male,HR,Manufacturing,26.0,Onsite,44.0,11.0,4.0,Low,Anxiety,No,No Change,2.0,Satisfied,2.0,Weekly,Average,North America
-608298,51.0,Non-binary,Marketing,Education,18.0,Hybrid,48.0,3.0,3.0,Low,Burnout,No,Increase,2.0,Satisfied,4.0,Weekly,Poor,Asia
-252646,33.0,Male,Project Manager,Finance,16.0,Hybrid,38.0,2.0,2.0,Low,Burnout,No,Decrease,3.0,Satisfied,3.0,Weekly,Poor,Oceania
-170254,39.0,Male,Designer,Retail,20.0,Remote,21.0,10.0,4.0,Medium,Anxiety,No,Increase,4.0,Neutral,3.0,,Good,Europe
-353954,32.0,Non-binary,Marketing,Healthcare,15.0,Onsite,53.0,6.0,3.0,Low,Burnout,No,Increase,4.0,Satisfied,3.0,Weekly,Good,Europe
-637515,33.0,Non-binary,Sales,Manufacturing,9.0,Onsite,46.0,15.0,4.0,Low,Burnout,No,No Change,5.0,Satisfied,4.0,Weekly,Good,Oceania
-163824,24.0,Non-binary,Marketing,Retail,13.0,Remote,36.0,11.0,5.0,Low,Burnout,No,No Change,4.0,Unsatisfied,1.0,Daily,Poor,South America
-567368,25.0,Male,HR,Manufacturing,31.0,Remote,54.0,7.0,5.0,Low,Burnout,No,Increase,3.0,Satisfied,2.0,,Poor,Europe
-386023,48.0,Female,Designer,Healthcare,28.0,Onsite,41.0,6.0,5.0,Low,Anxiety,No,Decrease,5.0,Unsatisfied,4.0,Daily,Poor,Oceania
-514191,32.0,Prefer not to say,Project Manager,Finance,2.0,Remote,46.0,11.0,2.0,Low,Depression,No,Increase,3.0,Satisfied,3.0,,Average,Asia
-142420,36.0,Non-binary,HR,Manufacturing,9.0,Onsite,50.0,10.0,1.0,Medium,Burnout,Yes,Increase,4.0,Neutral,3.0,Weekly,Good,Europe
-398028,30.0,Male,HR,Manufacturing,15.0,Onsite,37.0,9.0,5.0,High,Depression,Yes,Increase,4.0,Unsatisfied,2.0,Weekly,Good,North America
-938924,50.0,Male,Project Manager,Manufacturing,22.0,Onsite,42.0,1.0,3.0,Low,Depression,Yes,Increase,1.0,Satisfied,4.0,Weekly,Good,Asia
-589169,42.0,Male,HR,IT,31.0,Onsite,29.0,7.0,3.0,Low,Depression,Yes,Increase,3.0,Satisfied,3.0,Weekly,Poor,Oceania
-148325,40.0,Male,HR,IT,14.0,Onsite,53.0,14.0,2.0,Low,Depression,Yes,Decrease,2.0,Satisfied,3.0,,Average,Europe
-714728,57.0,Male,Marketing,Retail,19.0,Remote,40.0,3.0,3.0,Low,Anxiety,Yes,Increase,3.0,Satisfied,4.0,Weekly,Poor,Europe
-298393,26.0,Prefer not to say,HR,Finance,5.0,Hybrid,58.0,8.0,3.0,Medium,Depression,No,Increase,1.0,Unsatisfied,3.0,,Good,Asia
-190458,44.0,Non-binary,Designer,Manufacturing,22.0,Hybrid,55.0,1.0,4.0,Medium,Burnout,No,Increase,2.0,Satisfied,3.0,Weekly,Good,Europe
-856541,40.0,Non-binary,Designer,Education,12.0,Onsite,31.0,5.0,3.0,Low,Burnout,Yes,No Change,4.0,Satisfied,4.0,Weekly,Good,Oceania
-511489,40.0,Non-binary,Designer,Manufacturing,22.0,Hybrid,46.0,8.0,3.0,Low,Depression,Yes,Increase,3.0,Satisfied,3.0,Daily,Good,Europe
-701692,35.0,Prefer not to say,Project Manager,Healthcare,20.0,Remote,34.0,7.0,3.0,Low,Depression,No,No Change,4.0,Satisfied,4.0,Daily,Good,Europe
-319174,47.0,Male,Data Scientist,Finance,9.0,Remote,40.0,11.0,3.0,Medium,Burnout,Yes,Decrease,4.0,Satisfied,5.0,,Good,Africa
-858396,33.0,Non-binary,Project Manager,Retail,11.0,Onsite,44.0,6.0,3.0,High,Burnout,Yes,No Change,2.0,Neutral,4.0,Weekly,Good,North America
-439920,38.0,Male,Designer,Consulting,25.0,Hybrid,43.0,8.0,3.0,Low,Burnout,No,No Change,3.0,Neutral,4.0,Weekly,Poor,Europe
-693843,46.0,Non-binary,HR,Manufacturing,10.0,Onsite,25.0,6.0,2.0,Low,Depression,No,Increase,3.0,Unsatisfied,5.0,,Good,North America
-718187,24.0,Non-binary,Software Engineer,Healthcare,32.0,Hybrid,29.0,3.0,3.0,Low,Depression,No,No Change,5.0,Satisfied,5.0,Daily,Good,Oceania
-288868,54.0,Male,Software Engineer,Finance,23.0,Onsite,41.0,8.0,3.0,Low,Burnout,No,Increase,3.0,Satisfied,3.0,Weekly,Good,Oceania
-750085,36.0,Male,Project Manager,Healthcare,16.0,Hybrid,34.0,12.0,2.0,Low,Depression,Yes,Increase,3.0,Unsatisfied,5.0,Weekly,Poor,Oceania
-693383,53.0,Female,Sales,Healthcare,15.0,Hybrid,30.0,10.0,2.0,Low,Burnout,Yes,Increase,2.0,Neutral,3.0,Daily,Poor,North America
-405056,41.0,Male,Marketing,Finance,5.0,Onsite,41.0,7.0,3.0,Low,Burnout,Yes,Increase,2.0,Satisfied,2.0,Weekly,Average,Africa
-324104,22.0,Male,Software Engineer,IT,13.0,Onsite,32.0,15.0,4.0,High,,No,Increase,3.0,Unsatisfied,1.0,,Good,Europe
-197591,52.0,Male,Project Manager,Education,19.0,Onsite,47.0,4.0,3.0,Medium,,No,Increase,4.0,Satisfied,1.0,Weekly,Good,Asia
-812037,48.0,Non-binary,HR,Education,25.0,Onsite,34.0,11.0,2.0,Low,Burnout,Yes,Increase,5.0,Satisfied,2.0,,Good,North America
-974481,34.0,Male,HR,IT,7.0,Onsite,56.0,7.0,3.0,High,Depression,No,No Change,5.0,Satisfied,3.0,Daily,Average,Oceania
-195099,30.0,Prefer not to say,Marketing,Education,31.0,Remote,48.0,9.0,2.0,Low,Depression,No,Increase,3.0,Neutral,1.0,Weekly,Poor,Europe
-518922,46.0,Male,Data Scientist,Manufacturing,11.0,Remote,40.0,8.0,2.0,High,Depression,No,Increase,2.0,Unsatisfied,2.0,,Average,Europe
-678511,34.0,Prefer not to say,Marketing,Education,29.0,Onsite,56.0,4.0,4.0,Low,Burnout,No,Increase,4.0,Neutral,3.0,Weekly,Good,Asia
-913794,46.0,Female,Project Manager,Retail,26.0,Onsite,39.0,10.0,3.0,Low,Burnout,Yes,No Change,3.0,Satisfied,2.0,Daily,Good,North America
-481397,45.0,Male,Designer,IT,13.0,Remote,46.0,9.0,1.0,Low,Depression,Yes,Increase,4.0,Unsatisfied,3.0,Daily,Poor,Oceania
-311229,44.0,Non-binary,Marketing,Consulting,17.0,Onsite,37.0,6.0,3.0,Medium,Depression,Yes,Increase,2.0,Unsatisfied,3.0,Weekly,Average,North America
-619195,44.0,Male,Marketing,Education,18.0,Hybrid,43.0,6.0,3.0,Low,Depression,Yes,Increase,4.0,Neutral,3.0,Weekly,Average,North America
-290861,32.0,Non-binary,Designer,Finance,12.0,Hybrid,34.0,9.0,2.0,Low,,No,Increase,2.0,Satisfied,4.0,,Good,Oceania
-996590,47.0,Non-binary,HR,Education,29.0,Onsite,27.0,10.0,2.0,High,Depression,No,Increase,2.0,Neutral,2.0,Weekly,Poor,Asia
-716430,30.0,Non-binary,Project Manager,Manufacturing,17.0,Onsite,52.0,2.0,2.0,Medium,Depression,Yes,Decrease,3.0,Satisfied,2.0,Daily,Good,Asia
-372499,48.0,Non-binary,Marketing,Healthcare,29.0,Onsite,20.0,7.0,2.0,Low,Depression,Yes,Decrease,3.0,Unsatisfied,3.0,Weekly,Poor,Oceania
-368968,38.0,Male,Sales,Finance,33.0,Remote,34.0,11.0,1.0,Low,Burnout,Yes,No Change,2.0,Satisfied,3.0,Weekly,Average,Africa
-536740,49.0,Non-binary,Marketing,Retail,23.0,Hybrid,48.0,14.0,3.0,Medium,Burnout,Yes,Increase,3.0,Satisfied,2.0,,Poor,Europe
-891273,33.0,Non-binary,Data Scientist,Healthcare,33.0,Hybrid,59.0,5.0,4.0,Low,Burnout,Yes,Increase,3.0,Satisfied,1.0,Weekly,Good,Europe
-189013,29.0,Non-binary,Software Engineer,Healthcare,25.0,Onsite,29.0,12.0,4.0,Low,Burnout,No,Increase,4.0,Unsatisfied,4.0,,Good,Oceania
-775442,52.0,Female,Project Manager,Education,15.0,Onsite,58.0,2.0,2.0,Low,Burnout,No,No Change,4.0,Satisfied,3.0,,Poor,South America
-206173,50.0,Non-binary,Marketing,Finance,26.0,Hybrid,36.0,9.0,2.0,High,Depression,No,Increase,1.0,Unsatisfied,4.0,Weekly,Good,Asia
-360884,49.0,Male,HR,Education,25.0,Hybrid,45.0,5.0,3.0,Low,Burnout,Yes,Increase,3.0,Satisfied,5.0,Weekly,Good,North America
-740739,28.0,Non-binary,Software Engineer,IT,22.0,Onsite,49.0,9.0,1.0,High,Burnout,Yes,Increase,2.0,Satisfied,4.0,Weekly,Good,Oceania
-177932,28.0,Male,Software Engineer,Manufacturing,3.0,Onsite,47.0,11.0,4.0,Medium,Burnout,No,No Change,3.0,Satisfied,5.0,Weekly,Poor,South America
-505142,52.0,Prefer not to say,Designer,Manufacturing,29.0,Remote,42.0,2.0,3.0,Low,Burnout,No,No Change,3.0,Satisfied,2.0,Weekly,Good,Asia
-845424,57.0,Prefer not to say,Sales,Manufacturing,34.0,Remote,31.0,13.0,1.0,Medium,Burnout,No,Increase,4.0,Unsatisfied,2.0,Daily,Poor,South America
-522284,47.0,Non-binary,Project Manager,Finance,21.0,Hybrid,50.0,8.0,3.0,Low,,No,Decrease,3.0,Unsatisfied,3.0,Weekly,Good,North America
-831822,54.0,Prefer not to say,Project Manager,Retail,15.0,Hybrid,60.0,14.0,2.0,Low,Burnout,No,No Change,4.0,Satisfied,2.0,,Poor,Oceania
-374688,37.0,Female,HR,Finance,24.0,Onsite,30.0,4.0,2.0,High,Depression,Yes,Increase,4.0,Satisfied,1.0,,Good,North America
-935251,31.0,Male,Sales,Finance,17.0,Remote,29.0,6.0,3.0,Low,Burnout,Yes,No Change,4.0,Unsatisfied,4.0,Weekly,Good,Asia
-363347,42.0,Male,HR,Manufacturing,21.0,Remote,42.0,11.0,3.0,High,,No,Increase,2.0,Satisfied,3.0,Weekly,Good,Europe
-323523,58.0,Male,Project Manager,Healthcare,11.0,Onsite,35.0,13.0,3.0,Medium,Burnout,Yes,Decrease,2.0,Satisfied,2.0,,Good,North America
-923732,50.0,Non-binary,Sales,Healthcare,29.0,Remote,30.0,10.0,5.0,Low,,Yes,Increase,1.0,Unsatisfied,3.0,,Good,North America
-933830,47.0,Non-binary,Sales,Manufacturing,2.0,Hybrid,49.0,12.0,4.0,Medium,Burnout,No,Increase,1.0,Satisfied,3.0,Weekly,Good,Europe
-391601,37.0,Prefer not to say,Project Manager,Healthcare,14.0,Onsite,28.0,8.0,5.0,Low,Depression,Yes,Increase,3.0,Satisfied,2.0,Daily,Good,Oceania
-939591,27.0,Female,Marketing,Education,3.0,Onsite,21.0,8.0,1.0,Low,Burnout,No,Increase,3.0,Neutral,3.0,Weekly,Average,North America
-179592,47.0,Male,Project Manager,Finance,6.0,Hybrid,45.0,4.0,4.0,High,Depression,Yes,Increase,1.0,Unsatisfied,1.0,Weekly,Good,Asia
-796954,26.0,Male,HR,Finance,20.0,Onsite,32.0,3.0,3.0,Medium,,No,Increase,2.0,Satisfied,3.0,Weekly,Good,North America
-462513,46.0,Female,HR,IT,12.0,Onsite,28.0,2.0,3.0,Low,Burnout,Yes,Decrease,3.0,Satisfied,3.0,,Good,Europe
-362921,50.0,Male,Project Manager,Manufacturing,14.0,Onsite,30.0,3.0,3.0,Low,Depression,No,Increase,2.0,Unsatisfied,4.0,Daily,Good,Oceania
-216441,57.0,Non-binary,Project Manager,Healthcare,15.0,Onsite,28.0,8.0,3.0,Low,Depression,Yes,No Change,3.0,Unsatisfied,4.0,,Good,North America
-663298,55.0,Non-binary,HR,Consulting,24.0,Onsite,43.0,14.0,3.0,Low,Anxiety,No,No Change,2.0,Satisfied,2.0,Weekly,Good,Europe
-443168,34.0,Male,Project Manager,Healthcare,25.0,Remote,33.0,3.0,3.0,Low,Burnout,No,Decrease,1.0,Neutral,3.0,,Average,Europe
-140263,40.0,Male,Sales,Manufacturing,34.0,Hybrid,37.0,6.0,3.0,Low,Burnout,Yes,Increase,3.0,Satisfied,4.0,Weekly,Good,Asia
-989656,46.0,Female,Marketing,IT,17.0,Onsite,36.0,14.0,2.0,High,Depression,No,Increase,3.0,Neutral,3.0,Weekly,Average,Asia
-580839,43.0,Prefer not to say,Project Manager,Healthcare,6.0,Onsite,47.0,13.0,1.0,Low,Depression,No,No Change,2.0,Unsatisfied,2.0,,Good,Oceania
-100451,48.0,Non-binary,Data Scientist,Finance,7.0,Onsite,35.0,15.0,2.0,Low,Depression,No,Increase,3.0,Unsatisfied,3.0,Daily,Good,South America
-461502,37.0,Non-binary,Marketing,IT,28.0,Onsite,26.0,7.0,5.0,Low,,No,Decrease,3.0,Satisfied,3.0,Weekly,Poor,North America
-852914,39.0,Female,Sales,Retail,14.0,Onsite,51.0,6.0,3.0,Low,Depression,No,No Change,5.0,Satisfied,1.0,,Average,North America
-667182,34.0,Male,Data Scientist,Education,25.0,Onsite,39.0,10.0,3.0,Low,Anxiety,Yes,Increase,2.0,Unsatisfied,5.0,,Average,Asia
-504018,58.0,Non-binary,HR,IT,21.0,Onsite,28.0,7.0,3.0,Low,Depression,No,Increase,5.0,Neutral,1.0,Weekly,Good,North America
-220498,57.0,Female,HR,IT,13.0,Hybrid,41.0,13.0,3.0,Low,Burnout,No,Decrease,3.0,Neutral,2.0,Weekly,Good,Asia
-273741,59.0,Prefer not to say,Sales,Education,24.0,Onsite,38.0,4.0,3.0,Low,Burnout,No,Increase,3.0,Satisfied,4.0,Daily,Average,Oceania
-724748,32.0,Prefer not to say,Project Manager,Healthcare,22.0,Hybrid,27.0,7.0,5.0,High,Depression,No,No Change,4.0,Satisfied,4.0,Weekly,Good,North America
-221905,31.0,Male,Marketing,Manufacturing,20.0,Hybrid,45.0,10.0,4.0,Low,Burnout,Yes,Increase,4.0,Satisfied,4.0,,Poor,Europe
-927542,53.0,Prefer not to say,Sales,Finance,35.0,Onsite,33.0,4.0,3.0,Low,Burnout,Yes,No Change,1.0,Satisfied,2.0,Weekly,Good,Europe
-293744,51.0,Male,Project Manager,IT,32.0,Remote,39.0,9.0,2.0,High,,No,Increase,3.0,Neutral,4.0,Weekly,Poor,North America
-113755,34.0,Non-binary,HR,Retail,2.0,Onsite,45.0,14.0,4.0,Low,Depression,No,Decrease,3.0,Neutral,3.0,Weekly,Average,Africa
-744792,56.0,Male,Software Engineer,Manufacturing,12.0,Onsite,49.0,9.0,1.0,Low,Burnout,Yes,No Change,3.0,Satisfied,4.0,Weekly,Good,Asia
-394814,44.0,Non-binary,Software Engineer,IT,28.0,Onsite,40.0,10.0,5.0,High,Depression,Yes,Decrease,1.0,Satisfied,2.0,Weekly,Good,North America
-637405,44.0,Male,Marketing,IT,14.0,Onsite,46.0,6.0,2.0,Low,Burnout,Yes,Increase,2.0,Satisfied,3.0,Daily,Good,Europe
-204530,34.0,Non-binary,Designer,Manufacturing,22.0,Onsite,28.0,7.0,3.0,Low,,Yes,Increase,4.0,Satisfied,3.0,Weekly,Good,North America
-842586,29.0,Non-binary,HR,IT,11.0,Onsite,48.0,5.0,4.0,Low,Depression,Yes,Increase,5.0,Satisfied,4.0,Weekly,Good,North America
-104307,28.0,Non-binary,Project Manager,Finance,8.0,Hybrid,28.0,8.0,2.0,Low,Burnout,No,Decrease,4.0,Satisfied,4.0,Weekly,Good,Europe
-279666,42.0,Female,HR,IT,25.0,Hybrid,34.0,5.0,3.0,Low,Burnout,No,Increase,2.0,Satisfied,3.0,Daily,Average,North America
-873962,52.0,Male,Designer,Finance,22.0,Hybrid,37.0,7.0,3.0,Medium,Depression,Yes,Increase,3.0,Satisfied,1.0,Daily,Good,Oceania
-318271,33.0,Male,Project Manager,Healthcare,18.0,Hybrid,38.0,10.0,4.0,Medium,Depression,Yes,Increase,2.0,Neutral,2.0,Weekly,Good,Oceania
-234675,43.0,Non-binary,Marketing,Education,22.0,Remote,23.0,11.0,2.0,Low,Depression,No,Increase,3.0,Neutral,5.0,,Average,Asia
-932756,32.0,Male,Sales,Finance,3.0,Onsite,43.0,7.0,3.0,Low,Anxiety,No,Increase,4.0,Satisfied,4.0,Weekly,Good,North America
-870693,35.0,Non-binary,HR,Manufacturing,16.0,Hybrid,32.0,6.0,2.0,Low,Burnout,No,Decrease,3.0,Unsatisfied,4.0,,Average,South America
-726128,30.0,Male,Project Manager,Finance,14.0,Onsite,31.0,4.0,4.0,Low,Depression,No,Increase,4.0,Satisfied,2.0,Daily,Good,North America
-230169,49.0,Female,Project Manager,IT,21.0,Onsite,49.0,10.0,1.0,Low,Depression,Yes,Decrease,5.0,Satisfied,2.0,Weekly,Good,Asia
-544760,31.0,Male,Project Manager,Finance,6.0,Hybrid,56.0,5.0,3.0,Low,Depression,Yes,Increase,3.0,Satisfied,3.0,Weekly,Good,Europe
-254572,43.0,Prefer not to say,Software Engineer,Healthcare,23.0,Hybrid,36.0,9.0,2.0,Low,Burnout,Yes,No Change,3.0,Unsatisfied,2.0,,Poor,Europe
-251681,33.0,Female,Marketing,Manufacturing,31.0,Remote,34.0,10.0,2.0,Low,Depression,Yes,Increase,3.0,Satisfied,4.0,Weekly,Good,Oceania
-284873,48.0,Prefer not to say,Project Manager,Finance,33.0,Onsite,41.0,12.0,4.0,Low,Burnout,Yes,No Change,1.0,Unsatisfied,5.0,Weekly,Average,Europe
-168746,32.0,Non-binary,HR,IT,19.0,Onsite,44.0,8.0,3.0,Low,Burnout,No,Increase,4.0,Neutral,3.0,Weekly,Good,Asia
-131624,34.0,Male,Project Manager,Healthcare,15.0,Onsite,38.0,14.0,1.0,Low,Anxiety,No,Decrease,2.0,Neutral,3.0,,Good,Oceania
-422759,37.0,Non-binary,HR,Education,35.0,Onsite,46.0,4.0,3.0,Low,Burnout,Yes,Increase,2.0,Neutral,3.0,Weekly,Good,Asia
-407730,45.0,Male,Sales,Education,34.0,Hybrid,57.0,9.0,2.0,Low,Depression,Yes,No Change,4.0,Satisfied,2.0,,Average,Europe
-152454,37.0,Male,Project Manager,Manufacturing,9.0,Onsite,38.0,1.0,3.0,Low,,No,Increase,4.0,Unsatisfied,4.0,Daily,Good,North America
-702780,40.0,Prefer not to say,Sales,Healthcare,25.0,Onsite,47.0,8.0,3.0,Low,Burnout,Yes,Increase,2.0,Satisfied,1.0,,Good,Europe
-814573,56.0,Non-binary,Designer,Finance,14.0,Onsite,41.0,8.0,3.0,Low,Anxiety,Yes,Increase,4.0,Satisfied,5.0,Weekly,Poor,Europe
-465353,46.0,Non-binary,Designer,Finance,1.0,Onsite,27.0,7.0,3.0,Medium,Depression,No,Increase,2.0,Satisfied,3.0,Weekly,Good,Europe
-527671,49.0,Non-binary,Sales,Manufacturing,34.0,Hybrid,35.0,4.0,2.0,Low,Anxiety,No,Increase,3.0,Neutral,4.0,Weekly,Poor,South America
-987623,40.0,Male,HR,Healthcare,16.0,Remote,26.0,12.0,4.0,Low,Burnout,Yes,Increase,4.0,Neutral,1.0,Weekly,Good,Europe
-371853,50.0,Male,Marketing,Finance,21.0,Onsite,29.0,1.0,2.0,Medium,Depression,No,Decrease,3.0,Satisfied,2.0,Weekly,Good,Asia
-804236,51.0,Non-binary,Marketing,Education,25.0,Onsite,56.0,6.0,3.0,Low,Depression,No,Decrease,3.0,Neutral,4.0,,Good,Europe
-347075,39.0,Female,Marketing,Education,9.0,Remote,46.0,8.0,4.0,High,Burnout,No,Increase,5.0,Satisfied,1.0,,Good,Asia
-901450,38.0,Non-binary,Marketing,Education,17.0,Remote,45.0,10.0,1.0,Medium,Burnout,Yes,Decrease,4.0,Neutral,4.0,Weekly,Poor,Asia
-426563,33.0,Non-binary,Sales,IT,15.0,Remote,38.0,14.0,2.0,High,Depression,No,Increase,1.0,Satisfied,2.0,Daily,Good,North America
-225770,45.0,Non-binary,Designer,IT,9.0,Remote,45.0,4.0,3.0,Medium,Depression,Yes,Decrease,3.0,Unsatisfied,4.0,Daily,Average,South America
-341292,40.0,Female,Sales,IT,4.0,Onsite,58.0,13.0,3.0,High,Burnout,Yes,Increase,3.0,Unsatisfied,2.0,,Average,Europe
-454847,46.0,Non-binary,Designer,Education,17.0,Onsite,55.0,5.0,2.0,Medium,Depression,No,Decrease,5.0,Unsatisfied,2.0,Weekly,Good,Oceania
-757138,56.0,Non-binary,Marketing,Finance,21.0,Hybrid,32.0,6.0,3.0,Low,Depression,No,Decrease,2.0,Satisfied,1.0,,Good,Europe
-264937,29.0,Non-binary,Sales,IT,21.0,Onsite,41.0,7.0,2.0,High,,Yes,No Change,3.0,Satisfied,4.0,,Poor,Africa
-461152,53.0,Male,HR,Education,7.0,Hybrid,53.0,1.0,3.0,Low,Burnout,No,Increase,4.0,Neutral,3.0,Weekly,Good,North America
-693998,47.0,Male,HR,Consulting,13.0,Remote,30.0,7.0,4.0,High,Depression,No,Decrease,4.0,Satisfied,4.0,Weekly,Good,Europe
-863678,43.0,Female,HR,IT,17.0,Onsite,50.0,6.0,2.0,Medium,Anxiety,No,Increase,4.0,Satisfied,3.0,Weekly,Good,Europe
-369009,39.0,Non-binary,Marketing,Education,8.0,Onsite,30.0,8.0,4.0,Low,Burnout,Yes,No Change,4.0,Satisfied,2.0,Weekly,Average,Oceania
-286015,37.0,Male,Marketing,IT,14.0,Onsite,53.0,5.0,4.0,Low,,No,No Change,3.0,Satisfied,4.0,Weekly,Average,South America
-954010,42.0,Male,Sales,Consulting,1.0,Onsite,36.0,2.0,2.0,Medium,Depression,Yes,Decrease,3.0,Satisfied,2.0,,Good,South America
-136848,53.0,Non-binary,Designer,Education,32.0,Hybrid,32.0,3.0,4.0,Low,Burnout,No,Increase,4.0,Satisfied,1.0,Weekly,Good,North America
-295745,34.0,Male,Marketing,Manufacturing,29.0,Remote,57.0,2.0,2.0,Low,Burnout,Yes,Increase,4.0,Satisfied,3.0,Weekly,Good,Asia
-514135,25.0,Female,Marketing,IT,16.0,Onsite,49.0,13.0,4.0,Medium,Depression,No,Increase,3.0,Neutral,2.0,Daily,Good,Europe
-414159,31.0,Non-binary,Designer,Healthcare,16.0,Onsite,31.0,6.0,3.0,Low,Burnout,No,No Change,2.0,Unsatisfied,1.0,Weekly,Good,Oceania
-241639,36.0,Non-binary,Data Scientist,IT,12.0,Onsite,33.0,8.0,5.0,Low,Anxiety,No,Increase,1.0,Unsatisfied,3.0,Daily,Good,Oceania
-310282,35.0,Male,Sales,IT,24.0,Onsite,51.0,9.0,3.0,Low,Burnout,No,Increase,4.0,Neutral,4.0,,Good,Africa
-923657,40.0,Non-binary,HR,Finance,24.0,Onsite,52.0,4.0,2.0,High,Burnout,Yes,Increase,1.0,Unsatisfied,2.0,,Good,Europe
-561242,39.0,Female,Marketing,IT,16.0,Remote,27.0,12.0,3.0,Low,Burnout,Yes,Increase,3.0,Unsatisfied,5.0,Weekly,Average,Oceania
-977269,31.0,Non-binary,Designer,Finance,10.0,Onsite,48.0,10.0,3.0,Medium,Depression,Yes,No Change,4.0,Satisfied,3.0,Weekly,Poor,Oceania
-682665,35.0,Male,Marketing,Finance,10.0,Onsite,57.0,7.0,5.0,Low,Burnout,No,Increase,3.0,Satisfied,1.0,Weekly,Good,Asia
-552268,24.0,Non-binary,Designer,IT,22.0,Onsite,43.0,7.0,2.0,Low,Burnout,Yes,Increase,4.0,Neutral,2.0,Weekly,Good,Europe
-687339,37.0,Non-binary,Marketing,Finance,15.0,Onsite,43.0,9.0,4.0,High,Burnout,No,Increase,1.0,Neutral,3.0,Weekly,Good,Europe
-930802,48.0,Male,Project Manager,Manufacturing,12.0,Hybrid,33.0,10.0,4.0,Medium,Anxiety,No,Increase,2.0,Neutral,5.0,,Average,North America
-599125,36.0,Non-binary,Marketing,Education,23.0,Onsite,59.0,3.0,3.0,Low,,Yes,Decrease,3.0,Satisfied,4.0,Weekly,Good,Europe
-845970,25.0,Male,Data Scientist,Finance,10.0,Onsite,33.0,9.0,3.0,High,Depression,Yes,Decrease,4.0,Satisfied,4.0,Weekly,Good,Europe
-927938,41.0,Non-binary,Designer,Manufacturing,19.0,Onsite,26.0,12.0,1.0,Low,Burnout,Yes,Increase,4.0,Unsatisfied,3.0,Weekly,Average,North America
-461630,27.0,Non-binary,HR,Healthcare,26.0,Onsite,37.0,6.0,2.0,Low,Depression,No,Increase,4.0,Neutral,4.0,Weekly,Good,Europe
-218866,56.0,Male,Designer,Manufacturing,20.0,Onsite,48.0,10.0,3.0,High,Burnout,No,No Change,1.0,Satisfied,3.0,Weekly,Poor,Europe
-529714,42.0,Female,Marketing,Finance,20.0,Onsite,27.0,1.0,5.0,High,Burnout,No,Increase,1.0,Satisfied,2.0,,Good,North America
-958316,39.0,Male,Designer,Manufacturing,19.0,Onsite,53.0,6.0,5.0,Medium,Burnout,Yes,Increase,4.0,Neutral,3.0,,Poor,North America
-196578,34.0,Male,Project Manager,Healthcare,9.0,Remote,42.0,8.0,3.0,Low,Burnout,Yes,Increase,3.0,Unsatisfied,2.0,Weekly,Average,Asia
-552818,41.0,Prefer not to say,Designer,Manufacturing,33.0,Remote,51.0,8.0,3.0,Low,Burnout,No,No Change,4.0,Satisfied,3.0,Weekly,Poor,Oceania
-102895,39.0,Female,Marketing,Consulting,14.0,Remote,24.0,5.0,4.0,Low,Burnout,No,Increase,4.0,Satisfied,5.0,Daily,Good,Oceania
-637622,36.0,Non-binary,Project Manager,Education,19.0,Onsite,26.0,5.0,2.0,High,Burnout,No,No Change,2.0,Neutral,2.0,Weekly,Poor,Oceania
-433233,40.0,Male,Marketing,Manufacturing,21.0,Remote,43.0,2.0,2.0,Low,Burnout,Yes,No Change,3.0,Satisfied,4.0,Weekly,Good,Oceania
-737774,39.0,Male,Marketing,Healthcare,12.0,Onsite,39.0,4.0,2.0,Low,Depression,Yes,No Change,2.0,Neutral,1.0,Weekly,Good,Africa
-227987,36.0,Non-binary,HR,Education,15.0,Onsite,47.0,12.0,4.0,Low,Depression,Yes,Increase,2.0,Satisfied,3.0,Daily,Average,North America
-204628,46.0,Prefer not to say,Marketing,IT,15.0,Remote,48.0,11.0,4.0,Low,Anxiety,No,No Change,4.0,Neutral,3.0,Weekly,Average,North America
-757634,26.0,Male,HR,Manufacturing,25.0,Hybrid,39.0,11.0,3.0,Low,Depression,Yes,Increase,4.0,Satisfied,3.0,Weekly,Poor,Oceania
-806235,27.0,Male,Sales,Education,11.0,Onsite,31.0,15.0,3.0,Low,Burnout,Yes,No Change,2.0,Satisfied,1.0,Weekly,Good,Africa
-242678,38.0,Male,HR,Healthcare,26.0,Onsite,36.0,10.0,5.0,Low,Burnout,No,Increase,2.0,Satisfied,3.0,,Good,Asia
-799812,46.0,Non-binary,Project Manager,IT,15.0,Onsite,28.0,8.0,4.0,Low,Burnout,No,No Change,3.0,Unsatisfied,3.0,Weekly,Poor,Africa
-587422,47.0,Non-binary,Marketing,Finance,22.0,Onsite,57.0,10.0,4.0,Low,,No,Decrease,4.0,Satisfied,3.0,Weekly,Poor,Asia
-256383,38.0,Non-binary,Designer,IT,18.0,Remote,54.0,1.0,1.0,High,Burnout,Yes,No Change,3.0,Unsatisfied,4.0,Weekly,Good,North America
-373768,27.0,Non-binary,Designer,Manufacturing,25.0,Onsite,27.0,10.0,2.0,Low,Depression,Yes,Increase,2.0,Satisfied,1.0,Weekly,Average,North America
-806675,43.0,Prefer not to say,Sales,IT,21.0,Onsite,28.0,12.0,3.0,High,Burnout,No,No Change,3.0,Neutral,2.0,Weekly,Good,Asia
-933560,35.0,Female,Project Manager,Education,16.0,Onsite,32.0,9.0,3.0,Low,Burnout,No,Decrease,4.0,Unsatisfied,4.0,,Poor,North America
-920860,56.0,Non-binary,Project Manager,Finance,25.0,Remote,40.0,13.0,4.0,Low,Burnout,Yes,No Change,3.0,Unsatisfied,2.0,Weekly,Good,Europe
-789835,49.0,Male,Project Manager,IT,23.0,Onsite,45.0,5.0,3.0,Low,,Yes,No Change,3.0,Neutral,1.0,Weekly,Good,Oceania
-779164,47.0,Female,HR,Retail,6.0,Hybrid,35.0,13.0,5.0,Low,Depression,Yes,Decrease,5.0,Satisfied,1.0,,Good,Europe
-347806,52.0,Male,HR,Education,14.0,Onsite,36.0,2.0,2.0,Medium,,Yes,Increase,4.0,Neutral,5.0,,Good,Asia
-185472,40.0,Prefer not to say,Project Manager,Consulting,32.0,Onsite,50.0,9.0,2.0,Low,Anxiety,No,Increase,3.0,Neutral,4.0,,Good,North America
-318876,45.0,Male,Marketing,Education,14.0,Hybrid,48.0,3.0,4.0,High,Burnout,Yes,No Change,1.0,Unsatisfied,4.0,Weekly,Good,Oceania
-769370,49.0,Prefer not to say,Project Manager,Healthcare,23.0,Onsite,46.0,12.0,4.0,Medium,,Yes,Decrease,2.0,Satisfied,4.0,Weekly,Good,South America
-909913,49.0,Male,Software Engineer,IT,16.0,Onsite,37.0,6.0,4.0,High,Burnout,No,Increase,3.0,Neutral,3.0,Daily,Average,Europe
-647566,40.0,Male,Designer,Manufacturing,24.0,Remote,47.0,14.0,3.0,Medium,Burnout,Yes,Increase,5.0,Satisfied,3.0,Weekly,Good,Oceania
-320237,51.0,Male,Marketing,Manufacturing,22.0,Remote,24.0,6.0,4.0,Low,Depression,No,No Change,3.0,Satisfied,4.0,Weekly,Good,Europe
-287572,46.0,Non-binary,Sales,Education,1.0,Onsite,21.0,2.0,2.0,Low,Anxiety,No,No Change,3.0,Neutral,1.0,Weekly,Good,North America
-300508,27.0,Male,Project Manager,Finance,30.0,Remote,37.0,8.0,2.0,Medium,,No,Decrease,3.0,Satisfied,1.0,Weekly,Average,Asia
-563984,29.0,Non-binary,HR,Education,20.0,Remote,33.0,14.0,1.0,Low,Burnout,No,Decrease,3.0,Neutral,2.0,,Good,North America
-860689,36.0,Male,Project Manager,Retail,3.0,Remote,52.0,11.0,3.0,Low,Depression,No,Increase,3.0,Satisfied,2.0,Daily,Poor,Asia
-901641,41.0,Male,Project Manager,Healthcare,16.0,Onsite,55.0,10.0,3.0,Low,Burnout,No,Increase,4.0,Satisfied,2.0,Daily,Poor,North America
-671314,32.0,Male,Project Manager,Manufacturing,13.0,Onsite,32.0,9.0,5.0,Low,Burnout,Yes,Increase,2.0,Satisfied,2.0,Weekly,Good,Europe
-839101,40.0,Non-binary,Data Scientist,IT,18.0,Onsite,21.0,4.0,3.0,Low,Depression,No,Increase,3.0,Satisfied,1.0,,Good,Europe
-729391,50.0,Male,Designer,Finance,25.0,Onsite,32.0,7.0,4.0,High,Depression,No,Increase,3.0,Unsatisfied,2.0,,Good,Asia
-720728,56.0,Non-binary,Designer,Education,12.0,Onsite,49.0,2.0,3.0,High,Burnout,No,Decrease,5.0,Satisfied,3.0,Daily,Good,North America
-511459,31.0,Male,Marketing,Education,28.0,Onsite,48.0,14.0,3.0,High,Depression,No,No Change,5.0,Satisfied,4.0,Daily,Average,Europe
-943256,40.0,Non-binary,Marketing,IT,24.0,Onsite,38.0,4.0,2.0,Low,Burnout,Yes,Increase,2.0,Satisfied,4.0,Weekly,Good,Asia
-250001,37.0,Non-binary,HR,Retail,17.0,Remote,37.0,3.0,3.0,Low,Depression,No,Increase,2.0,Satisfied,2.0,,Poor,South America
-349838,33.0,Non-binary,Sales,Healthcare,15.0,Onsite,57.0,3.0,4.0,Medium,Depression,No,Decrease,4.0,Neutral,5.0,Daily,Poor,North America
-475265,36.0,Male,Project Manager,Healthcare,1.0,Remote,46.0,3.0,3.0,Low,Burnout,No,Increase,1.0,Satisfied,3.0,Weekly,Good,Asia
-310201,39.0,Female,Software Engineer,IT,26.0,Hybrid,45.0,4.0,2.0,High,Depression,No,No Change,3.0,Satisfied,4.0,Weekly,Good,North America
-943590,38.0,Non-binary,HR,Retail,27.0,Onsite,39.0,3.0,4.0,High,Depression,No,No Change,3.0,Satisfied,3.0,,Good,Oceania
-506299,30.0,Male,Designer,Healthcare,23.0,Onsite,34.0,5.0,4.0,Low,Anxiety,No,Increase,5.0,Neutral,4.0,Daily,Poor,Oceania
-757761,25.0,Male,Marketing,Consulting,26.0,Onsite,40.0,4.0,5.0,High,Depression,Yes,Decrease,3.0,Satisfied,2.0,Weekly,Good,North America
-604726,36.0,Female,Software Engineer,Healthcare,16.0,Hybrid,26.0,10.0,1.0,Low,Depression,Yes,Increase,4.0,Satisfied,3.0,Weekly,Good,Asia
-864058,29.0,Female,Designer,Finance,15.0,Onsite,32.0,10.0,5.0,Low,Depression,Yes,No Change,4.0,Satisfied,5.0,Daily,Good,Europe
-572495,40.0,Male,Software Engineer,IT,18.0,Onsite,36.0,11.0,5.0,High,Burnout,No,Increase,2.0,Neutral,4.0,Weekly,Good,Europe
-682907,34.0,Non-binary,Sales,Healthcare,27.0,Onsite,58.0,11.0,3.0,Low,Depression,No,Increase,3.0,Neutral,3.0,Weekly,Good,Europe
-431859,36.0,Male,HR,IT,9.0,Onsite,54.0,6.0,5.0,Low,Burnout,Yes,Increase,2.0,Satisfied,4.0,Weekly,Good,Asia
-176397,55.0,Female,Project Manager,Retail,3.0,Hybrid,33.0,9.0,4.0,Low,Burnout,Yes,Increase,5.0,Satisfied,5.0,Daily,Poor,North America
-533016,43.0,Male,Data Scientist,Education,33.0,Onsite,50.0,6.0,3.0,Low,Depression,Yes,Decrease,3.0,Satisfied,3.0,Daily,Average,Asia
-302202,44.0,Prefer not to say,HR,Manufacturing,27.0,Onsite,32.0,8.0,4.0,High,Burnout,No,Increase,3.0,Satisfied,2.0,Weekly,Average,Europe
-260491,53.0,Prefer not to say,Marketing,Healthcare,20.0,Onsite,42.0,5.0,4.0,Low,Anxiety,No,Increase,4.0,Satisfied,4.0,Daily,Poor,Asia
-854199,43.0,Male,Marketing,Healthcare,20.0,Onsite,57.0,11.0,4.0,Low,Burnout,Yes,Decrease,4.0,Satisfied,2.0,,Good,Europe
-851121,43.0,Non-binary,HR,Healthcare,16.0,Onsite,35.0,1.0,3.0,High,Burnout,Yes,Decrease,3.0,Unsatisfied,3.0,Weekly,Good,Europe
-621584,45.0,Prefer not to say,HR,Finance,11.0,Remote,23.0,11.0,3.0,Low,Burnout,Yes,Increase,4.0,Unsatisfied,3.0,,Good,Europe
-372258,29.0,Non-binary,Sales,Healthcare,11.0,Hybrid,21.0,4.0,4.0,Low,Burnout,No,Increase,3.0,Satisfied,4.0,,Average,Europe
-495072,59.0,Non-binary,Project Manager,Education,8.0,Onsite,37.0,9.0,4.0,Low,Depression,Yes,Increase,4.0,Unsatisfied,4.0,Weekly,Good,Asia
-816127,51.0,Non-binary,HR,Consulting,21.0,Onsite,35.0,11.0,2.0,Low,Depression,No,Increase,4.0,Neutral,4.0,Weekly,Good,Asia
-549326,49.0,Female,Project Manager,Consulting,12.0,Hybrid,40.0,3.0,3.0,High,Depression,No,Decrease,2.0,Neutral,3.0,,Good,North America
-676296,53.0,Non-binary,HR,Finance,27.0,Hybrid,46.0,7.0,3.0,Low,,No,Increase,3.0,Neutral,5.0,Weekly,Good,North America
-162233,46.0,Non-binary,Data Scientist,Healthcare,10.0,Onsite,30.0,9.0,3.0,High,Depression,No,Decrease,3.0,Satisfied,4.0,Weekly,Good,South America
-279766,39.0,Male,Project Manager,IT,18.0,Hybrid,30.0,8.0,3.0,Low,Burnout,Yes,No Change,4.0,Satisfied,1.0,,Good,North America
-202220,42.0,Prefer not to say,Marketing,Manufacturing,30.0,Onsite,35.0,11.0,2.0,Low,Burnout,No,No Change,2.0,Neutral,1.0,Weekly,Good,Africa
-837215,46.0,Non-binary,HR,Consulting,5.0,Remote,38.0,8.0,3.0,Low,,Yes,No Change,2.0,Satisfied,2.0,Weekly,Average,Europe
-706839,39.0,Male,Marketing,IT,34.0,Remote,55.0,11.0,4.0,Medium,Burnout,Yes,Increase,5.0,Neutral,3.0,Weekly,Good,Europe
-717376,50.0,Non-binary,HR,Healthcare,24.0,Onsite,37.0,7.0,5.0,Low,Depression,No,Increase,2.0,Neutral,1.0,Weekly,Average,North America
-436140,29.0,Non-binary,Project Manager,Manufacturing,4.0,Hybrid,40.0,11.0,2.0,Low,Depression,No,Decrease,2.0,Satisfied,3.0,,Good,Europe
-555085,25.0,Male,Software Engineer,Healthcare,7.0,Onsite,45.0,6.0,2.0,Low,Depression,No,No Change,3.0,Satisfied,2.0,Weekly,Poor,North America
-882973,24.0,Non-binary,Data Scientist,Retail,33.0,Onsite,37.0,6.0,2.0,Low,Depression,Yes,Increase,3.0,Satisfied,2.0,Daily,Poor,Europe
-574918,54.0,Prefer not to say,Sales,Healthcare,5.0,Remote,42.0,4.0,2.0,Low,Burnout,No,No Change,2.0,Neutral,3.0,Weekly,Average,Asia
-685345,53.0,Male,Designer,IT,25.0,Onsite,55.0,15.0,4.0,Medium,Burnout,Yes,No Change,3.0,Satisfied,4.0,Weekly,Poor,Oceania
-942370,47.0,Male,Project Manager,Healthcare,9.0,Hybrid,52.0,9.0,4.0,High,Burnout,No,Increase,4.0,Satisfied,5.0,Weekly,Good,Oceania
-547033,44.0,Prefer not to say,Designer,Healthcare,6.0,Hybrid,40.0,9.0,4.0,High,,Yes,Decrease,4.0,Satisfied,3.0,Daily,Poor,South America
-858955,23.0,Prefer not to say,Marketing,IT,9.0,Remote,40.0,6.0,3.0,High,Anxiety,Yes,No Change,2.0,Satisfied,3.0,Daily,Average,North America
-745488,27.0,Non-binary,Marketing,Healthcare,19.0,Onsite,25.0,1.0,5.0,Medium,Depression,Yes,No Change,3.0,Satisfied,5.0,,Good,Europe
-572162,35.0,Male,Project Manager,Education,33.0,Onsite,37.0,5.0,2.0,Low,Anxiety,No,Increase,3.0,Neutral,4.0,,Good,North America
-995360,26.0,Female,Sales,IT,30.0,Hybrid,41.0,15.0,2.0,Low,Burnout,Yes,Decrease,3.0,Neutral,4.0,Weekly,Good,North America
-251616,27.0,Non-binary,Marketing,Consulting,13.0,Remote,52.0,6.0,3.0,Low,Depression,Yes,Increase,4.0,Neutral,3.0,Daily,Good,Europe
-294546,38.0,Non-binary,Project Manager,IT,20.0,Hybrid,49.0,5.0,3.0,Low,Burnout,Yes,No Change,2.0,Unsatisfied,3.0,Daily,Good,Europe
-855255,44.0,Male,Project Manager,Finance,31.0,Onsite,56.0,8.0,5.0,High,Burnout,No,Increase,4.0,Satisfied,5.0,Weekly,Good,Asia
-833329,34.0,Male,Designer,Healthcare,18.0,Hybrid,55.0,9.0,3.0,Low,Depression,No,Increase,3.0,Satisfied,4.0,,Average,Africa
-753150,25.0,Non-binary,Project Manager,IT,24.0,Remote,53.0,11.0,4.0,High,Burnout,No,No Change,3.0,Neutral,2.0,Weekly,Poor,Asia
-370842,57.0,Non-binary,Sales,IT,18.0,Onsite,51.0,11.0,4.0,High,Depression,Yes,Increase,1.0,Neutral,4.0,Weekly,Good,Europe
-862647,31.0,Male,HR,Education,17.0,Hybrid,27.0,6.0,5.0,Low,Burnout,Yes,Increase,4.0,Satisfied,4.0,Weekly,Good,South America
-303706,39.0,Prefer not to say,Sales,IT,9.0,Hybrid,34.0,9.0,4.0,Low,Depression,No,No Change,3.0,Satisfied,2.0,,Good,Oceania
-820082,33.0,Prefer not to say,HR,Healthcare,8.0,Onsite,37.0,1.0,4.0,Low,Burnout,Yes,Increase,3.0,Satisfied,5.0,Weekly,Poor,South America
-776634,39.0,Non-binary,Designer,Retail,21.0,Remote,29.0,9.0,3.0,Low,Burnout,Yes,Increase,4.0,Satisfied,2.0,,Average,Europe
-323290,42.0,Non-binary,Marketing,Healthcare,24.0,Onsite,59.0,8.0,5.0,Low,,Yes,Increase,5.0,Satisfied,2.0,,Good,Oceania
-253735,56.0,Male,HR,Healthcare,3.0,Onsite,28.0,5.0,3.0,Low,Depression,No,Increase,2.0,Satisfied,2.0,,Good,Europe
-192374,41.0,Male,Marketing,Finance,23.0,Hybrid,57.0,5.0,4.0,Medium,Depression,Yes,Increase,4.0,Satisfied,2.0,Weekly,Good,Africa
-237949,30.0,Male,Marketing,Education,29.0,Onsite,40.0,10.0,2.0,Low,,No,No Change,3.0,Satisfied,2.0,Weekly,Good,North America
-699737,33.0,Non-binary,Project Manager,Healthcare,7.0,Onsite,35.0,3.0,2.0,Low,Burnout,No,Increase,3.0,Satisfied,2.0,,Poor,Oceania
+Name,Age,Gender,Blood Type,Medical Condition,Date of Admission,Doctor,TestZero,TestEmpty,Hospital,Insurance Provider,Billing Amount,Room Number,Admission Type,Discharge Date,Medication,Test Results
+cTDHcKf mQU,14.0,Male,AB-,Asthma,2021-09-27,iriOY iriOYWAzZOQD,0,,UgcG jbPyvXt,Cigna,24007.993998161604,328.0,Urgent,11/02/2021,Ibuprofen,Normal
+ LimFwjwvhu,35.0,Female,AB-,Asthma,2021-10-15,Oe eNiKHFeiEwP,0,,JuWvf dLDIwEPGf,Blue Cross,29537.043382771848,270.0,Emergency,04/02/2024,Lipitor,Inconclusive
+FMCLonkAwpu kAwpub,58.0,Female,AB-,Hypertension,2021-07-15,RYucxkLSPLyJ PLyJ,0,,CJjyqPDyZqr Lo,Cigna,12588.130711102049,379.0,Emergency,24/02/2021,Ibuprofen,Normal
+qlsEpeAIrbs rbsq,54.0,Male,B-,Cancer,2021-07-21,lnv VKhR,0,,YpAcHNSdjSWKCba NSdjSWKCbaw,Medicare,15811.090580022068,197.0,Urgent,28/01/2024,Ibuprofen,Abnormal
+SRCHr pTqUY,80.0,Male,AB-,Diabetes,2023-01-09,riJtGrSXmK tGrSXmKPn,0,,TCaSDetHmwmkQEM wmkQEMM,Cigna,34765.01681728915,179.0,Urgent,16/05/2019,Lipitor,Normal
+Vex dkRrO,54.0,Male,AB+,Asthma,2023-05-30,zvF js,0,,Ci QFwOFzlUNFL,Aetna,24841.555317017916,191.0,Urgent,29/09/2023,Aspirin,Inconclusive
+DOUcd PjAF,76.0,Female,B-,Diabetes,2023-04-09,Iv EZbp,0,,HWuwFjYbq FjYbqxrfEPQc,UnitedHealthcare,38058.77458873445,243.0,Emergency,04/08/2019,Paracetamol,Inconclusive
+dykBJr BJreYelWk,38.0,Female,AB+,Asthma,2021-06-10,ppMPpMxJW pMPpMxJWPFE,0,,s veLXirFqQ,Medicare,34124.17079913712,394.0,Emergency,27/01/2021,Lipitor,Inconclusive
+ chHWDpASh,45.0,Female,AB+,Asthma,2021-05-17,liVDE oGrP,0,,JSiTvuQvEciC ciCokyN,UnitedHealthcare,21461.739067215156,483.0,Urgent,11/12/2022,Lipitor,Inconclusive
+BoiW DCHod,34.0,Male,A-,Cancer,2022-04-20,PheVsNXIVvP eVsNXIVvPY,0,,NfxXptM n,Medicare,32862.41188612237,262.0,Urgent,22/08/2019,Paracetamol,Inconclusive
+ MjvutH,77.0,Male,AB+,Hypertension,2020-10-11,lcYYDvVHnLy nLyh,0,,yToIGSoAyqqN SoAyqqNGsRE,Cigna,37177.10626633461,359.0,Emergency,16/12/2020,Paracetamol,Inconclusive
+LswFcgKXgqCH ,51.0,Female,O+,Hypertension,2021-06-18,mZrT rTuPiQJtGS,0,,xoUuzJLx adQbhSwI,UnitedHealthcare,38771.910050339306,221.0,Emergency,15/12/2021,Lipitor,Abnormal
+OcZxFw wTONnfa,69.0,Female,O-,Asthma,2021-10-03,ifozlLW ifozlLWistpn,0,,vtubmVuuWLwdGMpy wdGMpy,Medicare,21101.73290961883,452.0,Elective,29/12/2020,Lipitor,Abnormal
+E urDlKL,56.0,Female,AB-,Asthma,2021-08-12,LbG ,0,,PuTnNrHf kfz,Aetna,26138.859499144775,271.0,Emergency,23/09/2020,Paracetamol,Inconclusive
+WTSabgeB vZ,50.0,Female,B-,Hypertension,2021-10-28,O XDzqFsX,0,,Vy VyumKjYMVCYmYiTb,Blue Cross,46993.65163131914,292.0,Emergency,24/08/2022,Lipitor,Inconclusive
+ LCbOtCXxJz,67.0,Male,B+,Asthma,2020-10-14,kZM BPeCTr,0,,GRLA GRLAGsdlEOQxJeQS,Blue Cross,2900.04382734765,279.0,Emergency,23/04/2024,Lipitor,Normal
+VzU EZqzqpCy,70.0,Male,A-,Cancer,2022-04-03,pXXrSM R,0,,ERIDW A,Cigna,38541.64791369403,437.0,Urgent,24/07/2022,Lipitor,Abnormal
+pMo axKBgiBc,31.0,Male,A-,Cancer,2021-10-12,h GOdpiJJj,0,,LasVyUDJ yUDJgUZjMFwt,Blue Cross,31185.193985486912,357.0,Emergency,06/02/2023,Paracetamol,Inconclusive
+irdFeXhib irdFeXhibmOU,77.0,Female,B+,Hypertension,2023-12-04,UNLMoSM WK,0,,SYjAu WBvgtss,Cigna,33879.64076756791,423.0,Emergency,08/04/2020,Lipitor,Inconclusive
+ogVgCFwRDxk RDxkC,44.0,Male,AB-,Cancer,2019-09-11,EcReLZ f,0,,FosfzQjKiauTuV fzQjKiauTuVgU,Cigna,15285.036425236141,375.0,Elective,18/06/2023,Penicillin,Inconclusive
+hBCVIlb ,41.0,Male,AB-,Hypertension,2022-07-17,dXVSS Yp,0,,pvhcnxBMD nxBMDDZpmtVj,Blue Cross,15200.191609267247,274.0,Elective,16/08/2023,Lipitor,Inconclusive
+ysZbwRibOjIJ ysZbwRibOjIJ,48.0,Male,AB+,Hypertension,2020-10-22, DJdoqPwWdtd,0,,Ani Jp,UnitedHealthcare,20245.97477039013,428.0,Emergency,27/11/2020,Lipitor,Inconclusive
+wjqpTcfZjmbw Zjmbw,69.0,Male,O+,Asthma,2020-09-23,H LbjS,0,,mBSdEUJ mBSdEUJfDPXMKuez,Blue Cross,28907.11084756584,132.0,Urgent,17/11/2023,Ibuprofen,Inconclusive
+YuGKKDDtkX jN,61.0,Female,A-,Asthma,2021-07-24,afMchNwbhXx hXxK,0,,vYcos uHfHfGot,Medicare,10433.555145747461,173.0,Emergency,08/09/2020,Paracetamol,Abnormal
+NNKryXAxxZ ,22.0,Female,B-,Hypertension,2020-04-28,zaBZNMhiNvba ba,0,,i r,UnitedHealthcare,27583.651095017496,169.0,Emergency,11/01/2024,Ibuprofen,Abnormal
+QWqmS SIuz,73.0,Female,B-,Cancer,2022-10-21,sfZOgs sfZOgsCNHWqo,0,,uvWX bJaJQUiXFtFx,Medicare,35018.88143446543,321.0,Emergency,20/03/2023,Paracetamol,Inconclusive
+XDacjUBWUw Uwzl,46.0,Female,B+,Hypertension,2021-10-12,ODaLNswFKOS OSu,0,,CXDJjEWAeZVSx AeZVSxAlE,Blue Cross,47634.1052798381,330.0,Emergency,09/04/2021,Ibuprofen,Inconclusive
+ONkN fyR,56.0,Female,AB-,Hypertension,2020-07-05,iCEtIqevET iCEtIqevETDd,0,,qQYoqEk qEkGlxhJlWfQ,Blue Cross,16042.003123980987,410.0,Emergency,25/07/2023,Lipitor,Inconclusive
+ZYfqmUnmFJgf qmUnmFJgf,76.0,Male,AB-,Obesity,2021-08-24,fAGdGXIHUCz GdGXIHUCzB,0,,HKdUcQqgWIvxll WIvxllyD,Blue Cross,4880.541678857968,135.0,Emergency,24/08/2019,Lipitor,Inconclusive
+ rJirlzHU,70.0,Male,B+,Diabetes,2023-01-19,m ZcVijd,0,,zrCgCxdyHzZQk HzZQkMsH,Cigna,48373.94146097475,320.0,Emergency,07/06/2021,Ibuprofen,Normal
+diaobEvsUrhn iaobEvsUrhn,54.0,Male,AB-,Hypertension,2021-11-26,gzyZNxshnlui ui,0,,aBKlIvXEo vXEoCxfjEwM,Cigna,30652.921928099066,264.0,Urgent,05/10/2021,Ibuprofen,Inconclusive
+yVFZsmwbCwdR FZsmwbCwdR,71.0,Female,AB+,Cancer,2022-05-08,UBDmkZiwZ UBDmkZiwZvAf,0,,OoEdwkfgYeKvLqG kfgYeKvLqGG,Medicare,10944.835666256811,434.0,Urgent,05/11/2021,Lipitor,Normal
+uhYYfhZbWuK ZbWuKy,49.0,Male,B+,Cancer,2021-02-23, gCpPUYCmDMqu,0,,ZylwXsgBrBMqP PidP,Blue Cross,48406.73657201516,321.0,Emergency,10/12/2023,Aspirin,Inconclusive
+uYexvXjfvlt xvXjfvlty,44.0,Female,AB-,Diabetes,2020-04-14,YhhwqssHDE DEon,0,,jpwrQFn MAbaSsx,Blue Cross,9428.822050119521,402.0,Urgent,08/06/2022,Lipitor,Inconclusive
+kwijwVC vgjv,66.0,Female,B+,Hypertension,2023-09-15,bnwAYmwafV wAYmwafVNo,0,,MOsIlFN OsIlFNHyCzFwNoO,Blue Cross,27815.57309381845,204.0,Emergency,03/12/2021,Penicillin,Inconclusive
+CPCfhhdYi iVtM,63.0,Male,B+,Obesity,2023-10-11,aDfVPIjJbq VPIjJbqxt,0,,rXhspJPCll iMs,Aetna,14051.325956319726,360.0,Urgent,16/07/2020,Paracetamol,Inconclusive
+ryCEoiKwHa N,41.0,Male,AB-,Hypertension,2022-02-18,j bELvQyaLes,0,,UIMepQwU oUZu,Cigna,7592.9978614306165,293.0,Elective,20/11/2023,Paracetamol,Inconclusive
+CrQYknL nLCmSae,48.0,Female,AB+,Diabetes,2019-07-13,uvZa ZaRGfWSGHj,0,,kpTSqC F,Cigna,32849.07620250808,377.0,Elective,25/02/2020,Lipitor,Inconclusive
+Kjc uehlD,35.0,Female,B+,Cancer,2020-08-06,AReOWCzX zXjdmK,0,,FNNoPIQ sILWM,Cigna,32917.486068264196,232.0,Urgent,14/09/2023,Paracetamol,Inconclusive
+zBe zJuynCQa,34.0,Female,B+,Cancer,2021-07-28,dlEgAmaGAhG C,0,,FWBXcuaSLVA BXcuaSLVAatHXr,Aetna,29868.82205606709,188.0,Elective,13/09/2022,Penicillin,Inconclusive
+ maVzLCYpC,73.0,Male,A+,Hypertension,2020-10-07,BmySs ySsVMKsnYL,0,, gPiL,Cigna,39878.7198430455,314.0,Urgent,16/05/2024,Ibuprofen,Inconclusive
+dv ,75.0,Male,A-,Hypertension,2023-10-05,rAx yatko,0,,LvO wVEc,Aetna,4002.8067436907804,305.0,Emergency,21/07/2020,Paracetamol,Normal
+EYEdgRqPMfg dgRqPMfgT,78.0,Male,A+,Arthritis,2020-09-10,mdlvldJmL ,0,,XaraHdZmPPOPl mPPOPlGia,Cigna,39689.2889156162,367.0,Elective,11/12/2023,Aspirin,Normal
+vbcArHzYJdck ,39.0,Male,A+,Asthma,2023-04-20,rWVdj rWVdjOSuxMla,0,,aHCD CDGQPqrEabUpeM,Cigna,23364.101501050285,228.0,Emergency,14/09/2023,Paracetamol,Inconclusive
+PvQPEzC hXmB,78.0,Female,B-,Cancer,2023-03-20,VGPyih hXMjdBj,0,,Ln KVDfwrHzMRhmyt,Blue Cross,1847.973136805962,346.0,Emergency,06/01/2021,Paracetamol,Abnormal
+WgLCY ,57.0,Female,B-,Hypertension,2022-04-22,YoJWRlZsbGAW RlZsbGAW,0,,TqTrFLdbkmJ EJb,Cigna,37167.76326325191,329.0,Elective,16/12/2019,Lipitor,Inconclusive
+MWKHxzZXFgzs MWKHxzZXFgzs,69.0,Female,B+,Diabetes,2021-08-23,jryM ONrA,0,,rra PKGQtaeNaPfdE,Blue Cross,13719.203904947652,329.0,Urgent,07/10/2019,Lipitor,Abnormal
+pVNcabYJcC Ckl,57.0,Female,B-,Obesity,2021-08-25,E bET,0,,ufewXcyL UzjulY,Medicare,42830.89680040528,348.0,Emergency,04/02/2021,Ibuprofen,Inconclusive
+QNNamOdTtf fya,41.0,Male,B-,Asthma,2020-11-19,rBiVB pc,0,,eZfHURh RhHjjHcvfyg,Blue Cross,29714.143408706143,279.0,Emergency,15/06/2023,Lipitor,Inconclusive
+kjcrmqRUc kjcrmqRUcQxt,53.0,Male,B-,Cancer,2023-02-07,mrjNZMKNnXt ZMKNnXtd,0,, LczuNuRBBNHAC,Cigna,44984.4169670058,485.0,Urgent,16/01/2024,Ibuprofen,Inconclusive
+IHeCEN y,62.0,Female,B+,Asthma,2022-04-19,e CKQtg,0,,JIyDb Iu,Cigna,31807.09151876626,283.0,Emergency,06/11/2021,Ibuprofen,Abnormal
+CkbIZwujo kbIZwujopNU,62.0,Female,B-,Hypertension,2022-04-22,EnYzmJVuDx VuDxex,0,,sH ii,UnitedHealthcare,27430.373984202968,346.0,Emergency,11/08/2020,Paracetamol,Normal
+YbVN ojxYc,82.0,Male,B-,Cancer,2020-06-02,MEyOoolVySx ySxr,0,,VrPnJyksqP VrPnJyksqPLXdnHQ,Medicare,28656.530151951076,235.0,Elective,16/11/2023,Ibuprofen,Inconclusive
+iIkR e,66.0,Female,AB+,Obesity,2023-04-08,xUWEiBNp BNpqYVN,0,,AlcFGFyhNgk AlcFGFyhNgkmeIQQ,Blue Cross,8646.961504802042,183.0,Emergency,19/08/2020,Paracetamol,Inconclusive
+jbatO batOoyyGVhI,63.0,Female,B+,Hypertension,2020-05-21,PKWIkbXWNk KWIkbXWNkFJ,0,,Z ,Medicare,28357.469928916205,182.0,Emergency,16/08/2019,Ibuprofen,Inconclusive
+wEFCA zRrL,57.0,Male,A+,Cancer,2023-12-14, aACsfPRdjqAg,0,,bkFfsHEV FfsHEVqFNbjKQe,Cigna,16938.70124290484,202.0,Emergency,15/01/2020,Aspirin,Inconclusive
+lmwHFG ,66.0,Male,B+,Asthma,2022-01-20,qymimfSbxcG mfSbxcGw,0,,zZ DwJZFRsEDNJ,Cigna,26099.08477808911,371.0,Elective,19/11/2022,Paracetamol,Normal
+IBCHnftbxKZ tbxKZM,67.0,Male,O-,Asthma,2020-07-11,YpZjHGxPEFk kj,0,,iIVZSTYc ZSTYcemUvlhHh,Cigna,12274.721538587735,152.0,Emergency,07/05/2022,Paracetamol,Abnormal
+hbYaVgEdJk bYaVgEdJkpB,71.0,Male,A-,Cancer,2019-11-20,LEriaB rEgDnW,0,,WeagbHezsDgrMy X,Cigna,11604.72429494423,113.0,Urgent,01/08/2022,Lipitor,Normal
+mOhMUtPNHx oc,51.0,Female,AB-,Asthma,2021-12-14,uGqjTGJNSkJi TGJNSkJi,0,,MbkELRSwOotTSau tTSaun,Medicare,31694.212287021026,320.0,Emergency,27/10/2019,Aspirin,Inconclusive
+dajWfmxPnYkn WfmxPnYkn,75.0,Female,AB+,Cancer,2021-06-24,pLlzWvABGo LlzWvABGoMX,0,,YdDGKEdSNZIHx HxgmX,Medicare,21576.283588164224,457.0,Emergency,11/11/2023,Paracetamol,Inconclusive
+oLbW RWQJQi,29.0,Male,AB-,Diabetes,2022-10-18,AMw ,0,,yLYTCKlkZr kZrmnYFYW,Cigna,33588.90985402162,370.0,Emergency,04/10/2021,Lipitor,Normal
+mODmke ODmkeloHVdu,73.0,Male,B+,Cancer,2021-03-12,Ky KyCoqHrmkYKT,0,,wuqApMredAtnoT MredAtnoTYd,Medicare,40472.60490513532,303.0,Emergency,18/07/2020,Aspirin,Normal
+RJ RJCPlZiCJzgS,48.0,Male,O+,Hypertension,2022-12-17,vbyvBXb BXbWomHN,0,,QIEsaFTEshp EsaFTEshpXzEFc,Medicare,34451.57841472798,292.0,Emergency,14/05/2020,Ibuprofen,Abnormal
+kGxQxY sosvJ,43.0,Male,AB+,Diabetes,2022-08-24,C ,0,,GEwivRkhEtqaIiY aIiYj,Medicare,49390.09211353565,286.0,Emergency,16/12/2023,Ibuprofen,Inconclusive
+mHNd quM,49.0,Male,B-,Obesity,2023-09-08,MSyiioSPeeJ eeJp,0,,lVS p,Blue Cross,3287.4035152120123,453.0,Emergency,10/09/2022,Lipitor,Normal
+eBEmiM omhQal,44.0,Female,B-,Diabetes,2021-08-08,kWO avg,0,,EFWWjrPiTMB YvH,Cigna,618.0513867970512,319.0,Urgent,08/01/2021,Paracetamol,Abnormal
+ AKVBFh,69.0,Female,B+,Cancer,2021-11-22,PXF VKKYbqL,0,,AiUWkOwW kOwWgPTdYiMK,Medicare,14902.369025730004,265.0,Emergency,23/03/2021,Paracetamol,Abnormal
+bCNkDdq eBu,54.0,Female,A-,Diabetes,2022-02-05,XDbbXOFFBa aqV,0,,LqfSzsNZu NZuFFPQeva,Medicare,31813.995191955033,450.0,Emergency,15/01/2021,Paracetamol,Abnormal
+CvydDTvSvist t,41.0,Female,AB+,Diabetes,2021-04-07,zPpQviDUp zPpQviDUpFEH,0,,L zolzoqrfhXk,UnitedHealthcare,29286.908249644708,379.0,Emergency,10/06/2023,Lipitor,Normal
+dhTTmaVIxDrA ,65.0,Male,AB+,Diabetes,2022-04-10, ,0,,xNQcuTAj cuTAjptGOqywp,Cigna,36206.61119524393,152.0,Emergency,16/08/2020,Ibuprofen,Inconclusive
+osKzLeX ach,28.0,Female,B+,Diabetes,2019-10-17,aUrKsSr RDA,0,,AjPHEWCgl PHEWCgltDEssvQ,Blue Cross,21848.98645807733,498.0,Emergency,25/04/2024,Ibuprofen,Inconclusive
+rcAEutoMBfEn toMBfEn,38.0,Female,B+,Diabetes,2020-07-06, ,0,,jAlbKiJ iJXNUJTOnLR,Blue Cross,12349.0333918077,237.0,Elective,12/12/2022,Aspirin,Inconclusive
+AJ JqKsJCqlbCu,44.0,Female,B-,Arthritis,2021-09-02,k VbbDwwuAdDn,0,, IKHjt,Blue Cross,27672.779198638556,186.0,Urgent,01/06/2022,Lipitor,Inconclusive
+WuNCQnW WuiUxj,23.0,Female,AB+,Arthritis,2021-05-18,PeWoFnHBk Md,0,,kElCeYKZ kAHFoyqI,UnitedHealthcare,13112.268208371406,220.0,Urgent,14/08/2023,Ibuprofen,Normal
+ YvV,68.0,Male,AB-,Hypertension,2023-06-26,A oLzBmdhRizI,0,,FiNbayqSKZkBA ZkBAArX,Cigna,3170.791638068469,284.0,Urgent,19/04/2022,Penicillin,Normal
+TpFMiTpyJcOw yJcOw,76.0,Male,AB-,Cancer,2022-07-08,vcg ViQHpTsn,0,,TmQbofkv ,Cigna,34063.44755831335,211.0,Urgent,24/06/2023,Paracetamol,Inconclusive
+mLobEiweN Nbyr,41.0,Female,B-,Hypertension,2020-11-28,iPeECEEw wPJCn,0,,vLH HGuVx,Blue Cross,22139.48271463344,106.0,Urgent,21/03/2020,Ibuprofen,Normal
+sjitSAXFX XFXhUq,78.0,Female,B+,Diabetes,2021-09-26,xNvycM cMqNhejx,0,,hBU nOGux,UnitedHealthcare,40683.665409346104,434.0,Emergency,11/08/2020,Aspirin,Normal
+xl K,60.0,Female,A-,Diabetes,2022-05-07,ksrZEgxuW gxuWLHy,0,,DQIXtM srj,Blue Cross,22902.1269419091,259.0,Emergency,23/01/2022,Paracetamol,Normal
+ I,19.0,Male,B+,Diabetes,2022-05-29,PiIreus NzFX,0,,PidVMj MjrvqfqNwAyr,Cigna,29319.729568928007,368.0,Emergency,28/01/2024,Lipitor,Inconclusive
+UwxaBJqf UwxaBJqfKzgS,53.0,Male,O+,Cancer,2019-09-15,qziRlO gRIqS,0,,gdSBoLXkGFGwxjAP LXkGFGwxjAP,UnitedHealthcare,26470.61427651271,377.0,Emergency,17/01/2022,Lipitor,Inconclusive
+rYjgwtuX tuXVVIL,56.0,Female,B-,Asthma,2019-05-15,Hd tiMNdw,0,,KlwHajRZbzb bTlxcC,Blue Cross,10591.46256750328,413.0,Emergency,22/07/2023,Ibuprofen,Inconclusive
+ digpuGgh,41.0,Male,O-,Diabetes,2022-11-13,JGdfp MXde,0,,OCL ,Medicare,29996.59003181311,189.0,Urgent,20/01/2021,Ibuprofen,Inconclusive
+whOpfZFuT FuThbq,45.0,Female,AB+,Obesity,2020-04-16,hppWuKu pWuKuODjXi,0,,glLOKsprlVtOrqkc lLOKsprlVtOrqkc,Cigna,22564.150550162332,185.0,Elective,10/03/2023,Aspirin,Inconclusive
+ZVRhWfU WfUaomWP,79.0,Female,AB+,Cancer,2021-02-05,azRSC ,0,,umsKWBAUmaONEIF WBAUmaONEIFa,Cigna,37026.79086337822,252.0,Elective,15/05/2023,Penicillin,Inconclusive
+KRoCN oCNMhrZcnp,27.0,Female,A-,Cancer,2020-05-22,kgrgdDCBnla gdDCBnlaB,0,, dkwtClN,Blue Cross,18822.771844519382,430.0,Emergency,13/11/2021,Lipitor,Abnormal
+QqfNqdWuN ,73.0,Female,AB+,Cancer,2021-02-27,rZ ,0,,BNTjNVcUZkNpKcq UZkNpKcqn,Blue Cross,26295.256219955405,323.0,Emergency,17/05/2021,Lipitor,Inconclusive
+zwNccpD NccpDNfCYY,55.0,Male,O+,Diabetes,2022-06-25,zhu DgqxtXDWB,0,,FhrYfJgavNimxTe avNimxTeC,Medicare,22963.258449958492,180.0,Urgent,06/06/2024,Penicillin,Inconclusive
+Iv ZCad,51.0,Female,AB+,Diabetes,2021-11-16,mVQoVUhwTfR VQoVUhwTfRl,0,,cTkNhABjFxoXHk TkNhABjFxoXHkHr,Cigna,13772.658543121863,213.0,Urgent,20/02/2023,Penicillin,Inconclusive
+k ZcrZuTwL,75.0,Male,O-,Hypertension,2022-04-02,GOVURJi GOVURJipFhcL,0,,CDJWHFcesX LNNtR,Blue Cross,21693.878599772605,396.0,Emergency,18/06/2023,Paracetamol,Inconclusive
+ yBymtwUotp,35.0,Male,B+,Diabetes,2022-10-27,EHCMbsmbacO acOw,0,,jwrRnS F,Cigna,46185.19941623084,488.0,Emergency,14/04/2021,Paracetamol,Normal
+lawqpLpJQWi pJQWiW,77.0,Female,B-,Hypertension,2020-07-19,NNiG GbwAOQANy,0,,CeyJSaZ fg,Blue Cross,7475.966519627542,469.0,Urgent,19/08/2022,Lipitor,Inconclusive
+MuqiepxfYyI fYyIT,27.0,Female,AB+,Asthma,2023-07-03,aHAAKMnXTrEL AKMnXTrEL,0,,tUDFBcK mfNy,Cigna,19153.459628242075,246.0,Elective,24/08/2019,Aspirin,Abnormal
+hLhfl mJbGEiv,30.0,Female,B+,Diabetes,2022-05-15, agoQVjOXNx,0,,ThGmoaRDyJnHSKh Khi,Cigna,15614.898884892174,395.0,Emergency,20/04/2023,Lipitor,Inconclusive
+JxQ QAgtIbGNZq,65.0,Female,B-,Diabetes,2023-06-09,V kfAXQKntqES,0,,athbXgqkaqkuu kuuuXr,Blue Cross,28089.548024930577,378.0,Emergency,11/05/2023,Penicillin,Inconclusive
+cHMuLgfMFv uLgfMFvoe,87.0,Male,B-,Asthma,2020-10-06,arJdUosm FRIn,0,,ZjqmuoA ZQuBGB,UnitedHealthcare,48321.506680241975,298.0,Emergency,06/12/2020,Lipitor,Inconclusive
+SEuGRenpKhkP P,18.0,Female,B-,Hypertension,2021-08-06,FhSFIad FhSFIadrbwAd,0,,CgGPyRIsobtvs tvsSom,Medicare,23140.90096919584,221.0,Emergency,13/02/2024,Ibuprofen,Normal
+cMsx PaImNAm,45.0,Male,B-,Asthma,2022-07-17,jqt cJxcQ,0,, AZo,Cigna,43792.313092840806,322.0,Emergency,13/01/2023,Paracetamol,Normal
+eiZOEr OErGdpQfa,56.0,Male,O+,Obesity,2023-04-09,jF jFaszHBbBQiv,0,,U vOjS,Blue Cross,52033.01708148679,278.0,Urgent,15/11/2019,Paracetamol,Abnormal
+WgnpzADsK ,80.0,Female,AB-,Diabetes,2022-08-10,weVxlOBCvzW VxlOBCvzWC,0,,isFcYsBUm IeABou,Cigna,29520.579749770026,345.0,Emergency,07/12/2023,Paracetamol,Normal
+B Asg,71.0,Female,B+,Asthma,2020-04-13,LhSe TEzNtd,0,,wQhLDwoT TkQCLtKFQ,Blue Cross,28705.69897339962,273.0,Emergency,29/12/2020,Lipitor,Inconclusive
+p COUi,62.0,Male,B+,Cancer,2020-08-22,nSSGO iOsrhe,0,,Jk BDOAEBeiFYgKX,Cigna,32761.990564188283,342.0,Emergency,11/12/2020,Lipitor,Normal
+bfVQLfFyTc TcqH,25.0,Female,B-,Hypertension,2020-05-07,xtCaDXb BpEXK,0,, TfdN,Medicare,29870.508748267734,383.0,Emergency,30/07/2019,Lipitor,Abnormal
+XZpcw Z,67.0,Female,B-,Hypertension,2022-05-19,heEIYaa YmC,0,,bLZCAYUU dRW,Blue Cross,14938.410608174872,391.0,Emergency,14/06/2021,Lipitor,Normal
+DOxoKV KVgBYFhZ,37.0,Male,B+,Hypertension,2022-07-22,OoOZhs hseqfiyz,0,,VxKamXggWNZk ,Blue Cross,35087.986875408125,395.0,Elective,20/05/2022,Paracetamol,Inconclusive
+igOQkxFpTijr r,72.0,Male,O+,Hypertension,2022-03-16,eAvyRG ,0,,x uAMYPOTaHJWgP,Medicare,34293.18603244061,276.0,Emergency,20/02/2023,Ibuprofen,Inconclusive
+ OmBzYjzb,51.0,Female,B-,Diabetes,2023-06-13,DHpD FxBKvVn,0,,fZxfTwFZ TwFZwEsxMcXa,Medicare,20143.332541793767,244.0,Emergency,12/03/2023,Paracetamol,Inconclusive
+fG CfZ,70.0,Female,B+,Diabetes,2022-03-20,FjspEiCXBuMA pEiCXBuMA,0,,ZnVWGiBJGMQAEZ TT,Blue Cross,6117.732248539938,356.0,Urgent,15/03/2022,Paracetamol,Abnormal
+m fTgboO,78.0,Female,B-,Obesity,2023-08-13,tGIsqg IsqgyzbKHB,0,,wqRlcIwlBJma qRlcIwlBJmaILxS,Blue Cross,29659.56238126854,456.0,Emergency,08/08/2022,Lipitor,Inconclusive
+hhAs spxwocUyz,47.0,Female,AB+,Asthma,2022-08-10,BYFfPahjQR ,0,,bboT Ceda,Medicare,9145.553005849732,206.0,Emergency,10/03/2024,Paracetamol,Inconclusive
+mEFGQdKuNsaw EFGQdKuNsaw,35.0,Male,B-,Hypertension,2020-04-20,RRphKebsb ,0,,y yrLRLHddpnFGkSmc,Medicare,14442.166251558898,299.0,Elective,23/01/2024,Lipitor,Normal
+baElIxGmOr IxGmOrok,61.0,Male,AB+,Cancer,2023-01-09,jpNptlO Mf,0,,DsEwUaxthAfU fUFllB,Medicare,50102.8471896875,447.0,Urgent,16/06/2019,Ibuprofen,Inconclusive
+pBupLJ pBupLJUslQPz,78.0,Male,AB+,Asthma,2023-05-08,saLmtflr rwfOz,0,,DUcv oa,Blue Cross,14681.202151108933,252.0,Emergency,14/07/2020,Lipitor,Abnormal
+fir irQsPnkUfxO,54.0,Female,A-,Diabetes,2024-07-13,C JmlIASt,0,,Q NHv,Cigna,23463.97702887086,312.0,Emergency,28/04/2023,Paracetamol,Inconclusive
+wNSVbybx bybxtxKx,22.0,Male,AB+,Hypertension,2021-05-09,BpcP cPcnZCwRNt,0,,BgyfPYeQbH yfPYeQbHplAKke,Medicare,31790.20571069435,120.0,Urgent,12/11/2020,Paracetamol,Inconclusive
+m UWXH,30.0,Male,B+,Obesity,2022-05-07,NcYttJBhXehc hXehc,0,,AwJSSWkLimxN SSWkLimxNuEvj,Medicare,36142.95781071393,412.0,Urgent,23/06/2021,Penicillin,Inconclusive
+hVE eXiQWj,59.0,Female,B+,Asthma,2022-05-21,NKdEohECN ,0,,csBFk qmFraiE,Cigna,18101.988556282064,260.0,Elective,03/03/2020,Penicillin,Normal
+Mn eVEazKU,62.0,Male,AB+,Hypertension,2021-10-24,WQVpydvUqRT j,0,,jcn dAtirTfMT,Blue Cross,36070.761273232594,412.0,Emergency,03/09/2019,Lipitor,Inconclusive
+YNgOML OMLutcrnt,58.0,Female,B-,Hypertension,2021-06-18,W ib,0,, bPtKII,Blue Cross,27869.771484657358,382.0,Emergency,16/01/2022,Paracetamol,Abnormal
+ d,14.0,Male,A-,Diabetes,2021-07-10,kSVt sk,0,,qeeLNx qeeLNxmLsfBEVuET,Medicare,38984.44648293474,299.0,Urgent,14/05/2023,Paracetamol,Abnormal
+nADvE nADvErXWdymg,59.0,Male,B-,Diabetes,2022-07-12, XQ,0,,GIOXBVWEp GIOXBVWEpUgyfGaA,Cigna,9526.887544858097,150.0,Urgent,22/03/2024,Lipitor,Abnormal
+eXrfZm ZmiMDTCk,40.0,Male,AB-,Arthritis,2023-05-31,j ZWbPKwUAv,0,,kxzVdUn ,Blue Cross,20275.4693682502,294.0,Elective,14/08/2019,Ibuprofen,Inconclusive
+QM hZ,86.0,Male,AB+,Diabetes,2021-07-13,qudDpmWyl xb,0,,mZNxPScOEy j,Blue Cross,32017.902472689464,299.0,Urgent,07/10/2020,Ibuprofen,Inconclusive
+omyeSmZSpVin pVin,69.0,Male,A-,Cancer,2020-06-09,MDOY ysLFXwtT,0,,xw FIgWKu,Cigna,31885.04537892191,316.0,Emergency,18/03/2021,Ibuprofen,Inconclusive
+hDnmmWFFpXKQ XKQ,70.0,Female,AB+,Diabetes,2022-11-03,kjPrBCVI jOV,0,,MzZZhJ tTsze,Cigna,48704.751379358684,380.0,Elective,24/11/2021,Ibuprofen,Inconclusive
+Mo fOLbNi,70.0,Female,O+,Hypertension,2021-09-18,psFbqAKX qAKXvBql,0,,ESBOHB ,Cigna,21631.805498292717,243.0,Emergency,10/09/2023,Lipitor,Normal
+ZITLjaFdDYXu LjaFdDYXu,56.0,Male,AB-,Diabetes,2020-09-09,HMUBjzYZAfg U,0,,KxqaOeWwklPGpsTg Tg,Medicare,24322.748714703404,280.0,Elective,12/11/2020,Aspirin,Normal
+ NziQ,70.0,Male,A-,Diabetes,2021-11-15,SuOemm mmkrcuUP,0,,OMpm ZbuzLgS,Medicare,11993.186428946005,427.0,Urgent,15/01/2023,Paracetamol,Inconclusive
+QCJWIdr JWIdrwbMPV,35.0,Male,O+,Diabetes,2022-09-11,WGN ,0,,ksFTCt VGkjaNGTzd,Cigna,31684.38349698839,183.0,Emergency,18/09/2023,Paracetamol,Inconclusive
+ FPRUTVqViJ,56.0,Male,A-,Arthritis,2022-01-24,yHEbnWMzZcA Y,0,,SVZquUBzs quUBzsFYLpjik,Blue Cross,25728.904317451448,341.0,Elective,19/04/2024,Ibuprofen,Inconclusive
+FvK KIgMihzcuL,66.0,Female,A-,Arthritis,2022-08-12,fstbaCSynp nptE,0,,FZcuTTtr uTTtrZbGXKTfB,Medicare,3659.046635376588,397.0,Emergency,21/09/2022,Paracetamol,Inconclusive
+ HEhkpnlfS,38.0,Male,O-,Cancer,2023-09-28,TYzwhVDAvdqX whVDAvdqX,0,,vcCmjmz gx,Medicare,50079.87716583642,282.0,Elective,26/11/2020,Ibuprofen,Inconclusive
+wvcLfNgGus GusGu,51.0,Male,AB+,Cancer,2020-07-14,v ,0,,Py lfN,Medicare,27790.390097903542,474.0,Urgent,06/02/2021,Lipitor,Inconclusive
+NyBxGeuF n,87.0,Male,AB-,Cancer,2022-12-19,mddQMUXywhxn ddQMUXywhxn,0,,nigFrfez ZetDoy,Medicare,18037.511587105073,359.0,Emergency,28/03/2020,Paracetamol,Inconclusive
+lheNGcDiJ JuIT,73.0,Female,B+,Cancer,2021-02-19,UtUFzLnz Lnzhhbj,0,,tkTWcbrtYbHnqoAf nqoAf,Blue Cross,30468.81959112924,437.0,Urgent,20/02/2024,Ibuprofen,Inconclusive
+E pVykjS,58.0,Female,B+,Asthma,2023-03-01,xwWGwNfudzRC udzRC,0,,tkyOqePcmYU yOqePcmYUKWqEO,Blue Cross,20896.26157381451,363.0,Emergency,09/12/2022,Aspirin,Inconclusive
+kBWPyx ,57.0,Female,B-,Asthma,2020-05-26,CX gpz,0,,SBHzsCxac acjYvOgTO,Cigna,12943.201402204611,211.0,Emergency,22/10/2021,Paracetamol,Inconclusive
+UybzsXgc jyjg,57.0,Female,B-,Cancer,2022-02-28,PSpgd ,0,,VPZMByCO ByCOzOmMwZYe,Medicare,14091.761800531684,302.0,Emergency,23/04/2024,Ibuprofen,Inconclusive
+OAwUGv ,69.0,Male,A-,Asthma,2023-06-13,ljpHzyfS HzyfSuUeA,0,,LxbPbkfhhLZaXHw xbPbkfhhLZaXHwA,Cigna,24526.86026518568,366.0,Emergency,14/08/2019,Ibuprofen,Normal
+ dYONKxd,87.0,Female,A-,Diabetes,2021-04-21,ZF p,0,,etLNuF NuFAhfCGDtsXK,Cigna,20776.34393128284,345.0,Emergency,12/09/2023,Ibuprofen,Normal
+FjhNnOfTTA Asx,57.0,Female,B+,Asthma,2021-06-25,WcdqFQeq dqFQeqSJaA,0,, sypxKziGAPs,Blue Cross,21746.763925554187,251.0,Elective,20/03/2020,Lipitor,Abnormal
+KVMWtsj NSk,38.0,Male,AB+,Diabetes,2019-09-18,vq ,0,,mYvgTDlMAzcr DlMAzcrIzyt,Medicare,52730.89458204532,388.0,Urgent,31/01/2023,Paracetamol,Inconclusive
+KDvJEPIHDZ JEPIHDZHM,84.0,Male,B-,Arthritis,2021-05-28,uYqHU LMx,0,,unRWhsJqbPLbioE bioER,Blue Cross,33322.10354745361,270.0,Emergency,26/03/2022,Ibuprofen,Abnormal
+d smDWWV,62.0,Male,A-,Cancer,2023-08-07,xEyAu AuGXRWslU,0,,kcS EHzThzRnBUkcT,Blue Cross,14376.708937798941,161.0,Emergency,09/01/2023,Paracetamol,Inconclusive
+xrsZLQUmWEav ZLQUmWEav,26.0,Female,AB+,Cancer,2023-06-22,GllSSZbFhs wg,0,,Y ,Cigna,21380.26046777404,365.0,Elective,25/02/2020,Paracetamol,Abnormal
+oYo TYDYj,56.0,Female,B-,Hypertension,2024-01-16,UH UHwoZckKrbbC,0,,yuLrEArpokiVMTe uLrEArpokiVMTeC,Medicare,588.7954614304581,182.0,Emergency,11/11/2020,Paracetamol,Inconclusive
+Ka CkPQgAf,39.0,Male,AB-,Hypertension,2022-10-17,adrZcFF adrZcFFEwjBA,0,,UMiVIcsGDLSt VIcsGDLStkyXZ,Cigna,27904.74388251784,384.0,Emergency,03/12/2022,Paracetamol,Inconclusive
+AIaBdABvqETx vqETx,50.0,Male,A-,Diabetes,2022-07-21,jkvLqlwmhw lwmhwrG,0,,xpfr xDnyHpVBa,Medicare,41469.35892011774,133.0,Emergency,14/11/2021,Ibuprofen,Normal
+oKCIVXhuROP PF,46.0,Female,AB-,Arthritis,2024-10-10,rGv z,0,,vQpV ,Medicare,40147.10044505344,310.0,Urgent,27/03/2022,Ibuprofen,Inconclusive
+CPXQEurLNCV XQEurLNCVk,14.0,Male,B-,Cancer,2020-08-04,Y U,0,,eGNJVIPZaMYOil MYOilfa,Cigna,44371.05615497517,185.0,Urgent,27/11/2020,Ibuprofen,Abnormal
+mXuaTo mXuaToNqcDFS,55.0,Male,B+,Cancer,2022-08-24,cq wX,0,,ZrcyAvdhGjpc WJ,Medicare,13400.657563345943,441.0,Emergency,26/12/2023,Ibuprofen,Abnormal
+gBRE RERpMbZmKi,24.0,Male,O-,Cancer,2019-08-14,fAhhiswHwhfe iswHwhfe,0,,GKbvKMB bvKMBkRzJfUToq,Aetna,19061.874404733386,366.0,Urgent,18/04/2024,Paracetamol,Inconclusive
+bdpJzifZa fZaHph,29.0,Male,O+,Asthma,2023-09-27,qAWhcFAJceU cFAJceUg,0,,FpQmFOPlzm FpQmFOPlzmTOBPkZ,Blue Cross,47308.21610815593,296.0,Emergency,08/01/2021,Paracetamol,Inconclusive
+Nh hfIcKWhyuUe,47.0,Male,A+,Diabetes,2020-03-17,StUMwm ,0,,iKaJ JeffNzYsJzwHj,UnitedHealthcare,39793.86798458489,281.0,Emergency,16/10/2023,Aspirin,Abnormal
+bkMGWFo AxIT,88.0,Female,O+,Cancer,2023-07-16,mSUXthTvhsR sRI,0,,sHhWSwgPN sy,Cigna,12357.922177466797,241.0,Urgent,14/07/2023,Ibuprofen,Inconclusive
+rTnBTo VM,26.0,Female,O+,Cancer,2021-07-13,tRYVwKAnRGe wKAnRGeI,0,,lNXXyr rrhuwGCSrfR,Medicare,21560.98208399641,391.0,Emergency,13/05/2020,Lipitor,Inconclusive
+PUVMaEfj ,51.0,Female,O-,Hypertension,2021-09-14,KUbiZJSbh Sbhvvo,0,,UOaYLOeZTKdklavX X,Cigna,33807.96601396208,309.0,Urgent,25/05/2023,Paracetamol,Inconclusive
+ZKJlwryUBvsY KJlwryUBvsY,73.0,Male,A-,Cancer,2024-05-13,MDeiQtHKXM iQtHKXMOX,0,,GdoDYLHbSyBg PYM,Cigna,20273.707040702688,149.0,Emergency,25/04/2022,Lipitor,Inconclusive
+ckA AaTbhexKVs,40.0,Female,B+,Cancer,2019-09-16,HexYkoRVsuTx koRVsuTx,0,,Hu YQKVwn,Cigna,23232.02831827739,212.0,Elective,29/07/2021,Paracetamol,Inconclusive
+VmhkWaGU GUJUAC,50.0,Female,B+,Diabetes,2020-09-29,aTwZ TwZQOUdhehy,0,,TeouxnlszQZV VTGPj,Cigna,37345.23392408585,257.0,Emergency,17/01/2023,Ibuprofen,Inconclusive
+zpmkoZ zpmkoZalIXvL,56.0,Male,B-,Cancer,2024-08-10,tvbDv T,0,,cR cRWcSmxtTFpVERXQ,Medicare,31304.261655398135,202.0,Urgent,17/04/2022,Lipitor,Normal
+pGSIVfSN GSIVfSNPLTC,58.0,Male,B+,Asthma,2022-08-09,cD zZhXv,0,,XLkPbqqZIRXw ,Blue Cross,10763.53278223586,117.0,Emergency,12/10/2020,Lipitor,Abnormal
+Zkli lifDyBaMCJ,56.0,Male,AB-,Asthma,2023-09-13,lYPzkpVXUT XUTwk,0,,OzVddJGsql OzVddJGsqlSLelUq,Medicare,34860.079529703464,162.0,Emergency,06/09/2023,Paracetamol,Inconclusive
+IPMgfAHBajo MgfAHBajoC,63.0,Male,AB+,Diabetes,2021-10-29,LVnBw ,0,,JUF EgJPBBXoZsbe,Medicare,20562.898444559138,336.0,Emergency,08/03/2024,Ibuprofen,Inconclusive
+JhQoPDG JhQoPDGZIqvt,63.0,Male,B+,Cancer,2021-07-14,JatMRFkc ,0,,uZlFeycIOK QkcDUL,Cigna,30466.84206986784,395.0,Urgent,21/09/2019,Ibuprofen,Inconclusive
+b OlUiEIghzHI,86.0,Male,A-,Diabetes,2020-09-13,xVNszoKPi ,0,,UNVByBWQbcpmP ,Cigna,33979.21640182311,139.0,Elective,11/09/2019,Penicillin,Inconclusive
+IrPgP z,62.0,Female,B-,Diabetes,2021-01-16,hSImrHtBd tBdiKu,0,,iMZCPOUipaiXj MZCPOUipaiXjkBC,Cigna,29505.794453521794,248.0,Elective,11/05/2024,Paracetamol,Normal
+ BWbZrDFm,25.0,Male,AB+,Diabetes,2022-05-11,mDkmClFky lFkylYi,0,,OaJQdSZtQD ZtQDKkUCpP,Cigna,18884.09321652053,191.0,Elective,13/04/2024,Ibuprofen,Inconclusive
+nbl CHs,23.0,Female,A-,Asthma,2021-03-10,CfY CfYahLEkfyhg,0,,HJoHWQSoar QSoarjOuyUB,Blue Cross,25997.22683465869,397.0,Emergency,13/10/2023,Lipitor,Abnormal
+ UdHQoiJ,82.0,Female,B-,Diabetes,2021-06-14,yDX dslW,0,,kgnpozDD FCR,Cigna,32583.615376076523,126.0,Urgent,03/03/2024,Penicillin,Inconclusive
+qEme meXUaNlgyW,35.0,Female,O-,Hypertension,2021-06-23,ZKraB raBPiSWCNk,0,, rYaDtrGeD,Blue Cross,15376.680339461773,331.0,Emergency,02/11/2020,Lipitor,Normal
+d ggeHihJLlvZ,82.0,Female,AB+,Diabetes,2023-02-12,rtoNrwl NrwlEacGZ,0,,LfpAQbjpUJJuexWN bjpUJJuexWN,Medicare,31837.165044868503,237.0,Emergency,06/05/2021,Lipitor,Inconclusive
+NrL fLrc,85.0,Male,B+,Diabetes,2023-02-10,AaDA YlomFCl,0,,NsUVJK QdOwlUam,Cigna,37612.805772204054,204.0,Emergency,15/06/2023,Ibuprofen,Inconclusive
+tJZIZfDFop ,63.0,Male,B+,Obesity,2020-06-12,pZ kQ,0,,nUAXDNzyM MoEEvPyt,Cigna,32159.495483956132,333.0,Elective,11/03/2022,Lipitor,Normal
+vEHlhPQKjYsx hPQKjYsx,51.0,Male,O-,Hypertension,2022-11-28,yQnwIbVcY y,0,,bieuxGqejkZxly xGqejkZxlyuq,Cigna,21738.723918437958,356.0,Urgent,11/01/2021,Ibuprofen,Inconclusive
+spj ,47.0,Female,O-,Asthma,2021-01-18,aSN qD,0,,MXAUwLyloNyAOOb AOObC,Blue Cross,35170.15272702696,206.0,Emergency,18/05/2023,Ibuprofen,Abnormal
+tf rIUAoc,71.0,Male,AB+,Diabetes,2021-11-11,i tW,0,,iM NGp,UnitedHealthcare,41819.12630886561,309.0,Emergency,18/05/2024,Lipitor,Inconclusive
+xmLy gKkU,43.0,Male,AB+,Cancer,2023-08-28,GkZn XihInOL,0,,UiTC UiTCNYbuEFNhBWrb,Cigna,1480.4880296641059,349.0,Emergency,24/09/2019,Ibuprofen,Normal
+aJ zzoeMNtikn,50.0,Female,AB-,Hypertension,2023-08-19,nDQkq nDQkqYaovjaH,0,,Noxg yVrUVAhLf,Aetna,35851.96483169429,394.0,Elective,13/09/2021,Penicillin,Abnormal
+pMSaimVPDZZc ZZc,61.0,Male,A+,Diabetes,2022-09-17,BIVYmd IVYmdTzROyl,0,,IsAGbDvqK AGbDvqKlrEScvt,Cigna,21470.707793513287,378.0,Urgent,13/11/2023,Paracetamol,Inconclusive
+SjmbC JzmKpQ,34.0,Female,B+,Obesity,2019-11-19,KJCxUFjCxAud CxAud,0,,aV K,Medicare,25565.710433330696,208.0,Urgent,09/04/2020,Lipitor,Inconclusive
+tAIrdUmGye mGyeMF,34.0,Female,B-,Cancer,2022-04-17,OBPMUUPWRmlD PMUUPWRmlD,0,,UYmFMe PJUH,Medicare,20634.963052390925,445.0,Emergency,08/02/2024,Lipitor,Inconclusive
+gwJzV FKs,45.0,Female,AB+,Cancer,2022-05-15,l vjPrZoYlyzc,0,,wefuQENsNBQ ofl,Blue Cross,21258.24005704545,335.0,Urgent,21/03/2021,Lipitor,Inconclusive
+BEWvUF UFzYRAlY,79.0,Female,A-,Diabetes,2020-03-02,NOuyCdC y,0,,R AYnaTYsOagV,Medicare,18019.640863896428,254.0,Urgent,02/01/2020,Ibuprofen,Normal
+CTzcwsPU ,63.0,Female,B+,Asthma,2021-08-08,ovoCT ovoCTpXpyQVg,0,,GnAPsyYa yYaXZMNucqk,Cigna,17385.130078066075,451.0,Urgent,13/09/2022,Penicillin,Inconclusive
+xe dl,30.0,Male,A+,Obesity,2021-07-25,AKaNU Ay,0,,sJadUYopBbq YopBbqUgNln,Medicare,22772.5548718278,376.0,Urgent,24/01/2021,Paracetamol,Inconclusive
+a wqbvM,60.0,Male,AB+,Arthritis,2022-06-29,OZK oHjNsku,0,,CyENKlUshTZnpUxR shTZnpUxR,Blue Cross,-199.56489823457377,286.0,Emergency,18/06/2021,Ibuprofen,Inconclusive
+oRnEz ,37.0,Female,B-,Diabetes,2020-04-15,jaBjuhfjbnuf uf,0,,tLv LvTiTkmFKWObDOI,Cigna,14712.531147107524,275.0,Emergency,27/11/2022,Lipitor,Inconclusive
+XTLzQLqXbUJ UJR,21.0,Male,B+,Arthritis,2021-02-14,JNitwHZRPSuz HZRPSuz,0,,CGKEZTLWbd WbdUDTWZH,Cigna,28487.17006602581,269.0,Urgent,30/12/2020,Ibuprofen,Abnormal
+ o,66.0,Male,AB-,Hypertension,2022-05-27,BLQXThtHkp ThtHkplZ,0,,bZlMEp UJs,Cigna,12237.937197700572,152.0,Urgent,09/01/2022,Ibuprofen,Abnormal
+djGtdeEquCpo o,64.0,Female,AB-,Hypertension,2021-09-01,wPRPRdUFhKL RdUFhKLr,0,,bUkRzlwp wpfChyVzSq,Medicare,21130.56529209547,405.0,Emergency,13/04/2023,Paracetamol,Inconclusive
+c WVCNlH,30.0,Female,AB-,Cancer,2021-10-22,Ljzq e,0,,nssTtS Vw,Aetna,22443.178873636763,180.0,Emergency,13/07/2020,Lipitor,Inconclusive
+ykYA ymks,30.0,Male,B-,Asthma,2021-05-10,laiMvfWnU MvfWnUarV,0,,lf QECRPS,UnitedHealthcare,22693.318884113294,188.0,Emergency,15/01/2022,Lipitor,Normal
+Hgi HHFGzGC,81.0,Female,AB+,Asthma,2021-09-15,QNV NVjqXWlGKeo,0,,kLSGnyjcdBusIY IYxm,Medicare,18241.939143273034,238.0,Urgent,18/11/2022,Paracetamol,Normal
+tNZElz ,37.0,Male,A-,Asthma,2021-06-17, dBU,0,,Kwf KwfcmTYcailtlfYA,Blue Cross,23578.356750860392,203.0,Emergency,08/04/2020,Ibuprofen,Inconclusive
+RovIrBKvmVp ovIrBKvmVpn,49.0,Female,B+,Cancer,2020-07-07,qafKTPj KTPjbIXsJ,0,,cvwSw gR,Blue Cross,16691.2280994022,261.0,Elective,24/07/2020,Lipitor,Inconclusive
+APhkxhqH PhkxhqHiAKo,22.0,Female,B+,Cancer,2021-09-07,RoSrnwQu ,0,,VeZTWTiVZu WTiVZuzUuJTc,Medicare,18698.480466384775,208.0,Emergency,15/08/2020,Ibuprofen,Abnormal
+CCUMTM DXR,38.0,Female,AB+,Arthritis,2022-10-09,YkcZwHQBAqj j,0,,JK ,Medicare,26417.473199917156,267.0,Emergency,21/03/2023,Paracetamol,Inconclusive
+fYqrBeRmuU eRmuURv,84.0,Male,O+,Cancer,2022-06-16,KqlbsKDRKn z,0,,UPHxW jyJYKKAwOzO,Blue Cross,46692.66968496307,235.0,Elective,07/05/2024,Paracetamol,Normal
+RFrj jCCOCCKqf,15.0,Female,AB+,Diabetes,2020-10-15,l U,0,,kgDZuFAo HFgABKX,Medicare,41001.79536468415,329.0,Emergency,28/07/2019,Paracetamol,Abnormal
+Suil TvRclx,42.0,Female,B-,Cancer,2021-07-16,BhBnzQRcJYUF YUF,0,,oANfOluTdbfz ,Cigna,21696.40536493846,459.0,Elective,12/12/2023,Paracetamol,Normal
+RCpvAvNPAEOI RCpvAvNPAEOI,69.0,Female,B-,Diabetes,2020-09-27,NRJnxNkYST x,0,,l zpuFm,Medicare,19832.896233704567,134.0,Elective,13/06/2023,Paracetamol,Inconclusive
+eYdnVSHBnh YdnVSHBnhWY,46.0,Female,B+,Diabetes,2019-06-22, rz,0,,sOF DQEATd,Medicare,36107.15106207135,467.0,Urgent,23/02/2020,Paracetamol,Inconclusive
+ yb,46.0,Male,B+,Asthma,2022-04-29,VW BUnrN,0,,DvctuMU vClDDk,Cigna,20838.134845117867,353.0,Emergency,16/11/2020,Lipitor,Inconclusive
+OBgXEFTOvlJ OvlJG,34.0,Female,B-,Cancer,2020-06-30,keXZZMEq ZZMEqNHhu,0,,pkSykbd kSykbdFpmBedwWL,Blue Cross,26934.52257787552,300.0,Urgent,12/04/2024,Lipitor,Normal
+wFJOzUbLow FJOzUbLowJr,37.0,Male,AB+,Asthma,2022-03-23,Ua k,0,,mCFcMLCwVB LCwVBPHhagC,Blue Cross,35480.39926066078,402.0,Emergency,14/05/2024,Penicillin,Inconclusive
+hCPrjTX qEtt,46.0,Male,B-,Hypertension,2020-08-16,jMktJSW odU,0,,TDmllYhCojXIjUsh jUsh,Medicare,9532.83606352023,345.0,Elective,27/06/2022,Lipitor,Inconclusive
+IhkLMvHO pS,52.0,Female,AB-,Cancer,2023-07-21,mVqWFAvQk mVqWFAvQkYro,0,,bHBJ vUJgLd,Blue Cross,10226.696932689672,458.0,Emergency,11/09/2019,Paracetamol,Inconclusive
+zJzS GdItR,48.0,Male,O+,Arthritis,2022-08-16,kwem J,0,,EOfwEkojjNDqcI EkojjNDqcIUb,Medicare,10237.237835242757,248.0,Urgent,11/05/2023,Ibuprofen,Inconclusive
+pFvlW pFvlWIMLQLIH,59.0,Male,A+,Arthritis,2020-07-03,skSjWfYA kzc,0,,RpQzgtSb gtSbbglkIOWf,Medicare,26355.77961583239,289.0,Emergency,14/01/2020,Lipitor,Normal
+PBXOW PBXOWtyEZXnq,29.0,Male,A-,Diabetes,2019-11-11,XssC ZmqY,0,,LPbAZiYLttSbi uHu,Blue Cross,20112.603035237982,366.0,Emergency,10/02/2024,Lipitor,Inconclusive
+GahY ,62.0,Female,O+,Asthma,2019-03-19,uEGTxyC yCMUcUr,0,,VJcOOcs lSf,Cigna,22406.568529487766,289.0,Emergency,06/05/2022,Lipitor,Inconclusive
+CBgQlWLWyKgg yKgg,56.0,Female,O+,Hypertension,2021-08-10,FIwzq ZGO,0,,INXaKs EwwdzqrX,Cigna,38729.79039980444,142.0,Emergency,06/03/2021,Lipitor,Inconclusive
+LqvxFmcp xFmcpYmUH,47.0,Male,O+,Diabetes,,lAsgQr QrWptcEa,0,,bihXmKhb ,Aetna,19009.39030621059,254.0,Urgent,18/10/2022,Lipitor,Normal
+wbHDNLYx YxzsJt,47.0,Female,B+,Arthritis,2021-07-05,NgRjLqVi XHBX,0,,PSFZIEUNSXidOVdD XidOVdD,Cigna,6468.774316537674,128.0,Emergency,09/11/2019,Lipitor,Inconclusive
+jsd ViIcyiB,27.0,Female,A+,Cancer,2023-04-13,bakpOWrBIcnD cnD,0,,rwTXU wTXUmeceASbyoud,Blue Cross,8367.784233242794,138.0,Emergency,18/12/2020,Aspirin,Normal
+JLTQe hmOkHun,58.0,Male,AB-,Cancer,2021-08-20,zxZ ,0,,dhEYtmu agPEnLYds,Medicare,51548.287494698714,356.0,Emergency,04/02/2020,Aspirin,Inconclusive
+vRZnIwZlR RCXC,77.0,Female,B-,Cancer,2019-03-24,fer rvAJroNXps,0,,qQrpKvhommdoX rpKvhommdoXrbt,Blue Cross,21024.531573424978,275.0,Emergency,16/11/2022,Aspirin,Abnormal
+kIPdwnoPD kIPdwnoPDEll,20.0,Male,A+,Asthma,2023-05-13,GCBN BNfdQUfmVh,0,,TPSBVT yrhpqw,Blue Cross,49696.15253348183,363.0,Emergency,12/06/2021,Paracetamol,Inconclusive
+NqbgMO OGJAXJx,74.0,Female,B+,Diabetes,2023-04-10,OgJIGVOmkgH ,0,,eGdusNlgD DxoFq,Medicare,17085.498072132636,183.0,Emergency,11/09/2022,Paracetamol,Inconclusive
+mPyFmjjjH jHqDm,48.0,Male,A+,Cancer,2021-02-17,a OFawNL,0,,m tKoWETyoglrbiQF,Cigna,8128.97989119776,106.0,Urgent,15/02/2022,Ibuprofen,Inconclusive
+kZbAPQDy PQDyrWXh,58.0,Female,AB-,Diabetes,2020-10-25, HmGNq,0,,OeaFs ,Blue Cross,50968.51511496393,403.0,Urgent,10/11/2022,Paracetamol,Inconclusive
+WDkYIq DkYIqBwwnGy,43.0,Female,AB+,Diabetes,2019-06-11,sIB sIBpogPChBvP,0,,WHIDtGnJIQkiOG Gke,Blue Cross,21758.222966845522,425.0,Emergency,16/06/2020,Paracetamol,Inconclusive
+VkyJKzeYTOU JKzeYTOUe,26.0,Male,B-,Hypertension,2019-05-07,EPVsxvcQa cQaWBz,0,,GZpmlCVeoD VeoDNCNMAf,Blue Cross,19893.62302338493,363.0,Elective,18/04/2024,Paracetamol,Abnormal
+tkIUvFk UvFkixFyK,18.0,Male,AB-,Diabetes,2022-05-15,QtTLtUoTEWr ,0,,MvlfqcdzxJk kDZezk,Medicare,18177.89318698944,405.0,Emergency,05/03/2020,Ibuprofen,Inconclusive
+aVeSXWdD SXWdDEJwd,62.0,Male,B+,Obesity,2022-07-06,keGsxXpbmi miCm,0,,WqIJVOx xPIiBHzZoD,Medicare,20941.378568048556,240.0,Emergency,17/01/2024,Aspirin,Inconclusive
+wm kw,13.0,Female,A+,Asthma,2021-08-01,HZNXo NXoFaCcoRX,0,,xEZBeGDLCPtM E,Medicare,20788.94120172452,330.0,Elective,11/04/2021,Paracetamol,Normal
+ BxFBD,34.0,Male,B+,Cancer,2021-07-12,TitTYrD tTYrDDjlKc,0,,qSktCG tCGdKHWqDCBDf,Blue Cross,21650.069962012993,338.0,Urgent,10/08/2019,Paracetamol,Abnormal
+pAzbAxfTy O,27.0,Male,AB-,Hypertension,2023-05-27,f KOVsOnNp,0,,CcJOcu pxufNTi,Cigna,678.0562186102434,328.0,Urgent,22/11/2023,Lipitor,Inconclusive
+AQCtJYcyXuDC YcyXuDC,62.0,Male,AB+,Diabetes,2022-07-06,tgMx ,0,,vxAwWFikKmOA PxfR,Medicare,35990.10885326823,333.0,Emergency,16/01/2023,Penicillin,Inconclusive
+TAcbt QZ,42.0,Female,O+,Cancer,2021-04-12,HlaXNcQG GXdbn,0,,W eGSSyqGJMXVkK,Medicare,45133.77413362602,158.0,Emergency,07/04/2023,Lipitor,Inconclusive
+xsdpNZ xsdpNZXGSspL,74.0,Female,B+,Diabetes,2021-06-09,dbWtrPSqYt zV,0,,D eqLRXuTuTTrmJZR,Medicare,13683.079995741824,263.0,Emergency,18/06/2021,Lipitor,Inconclusive
+tURkbs tURkbsCiKMvR,49.0,Female,AB+,Asthma,2019-05-14,Qrz GglidHJ,0,,HADIsfhUaYdE DIsfhUaYdEKJWZ,UnitedHealthcare,17438.08981601805,132.0,Elective,15/08/2020,Lipitor,Abnormal
+M ZELotuuR,70.0,Female,AB+,Diabetes,2022-08-11, ,0,,YjD U,Blue Cross,16103.39438415296,395.0,Emergency,20/11/2019,Lipitor,Inconclusive
+mfelvBa eJ,67.0,Female,AB-,Arthritis,2023-04-16,IJCz ,0,,zorxXsWr V,Medicare,35832.07627490649,274.0,Emergency,03/12/2019,Aspirin,Inconclusive
+zhK UuWu,66.0,Female,AB-,Cancer,2020-08-27,yngXXkAzzk kAzzkiU,0,,w zRNdLJfpjEbu,Medicare,37064.02516630943,431.0,Emergency,07/01/2023,Lipitor,Inconclusive
+yiPurJra yiPurJraArsN,52.0,Female,B-,Hypertension,2022-06-29,oiljDLdEOcu oiljDLdEOcuY,0,,AgBoDTpbQiBg oDTpbQiBgoofh,Cigna,10165.631995315116,301.0,Urgent,12/07/2019,Aspirin,Abnormal
+ KlT,43.0,Male,B+,Diabetes,2020-08-24,DvDqENzdf V,0,,OljQOXOhYAcVW OhYAcVWIdA,Blue Cross,23908.717326812886,273.0,Emergency,10/05/2023,Paracetamol,Inconclusive
+Nwi ikOQNsErQl,56.0,Female,B-,Hypertension,2022-07-05,nqN nO,0,,cWizocpgFtpdX FtpdXjCb,Cigna,28594.3756894305,236.0,Urgent,19/05/2020,Lipitor,Inconclusive
+adDVXV hWjuQH,50.0,Female,A+,Hypertension,2021-03-04,wycJ qekTcMW,0,,BRyiwNZmAJcJYOZJ JYOZJ,UnitedHealthcare,35201.32593956543,415.0,Emergency,04/05/2022,Ibuprofen,Normal
+srQ C,57.0,Female,B+,Asthma,2024-04-25,QCeNGYcskK cskKiy,0,,BpMpRfT k,Blue Cross,30891.208245780494,171.0,Emergency,09/01/2022,Ibuprofen,Abnormal
+IWFVKTm hVHyv,64.0,Male,O+,Obesity,2021-11-07,ieLYjH ZWRep,0,,AqpLebVCDtLRkfa Rkfac,Blue Cross,12422.748431722532,149.0,Emergency,14/01/2021,Penicillin,Inconclusive
+np pdwCAYABtkt,59.0,Male,B+,Hypertension,2021-06-01,NEQizihGx ihGxBfK,0,,bIKSiEWN iEWNnGkVcGHq,Aetna,19487.962088613458,274.0,Emergency,17/11/2020,Ibuprofen,Inconclusive
+bsyAaCVgQaWZ Z,51.0,Male,A-,Diabetes,2023-06-12,qXVjnzrhnS zrhnStJ,0,,M XjwDfIR,Medicare,27546.853498761175,195.0,Emergency,27/07/2020,Lipitor,Inconclusive
+sNvTPSzroOua PSzroOua,62.0,Female,AB-,Diabetes,2023-03-09,zrwnlSu SuaSUAX,0,,niIHhPrYtBhLUC UCQJ,Medicare,23071.26696923199,323.0,Elective,01/10/2020,Paracetamol,Inconclusive
+YfwL MYyFjvxf,55.0,Male,B+,Cancer,2022-11-10,KWChGHBdyHZ dyHZo,0,,ObtblNHjuz dWVh,Aetna,38812.81333949761,346.0,Emergency,25/06/2021,Lipitor,Inconclusive
+GAcK jQy,16.0,Female,B-,Cancer,2023-11-10,W GG,0,,ntljAyClnrV nrVWpYXp,Cigna,46257.50516447221,217.0,Elective,17/10/2023,Ibuprofen,Inconclusive
+XPIQRpvLSK PIQRpvLSKee,61.0,Female,B+,Cancer,2024-06-27,ZfI ZfIzrcEPApoD,0,,AzCnYa NeU,Medicare,45361.884455419946,239.0,Emergency,08/12/2023,Ibuprofen,Inconclusive
+URDMPWpmnW RDMPWpmnWlK,40.0,Female,O-,Asthma,2023-05-10,fYvteDPQhMW V,0,, aVXqlvjWQ,Blue Cross,22359.81969516969,157.0,Emergency,26/05/2023,Penicillin,Inconclusive
+krIIEUmxykMt mxykMt,87.0,Female,B-,Cancer,2021-08-29,AWDp BuwM,0,,BKrratrPJfZ ZwQybw,Cigna,36575.734393320294,153.0,Urgent,09/11/2022,Lipitor,Normal
+OgopHUcmpV VUq,77.0,Female,O+,Obesity,2024-09-13,v k,0,,Qezrau rauOuBPNwehOG,UnitedHealthcare,17583.38647006223,326.0,Elective,05/11/2020,Ibuprofen,Inconclusive
+UCGNiHfBZtw ,68.0,Male,B-,Diabetes,2020-06-20,CgHBCKpmhWW CgHBCKpmhWWL,0,,wsJSufAjgpLZiO gpLZiOiY,Aetna,14684.4532249756,442.0,Emergency,11/11/2021,Lipitor,Normal
+BXDkluTYO kluTYOWgF,42.0,Female,A-,Cancer,2020-07-14,bp wNZwMeZ,0,,qCIsCc h,Blue Cross,15568.276473789936,309.0,Elective,17/05/2019,Ibuprofen,Inconclusive
+orFCk FCkQuQzaPn,74.0,Male,B-,Hypertension,2022-11-05,qYQk UExTBHQd,0,,pTpoADxl pTpoADxlNGwmrUKa,Cigna,15871.55735157877,358.0,Emergency,21/11/2022,Penicillin,Normal
+cdotpvV dotpvVHxbks,60.0,Male,B+,Diabetes,2020-06-06, uXixNP,0,,fZkTvSeDPluvsH uvsHlF,Aetna,38439.1799049113,327.0,Elective,23/05/2023,Ibuprofen,Inconclusive
+GeZLly GeZLlyBqlYTA,45.0,Female,B-,Hypertension,2020-06-14,J cCr,0,,XpvVrjwYISNAhQ YISNAhQsl,Medicare,36055.986815975135,288.0,Emergency,27/05/2022,Lipitor,Normal
+cKAfAhrYmLQ KAfAhrYmLQJ,77.0,Female,A-,Cancer,2021-05-28,Fw b,0,,DuhqnVuieJGQ uhqnVuieJGQFqan,UnitedHealthcare,21824.2138328548,238.0,Emergency,07/11/2023,Paracetamol,Inconclusive
+mmJwepX yKWk,69.0,Female,AB-,Asthma,2021-07-08,dsOwwyBSnox noxZ,0,,QxzruA McEL,UnitedHealthcare,23858.166374253466,445.0,Emergency,14/07/2023,Ibuprofen,Abnormal
+F FMsZNuPCKfGK,38.0,Male,A+,Asthma,2024-05-14,SSAhCSdzwsYr sYr,0,,CTcVEHFaqlhUwPt EHFaqlhUwPtB,Medicare,15790.629915382326,245.0,Emergency,15/03/2024,Penicillin,Inconclusive
+JxttO JOk,63.0,Male,B+,Asthma,2023-10-29,kkPwwcfxzCfL CfL,0,,VYRnqyhkiqh ViMWr,Medicare,10810.702577952079,296.0,Emergency,18/10/2020,Ibuprofen,Inconclusive
+wLhTyrHV VnvzN,54.0,Female,AB-,Asthma,2019-10-11,E MasZK,0,,sVkFUqnMmgHCaZp FUqnMmgHCaZpa,Cigna,6019.960176756122,178.0,Emergency,22/05/2020,Lipitor,Abnormal
+qMC P,41.0,Male,B-,Asthma,2022-09-19,eA LfWqltyK,0,,NSfJNfiRzVG FQ,Medicare,12869.402405708652,436.0,Emergency,23/12/2021,Lipitor,Abnormal
+qsNmlyX XwgsDd,48.0,Female,A-,Diabetes,2022-02-14,QpHKoRlZx ZxRvc,0,,fwisamFfOgsKDe FfOgsKDerI,Medicare,15950.700533995887,385.0,Emergency,15/06/2021,Lipitor,Inconclusive
+oCXr ,62.0,Female,AB+,Cancer,2022-04-23,VaIOjgX bMHG,0,,HFDyPbmpAopUYWC yPbmpAopUYWCR,Medicare,46724.69050418698,381.0,Emergency,21/07/2023,Lipitor,Inconclusive
+YTPoNfa QtpM,69.0,Female,O-,Cancer,2021-03-14,L F,0,,C LPLFGcauwemC,Blue Cross,24294.90835055813,155.0,Emergency,21/11/2021,Ibuprofen,Inconclusive
+pbb ASPcIChHs,37.0,Male,B+,Diabetes,2020-09-03,uNqCDbsrq rqxUt,0,, ,Cigna,15926.037648651609,176.0,Elective,15/04/2020,Paracetamol,Inconclusive
+gIODgOB w,36.0,Female,O+,Asthma,2023-08-17,uoJwYEpgwGX ,0,,uDQnTCiPEkf PEkfbhkWM,Blue Cross,27633.53220426671,264.0,Elective,02/01/2022,Penicillin,Inconclusive
+exxuXXxdqDt xdqDtn,60.0,Female,O+,Asthma,2022-09-26,jqX ED,0,,vqilWe qCRbAtSQH,Blue Cross,18164.754589810946,308.0,Urgent,16/10/2019,Penicillin,Inconclusive
+RHS CK,69.0,Female,O-,Obesity,,cJqPKsz ,0,,IZkKdSKzLzYHJJy kKdSKzLzYHJJyx,Cigna,6512.420250918869,314.0,Emergency,22/02/2022,Lipitor,Inconclusive
+RFZSyeXsZd eXsZdgC,49.0,Female,A+,Cancer,2021-07-06,zTiIYkdeJOv ,0,,XS mak,Blue Cross,24382.62327285425,138.0,Emergency,17/04/2021,Aspirin,Inconclusive
+pHFSErpKgyh pKgyhi,80.0,Male,B+,Hypertension,2021-09-13, PRO,0,,nKkmrA xfXwLhRfCp,Cigna,33146.60697690831,295.0,Emergency,05/03/2021,Paracetamol,Abnormal
+cIuS H,47.0,Female,AB-,Asthma,2023-05-17,i AdPcULaTW,0,,HcnoROQEomzfcraa ROQEomzfcraa,Medicare,38008.12196385517,363.0,Emergency,10/09/2021,Aspirin,Inconclusive
+ldfWhUzKPk hUzKPkNP,28.0,Female,B+,Obesity,2021-09-23,C Z,0,,POkFRBqf opWTPq,Medicare,36655.44225861869,399.0,Elective,15/04/2022,Lipitor,Abnormal
+ KRfXDROUpeuW,79.0,Male,O+,Asthma,2019-09-22,WIfAKnHtyln fAKnHtylnM,0,, nBFKM,Cigna,8448.392248845335,228.0,Emergency,17/12/2020,Lipitor,Normal
+WUWVX WVXmINRcVZ,50.0,Female,AB-,Diabetes,2020-01-11,ScfITivyn ivyngAZ,0,,Nbfxvh jZK,Aetna,7385.725214651287,321.0,Urgent,19/01/2020,Ibuprofen,Normal
+DWifrirtOkB frirtOkBc,39.0,Female,O+,Hypertension,2019-10-09,apfJCI qsSCT,0,,AZtuA AdYBbpxQ,Medicare,31664.54782213637,393.0,Elective,23/12/2021,Lipitor,Inconclusive
+fBfQ U,56.0,Female,AB-,Asthma,2023-03-19,lRDYRsvdx S,0,,WANbxbqL VLIyE,Blue Cross,23677.76289628691,251.0,Emergency,03/12/2023,Ibuprofen,Inconclusive
+yTYOyORDd RDdmJy,42.0,Male,AB-,Diabetes,2022-11-11,zvRNaQbcIjp QbcIjpI,0,,uXbWMus Nygypqb,Medicare,29344.662401931273,265.0,Emergency,22/04/2021,Aspirin,Inconclusive
+ZkOKCMkADyeq OKCMkADyeq,38.0,Male,O+,Cancer,2023-04-19,e gQdbTmQJw,0,,Uyc ONhRMkMB,Cigna,4387.8423035708765,295.0,Urgent,08/06/2020,Lipitor,Abnormal
+C tw,39.0,Female,AB-,Hypertension,2022-10-20,QOWnIj nIjTQvzIN,0,,gNciyz T,Blue Cross,10101.251944530917,314.0,Emergency,31/07/2022,Ibuprofen,Inconclusive
+Wb gxSB,19.0,Female,AB-,Arthritis,2021-09-15,fkIcFQWeFPEQ IcFQWeFPEQ,0,,KX zHmYVTz,Medicare,49596.291785785375,322.0,Emergency,20/10/2020,Lipitor,Inconclusive
+Vn swGN,57.0,Male,A-,Cancer,2020-03-16,M xvv,0,,OARedP OARedPCzYDAdrtIt,Blue Cross,43873.09205223143,372.0,Urgent,04/04/2022,Paracetamol,Abnormal
+ntsmas tsmaspgCTer,77.0,Male,B-,Cancer,2021-07-13,Lg mKZso,0,,NeTUPbWxkOOoort eTUPbWxkOOoortq,Medicare,34752.231928384026,110.0,Emergency,24/02/2022,Ibuprofen,Inconclusive
+VdUjebWo KYCQ,60.0,Female,A-,Arthritis,2020-07-20,ZbTg tqjpOrrX,0,,lKK R,UnitedHealthcare,28918.605958163578,305.0,Emergency,20/01/2020,Ibuprofen,Abnormal
+rLB RJ,39.0,Male,AB-,Asthma,2022-03-11,gIFLHHyhfxm fxmw,0,,JDzVXYvPrxrMCIz zD,Medicare,23702.5406357434,243.0,Emergency,15/02/2023,Paracetamol,Inconclusive
+ QgBfO,36.0,Female,O+,Hypertension,2021-01-09,rsJCTCdRP sJCTCdRPMgc,0,,Ezj DZiCOTmcwv,Blue Cross,4997.013919191446,387.0,Urgent,20/09/2022,Paracetamol,Inconclusive
+FQchRw ,61.0,Male,A+,Hypertension,2021-08-28,ylUdffNlP ylUdffNlPFwW,0,,nAb Xxe,Aetna,7626.072492845342,404.0,Emergency,23/07/2022,Ibuprofen,Inconclusive
+MPK h,74.0,Male,O+,Arthritis,2021-10-11,pVDcOK FmRE,0,,cgcPntDzqSESiF iFim,Cigna,15440.64033714589,180.0,Urgent,12/05/2024,Paracetamol,Inconclusive
+EHRdLyItTyiX EHRdLyItTyiX,62.0,Female,B+,Diabetes,2022-02-16,Om WL,0,,P LxODSwcF,Medicare,38481.187245660505,355.0,Emergency,02/05/2020,Aspirin,Inconclusive
+cfkbIekrjj yZ,15.0,Female,AB-,Cancer,2023-09-23,qDEApWXNggB qDEApWXNggBT,0,,GIMi LrlyGRZ,Cigna,28635.67393849494,349.0,Emergency,25/04/2023,Penicillin,Inconclusive
+YVP mRen,64.0,Female,O-,Diabetes,2020-04-23, WmKkfQuZwkRq,0,,YiJnML MLNVCChcchYU,Medicare,16692.68251114858,240.0,Emergency,09/06/2020,Ibuprofen,Normal
+sEzjccRI RIWTlu,60.0,Male,B-,Cancer,2020-09-11,Y AxRUr,0,,YURgAPEU URgAPEUhxgmfpbE,Medicare,43290.09620965759,423.0,Elective,18/12/2022,Paracetamol,Abnormal
+gKgTWALsd LH,65.0,Male,O+,Cancer,2021-03-06,Net rgviA,0,,PxfYHrVX REc,Blue Cross,5581.9338315789755,200.0,Elective,24/07/2023,Ibuprofen,Inconclusive
+jGRz BLBMbRaU,42.0,Male,B+,Cancer,2019-07-21,QbsAcXC bsAcXCwwEfR,0,,CiSeMnTHr CiSeMnTHrijMcKyI,Blue Cross,33652.88186661694,246.0,Emergency,18/04/2022,Lipitor,Normal
+KTR RKZGHLTczC,32.0,Female,B-,Diabetes,2022-03-03,WzohpYpROJ zohpYpROJDd,0,,jdLaKl aKlWqoSMWrpXI,Blue Cross,44263.34229900486,252.0,Urgent,03/09/2022,Paracetamol,Inconclusive
+gNG S,69.0,Male,O+,Cancer,2022-07-15,TwZkZgCQjQ cv,0,,vjqtMAsGbbgP bgPoOWa,Blue Cross,6622.341281894798,418.0,Emergency,31/01/2023,Lipitor,Inconclusive
+KXteqH a,33.0,Female,O+,Asthma,2023-05-10,JsUDor SVsPz,0,,sYBz BzsvMBvOqaHnox,Cigna,31551.373267210365,206.0,Emergency,15/01/2024,Lipitor,Inconclusive
+d XDSipT,68.0,Female,AB+,Hypertension,2023-07-04,lvwIfDJhxwOp hxwOp,0,,MMKXxDVHBXp XxDVHBXpvBAOp,Blue Cross,38753.95083807147,420.0,Emergency,15/01/2020,Lipitor,Inconclusive
+ plJNhiN,63.0,Female,AB-,Cancer,2020-10-08,HGMNNmNc HGMNNmNcOQQf,0,,aZnHcolF oOG,Blue Cross,10029.404887001474,386.0,Emergency,16/06/2023,Lipitor,Normal
+SOEidDuNqgvO qgvO,71.0,Male,AB+,Cancer,2022-05-23,nukNuNANkwFe nukNuNANkwFe,0,,aiKoELGmZMBPWffg oELGmZMBPWffg,Blue Cross,5384.453301385689,161.0,Urgent,13/02/2023,Paracetamol,Abnormal
+ yLsU,61.0,Female,B-,Diabetes,2022-08-23, EMclzWruxmIC,0,,aU ZUBBpuwrQOprqW,UnitedHealthcare,35594.661787870435,316.0,Emergency,09/01/2023,Penicillin,Inconclusive
+P imczbNmZ,67.0,Female,A-,Diabetes,2022-08-09, Avxgv,0,,PlLH LY,Cigna,19737.687651942404,282.0,Elective,17/05/2022,Ibuprofen,Normal
+eBmJoa ,31.0,Female,AB-,Hypertension,2019-10-04,bxipg hpkpFe,0,,wqUJK KNKTaeZDuOmq,Medicare,28812.875756423535,252.0,Emergency,26/02/2023,Penicillin,Normal
+uMUj wiTo,44.0,Female,O-,Asthma,2022-05-02,RYO XXJIBB,0,,dbfLIpjv Idc,Cigna,48333.38609965998,157.0,Emergency,02/04/2021,Aspirin,Inconclusive
+gm nvOM,46.0,Female,AB+,Cancer,2019-06-30,wGUPjsQr AZfR,0,,UpzqLVhO pzqLVhOltNRDmEJ,Blue Cross,24294.83208719291,283.0,Elective,18/05/2021,Ibuprofen,Normal
+rMvG bQfQnM,50.0,Female,A-,Asthma,2021-11-12,qtrs Vj,0,,wBqXpeONdRixwrY RixwrYv,Medicare,29433.355707648974,369.0,Emergency,18/01/2020,Penicillin,Inconclusive
+tKuLbfZ tKuLbfZQQfDm,36.0,Male,AB-,Diabetes,2022-06-12,mOpctvcn mOpctvcnqJBb,0,,ZAManWYewer anWYewertSfDT,Blue Cross,43473.94242095803,218.0,Emergency,20/02/2020,Aspirin,Inconclusive
+Qmxn lHKKzM,47.0,Female,AB+,Diabetes,2022-04-25,mwQBu ,0,,UUbRrKPmOrqb rqbPDTp,Cigna,10617.322126091343,373.0,Urgent,13/09/2022,Ibuprofen,Inconclusive
+YYZh rQ,72.0,Female,B-,Cancer,2023-04-24,fVvuSlI VvuSlIjjgAi,0,,bTGdxOggEAlVhyr ,Cigna,29725.472038914388,283.0,Urgent,14/07/2020,Ibuprofen,Inconclusive
+tfOlwWI tfOlwWIPVDEr,42.0,Male,AB-,Cancer,2019-11-09,wrUyTDSo yTDSooSjG,0,,wcydTgyKsf FGZ,Cigna,38471.02278197931,164.0,Emergency,17/11/2019,Lipitor,Inconclusive
+gswUCZLTxS gswUCZLTxSGE,62.0,Male,AB-,Diabetes,2021-07-18,uYakePcMcV Q,0,,xMdEMKrfPePpkrul EMKrfPePpkrul,Cigna,48873.38975972858,210.0,Urgent,14/06/2021,Paracetamol,Abnormal
+KwovaWfDlrH wovaWfDlrHx,36.0,Female,AB+,Cancer,2020-08-02,uG NNsoYDu,0,,giMBQq xfPINdwg,Blue Cross,15668.595417392684,314.0,Emergency,20/11/2019,Lipitor,Inconclusive
+j gLkwOCwHprQ,65.0,Female,A-,Obesity,2020-10-04,DRIFmTVPn rj,0,,JGKTFrpWAhLSxNz KTFrpWAhLSxNzE,Cigna,-849.5552001960896,405.0,Emergency,27/11/2021,Lipitor,Inconclusive
+BldJ dq,31.0,Female,B+,Cancer,2023-04-15,FRUhk ZrZkaA,0,,ZXDnuvvUfuToT UfuToTXUG,Medicare,21085.214760135837,347.0,Emergency,25/09/2019,Ibuprofen,Normal
+WZpmosg kGQSa,56.0,Male,B-,Cancer,2022-03-20,Hfsz szeruOemHI,0,,yL nOuwAriwFS,Aetna,31447.086022817348,184.0,Elective,11/01/2022,Lipitor,Abnormal
+KwmUjbXkSks KwmUjbXkSksj,65.0,Male,A-,Cancer,2021-11-05, is,0,,f fNGiyxqJQwuHHtnU,Cigna,40071.00515145897,246.0,Emergency,01/07/2020,Paracetamol,Inconclusive
+GUObiJUjy biJUjyItc,77.0,Male,B-,Diabetes,2020-03-20,dzS SsBhdUpIfl,0,, FdVMJggK,Medicare,41329.59901186817,389.0,Emergency,24/08/2019,Lipitor,Inconclusive
+JXfco XfcokWrtkjj,17.0,Male,O+,Asthma,2023-04-10,iqv de,0,, FnySte,Blue Cross,8698.168568236244,384.0,Urgent,23/06/2019,Ibuprofen,Inconclusive
+cxpiGtr piGtrOvCPJ,36.0,Male,AB-,Cancer,2024-08-28,xyQ xyQbGSLLfJmB,0,,rJhDbfsNJ hnRH,UnitedHealthcare,44323.50509289754,304.0,Emergency,22/04/2020,Ibuprofen,Inconclusive
+LChgqFY pf,55.0,Female,O-,Asthma,2019-11-26,RcSYIEetnRP tnRPq,0,,LbKPXwQQ LbKPXwQQyABRPDDB,UnitedHealthcare,45794.95902662863,357.0,Emergency,13/10/2021,Lipitor,Inconclusive
+iWOErSKNADTf SKNADTf,48.0,Male,O+,Asthma,2019-08-02,DFiPZjWq PZjWqQNws,0,,FAQiiQbNqhlrgBtf ,Medicare,30972.54099783924,243.0,Emergency,07/05/2022,Lipitor,Inconclusive
+cMNb bzxQZfXHt,42.0,Female,AB-,Asthma,2020-08-08,T xUPjkdpPIOp,0,,jxBcWgdUk cWgdUkecCXWuX,Cigna,29618.674980452925,325.0,Urgent,01/02/2020,Lipitor,Normal
+axNUgpQIc IcTup,31.0,Female,AB+,Hypertension,2021-03-08,wLdNpdsh shHAxC,0,,pJb O,Cigna,7185.821660544694,367.0,Elective,02/05/2020,Paracetamol,Inconclusive
+NxewlOnUGy wlOnUGybC,56.0,Male,B+,Cancer,2022-08-19,dM dMAvlMlnpPpz,0,,wyXFqejhSsDch FqejhSsDchTIa,Blue Cross,17918.602199010016,355.0,Emergency,27/10/2019,Lipitor,Inconclusive
+WNGp NGpQRoNUnXi,54.0,Female,A+,Hypertension,2021-09-20,xKypSXMLJPgJ JPgJ,0,,AfyojvjdHlQ jvjdHlQbheJO,Medicare,29840.028113463515,421.0,Emergency,21/07/2023,Ibuprofen,Inconclusive
+uF uFWnoeTVFhOi,31.0,Female,AB-,Cancer,2021-09-12,tIKcVIoz ozcKeN,0,,lHVg ajpTeDaHE,Cigna,13941.220599958324,395.0,Elective,19/02/2020,Lipitor,Normal
+ZydDMjjPvUuF jjPvUuF,49.0,Male,B+,Arthritis,2021-06-24,RTw RTwAUVFmwjAd,0,,HxoRd BOUR,Blue Cross,27662.204257008627,223.0,Emergency,26/10/2020,Paracetamol,Inconclusive
+LezWAS zWASTWHmfp,70.0,Male,B-,Cancer,2024-04-16,odckoisZm WUh,0,,kwAwWCaWwcHaK wcHaKyrd,Blue Cross,31616.357826116076,300.0,Emergency,06/12/2020,Ibuprofen,Normal
+QPhjQO luvA,56.0,Male,B+,Diabetes,2021-08-01,iYsLfwwVe YsLfwwVenFk,0,,efapdNfkpcFlx pcFlxZcc,Blue Cross,9501.139757224528,283.0,Emergency,19/09/2023,Lipitor,Abnormal
+jklTMvEBBBBx ,26.0,Female,AB-,Cancer,2022-03-19, dsC,0,,yhlLcVyPVq RXyta,Cigna,38518.99408270439,315.0,Emergency,12/01/2024,Paracetamol,Abnormal
+lcj Nntk,36.0,Female,AB+,Hypertension,2023-03-10,azaqj YNJF,0,,zua ,Aetna,7983.010846971669,237.0,Emergency,19/05/2020,Ibuprofen,Inconclusive
+a bLPI,41.0,Male,B-,Cancer,2022-12-16,SlGOkpsFo FomVG,0,,wEBEZKclWy WyXHOpWp,Medicare,24636.491672658118,235.0,Urgent,20/02/2022,Paracetamol,Normal
+mPvwDbMgX MgXzzm,45.0,Female,O+,Diabetes,2021-08-26,s sCBmPsrpMNNy,0,,ZyGSUVaEsWa oZIN,Blue Cross,16077.096505776117,225.0,Emergency,11/07/2020,Paracetamol,Inconclusive
+knZLRUeUARRN ,51.0,Female,B-,Hypertension,2022-03-12,ReTXKcM eTXKcMgTVhb,0,,PJnvxtOKCeY JnvxtOKCeYjGsVE,Aetna,2170.576333615787,210.0,Urgent,16/07/2019,Lipitor,Abnormal
+TBOfDPduNWyy TBOfDPduNWyy,41.0,Female,B-,Diabetes,2020-11-19,QLPBLdhB BQzcG,0,,ydoRBmzfxe ,Cigna,18020.280668259365,192.0,Elective,17/01/2022,Ibuprofen,Inconclusive
+qlSpVGV lSpVGVFzKQn,63.0,Female,A-,Cancer,2021-06-14,cXbpxT ,0,,vUHpuhGTumGhZrHK K,Medicare,23053.677662202954,261.0,Emergency,15/02/2020,Paracetamol,Abnormal
+zCBekENsAX AXqI,82.0,Female,AB-,Diabetes,2024-07-10,lqrygSsR qrygSsRqyeF,0,,BUOeq tULKzbHpF,UnitedHealthcare,14777.66710995203,244.0,Elective,05/12/2019,Aspirin,Inconclusive
+FoLox cDCHiwQ,55.0,Female,AB-,Obesity,2022-06-04,lOebGSad i,0,,Afl qvDgi,Blue Cross,28039.4388559425,132.0,Emergency,22/11/2021,Lipitor,Inconclusive
+ YBEAE,39.0,Male,AB+,Asthma,2021-05-08,aAm Iw,0,,B GxwGb,Blue Cross,29800.48055538744,456.0,Emergency,29/07/2023,Penicillin,Inconclusive
+dvqShTGzwO hTGzwONY,57.0,Male,AB+,Asthma,2022-06-17,fk KXvDbMo,0,,ENLERNeDddxCx CxcDo,Blue Cross,5702.381604536065,307.0,Urgent,31/10/2021,Ibuprofen,Inconclusive
+nvvWK TGQp,47.0,Male,AB-,Asthma,2020-05-27,RVnTvPQz VnTvPQzykWl,0,,nzIhCwiYz nzhL,Cigna,22920.24964755037,327.0,Emergency,20/07/2022,Lipitor,Inconclusive
+YBngbWCIoMxI ,76.0,Female,AB-,Diabetes,2021-05-14,RgKJQMB QMBCqBcl,0,,OUBMapORzLJfI OUBMapORzLJfIpTL,Medicare,9311.752618268954,387.0,Emergency,13/06/2019,Paracetamol,Inconclusive
+ GTNaaGCmPNr,20.0,Male,AB+,Cancer,2021-07-28,oxXDMsYnNR nNRJZ,0,,bknayWIevXWnwgk kM,Blue Cross,8863.353024582619,325.0,Elective,22/02/2021,Paracetamol,Abnormal
+ZJjcfOmc ZJjcfOmcHNjf,55.0,Male,B-,Cancer,2023-09-17,eeDEnbH pNPyC,0,,FyAFueN NQcnmTmKne,UnitedHealthcare,33682.897889545886,246.0,Emergency,11/01/2024,Paracetamol,Normal
+VhGYZTsQwlO OW,34.0,Male,B+,Hypertension,2022-04-16,MtgPGXE EwjlFe,0,,PHtrJzhwyGtiRSi GtiRSir,Blue Cross,3370.589063727428,382.0,Urgent,14/02/2024,Lipitor,Inconclusive
+kEoMWHIw oh,84.0,Male,B+,Cancer,2020-06-13,jdtTnJgRo TnJgRojmV,0,,iMxvgzNNnrdD gzNNnrdDNAmZ,Cigna,28933.709047720018,127.0,Elective,17/10/2020,Penicillin,Normal
+eyLvIoj BmvO,43.0,Female,A-,Diabetes,2020-09-08,mLiBm PvK,0,,Sz c,Medicare,25471.689924425977,400.0,Emergency,06/06/2019,Penicillin,Normal
+ E,16.0,Female,AB-,Diabetes,2024-12-26,RqSuiyuSrUY y,0,,dplOHshj dplOHshjjZAQkDTn,Cigna,22489.265594193384,378.0,Emergency,13/11/2021,Paracetamol,Inconclusive
+DCdE DCdEBmiHbRqQ,47.0,Female,B-,Cancer,2019-05-23,lkVS VSxViztAhx,0,,CZTj ZTjgZtWsrwQsHdw,Medicare,32492.703153636226,281.0,Emergency,17/09/2021,Lipitor,Abnormal
+doMsRrfO MsRrfOPqYP,88.0,Male,B+,Asthma,2020-07-12,dUs UsRcYQVKFvU,0,,tcUysaDY ysaDYlEMXNrhF,Blue Cross,13565.465541506272,195.0,Elective,30/05/2020,Paracetamol,Inconclusive
+YCEIdxYLhEm IdxYLhEmA,51.0,Female,O+,Diabetes,2021-08-15, EYS,0,,vfwLfMcRJZM JZMPLEQZ,Blue Cross,16452.914164433918,111.0,Urgent,28/10/2022,Lipitor,Abnormal
+eGqfKb nV,61.0,Male,O-,Diabetes,2020-02-25,dMKygVUngA I,0,,UIg IgIkSkNHelImiAG,Blue Cross,31881.60655330409,414.0,Emergency,10/09/2023,Penicillin,Normal
+o gLdp,59.0,Male,O+,Hypertension,2021-08-19,REc PYnW,0,,l LEHEtMoX,Medicare,10028.558091605933,368.0,Emergency,12/07/2022,Penicillin,Abnormal
+MIm ,64.0,Male,O+,Obesity,2024-03-16,PDmJeKkEKaZL aZL,0,,PfHWETizVLefPL VLefPLIT,Blue Cross,18708.477280422343,140.0,Emergency,28/06/2019,Ibuprofen,Normal
+pipVOkj kjMOuwj,80.0,Female,AB+,Cancer,2022-08-06,TKWzEzdsCfU I,0,,dGDsbNjZWx Vr,Cigna,25104.120664793583,338.0,Urgent,30/10/2019,Ibuprofen,Inconclusive
+ aCOieNlPR,66.0,Male,A-,Cancer,2022-08-08, lfXpXlzGeA,0,,nISrHsBosiwMgX sBosiwMgXTN,Medicare,1678.587484817017,409.0,Urgent,08/09/2019,Penicillin,Inconclusive
+vJq io,88.0,Female,O+,Arthritis,2021-06-23,dRSnLL uc,0,,RXBODUDHh DHhpCtasRh,Cigna,37708.457510556414,254.0,Emergency,05/05/2021,Lipitor,Inconclusive
+Nl Y,48.0,Male,B-,Obesity,2020-06-13,CwawC an,0,,Kj at,Blue Cross,22425.053646810597,282.0,Emergency,10/06/2021,Ibuprofen,Abnormal
+QqRtQbeXfMW tQbeXfMWq,31.0,Male,B+,Diabetes,2020-05-18,IB wmjb,0,,e kHfrXMAAe,Blue Cross,32066.20124816052,360.0,Urgent,16/10/2022,Paracetamol,Normal
+BGl GlslUZVSpfn,81.0,Male,A-,Diabetes,2022-08-08,zmsUSKJTs KJTsquU,0,,O YdE,UnitedHealthcare,37395.722643988745,401.0,Emergency,20/11/2021,Ibuprofen,Normal
+pxFTtISsqwDZ xFTtISsqwDZ,50.0,Male,O+,Diabetes,2022-05-09,khX eOEdN,0,,jiipNgGyO yOboObhhJ,Medicare,22138.219436545613,339.0,Emergency,27/02/2023,Ibuprofen,Abnormal
+yvBWsDaTsDF WsDaTsDFc,28.0,Female,B-,Cancer,2024-06-22,Ufi uLKCrtzx,0,,wsgziwJcEjj VAtA,Medicare,32138.375022774104,438.0,Urgent,28/04/2022,Lipitor,Abnormal
+itTAOo tTAOolBAkFl,48.0,Male,AB-,Obesity,2022-02-16,lKAa ,0,, abiFLNUi,Cigna,18891.663335560417,360.0,Emergency,17/12/2019,Paracetamol,Abnormal
+IPk NvMG,48.0,Female,B-,Cancer,2021-05-14,hFXcgOIsv OIsvGjL,0,,IcUEKKjbEkLTgU gUqO,Medicare,5825.161972145637,352.0,Emergency,26/07/2021,Ibuprofen,Inconclusive
+apJeXOS J,60.0,Female,A-,Cancer,2023-05-24,dTphcxJGtUw tUwG,0,,DABWgJceWVM eWVMUjgBy,Medicare,52330.4780529226,427.0,Elective,13/01/2023,Ibuprofen,Normal
+KxlHqUlChxF xlHqUlChxFx,27.0,Male,AB+,Hypertension,2023-10-15,BbjbvJQenWGD enWGD,0,,UOjisUHsy ,Medicare,25681.07903015716,306.0,Elective,07/08/2023,Lipitor,Normal
+qj SHqdug,51.0,Male,B+,Asthma,2022-07-20,JLbNySpxevMH vMH,0,,EADgLmOwoMjFdYLt EADgLmOwoMjFdYLt,Medicare,48794.05348172168,428.0,Emergency,18/06/2021,Penicillin,Inconclusive
+NDsaHOFeN NtPY,41.0,Female,A-,Cancer,2021-07-23,SabEODudxCBK CBK,0,,QaDk ,Cigna,36552.772635066576,318.0,Elective,08/10/2019,Lipitor,Abnormal
+JqsFFdXBr qZH,49.0,Male,AB+,Obesity,2020-05-23,uOQmf id,0,,p TOSUnTbKjfg,Medicare,22215.290479411673,177.0,Elective,29/03/2023,Lipitor,Normal
+ gsVmdfEsZLpR,56.0,Male,B+,Cancer,2019-09-19,dVTt X,0,,GFnSLo uuhoPQq,Blue Cross,11633.399591555693,478.0,Emergency,08/05/2023,Lipitor,Abnormal
+eBjOJ JtDOSfns,88.0,Male,AB+,Diabetes,2022-08-16,aqLAYg gUOrjLk,0,,T VaWRjatEYczy,Blue Cross,31513.57119043382,448.0,Emergency,21/12/2020,Ibuprofen,Abnormal
+WMa NvviDN,50.0,Female,AB+,Diabetes,2021-08-20,t S,0,,sarSE re,Blue Cross,9516.406695186335,274.0,Urgent,20/06/2022,Ibuprofen,Inconclusive
+qy d,40.0,Male,AB+,Diabetes,2022-07-09,rnqMTiRVBRez iRVBRez,0,,hTHQwZsMeDsCb ZsMeDsCbGjv,Blue Cross,29534.999389212986,160.0,Emergency,27/07/2022,Aspirin,Inconclusive
+xHSup yLQq,44.0,Male,AB-,Asthma,2021-04-14,hxvZaQztpGHS hxvZaQztpGHS,0,,LocjkQpBVgZI pBVgZIWhHI,Cigna,2992.8361225913904,113.0,Urgent,28/07/2019,Penicillin,Normal
+SkAeObAWg AeObAWgAnG,68.0,Female,AB+,Hypertension,2021-08-11, dUodYgPY,0,,GX aVBUnRqGCd,Cigna,44056.87739734292,226.0,Emergency,19/04/2020,Lipitor,Inconclusive
+njtyfNKQuGY Yc,65.0,Male,AB-,Hypertension,2020-09-28,s lRWBzbmKA,0,,dM hcwyUgVLpW,Medicare,34568.66602156641,187.0,Emergency,17/10/2020,Lipitor,Inconclusive
+CIoyRXPYFm ,75.0,Male,AB-,Diabetes,2020-10-11,QSVg NEeks,0,, pZ,Medicare,19312.36012861349,196.0,Emergency,30/09/2021,Lipitor,Inconclusive
+pJVuIrJgxJln ,34.0,Male,A+,Arthritis,2021-05-19,RjtizZbBRxE RxEf,0,,NzWBlrAWHEMqtlld NzWBlrAWHEMqtlld,Medicare,39288.169069173324,329.0,Urgent,08/08/2019,Paracetamol,Inconclusive
+LutOQMlqrUc cl,35.0,Male,A-,Hypertension,2020-08-28,jsqKKZKc beTr,0,,frNvJYiumYqiRF rNvJYiumYqiRFvq,UnitedHealthcare,24391.53910344616,453.0,Emergency,16/06/2022,Ibuprofen,Inconclusive
+aKzKasPcoau KasPcoauA,89.0,Male,AB+,Cancer,2022-06-19, OFihRdRn,0,,wnl iZzZAV,Cigna,10444.854028501599,434.0,Emergency,26/07/2021,Penicillin,Inconclusive
+ASPDMgWAYu PDMgWAYuNK,82.0,Female,AB-,Cancer,2021-12-07,PdRCDHyqzGC Ch,0,,uZBqp FpwfqbsYrg,Medicare,24600.310891455345,372.0,Emergency,23/09/2023,Lipitor,Normal
+pIzKmfaDDeX aDDeXs,23.0,Female,B+,Hypertension,2022-11-16,NtNQrYRPf YRPfXhC,0,,nMTOS sW,Aetna,-944.9234670360274,144.0,Emergency,16/10/2023,Lipitor,Inconclusive
+UFWGMYTQVv TQVvVz,33.0,Male,B-,Diabetes,2020-11-17,lWDQ QKTwFdGsT,0,,ZKayigqkismA ZKayigqkismAjqgX,Medicare,38367.214793237465,390.0,Emergency,23/07/2022,Ibuprofen,Abnormal
+ Oex,62.0,Female,AB-,Cancer,2021-05-06,C SVHAGZmj,0,,CBoZlFWKjiUiPqx CBoZlFWKjiUiPqxF,Cigna,2835.874214575135,404.0,Emergency,09/02/2024,Paracetamol,Inconclusive
+WPbJQv vfWiMzs,56.0,Male,AB+,Asthma,2023-03-05,KwgROqaAefBp ,0,,mFKWhElgMRLdRuGV LdRuGV,Medicare,12154.016484770918,313.0,Emergency,17/12/2023,Paracetamol,Inconclusive
+YihpW YihpWwNbVPSm,42.0,Male,AB-,Hypertension,2023-07-17,FXRRbuwPAm muR,0,,xLHxIJIJSvcb M,Aetna,39024.12298149758,218.0,Urgent,01/08/2019,Lipitor,Inconclusive
+xXSwKuFQNJ uFQNJTX,32.0,Female,A+,Diabetes,2021-06-22,zRZKhDJxuCbc JxuCbc,0,,DdObBpLuLjxm ZDFl,Blue Cross,22056.995185205215,419.0,Emergency,28/04/2023,Lipitor,Inconclusive
+mGeJIC eJICYAVNgV,32.0,Male,AB+,Asthma,2021-12-11, qtpb,0,,mQurUOZE mQurUOZETzzgXayp,Cigna,25538.479721459527,125.0,Emergency,09/09/2020,Paracetamol,Inconclusive
+PnBQVZ uvXopg,56.0,Male,AB-,Cancer,2023-06-29,D aYIQeKObRGH,0,,XDgufpnZghDhTBQj gufpnZghDhTBQj,Medicare,38786.30490392184,240.0,Emergency,18/04/2020,Aspirin,Inconclusive
+nPXOgD PXOgDCQbvUg,60.0,Female,AB-,Cancer,2021-04-01,QvsithbOl Pt,0,,MiVKt MiVKtnlXwVLcbqvQ,Cigna,42958.60480665603,434.0,Elective,22/07/2020,Lipitor,Inconclusive
+wsR yQ,50.0,Female,B+,Diabetes,2020-08-17,xMR xMRTijfHVtyn,0,,rwcedHrYVbSDQ ,Cigna,13124.746344484887,311.0,Urgent,11/04/2022,Lipitor,Inconclusive
+ ZFBxEQuYphaB,29.0,Male,B+,Hypertension,2021-08-04,IBgFhGBL hQm,0,,JktIR YmrzJxz,Blue Cross,38299.398186240054,360.0,Emergency,17/07/2019,Ibuprofen,Inconclusive
+OVk BXXFoR,74.0,Male,AB+,Hypertension,2023-08-10,oq OqXTclb,0,,CMzruaotQJI aJCa,Blue Cross,17175.408794000803,491.0,Elective,21/09/2019,Lipitor,Inconclusive
+Y LuHZDKNGZx,32.0,Female,AB-,Diabetes,2023-02-28,SGCs o,0,,MNioXmQ UfIDrWJN,Cigna,31978.670505429753,401.0,Elective,06/07/2020,Paracetamol,Inconclusive
+cpinDrnr inDrnrhVYY,46.0,Male,AB+,Hypertension,2022-09-23,WPSNNyqLg ,0,,gGZVLVooPQobP gGZVLVooPQobPQrL,Cigna,26322.20477938512,186.0,Elective,19/09/2020,Lipitor,Inconclusive
+uolIALNfmJ fmJpd,54.0,Male,B-,Diabetes,2020-09-06,BRCrnKzmOXm BRCrnKzmOXmb,0,,FhzeLxqrAG FhzeLxqrAGxHmRLD,Blue Cross,16618.42272869852,468.0,Emergency,27/05/2022,Ibuprofen,Inconclusive
+YanSGsbpnaFi pnaFi,54.0,Male,AB-,Cancer,2020-10-25,nTUjy nTUjytWwJGSg,0,,NSDNFysSDrfw ,Medicare,47435.311428514906,268.0,Emergency,12/05/2022,Ibuprofen,Inconclusive
+WvEHojAhR y,15.0,Male,B+,Arthritis,2021-05-16,GpGbaiNMeN Nkm,0,,MRgkpGsbIhUFK GsbIhUFKwSZ,Medicare,25515.566116603623,215.0,Emergency,07/07/2020,Paracetamol,Inconclusive
+BCkgwahx wOH,17.0,Male,AB-,Diabetes,2021-08-20,oyVnAvL x,0,,CdBNGSAZwgEK wgEKaJaA,Medicare,17650.947427528725,410.0,Elective,28/10/2021,Paracetamol,Inconclusive

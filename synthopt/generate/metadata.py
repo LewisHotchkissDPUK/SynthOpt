@@ -202,6 +202,11 @@ def metadata_process(data, type="correlated"):
 
         # FIX
         numerical_data = processed_data.select_dtypes(include=['number'])
+        #numerical_data_filtered = numerical_data.dropna(axis=1, how='all')  # Drop columns with all NaN values
+        #numerical_data_filtered = numerical_data_filtered.loc[:, ~(numerical_data_filtered == 0).all()]  # Drop columns with all zero values
+        #columns_to_drop = [col for col in numerical_data_filtered.columns if numerical_data_filtered[col].replace(0, np.nan).isna().all()]
+        #numerical_data_filtered = numerical_data_filtered.drop(columns=columns_to_drop)
+        #correlation_matrix = numerical_data_filtered.corr()
         correlation_matrix = numerical_data.corr()
 
         #correlation_matrix = processed_data.corr() if type == "correlated" else None
@@ -440,8 +445,27 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
     def is_int_or_float(datatype):
         return pd.api.types.is_integer_dtype(datatype) or pd.api.types.is_float_dtype(datatype)
 
+    empty_metadata = metadata[metadata["completeness"]==0]
+    zero_metadata = metadata[metadata["mean"]==0]
+
     numerical_metadata = metadata[metadata['datatype'].apply(is_int_or_float)]
     non_numerical_metadata = metadata[~metadata['datatype'].apply(is_int_or_float)]
+
+    numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(empty_metadata['variable_name'])]
+    numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(zero_metadata['variable_name'])]
+
+    # doesnt work because of prexix
+    #correlation_matrix = correlation_matrix[~correlation_matrix.index.isin(empty_metadata['variable_name'])]
+    #correlation_matrix = correlation_matrix[~correlation_matrix.index.isin(zero_metadata['variable_name'])]
+    #correlation_matrix = correlation_matrix.drop(columns=empty_metadata['variable_name'], errors='ignore')
+    #correlation_matrix = correlation_matrix.drop(columns=zero_metadata['variable_name'], errors='ignore')
+
+    # this should work to remove both nan and zero variables
+    correlation_matrix = correlation_matrix.dropna(axis=1, how='all')
+    correlation_matrix = correlation_matrix.dropna(axis=0, how='all')
+    correlation_matrix = correlation_matrix.fillna(0)
+
+    #correlation_matrix = correlation_matrix.loc[numerical_metadata['variable_name'], numerical_metadata['variable_name']]
 
     # Initialize lists to store means, std_devs, and value ranges
     means = []
@@ -535,6 +559,13 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
         if not pd.isna(mean) and not pd.isna(std_dev):
             # Call the generate_random_string function and assign the result to the data
             synthetic_data[column_name] = [generate_random_string(mean, std_dev) for _ in range(len(synthetic_data))]
+
+    for index, row in zero_metadata.iterrows():
+        column_name = row['variable_name']
+        synthetic_data[column_name] = 0
+    for index, row in empty_metadata.iterrows():
+        column_name = row['variable_name']
+        synthetic_data[column_name] = None
 
     def strip_suffix(variable_name):
         if variable_name.endswith('_year'):
