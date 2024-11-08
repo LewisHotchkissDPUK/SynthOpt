@@ -458,6 +458,19 @@ def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
     return samples
 
 
+# Function to ensure positive semi-definiteness
+def make_positive_semi_definite(Sigma):
+    # Calculate the eigenvalues and eigenvectors
+    eigvals, eigvecs = np.linalg.eigh(Sigma)
+
+    # Set any negative eigenvalues to zero (or a small positive value)
+    eigvals = np.clip(eigvals, 0, None)  # This sets all negative eigenvalues to 0
+
+    # Reconstruct the covariance matrix using the modified eigenvalues
+    Sigma_positive = eigvecs @ np.diag(eigvals) @ eigvecs.T
+
+    return Sigma_positive
+
 
 def generate_correlated_data(metadata, correlation_matrix, num_records=100, identifier_column=None, label_mapping={}):
 
@@ -511,6 +524,8 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
 
     # Create the covariance matrix using the correlation and standard deviations
     covariance_matrix = np.diag(std_devs) @ correlation_matrix @ np.diag(std_devs)
+
+    covariance_matrix = make_positive_semi_definite(covariance_matrix)
 
     # Generate truncated multivariate normal data
     #synthetic_samples = generate_truncated_multivariate_normal(
