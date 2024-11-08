@@ -15,6 +15,7 @@ from datetime import datetime
 import calendar
 import warnings
 warnings.filterwarnings('ignore')
+from synthopt.generate.minimax_tilting_sampler import TruncatedMVN
 
 # Function to generate a random string
 def random_string(length=6):
@@ -512,13 +513,20 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
     covariance_matrix = np.diag(std_devs) @ correlation_matrix @ np.diag(std_devs)
 
     # Generate truncated multivariate normal data
-    synthetic_samples = generate_truncated_multivariate_normal(
-        mean=means,
-        cov=covariance_matrix,
-        lower=lower_bounds,
-        upper=upper_bounds,
-        size=num_rows
-    )
+    #synthetic_samples = generate_truncated_multivariate_normal(
+    #    mean=means,
+    #    cov=covariance_matrix,
+    #    lower=lower_bounds,
+    #    upper=upper_bounds,
+    #    size=num_rows
+    #)
+    mean = np.array(means)
+    cov = np.array(covariance_matrix)
+    lower = np.array(lower_bounds)
+    upper = np.array(upper_bounds)
+    tmvn = TruncatedMVN(mean, cov, lower, upper)
+    synthetic_samples = tmvn.sample(num_rows)
+    synthetic_samples = synthetic_samples.T
 
     # Convert samples into a Pandas DataFrame
     synthetic_data = pd.DataFrame(synthetic_samples, columns=variable_names)
