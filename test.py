@@ -55,6 +55,7 @@ DATASETS = {"healthcare":DATA, "mentalhealth":DATA2}
 
 METADATA, LABEL_MAPPING, CORRELATION_MATRIX, MARGINALS = metadata_process(DATA_TEST2, "correlated")
 
+
 #METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATASETS, "correlated")
 #METADATA, LABEL_MAPPING = metadata_process(DATASETS, "structural")
 
