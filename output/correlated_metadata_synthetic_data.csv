@@ -1,401 +1,401 @@
-Employee_ID,Age,Gender,Job_Role,Industry,Years_of_Experience,Work_Location,Hours_Worked_Per_Week,Number_of_Virtual_Meetings,Work_Life_Balance_Rating,Stress_Level,Mental_Health_Condition,Access_to_Mental_Health_Resources,Productivity_Change,Social_Isolation_Rating,Satisfaction_with_Remote_Work,Company_Support_for_Remote_Work,Physical_Activity,Sleep_Quality,Region
-680661,53.0,Prefer not to say,Marketing,Finance,33.0,Hybrid,59.0,6.0,4.0,Low,Burnout,No,,2.0,Satisfied,2.0,nan,Good,Europe
-265428,46.0,Male,Marketing,Finance,27.0,Remote,54.0,13.0,0.0,Medium,Burnout,No,No Change,0.0,Satisfied,5.0,Daily,,Europe
-388097,27.0,Male,Marketing,Finance,17.0,,55.0,8.0,1.0,Low,nan,No,Increase,1.0,Satisfied,3.0,Daily,Average,North America
-207701,23.0,Prefer not to say,Designer,Healthcare,28.0,Hybrid,23.0,3.0,3.0,Low,nan,No,Increase,3.0,Neutral,1.0,nan,Good,Africa
-496358,42.0,Non-binary,,IT,4.0,Hybrid,37.0,14.0,3.0,Low,Burnout,Yes,Decrease,6.0,Neutral,4.0,,Good,Oceania
-836531,59.0,Male,Sales,Healthcare,15.0,Remote,40.0,5.0,1.0,Medium,Burnout,No,No Change,10.0,Neutral,2.0,Daily,Good,Europe
-665256,40.0,Prefer not to say,Software Engineer,Consulting,19.0,,35.0,6.0,4.0,High,Burnout,Yes,Decrease,8.0,Unsatisfied,3.0,Weekly,Average,South America
-470396,29.0,Male,HR,Consulting,23.0,Hybrid,43.0,3.0,4.0,High,Depression,No,Increase,4.0,Satisfied,2.0,Weekly,Good,Europe
-336590,33.0,,Project Manager,Finance,22.0,Onsite,49.0,12.0,4.0,Medium,Depression,No,Increase,3.0,Unsatisfied,4.0,Weekly,Average,Europe
-929798,57.0,Male,Data Scientist,Finance,35.0,Onsite,29.0,14.0,2.0,Low,Anxiety,,Decrease,2.0,Unsatisfied,2.0,Daily,Average,Europe
-522095,60.0,Male,Software Engineer,Finance,17.0,Remote,51.0,10.0,3.0,Low,Depression,No,Increase,1.0,Neutral,3.0,Weekly,Good,Asia
-309978,47.0,Prefer not to say,Designer,Manufacturing,32.0,Onsite,45.0,11.0,3.0,High,Anxiety,No,Decrease,0.0,Satisfied,2.0,nan,Average,Asia
-313243,27.0,Non-binary,Designer,IT,2.0,Onsite,43.0,10.0,2.0,High,Anxiety,Yes,Decrease,4.0,Neutral,3.0,Weekly,Good,Europe
-647602,43.0,Male,Marketing,Finance,24.0,,59.0,12.0,4.0,Medium,Burnout,No,,5.0,Satisfied,2.0,Daily,Average,North America
-596278,40.0,Non-binary,HR,Finance,10.0,Hybrid,39.0,5.0,3.0,High,Burnout,Yes,,2.0,Satisfied,2.0,nan,Average,Oceania
-346432,54.0,Non-binary,Sales,Consulting,17.0,Remote,21.0,11.0,5.0,Low,nan,Yes,Decrease,1.0,Satisfied,3.0,,Poor,North America
-969207,27.0,Male,Designer,Healthcare,29.0,,59.0,10.0,2.0,Low,Depression,No,Decrease,3.0,Neutral,3.0,Weekly,Good,Asia
-526988,43.0,Prefer not to say,Project Manager,Finance,4.0,Onsite,44.0,2.0,3.0,Low,Burnout,No,Increase,3.0,Neutral,8.0,Daily,Good,North America
-766412,40.0,Male,Marketing,IT,34.0,Onsite,53.0,13.0,0.0,Low,Burnout,Yes,,2.0,Neutral,1.0,Weekly,Poor,North America
-797917,35.0,Female,Marketing,Healthcare,27.0,Hybrid,54.0,13.0,7.0,Low,Depression,,Decrease,6.0,Satisfied,4.0,Daily,Average,Oceania
-378272,43.0,Non-binary,Project Manager,Healthcare,3.0,,54.0,7.0,4.0,High,Burnout,Yes,Decrease,3.0,Satisfied,2.0,Weekly,,Asia
-718875,50.0,,Software Engineer,Finance,10.0,Hybrid,42.0,10.0,1.0,,Burnout,No,Decrease,3.0,Neutral,5.0,Weekly,Good,Asia
-773811,26.0,Prefer not to say,Software Engineer,Finance,26.0,Hybrid,58.0,13.0,4.0,Medium,nan,Yes,Increase,3.0,Neutral,3.0,Daily,Average,North America
-479240,40.0,Non-binary,Marketing,Finance,10.0,Hybrid,59.0,7.0,2.0,High,Anxiety,Yes,Decrease,2.0,Satisfied,3.0,,Average,Europe
-374554,43.0,Non-binary,,Manufacturing,10.0,Hybrid,44.0,3.0,2.0,High,Anxiety,Yes,Decrease,4.0,,3.0,,Average,Oceania
-678690,39.0,Male,Project Manager,Healthcare,34.0,Onsite,51.0,1.0,3.0,High,Depression,No,Increase,4.0,Neutral,3.0,Daily,Good,Oceania
-589634,42.0,Male,Designer,Finance,10.0,Remote,22.0,0.0,3.0,High,Depression,No,Increase,1.0,Satisfied,7.0,Weekly,Average,
-228070,26.0,Female,Marketing,Healthcare,23.0,Onsite,58.0,12.0,8.0,Low,Anxiety,No,Increase,1.0,Neutral,6.0,,Good,North America
-803539,48.0,Female,Sales,Education,6.0,,49.0,8.0,4.0,Low,Anxiety,No,Decrease,1.0,Neutral,3.0,nan,Good,Europe
-781994,56.0,Female,Marketing,Manufacturing,24.0,Hybrid,38.0,12.0,2.0,High,Depression,Yes,,6.0,Neutral,4.0,Daily,,Asia
-526446,50.0,Female,Data Scientist,Finance,22.0,Hybrid,26.0,14.0,2.0,Low,Anxiety,No,Decrease,5.0,Satisfied,2.0,Weekly,Average,South America
-759536,46.0,Non-binary,HR,Education,3.0,Hybrid,37.0,8.0,6.0,High,Anxiety,No,No Change,2.0,Unsatisfied,2.0,,Good,Asia
-751043,26.0,Male,Designer,Finance,14.0,Remote,20.0,13.0,1.0,High,Depression,No,Increase,8.0,Neutral,3.0,Daily,Poor,Africa
-775209,56.0,Male,Project Manager,Healthcare,29.0,Remote,23.0,13.0,3.0,High,Depression,Yes,Decrease,1.0,Unsatisfied,2.0,Weekly,Good,Oceania
-192553,46.0,Male,Marketing,Education,7.0,,43.0,14.0,4.0,High,Anxiety,No,Increase,3.0,Unsatisfied,3.0,nan,Average,Europe
-283308,46.0,Prefer not to say,Project Manager,Education,15.0,Onsite,30.0,4.0,1.0,High,Depression,No,Decrease,4.0,Neutral,4.0,nan,,North America
-379713,38.0,Male,Project Manager,Education,12.0,Onsite,47.0,13.0,2.0,Low,Depression,No,Decrease,1.0,Satisfied,3.0,Weekly,,Asia
-737328,23.0,Prefer not to say,Project Manager,Manufacturing,31.0,Onsite,54.0,4.0,0.0,Low,Anxiety,No,No Change,1.0,Neutral,4.0,nan,Good,Asia
-386495,48.0,Male,HR,Healthcare,6.0,Hybrid,29.0,8.0,2.0,Low,Burnout,No,,4.0,Neutral,0.0,,Good,Oceania
-201382,48.0,Prefer not to say,Marketing,IT,35.0,Hybrid,47.0,6.0,4.0,Low,Depression,Yes,Decrease,3.0,Satisfied,3.0,Weekly,Poor,Africa
-776552,35.0,Male,HR,Finance,31.0,Hybrid,55.0,14.0,3.0,High,Anxiety,No,No Change,5.0,Satisfied,5.0,Daily,Average,Asia
-151802,46.0,Non-binary,Project Manager,,29.0,Remote,49.0,14.0,2.0,Medium,Burnout,Yes,Decrease,1.0,Neutral,3.0,Daily,Average,North America
-572975,58.0,Male,HR,Finance,2.0,Onsite,35.0,4.0,5.0,Low,Depression,Yes,Decrease,2.0,Satisfied,2.0,,Average,
-317679,32.0,Prefer not to say,Project Manager,Education,7.0,Hybrid,56.0,7.0,1.0,High,Burnout,Yes,Increase,2.0,Neutral,3.0,Weekly,Poor,Europe
-943459,43.0,Prefer not to say,Sales,Healthcare,25.0,Onsite,56.0,12.0,0.0,High,Anxiety,No,Decrease,2.0,Satisfied,5.0,nan,Poor,Europe
-365812,58.0,Prefer not to say,HR,Retail,3.0,Remote,32.0,2.0,4.0,,nan,No,Increase,4.0,Satisfied,2.0,Weekly,Poor,
-415175,45.0,,Marketing,Healthcare,23.0,Onsite,20.0,13.0,3.0,,Anxiety,Yes,,4.0,Satisfied,3.0,Daily,Good,Europe
-500486,55.0,Non-binary,HR,IT,29.0,Onsite,28.0,-0.0,2.0,Low,Anxiety,No,No Change,4.0,Neutral,5.0,nan,Poor,North America
-650196,55.0,Male,Marketing,Manufacturing,14.0,Remote,20.0,14.0,7.0,High,Anxiety,No,Decrease,6.0,Satisfied,3.0,Daily,Average,North America
-331630,41.0,Male,Sales,Healthcare,35.0,Onsite,41.0,0.0,5.0,High,Depression,No,Decrease,1.0,Unsatisfied,1.0,Weekly,Good,Asia
-773409,23.0,Non-binary,HR,IT,8.0,Onsite,45.0,3.0,1.0,High,Depression,No,Increase,0.0,,2.0,Weekly,Poor,Africa
-995105,46.0,Non-binary,Project Manager,Manufacturing,29.0,Onsite,29.0,4.0,5.0,Low,Depression,Yes,,3.0,,3.0,nan,Good,Africa
-802426,26.0,,Marketing,Education,29.0,Onsite,33.0,3.0,2.0,High,Burnout,No,Decrease,8.0,Neutral,2.0,Daily,Poor,Asia
-508478,46.0,Female,Software Engineer,Retail,18.0,Onsite,59.0,-1.0,3.0,High,Burnout,No,Increase,1.0,Satisfied,1.0,Daily,Average,Oceania
-387757,38.0,Non-binary,HR,IT,24.0,Onsite,47.0,14.0,4.0,High,Depression,No,,6.0,Satisfied,3.0,nan,Poor,Oceania
-294194,60.0,Male,Marketing,Finance,13.0,Hybrid,47.0,8.0,2.0,Low,Depression,,Increase,1.0,Unsatisfied,0.0,nan,Poor,Europe
-619638,24.0,Non-binary,Marketing,IT,32.0,Onsite,35.0,14.0,4.0,High,Burnout,No,Decrease,3.0,Satisfied,4.0,Weekly,Average,Oceania
-288247,22.0,Non-binary,Software Engineer,IT,16.0,Hybrid,46.0,3.0,6.0,Medium,Depression,No,Decrease,4.0,Unsatisfied,4.0,Daily,Good,South America
-210500,55.0,Prefer not to say,HR,Healthcare,17.0,Hybrid,22.0,14.0,3.0,Low,Burnout,Yes,Decrease,1.0,Satisfied,4.0,,Poor,Africa
-826152,22.0,Female,Marketing,Manufacturing,34.0,Onsite,40.0,14.0,3.0,Medium,nan,Yes,Increase,1.0,Unsatisfied,2.0,Daily,Average,North America
-147545,46.0,Female,HR,Healthcare,20.0,Onsite,36.0,9.0,5.0,Low,Depression,Yes,Increase,1.0,Satisfied,2.0,nan,Average,Oceania
-672545,23.0,,Project Manager,Education,4.0,Onsite,35.0,14.0,0.0,Medium,Anxiety,No,Increase,1.0,Neutral,1.0,Daily,Good,North America
-867059,53.0,Male,Marketing,IT,22.0,Hybrid,50.0,13.0,4.0,Medium,Burnout,No,Decrease,3.0,Satisfied,0.0,Daily,Poor,Africa
-683455,34.0,Female,Designer,Healthcare,25.0,Onsite,29.0,6.0,2.0,High,Anxiety,Yes,No Change,4.0,Satisfied,2.0,Weekly,Good,North America
-209327,55.0,Non-binary,Marketing,Retail,34.0,Onsite,47.0,11.0,5.0,Low,Depression,,Increase,1.0,Neutral,4.0,nan,,Asia
-695252,35.0,Prefer not to say,HR,Manufacturing,34.0,Remote,48.0,7.0,5.0,High,Burnout,No,Decrease,3.0,Neutral,1.0,Weekly,Good,
-589501,31.0,Female,Marketing,Education,17.0,Hybrid,43.0,7.0,4.0,High,Burnout,,Decrease,1.0,,7.0,Weekly,Good,North America
-594652,54.0,Non-binary,Marketing,Education,7.0,Onsite,60.0,13.0,1.0,Low,Burnout,No,Decrease,3.0,Satisfied,7.0,Weekly,Average,Oceania
-233304,37.0,Female,Software Engineer,Healthcare,21.0,Onsite,55.0,1.0,4.0,High,Burnout,Yes,Increase,7.0,Satisfied,0.0,nan,Average,North America
-510524,42.0,Female,Project Manager,IT,27.0,Hybrid,39.0,4.0,3.0,,Burnout,No,,2.0,Neutral,3.0,Weekly,Average,Europe
-704864,56.0,Male,Designer,Consulting,32.0,Onsite,42.0,15.0,4.0,Low,Burnout,Yes,Increase,5.0,Satisfied,2.0,Daily,Poor,
-269589,32.0,Male,Designer,Education,16.0,Onsite,38.0,6.0,3.0,Low,Depression,No,Decrease,5.0,Satisfied,4.0,Weekly,Poor,Asia
-262266,28.0,Non-binary,Marketing,Finance,3.0,Onsite,25.0,1.0,0.0,,Burnout,No,Increase,2.0,Unsatisfied,4.0,nan,Good,North America
-321695,23.0,Male,Marketing,IT,30.0,Remote,50.0,13.0,2.0,High,Depression,No,Decrease,3.0,Neutral,4.0,nan,Average,Africa
-933297,30.0,Male,Data Scientist,IT,5.0,Hybrid,28.0,0.0,4.0,High,Anxiety,No,Increase,3.0,Satisfied,0.0,Daily,Average,Africa
-606157,43.0,Non-binary,HR,Healthcare,24.0,,21.0,13.0,7.0,,Burnout,No,Increase,3.0,Neutral,0.0,Weekly,Good,Oceania
-144298,35.0,Prefer not to say,Project Manager,Education,1.0,Remote,58.0,14.0,3.0,Low,nan,No,Increase,2.0,Neutral,2.0,Weekly,Poor,Oceania
-183538,29.0,Prefer not to say,Sales,Healthcare,29.0,Hybrid,45.0,9.0,3.0,High,Anxiety,No,Increase,2.0,Unsatisfied,1.0,Daily,Average,Oceania
-577506,56.0,Male,Marketing,Manufacturing,18.0,Hybrid,43.0,12.0,5.0,High,Anxiety,Yes,Decrease,0.0,Unsatisfied,4.0,,Average,Asia
-699830,59.0,Non-binary,HR,Healthcare,13.0,Remote,50.0,14.0,2.0,Low,Burnout,Yes,Increase,5.0,Unsatisfied,3.0,Daily,Poor,Asia
-673815,38.0,Female,Project Manager,Education,16.0,Hybrid,38.0,13.0,5.0,Low,Burnout,No,No Change,4.0,Satisfied,3.0,Weekly,Good,North America
-313224,47.0,Male,Marketing,Finance,5.0,Hybrid,56.0,3.0,7.0,High,Anxiety,No,Increase,3.0,Unsatisfied,3.0,Daily,Good,Europe
-682035,36.0,Male,Data Scientist,Healthcare,11.0,,23.0,5.0,7.0,High,Anxiety,No,,5.0,Satisfied,3.0,Daily,Average,Asia
-341111,52.0,,Designer,IT,6.0,Hybrid,31.0,8.0,4.0,Medium,Anxiety,No,No Change,2.0,Neutral,5.0,nan,Good,North America
-368949,41.0,Male,HR,Education,17.0,,52.0,7.0,1.0,High,Burnout,No,,3.0,Satisfied,4.0,Daily,Average,Africa
-946614,50.0,Non-binary,HR,Finance,14.0,Hybrid,59.0,2.0,3.0,High,Depression,No,Decrease,4.0,Neutral,4.0,Weekly,Good,Oceania
-735355,45.0,Non-binary,Marketing,Manufacturing,35.0,Onsite,35.0,15.0,4.0,High,Burnout,No,Increase,5.0,Neutral,3.0,,Good,Europe
-668663,54.0,Male,Marketing,Healthcare,32.0,Hybrid,33.0,15.0,3.0,High,,No,Increase,7.0,Neutral,2.0,Weekly,Good,Oceania
-283017,31.0,Prefer not to say,Marketing,Healthcare,24.0,Hybrid,53.0,14.0,3.0,High,nan,No,Increase,2.0,Satisfied,2.0,Weekly,Good,
-237812,52.0,Female,Software Engineer,Healthcare,14.0,Onsite,25.0,2.0,4.0,Medium,Anxiety,No,,1.0,Satisfied,3.0,Weekly,Good,Asia
-180253,55.0,Non-binary,HR,IT,5.0,Onsite,31.0,14.0,2.0,,Depression,,Decrease,2.0,Unsatisfied,2.0,nan,Good,Europe
-536881,34.0,Non-binary,Project Manager,Consulting,12.0,Onsite,28.0,10.0,3.0,Medium,Anxiety,No,Decrease,6.0,,2.0,Daily,Good,Oceania
-925545,52.0,Female,HR,Finance,6.0,Onsite,46.0,4.0,2.0,Low,Burnout,No,Decrease,2.0,Satisfied,3.0,Daily,Average,Europe
-783416,33.0,Non-binary,Marketing,IT,20.0,Hybrid,26.0,11.0,4.0,Low,,No,Decrease,1.0,Satisfied,1.0,nan,Good,Africa
-626089,55.0,Male,Marketing,Healthcare,24.0,Hybrid,26.0,9.0,4.0,High,nan,,No Change,3.0,Satisfied,2.0,Daily,Average,South America
-256345,55.0,Non-binary,HR,Retail,16.0,Hybrid,50.0,6.0,5.0,High,nan,No,Increase,5.0,Unsatisfied,2.0,nan,Average,Europe
-739162,32.0,Male,,Retail,4.0,Hybrid,39.0,6.0,6.0,Medium,Depression,No,Increase,1.0,Satisfied,1.0,nan,Poor,Asia
-130368,43.0,Female,Marketing,Retail,6.0,Remote,51.0,14.0,2.0,Low,,No,No Change,4.0,Satisfied,3.0,Daily,Average,Asia
-542783,23.0,Non-binary,,IT,29.0,Onsite,33.0,5.0,3.0,High,Burnout,,Decrease,5.0,Neutral,6.0,Daily,Average,Oceania
-287938,42.0,Female,HR,Retail,27.0,Hybrid,25.0,10.0,6.0,Medium,nan,No,Increase,1.0,Satisfied,3.0,Weekly,Good,Oceania
-299592,55.0,Male,Software Engineer,Finance,2.0,Hybrid,56.0,8.0,3.0,Medium,Burnout,No,Decrease,4.0,Unsatisfied,3.0,Daily,Good,Asia
-889064,25.0,Non-binary,Project Manager,IT,11.0,Remote,33.0,0.0,1.0,Low,Depression,No,No Change,7.0,Neutral,4.0,Daily,Average,Asia
-875394,57.0,Male,HR,IT,24.0,Hybrid,27.0,5.0,3.0,High,nan,Yes,Increase,0.0,Unsatisfied,1.0,Daily,Good,North America
-999998,25.0,Male,Marketing,Finance,15.0,Onsite,21.0,11.0,5.0,High,Depression,No,Increase,3.0,Neutral,2.0,Daily,,Asia
-271193,59.0,Male,Marketing,Education,7.0,,45.0,11.0,5.0,High,nan,Yes,Decrease,1.0,Satisfied,1.0,Daily,Good,North America
-370436,54.0,Male,HR,IT,26.0,Onsite,32.0,0.0,1.0,Low,Anxiety,Yes,Increase,6.0,Neutral,7.0,nan,Average,Asia
-965838,31.0,Male,Sales,,15.0,Onsite,38.0,10.0,2.0,Low,Burnout,No,Decrease,2.0,Satisfied,2.0,Daily,Good,Europe
-717910,41.0,Non-binary,Marketing,Finance,28.0,Onsite,42.0,8.0,4.0,Low,Anxiety,No,No Change,3.0,Satisfied,5.0,Daily,,Europe
-287640,57.0,Male,Marketing,Finance,26.0,Hybrid,28.0,12.0,3.0,,Burnout,No,No Change,3.0,Satisfied,0.0,nan,Good,Europe
-401410,51.0,,HR,IT,13.0,Onsite,38.0,14.0,3.0,High,nan,,Decrease,2.0,Unsatisfied,5.0,Weekly,Average,North America
-142004,50.0,Male,Project Manager,IT,7.0,Onsite,55.0,4.0,3.0,Low,Burnout,No,Increase,3.0,Satisfied,1.0,nan,Average,Europe
-758390,58.0,Female,Marketing,IT,28.0,Onsite,50.0,8.0,2.0,Low,,No,No Change,3.0,Satisfied,3.0,nan,Good,North America
-595444,27.0,Male,Software Engineer,Retail,25.0,Onsite,32.0,14.0,6.0,High,Burnout,No,Increase,1.0,Satisfied,5.0,Weekly,Average,Oceania
-652176,29.0,Male,HR,Finance,34.0,Onsite,28.0,6.0,4.0,Low,Anxiety,No,Increase,1.0,Neutral,5.0,Weekly,Poor,Europe
-603816,58.0,Male,Designer,Education,24.0,Hybrid,32.0,4.0,2.0,High,Depression,No,Increase,2.0,Unsatisfied,6.0,Daily,,South America
-915770,34.0,Female,HR,Healthcare,25.0,Remote,58.0,8.0,1.0,Low,Anxiety,Yes,Decrease,0.0,Satisfied,2.0,Weekly,,Europe
-243053,55.0,Male,Sales,IT,26.0,Remote,29.0,7.0,1.0,Low,Burnout,No,Decrease,5.0,Unsatisfied,4.0,Daily,Poor,Oceania
-832375,41.0,Female,HR,Manufacturing,32.0,Hybrid,55.0,3.0,6.0,High,Anxiety,No,,0.0,,2.0,nan,Poor,Europe
-421383,58.0,Male,HR,Healthcare,28.0,Onsite,25.0,0.0,3.0,High,Anxiety,No,Increase,3.0,Neutral,3.0,Daily,Average,Oceania
-456362,34.0,Female,Marketing,Finance,28.0,Remote,43.0,13.0,5.0,,Burnout,Yes,Increase,4.0,Unsatisfied,5.0,Weekly,Good,Africa
-560467,47.0,Non-binary,HR,Finance,31.0,Onsite,40.0,8.0,0.0,High,Depression,No,Increase,3.0,Satisfied,3.0,Weekly,Good,Africa
-646055,54.0,Non-binary,Project Manager,Finance,15.0,Onsite,29.0,14.0,7.0,High,Burnout,Yes,Increase,4.0,Satisfied,2.0,nan,Poor,North America
-175514,37.0,Non-binary,Software Engineer,Healthcare,30.0,Hybrid,41.0,9.0,1.0,,Anxiety,No,Increase,8.0,Unsatisfied,5.0,Weekly,Average,North America
-310131,43.0,Non-binary,Data Scientist,Healthcare,28.0,Remote,57.0,0.0,5.0,High,Burnout,No,Decrease,6.0,Satisfied,2.0,Daily,Good,North America
-795821,25.0,Prefer not to say,Designer,Finance,6.0,,34.0,13.0,4.0,Medium,Anxiety,Yes,Decrease,5.0,Neutral,4.0,Daily,Average,Asia
-992280,37.0,Non-binary,Software Engineer,Manufacturing,20.0,Onsite,56.0,14.0,2.0,,Burnout,Yes,Increase,4.0,Satisfied,1.0,Daily,Average,Oceania
-311342,25.0,Male,Marketing,Finance,2.0,Onsite,33.0,2.0,0.0,Low,Burnout,No,Increase,3.0,,4.0,Daily,Poor,North America
-682436,59.0,Male,Marketing,Finance,11.0,Onsite,27.0,5.0,4.0,Medium,,No,Increase,2.0,Satisfied,1.0,Daily,Good,South America
-738257,41.0,Female,Marketing,Consulting,35.0,Onsite,48.0,7.0,1.0,Medium,Anxiety,No,Increase,2.0,Neutral,5.0,,Average,Asia
-988154,47.0,Non-binary,HR,IT,21.0,Hybrid,24.0,11.0,4.0,High,Depression,No,No Change,1.0,Neutral,3.0,Daily,Average,Europe
-684309,30.0,Male,Marketing,Education,30.0,Onsite,29.0,9.0,2.0,Medium,nan,No,Decrease,5.0,Neutral,0.0,Weekly,Average,North America
-865945,33.0,Female,Designer,Healthcare,11.0,Remote,27.0,14.0,0.0,Low,Anxiety,Yes,,5.0,,6.0,Daily,Poor,Africa
-146185,35.0,Female,Marketing,Consulting,11.0,Hybrid,29.0,12.0,5.0,Low,Anxiety,No,,8.0,Satisfied,0.0,Daily,Poor,South America
-873609,51.0,Male,Marketing,IT,23.0,Hybrid,36.0,11.0,2.0,Medium,Depression,No,Increase,2.0,Neutral,7.0,Weekly,Good,Asia
-209555,59.0,Non-binary,HR,Healthcare,12.0,Remote,39.0,3.0,4.0,High,nan,Yes,Decrease,3.0,Satisfied,1.0,Weekly,Average,Europe
-871966,27.0,Non-binary,HR,Healthcare,10.0,Hybrid,58.0,1.0,0.0,Low,Burnout,No,No Change,5.0,Unsatisfied,4.0,Daily,Good,Asia
-606046,51.0,Male,Project Manager,Healthcare,23.0,Onsite,30.0,15.0,0.0,,nan,Yes,Decrease,3.0,Neutral,2.0,Daily,Average,Oceania
-880132,51.0,Non-binary,Marketing,IT,8.0,,47.0,6.0,1.0,Low,Depression,Yes,No Change,5.0,Neutral,6.0,Daily,Good,
-764235,55.0,Non-binary,HR,Education,23.0,Hybrid,46.0,2.0,1.0,High,nan,No,Increase,1.0,Neutral,0.0,Daily,Good,North America
-739949,40.0,Non-binary,Designer,Education,23.0,Remote,41.0,8.0,1.0,Low,Depression,Yes,Decrease,4.0,Satisfied,1.0,nan,Good,Europe
-435500,46.0,Male,Software Engineer,Retail,30.0,Hybrid,22.0,7.0,4.0,High,,No,No Change,1.0,,1.0,Weekly,,
-470258,27.0,,Designer,IT,24.0,Remote,43.0,-1.0,1.0,High,Anxiety,No,Increase,5.0,Neutral,1.0,Daily,Poor,Africa
-647495,24.0,Non-binary,Marketing,Finance,5.0,,39.0,2.0,2.0,Low,Burnout,Yes,Increase,5.0,Unsatisfied,2.0,Daily,Good,Europe
-417970,48.0,Female,HR,Finance,9.0,Onsite,39.0,4.0,4.0,Low,nan,No,Decrease,4.0,Neutral,4.0,Weekly,Poor,Oceania
-264854,59.0,Prefer not to say,Project Manager,Finance,1.0,Hybrid,60.0,12.0,5.0,Low,Depression,,Increase,3.0,Neutral,2.0,Daily,Good,Europe
-382077,34.0,Female,Designer,Finance,5.0,Hybrid,47.0,12.0,4.0,Medium,Anxiety,No,Increase,0.0,Neutral,5.0,,Average,Europe
-551662,43.0,,Project Manager,IT,35.0,Remote,40.0,11.0,5.0,High,Depression,No,Increase,1.0,Neutral,3.0,Weekly,Good,North America
-894043,38.0,Female,HR,IT,4.0,Hybrid,22.0,6.0,1.0,Medium,Burnout,No,No Change,3.0,Neutral,5.0,Weekly,Average,North America
-739621,41.0,,Marketing,Finance,5.0,,47.0,2.0,2.0,High,Depression,No,Increase,2.0,Unsatisfied,4.0,Weekly,Average,Asia
-725320,38.0,Female,Designer,Education,26.0,Remote,36.0,12.0,7.0,Medium,Depression,No,Increase,4.0,Unsatisfied,1.0,Daily,Average,Europe
-352893,55.0,Prefer not to say,Marketing,IT,18.0,Onsite,51.0,8.0,6.0,High,Burnout,No,No Change,4.0,Unsatisfied,4.0,Daily,Good,North America
-564171,53.0,Non-binary,Marketing,Finance,13.0,Hybrid,51.0,2.0,3.0,Low,Anxiety,Yes,Decrease,2.0,Neutral,2.0,Weekly,Poor,Africa
-913338,24.0,Female,Project Manager,Finance,12.0,Hybrid,27.0,5.0,2.0,High,Burnout,No,Decrease,4.0,Unsatisfied,0.0,Daily,Average,Asia
-526930,37.0,Non-binary,Project Manager,Retail,11.0,Hybrid,31.0,7.0,2.0,Medium,Burnout,Yes,Decrease,1.0,Satisfied,2.0,Weekly,Good,Europe
-576205,31.0,Female,Project Manager,Manufacturing,11.0,Remote,45.0,5.0,1.0,High,Burnout,No,,3.0,,6.0,Weekly,Average,Oceania
-768650,35.0,Non-binary,Sales,Healthcare,18.0,Onsite,47.0,4.0,2.0,Low,Anxiety,No,Decrease,3.0,Neutral,5.0,Weekly,Average,Europe
-204857,29.0,,Sales,Education,15.0,Onsite,51.0,7.0,5.0,High,Depression,No,Increase,1.0,Satisfied,2.0,Daily,Poor,Oceania
-974660,31.0,Prefer not to say,Marketing,IT,27.0,Remote,30.0,11.0,2.0,Low,Anxiety,No,Decrease,1.0,Neutral,6.0,Weekly,Average,Europe
-595833,30.0,Non-binary,Project Manager,Consulting,23.0,Hybrid,27.0,10.0,2.0,Low,Depression,Yes,Decrease,3.0,Satisfied,4.0,nan,Good,Europe
-477179,32.0,Non-binary,HR,Finance,6.0,Remote,29.0,1.0,1.0,Low,Anxiety,No,No Change,5.0,Satisfied,1.0,Daily,Average,Africa
-526872,35.0,Male,Sales,Healthcare,2.0,Hybrid,50.0,-0.0,2.0,High,nan,No,Increase,2.0,Neutral,2.0,Daily,,Africa
-925035,55.0,Male,Project Manager,IT,12.0,Remote,44.0,13.0,2.0,Medium,nan,Yes,Increase,2.0,Neutral,3.0,Weekly,Good,Asia
-701498,30.0,Prefer not to say,Marketing,Finance,30.0,Onsite,30.0,9.0,4.0,Low,Anxiety,No,,1.0,Unsatisfied,2.0,Weekly,Average,
-153979,26.0,Non-binary,Project Manager,,16.0,Remote,47.0,13.0,0.0,Low,Anxiety,Yes,Increase,1.0,Neutral,3.0,Weekly,Poor,North America
-157115,26.0,Non-binary,Sales,Finance,33.0,Onsite,46.0,7.0,5.0,High,Burnout,,Decrease,6.0,Satisfied,5.0,nan,Average,Oceania
-507999,35.0,Female,Data Scientist,Manufacturing,13.0,Onsite,50.0,10.0,2.0,Medium,Burnout,No,Increase,2.0,Neutral,3.0,Weekly,Good,North America
-925857,22.0,Male,Marketing,Finance,2.0,Remote,35.0,3.0,2.0,High,Burnout,,Increase,2.0,Satisfied,1.0,Daily,Poor,Asia
-939936,23.0,Male,Marketing,Finance,26.0,Onsite,22.0,11.0,5.0,High,Burnout,No,Decrease,2.0,Satisfied,0.0,,Good,Oceania
-749277,39.0,Non-binary,Project Manager,IT,10.0,Onsite,42.0,13.0,3.0,Medium,Burnout,No,No Change,1.0,Neutral,2.0,Weekly,Good,North America
-193442,22.0,Female,Designer,Healthcare,30.0,Hybrid,38.0,5.0,2.0,Low,Burnout,Yes,Increase,2.0,Unsatisfied,4.0,Daily,Poor,Europe
-957694,60.0,Prefer not to say,HR,IT,4.0,Onsite,38.0,5.0,4.0,High,Depression,No,No Change,3.0,Satisfied,3.0,Daily,Average,
-362654,52.0,Female,Marketing,Healthcare,11.0,Hybrid,27.0,6.0,1.0,Low,Anxiety,Yes,Decrease,1.0,,4.0,Weekly,,Europe
-583114,36.0,Female,Marketing,Education,29.0,Onsite,30.0,15.0,2.0,,Anxiety,No,Increase,2.0,Satisfied,1.0,Daily,Poor,Oceania
-718265,25.0,Prefer not to say,HR,Healthcare,8.0,Onsite,48.0,5.0,2.0,High,Depression,Yes,Decrease,3.0,Satisfied,4.0,Daily,Good,North America
-411045,31.0,Female,Software Engineer,Finance,2.0,Hybrid,47.0,6.0,5.0,High,,Yes,No Change,1.0,Unsatisfied,7.0,nan,Poor,North America
-868478,53.0,Non-binary,Software Engineer,Healthcare,4.0,Remote,33.0,12.0,1.0,,Burnout,No,Decrease,2.0,Neutral,3.0,Weekly,Good,North America
-629010,49.0,Non-binary,Project Manager,Finance,4.0,Onsite,57.0,13.0,3.0,High,Burnout,Yes,Decrease,1.0,Unsatisfied,2.0,Weekly,Average,Europe
-524232,48.0,Male,Data Scientist,Education,32.0,Hybrid,21.0,1.0,7.0,Low,Depression,Yes,,3.0,Satisfied,0.0,nan,Average,North America
-811927,42.0,,Marketing,Finance,2.0,Hybrid,53.0,12.0,2.0,Low,nan,No,Increase,2.0,Unsatisfied,4.0,Daily,Good,Europe
-922112,59.0,Male,Marketing,Finance,35.0,Remote,21.0,5.0,7.0,Low,Burnout,,Decrease,5.0,Satisfied,4.0,Daily,Good,Asia
-880409,50.0,Female,HR,Retail,28.0,Onsite,50.0,2.0,1.0,High,Burnout,No,Increase,1.0,Neutral,3.0,Daily,Good,Europe
-942592,32.0,,HR,Healthcare,16.0,Onsite,35.0,1.0,4.0,Low,Anxiety,No,Decrease,3.0,Neutral,2.0,Weekly,Average,Asia
-547832,54.0,Female,Project Manager,Healthcare,22.0,Onsite,39.0,1.0,4.0,Medium,nan,No,No Change,5.0,Satisfied,2.0,,Poor,Europe
-786292,60.0,Non-binary,Designer,Consulting,24.0,Remote,42.0,1.0,1.0,High,Burnout,,Increase,4.0,Neutral,1.0,Weekly,Average,
-426818,51.0,Non-binary,HR,Healthcare,24.0,,36.0,5.0,4.0,High,Anxiety,Yes,Increase,4.0,Unsatisfied,2.0,Daily,Good,North America
-834082,37.0,Male,Project Manager,Finance,25.0,,27.0,15.0,5.0,Low,Depression,,Decrease,4.0,Satisfied,3.0,Weekly,Good,South America
-474061,51.0,Female,Project Manager,Manufacturing,3.0,Remote,21.0,3.0,4.0,High,Burnout,Yes,Increase,2.0,Satisfied,5.0,Daily,Good,Oceania
-485881,44.0,Non-binary,Sales,Retail,27.0,Hybrid,25.0,7.0,4.0,High,Burnout,Yes,No Change,0.0,Unsatisfied,7.0,nan,Average,Europe
-438315,56.0,Male,HR,Finance,20.0,Hybrid,43.0,6.0,4.0,High,Burnout,No,Increase,4.0,Neutral,2.0,Daily,Average,Asia
-581477,51.0,,Project Manager,Education,23.0,Remote,40.0,11.0,4.0,High,Depression,,Increase,2.0,Satisfied,2.0,Daily,Average,Asia
-722429,58.0,Prefer not to say,Designer,Healthcare,31.0,Hybrid,47.0,9.0,1.0,High,nan,,Increase,5.0,Satisfied,1.0,Weekly,,Europe
-141444,50.0,Non-binary,,Healthcare,31.0,Remote,34.0,8.0,1.0,Medium,Burnout,No,Increase,1.0,Unsatisfied,5.0,Daily,Average,Europe
-656396,46.0,Non-binary,Marketing,Healthcare,12.0,Onsite,33.0,14.0,2.0,Low,Burnout,No,Increase,1.0,Satisfied,3.0,nan,Poor,Africa
-809674,53.0,Male,Project Manager,Education,34.0,Onsite,35.0,9.0,4.0,High,Burnout,No,Decrease,2.0,Satisfied,1.0,Weekly,Average,Africa
-803354,39.0,Male,HR,Finance,34.0,Hybrid,21.0,8.0,6.0,Low,Depression,No,Decrease,1.0,Satisfied,4.0,nan,Average,Oceania
-426386,50.0,Male,HR,Healthcare,31.0,Onsite,60.0,15.0,1.0,Low,Anxiety,No,Decrease,4.0,Unsatisfied,5.0,nan,Good,Europe
-471860,48.0,Male,Software Engineer,IT,1.0,Hybrid,39.0,-1.0,3.0,Medium,Anxiety,No,Decrease,4.0,Neutral,2.0,Daily,Average,Europe
-321110,46.0,Non-binary,Software Engineer,Healthcare,16.0,Onsite,58.0,1.0,4.0,Medium,Depression,No,Increase,2.0,Satisfied,1.0,nan,Good,Oceania
-714502,53.0,,HR,IT,6.0,,31.0,7.0,4.0,Medium,Anxiety,No,Increase,2.0,Satisfied,1.0,Daily,Good,North America
-613869,54.0,Female,Software Engineer,IT,30.0,Hybrid,21.0,5.0,3.0,Low,Burnout,No,Decrease,3.0,Satisfied,3.0,Weekly,Average,North America
-410437,24.0,Non-binary,Data Scientist,Retail,15.0,Hybrid,51.0,3.0,4.0,High,Burnout,,Increase,4.0,,3.0,nan,Average,Oceania
-182574,59.0,Prefer not to say,Marketing,Education,28.0,Hybrid,37.0,4.0,2.0,Low,Burnout,No,Decrease,7.0,Neutral,2.0,nan,Good,Asia
-713520,54.0,Female,Marketing,Consulting,18.0,Hybrid,51.0,8.0,3.0,Low,Anxiety,No,No Change,2.0,Neutral,6.0,,Poor,Asia
-982610,46.0,Female,Marketing,Finance,20.0,Onsite,42.0,14.0,4.0,,Depression,No,Decrease,4.0,Satisfied,4.0,Weekly,Good,Europe
-268316,40.0,Female,,Healthcare,1.0,Hybrid,56.0,7.0,2.0,Low,nan,No,Increase,5.0,Neutral,7.0,Weekly,,Oceania
-899978,28.0,Male,Project Manager,IT,9.0,Onsite,41.0,11.0,6.0,High,Burnout,No,Increase,3.0,Neutral,1.0,Weekly,Good,Europe
-904411,46.0,,Data Scientist,Manufacturing,31.0,Hybrid,59.0,6.0,3.0,Low,Depression,No,Decrease,3.0,Unsatisfied,5.0,Daily,Poor,North America
-113150,46.0,Non-binary,Project Manager,Finance,12.0,Onsite,24.0,0.0,3.0,Low,Burnout,No,Decrease,4.0,Unsatisfied,3.0,Daily,Poor,North America
-360578,43.0,Female,Marketing,Finance,22.0,Onsite,26.0,9.0,3.0,Low,Burnout,No,Decrease,3.0,Unsatisfied,1.0,Daily,Poor,North America
-512986,54.0,Prefer not to say,HR,Healthcare,1.0,Remote,47.0,1.0,2.0,Low,Anxiety,Yes,Increase,0.0,Unsatisfied,1.0,Daily,Poor,Oceania
-777077,28.0,Non-binary,Project Manager,Education,31.0,Onsite,54.0,14.0,2.0,Medium,Burnout,No,Increase,1.0,Satisfied,0.0,,Poor,Europe
-870027,46.0,Female,Project Manager,Finance,31.0,Onsite,45.0,5.0,6.0,Medium,Burnout,Yes,Decrease,1.0,Neutral,1.0,Weekly,Average,Africa
-194866,39.0,Female,Marketing,Finance,9.0,Hybrid,40.0,5.0,5.0,Medium,Burnout,Yes,Increase,3.0,Satisfied,5.0,nan,Poor,Asia
-702000,50.0,Prefer not to say,Designer,Education,3.0,Hybrid,49.0,11.0,3.0,Low,Anxiety,,Decrease,3.0,Neutral,3.0,Weekly,Good,South America
-394401,50.0,Male,Marketing,Retail,28.0,,57.0,10.0,2.0,,nan,Yes,No Change,1.0,Unsatisfied,0.0,Weekly,Average,North America
-136868,38.0,Male,Designer,Finance,2.0,Remote,45.0,4.0,1.0,Low,Anxiety,No,Decrease,1.0,Satisfied,3.0,Weekly,Average,Europe
-855980,25.0,Female,HR,Finance,18.0,Hybrid,51.0,8.0,3.0,Low,Depression,No,No Change,5.0,Satisfied,3.0,nan,Good,Oceania
-742401,50.0,Female,HR,Education,15.0,Remote,51.0,7.0,2.0,High,Burnout,Yes,,0.0,Satisfied,3.0,Weekly,Average,Europe
-555307,46.0,Male,Sales,Retail,35.0,Hybrid,53.0,7.0,5.0,Low,Depression,Yes,Increase,3.0,Neutral,4.0,Weekly,Average,Asia
-638039,60.0,,Software Engineer,Finance,19.0,Hybrid,37.0,1.0,4.0,High,nan,No,Decrease,1.0,Satisfied,4.0,,Poor,Oceania
-937126,34.0,Non-binary,Project Manager,Education,14.0,Onsite,31.0,12.0,4.0,Low,Anxiety,No,Increase,4.0,Neutral,2.0,nan,Poor,Asia
-221219,31.0,Non-binary,Data Scientist,Finance,24.0,Hybrid,48.0,13.0,4.0,Low,Anxiety,Yes,Decrease,6.0,Neutral,4.0,nan,Poor,North America
-652350,35.0,Non-binary,Marketing,Healthcare,26.0,Onsite,24.0,8.0,5.0,High,Anxiety,Yes,No Change,5.0,Unsatisfied,3.0,Weekly,Poor,Europe
-217624,34.0,Female,Sales,Education,6.0,Onsite,47.0,3.0,1.0,High,,Yes,Increase,3.0,Satisfied,5.0,nan,Good,Africa
-686002,32.0,Non-binary,Marketing,Finance,28.0,Onsite,20.0,11.0,3.0,Low,,,Decrease,1.0,,5.0,Daily,Good,Europe
-222765,41.0,Non-binary,Designer,Education,14.0,Hybrid,21.0,6.0,4.0,High,Anxiety,No,Increase,1.0,Neutral,4.0,Daily,Poor,Asia
-331974,25.0,Non-binary,Marketing,IT,31.0,Remote,35.0,12.0,5.0,Low,nan,Yes,,1.0,Neutral,0.0,Weekly,Average,South America
-722653,33.0,Male,Designer,Healthcare,18.0,Onsite,53.0,13.0,8.0,,Anxiety,No,No Change,1.0,Neutral,4.0,Weekly,Average,South America
-961348,22.0,Male,Designer,Finance,1.0,,45.0,4.0,1.0,Medium,Depression,No,Increase,5.0,Satisfied,4.0,Weekly,Average,Asia
-250705,51.0,Non-binary,Marketing,Consulting,18.0,,29.0,5.0,1.0,High,Burnout,Yes,Decrease,3.0,Unsatisfied,6.0,Daily,Good,Europe
-832704,40.0,Female,HR,Finance,24.0,Onsite,22.0,12.0,1.0,Medium,Depression,Yes,Increase,6.0,Satisfied,3.0,Daily,Good,Europe
-220272,39.0,Male,Project Manager,Finance,32.0,Hybrid,35.0,-0.0,5.0,High,Depression,Yes,Decrease,2.0,Unsatisfied,0.0,nan,Average,Oceania
-201944,22.0,Male,HR,Finance,25.0,,42.0,15.0,4.0,High,Anxiety,Yes,Increase,2.0,Neutral,3.0,Daily,Average,Asia
-593209,25.0,Male,Project Manager,Healthcare,13.0,Hybrid,42.0,15.0,0.0,Medium,Depression,Yes,Decrease,1.0,Neutral,0.0,nan,Average,Asia
-271479,23.0,Non-binary,Project Manager,Healthcare,14.0,Remote,53.0,7.0,1.0,Medium,Depression,No,Decrease,3.0,Satisfied,2.0,Weekly,Poor,Europe
-935296,50.0,Female,HR,Education,33.0,Onsite,41.0,8.0,3.0,High,Depression,No,Decrease,3.0,Satisfied,2.0,nan,,Asia
-805585,29.0,Female,Marketing,Education,14.0,Onsite,26.0,13.0,2.0,High,Burnout,No,Increase,2.0,Unsatisfied,2.0,Weekly,Average,Africa
-794164,39.0,Female,Marketing,Manufacturing,19.0,Onsite,31.0,3.0,1.0,High,Anxiety,Yes,No Change,2.0,Satisfied,4.0,Daily,Good,Africa
-801503,25.0,Female,Marketing,Healthcare,35.0,Onsite,46.0,10.0,3.0,Medium,nan,,No Change,3.0,Unsatisfied,5.0,Weekly,,North America
-837984,38.0,Female,Project Manager,Finance,26.0,Onsite,20.0,1.0,1.0,,nan,No,Increase,1.0,Neutral,6.0,Weekly,Average,
-844134,39.0,Male,Marketing,Retail,10.0,Onsite,60.0,4.0,6.0,Low,Anxiety,No,Increase,2.0,Neutral,2.0,Weekly,Average,Europe
-736893,55.0,Male,HR,Healthcare,14.0,Remote,20.0,12.0,0.0,Low,Burnout,,Increase,1.0,Satisfied,2.0,Daily,Good,Europe
-615630,29.0,Non-binary,Marketing,Manufacturing,31.0,Remote,35.0,3.0,0.0,Low,Burnout,No,Decrease,4.0,Unsatisfied,2.0,Daily,Average,Asia
-413953,42.0,Male,Data Scientist,Finance,15.0,Remote,31.0,14.0,3.0,High,Depression,Yes,Decrease,3.0,Satisfied,2.0,Weekly,Good,North America
-963846,39.0,Non-binary,Project Manager,Education,13.0,Hybrid,32.0,-0.0,1.0,High,Depression,Yes,Increase,4.0,Neutral,2.0,Daily,Average,Europe
-526747,55.0,Non-binary,Designer,Healthcare,2.0,Onsite,44.0,13.0,3.0,Low,Anxiety,No,Decrease,0.0,Neutral,6.0,Weekly,Good,Africa
-734491,32.0,Female,HR,Manufacturing,30.0,Hybrid,34.0,9.0,3.0,Low,,Yes,Decrease,1.0,,3.0,Daily,Average,
-258416,41.0,Male,Project Manager,IT,11.0,Hybrid,40.0,12.0,4.0,Medium,nan,Yes,Decrease,3.0,Satisfied,0.0,Daily,Good,Africa
-673907,30.0,Female,Project Manager,Finance,26.0,Hybrid,32.0,4.0,1.0,High,Depression,No,Increase,4.0,Neutral,3.0,Daily,Average,Asia
-330875,36.0,Female,Project Manager,Finance,12.0,Hybrid,23.0,3.0,2.0,Low,Depression,Yes,Increase,2.0,Neutral,3.0,,Good,South America
-452912,25.0,Prefer not to say,Data Scientist,Finance,35.0,Hybrid,25.0,15.0,1.0,Low,Burnout,No,Increase,2.0,Satisfied,4.0,Daily,Good,Europe
-347077,56.0,Male,Designer,Finance,5.0,Onsite,24.0,6.0,7.0,,nan,Yes,No Change,1.0,Unsatisfied,4.0,nan,,Europe
-671415,44.0,Non-binary,Marketing,Finance,3.0,Remote,39.0,12.0,5.0,High,Depression,No,Decrease,3.0,,4.0,Weekly,Average,North America
-530275,60.0,Female,HR,IT,12.0,Onsite,45.0,11.0,5.0,High,Burnout,Yes,Increase,6.0,Unsatisfied,1.0,Daily,Good,Oceania
-735173,54.0,Male,Marketing,Consulting,34.0,Onsite,29.0,11.0,4.0,Low,Anxiety,No,Increase,5.0,Satisfied,5.0,,Average,Europe
-143190,34.0,Female,Marketing,Finance,15.0,Hybrid,20.0,5.0,4.0,High,Depression,No,Increase,3.0,Satisfied,5.0,Weekly,Good,North America
-227590,59.0,Male,Designer,Education,15.0,Onsite,57.0,13.0,5.0,Low,nan,No,No Change,3.0,Neutral,3.0,Weekly,Poor,South America
-792830,32.0,Non-binary,Marketing,Finance,4.0,Onsite,26.0,2.0,4.0,Medium,Depression,No,Increase,8.0,Satisfied,4.0,Daily,Good,Asia
-138510,60.0,Non-binary,HR,Finance,4.0,Hybrid,51.0,10.0,2.0,Low,Depression,No,Increase,6.0,Neutral,3.0,Weekly,,Asia
-390077,26.0,Female,Project Manager,Manufacturing,2.0,Onsite,36.0,14.0,2.0,Medium,Burnout,No,Increase,1.0,Neutral,4.0,Weekly,Good,Europe
-688051,32.0,Male,HR,Manufacturing,24.0,Remote,34.0,7.0,2.0,,nan,No,Increase,3.0,Neutral,2.0,Daily,Average,South America
-116113,49.0,Male,HR,Healthcare,3.0,Hybrid,57.0,3.0,2.0,Low,Anxiety,Yes,No Change,7.0,Unsatisfied,1.0,nan,Average,Europe
-373490,53.0,Non-binary,Data Scientist,Education,20.0,Hybrid,27.0,6.0,2.0,Low,Anxiety,No,Increase,2.0,Satisfied,4.0,Daily,Good,Asia
-108852,31.0,Prefer not to say,Designer,Healthcare,20.0,Hybrid,30.0,5.0,2.0,Low,Burnout,Yes,Decrease,2.0,Neutral,1.0,Weekly,Good,North America
-504961,27.0,Non-binary,Project Manager,Retail,26.0,Onsite,49.0,6.0,3.0,High,Depression,Yes,Increase,5.0,Neutral,0.0,nan,Average,Oceania
-332670,46.0,Male,Sales,Healthcare,20.0,Remote,39.0,8.0,3.0,Low,Depression,,,2.0,Satisfied,1.0,Weekly,Average,Africa
-368532,23.0,Female,Marketing,Healthcare,28.0,Remote,42.0,12.0,1.0,Low,Depression,Yes,Decrease,3.0,Neutral,3.0,Weekly,Average,South America
-434475,52.0,Female,HR,Healthcare,1.0,Hybrid,59.0,9.0,5.0,Low,nan,Yes,No Change,1.0,Satisfied,2.0,nan,Poor,Oceania
-788886,53.0,Male,HR,Finance,30.0,Onsite,57.0,7.0,3.0,Low,Burnout,Yes,Decrease,6.0,Satisfied,4.0,nan,Average,Europe
-613635,58.0,Male,,IT,32.0,Hybrid,42.0,4.0,2.0,Low,Depression,No,Decrease,4.0,Neutral,1.0,Weekly,,Africa
-798374,47.0,Female,HR,Finance,21.0,Onsite,47.0,11.0,5.0,High,Anxiety,No,No Change,2.0,,7.0,Weekly,Average,Europe
-278023,24.0,Male,HR,IT,6.0,Onsite,28.0,13.0,4.0,,Anxiety,No,Increase,6.0,Neutral,4.0,nan,Poor,Asia
-543419,53.0,Non-binary,Marketing,Healthcare,3.0,Hybrid,32.0,6.0,5.0,,Burnout,,Increase,6.0,Neutral,2.0,Daily,Average,South America
-456042,55.0,Male,Designer,Education,28.0,Remote,35.0,-0.0,4.0,Low,Anxiety,Yes,Increase,9.0,Satisfied,5.0,Weekly,Average,North America
-537996,45.0,Male,,Healthcare,11.0,Onsite,48.0,6.0,4.0,,Anxiety,Yes,No Change,5.0,Neutral,3.0,nan,Average,Europe
-153193,52.0,,Marketing,Consulting,25.0,Remote,48.0,5.0,4.0,Low,Anxiety,No,Increase,2.0,Neutral,6.0,Daily,Poor,Europe
-997959,25.0,Prefer not to say,Project Manager,Consulting,34.0,Onsite,20.0,10.0,1.0,High,Burnout,Yes,No Change,1.0,,4.0,nan,Average,Africa
-247512,46.0,Male,Sales,Education,3.0,Hybrid,29.0,9.0,1.0,Low,Burnout,Yes,Increase,4.0,,1.0,Weekly,Average,Asia
-557983,55.0,Female,Designer,Retail,28.0,Onsite,21.0,2.0,1.0,Low,Anxiety,Yes,Decrease,1.0,Satisfied,1.0,Daily,Good,Europe
-591655,46.0,Male,Project Manager,IT,11.0,Onsite,49.0,14.0,4.0,Low,Depression,No,Increase,4.0,Satisfied,0.0,nan,Good,Asia
-495004,56.0,Prefer not to say,Data Scientist,Finance,16.0,Hybrid,51.0,11.0,5.0,Low,Burnout,No,No Change,2.0,Satisfied,2.0,Daily,,Asia
-155285,44.0,,Marketing,Education,8.0,Hybrid,29.0,3.0,4.0,High,Burnout,No,No Change,0.0,Unsatisfied,3.0,Weekly,,Africa
-116737,42.0,Male,Marketing,Retail,5.0,,59.0,14.0,2.0,High,,No,No Change,2.0,Satisfied,4.0,Weekly,Good,North America
-676858,37.0,Male,Project Manager,,32.0,Hybrid,37.0,5.0,2.0,High,Burnout,No,Decrease,4.0,Neutral,2.0,Weekly,Poor,Oceania
-558268,59.0,Male,Designer,Healthcare,15.0,Remote,26.0,3.0,2.0,,Depression,Yes,Increase,1.0,Unsatisfied,3.0,Daily,Good,Europe
-223452,54.0,Female,HR,Manufacturing,24.0,Hybrid,45.0,15.0,5.0,High,Anxiety,Yes,Increase,4.0,Neutral,0.0,Weekly,,South America
-631854,28.0,Male,Designer,Manufacturing,30.0,Remote,56.0,11.0,4.0,Low,Burnout,No,Increase,2.0,Neutral,4.0,Weekly,Good,South America
-694095,25.0,,Sales,Education,30.0,,49.0,14.0,2.0,,Depression,Yes,Decrease,1.0,Satisfied,7.0,Daily,Poor,Europe
-219639,34.0,Non-binary,Data Scientist,Healthcare,31.0,Remote,50.0,12.0,3.0,High,nan,No,Increase,1.0,Unsatisfied,2.0,Daily,Average,North America
-467905,59.0,Prefer not to say,HR,Retail,16.0,Onsite,37.0,7.0,1.0,Low,Anxiety,Yes,No Change,3.0,Satisfied,1.0,nan,Good,Oceania
-967008,38.0,Non-binary,Software Engineer,Education,8.0,Hybrid,32.0,6.0,1.0,High,Depression,Yes,Increase,2.0,Neutral,4.0,Weekly,Good,Asia
-928771,53.0,Male,HR,Healthcare,13.0,Remote,39.0,-0.0,3.0,,Depression,No,No Change,7.0,Unsatisfied,3.0,Daily,Good,Europe
-700279,34.0,Prefer not to say,Designer,Manufacturing,3.0,,21.0,15.0,3.0,Medium,Depression,No,Increase,3.0,Neutral,3.0,Weekly,Poor,South America
-915882,40.0,Female,Sales,IT,31.0,Onsite,33.0,1.0,1.0,High,Anxiety,No,Decrease,3.0,Neutral,2.0,Weekly,Average,Oceania
-778360,39.0,Prefer not to say,Marketing,IT,20.0,Onsite,34.0,3.0,2.0,Low,Burnout,Yes,Decrease,2.0,Neutral,2.0,Daily,Average,North America
-965381,32.0,Male,Project Manager,Healthcare,23.0,Onsite,22.0,10.0,2.0,Low,Anxiety,Yes,Increase,2.0,Neutral,3.0,,Poor,North America
-870047,59.0,Non-binary,,Finance,6.0,Onsite,31.0,11.0,5.0,Medium,Burnout,,Decrease,3.0,Unsatisfied,6.0,,Average,Europe
-301303,28.0,Non-binary,Software Engineer,Manufacturing,19.0,Onsite,28.0,5.0,2.0,High,Depression,No,Decrease,3.0,Neutral,10.0,Weekly,Poor,
-979026,43.0,Male,Project Manager,Education,24.0,,39.0,7.0,5.0,High,Burnout,No,No Change,2.0,Neutral,5.0,,Good,Asia
-385002,52.0,Male,Data Scientist,Finance,1.0,Hybrid,55.0,12.0,1.0,Low,nan,No,No Change,3.0,Neutral,2.0,Weekly,Good,Europe
-965888,52.0,Non-binary,Sales,Finance,9.0,Onsite,39.0,8.0,5.0,Low,Depression,Yes,Decrease,2.0,Unsatisfied,2.0,Weekly,Average,Europe
-488950,39.0,Non-binary,HR,Finance,13.0,Hybrid,20.0,4.0,1.0,Medium,Depression,No,Increase,0.0,Neutral,6.0,nan,Good,Europe
-640622,45.0,,Marketing,Retail,12.0,,21.0,12.0,3.0,Low,,No,Increase,0.0,Neutral,4.0,Weekly,Average,North America
-265006,41.0,Male,HR,,30.0,Hybrid,33.0,14.0,5.0,Low,Anxiety,Yes,Decrease,6.0,,3.0,Weekly,Good,Europe
-462533,30.0,Male,Marketing,Healthcare,23.0,,40.0,3.0,1.0,Medium,Burnout,Yes,Increase,6.0,Satisfied,3.0,Weekly,Average,Asia
-368837,55.0,Female,Designer,Education,30.0,Hybrid,32.0,13.0,6.0,Low,,Yes,Decrease,2.0,Satisfied,3.0,Daily,,Asia
-492432,32.0,Male,Designer,Finance,2.0,Onsite,43.0,13.0,8.0,High,Burnout,No,No Change,6.0,Neutral,3.0,nan,Poor,North America
-760960,23.0,Non-binary,Project Manager,IT,29.0,Onsite,42.0,-0.0,3.0,High,Anxiety,No,Decrease,4.0,Satisfied,2.0,,Average,North America
-248116,35.0,,HR,Manufacturing,32.0,Onsite,26.0,14.0,2.0,High,,No,Decrease,2.0,Neutral,2.0,Weekly,Poor,Africa
-160020,60.0,Non-binary,Designer,IT,18.0,Onsite,32.0,4.0,1.0,High,Anxiety,Yes,Decrease,5.0,Neutral,5.0,nan,Poor,North America
-681685,38.0,,Software Engineer,Finance,1.0,Hybrid,41.0,14.0,0.0,Low,Depression,Yes,Increase,2.0,Neutral,2.0,Daily,Average,Europe
-674712,26.0,Male,HR,IT,11.0,,26.0,13.0,5.0,,Depression,Yes,Decrease,3.0,Unsatisfied,1.0,nan,Average,Africa
-579923,37.0,Female,Project Manager,Finance,24.0,Hybrid,40.0,4.0,2.0,High,Burnout,Yes,Decrease,2.0,Unsatisfied,0.0,Daily,Average,South America
-663209,36.0,Male,HR,Finance,32.0,Hybrid,40.0,8.0,3.0,High,Depression,Yes,Increase,6.0,Neutral,5.0,Weekly,Good,Europe
-216671,55.0,Non-binary,Designer,Retail,35.0,Remote,33.0,3.0,1.0,High,,No,Increase,2.0,Satisfied,5.0,nan,Poor,Oceania
-121142,28.0,Prefer not to say,Marketing,IT,18.0,,48.0,9.0,4.0,Medium,Depression,Yes,,2.0,Unsatisfied,3.0,Weekly,Average,Asia
-339471,26.0,Non-binary,HR,Healthcare,35.0,Onsite,33.0,6.0,3.0,Low,Burnout,No,Decrease,5.0,Satisfied,1.0,Daily,Average,Asia
-190512,28.0,Non-binary,Sales,IT,4.0,Onsite,36.0,11.0,6.0,,Anxiety,No,Decrease,1.0,Satisfied,3.0,nan,Poor,Europe
-672687,59.0,Female,Designer,Healthcare,11.0,Hybrid,59.0,2.0,2.0,High,Depression,Yes,Decrease,4.0,Neutral,4.0,nan,Average,Oceania
-257796,39.0,Male,Project Manager,Healthcare,12.0,Hybrid,43.0,9.0,0.0,Low,Burnout,Yes,Increase,0.0,Unsatisfied,3.0,Weekly,Poor,Asia
-247263,55.0,Non-binary,Project Manager,IT,18.0,Hybrid,20.0,13.0,2.0,High,Burnout,,Decrease,0.0,Neutral,1.0,Daily,,Asia
-408205,41.0,Non-binary,Project Manager,Healthcare,22.0,Remote,28.0,8.0,2.0,Low,Anxiety,No,Increase,3.0,Unsatisfied,4.0,Daily,Good,Europe
-159753,41.0,,Marketing,Manufacturing,9.0,Onsite,31.0,12.0,3.0,Low,Depression,No,,5.0,Satisfied,7.0,Daily,Average,Europe
-396014,48.0,Male,Marketing,Consulting,14.0,Onsite,22.0,3.0,5.0,High,Depression,Yes,Increase,5.0,Satisfied,1.0,Daily,Good,Europe
-980612,31.0,Non-binary,HR,Retail,1.0,Onsite,30.0,-0.0,2.0,High,Burnout,No,Increase,3.0,Neutral,2.0,nan,Good,Europe
-928498,30.0,Female,Data Scientist,Healthcare,27.0,Onsite,54.0,3.0,6.0,Low,Burnout,No,No Change,3.0,,2.0,nan,Poor,South America
-430365,35.0,Non-binary,Marketing,Finance,19.0,Hybrid,43.0,10.0,6.0,Low,Anxiety,Yes,Increase,3.0,Neutral,2.0,Daily,Good,Europe
-943338,50.0,Female,Project Manager,Education,15.0,Hybrid,40.0,0.0,3.0,Low,Depression,No,Decrease,5.0,Neutral,1.0,Daily,Good,Europe
-789788,44.0,Non-binary,Designer,Finance,22.0,Remote,47.0,13.0,2.0,Low,nan,No,Decrease,6.0,Satisfied,2.0,Weekly,Good,Asia
-482618,30.0,Female,Marketing,Education,25.0,Remote,39.0,5.0,7.0,High,Anxiety,No,Decrease,3.0,Unsatisfied,3.0,Daily,Average,Asia
-542583,36.0,Male,Project Manager,IT,8.0,Remote,54.0,5.0,6.0,High,Anxiety,Yes,Decrease,4.0,Neutral,2.0,nan,,South America
-689492,59.0,Non-binary,Designer,Finance,23.0,Remote,35.0,-1.0,4.0,High,Anxiety,,Increase,1.0,Satisfied,2.0,Weekly,Average,North America
-420294,36.0,Non-binary,Sales,Consulting,15.0,Remote,50.0,4.0,4.0,Medium,,Yes,No Change,0.0,Unsatisfied,4.0,Daily,Good,North America
-907397,55.0,Non-binary,Marketing,IT,25.0,Onsite,36.0,7.0,3.0,High,Depression,No,No Change,2.0,Unsatisfied,4.0,Weekly,Average,Asia
-634957,56.0,Female,HR,Finance,33.0,,59.0,11.0,7.0,High,,No,Decrease,4.0,Satisfied,5.0,Weekly,Good,South America
-163584,41.0,Male,Sales,Retail,30.0,Hybrid,38.0,13.0,2.0,High,Burnout,No,No Change,2.0,Neutral,1.0,Weekly,Average,Asia
-635669,25.0,Non-binary,HR,Finance,23.0,Hybrid,32.0,0.0,3.0,Low,Anxiety,No,Increase,5.0,Unsatisfied,2.0,Daily,Good,Asia
-890343,40.0,Non-binary,Designer,Manufacturing,6.0,Hybrid,26.0,-0.0,2.0,Low,nan,Yes,Increase,3.0,Satisfied,5.0,Weekly,Good,North America
-730423,58.0,Male,Marketing,Healthcare,32.0,Onsite,52.0,11.0,5.0,High,Anxiety,Yes,Decrease,4.0,Neutral,0.0,nan,Average,Asia
-490586,37.0,Non-binary,Sales,Manufacturing,24.0,Hybrid,52.0,14.0,3.0,Low,Anxiety,Yes,No Change,4.0,Satisfied,5.0,Daily,,Africa
-843199,36.0,Non-binary,Project Manager,Education,27.0,Hybrid,53.0,7.0,2.0,High,Depression,,Increase,3.0,Satisfied,2.0,Daily,Poor,Europe
-556171,30.0,Female,Project Manager,Manufacturing,9.0,,46.0,7.0,3.0,Medium,Burnout,Yes,,2.0,Satisfied,2.0,Weekly,Good,North America
-637987,23.0,Non-binary,HR,Healthcare,24.0,Hybrid,42.0,10.0,2.0,High,Burnout,,Increase,2.0,Neutral,2.0,Weekly,Poor,Asia
-758369,46.0,Male,HR,Manufacturing,17.0,Onsite,48.0,8.0,4.0,,Burnout,Yes,No Change,3.0,Satisfied,1.0,Daily,Good,Europe
-816321,40.0,Prefer not to say,HR,Finance,30.0,Onsite,28.0,1.0,0.0,High,Anxiety,,Increase,4.0,Satisfied,4.0,Daily,Good,Africa
-808576,30.0,Male,HR,,6.0,Hybrid,43.0,6.0,3.0,,Anxiety,Yes,Increase,5.0,Satisfied,0.0,Weekly,Average,North America
-158926,49.0,Female,Sales,Healthcare,19.0,Hybrid,54.0,14.0,5.0,Medium,Depression,,No Change,2.0,Satisfied,3.0,Daily,Poor,Europe
-700626,46.0,Non-binary,Marketing,Education,27.0,Onsite,21.0,2.0,5.0,Medium,,No,Increase,3.0,Neutral,3.0,nan,Good,
-272955,56.0,Non-binary,Project Manager,IT,8.0,Hybrid,29.0,5.0,0.0,Low,Anxiety,No,No Change,0.0,Unsatisfied,2.0,nan,Good,Asia
-279672,57.0,Non-binary,Marketing,Finance,17.0,Hybrid,23.0,3.0,1.0,Medium,Depression,Yes,No Change,2.0,Unsatisfied,0.0,nan,Poor,Oceania
-374509,34.0,Male,HR,Finance,28.0,Onsite,37.0,8.0,4.0,Low,Depression,Yes,,1.0,Satisfied,3.0,,Average,North America
-671900,59.0,Non-binary,Project Manager,Finance,23.0,Onsite,38.0,5.0,0.0,Low,Burnout,Yes,Increase,3.0,,3.0,Weekly,Average,Europe
-874479,49.0,Male,Marketing,Education,22.0,Onsite,27.0,14.0,0.0,Low,Depression,No,Decrease,1.0,Satisfied,2.0,Weekly,Average,Europe
-123597,58.0,Male,,Consulting,19.0,Hybrid,57.0,7.0,4.0,Low,Depression,No,Decrease,1.0,Unsatisfied,2.0,nan,Good,Asia
-861256,57.0,Male,,Healthcare,1.0,Hybrid,42.0,9.0,8.0,Low,Depression,Yes,No Change,4.0,Neutral,2.0,nan,Poor,North America
-158868,32.0,Female,Marketing,IT,8.0,Hybrid,54.0,11.0,3.0,High,Depression,No,Decrease,1.0,Neutral,4.0,nan,Average,Asia
-244579,25.0,Female,Designer,IT,22.0,Onsite,41.0,8.0,3.0,High,Burnout,Yes,No Change,3.0,Neutral,5.0,Weekly,Poor,Europe
-394770,57.0,Male,Project Manager,IT,19.0,Remote,56.0,13.0,3.0,Medium,Depression,,Decrease,2.0,,1.0,Daily,Good,Asia
-793564,32.0,Prefer not to say,HR,Finance,25.0,Hybrid,27.0,8.0,3.0,Low,Burnout,Yes,Decrease,2.0,Neutral,4.0,Daily,Good,North America
-881745,31.0,Female,,Education,27.0,Remote,57.0,15.0,0.0,High,Depression,,Decrease,4.0,Neutral,1.0,Daily,Average,Europe
-572516,26.0,Prefer not to say,Project Manager,Healthcare,16.0,Onsite,45.0,3.0,3.0,,Burnout,No,No Change,2.0,Unsatisfied,2.0,nan,,
-416001,46.0,Male,Sales,Finance,27.0,Onsite,48.0,13.0,1.0,Low,Burnout,Yes,Increase,7.0,Neutral,4.0,Daily,Average,Asia
-542713,26.0,Male,Software Engineer,Education,30.0,Onsite,45.0,13.0,5.0,High,Depression,No,No Change,6.0,Satisfied,4.0,nan,Poor,North America
-748791,45.0,Female,Designer,Education,9.0,Onsite,26.0,1.0,5.0,Low,,No,Increase,1.0,Neutral,1.0,Daily,Good,Africa
-530488,44.0,Female,Designer,Consulting,30.0,Onsite,22.0,12.0,0.0,Low,nan,No,No Change,5.0,Satisfied,2.0,Weekly,Good,Africa
-143357,35.0,Male,Data Scientist,Healthcare,29.0,Onsite,32.0,14.0,5.0,High,Depression,Yes,Increase,2.0,Satisfied,5.0,Weekly,Poor,Asia
-340670,51.0,Male,Designer,Healthcare,31.0,,22.0,13.0,2.0,High,Burnout,No,Decrease,4.0,Satisfied,3.0,nan,Good,North America
-636313,38.0,Male,Marketing,IT,24.0,Remote,59.0,4.0,4.0,High,Burnout,No,No Change,6.0,Satisfied,5.0,Daily,Poor,North America
-568127,43.0,Male,Data Scientist,Education,13.0,Hybrid,26.0,7.0,2.0,Medium,Burnout,No,Decrease,6.0,Satisfied,6.0,Weekly,Good,South America
-934952,37.0,Female,HR,Finance,14.0,,26.0,10.0,4.0,Medium,Depression,No,No Change,1.0,,2.0,Weekly,Average,North America
-650762,52.0,Male,Data Scientist,Consulting,32.0,Onsite,30.0,5.0,2.0,Low,Depression,,Decrease,5.0,Satisfied,4.0,Weekly,Average,
-919909,41.0,Female,Sales,Healthcare,26.0,Hybrid,35.0,14.0,3.0,High,Burnout,,Decrease,4.0,Neutral,3.0,nan,Good,Asia
-466560,40.0,Prefer not to say,Project Manager,,17.0,Remote,43.0,1.0,3.0,Low,nan,No,Increase,3.0,Neutral,0.0,Daily,Good,North America
-434775,59.0,Male,Sales,Healthcare,33.0,Hybrid,54.0,13.0,2.0,High,Anxiety,Yes,Increase,1.0,Neutral,4.0,nan,Average,Europe
-230895,44.0,,HR,Education,25.0,Onsite,51.0,8.0,6.0,High,Anxiety,No,,3.0,Unsatisfied,3.0,nan,Poor,Europe
-718873,23.0,Non-binary,Sales,IT,8.0,Hybrid,21.0,2.0,5.0,High,Depression,Yes,No Change,7.0,Neutral,2.0,Daily,,Europe
-347304,58.0,,HR,Finance,32.0,Hybrid,58.0,3.0,2.0,High,,No,Increase,3.0,Satisfied,4.0,Daily,,Oceania
-566797,44.0,Non-binary,HR,Healthcare,33.0,Onsite,43.0,14.0,3.0,,Depression,Yes,,2.0,Unsatisfied,5.0,Weekly,Poor,Asia
-848187,50.0,Non-binary,Sales,Healthcare,7.0,Onsite,33.0,1.0,1.0,High,Anxiety,No,Decrease,2.0,Satisfied,3.0,Daily,Good,North America
-376244,29.0,Female,Marketing,IT,22.0,Onsite,29.0,14.0,1.0,,Anxiety,Yes,No Change,2.0,Satisfied,0.0,Weekly,,Africa
-966174,56.0,Male,Marketing,Healthcare,24.0,Hybrid,39.0,14.0,3.0,Medium,Burnout,,Increase,3.0,Unsatisfied,1.0,nan,Poor,Oceania
-866260,28.0,Male,HR,Healthcare,16.0,Remote,27.0,10.0,2.0,,Burnout,No,No Change,5.0,Unsatisfied,1.0,Daily,,Oceania
-362630,33.0,Prefer not to say,Marketing,Finance,8.0,Hybrid,38.0,6.0,3.0,Medium,Anxiety,No,Increase,3.0,Neutral,3.0,nan,Good,South America
-413945,46.0,Male,HR,Manufacturing,32.0,,38.0,0.0,1.0,High,,No,,1.0,Neutral,2.0,nan,Average,Europe
-678434,24.0,Female,Project Manager,,17.0,Remote,55.0,12.0,4.0,Low,nan,No,Increase,4.0,Neutral,1.0,,Average,Oceania
-807742,59.0,Non-binary,Project Manager,Finance,7.0,Onsite,42.0,12.0,5.0,High,Burnout,No,,1.0,Neutral,4.0,Weekly,Average,Asia
-300299,58.0,Non-binary,Sales,IT,16.0,,38.0,2.0,2.0,Low,nan,,Increase,1.0,Satisfied,2.0,Weekly,Poor,Asia
-829845,29.0,Prefer not to say,HR,Finance,8.0,Hybrid,32.0,6.0,4.0,Low,Burnout,No,Increase,7.0,Unsatisfied,5.0,Weekly,Good,Europe
-646674,47.0,,HR,Finance,5.0,,30.0,15.0,1.0,Low,Anxiety,No,No Change,1.0,Satisfied,4.0,Weekly,Good,South America
-684795,24.0,Non-binary,Sales,IT,23.0,Onsite,29.0,1.0,1.0,,nan,No,No Change,1.0,Unsatisfied,1.0,Daily,Average,Europe
-891663,26.0,Male,Sales,,10.0,Onsite,44.0,10.0,4.0,,Burnout,No,Increase,2.0,Neutral,4.0,,Average,Oceania
-745979,45.0,Male,Marketing,Finance,4.0,Onsite,26.0,12.0,3.0,High,Depression,No,No Change,3.0,Neutral,1.0,nan,Good,North America
-807132,34.0,Male,HR,Healthcare,34.0,Onsite,25.0,15.0,2.0,Low,Anxiety,No,Decrease,4.0,Satisfied,2.0,Daily,Good,Europe
-106851,33.0,Female,Data Scientist,Healthcare,16.0,Remote,20.0,13.0,4.0,Low,Burnout,No,Increase,3.0,Unsatisfied,8.0,nan,Average,North America
-446918,37.0,Male,HR,Healthcare,11.0,Onsite,43.0,6.0,1.0,Low,Burnout,,Increase,2.0,Neutral,4.0,Daily,Average,Europe
-329102,57.0,Male,Software Engineer,IT,27.0,Hybrid,29.0,12.0,1.0,Low,Burnout,No,Decrease,2.0,Neutral,6.0,nan,Average,Asia
-338128,57.0,Male,HR,Education,6.0,Remote,54.0,9.0,4.0,High,Burnout,Yes,Increase,3.0,Neutral,3.0,,Poor,Africa
-364985,46.0,Male,HR,Finance,13.0,Onsite,33.0,8.0,1.0,Low,nan,No,Decrease,3.0,Unsatisfied,1.0,,Good,Asia
-210717,51.0,Male,Project Manager,Healthcare,15.0,Onsite,59.0,12.0,0.0,Low,nan,,Increase,4.0,Neutral,0.0,Daily,Good,Oceania
-983903,59.0,Male,Software Engineer,Education,26.0,Onsite,43.0,3.0,2.0,Low,nan,No,Increase,2.0,Unsatisfied,3.0,Weekly,Average,North America
+longitude,latitude,housing_median_age,test_empty,total_rooms,test_string,total_bedrooms,population,test_single,households,test_int,median_income,median_house_value
+-119.9200191158698,35.727255172275704,29.0,,1366.0,Ivo,345.0,651.0,99.0,305.0,518.0,3.567381586305669,194471.0
+-118.67857092703909,33.30070978612259,49.0,,674.0,CLx,224.0,515.0,99.0,198.0,618.0,3.702975097008305,253769.0
+-118.261561763434,33.48565872679251,17.0,,4742.0,Dyh,951.0,2743.0,99.0,990.0,614.0,7.299437916656365,422414.0
+-118.32100190274761,34.70861802238061,51.0,,890.0,nGy,272.0,903.0,99.0,214.0,427.0,2.3927324601678794,114832.0
+-117.89392136879701,33.48134903683486,18.0,,3214.0,sZm,784.0,1596.0,99.0,778.0,538.0,3.3114744963686613,204400.0
+-121.73967196358686,38.53968221833374,24.0,,1961.0,nIP,352.0,725.0,99.0,364.0,480.0,5.619858149389526,186251.0
+-117.38511146381875,33.19564037452202,43.0,,2300.0,PyX,477.0,2053.0,99.0,493.0,594.0,3.3726622564818376,254526.0
+-119.08685417513755,35.09747205823316,24.0,,1122.0,yQl,354.0,1484.0,99.0,283.0,520.0,2.2906629232150615,69049.0
+-118.52580659382323,34.80688167740799,6.0,,1754.0,ErY,284.0,349.0,99.0,202.0,596.0,4.368575493656413,169210.0
+-117.74105996287904,34.13463131631171,31.0,,4085.0,kgK,561.0,1484.0,99.0,514.0,410.0,7.156227969227124,239505.0
+-121.29695835855475,39.05254077800891,29.0,,3235.0,aOp,496.0,1946.0,99.0,509.0,426.0,5.490878862810306,218864.0
+-122.56395215129162,38.80290600133902,13.0,,1768.0,kAv,350.0,857.0,99.0,383.0,475.0,4.320882976686326,435866.0
+-119.66361599361029,34.72810835925511,26.0,,1187.0,RHD,293.0,793.0,99.0,281.0,451.0,2.5386179864547933,219493.0
+-119.4400282251764,34.99693719942797,19.0,,769.0,PyV,121.0,355.0,99.0,111.0,661.0,2.2529410240124466,62428.0
+-119.4577884084583,35.048703755540146,31.0,,728.0,ikA,168.0,657.0,99.0,162.0,674.0,5.799747571812027,490478.0
+-117.1041261460621,33.40603452778932,31.0,,2322.0,dRv,348.0,1261.0,99.0,389.0,419.0,3.7731549157178867,205850.0
+-116.41122178522089,32.759601453716165,26.0,,1727.0,kVd,381.0,1779.0,99.0,358.0,540.0,3.6186749894850556,310323.0
+-115.35892853424234,32.706247117754835,16.0,,2549.0,uGL,418.0,1799.0,99.0,421.0,538.0,4.396637962607894,202822.0
+-116.28193039546137,32.835261276374055,30.0,,2283.0,DrJ,471.0,986.0,99.0,388.0,616.0,4.124609348731518,280815.0
+-115.48955383477795,32.92271306952204,15.0,,3328.0,rrv,549.0,1890.0,99.0,541.0,403.0,5.288316567663963,189744.0
+-121.65150434463476,37.097744337529704,33.0,,3418.0,PMC,590.0,1710.0,99.0,620.0,478.0,5.002216251984939,265523.0
+-121.78344490648598,39.01566542900046,40.0,,5172.0,EhU,1020.0,4144.0,99.0,816.0,558.0,2.907896616233503,98436.0
+-118.38375957906436,33.83285892803444,40.0,,3128.0,HYc,555.0,2997.0,99.0,516.0,702.0,4.360600823320797,312709.0
+-120.93523822047482,40.49359848427635,33.0,,562.0,lWh,120.0,154.0,99.0,135.0,608.0,2.439162889177035,47287.0
+-123.11289001417664,40.46591151175184,39.0,,1072.0,vDC,297.0,588.0,99.0,285.0,697.0,1.369524298024901,81352.0
+-118.380882415585,33.808291704307244,29.0,,555.0,DTJ,130.0,282.0,99.0,107.0,444.0,2.292825849808773,123435.0
+-119.8823108334199,34.568406659586074,29.0,,1477.0,box,298.0,1151.0,99.0,380.0,594.0,4.255020540697764,202557.0
+-119.34256772603655,35.03859047807798,35.0,,1165.0,GjK,254.0,1238.0,99.0,287.0,425.0,6.603096764835197,181472.0
+-121.64222967119966,37.65852944601926,41.0,,1654.0,ffN,382.0,883.0,99.0,397.0,498.0,3.151565133609486,145961.0
+-118.9802196156151,33.92685701763558,31.0,,3558.0,mYi,857.0,1725.0,99.0,718.0,458.0,3.1112304787426335,375881.0
+-120.12243479475158,34.957537990092064,49.0,,629.0,tZu,187.0,966.0,99.0,207.0,530.0,3.2649350292853314,169472.0
+-122.71284080228351,40.441683008108384,40.0,,4366.0,OVk,824.0,3065.0,99.0,801.0,596.0,1.9550276302711271,76401.0
+-117.07206723480891,33.56479424740857,23.0,,732.0,Xyr,139.0,249.0,99.0,100.0,523.0,4.595043610796048,148390.0
+-121.15206520016794,37.11644513250036,31.0,,1153.0,fCn,345.0,951.0,99.0,296.0,582.0,3.063806905561227,343972.0
+-118.9533546344287,34.906442296769434,43.0,,851.0,mVW,115.0,389.0,99.0,150.0,480.0,5.4149798929574064,304481.0
+-121.17662711565303,35.77743852714057,34.0,,1952.0,VMK,291.0,897.0,99.0,283.0,492.0,6.111109582862347,446052.0
+-119.99209445749494,37.114504949405266,15.0,,2570.0,RVZ,424.0,1107.0,99.0,400.0,681.0,5.562189912953452,105152.0
+-116.67413173584532,33.17797674100841,24.0,,2545.0,hPX,652.0,2164.0,99.0,647.0,378.0,2.2219097615759376,83282.0
+-121.16367726311965,39.74349961823545,23.0,,1424.0,vtG,242.0,547.0,99.0,226.0,478.0,2.192421411012851,44957.0
+-119.63112806943741,33.972323316143616,46.0,,1287.0,ExN,327.0,927.0,99.0,360.0,791.0,4.251076564977645,203467.0
+-124.05233305797933,42.994126724126176,44.0,,386.0,VVL,94.0,360.0,99.0,111.0,529.0,2.611890863593864,173363.0
+-115.49961896368863,32.89599556821415,32.0,,2383.0,cHP,585.0,2807.0,99.0,569.0,558.0,1.5392734994829116,97386.0
+-118.83434591570239,33.8382352321556,31.0,,1177.0,goX,260.0,1035.0,99.0,297.0,643.0,4.020607778006403,197056.0
+-120.07620187970193,35.55298384553501,18.0,,4821.0,QyY,776.0,1902.0,99.0,703.0,376.0,4.093794673904444,228793.0
+-118.96676411826103,34.597411570891765,35.0,,2072.0,HEJ,439.0,1372.0,99.0,392.0,484.0,2.0881414469236357,133428.0
+-118.55989029374311,34.94193004034308,26.0,,2788.0,JeO,508.0,1551.0,99.0,531.0,298.0,3.8922711698695758,167486.0
+-119.50061509585883,34.995274459662525,18.0,,3831.0,mIv,827.0,2034.0,99.0,784.0,386.0,4.4273704736683746,234965.0
+-121.81549998509907,37.05662061278059,36.0,,749.0,SQg,126.0,471.0,99.0,138.0,336.0,4.010594950157568,193114.0
+-120.36007875704878,35.898137001051765,44.0,,2465.0,fLb,450.0,1036.0,99.0,538.0,451.0,5.049241508747404,306789.0
+-118.22489691257084,34.770759592378916,26.0,,1626.0,jmP,301.0,1263.0,99.0,260.0,383.0,3.9705360937919356,123365.0
+-119.15909715627156,34.09764688254652,35.0,,1773.0,POP,553.0,1633.0,99.0,525.0,576.0,2.717352572673132,218326.0
+-121.06182473617874,37.58032700136945,30.0,,7331.0,pil,1616.0,4485.0,99.0,1638.0,666.0,3.0059384180921396,251950.0
+-120.49787725066003,36.136845050052976,28.0,,7345.0,Xbm,1388.0,2244.0,99.0,1308.0,775.0,5.665357238448669,260723.0
+-122.98333449707124,37.38168394289765,47.0,,2436.0,MLt,376.0,987.0,99.0,339.0,418.0,7.1923813665020875,357460.0
+-116.30193597980355,33.0722661481292,42.0,,1938.0,yOD,448.0,2298.0,99.0,407.0,317.0,2.594851023788347,205090.0
+-114.50721483292286,32.6920293086157,27.0,,5108.0,vSP,724.0,2867.0,99.0,624.0,529.0,5.974124946875377,174233.0
+-119.40019636496592,34.51778652538639,38.0,,2045.0,YEM,556.0,1190.0,99.0,457.0,528.0,3.47095042102313,245044.0
+-122.11760054632438,40.20275155033522,49.0,,1127.0,ksT,199.0,587.0,99.0,180.0,475.0,2.075078308518683,48283.0
+-119.63397773432209,36.71960657945802,5.0,,509.0,lvs,131.0,564.0,99.0,143.0,864.0,3.0787578040836356,98911.0
+-122.14514493538371,38.935610916522336,54.0,,483.0,eSI,133.0,356.0,99.0,106.0,447.0,1.3092251662752585,83217.0
+-123.94074145171301,45.70624886191876,40.0,,1254.0,TYW,261.0,710.0,99.0,246.0,479.0,1.8041652553829413,96216.0
+-122.36421715343275,38.78699551190352,52.0,,352.0,yad,70.0,182.0,99.0,82.0,405.0,2.4270249515281557,160693.0
+-118.38890865288573,34.15950500638127,33.0,,3280.0,qZp,712.0,2062.0,99.0,669.0,553.0,2.6472398693761843,201439.0
+-120.13991731512289,35.46268624686026,28.0,,1356.0,Aok,452.0,1105.0,99.0,286.0,550.0,1.41743074417031,110511.0
+-119.14889803339403,36.41788938234344,8.0,,3840.0,Zdh,539.0,1616.0,99.0,474.0,624.0,5.3184507995530685,127864.0
+-122.46738415728588,41.51735722081288,9.0,,671.0,MnT,106.0,256.0,99.0,95.0,585.0,4.188225998754408,214236.0
+-119.16641879093388,33.94404649466536,24.0,,2560.0,iVE,538.0,1496.0,99.0,565.0,395.0,1.6609142285585223,144713.0
+-121.36191240071209,38.237436903536754,21.0,,2952.0,rki,407.0,1213.0,99.0,410.0,529.0,4.573984645729887,256679.0
+-121.22357069973634,38.34266577008137,39.0,,720.0,pKc,249.0,259.0,99.0,229.0,262.0,1.2281314594464934,70792.0
+-122.54079126852454,39.86291507942033,22.0,,8249.0,snC,1621.0,2819.0,99.0,1383.0,855.0,2.223726381605113,98587.0
+-119.18959196686777,34.36679395564945,37.0,,1127.0,iKS,227.0,1105.0,99.0,211.0,526.0,3.9516026830422235,183139.0
+-120.21477090994838,36.810686738828004,44.0,,3861.0,wty,555.0,2951.0,99.0,559.0,497.0,3.1049952086910966,192631.0
+-124.50446319688069,44.760716749168004,46.0,,1108.0,cFh,61.0,252.0,99.0,90.0,440.0,8.523733595153363,325827.0
+-118.436611984439,33.87175368201384,9.0,,3210.0,DnD,765.0,1307.0,99.0,663.0,641.0,3.2950428509367162,287539.0
+-120.70909606047047,38.341520128077974,12.0,,7433.0,MyQ,1596.0,2284.0,99.0,1224.0,487.0,4.709573815749453,355712.0
+-120.09230186238011,36.30215387935751,10.0,,3830.0,CNU,689.0,1207.0,99.0,548.0,457.0,3.0097550729883618,115302.0
+-123.18610972556284,42.613659848659076,10.0,,5025.0,rGX,730.0,2436.0,99.0,712.0,319.0,5.424811884062058,80700.0
+-120.77769683352356,36.50826464580293,43.0,,1109.0,aTb,161.0,1071.0,99.0,254.0,723.0,4.970316283073718,216369.0
+-116.72524541657495,33.40143056532346,33.0,,1454.0,YWs,320.0,1133.0,99.0,322.0,709.0,2.3052802831304606,134966.0
+-120.24435262557567,34.37903760257989,41.0,,2315.0,iMu,577.0,2137.0,99.0,500.0,724.0,1.3190124577139988,105276.0
+-120.56280033786439,36.19153515217023,36.0,,2153.0,dfb,499.0,1249.0,99.0,457.0,399.0,3.3024240314148203,114764.0
+-122.44204415716084,41.72562448734204,40.0,,1801.0,YDq,358.0,949.0,99.0,320.0,598.0,3.545483947535931,59005.0
+-121.76465016558022,37.0923769111941,31.0,,4489.0,thF,891.0,1928.0,99.0,804.0,565.0,3.9998329219004973,200462.0
+-119.06361583810009,33.9897337094176,41.0,,1385.0,dMo,266.0,1098.0,99.0,398.0,725.0,7.727546215958687,284211.0
+-119.98963234861678,35.471317597827316,17.0,,8715.0,oty,1728.0,5471.0,99.0,1676.0,359.0,2.113860005968709,185146.0
+-119.48511690795802,35.620662962128755,32.0,,1891.0,eHw,648.0,1500.0,99.0,736.0,297.0,1.8104839875475776,116670.0
+-116.08380503179617,32.80543821336498,38.0,,622.0,Tja,171.0,402.0,99.0,186.0,506.0,2.4216073043523583,180174.0
+-120.34167484578523,35.88184362588411,22.0,,1081.0,crW,202.0,968.0,99.0,219.0,419.0,4.375833662293144,208900.0
+-118.76595030854911,33.89225769440768,25.0,,3576.0,cIO,643.0,1804.0,99.0,675.0,462.0,6.563100205429239,302852.0
+-120.60878437527843,35.71572071476153,50.0,,752.0,FNw,187.0,994.0,99.0,173.0,736.0,4.432677108643221,159530.0
+-123.14218148167106,42.534225904533024,9.0,,2681.0,FYX,688.0,2029.0,99.0,693.0,407.0,2.393727005241547,116882.0
+-121.53953841803096,37.54688110941349,21.0,,2703.0,DQd,468.0,1167.0,99.0,435.0,500.0,2.6581724006569423,162222.0
+-122.98946755386204,39.867150705822034,36.0,,2008.0,UcD,476.0,1255.0,99.0,491.0,425.0,6.080003531899766,370241.0
+-122.7569557711392,42.918847908576325,34.0,,3027.0,WkB,554.0,1780.0,99.0,611.0,444.0,1.8913025818551157,88338.0
+-122.73027631361238,38.77176053704985,33.0,,4915.0,IYe,740.0,2079.0,99.0,858.0,361.0,4.886743635164711,141043.0
+-115.26953985763674,32.734924943614196,21.0,,1381.0,PlI,466.0,1120.0,99.0,319.0,595.0,2.1679097987325098,73292.0
+-122.48786426468448,40.61788860615122,17.0,,2154.0,ybq,390.0,1738.0,99.0,404.0,734.0,4.852009828345496,253830.0
+-120.57855233659856,37.88692658780065,11.0,,1305.0,SJP,241.0,1043.0,99.0,239.0,381.0,4.442897516278518,188612.0
+-120.54364539267517,35.48608385107726,34.0,,3409.0,vDm,934.0,3936.0,99.0,916.0,542.0,2.906837888750369,148711.0
+-118.89712884141518,35.064612277165025,20.0,,1449.0,aWi,289.0,848.0,99.0,227.0,507.0,3.91135220382878,208874.0
+-122.38110240762428,38.340835677256294,45.0,,3648.0,dCE,560.0,1152.0,99.0,541.0,532.0,2.295120867354551,262938.0
+-116.57881484250257,33.16444036144707,3.0,,9823.0,VtS,1651.0,5785.0,99.0,1678.0,506.0,4.388062794482806,177588.0
+-120.9032138696998,35.716884691250264,23.0,,3831.0,Lss,803.0,1246.0,99.0,640.0,353.0,5.621003084102999,317569.0
+-121.46933311241482,38.81118716568717,10.0,,2116.0,IGc,492.0,1175.0,99.0,406.0,454.0,2.095716438335533,62435.0
+-119.39880667989925,34.65528397916697,21.0,,8411.0,htu,1781.0,3841.0,99.0,1491.0,493.0,5.275538661196049,342982.0
+-123.08723280322137,39.2033481610314,34.0,,2157.0,FOY,508.0,1989.0,99.0,744.0,480.0,2.9935795692677276,98488.0
+-118.79259197128532,34.169925329926606,8.0,,2723.0,WEp,603.0,963.0,99.0,512.0,462.0,2.599481784757244,215068.0
+-122.55480436930407,37.97368115747146,42.0,,1612.0,LrC,414.0,1507.0,99.0,458.0,581.0,2.408718991054379,127505.0
+-120.21661500307626,34.97696104578656,33.0,,5973.0,Ocv,1027.0,2796.0,99.0,1008.0,406.0,6.4461654343019,264767.0
+-121.19015200010872,37.88602356756524,31.0,,3764.0,tmf,730.0,1769.0,99.0,708.0,455.0,4.379747908325262,104817.0
+-116.49452274147094,33.16340996653622,12.0,,3986.0,pws,557.0,1623.0,99.0,572.0,491.0,7.345582021874336,341817.0
+-120.40324311984898,36.4670085255468,29.0,,3501.0,YTK,598.0,2276.0,99.0,615.0,509.0,7.2456947434356636,253744.0
+-122.15991015243662,37.2125140734281,24.0,,2231.0,oZu,523.0,948.0,99.0,510.0,345.0,3.9987666834558833,288909.0
+-120.8403819860772,36.309962033054944,11.0,,6206.0,eAW,1103.0,2064.0,99.0,938.0,319.0,7.380705907763515,296537.0
+-121.53173270288431,38.63684339451026,13.0,,2010.0,ysM,296.0,959.0,99.0,262.0,460.0,8.505856933853494,383162.0
+-121.30452958692032,38.12936891282513,25.0,,2116.0,PSl,383.0,1211.0,99.0,431.0,571.0,3.6237428450255305,138704.0
+-119.1903532354846,34.76231836741018,38.0,,4631.0,oNB,652.0,1608.0,99.0,595.0,714.0,4.397251631589577,111197.0
+-121.40254343616469,36.16682424733151,23.0,,1338.0,fYB,264.0,827.0,99.0,298.0,555.0,3.86051088192101,275078.0
+-120.92875616166191,37.53062134406395,23.0,,3891.0,IHE,731.0,1321.0,99.0,723.0,577.0,2.9932248417281024,74368.0
+-117.90303593919717,34.06733590876801,25.0,,1315.0,CVm,315.0,1105.0,99.0,300.0,509.0,1.9422414179569212,93438.0
+-118.29120356024063,34.014546521284736,36.0,,2055.0,Frl,470.0,1859.0,99.0,463.0,499.0,2.119210532024572,105468.0
+-121.1926122415995,35.91374767489318,34.0,,2007.0,aFS,332.0,713.0,99.0,359.0,618.0,8.073832816266913,421780.0
+-117.48983753452188,33.837743351999706,9.0,,2580.0,YpP,469.0,1300.0,99.0,449.0,452.0,4.7378926286140075,229625.0
+-116.35276157560722,33.09725289700825,43.0,,1139.0,sZv,260.0,865.0,99.0,236.0,484.0,3.0256652032777724,114193.0
+-118.69927868644484,35.103671473363804,27.0,,2576.0,ocd,504.0,1515.0,99.0,350.0,384.0,3.6943939606004483,259343.0
+-118.3093411232974,33.97263148946248,28.0,,2807.0,eUU,580.0,1955.0,99.0,468.0,530.0,4.753431387612296,195007.0
+-117.07981464159906,33.2756101626482,19.0,,3445.0,Pbo,710.0,3341.0,99.0,729.0,768.0,6.333080389116265,292709.0
+-116.38529330689687,33.247486050272876,24.0,,976.0,GOA,317.0,682.0,99.0,244.0,366.0,1.8920484162495215,195539.0
+-118.31342552372517,35.03399542934711,30.0,,2608.0,noS,501.0,1208.0,99.0,439.0,616.0,2.467590917878672,70676.0
+-117.79205469539285,33.47593202083057,17.0,,3574.0,ziL,949.0,1969.0,99.0,959.0,384.0,3.1175278303570817,161331.0
+-120.48727888463,35.768420193336404,49.0,,1088.0,FbJ,278.0,541.0,99.0,185.0,369.0,2.6176468710615772,235693.0
+-117.04656819646534,33.64647211648938,16.0,,3700.0,ZIw,532.0,1963.0,99.0,441.0,552.0,6.490893405329652,295494.0
+-118.58636891301725,33.87743617466181,46.0,,624.0,toM,181.0,530.0,99.0,128.0,463.0,1.8908283521564653,79553.0
+-120.22902396737783,36.264129745815005,36.0,,1574.0,fAo,316.0,526.0,99.0,321.0,324.0,3.324697645172782,265151.0
+-121.62042100636117,36.89286469930445,46.0,,1983.0,MTL,324.0,1662.0,99.0,348.0,624.0,4.909211166049884,281713.0
+-122.03119950172042,38.073269417533815,34.0,,1169.0,ezn,171.0,427.0,99.0,180.0,605.0,5.281683038943476,286976.0
+-118.91878660201884,34.96497802333043,22.0,,662.0,cVc,148.0,298.0,99.0,134.0,424.0,2.6599693479768822,105070.0
+-119.41865164980824,34.982742484424215,23.0,,4531.0,OiR,608.0,1640.0,99.0,617.0,502.0,6.0354773089840466,239963.0
+-120.47425458634856,37.26810776663844,13.0,,5691.0,oLj,780.0,3278.0,99.0,852.0,431.0,5.473866477134674,162482.0
+-118.84889530552377,35.10549910942731,36.0,,3769.0,vju,471.0,1497.0,99.0,359.0,437.0,8.886471022018172,264499.0
+-120.27676649587006,34.89600386289511,40.0,,1437.0,key,290.0,1079.0,99.0,237.0,199.0,6.283499313167344,424173.0
+-118.21542339119758,34.70549370789773,13.0,,2230.0,uks,411.0,913.0,99.0,356.0,552.0,3.367523946747099,95920.0
+-119.15274852199217,34.27128805687529,36.0,,1305.0,Ltm,230.0,456.0,99.0,240.0,311.0,5.492722726469422,280816.0
+-122.4357828611489,38.94978520982421,39.0,,1579.0,Lcd,348.0,657.0,99.0,317.0,516.0,2.429827911622332,172013.0
+-121.23568355636331,37.62157943468085,52.0,,1288.0,kVP,248.0,1326.0,99.0,236.0,385.0,3.721349700901506,236901.0
+-119.00486635237779,34.334311514050356,33.0,,6771.0,SUI,794.0,3105.0,99.0,704.0,424.0,6.329581596292448,242649.0
+-117.98825195657855,33.7443240135347,33.0,,2112.0,SKa,387.0,695.0,99.0,421.0,623.0,4.679383513797731,355749.0
+-119.5831498825847,36.71129368211611,53.0,,105.0,nsh,53.0,145.0,99.0,36.0,575.0,2.7866547715152614,138884.0
+-116.17901846016264,32.85689954482231,27.0,,1903.0,rGi,320.0,808.0,99.0,311.0,537.0,3.969620663917882,251761.0
+-116.17966244773287,33.080679199572586,34.0,,2184.0,jNh,379.0,1548.0,99.0,294.0,361.0,5.027743937678894,256340.0
+-118.79105285776498,34.046239025075984,32.0,,3401.0,OdS,554.0,1406.0,99.0,445.0,879.0,5.179320062011962,412854.0
+-121.86660184258577,36.68144944212966,8.0,,4070.0,qkL,552.0,1485.0,99.0,587.0,394.0,9.666510977834966,470050.0
+-124.2776673230987,41.9999244242459,42.0,,1174.0,ZXB,379.0,1293.0,99.0,379.0,456.0,2.2259629895181314,165234.0
+-120.97283529169214,38.732052600929826,33.0,,1288.0,AdC,229.0,980.0,99.0,237.0,584.0,2.1249672354559412,103616.0
+-120.0386020324692,34.8739655341189,32.0,,1750.0,azE,307.0,828.0,99.0,245.0,412.0,4.2727359767859605,433282.0
+-121.23619930429341,38.269168992033414,25.0,,5029.0,lAo,1010.0,2495.0,99.0,977.0,261.0,5.16169500931096,198896.0
+-118.31507558634539,33.60169630367579,43.0,,2916.0,ObM,365.0,1027.0,99.0,374.0,566.0,4.054515824954907,183868.0
+-123.42875853332623,41.76219033442045,9.0,,5091.0,UGd,924.0,2886.0,99.0,1121.0,737.0,3.117113945636726,158867.0
+-120.00853911924926,35.66844736278014,26.0,,2655.0,gOg,561.0,1484.0,99.0,495.0,459.0,3.5141972700877093,150176.0
+-119.92282592338218,35.361379152522886,20.0,,3038.0,ooe,480.0,1945.0,99.0,489.0,697.0,4.934001329064498,190934.0
+-119.50290360713171,35.1557401593231,20.0,,949.0,Tnh,142.0,618.0,99.0,174.0,452.0,10.126329338926569,420573.0
+-122.54813357777093,39.94627842580612,40.0,,1072.0,ZSr,343.0,629.0,99.0,253.0,582.0,2.1769861850113865,120805.0
+-119.13100925326589,34.65329403250936,18.0,,1243.0,aiZ,324.0,1018.0,99.0,302.0,428.0,3.5171585771125504,89062.0
+-117.79124065438712,33.74424971044728,33.0,,2886.0,iGU,611.0,2250.0,99.0,591.0,506.0,1.7614030199105914,165345.0
+-119.26305333617398,33.833404704593136,25.0,,894.0,gMR,189.0,713.0,99.0,224.0,551.0,5.936836593489023,421169.0
+-121.00599731288384,37.199365234264164,24.0,,2799.0,Hzr,431.0,996.0,99.0,384.0,767.0,4.845563619260377,151697.0
+-119.7540565023843,36.541340185272816,6.0,,3927.0,Cgz,663.0,3128.0,99.0,663.0,567.0,2.8488349887819098,100167.0
+-122.10450164238465,39.63961995047976,8.0,,1353.0,DsQ,310.0,870.0,99.0,313.0,575.0,2.026624083438122,77783.0
+-120.38227411781205,37.03956916170441,39.0,,2372.0,IFA,440.0,1181.0,99.0,382.0,522.0,3.7347250493569963,117987.0
+-118.05332224142887,33.84587044218505,43.0,,790.0,vLS,220.0,527.0,99.0,216.0,429.0,1.8232899010219836,97616.0
+-119.88683239409477,35.444177326360894,34.0,,514.0,jgS,143.0,367.0,99.0,148.0,639.0,2.1037822537595954,89979.0
+-120.04342550967051,35.82595778897566,18.0,,842.0,VPu,168.0,430.0,99.0,121.0,532.0,3.7203240077439284,88541.0
+-119.54487094819297,35.611715522382546,7.0,,1528.0,xvv,377.0,756.0,99.0,330.0,520.0,2.9741302238205676,70493.0
+-120.3194833404947,36.7639334537766,29.0,,2317.0,ASa,544.0,1781.0,99.0,527.0,458.0,1.7973199574491132,102565.0
+-123.2153816381076,40.052920891563765,16.0,,3971.0,zgw,1000.0,2617.0,99.0,925.0,485.0,2.5662518109901784,212247.0
+-118.36842767091602,33.33662406080308,31.0,,6702.0,BLW,1275.0,4778.0,99.0,1178.0,257.0,6.411676180529803,292830.0
+-117.623327978726,33.52498102933927,27.0,,2133.0,lAb,402.0,1553.0,99.0,440.0,585.0,3.8829359464580784,158929.0
+-119.5520746321602,34.98021654523129,14.0,,2120.0,Uuc,268.0,787.0,99.0,224.0,507.0,10.566268076565565,464003.0
+-122.53389566212941,41.084141166232754,7.0,,3052.0,SRj,391.0,598.0,99.0,294.0,490.0,6.972312193309268,313783.0
+-121.5297516727499,36.928149031864336,22.0,,6413.0,bZo,982.0,2077.0,99.0,873.0,514.0,4.641805479158415,217255.0
+-121.55814752567593,37.91022297575995,26.0,,167.0,qGa,82.0,309.0,99.0,102.0,532.0,1.7605630229106057,179793.0
+-118.22469421119052,34.104198003680004,18.0,,3317.0,LNY,679.0,1519.0,99.0,712.0,502.0,5.028423746190534,339233.0
+-116.19254945356872,32.85006746107964,23.0,,2838.0,xBo,680.0,2611.0,99.0,530.0,629.0,2.3431297665878383,128152.0
+-118.29301631869832,33.571066263452146,43.0,,1413.0,iyv,400.0,1506.0,99.0,402.0,737.0,2.5804027398634712,136178.0
+-118.02007849644748,33.81785579759693,46.0,,337.0,ZGv,86.0,371.0,99.0,77.0,420.0,2.1970027449159923,162378.0
+-120.97492766669667,36.19531084423368,21.0,,4015.0,WuB,687.0,1487.0,99.0,703.0,527.0,3.6017919159742147,230800.0
+-116.15575045142943,32.84530347758256,37.0,,1484.0,HHa,282.0,961.0,99.0,310.0,266.0,4.248405610254766,361759.0
+-122.4766868480068,37.83547514905808,48.0,,1296.0,Mje,348.0,1005.0,99.0,282.0,518.0,2.304776275462161,149186.0
+-117.39993617835772,33.35062389688395,25.0,,1006.0,AaG,295.0,1116.0,99.0,370.0,553.0,2.3450739985102107,190465.0
+-122.83062358677326,39.826464348873785,29.0,,2219.0,hQp,548.0,1298.0,99.0,534.0,601.0,4.147512440025827,160808.0
+-122.15650631441201,41.39679267143124,33.0,,1417.0,pAx,430.0,1230.0,99.0,395.0,342.0,1.0983425222052716,55656.0
+-120.16311562141792,34.84146520559777,41.0,,3583.0,LsP,782.0,2536.0,99.0,708.0,534.0,3.656396438595054,158881.0
+-118.80787225310917,34.871230771442576,34.0,,4751.0,KyG,989.0,2224.0,99.0,903.0,522.0,4.389694313647893,229488.0
+-118.63876031022758,33.50735604380106,35.0,,1818.0,FUt,562.0,2687.0,99.0,511.0,440.0,2.0621550500624957,150533.0
+-122.53154097222458,39.46417726686822,29.0,,3829.0,msu,566.0,1600.0,99.0,471.0,579.0,5.921639646200024,192167.0
+-119.60573427075693,34.60287384264962,30.0,,1755.0,Epy,518.0,1084.0,99.0,522.0,447.0,3.745049581902371,228644.0
+-119.64310855127641,34.57312090812117,37.0,,981.0,lRd,346.0,1520.0,99.0,378.0,534.0,1.6304651896460676,72741.0
+-120.44806891284965,36.262356538678084,48.0,,1832.0,yyP,368.0,783.0,99.0,385.0,469.0,3.517214585857903,217819.0
+-119.64300861113378,36.51128759265395,15.0,,3558.0,kvv,508.0,1578.0,99.0,394.0,441.0,4.427119824565732,224628.0
+-120.3900343059029,36.37387016327283,18.0,,3014.0,haO,528.0,1225.0,99.0,565.0,666.0,2.9984003234230494,101188.0
+-121.57603528405045,37.79649613185327,27.0,,2821.0,YFW,558.0,1940.0,99.0,622.0,484.0,2.4308048788731207,72830.0
+-120.90008236329463,38.278483748690974,10.0,,3193.0,YZW,717.0,3795.0,99.0,667.0,408.0,1.493295003331342,80498.0
+-117.11651094005852,33.677012806596046,40.0,,1368.0,mpA,285.0,728.0,99.0,236.0,483.0,3.387700504334943,91582.0
+-119.96614684767323,36.13577106822613,26.0,,443.0,MIo,96.0,307.0,99.0,112.0,276.0,2.802128809108168,102717.0
+-118.17135130310741,35.71299857909893,8.0,,2429.0,Vui,588.0,1567.0,99.0,503.0,415.0,2.019786999705274,44963.0
+-120.33350915274202,36.83773331268408,30.0,,4104.0,mSf,900.0,3770.0,99.0,883.0,418.0,3.4037552676481453,220083.0
+-116.53348006882953,32.96864581169123,37.0,,2175.0,jiV,446.0,1693.0,99.0,405.0,420.0,4.141295005157143,238695.0
+-119.26054724499896,36.16815331927238,7.0,,3990.0,xgf,783.0,2851.0,99.0,730.0,471.0,2.3350825035473637,70816.0
+-116.5419184304585,32.982594349421205,35.0,,3577.0,vmf,772.0,2231.0,99.0,735.0,425.0,4.419194446366906,343557.0
+-118.93284579837258,34.333364062439216,42.0,,1140.0,LrB,174.0,1082.0,99.0,162.0,408.0,3.466735122722498,136818.0
+-119.90287150610719,34.21343860397255,44.0,,1428.0,iAQ,368.0,1146.0,99.0,346.0,583.0,4.958424483394836,406641.0
+-118.76379881677678,34.52857149985046,40.0,,857.0,Cvn,210.0,1006.0,99.0,223.0,558.0,2.581220450853133,172978.0
+-118.54907564296815,34.09222196049722,32.0,,1441.0,FjT,288.0,949.0,99.0,281.0,698.0,6.189051467088089,147357.0
+-119.74837164687584,35.23785189579952,34.0,,2069.0,nFE,487.0,1421.0,99.0,502.0,422.0,2.978483212058274,186275.0
+-118.01062223436168,33.788801362915244,18.0,,1570.0,smq,304.0,1152.0,99.0,292.0,589.0,5.769991735600794,187494.0
+-118.07789385462952,33.56650911933017,54.0,,4040.0,kll,642.0,2775.0,99.0,589.0,638.0,4.350334742667897,243941.0
+-119.89097850678091,34.88562865725148,19.0,,4353.0,cLS,1177.0,4064.0,99.0,1075.0,626.0,1.7484517597847624,86313.0
+-119.36558204702352,34.998671185675235,32.0,,2802.0,JgH,586.0,1536.0,99.0,421.0,372.0,4.891456927510067,227847.0
+-120.27184236721877,34.83538761126921,33.0,,4595.0,IrQ,1038.0,2438.0,99.0,1198.0,577.0,2.660313104335908,310691.0
+-120.6573255566435,36.407558839128235,42.0,,536.0,YlE,137.0,660.0,99.0,177.0,373.0,1.919066768724338,169700.0
+-116.11693263007155,32.90943292101622,12.0,,6381.0,hky,1399.0,3760.0,99.0,1215.0,607.0,2.3488398359134464,101261.0
+-119.36608035768951,34.08247261546143,18.0,,3934.0,LFJ,858.0,3136.0,99.0,1013.0,559.0,5.512510252469093,346329.0
+-118.25579613399074,33.79362539008535,9.0,,3616.0,OXp,486.0,1607.0,99.0,406.0,555.0,7.2397918405396515,276957.0
+-119.16261388332137,34.78165086220923,40.0,,2664.0,ilK,628.0,1142.0,99.0,590.0,255.0,3.5297107609523257,264956.0
+-117.99521640862389,33.73420077753236,23.0,,2694.0,pbv,581.0,1523.0,99.0,443.0,496.0,4.268342941321423,213608.0
+-115.44146885806643,32.79432525524089,35.0,,1669.0,cnH,329.0,756.0,99.0,294.0,592.0,5.182950999259939,423326.0
+-122.34476700494713,38.41693826929631,28.0,,3829.0,SPv,735.0,4564.0,99.0,733.0,437.0,1.608656179013964,92167.0
+-120.25450288770928,35.36968631216974,21.0,,3594.0,IuO,657.0,2021.0,99.0,700.0,441.0,4.187999635160105,140913.0
+-120.70645108439986,36.63246754141482,13.0,,2648.0,mAr,876.0,2990.0,99.0,807.0,331.0,1.8135119065267595,106204.0
+-119.82561063429563,35.82314903783496,33.0,,4740.0,EOp,824.0,1713.0,99.0,593.0,453.0,3.4018279729042598,160354.0
+-119.14618863405406,36.82670112929694,19.0,,2955.0,hnS,662.0,2196.0,99.0,620.0,572.0,1.9204547126444176,54118.0
+-116.99117456154454,33.12738773374895,13.0,,4578.0,REF,724.0,1743.0,99.0,600.0,579.0,5.663945940743065,216422.0
+-117.32312106947745,34.05299891818839,33.0,,871.0,nJq,203.0,1203.0,99.0,216.0,472.0,2.912839386528259,85022.0
+-119.9701901346551,34.90219234415421,40.0,,2994.0,gKI,919.0,1004.0,99.0,811.0,480.0,3.6122400044351677,223985.0
+-118.0151987301485,33.379749166126274,16.0,,3743.0,hwO,813.0,3120.0,99.0,711.0,305.0,2.9481167960291774,131772.0
+-119.07476534268692,35.04094893313051,6.0,,2348.0,Ats,430.0,1084.0,99.0,477.0,655.0,4.043125461605627,148526.0
+-120.4081426867087,35.84372835954962,18.0,,5144.0,XZw,819.0,1401.0,99.0,843.0,506.0,5.887787861530772,313974.0
+-121.39888643097801,37.14567193698372,28.0,,4925.0,GSH,736.0,2833.0,99.0,907.0,574.0,4.9768964502379545,428928.0
+-117.64701182778191,33.64031979963446,27.0,,1662.0,Eif,471.0,1105.0,99.0,413.0,528.0,2.3101263370416123,106423.0
+-118.12914806754584,34.28093002843522,21.0,,4134.0,BVC,828.0,2434.0,99.0,725.0,398.0,4.3241369900918,124967.0
+-118.38971007793188,33.49901189564181,24.0,,4014.0,nJi,944.0,2919.0,99.0,965.0,491.0,6.250918356027236,360276.0
+-119.15794304671725,34.53906462901185,32.0,,5282.0,CDK,852.0,2263.0,99.0,526.0,506.0,6.279279193877559,238392.0
+-120.74130798919441,34.571226274865985,22.0,,1511.0,aVb,252.0,592.0,99.0,245.0,646.0,5.815220196213957,284395.0
+-120.34618077103306,35.54211041265837,20.0,,2691.0,SWO,461.0,1303.0,99.0,439.0,588.0,6.130071330979578,365941.0
+-120.5533527456458,36.82967111509513,45.0,,2238.0,aaP,506.0,1456.0,99.0,445.0,386.0,3.177277526720712,127867.0
+-117.84613025911668,33.46611504302991,37.0,,1983.0,AQG,439.0,1652.0,99.0,408.0,372.0,2.8268203179466216,190034.0
+-119.84724699132757,35.12581304394876,29.0,,2641.0,syJ,570.0,1445.0,99.0,587.0,473.0,4.2848171908282575,76271.0
+-117.73099226233465,33.60282679556648,25.0,,4089.0,Nph,702.0,1486.0,99.0,630.0,689.0,4.856806554479757,271708.0
+-119.71338738925597,34.492538956705296,50.0,,658.0,QZz,124.0,456.0,99.0,144.0,480.0,3.4263927962001772,361396.0
+-119.56016442153495,35.802585705581365,18.0,,983.0,ZlK,161.0,213.0,99.0,156.0,455.0,3.5441544098698237,155891.0
+-117.00109485889442,33.214565156886195,20.0,,3268.0,uzm,647.0,2198.0,99.0,656.0,614.0,7.9015363180009635,476498.0
+-118.56088449239859,34.27336389816986,35.0,,2513.0,QSY,439.0,766.0,99.0,312.0,497.0,6.199561049759209,226433.0
+-122.12192952617222,37.76927320403024,43.0,,3526.0,Osi,553.0,1836.0,99.0,544.0,385.0,2.9682936244182887,237596.0
+-121.75136014043107,38.36463272186709,12.0,,3332.0,zJk,628.0,1988.0,99.0,699.0,473.0,4.30894105641691,188196.0
+-118.32133588568905,34.84622739914214,15.0,,2747.0,ZWv,457.0,1194.0,99.0,372.0,478.0,6.784306282307557,273422.0
+-117.88074035390038,33.94438400224816,12.0,,4777.0,CsU,1166.0,1887.0,99.0,1024.0,871.0,3.2766907711394317,118787.0
+-120.53808016094885,35.86274242207233,27.0,,1756.0,ImP,423.0,1269.0,99.0,368.0,468.0,3.30141421137949,233420.0
+-120.31602271838014,37.60108709922609,35.0,,1006.0,FcE,228.0,1170.0,99.0,248.0,386.0,2.3924634367913344,147106.0
+-120.06979068421622,36.65699156947697,13.0,,3835.0,gtl,657.0,2164.0,99.0,645.0,435.0,4.501063724591818,93472.0
+-122.34625416521855,39.60012992405487,22.0,,2517.0,ImM,690.0,791.0,99.0,524.0,433.0,3.0855588668669833,271594.0
+-121.6886808377937,38.30287274807546,33.0,,2317.0,vdx,517.0,451.0,99.0,427.0,435.0,3.1204367519387057,206019.0
+-126.43738436986519,52.09329397545004,44.0,,1971.0,TLo,651.0,855.0,99.0,533.0,523.0,2.7829893044022933,169974.0
+-121.42896400956107,36.01381886836604,38.0,,2044.0,pmj,537.0,645.0,99.0,502.0,321.0,2.6136304526165866,326954.0
+-118.84670336204731,34.38709006579511,36.0,,1073.0,gQb,177.0,747.0,99.0,159.0,558.0,3.5499487284431575,174156.0
+-122.00581186954713,36.64117043520466,29.0,,2458.0,yBo,391.0,961.0,99.0,328.0,405.0,4.051757805742715,358318.0
+-119.95778791787623,35.58639197148739,10.0,,4104.0,BJD,940.0,3029.0,99.0,790.0,540.0,1.5453804140919798,138846.0
+-119.08475701246591,34.72065371200875,40.0,,2019.0,Sfk,599.0,899.0,99.0,617.0,519.0,1.2849717603775996,92247.0
+-120.73376586278464,37.34710162183367,26.0,,906.0,gga,168.0,636.0,99.0,129.0,560.0,3.345221578130483,147685.0
+-122.38216018797516,38.26124277498082,37.0,,1412.0,AIm,368.0,970.0,99.0,388.0,404.0,3.073939363028757,201791.0
+-117.7678352119156,33.40412331372159,35.0,,1386.0,kXc,451.0,1274.0,99.0,419.0,259.0,1.5390979139614587,132103.0
+-120.40507018199938,34.604685274697275,22.0,,3314.0,YzC,782.0,1863.0,99.0,827.0,473.0,4.626585431332617,293618.0
+-117.90958221687777,33.48538749158751,15.0,,3507.0,NBQ,583.0,1851.0,99.0,601.0,346.0,6.756623540603576,235246.0
+-123.27443546855561,39.80798505940022,48.0,,919.0,yik,356.0,1581.0,99.0,383.0,532.0,1.1035119865504277,61209.0
+-118.21553595421432,34.95574377355033,31.0,,4134.0,Xez,709.0,1914.0,99.0,631.0,639.0,2.9726087747570022,64039.0
+-120.93212820885849,35.411469961453996,31.0,,5513.0,PXJ,949.0,1926.0,99.0,913.0,486.0,5.671453932724243,404657.0
+-123.93484236240158,41.99010070534948,41.0,,1215.0,sgw,247.0,711.0,99.0,251.0,538.0,4.770435700362886,115128.0
+-120.29844327552287,34.31675964163117,29.0,,3548.0,tiG,636.0,1037.0,99.0,623.0,916.0,3.5563249793509097,361939.0
+-122.88059216626193,39.62109162336346,20.0,,2421.0,aMf,398.0,943.0,99.0,319.0,565.0,5.372251527745667,155608.0
+-121.45515474674767,37.14650660718636,37.0,,490.0,NDY,110.0,899.0,99.0,146.0,576.0,3.2190565075137956,109700.0
+-117.3175333218974,33.30351340426053,35.0,,2238.0,YdK,567.0,877.0,99.0,509.0,567.0,2.9365267529937675,241588.0
+-117.70716344554614,33.902418865609285,25.0,,1278.0,iKQ,390.0,1991.0,99.0,357.0,483.0,1.5048589125272793,84030.0
+-120.07677076325439,35.649175934710264,36.0,,1925.0,Wge,239.0,504.0,99.0,242.0,334.0,7.836321462743,297617.0
+-118.49471477104404,33.74970696839254,11.0,,1658.0,QAb,399.0,1181.0,99.0,414.0,610.0,4.666787591561813,340444.0
+-121.62108061448835,38.93550493689149,39.0,,1183.0,eqz,203.0,552.0,99.0,194.0,538.0,2.8849387552591685,130762.0
+-119.44385834103373,35.22010613672463,13.0,,3901.0,zed,501.0,1079.0,99.0,398.0,245.0,4.254185929980274,141023.0
+-119.68822466746917,34.26289506829789,44.0,,1495.0,dBH,332.0,983.0,99.0,296.0,514.0,2.3289971031727825,221145.0
+-122.7722369355686,40.950965354015075,18.0,,2391.0,phB,481.0,1906.0,99.0,521.0,353.0,2.6466063198711756,89911.0
+-121.05324357625234,36.65690385873269,43.0,,1614.0,jTQ,483.0,1889.0,99.0,458.0,440.0,2.979138573905645,180353.0
+-117.80577712545389,33.5684455028973,49.0,,759.0,nJg,177.0,350.0,99.0,156.0,692.0,4.087351524432671,184858.0
+-121.57225905221878,37.3331712700033,44.0,,667.0,TFv,266.0,1413.0,99.0,301.0,537.0,1.1365539006851275,70506.0
+-118.78865974298665,35.226393537653905,11.0,,7430.0,QEi,1660.0,1969.0,99.0,1368.0,344.0,3.111366618053795,79433.0
+-119.50907099650898,34.52547934600779,52.0,,493.0,Goz,81.0,213.0,99.0,97.0,494.0,4.483477201302367,311744.0
+-120.04142967968923,34.45435379881925,47.0,,643.0,bXq,198.0,710.0,99.0,249.0,635.0,1.4971498413478328,113162.0
+-119.25533435005605,34.52449150826226,38.0,,2141.0,geg,588.0,985.0,99.0,486.0,605.0,4.902663086568402,217098.0
+-117.8364975484502,34.11519378003546,47.0,,553.0,bOX,126.0,428.0,99.0,103.0,435.0,3.119750347857139,90140.0
+-117.11658963797926,33.5867424842357,10.0,,2168.0,lgk,562.0,1107.0,99.0,366.0,632.0,1.725492055969569,167455.0
+-120.4826613862556,35.71105244872473,34.0,,1726.0,RlD,504.0,749.0,99.0,391.0,575.0,3.6216981679440337,313115.0
+-118.71054175648113,35.51039717570351,42.0,,1787.0,ANk,488.0,1297.0,99.0,470.0,410.0,1.1737951221686171,46619.0
+-119.45423423228029,36.23615107040039,17.0,,2145.0,bfe,495.0,1581.0,99.0,498.0,489.0,3.2613023717367136,163794.0
+-121.11748928704067,38.70924242033972,7.0,,6698.0,TqE,1513.0,2244.0,99.0,1254.0,433.0,2.1668924004391337,94096.0
+-121.01775153934568,37.32062318533514,43.0,,1385.0,srj,266.0,1225.0,99.0,258.0,518.0,4.328209790039517,238356.0
+-118.725213256754,34.91287273209227,12.0,,903.0,ddf,221.0,756.0,99.0,196.0,450.0,3.7502748612995247,104867.0
+-120.4534126894466,35.96554241485285,34.0,,1924.0,tuG,374.0,1037.0,99.0,371.0,461.0,1.7731646454340577,99779.0
+-122.13127402250157,39.075412502129886,17.0,,5180.0,vLj,786.0,1647.0,99.0,624.0,528.0,5.515398875585639,196191.0
+-119.02395875333224,34.33789472521674,28.0,,1361.0,aOO,267.0,1078.0,99.0,259.0,624.0,6.569694683461778,336781.0
+-121.0504375612448,38.57166020476029,40.0,,752.0,DPT,127.0,394.0,99.0,126.0,468.0,3.0329968388570054,101525.0
+-118.99627958860881,34.005062421615484,41.0,,931.0,iuh,323.0,596.0,99.0,327.0,362.0,3.719803855212961,434970.0
+-118.65290017349626,34.92136570946431,12.0,,3398.0,ShV,754.0,1843.0,99.0,785.0,409.0,3.2772459348433234,99596.0
+-118.15154480086879,33.99057849090461,30.0,,2852.0,mOB,787.0,1668.0,99.0,755.0,647.0,1.8387948824935574,120406.0
+-119.03246983703661,35.000711749128,22.0,,6239.0,nqP,996.0,2498.0,99.0,830.0,452.0,4.887222351198424,286940.0
+-117.17722925836453,34.14512166265564,17.0,,3438.0,cpx,806.0,1029.0,99.0,593.0,463.0,3.0957231682599056,88774.0
+-119.22161344327417,35.60104038314597,14.0,,2296.0,idD,254.0,509.0,99.0,262.0,596.0,4.985121951967131,181118.0
+-119.66208667175088,34.34096722326824,42.0,,1296.0,wJy,202.0,707.0,99.0,212.0,451.0,4.605093927176308,221515.0
+-119.39100572148847,34.05845785403808,31.0,,2146.0,NAT,427.0,1908.0,99.0,329.0,504.0,6.005469576594265,328094.0
+-121.62348210173629,36.532385440826786,25.0,,3087.0,xXp,789.0,1376.0,99.0,781.0,409.0,3.464597410353632,246318.0
+-119.85933137591537,36.62330465493355,17.0,,792.0,qNf,260.0,791.0,99.0,235.0,445.0,1.1870209301325305,46694.0
+-118.60269982563041,33.50881402913276,16.0,,1136.0,GxG,193.0,747.0,99.0,218.0,794.0,5.735176697492201,381898.0
+-117.80446178763302,33.09334664285061,43.0,,4774.0,isE,1040.0,2159.0,99.0,922.0,552.0,2.6300118232032728,223479.0
+-119.05942670480107,34.61461069080157,37.0,,3531.0,Moh,622.0,1170.0,99.0,609.0,471.0,5.181041733670851,250627.0
+-121.29087622238048,37.14175838160101,19.0,,1839.0,ElU,516.0,1460.0,99.0,617.0,545.0,1.331025516436434,95828.0
+-120.06273802067273,36.30964482730257,39.0,,1319.0,vrb,192.0,585.0,99.0,210.0,337.0,3.7322608434969804,91754.0
+-121.01268942838576,35.68480960640536,20.0,,3966.0,TEv,684.0,2068.0,99.0,760.0,508.0,7.811927768626808,227383.0
+-118.30704438843493,34.37575632332421,53.0,,1781.0,lyt,335.0,543.0,99.0,262.0,490.0,3.543646589650464,340813.0
+-117.56285229247254,33.315704494018846,24.0,,2082.0,Qol,406.0,663.0,99.0,266.0,418.0,2.5891248896038017,136772.0
+-120.45710737504785,37.291633033469566,37.0,,2605.0,YTo,648.0,1588.0,99.0,568.0,353.0,3.6926335158501122,147338.0
+-119.72076494654212,34.80303793684741,36.0,,1778.0,fsk,516.0,1359.0,99.0,434.0,441.0,1.5145473972882466,214096.0
+-121.0590892446982,37.21135932572765,33.0,,1459.0,TvN,375.0,1726.0,99.0,495.0,560.0,1.2446078168460974,79278.0
+-120.61642738033198,37.3028815039367,23.0,,1311.0,Eqk,325.0,535.0,99.0,295.0,489.0,1.7771010147075441,135900.0
+-116.79014128972719,33.236697163724855,39.0,,375.0,QmM,149.0,240.0,99.0,105.0,454.0,1.6628644579517344,87460.0
+-121.91351808695075,38.01488540855093,44.0,,434.0,ofQ,88.0,482.0,99.0,112.0,515.0,3.2509428238454956,124059.0
+-120.48160589494853,37.83793806296521,14.0,,6110.0,fRa,1097.0,3451.0,99.0,832.0,484.0,1.6852079389593593,59985.0
+-119.01840938397471,34.38192366550908,23.0,,3304.0,HBb,590.0,2262.0,99.0,592.0,633.0,5.772136597918013,251220.0
+-121.64603174072329,39.071410569246105,28.0,,910.0,FTT,172.0,561.0,99.0,191.0,567.0,2.130935771097033,51852.0
+-121.32575097548457,39.46118007213514,21.0,,2878.0,UVH,643.0,1117.0,99.0,466.0,473.0,3.0025496860715157,139228.0
+-117.01105337171211,33.1234912582876,29.0,,2980.0,LVt,701.0,2042.0,99.0,684.0,515.0,2.7013625997395434,142954.0
+-119.98089719842616,37.032914411828415,27.0,,2034.0,CZf,481.0,635.0,99.0,323.0,235.0,1.6954058313748779,65044.0
+-117.98251995189004,33.963043507118265,42.0,,902.0,WUZ,189.0,571.0,99.0,196.0,453.0,2.1251236245272627,131825.0
+-121.36210585311215,38.241107419365946,37.0,,549.0,KQC,158.0,443.0,99.0,163.0,434.0,3.9246062479875117,159591.0
+-117.74287709394834,33.1898722176964,24.0,,5652.0,jir,1285.0,4091.0,99.0,1043.0,399.0,3.02436537862842,157579.0
+-120.12488698207376,35.8036533737907,50.0,,1826.0,yIX,392.0,1191.0,99.0,408.0,554.0,1.8835361114648337,120504.0
+-120.9245137084726,38.051913276465314,27.0,,4149.0,GwP,821.0,1440.0,99.0,719.0,678.0,4.911606775980613,334774.0
+-116.85991489754923,32.842887637697714,41.0,,985.0,VpP,256.0,807.0,99.0,238.0,515.0,3.0355271698619988,157908.0
+-121.36739707862978,38.81543476397324,44.0,,1817.0,nMo,346.0,1149.0,99.0,385.0,547.0,8.326620810398635,214669.0
+-119.70330549540816,35.34109871609089,28.0,,1949.0,YNC,353.0,716.0,99.0,386.0,552.0,3.266774353334784,213725.0
+-117.11979953956265,33.98628739735069,18.0,,1256.0,ljC,142.0,783.0,99.0,117.0,633.0,5.833647959573595,200739.0
+-119.14072236477051,34.27488879507197,42.0,,1559.0,MLS,402.0,878.0,99.0,335.0,494.0,2.6530240456163336,217341.0
+-119.50346258173712,34.26885849531501,48.0,,2239.0,eTb,360.0,702.0,99.0,368.0,404.0,6.949496061561442,341796.0
+-119.26993525858029,34.69591107273911,41.0,,2723.0,Vyf,576.0,1772.0,99.0,610.0,511.0,5.570858797992857,233411.0
+-120.11244864041824,35.161819690332976,30.0,,2239.0,vFM,350.0,1300.0,99.0,397.0,421.0,5.601275606911961,165895.0
+-122.27698039924593,39.53693140226592,23.0,,1655.0,UHr,258.0,732.0,99.0,258.0,506.0,5.123317867526769,173696.0
+-121.73027550559009,38.04909420863288,11.0,,1659.0,jUj,313.0,1347.0,99.0,335.0,463.0,6.600731288825722,194739.0
+-121.68384237852962,37.2542040307104,33.0,,407.0,Rht,139.0,207.0,99.0,123.0,448.0,2.7358633131199843,352084.0
+-121.053629654638,37.22508953653421,46.0,,922.0,oSU,258.0,388.0,99.0,257.0,698.0,4.23463834572576,296117.0
+-117.93943618159457,33.928119183495916,21.0,,3279.0,doL,732.0,1505.0,99.0,723.0,645.0,3.1653272822076612,190513.0
+-116.01305077448961,32.84706991616508,22.0,,750.0,lKH,215.0,725.0,99.0,180.0,348.0,3.0714329309821986,265802.0
+-118.08982926281448,33.76679764990232,37.0,,685.0,Nyj,148.0,724.0,99.0,150.0,855.0,2.4254473264445395,114958.0
+-118.6755399858278,34.30847544474503,18.0,,8176.0,GKF,1475.0,4390.0,99.0,1362.0,748.0,3.623378461851956,138679.0
+-122.46817253837729,38.92263140723049,27.0,,1313.0,gHh,321.0,784.0,99.0,338.0,432.0,2.8205650749936573,131601.0
+-119.10350918547672,35.732076370973225,15.0,,5019.0,XES,950.0,1540.0,99.0,775.0,720.0,3.6318719242297606,187928.0
+-121.15824511145749,35.694392938397385,28.0,,3000.0,GCB,407.0,1939.0,99.0,533.0,575.0,6.4461211636773506,256009.0
+-120.28509398278098,35.08971183377965,40.0,,1036.0,Qln,363.0,811.0,99.0,402.0,469.0,3.142652284961502,157434.0
+-117.71814203314293,33.85420725199718,15.0,,1904.0,dPo,406.0,2116.0,99.0,359.0,536.0,3.590365207629794,118458.0
+-118.6718412386473,34.312288010026,38.0,,3255.0,iMc,995.0,2957.0,99.0,919.0,603.0,2.65888710306664,159203.0
+-124.3658624941397,44.307654370144064,21.0,,2338.0,bCl,478.0,1803.0,99.0,471.0,767.0,3.297984968747304,156993.0
+-119.36110540194493,35.55991872961994,6.0,,7262.0,Kic,1259.0,3490.0,99.0,1256.0,427.0,3.4953428558680844,133933.0
+-119.28581197583617,34.623148350388725,34.0,,1649.0,kVO,374.0,964.0,99.0,350.0,476.0,4.117347073498966,257420.0
+-121.24354016544632,35.84239578024991,45.0,,328.0,dgI,142.0,377.0,99.0,157.0,563.0,1.1398663402969766,106135.0
+-120.38290537071427,36.494243142790864,26.0,,1526.0,uVg,214.0,664.0,99.0,190.0,575.0,3.055691013142387,121097.0
+-122.14494951215957,38.742948663296765,15.0,,2099.0,lzr,374.0,1529.0,99.0,374.0,426.0,4.176960979298085,145642.0
+-118.56928671137446,34.085560245432774,34.0,,2716.0,Hlz,439.0,1713.0,99.0,332.0,387.0,4.174443713435941,221005.0
+-119.56216051309171,33.92140781310576,38.0,,5399.0,Lrf,1297.0,2148.0,99.0,907.0,429.0,3.0296243011195654,247950.0
+-118.64410075800014,33.950866843429594,25.0,,1089.0,OnW,353.0,746.0,99.0,259.0,213.0,2.63157832768839,144375.0
+-120.419401332766,36.58401495951047,20.0,,3233.0,ggJ,602.0,1824.0,99.0,604.0,515.0,4.095154093898531,111962.0
+-117.7365056762134,33.07637028707536,4.0,,2964.0,KiR,651.0,2001.0,99.0,726.0,522.0,4.269533813475201,401020.0
+-120.46890526423418,36.583534818034934,10.0,,2308.0,uRY,331.0,861.0,99.0,339.0,496.0,5.788942961493891,122613.0
+-119.570656284359,36.07924677545671,50.0,,1623.0,AfI,412.0,2705.0,99.0,402.0,511.0,2.677954403292207,127345.0
+-119.88551653029303,37.17120114915669,8.0,,2558.0,VkB,380.0,791.0,99.0,321.0,331.0,4.613654412947136,118432.0
+-119.28288453561132,35.198274462545555,41.0,,1315.0,qMP,280.0,909.0,99.0,254.0,653.0,2.696563459135021,137082.0
+-121.15062606369099,36.81344954149159,29.0,,2059.0,CnG,523.0,1838.0,99.0,447.0,587.0,2.2263315412185727,112128.0
+-119.3883206255181,35.14186237288299,37.0,,3396.0,pmr,611.0,1814.0,99.0,625.0,725.0,4.171548176725564,195920.0
+-120.29526422212336,36.15625404190092,21.0,,1065.0,kmH,238.0,556.0,99.0,252.0,526.0,7.208207726370285,440317.0
+-116.32652998823667,33.161363808366744,4.0,,1088.0,MHo,182.0,935.0,99.0,206.0,326.0,2.8444366017524727,71892.0
+-119.287443978418,33.86504943198573,25.0,,1297.0,tva,311.0,823.0,99.0,328.0,460.0,3.087323119405876,244440.0
+-117.56911128482386,33.24955613169523,30.0,,1958.0,kJJ,637.0,3544.0,99.0,717.0,801.0,1.8733253507337841,189111.0
+-117.20668739816253,33.10023554726917,17.0,,2259.0,zyk,679.0,1889.0,99.0,610.0,503.0,1.9609303942507461,125842.0
+-123.51379106376643,40.89243897848111,31.0,,3706.0,Ytk,610.0,1466.0,99.0,603.0,566.0,3.650560987048694,171905.0
+-119.2091632538733,34.67325949988914,19.0,,2333.0,glc,350.0,1543.0,99.0,396.0,633.0,4.1087282728608905,106777.0
+-119.94598745281557,35.55722451593922,43.0,,2544.0,LJn,758.0,1856.0,99.0,724.0,479.0,2.4586191903617602,109684.0
+-118.76622304363228,33.77403115934494,36.0,,2728.0,DLA,594.0,2427.0,99.0,577.0,644.0,5.111976047647509,278732.0
+-122.1373628103431,40.55104690682489,46.0,,504.0,XTk,80.0,354.0,99.0,86.0,490.0,3.8296735580910837,140273.0
+-120.9830510635676,36.18772875330222,17.0,,3091.0,jaj,706.0,1976.0,99.0,788.0,720.0,4.87996719271582,344290.0
+-118.62456041715716,34.490973429031456,35.0,,2088.0,tVo,316.0,456.0,99.0,271.0,667.0,5.083564888238948,331959.0
+-117.76104510241701,33.249479578264264,30.0,,3044.0,bdg,548.0,1905.0,99.0,595.0,528.0,6.429652549348925,364785.0
+-121.08285513818285,36.53695373274947,48.0,,1011.0,BSO,342.0,1678.0,99.0,268.0,334.0,1.6338820839661101,107842.0
+-119.92463590523049,36.0062910754132,32.0,,2436.0,iaB,499.0,1531.0,99.0,517.0,469.0,3.3204921555091964,160742.0
+-123.297047824677,39.94199759060374,32.0,,2088.0,kBS,379.0,1546.0,99.0,425.0,677.0,3.6521055044563036,164305.0
+-119.20907772901323,35.06491878571905,7.0,,3695.0,Umh,891.0,1614.0,99.0,828.0,502.0,3.0790981714448256,118298.0
+-119.30833230738482,34.74031434173607,39.0,,1381.0,vpL,246.0,835.0,99.0,262.0,566.0,3.279664485014707,177965.0
+-117.41849827138066,33.16373825284777,34.0,,1450.0,Pgc,222.0,547.0,99.0,219.0,426.0,9.45321498763075,327330.0
+-122.76139114487587,36.63816755665697,33.0,,3726.0,ksi,598.0,2378.0,99.0,613.0,684.0,7.268423346053486,388429.0

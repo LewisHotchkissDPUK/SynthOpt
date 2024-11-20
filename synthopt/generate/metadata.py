@@ -105,7 +105,8 @@ def metadata_process(data, type="correlated"):
         all_string_columns = list(set(non_numerical_columns) - set(date_columns))
         categorical_string_columns = []
         for column in data[all_string_columns].columns:
-            if data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.2:
+            if data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.2 and \
+                                        (data[all_string_columns][column].value_counts() >= 2).all():
                 categorical_string_columns.append(column)
         non_categorical_string_columns = list(set(all_string_columns) - set(categorical_string_columns))
         
@@ -150,15 +151,15 @@ def metadata_process(data, type="correlated"):
 
         #data = data.drop(date_columns, axis=1)
 
-
         # Create metadata for each column
         for column in data.columns:
             completeness = (data[column].notna().sum() / len(data)) * 100
-            if column in non_categorical_string_columns:
+            if column in non_categorical_string_columns: #or column in non_numerical_columns
                 value_range = None
                 mean = next((item['avg_char_length'] for item in average_lengths_df if item['column'] == column), None)
                 std_dev = next((item['avg_space_length'] for item in average_lengths_df if item['column'] == column), None)
                 skewness_value = None
+                #datatype = 'object'
             else:
                 try:
                     value_range = (data[column].min(), data[column].max())
@@ -219,6 +220,9 @@ def metadata_process(data, type="correlated"):
         #correlation_matrix = combined_numerical_data.corr()
         correlation_matrix = np.corrcoef(combined_numerical_data.astype(float).values, rowvar=False)
 
+        combined_numerical_data = combined_numerical_data.dropna(axis=1)
+        combined_numerical_data = combined_numerical_data.loc[:, combined_numerical_data.nunique() > 1]
+
         best_fit_distributions = identify_best_fit_distributions(combined_numerical_data)
         marginals = []
         for column in combined_numerical_data.columns:
@@ -248,6 +252,11 @@ def metadata_process(data, type="correlated"):
         #correlation_matrix = numerical_data.corr()
         correlation_matrix = np.corrcoef(numerical_data.astype(float).values, rowvar=False)
 
+        #print(numerical_data)
+        #needed so it matches the removal of empty and single values in generation method
+        numerical_data = numerical_data.dropna(axis=1)
+        numerical_data = numerical_data.loc[:, numerical_data.nunique() > 1]
+
         best_fit_distributions = identify_best_fit_distributions(numerical_data)
         marginals = []
         for column in numerical_data.columns:
@@ -256,7 +265,6 @@ def metadata_process(data, type="correlated"):
                 marginals.append(dist(*params))
             else:
                 marginals.append(norm(loc=np.mean(numerical_data[column]), scale=np.std(numerical_data[column])))
-
         #correlation_matrix = processed_data.corr() if type == "correlated" else None
 
         # if statistical or structural then only return metadata with columns needed (metadata[columns])
@@ -507,7 +515,7 @@ def identify_best_fit_distributions(df, discrete_threshold=10): # change this di
     return result
 
 def generate_copula_samples(corr_matrix, marginals, n_samples, variable_names, lower_bounds, upper_bounds):
-    gaussian_copula = GaussianCopula(corr=corr_matrix)
+    gaussian_copula = GaussianCopula(corr=corr_matrix, allow_singular=True)
     copula_dist = CopulaDistribution(gaussian_copula, marginals)
     generated_samples = copula_dist.rvs(nobs=n_samples)
 

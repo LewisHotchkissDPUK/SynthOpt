@@ -42,6 +42,8 @@ GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, 
 DATA = pd.read_csv("examples\healthcare_dataset.csv")
 DATA2 = pd.read_csv("examples/Impact_of_Remote_Work_on_Mental_Health.csv")
 
+DATA_TEST = pd.read_csv("examples/testing_dataset.csv")
+
 #DATA = DATA.drop(columns=['TestDate']) #, 'TestTrunc'
 #DATA['TestTrunc'] = DATA['TestTrunc'].fillna(0)
 
@@ -49,17 +51,17 @@ DATA2 = pd.read_csv("examples/Impact_of_Remote_Work_on_Mental_Health.csv")
 
 DATASETS = {"healthcare":DATA, "mentalhealth":DATA2}
 
-METADATA, LABEL_MAPPING, CORRELATION_MATRIX, MARGINALS = metadata_process(DATA2, "correlated")
+METADATA, LABEL_MAPPING, CORRELATION_MATRIX, MARGINALS = metadata_process(DATA_TEST, "correlated")
 
 #METADATA, LABEL_MAPPING, CORRELATION_MATRIX = metadata_process(DATASETS, "correlated")
 #METADATA, LABEL_MAPPING = metadata_process(DATASETS, "structural")
 
 
-print(METADATA)
-print()
-print(LABEL_MAPPING)
-print()
-print(CORRELATION_MATRIX)
+#print(METADATA)
+#print()
+#print(LABEL_MAPPING)
+#print()
+#print(CORRELATION_MATRIX)
 
 #SYNTHETIC_DATA = generate_structural_data(METADATA, LABEL_MAPPING, identifier_column="Employee_ID") 
 #print(SYNTHETIC_DATA)
@@ -67,7 +69,7 @@ print(CORRELATION_MATRIX)
 #, identifier_column="Employee_ID" if an identifier column is passed, it wont be recognised because prefix is added - handle this
 SYNTHETIC_DATA = generate_correlated_data(METADATA, CORRELATION_MATRIX, MARGINALS, 400, identifier_column="Employee_ID", label_mapping=LABEL_MAPPING) #, identifier_column="PatientID"
 
-print(SYNTHETIC_DATA)
+#print(SYNTHETIC_DATA)
 SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
 
 #SYNTHETIC_DATA["healthcare"].to_csv("output/healthcare_correlated_metadata_synthetic_data.csv", index=False)
