@@ -15,7 +15,10 @@ from datetime import datetime
 import calendar
 import warnings
 warnings.filterwarnings('ignore')
-from synthopt.generate.minimax_tilting_sampler import TruncatedMVN
+from statsmodels.distributions.copula.api import GaussianCopula, CopulaDistribution
+from scipy.stats import norm
+import scipy.stats as stats
+
 
 # Function to generate a random string
 def random_string(length=6):
@@ -78,9 +81,9 @@ def metadata_process(data, type="correlated"):
             if (data[column].dropna() % 1 == 0).all():
                 data[column] = data[column].astype("Int64")
                 if data[column].notna().any():
-                    data[column] = data[column].fillna(round(data[column].mean()))
+                    data[column] = data[column].fillna(round(data[column].mean())) #(CHANGE, EFFECTS COMPLETENESS BUT NEEDED FOR COVARIANCE)
 
-        # fill na of numerical columns with mean
+        # fill na of numerical columns with mean (CHANGE, EFFECTS COMPLETENESS BUT NEEDED FOR COVARIANCE)
         float_columns = data.select_dtypes(include=['float']).columns
         data[float_columns] = data[float_columns].fillna(data[float_columns].mean())
 
@@ -95,6 +98,8 @@ def metadata_process(data, type="correlated"):
                     date_columns.append(column)
             except ValueError:
                 pass
+
+        # add code to try convert strings to numbers
 
         # Identify string/object columns
         all_string_columns = list(set(non_numerical_columns) - set(date_columns))
@@ -211,10 +216,20 @@ def metadata_process(data, type="correlated"):
 
         # Correlation across combined numerical data
         combined_numerical_data = combined_data.select_dtypes(include=['number'])
-        correlation_matrix = combined_numerical_data.corr()
+        #correlation_matrix = combined_numerical_data.corr()
+        correlation_matrix = np.corrcoef(combined_numerical_data.values, rowvar=False)
+
+        best_fit_distributions = identify_best_fit_distributions(combined_numerical_data)
+        marginals = []
+        for column in combined_numerical_data.columns:
+            dist, params = best_fit_distributions[column]
+            if dist and params:
+                marginals.append(dist(*params))
+            else:
+                marginals.append(norm(loc=np.mean(combined_numerical_data[column]), scale=np.std(combined_numerical_data[column])))
 
         if type == "correlated":
-            return combined_metadata, combined_label_mapping, correlation_matrix
+            return combined_metadata, combined_label_mapping, correlation_matrix, marginals
         elif type == "structural":
             return combined_metadata[['variable_name', 'datatype', 'completeness', 'values', 'table_name']], combined_label_mapping
         else:
@@ -230,14 +245,24 @@ def metadata_process(data, type="correlated"):
         #columns_to_drop = [col for col in numerical_data_filtered.columns if numerical_data_filtered[col].replace(0, np.nan).isna().all()]
         #numerical_data_filtered = numerical_data_filtered.drop(columns=columns_to_drop)
         #correlation_matrix = numerical_data_filtered.corr()
-        correlation_matrix = numerical_data.corr()
+        #correlation_matrix = numerical_data.corr()
+        correlation_matrix = np.corrcoef(numerical_data.values, rowvar=False)
+
+        best_fit_distributions = identify_best_fit_distributions(numerical_data)
+        marginals = []
+        for column in numerical_data.columns:
+            dist, params = best_fit_distributions[column]
+            if dist and params:
+                marginals.append(dist(*params))
+            else:
+                marginals.append(norm(loc=np.mean(numerical_data[column]), scale=np.std(numerical_data[column])))
 
         #correlation_matrix = processed_data.corr() if type == "correlated" else None
 
         # if statistical or structural then only return metadata with columns needed (metadata[columns])
 
         if type == "correlated":
-            return metadata, label_mapping, correlation_matrix
+            return metadata, label_mapping, correlation_matrix, marginals
         elif type == "structural":
             return metadata[['variable_name', 'datatype', 'completeness', 'values', 'table_name']], label_mapping
         else:
@@ -431,53 +456,79 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
 
 
 
-# Function to generate correlated samples with truncated bounds using rejection sampling
-def generate_truncated_multivariate_normal(mean, cov, lower, upper, size):
-    lower = np.array(lower)
-    upper = np.array(upper)
-    samples = np.zeros((size, len(mean)))  # Preallocate fixed-size array
-    num_generated = 0  # Track how many samples are accepted
-
-    batch_size = 10 * size  # Start with a larger batch size
-    while num_generated < size:
-        # Generate a batch of candidate samples
-        candidate_samples = multivariate_normal.rvs(mean=mean, cov=cov, size=batch_size)
-
-        # Check which samples are within bounds
-        within_bounds = np.all((candidate_samples >= lower) & (candidate_samples <= upper), axis=1)
-        valid_samples = candidate_samples[within_bounds]
-
-        # Compute number of slots remaining
-        remaining_slots = size - num_generated
-        if len(valid_samples) > remaining_slots:
-            valid_samples = valid_samples[:remaining_slots]  # Trim excess samples
-
-        # Place valid samples in the preallocated array
-        samples[num_generated:num_generated + len(valid_samples)] = valid_samples
-        num_generated += len(valid_samples)  # Update the count of generated samples
-
-        # Adjust batch size if too few valid samples are obtained
-        if len(valid_samples) < batch_size * 0.1:  # If less than 10% are valid, decrease batch size
-            batch_size = max(2 * remaining_slots, batch_size // 2)
-
-    return samples
 
 
-# Function to ensure positive semi-definiteness
-def make_positive_semi_definite(Sigma):
-    # Calculate the eigenvalues and eigenvectors
-    eigvals, eigvecs = np.linalg.eigh(Sigma)
-
-    # Set any negative eigenvalues to zero (or a small positive value)
-    eigvals = np.clip(eigvals, 0, None)  # This sets all negative eigenvalues to 0
-
-    # Reconstruct the covariance matrix using the modified eigenvalues
-    Sigma_positive = eigvecs @ np.diag(eigvals) @ eigvecs.T
-
-    return Sigma_positive
 
 
-def generate_correlated_data(metadata, correlation_matrix, num_records=100, identifier_column=None, label_mapping={}):
+def best_fit_distribution(data, bins=200):
+    DISTRIBUTIONS = [
+        stats.norm, stats.expon, stats.lognorm, stats.gamma,
+        stats.beta, stats.uniform, stats.weibull_min, stats.poisson
+    ]
+
+    hist, bin_edges = np.histogram(data, bins=bins, density=True)
+    bin_centers = (bin_edges[:-1] + bin_edges[1:]) / 2
+
+    best_distribution = None
+    best_params = None
+    best_sse = np.inf
+
+    for distribution in DISTRIBUTIONS:
+        try:
+            params = distribution.fit(data)
+            pdf = distribution.pdf(bin_centers, *params)
+            sse = np.sum(np.power(hist - pdf, 2.0))
+
+            if best_sse > sse > 0:
+                best_distribution = distribution
+                best_params = params
+                best_sse = sse
+        except Exception:
+            pass
+
+    return best_distribution, best_params
+
+def identify_best_fit_distributions(df, discrete_threshold=10): # change this discrete identification
+    result = {}
+
+    for column in df.columns:
+        data = df[column].dropna()
+
+        if data.nunique() <= discrete_threshold:
+            try:
+                mu = data.mean()
+                result[column] = (stats.poisson, (mu,))
+            except Exception:
+                result[column] = (None, None)
+        else:
+            best_distribution, best_params = best_fit_distribution(data)
+            result[column] = (best_distribution, best_params)
+
+    return result
+
+def generate_copula_samples(corr_matrix, marginals, n_samples, variable_names, lower_bounds, upper_bounds):
+    gaussian_copula = GaussianCopula(corr=corr_matrix)
+    copula_dist = CopulaDistribution(gaussian_copula, marginals)
+    generated_samples = copula_dist.rvs(nobs=n_samples)
+
+    # Clip the samples to the original data bounds
+    #bounds = data.agg([np.min, np.max])  # Correctly get min and max for each feature
+    #for i, column in enumerate(data.columns):
+    #    min_val = bounds.loc['amin', column] if 'amin' in bounds.index else bounds.loc['min', column]
+    #    max_val = bounds.loc['amax', column] if 'amax' in bounds.index else bounds.loc['max', column]
+    #    generated_samples[:, i] = np.clip(generated_samples[:, i], min_val, max_val)
+
+    return generated_samples
+    
+
+
+
+
+
+
+
+
+def generate_correlated_data(metadata, correlation_matrix, marginals, num_records=100, identifier_column=None, label_mapping={}):
 
     metadata['variable_name'] = metadata.apply(lambda x: f"{x['table_name']}.{x['variable_name']}", axis=1)
 
@@ -498,16 +549,12 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
     numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(zero_metadata['variable_name'])]
     numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(single_value_metadata['variable_name'])]
 
-    # doesnt work because of prexix
-    #correlation_matrix = correlation_matrix[~correlation_matrix.index.isin(empty_metadata['variable_name'])]
-    #correlation_matrix = correlation_matrix[~correlation_matrix.index.isin(zero_metadata['variable_name'])]
-    #correlation_matrix = correlation_matrix.drop(columns=empty_metadata['variable_name'], errors='ignore')
-    #correlation_matrix = correlation_matrix.drop(columns=zero_metadata['variable_name'], errors='ignore')
-
     # this should work to remove both nan and zero variables
+    correlation_matrix = pd.DataFrame(correlation_matrix)
     correlation_matrix = correlation_matrix.dropna(axis=1, how='all')
     correlation_matrix = correlation_matrix.dropna(axis=0, how='all')
-    correlation_matrix = correlation_matrix.fillna(0)
+    #correlation_matrix = correlation_matrix.fillna(0)
+    correlation_matrix = correlation_matrix.to_numpy()
 
     #correlation_matrix = correlation_matrix.loc[numerical_metadata['variable_name'], numerical_metadata['variable_name']]
 
@@ -527,29 +574,10 @@ def generate_correlated_data(metadata, correlation_matrix, num_records=100, iden
         lower_bounds.append(lower)
         upper_bounds.append(upper)
 
-    # Create the covariance matrix using the correlation and standard deviations
-    covariance_matrix = np.diag(std_devs) @ correlation_matrix @ np.diag(std_devs)
+    #lower = np.array(lower_bounds)
+    #upper = np.array(upper_bounds)
 
-    # new for TruncatedMVN
-    covariance_matrix = make_positive_semi_definite(covariance_matrix)
-
-    # Generate truncated multivariate normal data
-    #synthetic_samples = generate_truncated_multivariate_normal(
-    #    mean=means,
-    #    cov=covariance_matrix,
-    #    lower=lower_bounds,
-    #    upper=upper_bounds,
-    #    size=num_rows
-    #)
-
-    # New method for truncated multivariate normal data
-    mean = np.array(means)
-    cov = np.array(covariance_matrix)
-    lower = np.array(lower_bounds)
-    upper = np.array(upper_bounds)
-    tmvn = TruncatedMVN(mean, cov, lower, upper)
-    synthetic_samples = tmvn.sample(num_rows)
-    synthetic_samples = synthetic_samples.T
+    synthetic_samples = generate_copula_samples(correlation_matrix, marginals, num_records, variable_names, lower_bounds, upper_bounds)
 
     # Convert samples into a Pandas DataFrame
     synthetic_data = pd.DataFrame(synthetic_samples, columns=variable_names)
