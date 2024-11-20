@@ -105,9 +105,9 @@ def metadata_process(data, type="correlated"):
         all_string_columns = list(set(non_numerical_columns) - set(date_columns))
         categorical_string_columns = []
         for column in data[all_string_columns].columns:
-            if data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.2 and \
-                                        (data[all_string_columns][column].value_counts() >= 2).sum() >= 2:
-                categorical_string_columns.append(column)
+            if data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.2: #and (data[all_string_columns][column].value_counts() >= 2).sum() >= 2:
+                if data[all_string_columns][column].nunique() != len(data[all_string_columns][column]):
+                    categorical_string_columns.append(column)
         non_categorical_string_columns = list(set(all_string_columns) - set(categorical_string_columns))
         
         # Calculate average lengths of non-categorical strings
