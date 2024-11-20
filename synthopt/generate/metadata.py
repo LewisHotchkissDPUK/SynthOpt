@@ -311,7 +311,7 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
         if pd.isna(value_range) or value_range == "None":
             if 'object' in str(dtype):
                 return ''.join(random.choices('abcdefghijklmnopqrstuvwxyz', k=random.randint(5, 10)))
-            elif 'int' in str(dtype):
+            elif 'int' in str(dtype).lower():
                 return random.randint(0, 100)
             elif 'float' in str(dtype):
                 return round(random.uniform(0.0, 100.0), 2)
@@ -323,7 +323,7 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
                     if isinstance(value_range, str):
                         value_range = eval(value_range)  # Evaluate the string representation of a tuple/list
                     if isinstance(value_range, (tuple, list)) and len(value_range) == 2:
-                        if 'int' in str(dtype):
+                        if 'int' in str(dtype).lower():
                             # Special case for binary values
                             if value_range == (0, 1):
                                 return random.choice([0, 1])  # For binary values, return either 0 or 1
