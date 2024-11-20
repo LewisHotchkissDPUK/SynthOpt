@@ -217,7 +217,7 @@ def metadata_process(data, type="correlated"):
         # Correlation across combined numerical data
         combined_numerical_data = combined_data.select_dtypes(include=['number'])
         #correlation_matrix = combined_numerical_data.corr()
-        correlation_matrix = np.corrcoef(combined_numerical_data.values, rowvar=False)
+        correlation_matrix = np.corrcoef(combined_numerical_data.astype(float).values, rowvar=False)
 
         best_fit_distributions = identify_best_fit_distributions(combined_numerical_data)
         marginals = []
@@ -246,7 +246,7 @@ def metadata_process(data, type="correlated"):
         #numerical_data_filtered = numerical_data_filtered.drop(columns=columns_to_drop)
         #correlation_matrix = numerical_data_filtered.corr()
         #correlation_matrix = numerical_data.corr()
-        correlation_matrix = np.corrcoef(numerical_data.values, rowvar=False)
+        correlation_matrix = np.corrcoef(numerical_data.astype(float).values, rowvar=False)
 
         best_fit_distributions = identify_best_fit_distributions(numerical_data)
         marginals = []
