@@ -80,12 +80,12 @@ def metadata_process(data, type="correlated"):
         for column in data.select_dtypes(include='float'):
             if (data[column].dropna() % 1 == 0).all():
                 data[column] = data[column].astype("Int64")
-                if data[column].notna().any():
-                    data[column] = data[column].fillna(round(data[column].mean())) #(CHANGE, EFFECTS COMPLETENESS BUT NEEDED FOR COVARIANCE)
+                #if data[column].notna().any():
+                #    data[column] = data[column].fillna(round(data[column].mean())) #(CHANGE, EFFECTS COMPLETENESS BUT NEEDED FOR COVARIANCE)
 
         # fill na of numerical columns with mean (CHANGE, EFFECTS COMPLETENESS BUT NEEDED FOR COVARIANCE)
-        float_columns = data.select_dtypes(include=['float']).columns
-        data[float_columns] = data[float_columns].fillna(data[float_columns].mean())
+        #float_columns = data.select_dtypes(include=['float']).columns
+        #data[float_columns] = data[float_columns].fillna(data[float_columns].mean())
 
         # Identify non-numerical columns
         #non_numerical_columns = list(set(data.columns) - set(data.describe().columns))
@@ -109,6 +109,32 @@ def metadata_process(data, type="correlated"):
                 if data[all_string_columns][column].nunique() != len(data[all_string_columns][column]):
                     categorical_string_columns.append(column)
         non_categorical_string_columns = list(set(all_string_columns) - set(categorical_string_columns))
+        
+
+
+
+        # try convert objects to numbers
+        for column in categorical_string_columns:
+            try:
+                # Attempt to convert to float
+                df[column] = pd.to_numeric(df[column], errors='raise')
+                # Check if all values are integers (but represented as float)
+                if df[column].apply(float.is_integer).all():
+                    df[column] = df[column].astype(int)
+                # If successful, the column is now numeric
+            except ValueError:
+                # Conversion to numeric failed; check for nullable integer possibility
+                try:
+                    # Try converting to nullable integer (Int64)
+                    df[column] = pd.to_numeric(df[column], errors='raise')
+                    if df[column].isna().any():
+                        None
+                    df[column] = df[column].astype('Int64')
+                except ValueError as e:
+                    None
+
+
+
         
         # Calculate average lengths of non-categorical strings
         average_lengths_df = calculate_average_length(data, non_categorical_string_columns)
