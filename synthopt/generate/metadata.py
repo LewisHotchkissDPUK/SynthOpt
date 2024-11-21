@@ -90,6 +90,19 @@ def metadata_process(data, type="correlated"):
         # Identify non-numerical columns
         #non_numerical_columns = list(set(data.columns) - set(data.describe().columns))
         non_numerical_columns = data.select_dtypes(exclude=['number']).columns.tolist()
+        for column in non_numerical_columns:
+            # IF THE OBJECT CANT BE CONVERTED TO NUMBER
+            try:
+                pd.to_numeric(data[column].dropna(), errors='raise') # might need to also convert ??
+                non_numerical_columns.remove(column)
+
+                # Convert to numeric (float or integer as needed)
+                data[column] = pd.to_numeric(data[column], errors='raise')
+                # If all values are integers, convert to Int64 or int
+                if data[column].apply(float.is_integer).all():
+                    data[column] = data[column].astype('Int64')  # Use Int64 for nullable support
+            except:
+                None
         date_columns = []
         for column in non_numerical_columns:
             try:
@@ -114,24 +127,27 @@ def metadata_process(data, type="correlated"):
 
 
         # try convert objects to numbers
-        for column in categorical_string_columns:
-            try:
-                # Attempt to convert to float
-                df[column] = pd.to_numeric(df[column], errors='raise')
-                # Check if all values are integers (but represented as float)
-                if df[column].apply(float.is_integer).all():
-                    df[column] = df[column].astype(int)
-                # If successful, the column is now numeric
-            except ValueError:
-                # Conversion to numeric failed; check for nullable integer possibility
-                try:
-                    # Try converting to nullable integer (Int64)
-                    df[column] = pd.to_numeric(df[column], errors='raise')
-                    if df[column].isna().any():
-                        None
-                    df[column] = df[column].astype('Int64')
-                except ValueError as e:
-                    None
+        #for column in categorical_string_columns:
+        #    if np.issubdtype(data[column].value_counts().dtype, np.number):
+        #        categorical_string_columns.remove(column)
+
+            #try:
+            #    # Attempt to convert to float
+            #    pd.to_numeric(df[column], errors='raise')
+            #    # Check if all values are integers (but represented as float)
+            #    if df[column].apply(float.is_integer).all():
+            #        df[column].astype(int)
+            #    # If successful, the column is now numeric
+            #except ValueError:
+            #    # Conversion to numeric failed; check for nullable integer possibility
+            #    try:
+            #        # Try converting to nullable integer (Int64)
+            #        pd.to_numeric(df[column], errors='raise')
+            #        if df[column].isna().any():
+            #            None
+            #        df[column].astype('Int64')
+            #    except ValueError as e:
+            #        None
 
 
 
