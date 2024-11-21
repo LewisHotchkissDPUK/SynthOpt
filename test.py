@@ -15,6 +15,7 @@ import pandas as pd
 from functools import reduce
 import seaborn as sns
 from sklearn.impute import KNNImputer
+import numpy as np
 
 from synthopt.optimise.optimise import optimise_epsilon
 
@@ -59,9 +60,10 @@ DATASETS = {"healthcare":DATA, "mentalhealth":DATA2}
 
 DATASETS_TEST = {"test_set_1" : DATA_TEST1, "test_set_2" : DATA_TEST2}
 
-METADATA, LABEL_MAPPING, CORRELATION_MATRIX, MARGINALS = metadata_process(DATASETS, "correlated")
+DATASET_MERGE_TEST = {"alzheimers_disease_data_subset1.csv" : pd.read_csv("examples/alzheimers_disease_data_subset1.csv"), 
+                      "alzheimers_disease_data_subset2.csv" : pd.read_csv("examples/alzheimers_disease_data_subset2_V2.csv").replace("999,999", np.nan)}
 
-print(METADATA)
+METADATA, LABEL_MAPPING, CORRELATION_MATRIX, MARGINALS = metadata_process(DATASET_MERGE_TEST, "PatientID", "correlated")
 
 #pd.DataFrame(CORRELATION_MATRIX).to_csv("output/test_corr.csv")
 
@@ -70,11 +72,11 @@ print(METADATA)
 #METADATA, LABEL_MAPPING = metadata_process(DATASETS, "structural")
 
 
-#print(METADATA)
+print(METADATA)
 #print()
-#print(LABEL_MAPPING)
+print(LABEL_MAPPING)
 #print()
-#print(CORRELATION_MATRIX)
+print(CORRELATION_MATRIX)
 
 #SYNTHETIC_DATA = generate_structural_data(METADATA, LABEL_MAPPING, identifier_column="Employee_ID") 
 #print(SYNTHETIC_DATA)
