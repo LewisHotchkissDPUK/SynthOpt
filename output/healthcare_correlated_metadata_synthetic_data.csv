@@ -1,101 +1,401 @@
-Name,Age,Gender,Blood Type,Medical Condition,Date of Admission,Doctor,Hospital,Insurance Provider,Billing Amount,Room Number,Admission Type,Discharge Date,Medication,Test Results
-mqqplo,71,Female,B+,Obesity,2020-06-25,cufbpp,gdcuyy,Blue Cross,44100.04,414,Urgent,2020-01-10,Aspirin,Normal
-gnamjnwhxu,45,Male,AB+,Diabetes,2021-12-27,aohixapvz,dadugnozsh,Aetna,24200.12,347,Emergency,2021-08-17,Paracetamol,Abnormal
-hvuwwwz,86,Female,AB+,Asthma,2020-01-01,wsxwstf,lovouzvvd,UnitedHealthcare,-1449.24,301,Emergency,2024-03-17,Ibuprofen,Inconclusive
-uoxsatz,81,Male,O-,Arthritis,2020-06-06,emziohk,sgjrnr,Blue Cross,1399.86,432,Urgent,2023-01-30,Paracetamol,Inconclusive
-edafi,73,Male,O+,Cancer,2021-01-03,omati,raqvt,Cigna,28187.12,257,Urgent,2019-07-22,Ibuprofen,Abnormal
-blvybo,29,Female,O+,Diabetes,2024-04-10,bqzsrs,cszxqyql,Cigna,24152.24,219,Elective,2024-11-13,Aspirin,Inconclusive
-wmeapnqxi,33,Male,A-,Arthritis,2021-07-31,ufiygnpcgj,qkpzpfst,Blue Cross,52679.71,148,Emergency,2022-07-28,Penicillin,Inconclusive
-bmnlxntchy,68,Male,AB-,Obesity,2022-08-29,fhjyl,vgclz,UnitedHealthcare,27894.87,171,Emergency,2019-05-21,Paracetamol,Abnormal
-bwtatbhxvk,34,Female,A-,Arthritis,2023-02-26,cjfvcoq,xembst,Cigna,37509.83,183,Urgent,2020-02-19,Ibuprofen,Normal
-lgnhf,89,Female,B-,Arthritis,2024-05-26,fzkxsc,lttrwxp,Cigna,26290.32,346,Emergency,2023-06-19,Aspirin,Inconclusive
-sgbftmo,37,Female,O+,Diabetes,2021-11-23,cqxosuocml,kkcmphszsz,Cigna,22074.66,474,Elective,2021-09-25,Ibuprofen,Abnormal
-otmcxch,64,Male,A+,Arthritis,2019-01-26,svpbyrjw,xnedciomzr,Medicare,35994.19,333,Urgent,2021-10-11,Ibuprofen,Inconclusive
-qxwuno,18,Female,B-,Obesity,2019-09-29,qerenmmmny,zwxjforzb,Blue Cross,7914.58,207,Emergency,2022-11-18,Ibuprofen,Abnormal
-lcqnrnag,17,Female,O-,Cancer,2019-12-30,fnkmfld,befgplgg,Aetna,8928.6,113,Elective,2023-10-01,Penicillin,Inconclusive
-buhjxdp,15,Male,AB-,Hypertension,2021-07-08,jkzzoij,vokdyxotn,UnitedHealthcare,36400.99,379,Emergency,2020-11-21,Ibuprofen,Inconclusive
-yiodepx,74,Male,O-,Hypertension,2022-05-11,cytgsq,lwvalehxej,Aetna,11834.22,252,Elective,2022-02-13,Paracetamol,Inconclusive
-qnfrcskk,47,Female,B+,Cancer,2024-03-09,voahlr,nlxlj,Aetna,27659.48,271,Elective,2024-06-05,Ibuprofen,Abnormal
-qsvvsbgnnx,56,Female,A-,Diabetes,2022-03-02,lwueekic,fipseo,Aetna,2800.11,486,Urgent,2021-11-03,Aspirin,Inconclusive
-nedrt,28,Female,O-,Cancer,2024-12-10,kcprzcdkr,gcxqxjgy,Aetna,19475.2,263,Urgent,2024-01-27,Aspirin,Abnormal
-xmxxyux,59,Male,B+,Asthma,2021-03-04,ixttwjaxvr,rkxermn,Blue Cross,12980.85,257,Urgent,2020-08-22,Aspirin,Inconclusive
-ibgazuczmc,60,Male,O+,Arthritis,2021-02-17,fqtqzpafk,lmygwbc,Medicare,834.97,278,Emergency,2022-08-08,Penicillin,Inconclusive
-tdcuarknlf,84,Male,AB+,Diabetes,2020-09-11,wkggmcni,uskzzwxk,Cigna,35544.94,236,Urgent,2024-03-23,Ibuprofen,Abnormal
-hxdcxbzh,79,Female,O-,Obesity,2021-04-29,tfvojjjb,ochwtl,UnitedHealthcare,48075.65,424,Emergency,2020-02-11,Lipitor,Inconclusive
-wccumcxtxk,56,Male,O+,Hypertension,2019-02-21,udtut,yxyslt,UnitedHealthcare,35509.56,390,Emergency,2024-10-26,Paracetamol,Abnormal
-skjbtzy,25,Female,B+,Arthritis,2021-08-02,xhyvgg,ttwyecwgmv,UnitedHealthcare,24892.86,233,Urgent,2022-10-19,Aspirin,Abnormal
-akznalf,37,Female,A+,Obesity,2020-10-13,wqgmfs,euobqw,Blue Cross,10159.32,282,Elective,2023-01-31,Penicillin,Normal
-uevcrv,32,Female,B+,Cancer,2022-03-19,pzlhuarur,buzvxvemeu,Aetna,1646.16,182,Urgent,2024-07-22,Penicillin,Normal
-ppdzduff,71,Female,AB+,Arthritis,2020-06-07,ddypsoterg,fpckd,Aetna,13750.63,446,Urgent,2019-08-25,Ibuprofen,Inconclusive
-kgvdgs,82,Male,AB+,Hypertension,2020-06-21,ohqcjuy,ramqs,Medicare,2123.26,305,Urgent,2023-07-25,Lipitor,Abnormal
-ambxtfohd,70,Male,B+,Asthma,2021-10-06,oiqzqiy,sajntqi,Cigna,17934.13,332,Urgent,2020-08-09,Lipitor,Inconclusive
-bqlrneih,84,Male,O+,Cancer,2023-01-18,taqcfzfrrh,bbzfrib,UnitedHealthcare,50350.8,356,Emergency,2022-09-30,Penicillin,Normal
-pqejuwduxp,46,Male,O+,Hypertension,2023-09-05,osyvrgqir,ygmtxdwd,Aetna,-1333.08,221,Emergency,2024-12-28,Lipitor,Normal
-npuyasxutm,78,Female,AB+,Cancer,2020-08-26,hzmtizmkp,shfvkkkjl,Blue Cross,27009.87,476,Elective,2021-03-11,Aspirin,Normal
-fgqlccexn,81,Male,O+,Hypertension,2023-07-26,tiyvzuex,xwamgrf,Blue Cross,34920.17,458,Urgent,2020-11-03,Aspirin,Normal
-rimrry,71,Male,A+,Arthritis,2023-10-01,uwwlgxuai,hhfwfcj,Medicare,48800.21,302,Elective,2020-01-30,Paracetamol,Normal
-yquwhqe,81,Male,B-,Cancer,2023-09-05,zdaibayojy,bjpsk,UnitedHealthcare,11952.46,467,Urgent,2024-09-05,Lipitor,Inconclusive
-ridjz,83,Female,B-,Asthma,2022-01-02,daemjtp,rldocs,Cigna,29940.66,252,Urgent,2022-06-09,Ibuprofen,Normal
-uohfri,52,Female,AB+,Cancer,2022-04-01,krscij,ocyhftxx,Aetna,18783.77,197,Emergency,2023-08-19,Paracetamol,Abnormal
-ixphagvly,17,Female,O+,Asthma,2019-08-22,tjvgkhmanq,iipfubsdbq,UnitedHealthcare,43058.78,244,Urgent,2019-03-12,Aspirin,Normal
-ixnaquba,80,Male,O-,Cancer,2024-02-05,jditlij,zaqqvetna,Medicare,46249.98,115,Urgent,2019-04-05,Ibuprofen,Inconclusive
-littfpngft,25,Female,AB+,Obesity,2024-09-29,eocjazhj,wfihdeirvl,Aetna,43756.0,321,Emergency,2024-06-09,Ibuprofen,Normal
-sfpdsgn,85,Female,A+,Arthritis,2021-10-13,lhrkiil,hoopdhqv,Blue Cross,51401.28,200,Urgent,2022-04-05,Aspirin,Abnormal
-aprwnx,85,Male,A+,Cancer,2023-11-23,shrgw,ckujyti,Medicare,44199.4,476,Emergency,2021-04-07,Aspirin,Inconclusive
-pyixi,29,Male,B-,Arthritis,2021-07-25,woodzci,hegaekely,Aetna,11993.21,265,Emergency,2022-05-15,Lipitor,Inconclusive
-zvnmyk,86,Male,O+,Arthritis,2022-02-10,sxyrfwsatk,kcdqaz,Aetna,36476.91,153,Elective,2023-06-18,Lipitor,Abnormal
-uxxjh,79,Female,A-,Diabetes,2024-08-21,kuazcx,iuibf,Blue Cross,31660.95,361,Emergency,2023-06-06,Penicillin,Inconclusive
-lkbcplrkd,26,Female,AB-,Hypertension,2023-08-20,wflxcikayx,ejqzxjyem,UnitedHealthcare,20842.71,254,Urgent,2021-11-01,Lipitor,Inconclusive
-wreprzdpsf,53,Male,A-,Asthma,2023-05-03,zzuabes,yfinjauabm,Aetna,50419.69,274,Urgent,2020-08-08,Paracetamol,Inconclusive
-oiztbmm,68,Male,B+,Obesity,2020-11-15,cbkfp,lvefxfof,Blue Cross,35240.01,444,Urgent,2024-04-18,Penicillin,Abnormal
-whkjhgi,68,Male,B+,Hypertension,2023-12-06,ikahrigu,uzpeg,Medicare,29694.71,253,Urgent,2023-03-09,Ibuprofen,Inconclusive
-obihfi,46,Male,AB+,Obesity,2022-05-24,bnyfvg,aygxpuogk,Medicare,24711.76,332,Elective,2023-03-02,Paracetamol,Normal
-jrvhaglu,63,Male,B-,Diabetes,2023-08-05,ttkqeie,devkqfjw,Cigna,41908.13,409,Urgent,2022-11-08,Lipitor,Inconclusive
-wjhuyv,76,Female,O+,Diabetes,2021-02-06,mulcekjfpq,rfglicj,Aetna,30177.47,292,Urgent,2023-12-01,Paracetamol,Abnormal
-rqgndja,19,Male,O+,Cancer,2019-04-19,wfylbv,fvtxgtyw,Aetna,28444.22,298,Emergency,2022-08-11,Paracetamol,Inconclusive
-koysdvso,70,Female,O-,Hypertension,2022-01-30,fdcpcfrq,rpjnfny,Cigna,39262.21,205,Elective,2021-12-29,Ibuprofen,Abnormal
-zrznhvkv,13,Female,AB+,Asthma,2019-06-14,nscmedv,qxrekmnaxo,Aetna,50290.65,465,Elective,2022-10-02,Paracetamol,Inconclusive
-wczvtjoje,16,Male,AB-,Arthritis,2024-06-29,pgnmxepgwf,tmtbmi,Aetna,19022.99,460,Urgent,2021-03-20,Ibuprofen,Abnormal
-msktutg,76,Male,AB+,Diabetes,2021-06-08,eucjv,hopls,Cigna,3880.89,198,Urgent,2020-06-06,Penicillin,Normal
-tvnkbkllr,34,Female,O-,Obesity,2023-05-06,yqwhsl,jgvhcbb,Medicare,46409.88,191,Urgent,2020-08-04,Lipitor,Normal
-fleebvejch,59,Male,O-,Asthma,2021-05-24,igzxe,qusndsaxfp,Blue Cross,34905.18,308,Emergency,2024-02-01,Paracetamol,Abnormal
-trybgdcdg,28,Female,A-,Arthritis,2023-08-27,oeqakbamow,pdydi,UnitedHealthcare,29428.4,476,Elective,2021-01-19,Penicillin,Abnormal
-hiqulz,14,Male,B-,Arthritis,2019-10-21,mbazaw,gaxrdwgc,Cigna,52011.82,136,Elective,2021-02-09,Ibuprofen,Abnormal
-ghgdkr,60,Female,B+,Cancer,2023-11-30,gofqlvde,xtlbv,Medicare,33370.45,248,Elective,2021-04-08,Penicillin,Abnormal
-kvowyoste,50,Female,B-,Hypertension,2024-05-04,dpydmttns,slpau,UnitedHealthcare,46833.67,294,Urgent,2020-10-30,Aspirin,Abnormal
-eitjjtn,89,Female,A+,Asthma,2024-03-20,ybdzugzg,fccpf,Cigna,32625.2,456,Urgent,2020-08-09,Ibuprofen,Abnormal
-tozmwvrfr,40,Female,B-,Hypertension,2019-06-09,ofsaqrnxi,opkszsmcy,Aetna,24111.3,328,Urgent,2024-02-26,Penicillin,Abnormal
-nkqxzgc,26,Male,A+,Asthma,2022-03-23,hksatocyc,olgmsib,Cigna,43683.74,147,Emergency,2020-01-19,Ibuprofen,Normal
-lrwxru,39,Male,B+,Diabetes,2022-08-13,qljbfhnes,iheihr,Blue Cross,39176.88,182,Emergency,2023-01-21,Ibuprofen,Abnormal
-vdtmifmak,24,Male,B+,Asthma,2021-04-29,hxges,tijefv,UnitedHealthcare,15589.09,388,Urgent,2021-05-10,Penicillin,Abnormal
-oykkoulvq,36,Female,B-,Arthritis,2024-01-23,puiivps,mfzbkmbp,Medicare,39727.16,408,Elective,2023-09-22,Paracetamol,Inconclusive
-xwargmwmm,50,Male,O-,Hypertension,2020-10-12,pcflu,kroixtkhl,UnitedHealthcare,19800.53,249,Elective,2024-10-05,Ibuprofen,Abnormal
-ffmydra,22,Female,O+,Obesity,2023-07-19,wxijcnforc,wdrnxzxyzw,Cigna,37922.59,186,Elective,2020-11-01,Lipitor,Normal
-fkhjinays,13,Female,AB+,Cancer,2022-05-19,ryssyzm,idkofhq,Medicare,18879.17,127,Elective,2021-08-05,Paracetamol,Inconclusive
-hgqxxkvpm,13,Female,AB+,Arthritis,2020-03-03,zedmfoho,whgfaey,Medicare,41184.82,148,Urgent,2020-06-01,Penicillin,Inconclusive
-segbzmcf,71,Male,O-,Diabetes,2019-05-27,aeqrskk,wekuf,Blue Cross,33449.54,343,Emergency,2023-10-31,Penicillin,Inconclusive
-troyxusgqb,69,Female,A+,Arthritis,2021-05-07,irdqlggeqt,jeovnvr,Medicare,648.74,428,Emergency,2021-10-07,Aspirin,Normal
-tqsfrcgc,76,Male,O-,Cancer,2024-06-15,wsetylqzo,fjtojrjsim,Medicare,43603.99,146,Emergency,2023-09-16,Ibuprofen,Normal
-anigtazy,60,Female,AB-,Obesity,2022-10-22,rwtkib,ezcxokpt,Cigna,4818.55,213,Emergency,2024-08-03,Lipitor,Normal
-vepil,21,Male,AB+,Cancer,2019-05-30,mggdavejg,vebzn,Cigna,52730.56,357,Elective,2019-07-27,Penicillin,Abnormal
-vooufjsima,82,Male,O+,Diabetes,2024-02-09,rivlv,hqxkn,Cigna,8690.61,467,Elective,2021-05-04,Lipitor,Inconclusive
-nntiueafvj,30,Male,B-,Asthma,2019-11-30,dzcnoxqq,brbgmpgxsi,Cigna,52355.4,130,Urgent,2023-12-22,Paracetamol,Abnormal
-wivjhi,73,Female,A+,Cancer,2024-04-26,fiopra,skhakmyu,Aetna,39840.06,283,Urgent,2021-09-24,Paracetamol,Abnormal
-gbwxdqdubc,42,Male,B-,Hypertension,2020-01-07,usumbpsx,jqebeltkk,Aetna,46077.5,232,Urgent,2023-10-03,Lipitor,Abnormal
-cxdruljyj,55,Female,B-,Diabetes,2019-08-19,tpjspyz,yqezk,Cigna,46144.17,165,Emergency,2019-03-06,Penicillin,Inconclusive
-epyleinxmc,26,Male,AB+,Hypertension,2022-03-29,mulyj,fhmnr,Cigna,9432.67,162,Elective,2023-01-01,Paracetamol,Abnormal
-bdkha,75,Female,B+,Asthma,2019-01-14,gznsf,vdkpwdpmo,Blue Cross,8427.59,288,Urgent,2024-04-03,Ibuprofen,Inconclusive
-xbdmtkzd,75,Female,AB+,Arthritis,2020-10-05,pwcbrqhbcp,ptpibt,Cigna,18027.35,456,Elective,2019-05-27,Aspirin,Inconclusive
-amhktrvo,58,Male,O-,Diabetes,2021-07-22,utzdkeacri,einuhis,Aetna,12840.77,445,Elective,2021-08-08,Penicillin,Normal
-lsziyxz,27,Male,AB-,Obesity,2024-06-23,abtlurc,rbiisk,Blue Cross,2373.3,175,Urgent,2022-05-11,Paracetamol,Normal
-weqtwooij,73,Female,AB+,Hypertension,2022-10-21,stqks,iwiyhyypt,Blue Cross,16602.98,239,Elective,2020-03-01,Ibuprofen,Normal
-xjhrrlv,66,Female,B-,Arthritis,2021-04-11,bfhfufyqd,bjplfnaexl,Medicare,19844.07,333,Emergency,2021-07-03,Lipitor,Normal
-aamylt,47,Male,A-,Arthritis,2022-04-25,yghox,btzkwefk,UnitedHealthcare,17359.3,376,Urgent,2019-09-29,Ibuprofen,Inconclusive
-hqncuov,38,Female,B+,Hypertension,2024-07-10,mjizgu,xyrhgg,Blue Cross,21949.84,324,Elective,2023-05-20,Paracetamol,Normal
-scevg,14,Male,O-,Obesity,2024-08-18,eascdnyhuf,rtoqm,Aetna,49703.61,385,Elective,2023-06-24,Lipitor,Inconclusive
-vutzdbxq,79,Female,AB+,Cancer,2020-02-29,dryovrpzl,cpnwg,Aetna,3683.01,365,Elective,2023-07-12,Lipitor,Inconclusive
-vmeucv,25,Female,A-,Hypertension,2023-03-25,uxdvjqwdli,eaxoho,Blue Cross,11928.37,188,Urgent,2020-12-22,Ibuprofen,Abnormal
-aioipn,50,Male,A-,Hypertension,2024-03-15,nhfjkhew,lpewlyh,Blue Cross,48696.25,199,Elective,2023-06-21,Penicillin,Abnormal
-iggbxwf,23,Male,B+,Diabetes,2022-02-28,ekmxltui,ouspclvust,Medicare,44494.06,337,Urgent,2024-05-13,Lipitor,Normal
-epwomp,39,Male,A-,Arthritis,2024-08-26,btemoj,zxdqluy,UnitedHealthcare,3431.85,413,Urgent,2023-06-05,Lipitor,Inconclusive
-kqnefvcp,84,Male,A+,Obesity,2022-01-04,ufxba,gjcqgzsrd,Aetna,2257.55,296,Urgent,2021-08-04,Paracetamol,Inconclusive
+Name,Age,Gender,Blood Type,Medical Condition,Date of Admission,Doctor,TestTrunc,TestWrongDate,TestDate,TestSingle,TestZero,TestEmpty,Hospital,Insurance Provider,Billing Amount,Room Number,Admission Type,Discharge Date,Medication,Test Results
+BbczWLhUp UpdCf,79,nan,B+,Obesity,2048-01-04,fIlQBBqIR qIRWef,124,109,,1,0,,uKThGqa GqaxlSBydtEt,Medicare,12474.034248712658,246,Elective,1976-07-10,Aspirin,Inconclusive
+V Bg,49,Male,B-,Hypertension,,ousLHmnxhro ,93,102,2024-01-31,1,0,,gtMOAAqOezFvNl oB,Cigna,36564.55280363209,442,Elective,2026-08-06,Ibuprofen,Normal
+DIK ZoDlkhUqR,31,Female,A-,Asthma,2027-07-07, WCRv,106,101,,1,0,,Zf u,Cigna,21814.87637273855,125,Elective,2027-08-07,Lipitor,Abnormal
+SHn HnZxsbWGcaC,31,Male,AB-,Asthma,2015-10-25,OFCGoHnXnU OFCGoHnXnUMc,97,83,2024-01-31,1,0,,ttifmo JCqPOVTC,Cigna,35932.440718378304,150,Elective,2001-11-09,Ibuprofen,Abnormal
+VWUcCF Ze,68,Female,A-,Cancer,2000-01-26,YmXaWYgHgxk gHgxkk,95,128,,1,0,,eRRh WpnlyvVtyL,Medicare,13968.237169776688,350,Elective,1953-05-10,Ibuprofen,Abnormal
+ vBBdVTojQzU,32,Female,AB-,Hypertension,,mbrKeNFpYb NFpYbHz,107,104,,1,0,,bUJPbLx bUJPbLxcisNINWTp,Medicare,9432.594947878757,195,Elective,2105-06-04,Paracetamol,Normal
+ JcGpKJfzvZOE,47,Male,B+,Asthma,1997-01-07, jbMJFhKg,98,117,,1,0,,hmHC pDAtZhOayS,Aetna,24716.767099762714,224,Elective,1996-05-04,Ibuprofen,Inconclusive
+xIacZ Mhd,73,Female,O-,Cancer,,hKFRQ RQUkViKng,101,120,,1,0,,ufcL C,UnitedHealthcare,11185.07064081579,400,Emergency,1983-08-08,Penicillin,Normal
+TPXbFFVcvvGn PXbFFVcvvGn,51,Female,AB-,Cancer,, dIfOe,96,93,,1,0,,VLkFiIKqeNH VLkFiIKqeNHDULTS,UnitedHealthcare,31901.120764930292,323,Emergency,1987-08-10,Ibuprofen,Abnormal
+x xwSBxxMgRhty,51,Female,B+,Cancer,2000-01-01,NxntnDuGRiYv ntnDuGRiYv,89,100,,1,0,,qZFATwYE Hz,Cigna,43280.50052959492,175,Emergency,1997-06-08,Lipitor,Inconclusive
+sf sfkPQplbIwPL,79,Male,O+,Diabetes,2068-11-23,RgyjR Bvnyjuv,95,95,,1,0,,SdIcLIonNWLjqE LIonNWLjqEaR,Blue Cross,7637.102776825548,343,,2020-07-06,Lipitor,
+fePrWCyystl WCyystlk,48,Female,B-,Hypertension,1957-01-24,K WosR,95,91,2024-01-31,1,0,,IWXwFvjQA ,Medicare,21072.07897757143,462,Emergency,2021-12-08,Lipitor,Abnormal
+FyX g,64,Female,B+,Diabetes,1999-01-22,wr CzRxnu,115,96,,1,0,,bGuuR ,Aetna,42111.28368332148,239,Emergency,2016-09-06,Ibuprofen,Abnormal
+ztqXBgI ztqXBgIISTLU,72,Male,O+,Diabetes,,IG mBopyHcZpt,100,106,,1,0,,WAJi JiNYEeTSjQzdsb,Blue Cross,31715.491728139747,364,Emergency,2031-04-05,Penicillin,
+JOodoIyFDQ FDQjn,35,Female,A-,Diabetes,2047-01-31,SYjevjVWTj SYjevjVWTjKA,91,114,,1,0,,cFUCDqxtJj Mb,Cigna,19979.030745066444,298,Emergency,2013-06-09,Ibuprofen,Abnormal
+ns oUWgOmgGVJ,18,Male,B+,Diabetes,2117-01-23,ijxKstW EElqL,92,106,,1,0,,CNKtjJ WpgwKfysCp,Cigna,31169.4203970762,309,Elective,1992-11-10,Lipitor,Normal
+iHAAtNOfkAZ OfkAZP,69,Female,B-,Obesity,1998-01-21,S iwidNWsa,83,103,,1,0,,ntIUsrVHtYyp M,Cigna,21692.628390602655,325,Elective,1961-05-08,Ibuprofen,Abnormal
+emHL DNYBg,58,Female,AB-,Diabetes,2009-01-15,F ,98,109,2024-03-31,1,0,,JHfLaTL tb,Aetna,27486.366414656386,187,Emergency,2028-08-08,Ibuprofen,Inconclusive
+M MDtoMtYzTHcA,68,Female,B-,Obesity,,B EGfVvCje,95,93,,1,0,,NAjQzBtZ XDXvf,UnitedHealthcare,18079.26774331406,202,Elective,2104-08-08,Penicillin,
+TdPr dPrXFYMzAPE,56,Female,A-,Diabetes,,BnfZ FKyYl,88,100,2024-01-31,1,0,,GQLy ALdMLICBdS,Cigna,8640.491069672977,409,Urgent,1981-06-07,Lipitor,Inconclusive
+zkNfHd Tvgdh,63,Male,AB-,,,oeHZC ,88,103,,1,0,,huvpSIhuuOzuuTSV uvpSIhuuOzuuTSV,UnitedHealthcare,42061.07815524399,475,Urgent,2022-06-09,Lipitor,Abnormal
+uvOOiEIydHkH OOiEIydHkH,28,Female,AB-,Diabetes,2010-01-24,uUWS EMGAunaj,93,114,2024-01-31,1,0,,rj qhuzTwsHwEoiJL,Blue Cross,22706.929766763507,161,Urgent,2028-02-02,Lipitor,Inconclusive
+mNN Gep,31,Male,A-,Arthritis,2086-01-19,EokEfTIa kEfTIazBjl,83,86,2024-01-31,1,0,,DbqsueVUas m,Medicare,38005.67937673026,221,Elective,2010-09-09,Ibuprofen,Inconclusive
+VTUHlec ecOtcAc,54,Female,A-,Cancer,,C ,85,125,2024-03-31,1,0,,wjrwNRoRZzpU zes,Blue Cross,40752.71661983694,232,Elective,2029-06-07,Lipitor,Inconclusive
+suC uCseJiukwFa,65,Male,B-,Cancer,2062-02-13,MmkbqoPmL bqoPmLiEV,102,100,2024-03-31,1,0,,ZmAVlkoVrZdw qRdt,Blue Cross,39293.94704825824,312,Elective,2061-06-10,Paracetamol,Inconclusive
+lzkDCdQrL HB,81,nan,AB-,Asthma,,Xm ,106,104,,1,0,,wzphN NGrVUiyESA,Blue Cross,11883.36123187943,289,Emergency,2007-05-06,Aspirin,Inconclusive
+CywUUWEW UUWEWyXAw,38,Female,B-,Diabetes,,yzOidgsQcHCT ,96,104,,1,0,,nivHxULrvuvc ULrvuvcFLsb,Cigna,23246.4219116207,126,Emergency,2011-09-09,Paracetamol,Inconclusive
+wF WXIPqrZIV,59,nan,B-,Asthma,,MH tetNk,84,99,,1,0,,JMac MacPYDqiLxwGIXd,Medicare,26512.31346193804,478,,2043-06-07,Paracetamol,Abnormal
+yzJ qZGqwvC,57,Female,AB+,Cancer,2074-01-01,RSKtKkeG Ax,102,119,,1,0,,eFLyracGKnwkGH jf,Cigna,41177.78957054792,249,Emergency,2018-08-06,Lipitor,Normal
+jMo wXgovPy,36,Male,O-,Asthma,,qATjwynpB npBMFT,96,108,,1,0,,YpTxHzx Wzmy,UnitedHealthcare,17956.926581011776,348,Elective,2016-04-08,,Inconclusive
+RmBSUFizgp FizgpfN,42,Female,AB-,Cancer,1976-03-22,IV InaWNO,89,113,2024-01-31,1,0,,rBrdGLdzsP dGLdzsPhdLVeh,Medicare,23500.993993477317,203,Emergency,1972-09-05,Paracetamol,Inconclusive
+eagbddhFiB iBIG,50,Male,A-,Cancer,,dLmkYbBrm B,102,103,2024-01-31,1,0,, I,,28836.255385653105,255,Emergency,2035-12-05,Ibuprofen,Inconclusive
+hGKeC hGKeCSzXidYB,34,Female,O-,Cancer,2008-01-13,ECtGRMe MeAAnNW,89,117,,1,0,,sIpJkbRpZdm pJkbRpZdmemEnu,,27961.198774675784,367,Emergency,2005-07-04,Paracetamol,Abnormal
+ QKyUhkrOzi,81,Female,B-,Asthma,2026-01-14,XjsjfhDAkQTG DAkQTG,81,120,,1,0,,PyzWxkGdRFpLqDhI ,Aetna,42974.88232325071,322,Emergency,2009-12-05,Aspirin,Inconclusive
+zXDPcT zXDPcToklyac,29,Female,B-,Arthritis,2042-01-25, ASKZ,99,103,,1,0,,JewJxi lISsjyU,Cigna,10345.602413146235,349,Elective,2075-11-08,Ibuprofen,Normal
+gjxpvZ pvZDKpjeT,82,Male,AB+,Cancer,1912-01-17,gItKW Ahh,97,99,,1,0,,xDh G,Cigna,42861.623039812184,180,Urgent,1941-08-08,Ibuprofen,Inconclusive
+l QjhgH,30,Female,AB-,Diabetes,2047-01-10,Ss sCnkr,82,105,,1,0,,meF meFUMwxEAYtULUpu,Blue Cross,43429.65374573937,178,Emergency,2059-07-07,Penicillin,Inconclusive
+qnH LIKUIGa,28,Male,AB-,Diabetes,2029-01-30,PeEns DbS,117,72,2024-01-31,1,0,,wRTqvMGC JPhpj,Aetna,39423.55564312132,345,Urgent,2032-07-09,Ibuprofen,Inconclusive
+qc yoxKZ,60,nan,B+,Cancer,2023-01-23,YiiNHwLkHGAC NHwLkHGAC,80,88,2024-01-31,1,0,,GlHFpXFjbeJoZJ C,UnitedHealthcare,22897.827142657377,376,Urgent,1990-06-08,Penicillin,
+ApKvnBI H,27,Male,O+,Diabetes,,n KFpUBCw,100,105,2024-03-31,1,0,,RbOhCARwEzopGNQu NQu,Aetna,12028.571855662081,182,Emergency,1916-05-08,Lipitor,Abnormal
+OfFB AWhYTA,35,Male,B+,Arthritis,,awfjAEVwHLN wHLNs,88,114,2024-03-31,1,0,,ZyYY FCwBrfxPuQzH,Medicare,40499.77117929688,259,Emergency,1988-04-07,Ibuprofen,Abnormal
+UKNtR jij,52,Female,AB-,Obesity,1973-02-07,EqiWb ,106,103,2024-01-31,1,0,,j IT,Blue Cross,29818.078767110223,395,Urgent,1999-07-05,Ibuprofen,Abnormal
+pVtLfYDwi LfYDwieqL,41,Female,O+,Diabetes,,hdxtoh ,99,114,2024-05-31,1,0,,IoLbd IoLbdBNJWRUmVmuC,Blue Cross,18195.011560888997,439,Elective,2012-05-11,Aspirin,Normal
+BssYozNFi sYozNFiVKd,32,Female,A-,Hypertension,2080-01-14,L LpCbpdTYhZGf,97,91,2024-01-31,1,0,,zSajT eQgSRkIvx,Aetna,-1780.4891232414218,366,Emergency,2063-08-10,Lipitor,Abnormal
+Q QpOiWajLNlwe,57,Male,AB-,Asthma,,LKN qomtrzRQi,91,120,2024-03-31,1,0,,LfMiIZeOv ePUHaSX,,8973.000487764977,213,Elective,1993-09-08,Penicillin,
+u kIQGigH,73,Female,AB-,Diabetes,,ScxnLgUlb cxnLgUlbzvu,87,108,,1,0,,woaenXAVFhKhJU XAVFhKhJUbK,Blue Cross,10876.001557776213,450,Emergency,2018-09-09,Ibuprofen,
+WjC CDLu,60,Female,B-,Cancer,,qoWkwToFld ldBY,84,91,,1,0,,eyDIIv ODokmo,Aetna,32398.766392350324,237,Emergency,1985-05-06,Lipitor,Normal
+xcwsggQTMcuf f,24,Male,nan,Arthritis,2012-06-06,oBSzz AUTxF,100,112,2024-03-31,1,0,,tph hUBjEsYbYUsvSH,UnitedHealthcare,46951.478068081735,288,Elective,1993-09-11,Paracetamol,Inconclusive
+oeNOFwawVpK eNOFwawVpKD,37,Male,B-,Diabetes,2017-03-11,lIzNQilSelTI lIzNQilSelTI,96,102,2024-03-31,1,0,,mdovnu ovnuEmXNpaMYjD,Blue Cross,19947.308284020524,184,Elective,2019-09-05,Penicillin,Abnormal
+eTrWuJ uJaFQUFZ,30,Male,O+,Cancer,2108-01-17,nbUltDFo EWbL,88,101,,1,0,,QMICTQZQpyY QMICTQZQpyYqgIzh,Medicare,31414.06678432402,190,Elective,2054-08-03,Ibuprofen,Inconclusive
+ZGFnKFTRMjWt t,23,Male,B-,Hypertension,2007-01-27,lNWXnPZya aCtg,98,100,2024-03-31,1,0,,RjGEGULMOnGeN jGEGULMOnGeNZdx,Medicare,23876.55010730037,381,Elective,2012-07-03,Ibuprofen,Abnormal
+uCgruZX h,74,Female,AB-,Cancer,2021-01-04,VGoAsWVcpk oAsWVcpkBC,99,104,,1,0,,wtC cmpXzWJrj,UnitedHealthcare,2519.814828102585,253,,1979-08-08,Lipitor,Abnormal
+fLRw RwdRTTtCWt,51,Female,AB+,Asthma,,ajrk ajrkjnYsFnyM,93,98,2024-01-31,1,0,,bCxgFCShpBLlvPoy hpBLlvPoy,Medicare,38637.00517931358,473,Elective,2052-03-08,Penicillin,
+ ,41,nan,A-,Arthritis,1968-02-01,QwmQLuXkikCF ,80,96,2024-01-31,1,0,,MGpUVhiWTIugOGL WTIugOGLb,Blue Cross,28663.996788928205,321,Emergency,1992-06-09,Ibuprofen,Abnormal
+M p,26,Male,B-,Cancer,2059-01-16,aJOzMXAkpuYp p,108,132,2024-01-31,1,0,,sDQwOVAAGqML kZ,Aetna,33334.178958054894,489,Emergency,2035-02-04,Lipitor,Abnormal
+oJMs ,27,Female,B-,Asthma,,AB M,88,105,2024-01-31,1,0,,oUecMcnhNQQt McnhNQQtgLzo,Cigna,27382.978452181356,132,Elective,2047-08-09,Penicillin,Normal
+PFXZxq QKc,66,Female,AB-,Obesity,2099-01-03,Xop XopwHrGMvXek,103,97,,1,0,,MoFylxwiN oFylxwiNQdOgoyl,Blue Cross,41044.52662029817,166,Urgent,2076-08-08,Lipitor,Abnormal
+pN Zq,73,Female,B-,Asthma,1931-01-28,TYivZbSxjT ,86,101,,1,0,,vjgI tVhRcKqFrFv,UnitedHealthcare,46082.91182201126,218,Elective,1930-05-10,Ibuprofen,Inconclusive
+Z oHUjj,27,Male,A-,Asthma,1918-01-26, yXZsCtK,81,106,,1,0,,FVTB IAtlRERwb,Medicare,26798.336221065776,443,Elective,1995-06-01,Paracetamol,Abnormal
+ zVhdJyAtio,21,Female,AB-,Obesity,,CVsvBmG AnC,100,107,,1,0,,IWZCasZhCBAnnA p,Blue Cross,12734.333607888819,380,Emergency,2036-06-10,Lipitor,Abnormal
+DslzJVvQG C,16,,A-,Hypertension,2033-01-11,GZQU gfq,112,102,,1,0,, kGtE,Cigna,7095.763604684431,260,Elective,2056-05-08,Lipitor,Abnormal
+pKFgstvvh pKFgstvvhlpg,53,Female,AB-,Asthma,1940-06-15,Vmwb dDm,96,101,,1,0,,qjRdDjjrmQfCCRk RkJ,Cigna,29757.824190642525,185,Emergency,1966-06-07,Ibuprofen,Abnormal
+TwVKTOx SqJl,50,Female,O+,nan,2025-01-17,a Sh,106,106,2024-07-31,1,0,,NX KaZsNyGzzUcUzv,Aetna,49675.87895259386,472,Elective,2032-06-07,Penicillin,
+WFxTGNurQnm WFxTGNurQnmA,24,Male,AB-,Hypertension,2047-01-01,Aod a,107,100,2024-03-31,1,0,,mzyWB GSQmCkttcsH,Cigna,33368.2944882071,254,Urgent,2043-09-09,Paracetamol,Normal
+K KHXHEofDqUdO,21,Female,B+,Asthma,,az BMuAU,81,113,2024-01-31,1,0,,MXRAokIgN AokIgNlScLxfY,Blue Cross,21213.407045870914,229,Emergency,1954-09-11,Paracetamol,Abnormal
+HEEPlsCYRl EPlsCYRlaW,42,Female,O+,Diabetes,2060-01-08,Xcbe wr,85,107,2024-03-31,1,0,,sCxNICoHlHJ oHlHJttEzT,Medicare,35947.439975599875,149,Elective,2058-06-06,Lipitor,Abnormal
+VwrE GJYnUB,64,,B+,Diabetes,2004-01-20,XTMzSTVfhNzm VfhNzm,114,122,2024-03-31,1,0,,kySMMGqUbVc Sgx,Aetna,10452.626699784954,140,Urgent,1930-04-08,Lipitor,Inconclusive
+WoQfrlz frlztkXtq,25,Female,AB-,Diabetes,,Kt KtROZRtWzZYS,102,95,2024-03-31,1,0,,WPbrl XdObe,Medicare,12292.666657909753,391,Elective,1971-09-09,Ibuprofen,Inconclusive
+MHwaCIRMJt MHwaCIRMJtDw,67,Female,AB-,nan,2025-01-02,BWcJIGxAInZ GxAInZV,94,94,2024-03-31,1,0,,zNofzeoTznZq ZqhskH,UnitedHealthcare,26322.510879370362,449,Elective,2045-05-06,Aspirin,Abnormal
+ ,21,Female,AB+,Cancer,2061-01-04,Pff NhEb,92,95,,1,0,,VJNxBXxUX ,Cigna,30166.518434889567,249,Emergency,2007-09-07,Lipitor,Inconclusive
+UeMEu uLmgHqlP,80,Female,A+,Diabetes,,h n,95,96,,1,0,,rsumUzj mUzjYTdjKAuGv,,33751.23347843885,270,Urgent,1949-08-08,Lipitor,
+izZHGBzR F,73,Female,B-,Diabetes,2018-01-05,wVzfJU zfJUCNzXtx,103,107,2024-03-31,1,0,,JGlEYUdTLUisPZV LUisPZVC,Medicare,20856.540521279716,136,Elective,1992-04-07,Lipitor,
+pTrAAN FpGg,85,Male,B+,Diabetes,2040-03-20,lUAOCKoXuPp CKoXuPpP,88,118,2024-05-31,1,0,,BANWQbN IqUoTuZvG,Medicare,16639.025716964385,102,Elective,2022-07-08,Lipitor,Abnormal
+mCFAxBisb FAxBisbiQV,59,Female,B-,Asthma,2029-01-05,GQ m,86,99,,1,0,,ROUloQHFXckDs HFXckDsENj,Cigna,2028.4581354627344,494,Emergency,1961-06-09,Ibuprofen,
+xA q,40,Male,AB+,Diabetes,2051-01-12,uZcpOBx vogK,86,126,2024-01-31,1,0,,uJKMbMwcJUjMhx xZx,Cigna,23103.543354033107,155,Emergency,2057-04-08,Lipitor,Normal
+YHYtL xUnWW,65,Male,A-,Diabetes,2084-04-12,CJX vPXAAnq,79,104,2024-03-31,1,0,,FAaJBnHlKbZnv JBnHlKbZnvGeo,UnitedHealthcare,15753.52763863542,288,Emergency,2045-05-07,Paracetamol,Abnormal
+fhiCY fhiCYXYPwNwc,30,Male,AB+,Diabetes,1998-02-08,S Nr,97,103,,1,0,,eFMXEFXEppvbi FMXEFXEppvbixmv,Medicare,25564.12092774933,140,Elective,1960-09-05,Paracetamol,Abnormal
+seaxRfMO BmVi,26,Male,AB+,Asthma,2007-02-10,PTY ,88,125,2024-03-31,1,0,,KSMdnUnh O,Blue Cross,5926.8953395473045,331,Elective,2000-03-06,,Abnormal
+LIvDeSeJeU eSeJeUds,54,Female,B+,Hypertension,2020-01-18,NTAfaiZijh ijhOC,104,99,,1,0,,bowSflanbxJoMqwT oMqwT,Medicare,26109.0995628979,420,Elective,1978-04-05,Ibuprofen,Inconclusive
+NPZbfhMkQ PZbfhMkQDet,80,Female,A-,nan,2039-03-18,gfJFCgCRz CRzEbL,92,110,,1,0,,PAVTOKnK o,Medicare,42568.71240707382,365,Emergency,2059-07-06,Lipitor,Abnormal
+rInlliMlvCd nlliMlvCdT,60,Female,B+,Cancer,2050-01-13,XuGcuZRpsV sVEp,102,98,2024-03-31,1,0,,HZjN yjuGG,Blue Cross,28605.28583308338,360,Emergency,1995-07-04,Lipitor,Abnormal
+BJR NOe,31,Female,B+,Asthma,1943-01-20,kfvnhziueMw wG,105,111,,1,0,,ZhvSBCG GqkvaZKzVH,Aetna,22701.790861374357,198,Elective,1893-03-06,Paracetamol,Abnormal
+VIejF f,76,Female,B-,Diabetes,,ZgaXCdJiFRSs RSs,83,100,,1,0,,yGHKc GHKcbzLOycrFuBr,Blue Cross,51736.78831833182,453,Urgent,2031-07-09,Penicillin,Abnormal
+TvA aMebDcp,83,Male,B-,Cancer,2089-01-26,k mWJDx,90,110,,1,0,,uXUeUZKpoAFIgd ZKpoAFIgdfs,,26957.283155968304,201,Emergency,2032-08-07,Lipitor,
+CurOQqqRpAN QqqRpANM,43,Female,B+,Hypertension,2044-01-02,kMyLgVeEZdZz MyLgVeEZdZz,94,109,,1,0,,wGjqhOSRQoEURet OSRQoEURetZ,Medicare,6863.6678478968315,308,Urgent,2023-03-06,Paracetamol,
+aqiF qiFrwagXLSG,49,Male,AB+,Cancer,2062-01-10,tAnJqGftigQJ nJqGftigQJ,82,109,,1,0,,jWnypxAaXbKcj jWnypxAaXbKcjgFJ,Blue Cross,42006.698898942166,257,Emergency,2041-06-07,Aspirin,Normal
+QEMGc Yjtm,67,,AB-,Cancer,,ne zN,105,105,,1,0,,TnEJZdJbtqyprbJY btqyprbJY,Medicare,35237.279543835655,316,Elective,2086-08-07,Aspirin,Inconclusive
+bt ptVo,84,Male,nan,Asthma,,rg GwESGLp,83,104,,1,0,,oVtn edJgMmMa,Medicare,39503.085652408074,363,Elective,2019-07-08,Paracetamol,Abnormal
+cSyq HfMEExbT,82,Female,B+,Diabetes,2032-01-18,wJxWqY fjym,94,97,2024-01-31,1,0,,OZGYzZstCJa s,Blue Cross,15615.006416833035,156,Urgent,2002-10-10,,Inconclusive
+MeMz zGKtKOxqn,74,Female,AB-,Asthma,2001-01-27,Fx C,89,119,,1,0,,QTYaiIJ iIJlWakSDQPP,Medicare,7548.962414967513,196,Emergency,2077-07-07,Lipitor,Abnormal
+TMAUtwWi Yr,45,Female,AB+,Cancer,2032-01-17,bauYC CrbbuEVi,98,121,2024-01-31,1,0,,MdfKKkFugIwE fKKkFugIwEWKfA,Medicare,2002.0645625099842,133,Elective,2039-07-08,Penicillin,
+EDiiwJenWZZ ZS,46,Female,AB-,Asthma,,uBauBbQxUZL uBbQxUZLx,112,117,,1,0,, xHUS,Cigna,22753.817394024856,194,Emergency,1981-04-08,Aspirin,Inconclusive
+hanrNy O,31,Male,B+,Asthma,1978-02-13,nbV ,102,109,2024-03-31,1,0,,ayKa Kqm,Medicare,23339.974949643663,128,Emergency,1952-05-10,Paracetamol,
+PJdnhY TZoAiq,75,,A+,Cancer,2052-01-17,Q sTmjNV,82,97,,1,0,,FmRAxmY dzJsnD,Blue Cross,18525.79857642393,302,,2037-10-05,Ibuprofen,Inconclusive
+YQo P,30,Female,B+,Hypertension,,zrKbIAk JM,95,121,2024-03-31,1,0,, tTpSG,Aetna,21271.178874683133,484,Emergency,2011-10-11,Ibuprofen,Normal
+agCl rvfrSLJL,81,Female,B+,Asthma,2040-01-26,ozpinIdv inIdvQFbV,109,103,,1,0,,UB jnq,Blue Cross,38178.09318659581,135,Emergency,2003-05-11,Lipitor,Abnormal
+PEXqAJrVvoTV rVvoTV,52,Male,B-,Arthritis,,rwxHI I,102,107,2024-01-31,1,0,,uv ,,29737.966852693637,195,Emergency,2048-07-07,Aspirin,Abnormal
+mmDd nY,79,Female,B-,Cancer,2003-01-08,bsQPdkU dkUOCPFP,86,86,,1,0,,UJNPXBNvcL uBfZTs,Blue Cross,37393.237289167155,279,Elective,2003-10-07,Ibuprofen,Inconclusive
+FtAhU tAhUSLbEVZs,32,nan,AB+,Diabetes,,FIoF emWUV,102,107,2024-01-31,1,0,,C SnCmXs,UnitedHealthcare,10915.472927440534,104,Elective,1994-06-04,Paracetamol,Normal
+nudMEBQNsnn EBQNsnnK,79,Male,O+,Diabetes,1941-01-07,E VC,86,91,2024-03-31,1,0,,eETuRlNExBdcXC dcXCvI,Blue Cross,20060.15591915499,286,Emergency,1949-09-03,Ibuprofen,
+OR IVGV,38,Female,B+,Cancer,1967-01-30,zpjXYD jXYDSQZMqP,104,115,,1,0,,Nd KKVOWZqjiDtU,Medicare,12455.361064930432,417,Emergency,2042-09-03,Lipitor,Normal
+QzLZGGCoN LZGGCoNoSB,31,Female,nan,Cancer,2081-01-17,zrP bDKkBaXv,94,99,2024-01-31,1,0,,LHJsuyNL jvKotmM,Medicare,40249.3742541907,120,Urgent,2074-04-06,Ibuprofen,Inconclusive
+Yfvv xDm,64,Male,AB-,Hypertension,2009-01-19,M DjylTRk,95,90,2024-01-31,1,0,,YPp FakMnSOEd,Blue Cross,15309.855660344096,246,Elective,2003-07-07,Lipitor,Inconclusive
+NJmGyFFQgoQ goQM,61,Female,AB+,Asthma,1992-05-13,Gldk dkKtNKytnk,86,98,,1,0,,TylFVwaSRKhdJ h,Cigna,26191.750169245875,124,Emergency,1973-09-05,Aspirin,Abnormal
+cPfOoSNqMv fOoSNqMvSz,53,Male,AB-,Asthma,1977-01-08,HjIgx SS,96,101,,1,0,,mcgsOXDfEUvqIM mcgsOXDfEUvqIMEI,UnitedHealthcare,36861.44215480772,297,Urgent,2036-08-05,,Inconclusive
+vuwNxWLoZ wNxWLoZLKW,73,nan,B+,Obesity,,ndDJGkRjXYAg DJGkRjXYAg,96,99,2024-03-31,1,0,,Lo XFtDEqu,Medicare,9276.272845508134,327,Urgent,2107-09-04,Lipitor,Inconclusive
+ sdO,36,Male,B-,Cancer,2069-06-10, QAxjx,98,122,,1,0,,BqiWNNkNMakAWmo oq,Blue Cross,12658.563819762176,136,Elective,2034-05-08,Lipitor,Abnormal
+vlMk lMkzHGiiols,67,Female,AB+,Diabetes,2063-03-02,PLZZA hmJdPM,97,104,2024-03-31,1,0,,RwFeOWJLzHqTiW zHqTiWTg,Blue Cross,13248.161499619098,151,Emergency,2058-08-07,Lipitor,Normal
+aQoealQwQPW WO,23,Female,O+,Hypertension,2060-01-23, lvkioBLf,91,117,2024-05-31,1,0,,lLtJXzGlnbgJU LtJXzGlnbgJUZks,Blue Cross,39618.20693158914,102,Elective,1963-05-12,Lipitor,Inconclusive
+uwmSb mSbhrqBTxG,73,Female,AB-,Cancer,2011-01-18,lV lVQgLNNEgEcV,102,80,,1,0,,RrB ,Cigna,33719.69975954715,432,Emergency,2038-03-04,Ibuprofen,Inconclusive
+ylnmi minkvAuCS,62,Male,O-,Hypertension,2078-01-10,eoJZKaL KaLLBdGn,87,108,2024-03-31,1,0,,hQj HggMkM,UnitedHealthcare,39279.37812686115,126,Urgent,2080-08-04,Ibuprofen,Inconclusive
+spNcYqjIPT cYqjIPTJu,34,Male,O+,Diabetes,,IoTmt mtbORVdpe,103,98,,1,0,, dNiWKQXBJBKxl,Cigna,29798.120884740205,202,Emergency,2078-07-08,Aspirin,Inconclusive
+NSaLJnwReoin oin,37,Female,O+,Asthma,2094-02-25,g jgDqA,96,98,2024-03-31,1,0,,Oy nAPEGaESJ,UnitedHealthcare,34387.274069864914,158,Elective,2057-06-08,Ibuprofen,Inconclusive
+Vvp sPai,28,Female,AB+,Asthma,,zkaWzQX aWzQXXTgLg,88,109,2024-01-31,1,0,,PMGbHctjXsQDleJ HctjXsQDleJb,Cigna,36362.35887987653,389,Elective,1940-05-06,Ibuprofen,
+EIcgiXU iXUsHvhX,72,Male,AB+,Diabetes,,WBHq TWtmYx,93,98,,1,0,,LAy UyHPj,Aetna,22828.426665829207,272,Urgent,2054-09-09,Aspirin,Abnormal
+Lgbz zbD,42,Female,AB-,Diabetes,,zkcjO BoUmI,74,102,2024-01-31,1,0,,DKYojOJCc gtPwPc,Aetna,53371.22790507885,346,Elective,2053-06-06,Paracetamol,Inconclusive
+BSOFiZNz VB,56,Female,B+,Hypertension,2050-01-11,AcJ B,87,98,,1,0,,wZtxTujsnXYqmze qmzeN,Blue Cross,13535.875906697642,224,Urgent,2016-06-03,Ibuprofen,Inconclusive
+SrnkJM JMTuvNRT,65,Male,AB-,Cancer,2021-01-21,HgfpzLujwKVr KVr,88,111,2024-01-31,1,0,,eSQyCxYShcAJ V,Cigna,11986.01976934619,409,,2012-08-05,Paracetamol,Inconclusive
+rP NmQ,52,Female,B-,Hypertension,,ib s,113,125,,1,0,, jrWkTLFmjIWD,Aetna,26177.93555960178,425,Emergency,2026-08-11,Lipitor,Abnormal
+AGtDykoOth ,79,Female,,Hypertension,1993-02-14,nNfeS ,95,96,2024-01-31,1,0,,tEUgnbSInQ QHZYEC,Cigna,3480.2762881852723,231,Emergency,2018-05-02,Paracetamol,Normal
+cEHIO Ufnh,58,Female,B-,Diabetes,2004-01-24,mwqoLRIj J,86,112,,1,0,,P ,Cigna,36402.7835036356,425,Elective,2021-09-06,Ibuprofen,Normal
+VuyCTapt CTaptlHkt,68,Female,O+,Cancer,2088-05-29, oLaq,97,114,,1,0,,AbMYA RYW,Aetna,9241.956635369728,431,Emergency,2063-07-09,Lipitor,Inconclusive
+LVFaSdgGZcv gGZcvk,45,Female,A-,Hypertension,2024-01-31,gLRgHSfPj ,89,102,2024-03-31,1,0,,jfFIBH ELJDSpt,Blue Cross,36659.77896895961,180,Emergency,1986-09-05,Paracetamol,Abnormal
+XTyTgybvSckR kR,63,Female,AB-,Cancer,,IxKsBtkQLVzh zh,104,111,,1,0,,xbeoLYxCiKLduiU xbeoLYxCiKLduiUQ,Cigna,20389.100204823913,363,Elective,2031-06-06,Penicillin,Abnormal
+ ihFvAyBZ,33,Female,AB+,Cancer,2095-02-06,wWODZudEfV EfVFa,91,119,2024-03-31,1,0,,DWQJTtglujsSLG sSLGue,,22344.96942344078,211,Emergency,2124-07-07,Ibuprofen,Abnormal
+eOEopF LQXvPE,39,Female,B+,Obesity,1989-01-03,nhbgbp vDW,100,111,2024-03-31,1,0,,UCevOKvFE CevOKvFEpoOCJkU,Medicare,23611.87372998599,174,Emergency,2051-10-03,Paracetamol,Abnormal
+SCIO SCIOrUrrLiCS,37,Male,AB-,Diabetes,2013-01-21,HEhWrYdAW WrYdAWTYr,104,98,2024-05-31,1,0,,pXbTMkIf XbTMkIfIbtBvvNq,Blue Cross,-1369.313079396912,496,,1995-11-09,Ibuprofen,Inconclusive
+EIAyBbvK BbvKcVYa,52,Female,B-,Diabetes,,qL WPtVdSM,87,108,,1,0,,TG TGNigyawtzHedOVZ,Cigna,2648.1516064349616,161,Emergency,2065-04-04,Paracetamol,Inconclusive
+ZKAkr y,40,Female,B+,nan,1997-12-04,gvEbdjrLfwbN fwbN,99,100,2024-01-31,1,0,,MbDKcOjPrAegHl fu,Medicare,17097.66740483533,246,Elective,2078-08-05,Lipitor,Normal
+macqexMlGZ cqexMlGZFZ,68,Male,O-,Diabetes,,EAMFMJ FMJDezvJt,99,99,,1,0,,rWUcmn WUcmnJQEfzmWizw,UnitedHealthcare,21144.81904629607,179,Emergency,2015-07-07,Ibuprofen,Inconclusive
+miNCysrnQi Qici,78,Female,O+,Cancer,,kyuaTgZzonAD ,74,95,2024-01-31,1,0,,cQxxSTYLdn STYLdnVhYsmi,Blue Cross,33396.39504431003,120,Emergency,2040-08-08,Penicillin,Normal
+sOQx zd,24,Male,B-,Cancer,2029-02-20,xnos WkG,88,106,2024-01-31,1,0,, uFSdPMlenUPLyKaS,Blue Cross,11770.545826142436,172,Emergency,2061-09-10,Aspirin,Inconclusive
+xdkbaiVxJPwb iVxJPwb,55,Male,B-,Diabetes,,jlYuMp pnTih,90,134,2024-01-31,1,0,,SaCFdImsWZSrX SaCFdImsWZSrXwqp,Medicare,11545.529320330867,243,Elective,2059-06-05,Lipitor,Abnormal
+mrmLsQnSOA VX,54,Female,A-,Asthma,,jGsylgEx ExlOoK,91,107,2024-05-31,1,0,,iAwSwSKu XnjFfpv,Medicare,30557.28773947636,104,Emergency,1958-05-08,Lipitor,Inconclusive
+ HIKmtqMKH,49,Female,O+,Cancer,2032-01-06,ZuFbtqrQT btqrQTOxp,102,115,,1,0,,JYaTLzRdzNzfs RdzNzfsVLM,Cigna,48315.64763810397,239,Emergency,1992-08-09,Lipitor,Inconclusive
+s xUhqaZsJjkj,78,Male,AB-,Hypertension,2071-07-05,JDphD DHHlERub,103,110,2024-01-31,1,0,,fOFN anFnZZkBoHp,Blue Cross,31037.633125411467,339,Emergency,2047-07-07,Paracetamol,Normal
+wPDuenLEu I,22,Female,B+,Arthritis,,HKpXIgKxaM XIgKxaMlw,93,90,,1,0,,hWWCL dzbEbY,Medicare,28201.377586105922,394,Emergency,1949-08-07,Penicillin,Abnormal
+bfBuvOlu fBuvOlueDtY,62,Female,AB+,Hypertension,1974-03-09,rPagJR vMOiR,114,104,,1,0,,dUuhZyGNHdMcj HdMcjdCp,Medicare,6952.739931855353,468,Emergency,2004-07-07,Aspirin,Abnormal
+PcZuPxA ZuPxAfTNKa,48,Female,A-,Diabetes,2070-01-27,jnNnt OhiLUbO,94,101,2024-01-31,1,0,,C jBQ,Medicare,23895.56989231835,425,Elective,2022-03-03,Aspirin,Inconclusive
+wJsugjnc wJsugjncUvKx,74,Female,A-,Cancer,2102-01-14,Uq UqUiSePZlvrh,85,90,,1,0,,KmFusx hldletO,UnitedHealthcare,45889.31698579098,482,Elective,2069-07-08,Ibuprofen,Abnormal
+MaZKtjO aZKtjOSpVye,73,Female,AB-,Arthritis,2100-01-08,CqxYVS LIkp,83,109,,1,0,,OpWkdefnlWZaXObk defnlWZaXObk,Medicare,9854.200529619762,331,Urgent,2026-05-06,Paracetamol,Normal
+nYVIdbQgJV mK,19,Female,AB-,Diabetes,1987-01-31,VJ ycUqF,85,87,,1,0,,vXAH mWKVGn,Blue Cross,2683.7947757120764,116,Emergency,2015-09-08,Ibuprofen,Abnormal
+QouZIUyv vTnzn,43,Female,O+,Diabetes,2174-11-14,HhOc OecY,93,107,,1,0,,oBzftUHge Xnr,Cigna,2984.6179618822607,374,,2070-09-07,Aspirin,Inconclusive
+S ,64,Male,B+,Diabetes,1984-01-19,psN psNpEXiiSnql,95,133,2024-03-31,1,0,,LPyzDTuUJ VKK,Medicare,18782.199084302938,446,Elective,2032-05-06,Lipitor,
+bfkToL fkToLwhLVDQ,36,Female,AB+,Asthma,,ADhRZy RZykPazRL,91,103,,1,0,,AKgXeDTlIYoDNSbK KgXeDTlIYoDNSbK,Blue Cross,31855.097569276953,113,Emergency,2012-06-08,Aspirin,
+kdOSn kdOSnHYrIyAQ,54,Female,B+,Cancer,2035-03-05, tfRakwfRHbr,103,100,,1,0,,ZBEo oUBINAgetqGka,Blue Cross,45091.089039193976,133,Emergency,2059-09-06,Paracetamol,Abnormal
+T haO,48,nan,AB-,Diabetes,1918-01-26,kCMjBlW JA,95,111,2024-01-31,1,0,,zkbx pbleE,Cigna,23804.628488929888,237,Emergency,1986-04-10,Paracetamol,Normal
+KkyyvJIOex qC,53,Male,A-,Arthritis,2043-08-01,nWsMtljAIbtm btm,76,91,2024-03-31,1,0,, ,UnitedHealthcare,9127.994564262235,413,Elective,1995-04-07,Lipitor,Inconclusive
+fyltUqGNYA tUqGNYAfQ,41,Male,AB-,Asthma,2034-01-14,sbqpQPZZcK ,93,99,2024-01-31,1,0,, PkmYNPccJH,UnitedHealthcare,17619.541664551976,152,Elective,1979-09-06,Ibuprofen,Abnormal
+ ByLsqyutVUcM,60,Male,AB+,Diabetes,2012-01-24,eUmqc UmqczmbsySe,96,124,,1,0,,dgBhgru gBhgrurdrCISRkC,Blue Cross,13735.106841412215,426,Elective,1984-06-04,Lipitor,Inconclusive
+wZzLpkJbWRPr pkJbWRPr,74,Female,AB+,Cancer,1996-01-20, QxtqCamC,111,99,,1,0,,kRg IYYRkiumUo,Medicare,19721.77558441925,431,Emergency,1991-10-04,Aspirin,Abnormal
+G L,60,Female,AB+,Cancer,1964-07-15,gXkH hm,105,128,,1,0,,WFiIbuZu N,Cigna,30992.935871627986,124,,1933-05-09,Penicillin,Inconclusive
+QeWdq eWdqephxzrk,36,Male,AB-,Cancer,2077-01-30,TzYhiQ AUeFRw,83,105,,1,0,,FN RRSGj,Cigna,2402.0342520556433,312,Elective,2060-05-06,Penicillin,Inconclusive
+gBEWjcy b,61,Male,B+,Diabetes,,ekKuu XSNJlTF,104,103,2024-03-31,1,0,,forIgLsp ,UnitedHealthcare,34783.73667817922,112,Emergency,2046-11-08,Ibuprofen,Abnormal
+rEmxISoTAnf xISoTAnfV,70,Female,O+,Cancer,2023-01-11,JK tGdbN,96,113,,1,0,, vRpFVTxVeboVk,Cigna,34683.59706089161,277,Emergency,2017-07-02,Lipitor,Inconclusive
+NfyVhyl lEqqai,76,Female,AB+,Diabetes,2097-01-27,pC gFVxMohRp,107,112,,1,0,,sqMkxfLHrTwwf HrTwwfGvF,Medicare,2415.567963286786,246,,2064-06-07,Lipitor,Abnormal
+AQ bPCke,68,Female,AB-,Cancer,,uTtSWJivD uTtSWJivDEaP,94,111,,1,0,,iZpbH reyQaVBwEGc,Blue Cross,13632.51614068759,337,Urgent,2048-09-05,Aspirin,Inconclusive
+J ldLfuq,82,Female,B-,Diabetes,2022-01-09,TSkXXIJofqkf ,95,101,2024-01-31,1,0,,VfyAv SGeu,UnitedHealthcare,29045.62950700658,486,Emergency,2015-06-04,Paracetamol,Abnormal
+Q omHwPtyh,36,Female,O+,Arthritis,2013-01-28,OLerEFTYSg SgFq,101,115,,1,0,,Ghsbzrr GhsbzrrCOKuUXwDm,Blue Cross,31878.07150255774,381,Elective,2025-09-05,Ibuprofen,
+KMPtZ jVwK,37,Female,AB+,Arthritis,1991-01-12,sCBD RfiRjY,93,112,,1,0,,gVoJmrGosIJUiyVJ mrGosIJUiyVJ,Medicare,45283.80683041361,208,Elective,2059-10-06,Lipitor,
+yvlfN ,27,Female,O+,Diabetes,,NUGKV KVpOxxLaS,100,93,2024-03-31,1,0,,gTkClHKTOCqQ ClHKTOCqQdjvn,Blue Cross,15805.893594336208,496,Elective,1929-09-11,Aspirin,Inconclusive
+g Qq,65,Female,AB+,Diabetes,,ClBppZRJXveW BppZRJXveW,96,113,,1,0,,NkltOAgwENTnhbv NkltOAgwENTnhbvZ,Aetna,43269.83881610076,458,Emergency,2013-09-08,Paracetamol,Normal
+pFNJEGnBIdpd ,36,Female,O-,Hypertension,,suyRQvTeGy RQvTeGyoF,97,112,2024-05-31,1,0,,eifmquNHW CLI,Blue Cross,42320.66173081331,288,Elective,1987-07-06,Lipitor,Inconclusive
+aRp CxNt,77,Female,AB+,Arthritis,2056-04-16,SeJeXmxeqBo qBox,94,99,,1,0,,NcyFiWILtuegAel NcyFiWILtuegAela,Medicare,33991.57444563872,238,Emergency,2037-03-07,Paracetamol,Abnormal
+JXXOp JXXOpcQaelDc,59,Female,A+,Diabetes,2049-05-12,EmjbOZ uq,82,83,2024-01-31,1,0,,afKEdROmsp dROmspWclBBo,Medicare,16117.43129086775,440,Elective,2082-10-05,Penicillin,Inconclusive
+SkjvWog ogQSepg,25,Female,O+,Diabetes,2004-01-06,oPwEi oPwEivGjdezU,106,92,2024-03-31,1,0,,FZNWL BWdycUESgvK,Cigna,34324.30971399984,355,Urgent,2021-04-06,,Abnormal
+uXqwYKC ,25,Male,AB-,Hypertension,,wV lSZKAy,102,98,,1,0,,mWCOwQRw BdZ,Blue Cross,26928.23246695404,478,Emergency,2032-09-09,Aspirin,Inconclusive
+NHPNQf kgxr,50,Female,B-,Diabetes,1990-01-13,e gJWXbBsSNMD,135,119,,1,0,,eCYH H,Cigna,36857.23355269627,492,,2001-05-04,Ibuprofen,Abnormal
+VPYHtvoK LzGK,68,Male,B+,Asthma,,OLjvBKVt OLjvBKVtdLvU,115,120,,1,0,,xtmAS IHTKbASq,Blue Cross,2623.1708129699728,243,Elective,2074-06-07,Ibuprofen,Normal
+FXLstIusB usBLfW,82,Female,B-,Diabetes,,nCKnKZxmst ,101,115,,1,0,,jhWwxaTsk aTskjSPzrIW,Cigna,24206.25308226978,468,Elective,1972-07-07,Penicillin,Inconclusive
+ecgf g,56,Male,B+,Hypertension,, DnydTD,92,111,2024-05-31,1,0,,adRAnCKPrKFbpME FbpMEv,Blue Cross,17670.971024912218,425,Emergency,2023-07-05,Paracetamol,Abnormal
+sxm PouuhpBhL,35,nan,B+,Cancer,,aTOAxNZ ZInYcA,80,106,,1,0,,w AuXwZv,Medicare,38161.889491423324,221,Urgent,2008-08-08,Penicillin,Abnormal
+IwlzLexweaJF xweaJF,14,Female,O-,Hypertension,1981-01-05,MCooddSo ogULo,95,103,2024-01-31,1,0,,RDdlL DdlLBzAeqhUbfPP,Aetna,11721.873572668926,411,Urgent,2021-06-07,Aspirin,Inconclusive
+StvUE FNjkn,73,Male,AB+,Diabetes,2036-01-08,Nio ioHDkyimxIR,77,98,,1,0,,CTIGEuNJCKo CKoyoNHd,,41925.148368184804,337,Emergency,2035-07-05,,Normal
+iNQ iNQSiUcZVztw,71,Male,O+,Obesity,2022-01-09,lKgIPIlOYWLf Lf,87,116,,1,0,,lITEtIwMBDPqXpzF DPqXpzF,Medicare,32396.933421945392,305,Emergency,2039-08-06,Paracetamol,Abnormal
+ ,38,Female,AB+,Diabetes,,KiWH Y,93,85,,1,0,,wRDWbJk kKXVATkFhd,Medicare,1072.0488257887728,150,Urgent,2012-08-10,,Abnormal
+PEGabShPtukR ukR,34,Male,B+,Asthma,,xh eLMRfCXB,104,92,,1,0,,eIZuJe cRnYjEEkfU,Cigna,7994.374336129338,460,Urgent,1967-03-06,Paracetamol,Inconclusive
+ Navl,18,Male,B+,Cancer,2064-01-26,mxEm ZJqLrP,110,110,,1,0,,MrAKY SUvifk,,26944.64975903412,328,Emergency,2066-09-08,Lipitor,
+JRQApw QApwaxekbQ,75,Female,B+,Diabetes,,sVQGXY GXYjympSi,119,100,,1,0,,TnJNFEWvVNH DZY,Cigna,42367.76347199004,314,Urgent,2044-07-06,Paracetamol,Inconclusive
+nVYmFpPrYH Haj,65,Female,AB+,Obesity,2012-01-10,dgIcyMx zRDy,95,98,,1,0,,ylVmEKiMhdbAHuJ HuJQ,Medicare,39506.425611179715,178,,1960-05-08,Paracetamol,
+XKPqFvqqHG e,54,Female,AB-,nan,,cHblDhw blDhwJECvH,98,104,,1,0,,ivwJm jYGlX,Blue Cross,29713.760895541294,295,Elective,1979-10-08,Aspirin,Abnormal
+SHMzIc HMzIchHkBow,56,Female,AB+,Hypertension,2014-01-02,ckXgdcOx cOxuzQa,93,118,,1,0,,EmjTnmatZrujczW y,Blue Cross,30736.068925340904,427,Elective,2067-08-07,Paracetamol,Abnormal
+ sqxLxrIXBjC,41,Male,AB-,Diabetes,2019-01-27,iwCpVPFW FOE,122,102,,1,0,,SXdMZELQ ELQqpbaWAsX,Cigna,52365.287811090806,106,Emergency,2008-05-05,Aspirin,Abnormal
+jIxcUqFo UqFoESeI,79,Female,AB+,Arthritis,2006-01-09,VAqbnJuMd qbnJuMdHPe,75,120,2024-03-31,1,0,,ExUotoRRctIfrgZ xUotoRRctIfrgZL,Blue Cross,38204.076052261604,266,Elective,2010-04-08,Paracetamol,Abnormal
+sFOQ OQecCEkuCa,24,Female,AB-,Diabetes,, xnPOLcokq,108,113,,1,0,,HandNQcK L,Medicare,41592.55514119283,442,,2020-04-10,Paracetamol,Inconclusive
+ox oxbGbothVnsj,46,Female,B-,,,dSmDab dSmDabXjwTdW,114,106,,1,0,,fPWcx Z,,31815.857830510668,406,Urgent,2084-03-07,Lipitor,Abnormal
+fCutKIKv RWKC,39,Female,O-,Asthma,1983-04-14,aVSlyEk yEkiSfRV,91,104,,1,0,,HtiZc FCqTQP,Cigna,827.4581533583814,433,Elective,1923-08-07,Ibuprofen,Inconclusive
+bTkOEac kOEacAfHmr,70,nan,AB+,Hypertension,2039-01-12,O WHvdeJQdyy,91,103,,1,0,,afksc scCFHGKXOGPkj,Medicare,37790.83773033692,204,Elective,2013-06-04,Paracetamol,
+FATWRTiPpqhM TWRTiPpqhM,49,Female,B-,Arthritis,2020-01-09,syvilQGgKlrv GgKlrv,103,112,,1,0,, JhsLFNbyD,Aetna,-1484.5259568174956,141,Emergency,2018-04-08,Ibuprofen,Inconclusive
+wHK AMjoMWTP,41,Female,B+,Asthma,2011-02-14, W,86,90,,1,0,,mDR GGossEmeAH,Blue Cross,35004.34566175635,128,Elective,1990-11-07,Penicillin,Abnormal
+DvJwGdsG vJwGdsGdNVV,59,Male,AB-,Arthritis,2037-01-11,yy yjmOKcBFuLi,124,98,,1,0,, X,Medicare,39148.29290609546,124,Emergency,2153-06-05,Ibuprofen,Abnormal
+rgX sxoIwPbJu,46,Female,O+,Cancer,, FVNwcJqWYjh,106,101,2024-01-31,1,0,,CBYbQaoWVToKHYc oWVToKHYcl,Aetna,17036.729165455916,469,Emergency,2024-08-06,Ibuprofen,Normal
+U KsV,81,Female,AB+,Asthma,2072-01-16,mw EQNgim,87,111,2024-01-31,1,0,,hpvxIZySGWRzPL Y,Blue Cross,5802.72056255701,325,Emergency,2045-10-08,Paracetamol,Abnormal
+RyPsrGFgd FgdNGW,48,nan,AB-,Asthma,,EnLU DSOfl,105,97,,1,0,,mkoYKBin mkoYKBingmjswttG,UnitedHealthcare,5831.080400833422,130,Emergency,2011-09-06,Paracetamol,Normal
+CfFEJfF fFEJfFINvcP,73,Female,B+,,,EOxlds CQg,109,94,,1,0,,wPC ,Blue Cross,33120.28845176584,171,Urgent,1976-03-08,Paracetamol,Abnormal
+ IrlMQ,30,Female,AB+,Hypertension,2099-01-15,IdU czc,86,114,,1,0,,wheNeR qyn,Blue Cross,16621.675771427574,434,Elective,2044-07-05,Ibuprofen,
+V NQikBDBwZED,59,Male,B+,Hypertension,2069-01-04,rMUeg LmH,104,111,,1,0,,EZiOs ,Aetna,34366.135255425106,345,Emergency,1985-08-07,Aspirin,Inconclusive
+ rLignDpzbxoh,41,Male,AB-,Diabetes,2018-01-08,NeVMraN pRz,77,89,,1,0,,sYsNKaAmlC NKaAmlCqiqwoB,Blue Cross,53652.03365372286,212,,2049-08-06,Ibuprofen,Inconclusive
+bMbJB bJBZfsaNtt,60,Female,O+,Obesity,2046-01-17,GKxRYNSW GKxRYNSWkjKi,108,105,2024-03-31,1,0,,HnvBrWIMJM AXGOz,Cigna,47766.127489519975,135,Elective,2072-06-06,Ibuprofen,Inconclusive
+BwIrTRJJHt HthV,26,Female,A-,Diabetes,2020-01-15,qWDieKZKdhgi dhgi,106,116,,1,0,,oFDhPscsTqJzAdj DhPscsTqJzAdjO,Aetna,41982.632788087416,327,Emergency,1992-09-10,Ibuprofen,Abnormal
+EfDZBSSW PTPG,56,Male,AB-,Hypertension,1983-01-20,pWOowFPL FPLWhdP,88,97,,1,0,, ,Medicare,37802.13771063091,215,Elective,2007-06-07,Ibuprofen,Inconclusive
+dR xwnAk,34,Female,A+,Obesity,2023-01-30,dSUDiWqdFo SUDiWqdFocN,92,112,2024-01-31,1,0,,js E,Blue Cross,32829.22455298032,404,Emergency,1962-06-08,Penicillin,Inconclusive
+wZZUljg ZZUljgelIry,63,Male,AB-,Arthritis,2013-01-24,WLZs ZoVen,103,90,2024-03-31,1,0,,GImKBr Mv,Aetna,16019.372580534124,437,,2034-07-06,Aspirin,Abnormal
+HRdUz dUzHaNtlBJ,36,Female,AB+,Diabetes,1971-01-19,NvDmQWuwbn NvDmQWuwbnvR,93,104,,1,0,,VYeUwsLsABqc wsLsABqcnfVc,Aetna,45744.3209867862,192,Urgent,1978-05-08,Lipitor,Inconclusive
+gLMEqVii LMEqViiZpCb,24,Male,AB-,Diabetes,,yo ,98,115,2024-03-31,1,0,,fk Nh,Blue Cross,33135.62975743291,478,Emergency,2057-08-06,Lipitor,Abnormal
+QBGDzCnnqTc qTcC,21,Male,,Diabetes,,LfJrh LfJrhyhSmCfY,86,98,2024-01-31,1,0,,kalb bYIUJhyE,Cigna,39989.83768398888,188,Emergency,2068-07-08,Paracetamol,Inconclusive
+IgfNv IgfNvJhkcgzX,43,Female,B-,Arthritis,2065-01-02,fsstpPVSHLIQ SHLIQ,100,92,2024-03-31,1,0,,d W,,20752.25933907726,209,Elective,2050-07-05,Penicillin,Abnormal
+GewM ekaR,58,Male,AB-,Cancer,,pEqXQX m,87,112,,1,0,,uqaHhdakXf Ywm,Medicare,32470.32329802809,366,Emergency,2021-06-11,Lipitor,Abnormal
+HhHdcLACbLfC fC,58,Female,B+,Asthma,2052-03-27,eoN DVAxNJX,110,100,,1,0,,xMZemMBbfvvhKXr vvhKXrO,,37634.99351991236,288,Emergency,2100-08-03,Ibuprofen,Abnormal
+UBmoFtxkGUJU oFtxkGUJU,26,Female,B-,Diabetes,,myATnDG a,97,111,2024-01-31,1,0,,aV vZXWdeQeFAwfWv,Aetna,11220.762267337393,242,Elective,2035-05-09,Ibuprofen,Inconclusive
+ZLDniR PjlZH,76,Female,B-,Diabetes,1963-01-13,VirDZ qkg,75,111,,1,0,,VOMvGBondnCAjoaA ndnCAjoaA,Aetna,12645.957871063656,156,Elective,1938-10-08,Lipitor,Inconclusive
+Cv qyJirPxE,38,,B+,Diabetes,2052-01-09,HVm ,89,106,2024-05-31,1,0,,llQPNiYuHiOy OycBjO,Aetna,29012.89400115226,384,Emergency,1960-08-08,Aspirin,Inconclusive
+rK GewCm,59,Female,A-,Cancer,, iHlyd,98,95,2024-01-31,1,0,,aHhrFFZZbPkl HhrFFZZbPklPfFx,Cigna,36723.37654004569,249,Elective,2006-06-06,Lipitor,Abnormal
+H mLTnpqQG,41,Male,AB-,Hypertension,2051-01-29,AjS jSUomIFOteT,106,101,2024-01-31,1,0,,xtlzjsIbhBHlpUzQ Q,UnitedHealthcare,23910.79216238639,364,Urgent,2039-12-07,Penicillin,Inconclusive
+qqMdSTHRwEP THRwEPR,52,Female,AB-,Diabetes,2008-01-19,Wo qgzLMeOn,91,107,2024-03-31,1,0,,kvfYxqvPcLGtYiHB GtYiHB,Blue Cross,6172.324053829592,219,Emergency,2026-05-07,Ibuprofen,Inconclusive
+bOLglyy eEBQs,61,Male,AB+,Asthma,,PwiBfhNuMKD y,91,111,,1,0,,QLBwE EItFTyTjoTNK,Aetna,24765.987568346296,322,Elective,2008-10-08,Paracetamol,Inconclusive
+Qmxvg gsfMeIoD,46,Female,AB+,Asthma,2007-01-28,TZFu gYYOQ,98,94,,1,0,,zxQSBkbAURBkcS AURBkcSkM,Cigna,42761.866968428585,179,,1968-07-10,Ibuprofen,Inconclusive
+OXlibG XlibGfRLKZN,85,Female,B-,Cancer,2036-01-14,Xyp FDnFwlC,96,113,,1,0,,DCaftUwE JuPF,Cigna,34504.47596242305,261,Urgent,2068-08-05,Paracetamol,Abnormal
+uBlUVpCbJBE uBlUVpCbJBEK,33,Female,AB+,Obesity,1921-01-27,pANIYBsQpOA IYBsQpOAN,109,95,,1,0,,HUkpAnUE HUkpAnUEVYMjnEnx,Aetna,39951.60261303904,495,Elective,1911-08-08,Penicillin,Abnormal
+hPeGPkzY xQi,48,Female,AB-,Diabetes,2003-06-21,xfrBTzX TzXaKkts,88,119,2024-05-31,1,0,,AHWdCw AHWdCwKHkjSfXcnp,Blue Cross,17018.49598810661,497,Urgent,2021-06-05,Aspirin,Inconclusive
+WP nqUcATCBaF,66,Female,AB+,Hypertension,,TdWO Ild,108,98,,1,0,,IT xuHzWmKPbR,Aetna,34101.50309779642,292,Urgent,2075-07-05,Ibuprofen,Abnormal
+EMVhdaLCDH VhdaLCDHxc,77,Male,AB-,Cancer,,LM Ryex,102,110,2024-01-31,1,0,,bumSazogoTlLAZMm AZMm,Cigna,8660.663486402029,436,Urgent,2023-03-09,Lipitor,Normal
+o igVJuMqUbjG,77,Female,AB-,Diabetes,1983-01-30,TFgN Qzdgzyw,96,94,2024-03-31,1,0,,OeVSReStNV ,Cigna,30186.59730033943,298,Emergency,2000-08-07,Lipitor,Inconclusive
+rBlDZ ZKkhjkOb,45,Male,AB-,nan,2017-01-23,byHQFhthOwfJ byHQFhthOwfJ,98,132,2024-01-31,1,0,,yYS YteNFNXEjm,Cigna,8624.906257155606,487,Elective,2026-07-04,Paracetamol,Inconclusive
+oLQ oNnqmx,56,Male,B+,Arthritis,1995-01-21,DsDXLAAT DXLAATkwGN,87,104,,1,0,,cQIJbOb bOblscpPWUCK,Blue Cross,37936.819650120204,118,,2042-09-04,Aspirin,
+KIm igAi,56,Female,B+,Cancer,2020-01-23,RzcWYbkPYx PYxht,113,96,2024-01-31,1,0,,wkVBRHooycLsOi wkVBRHooycLsOiTO,Blue Cross,47408.54249744721,344,Elective,1984-08-06,Ibuprofen,Inconclusive
+DqiUwiioxx wiioxxYV,78,Female,AB+,Obesity,2011-01-13,wliFDaCMhT aCMhTJH,88,91,,1,0,,ULlTgn lTgnMUOiBtEDMC,Blue Cross,12229.181282422369,153,,2039-08-05,Paracetamol,Inconclusive
+ lveHZzJYqIda,77,Female,AB-,Diabetes,1983-01-18,nk ,103,100,2024-01-31,1,0,,FcvBs OKFvOagvtN,Cigna,23749.265793875005,156,Emergency,1997-09-06,Lipitor,Abnormal
+WRtdtXKPnLBu dtXKPnLBu,34,Male,AB-,Cancer,,rPqdNqUGiUQh rPqdNqUGiUQh,104,126,2024-01-31,1,0,,LkkZNiEtmjcj jcjdAaR,Medicare,30097.97829350134,410,Elective,2092-10-03,Penicillin,Inconclusive
+ JlJfoOetB,70,Female,B-,Cancer,2000-01-29,XsCdkFKoolc cA,102,110,2024-01-31,1,0,,iP BwWluLXDqBoM,Blue Cross,17313.60707551268,184,Emergency,2011-07-06,,Inconclusive
+bIhycm midYHCy,78,Female,,Obesity,2010-01-11,CJAoHo EUpS,96,98,2024-01-31,1,0,,MhwSYvQPTDgTg PTDgTgArB,Cigna,34576.7202155446,422,Elective,1979-06-05,Aspirin,Normal
+Yf fxLfomwAnKt,49,Male,,Diabetes,1993-01-22,vOCCvRkGLug X,89,96,2024-03-31,1,0,,OTEJuJyxKslVAf VAfkG,Blue Cross,48715.45697632518,359,Urgent,2031-07-09,Ibuprofen,Abnormal
+OJ IVfzsDpo,51,Male,A-,Cancer,2062-07-24,too oocZVjIuuui,85,94,,1,0,,ZYTOCXGDalPLlD ,Blue Cross,29114.28515982345,358,Emergency,2116-05-07,Aspirin,
+ i,43,Male,B+,nan,2094-01-20,LwQZhLGUwA QZhLGUwAdd,97,98,2024-01-31,1,0,,dvsGrNte rNteDvfOJgqI,Cigna,37588.38558402991,359,Emergency,2091-08-07,Aspirin,Abnormal
+PIdzUTfoyfEH oyfEH,48,Female,AB+,Hypertension,2089-01-01,hHcM XIy,96,129,2024-05-31,1,0,,pyiichCRua txWvo,Cigna,27065.330928307205,345,Elective,2042-05-07,Ibuprofen,
+LbUeVfTXjazC azC,63,Female,AB-,Hypertension,2064-01-20,BbkI ,93,100,,1,0,,jhlh qypPteJY,UnitedHealthcare,39309.247670425495,272,Elective,2065-07-09,Aspirin,Normal
+kmV zIaTtDo,54,Female,AB+,Obesity,,aWHORq WHORqeBtTom,90,111,2024-01-31,1,0,,iV HhwEjQ,Cigna,41048.46706900181,102,Emergency,2019-05-08,Lipitor,Inconclusive
+kdGN NcHPhsg,28,Female,O-,Obesity,,pKNHGzBS HGzBSzrvL,84,103,,1,0,,mOhgESpCwX zV,,40259.15793186589,253,Elective,1949-07-07,Lipitor,Inconclusive
+ mQeIZPsij,39,Female,A-,Diabetes,,AALT nTMokpHU,107,106,,1,0,, RHOkyt,Aetna,34706.57552668122,458,Elective,2015-06-02,Aspirin,Normal
+wMwBPN wMwBPNDmJtCF,60,Female,AB+,Diabetes,2001-01-17,UStbsu uuPeHZq,106,83,,1,0,,xgYQntrYgNTasHCd d,Blue Cross,5504.557677737451,188,Elective,2037-06-02,Lipitor,Inconclusive
+FHGf AWsJRFF,49,Male,O-,Hypertension,2042-01-01,wxyv snIe,112,113,2024-03-31,1,0,,bZwVvmjZApvDA bZwVvmjZApvDAYaJ,Cigna,5491.705392596726,410,Elective,2101-09-04,Aspirin,Normal
+FLIjTeb jTebKfUJB,55,Female,B+,Asthma,,mhvmY mhvmYZDBekBf,91,114,,1,0,,YB Tfwujq,Medicare,10499.188662052928,440,Emergency,1983-07-08,,Normal
+ChrJRsz Puy,58,Male,B-,Asthma,1943-01-09,NUoWwmU vcAY,99,106,2024-05-31,1,0,, HbAnIqiJpHbgQnbl,Medicare,22248.210785594732,113,Emergency,1965-07-08,Ibuprofen,Abnormal
+RNtbyXoTkrD M,52,Male,B-,Cancer,1959-01-05,gJFKLXjj LXjjnlkr,82,108,,1,0,,KVbQxBbVBhPqX jJ,UnitedHealthcare,13478.052133767898,499,Emergency,1972-08-06,Ibuprofen,Normal
+X eMIM,53,Female,O+,Obesity,2032-09-16,Rus C,91,105,2024-01-31,1,0,,bxdHwtuDuhvbKD bKDfy,UnitedHealthcare,38812.63667739615,432,Urgent,2028-08-04,Ibuprofen,
+ZcTqVVDGvH ,84,Female,AB+,Cancer,2060-02-14,sg tsspiIW,93,103,,1,0,,sa UC,Cigna,13762.850702117443,239,Emergency,2111-06-06,,Inconclusive
+EoYrQJLh KMl,20,Female,AB+,Cancer,2099-01-01,eSqJd qJduOpgZCL,102,89,2024-05-31,1,0,,MsCydznHlo icItL,Medicare,22849.702991685874,271,Emergency,2083-09-08,Penicillin,Abnormal
+ ,61,Male,AB+,Cancer,2072-02-05,MzUcgxZzlk Zzlkzt,90,100,,1,0,,QCPrDTGiu DTGiuWjFbHtP,Medicare,25659.032185596618,487,Emergency,2013-10-08,Lipitor,Inconclusive
+ukbmBXuyaHLh Lh,76,Female,B+,Diabetes,1985-01-24,lAsWZ AsWZqNmDKdS,116,115,2024-01-31,1,0,,VyeNUyo TAAiQB,Blue Cross,22136.22286374192,445,Elective,2030-07-05,Paracetamol,Inconclusive
+GjZD DDgpBDDyC,33,Female,B-,Asthma,,Izi hLEnQUfiR,95,128,,1,0,,tTbXONnsbl sblYvuFfL,Cigna,27693.680343796903,143,Elective,2038-09-08,Ibuprofen,Abnormal
+ma VMi,18,Female,B-,Cancer,2065-01-06, sc,95,112,2024-01-31,1,0,,nXuROPNhiY whEhX,Cigna,29304.916627739924,289,Elective,2098-10-06,Lipitor,Abnormal
+NVwof JRs,60,Female,B+,Cancer,2053-01-10,QVvKzClFDR VvKzClFDRqg,93,118,2024-03-31,1,0,,NIhn OPfL,Blue Cross,13548.844255835436,169,Emergency,2035-08-04,Ibuprofen,Normal
+kpBEdMa anDhQo,38,Male,AB-,Diabetes,2028-01-25,eDNnujUs UsDqPc,106,90,2024-01-31,1,0,,kwWLLMke wWLLMkezUowklJw,Blue Cross,33128.01145926493,262,Urgent,2000-06-09,Lipitor,Abnormal
+ UzhKnhKt,79,Male,AB-,Hypertension,,wOPbw wCJQOAXe,110,98,,1,0,, UzTwOGGsiJFc,UnitedHealthcare,13375.465619670487,232,Emergency,2044-10-08,Ibuprofen,Abnormal
+FCSrSHYaF aFYEx,45,Female,AB+,Asthma,,g qEvciALX,90,108,2024-03-31,1,0,,bRkKTQnNqubNFnA NqubNFnAs,Medicare,40200.38838811814,154,Elective,2006-07-08,Aspirin,Abnormal
+mQqoqf Tu,53,Male,B+,Asthma,2011-05-12,gkj gPk,98,108,2024-01-31,1,0,, MBLGAP,Medicare,43788.662042895885,394,Urgent,1967-08-09,Aspirin,
+ IVDMH,71,Female,B+,Asthma,2056-05-24,Tv xXQfOE,88,93,2024-01-31,1,0,,lgRiNDU iNDUQvCIWTjrt,Cigna,30195.42568327654,464,Elective,2087-05-05,Lipitor,Abnormal
+qjy yxOLvskrOs,23,Female,AB+,Obesity,2057-04-30,sFIhFWDtjl lAc,92,100,,1,0,,Re WDDoGTaRE,,12745.568579431527,410,Emergency,2021-08-10,Lipitor,Abnormal
+iaHtVf HtVfvrbKaF,43,Female,O+,Diabetes,2024-08-14,avsVG BoK,88,98,2024-01-31,1,0,,i LiXmNuGvLYIA,Medicare,7461.666487489427,354,Emergency,2026-11-08,Paracetamol,Abnormal
+vheRMbzKdRCG eRMbzKdRCG,74,Male,B+,Arthritis,2066-01-23,vXobULla ULlaHQzT,90,95,2024-01-31,1,0,,FSjsItdJgJFb FbNbmF,UnitedHealthcare,29057.13409042829,164,Elective,2124-08-02,Paracetamol,Abnormal
+TsZ ,34,Female,B-,Cancer,2009-01-03, xWoeKUizme,89,110,2024-03-31,1,0,,ileXYS XYSyHKEjccnmY,Blue Cross,8192.857469740617,170,Elective,2029-08-06,Lipitor,Inconclusive
+vSsgEeSJ SsgEeSJwoel,57,Male,B-,Asthma,2089-01-05,H mG,95,102,2024-03-31,1,0,, spF,Medicare,8381.055961376886,346,Urgent,2036-05-06,Paracetamol,Normal
+ FZQd,70,Male,AB-,Arthritis,1929-01-31,Xyyo ,100,102,,1,0,,OkgSiWqIdxgdg kgSiWqIdxgdgzxX,Cigna,9991.465274861506,171,Elective,1927-06-09,Lipitor,Abnormal
+inkDSz kDSzPbZRSi,43,Male,B+,Diabetes,2005-01-05, QjCDfzfLMAq,108,106,,1,0,,OsRvn pYvIod,Blue Cross,21376.542106081048,379,Emergency,1967-07-08,Lipitor,Abnormal
+wqdXsOGK dXsOGKLUjV,19,Male,B+,Diabetes,2044-01-06,T ,100,103,,1,0,,uPKZBADjRx CqVsN,Aetna,24847.52882080566,298,Urgent,2009-07-08,Paracetamol,Normal
+Gcgm mxgNPwdhS,19,Female,AB+,Cancer,2052-01-21,PsX W,91,105,2024-01-31,1,0,,SMlisGM SMlisGMWaovocKLr,Blue Cross,46374.656540823096,402,Emergency,2051-03-04,Paracetamol,Inconclusive
+oD o,76,Female,A-,Cancer,1948-01-20,My ddKui,90,90,,1,0,,v UiLehVFKKtWstYH,Medicare,12349.495445163107,385,Emergency,1989-08-09,,Inconclusive
+XyzdttKDVl ,39,Male,B+,Cancer,2096-01-11,xxF HNhNaPbg,99,101,2024-03-31,1,0,,sKqXRfs KqXRfsRVmtxnMMS,Cigna,12245.29282122822,346,Emergency,,Ibuprofen,Inconclusive
+lqTibKbJKF bKbJKFzs,63,Male,AB+,Asthma,,YbsQqgdyajc gdyajcQ,75,111,2024-03-31,1,0,,hCLrutAuFMKpDw CLrutAuFMKpDwXD,Blue Cross,25834.841216448753,228,Emergency,2035-03-05,Penicillin,Normal
+xrPaxqbVQwAG VQwAG,39,Male,B-,Cancer,,voabxEWPjOJ jOJU,82,99,,1,0,,E IpNBh,Medicare,9246.746157013362,497,Emergency,2045-07-07,Penicillin,Abnormal
+FZDGZJ r,80,Male,B-,Diabetes,2066-01-05,equR uRbXRBzRYS,105,104,,1,0,,KgfjzizMx Xrz,Cigna,37318.487836869346,408,Emergency,2037-05-08,Aspirin,Abnormal
+khoXZ khoXZzZtnJbJ,58,nan,AB+,Hypertension,,khQon Gerd,91,85,,1,0,,B DhqPWU,Medicare,47092.48215107959,340,Emergency,1948-09-07,Ibuprofen,Normal
+ th,62,Female,B-,Cancer,2061-01-02,RCzQHnso zQHnsotLKe,82,110,,1,0,, QdPPtkj,Blue Cross,47784.35480417652,471,Emergency,1994-07-10,,
+ ejsvN,61,Female,AB-,Obesity,2030-01-05,aK YTpHUWH,103,111,2024-01-31,1,0,,SEUnw EUnwBBfRQOJlWtb,Aetna,13611.87853777332,452,Elective,2047-08-08,Penicillin,Normal
+bbGIslylCx IslylCxDQ,35,Female,AB+,Cancer,,Not towkyJkyWw,90,109,2024-03-31,1,0,,vhHJHHNFqzh HHNFqzhXJhpo,UnitedHealthcare,41628.42170500652,141,Elective,2006-06-09,Paracetamol,Inconclusive
+igeFoHVRWtKv igeFoHVRWtKv,77,nan,AB+,Asthma,, clCQdcKQE,104,108,2024-03-31,1,0,,x qWyyosoWMqAsv,Cigna,2546.3411486629857,175,,1999-07-08,Aspirin,Normal
+xN xNKtSeNPjpOb,62,Female,AB+,Diabetes,1956-07-11,AqkMkOUL AqkMkOULNLNe,91,108,,1,0,,sNITKEVQiGrnQ QUry,Cigna,47111.91234452644,388,,1962-06-08,Paracetamol,Normal
+BrWaAcHl cHlSlzS,41,Female,B+,Hypertension,,uTDDLBkJeJ uTDDLBkJeJYJ,105,105,,1,0,,IDyneRj qZ,Medicare,36884.18381112737,465,,2102-04-05,Lipitor,Normal
+ dAwHio,82,Male,AB+,Cancer,2068-01-11,OPSZSDrAp SZSDrApraV,112,71,2024-01-31,1,0,, DoQ,Aetna,33822.45296189582,377,Emergency,,Lipitor,Abnormal
+GFtRmJEcII M,52,Female,AB-,Hypertension,2037-05-22,G JfSYf,104,96,2024-01-31,1,0,,DUFSxybRWdbCl lkwO,Blue Cross,2192.5320999750384,258,Emergency,2017-05-07,Penicillin,Inconclusive
+NPjLBtamci amcihk,21,Female,A-,nan,,dIThdPqWANE NEA,106,112,,1,0,,MniXVunIYbpRFtbF iXVunIYbpRFtbF,Blue Cross,41831.997534466005,439,Emergency,2055-09-09,Aspirin,Inconclusive
+BpjLhfwFKuqc pjLhfwFKuqc,40,Male,AB+,Asthma,2071-02-19,HwKcuZlk cuZlkyNMu,128,114,2024-05-31,1,0,,rBFaoQxMiRXGtmh GtmhZ,Cigna,35510.45219214543,197,Emergency,2042-02-08,Paracetamol,Abnormal
+kOT I,77,Female,AB+,Asthma,2000-01-03,QUGpcOkCN OkCNCXD,76,101,,1,0,,xdJwP ch,Blue Cross,46333.04081703523,461,Emergency,1985-02-07,Ibuprofen,Inconclusive
+oh XKfGmmzQoX,59,Male,AB+,Cancer,1995-04-15, weqIEJG,86,110,,1,0,,MDxjTkYoucfuGAJ fuGAJq,Blue Cross,11536.507678729226,291,Emergency,1962-01-08,Paracetamol,Normal
+pbQvdM o,66,Female,AB+,Cancer,,OmIV VsPZxhqla,95,112,,1,0,,KSiQMqyRVfGZm yRVfGZmmKe,Medicare,19492.251111518894,212,Elective,2061-06-09,Aspirin,Inconclusive
+eAaYYXu aYYXuBFLME,72,Female,O-,Obesity,2023-01-01,JpOx pOxtiBfcMOd,76,101,2024-03-31,1,0,,Vb ,Blue Cross,22776.025784295383,454,,2029-04-07,Ibuprofen,Inconclusive
+wmvpvTgfzT pvTgfzTOz,60,Male,B+,Hypertension,,yEimPxDSVFk imPxDSVFkU,88,101,2024-01-31,1,0,,DjNgkEL kELSioKfJyhf,Cigna,29376.966056210724,293,Emergency,2068-08-08,Ibuprofen,Normal
+K INE,71,Female,O-,Cancer,,ssMOhfMYZu MYZuqa,102,105,2024-05-31,1,0,,XEvJchKedPQjq EvJchKedPQjquUq,Blue Cross,9311.975063617117,140,Emergency,1969-03-09,Ibuprofen,Abnormal
+hYkLcjzjmdAl YkLcjzjmdAl,26,Female,AB-,Asthma,,qY ,86,105,2024-03-31,1,0,,voFjbZ drJaBn,Blue Cross,17062.786306996448,430,,1963-09-11,Lipitor,
+mQHD GlEh,29,Female,B+,Obesity,,GbEg GbEgzMYdRiqn,100,86,2024-01-31,1,0,,ztRiqBpV tRiqBpVWNUtqZmS,Aetna,8386.775582042477,226,,1985-10-08,Ibuprofen,Inconclusive
+ZXcdQBDohbaq BDohbaq,41,Female,AB-,nan,2108-01-19,X X,92,109,,1,0,,QALj gUjk,Aetna,34237.80021250318,289,Elective,2112-09-05,Penicillin,Abnormal
+PvikGd kGdPVSCGS,53,Male,B+,Diabetes,,fGJNQsee evMho,106,93,2024-01-31,1,0,,bNhdriVlr ,Medicare,10551.474325821158,178,Emergency,2072-10-07,Ibuprofen,Abnormal
+cQhdjgOh OhjIJD,64,Female,B-,,2045-01-11,QEIRmOA IRmOApmOat,89,114,,1,0,,uTbKTxzIsSkrGtTS S,Blue Cross,19260.921677742608,284,Emergency,2051-09-02,Paracetamol,Inconclusive
+q ,40,Female,AB+,Arthritis,,N BDTqE,103,98,2024-05-31,1,0,,LWObOzOLXr m,Cigna,40345.93959041538,162,Emergency,2000-06-06,Lipitor,Normal
+c EKm,69,Female,AB-,Diabetes,,cIIdu NbhZVnQ,100,131,2024-01-31,1,0,,KPpNhebgNhWwS gNhWwSYRZ,Cigna,11979.119220874578,247,Urgent,2070-05-09,Ibuprofen,Normal
+LUKBaWw aWwSWnXA,38,Female,AB+,Cancer,2075-01-30,YeEenQfBAc a,114,99,2024-03-31,1,0,,YvHiXJgfI fIQwhiSIh,Blue Cross,51998.748305438945,250,Emergency,2065-10-03,Paracetamol,Inconclusive
+RALZqjRlCbk Y,86,Female,AB-,Diabetes,2043-01-04,i ,86,97,2024-05-31,1,0,,XT LtxgjUhtTSne,,24446.55369509763,170,Elective,1992-05-09,Lipitor,Normal
+fGQi NZOPpb,26,Female,AB+,Arthritis,1973-01-07,Ttm tmemLIbMqOI,115,119,,1,0,,CooMgFNDHdwNl oMgFNDHdwNlAJk,Medicare,3013.2915190652475,324,Urgent,1917-05-05,Paracetamol,Abnormal
+qozJwDDWeAk AkM,27,Female,AB+,Hypertension,,WcxyrtK xyrtKOuLou,87,116,,1,0,,wQjeXOLx cfu,UnitedHealthcare,16714.556299457887,309,Elective,1979-06-08,Ibuprofen,Inconclusive
+IaZvOEaYg ,77,Male,B-,Hypertension,2015-01-30,EOxb AJShxNF,89,102,,1,0,,jnOSAsKKzmQtrR AsKKzmQtrRdH,UnitedHealthcare,43352.74095025066,347,Emergency,2046-09-03,Aspirin,Normal
+x xMplnWyLPWZq,55,Female,B+,Diabetes,2077-01-06,CwGIR CwGIRHnssjBn,88,105,,1,0,,wPvDjqKV dqwV,UnitedHealthcare,46512.164692355,262,Elective,2051-07-09,Lipitor,Inconclusive
+ElZCcSet uttj,32,Male,AB-,Diabetes,2084-01-12, d,118,109,2024-01-31,1,0,,iEvgBhTJB PBiES,Medicare,28043.597973495947,359,Elective,2111-05-02,Aspirin,Abnormal
+ xCYGIk,44,Male,O+,Cancer,2022-01-10,VclktvyC clktvyCHkIB,102,95,,1,0,,SrPZSXaS ZSXaSjxrOmnWg,Cigna,15609.09658613641,456,Urgent,2016-03-06,Ibuprofen,Abnormal
+WL WLtbIlLbumdH,26,Female,B-,Asthma,2034-01-02,Rm Gix,96,111,2024-01-31,1,0,,qQyKijpzJVz pzJVzCDADs,Cigna,27881.284784854855,245,Urgent,2065-09-10,Penicillin,
+oaDIFdABG sD,54,Female,AB-,Diabetes,1999-01-25,jwu gvQunRFTb,110,114,2024-05-31,1,0,,QRlFJwBPgrayYMzX ayYMzX,Medicare,14437.11776603397,334,Emergency,2004-07-06,Ibuprofen,Inconclusive
+eBoBBo JE,86,Female,AB-,nan,,TMTihDfoRUIc oRUIc,95,91,,1,0,,fHy fHyLjkEeZFxQMuvR,Cigna,19558.158406041577,318,Emergency,2081-03-05,Ibuprofen,
+hkZineoWEMO WEMOd,37,Female,A-,,,wx fzgDRBkg,80,98,2024-05-31,1,0,, InWcEFhBFDUNeb,Medicare,43243.67555937226,211,Emergency,2040-06-07,Ibuprofen,Normal
+AeeG ,76,Female,A+,Hypertension,2000-01-22,laHaxGT nSOs,85,117,2024-03-31,1,0,,DQVE OfbezpH,Medicare,33575.83942190687,485,Emergency,1962-06-08,Ibuprofen,Normal
+SBZPii HkHHm,82,Female,B-,nan,,agCu uKbQvyjZN,100,101,,1,0,,NrQWaS WaSNLClzjzZYk,Cigna,4996.973546098923,350,Urgent,2017-07-07,Paracetamol,Abnormal
+fAu Xmw,23,Female,A+,Cancer,,mqnxtR xPe,95,96,,1,0,,GSERPdEiVfz zJZJvg,Blue Cross,21499.53278350074,240,Elective,2032-02-06,Lipitor,Abnormal
+i USCEdy,75,Female,AB-,Asthma,2058-01-20,cgLmDqwJ cgLmDqwJgiXi,111,102,,1,0,,XlzWrRFg wDBgUlvT,Medicare,31389.979378164953,347,Elective,2057-05-06,Aspirin,Inconclusive
+anHyMkrqJ F,67,Male,A-,Asthma,2066-01-23,YENcYvLkRwCZ Z,99,103,,1,0,,LZLbpnpKjAHJ LZLbpnpKjAHJcwOL,Aetna,27480.868495810588,478,Elective,2073-08-06,Aspirin,
+yIQQaJrHK rHKqZa,60,Female,B-,nan,2105-01-09,xwuLO uLOjxNfkdh,88,89,2024-01-31,1,0,, GIOioCTQuXe,Cigna,18193.841677348002,337,Elective,2045-08-08,,Abnormal
+HVE bhCvpZl,85,Female,AB+,Cancer,1946-01-20,qXW XWaqkkYfDmX,86,112,2024-03-31,1,0,,vFXYgSQ Z,Aetna,41707.791198073275,122,Urgent,1984-06-09,Lipitor,Inconclusive
+ LbiwNxhHi,49,Male,AB-,Cancer,, CckSLtkY,95,114,2024-01-31,1,0,,QwpcfbTxHebm dlFN,Aetna,25522.74638567339,315,Elective,1983-07-03,,Inconclusive
+ggaDyxF xFLpfyQ,55,Male,B+,Cancer,,OPhXrQbnxzv OPhXrQbnxzvU,98,108,2024-03-31,1,0,,u xVNhjoOOThfuTst,UnitedHealthcare,7065.251406025569,184,Emergency,1975-10-07,Paracetamol,Abnormal
+TBXaWbFGZUo FGZUoC,79,Male,AB+,Cancer,,NgfOO mcteB,100,113,,1,0,,lX CdBIts,Blue Cross,6317.033121671846,290,Emergency,2036-09-06,Lipitor,Inconclusive
+eTFNtM hYJtq,42,Female,AB-,Cancer,,Zgi giflDEzrztk,86,97,2024-03-31,1,0,,lTLzPWAHdNfPnx TLzPWAHdNfPnxbv,Aetna,31461.134716342738,170,Urgent,1990-09-08,Lipitor,Inconclusive
+EZb uLOnghDJq,38,Female,A-,Asthma,2019-01-15,qEgJOHMBR Rgdb,93,97,2024-01-31,1,0,,yWX XOmjtEGRffnnTv,Blue Cross,35528.84293578759,183,Elective,2007-07-08,Aspirin,Abnormal
+EgVrhVC gVrhVCkNwVV,78,Male,A-,Hypertension,2056-01-07,ubCLRdeafncj eafncj,106,103,,1,0,,iMMU MUpXksauOsTjCy,Blue Cross,17845.249011776916,484,Urgent,2026-07-04,Ibuprofen,Normal
+kspeFeMuQYA kspeFeMuQYAC,75,nan,AB+,Diabetes,2020-01-29,phfpOQ QwaJVuQ,88,94,,1,0,,RdxaqPxznIzFUv zFUvOw,Cigna,27825.002263838407,462,,1971-09-07,Aspirin,Inconclusive
+ewsgugCT TWzdt,53,Male,AB+,Asthma,2012-01-26,zVOakR qkDyXj,93,97,2024-05-31,1,0,, MogoMtqnqhXswak,Cigna,33816.5078946492,209,Emergency,2013-08-03,Aspirin,Abnormal
+UWZ KFlMZ,20,nan,B-,Arthritis,,vsNxEnBI BIjtDC,108,113,,1,0,,cooZwcWBBWaw cooZwcWBBWawqYcN,UnitedHealthcare,40942.0001780185,479,Elective,1935-04-09,Aspirin,Abnormal
+sJO lfQfafT,32,Female,A-,Diabetes,2025-01-04,tAp WtM,89,92,2024-03-31,1,0,,VLsSICOTKs ,Blue Cross,37844.34958253091,355,Urgent,2007-05-05,Paracetamol,Inconclusive
+ejIdzPSZ ITJW,64,Female,nan,Diabetes,2013-01-27,wEaJNFK KGNErA,89,112,,1,0,,Ei XluyzTL,Medicare,37973.31479169293,167,Elective,1958-07-07,Penicillin,Abnormal
+DJgNh NhCevydvp,44,Female,B+,Cancer,,YyYALdzsb ALdzsboBw,103,101,,1,0,,ZuYPSBVWRGSjFj Qi,,18142.802709543987,149,Emergency,1983-08-10,Ibuprofen,Abnormal
+RUSHmLtXMZmo mo,35,Female,O-,Asthma,2014-01-26, ngh,100,90,2024-01-31,1,0,,mFFFrCJJAKTuAjC mFFFrCJJAKTuAjCZ,Medicare,45963.70211774261,266,Emergency,2027-04-06,Ibuprofen,Normal
+uc ,47,Male,O+,Asthma,1977-02-10,JLyPinlI LyPinlIzUbh,96,115,,1,0,,KWOPeKkDwdfcxxrm Dwdfcxxrm,Blue Cross,39156.63522813536,157,Emergency,2045-07-08,Lipitor,Inconclusive
+rYzophBSztGP ,73,Male,AB+,Cancer,2084-01-13,ZMprPoOeOP MprPoOeOPhL,99,114,2024-05-31,1,0,,o vRSIkakeFOx,,32513.68515935868,471,,2056-07-07,Lipitor,Inconclusive
+ ,53,Female,AB-,Cancer,1956-01-23,KOuwgiXlV lVCvN,102,124,,1,0,,KxzRnXdkjjNYWasB sB,Blue Cross,34023.0944776712,317,Emergency,1927-09-08,Penicillin,Inconclusive
+EthEqbNxJFFT FFT,61,nan,AB+,Diabetes,2091-05-05,fJ SiAXLKGom,114,103,2024-01-31,1,0,,XTBslEdePa EdePaeVpJRZ,Blue Cross,19739.445042583196,483,Elective,2068-05-09,Penicillin,Abnormal
+jDIoyUsnUaQ snUaQF,44,Male,AB-,Asthma,,vY VofcRDjJJ,110,102,,1,0,,bzVtV a,Cigna,20402.336343713978,466,,2017-07-10,Ibuprofen,Inconclusive
+uvYAiocfYhJ YAiocfYhJc,46,Male,O-,Cancer,,hKbJ JimizulIs,89,99,,1,0,,kzlAKZ KZIqJqMVEArN,Blue Cross,27120.784627719957,305,Elective,2036-07-09,Lipitor,Inconclusive
+HC kbBkTNW,26,Female,AB-,Asthma,,MCab abteyZYbns,100,87,2024-03-31,1,0,,ksppKHQVMxdCvEB vEBL,Aetna,26204.853792009944,239,Emergency,1970-11-11,,Abnormal
+uzp ShDG,72,Female,O+,Asthma,2037-01-08,FRE zvHTmPz,100,93,,1,0,,fOSENNBSKGDkG NBSKGDkGEit,UnitedHealthcare,8992.476102456516,140,Emergency,2026-08-08,Ibuprofen,Abnormal
+ETDjO BwQOOa,55,nan,AB-,Asthma,,VV VVRFhaVeTfxx,111,109,2024-05-31,1,0,,ltaJEtnRVGtl AtSG,Cigna,25141.920204948285,420,Emergency,2002-07-08,Aspirin,Inconclusive
+W QdJktujaZde,65,Female,B+,Diabetes,2014-01-25,zVAHFxvvLGns ,98,115,2024-03-31,1,0,,dTGqiW Szuze,UnitedHealthcare,50787.681915206806,145,Urgent,2017-07-05,Aspirin,Abnormal
+GEwJogqJc gqJcgOF,42,Male,B-,Cancer,1956-01-20,kTKxkBLQjksd sd,89,99,,1,0,,rjB jBFqdKLvbjptEFZ,Cigna,28356.7574979454,165,Urgent,2020-09-05,Penicillin,Inconclusive
+MFbNUEqpJ NUEqpJLZc,28,Female,B-,,2006-01-18,ye eJ,74,98,2024-03-31,1,0,, dnUyESUc,Cigna,11808.37334507158,253,Elective,2010-04-06,Paracetamol,Normal
+VYHlzDtfSqWC YHlzDtfSqWC,35,Female,O+,Arthritis,2033-01-17,NgsntoDx ntoDxGNlf,93,121,,1,0,,ZezrOoecqQ rOoecqQtTpWva,Blue Cross,37393.02084720369,480,Emergency,2000-06-06,Ibuprofen,Inconclusive
+xO QfKa,64,nan,B+,Cancer,,ClofHepcxyHR ofHepcxyHR,98,120,,1,0,,VZYKTkQGqmCECqz QGqmCECqzl,Cigna,16088.681124701725,275,Elective,2098-08-07,Ibuprofen,Abnormal
+ixpNpd NpdtbTlPW,72,Female,B-,Cancer,,fedlOU Vd,77,132,2024-01-31,1,0,,wUlZZzOUVuQYYR RYd,Cigna,38133.71894385494,313,Elective,2070-09-06,Paracetamol,
+sNoFgmDMWx f,14,Male,O+,Cancer,2048-01-20, jZ,109,121,,1,0,, RAyKxIUSoRXwP,Blue Cross,12017.475754003432,114,Emergency,2043-03-08,Paracetamol,Abnormal
+BmmvVhhIwvu uq,77,Male,A-,Asthma,2054-01-31,zX zXWsIXRtqYgX,100,133,2024-03-31,1,0,,doiiDA aKq,Cigna,17906.00672472506,159,Urgent,2094-07-07,Paracetamol,Inconclusive
+szuICIvemKwV emKwV,62,nan,AB+,Hypertension,,HCeYIb Afu,92,103,2024-01-31,1,0,,jtWju jRPASp,Medicare,10325.815527162824,179,Elective,2082-08-05,Penicillin,Inconclusive
+z yvWatldURq,78,Female,A-,Hypertension,,j nOVgjMVr,85,103,,1,0,,XFXaQ FXaQDOnJFZRkimW,Cigna,32342.86912054635,335,Elective,1994-07-09,Lipitor,Normal
+ZRMQP PBWAGASe,60,Female,A-,Obesity,2045-01-26,EyXk wqrtf,102,109,2024-01-31,1,0,,ZkidhanvCa c,UnitedHealthcare,19308.91058600129,104,Elective,2055-07-06,Ibuprofen,Normal
+Puj vfIpdnXkc,22,Female,O+,Asthma,,aJKADOp ,113,98,2024-01-31,1,0,,hW VRdSxmP,Blue Cross,23855.297703425815,333,Urgent,2010-10-07,Penicillin,Abnormal
+vS SSGqpsfFZ,54,Female,B+,Diabetes,,mQy U,100,99,2024-01-31,1,0,,KcqpmGIuy GIuydTcNOfs,Blue Cross,6302.902062057075,237,Emergency,2075-06-09,Penicillin,Abnormal
+STkRUFFhxnpY npY,78,Male,O-,Obesity,,iJGHq TCpz,100,101,2024-01-31,1,0,,SFX jxqfsMousK,Aetna,43412.10733935371,179,Emergency,2043-05-06,Ibuprofen,Inconclusive
+ljnO OipWLAYeZ,29,nan,B+,Cancer,2108-01-29,A eUYte,82,111,2024-01-31,1,0,,rIBdUPEKFiY UPEKFiYTxPpN,Aetna,28021.41181511268,111,Emergency,2119-11-04,Ibuprofen,Abnormal
+ZTemDcr mDcrrbOfU,32,Male,B+,Diabetes,,TxwCWq CWqzWsHwu,108,94,2024-01-31,1,0,,McBuXHNap vH,Aetna,10566.042831406958,265,Emergency,2051-09-09,Ibuprofen,Abnormal
+kzADmQj kzADmQjMBrTn,38,Female,AB+,Asthma,,i ,97,119,2024-03-31,1,0,,eGPPHKrr GPPHKrriBgyPsdY,Cigna,30041.220358802188,271,Elective,1952-07-11,Paracetamol,Inconclusive
+SAOT XAk,15,Female,O+,Arthritis,,Mrf fkNEv,94,91,,1,0,,ufcetJ kQowV,UnitedHealthcare,36510.196731013086,248,Emergency,2028-07-08,Lipitor,Abnormal
+DyHulmQd ulmQddBWq,71,Female,AB+,Asthma,2056-01-24, cpn,86,101,2024-01-31,1,0,,khypyxrURkQ xrURkQhhkGu,Medicare,18605.316097296414,104,Emergency,2096-03-05,Lipitor,Inconclusive
+QeCLsXeszilP szilP,24,Female,O+,Cancer,2036-01-18,IfVnrA IfVnrAFNfvMo,102,103,2024-01-31,1,0,,rhFyCowGSSIJp SSIJpAia,Medicare,27740.52380071958,484,Emergency,2088-05-05,Aspirin,Inconclusive
+NBX MZN,85,Female,A+,Asthma,1971-01-03,rXPBXoZzI PBXoZzIDNy,100,128,,1,0,,q ,Cigna,24496.400303201037,273,Urgent,1979-05-02,Ibuprofen,
+pLixNPCFnDHi Hi,82,Female,A-,Cancer,2056-01-01,NETmFyL LYzcnl,109,118,,1,0,,FRm gSzgjmzGm,Aetna,15389.332914377384,489,Emergency,2054-06-06,Lipitor,Inconclusive
+xuTcr K,71,Male,AB+,Hypertension,2037-01-03,EaXnDAm XnDAmhQtaZ,108,105,,1,0,, HtrTHRv,Cigna,18646.344884992086,159,Urgent,2076-08-05,Paracetamol,Inconclusive
+YLwFsSNLisx ,64,Male,AB-,Cancer,2007-01-31,euc gkJ,86,120,,1,0,,zpB BjfeOIwcknMawC,Aetna,11198.13734448498,169,Urgent,2010-07-08,Paracetamol,Abnormal
+ ,29,Male,O+,Arthritis,, Baxe,93,110,2024-01-31,1,0,,DWAryjJC WAryjJCSlYnSDmO,Blue Cross,34929.57289772251,163,Elective,2061-09-03,Lipitor,Inconclusive
+dGtxdLvmUS k,62,Male,AB-,Asthma,,TpjZhGNmpWn jZhGNmpWnN,98,118,2024-01-31,1,0,,IAukyN Cmwiqcsf,Aetna,14748.420581201895,191,Elective,2050-06-03,Aspirin,Normal
+gvqSuCTjR ,69,Male,AB+,Asthma,,OWuZTvLf WuZTvLfhjSO,107,105,2024-03-31,1,0,,ZCV VQLiVYlPHGMTuU,Blue Cross,16191.33463008641,232,Urgent,2041-09-06,Aspirin,Abnormal
+Dl iWNO,43,Female,AB-,Diabetes,,mpYGt ,91,107,,1,0,,Vkeo keodEfdVGrPcQqC,Cigna,7505.192703474811,213,Emergency,2050-05-06,Paracetamol,Abnormal
+Efw H,88,Female,AB-,Arthritis,,v Mjny,112,95,,1,0,,cuHwAKJT TkTUHoCYP,Medicare,-46.57672874939567,264,Urgent,2056-08-08,Aspirin,Inconclusive
+Bfng ngxxMjKGXq,63,Female,AB-,Cancer,2114-01-24, LeefW,74,115,2024-03-31,1,0,,x YPlCcmtGa,UnitedHealthcare,18216.810807608665,304,Elective,2104-06-05,Aspirin,Inconclusive
+s sNUFgWUdPLKf,48,Female,O+,Obesity,1998-01-15,DysnObtrJQ nObtrJQms,116,92,2024-01-31,1,0,,zbAufwriOVGvDt oF,Cigna,12273.621667374086,392,Elective,1988-06-07,Paracetamol,Normal
+ZWEIbgZqt IbgZqtfQd,17,Male,AB+,Cancer,,VCQLGRTTKN b,108,103,,1,0,,hppBgGqLbnSJLj nSJLjvI,Medicare,36680.29424340835,364,Elective,1973-10-09,Ibuprofen,Normal
+vbNbexOPxAPx APx,44,Female,AB+,Cancer,2004-02-29,cDXyMgTqeO DXyMgTqeOEW,93,124,,1,0,,DtmscJGSy fAvv,Blue Cross,44679.441699495655,398,Emergency,2006-06-07,Lipitor,Abnormal
+UBvVsZPdUp UBvVsZPdUpvZ,43,Female,AB-,Cancer,2025-01-17,zmHRCSULwiH mHRCSULwiHZ,100,104,,1,0,,npvhB oIJpN,Cigna,29695.972419006273,109,Urgent,1944-08-10,Penicillin,Normal
+TyuNly uNlygcKSlw,24,Female,AB-,,,ELlcNnvfdN KU,93,103,,1,0,,qzIGinyghp X,Blue Cross,6045.004397719531,412,Elective,2093-07-06,Paracetamol,Inconclusive
+djds ,53,Female,AB+,Diabetes,2005-01-15, YAazJxFLtUQ,88,96,,1,0,,jPKA rTmWpUDOF,Blue Cross,25766.56462913125,421,Emergency,1992-10-06,Lipitor,Abnormal
+XN NtykvnTjcGx,44,Female,AB+,,,u qcizUAZeH,112,86,,1,0,,miplT gwSKmnhGCb,Blue Cross,18002.003604771668,471,Emergency,2028-08-08,Ibuprofen,Abnormal
+TVtl k,72,Female,AB+,Hypertension,,z Z,103,106,,1,0,,lpuamNGT a,UnitedHealthcare,13532.881155638474,374,Urgent,1994-11-07,Lipitor,Abnormal
+iFXyLCXh FXyLCXhgPpD,55,Male,B-,Arthritis,2041-01-06,gjqpCGRF CGRFZNrp,106,100,2024-01-31,1,0,,QNpRiHzBs HzBsRgEltDO,Cigna,45012.100721774594,163,Emergency,2045-07-05,Aspirin,
+wJCMpqXOCE pqXOCEAF,62,Female,B+,Diabetes,2017-01-29,KDiHrfwzAk ,105,104,,1,0,,PHZkX umHoa,Blue Cross,28416.101768650646,268,Elective,1936-09-06,,Inconclusive
+fdiSCK o,46,Female,B-,Diabetes,,xzWHQAEiDXR EiDXRm,99,105,2024-01-31,1,0,,uGfeXWTWZ WZsbAqRLg,Aetna,11254.444398474734,103,Elective,2018-09-10,Paracetamol,Normal
+pA AUMxWIqWaZT,30,Male,B-,Cancer,,SpPf dWpHr,89,99,,1,0,,KecZZWVcvXO WVcvXOEbMSl,Blue Cross,46094.44931970781,462,,2014-07-09,Aspirin,Inconclusive
+ hB,81,Male,AB-,Obesity,, QtnOdQ,90,131,2024-03-31,1,0,,aSNPCVkAAD iTR,UnitedHealthcare,8639.503749296611,487,Emergency,1985-06-08,Aspirin,Inconclusive
+ ACuGkXtqHMKP,82,Male,AB-,Asthma,1978-01-26,BkYfmpdNUy yiD,92,115,2024-03-31,1,0,,LszXRB ,Medicare,41711.67481579678,334,Elective,2048-09-08,Ibuprofen,Abnormal
+rX XRKDiAAwKBp,80,Female,B+,Hypertension,,HFhaGTZ D,114,103,2024-05-31,1,0,,MAthmRSiKVTA ,Cigna,26116.403897924123,465,Urgent,2033-06-08,,Abnormal
+CiHyvaKfK KfKHtt,53,Male,B+,Diabetes,,SBTDfGNttM GNttMQB,95,97,,1,0,,My NvVYj,Medicare,21801.102393428802,103,Emergency,2061-07-11,Aspirin,
+wTzxqcIGnd GndfW,68,Male,B-,Cancer,2018-01-16,dSOUQElJkO JkORf,93,99,2024-01-31,1,0,,lyneupqcJNQPm JNQPmtbX,Cigna,12719.248652656102,183,Elective,2005-07-07,Paracetamol,Normal
+ viG,76,Female,B-,Hypertension,,av nDGTBu,87,119,2024-03-31,1,0,,GwbxnMXhEkdHLtH tHa,Cigna,6483.236759647807,369,Elective,1949-10-12,Aspirin,Inconclusive
+UvAZM GXeOGl,29,Female,O+,Hypertension,1997-01-18,cBNVFyZVT BNVFyZVTbEZ,107,102,2024-01-31,1,0,,pWiNZdFgkMsq pWiNZdFgkMsqFmMH,Blue Cross,8991.51552736077,428,Urgent,1993-07-05,Ibuprofen,Inconclusive
+ yiuucncUJ,65,Female,AB-,Cancer,2001-01-12,ylJvdL hOw,112,118,2024-01-31,1,0,,XkewHLpGeBsoH pGeBsoHGsR,Cigna,15835.688842252366,102,Emergency,1923-05-09,Ibuprofen,Inconclusive
+xQMfbCxViRF Fm,67,Female,A+,Obesity,2018-09-15,CtDSw SwIpPPzuY,91,89,,1,0,,WLLfYr VJ,Medicare,8843.57422515092,269,Emergency,1961-06-08,Paracetamol,Normal
+O WdpCtvaXl,79,Female,B-,Diabetes,2025-01-05,ySJ tcJuHX,97,112,,1,0,,daZorfIqpdzMDeVs dzMDeVs,Blue Cross,29069.940690589017,291,Emergency,2051-07-05,Aspirin,Abnormal
+OiUaRa UaRaMabIHG,39,Female,,Asthma,2104-01-25,g uWNGswFwcK,96,100,,1,0,, Tw,Medicare,26365.4242169134,343,Emergency,2140-07-01,Paracetamol,Abnormal
+LvGX s,41,Female,AB-,Hypertension,1988-01-16,PxV VthmwYXrdT,92,109,,1,0,, hFEY,Cigna,10696.922941472072,304,,2040-08-05,Lipitor,Inconclusive
+OtdOaBxT dOaBxTpGDC,81,Female,A-,Diabetes,2055-01-01,NzBzaWJF aWJFSxir,87,107,,1,0,,OjRija aYzUqBwEnjP,UnitedHealthcare,45016.154301135466,405,Urgent,2043-07-05,Lipitor,Abnormal
+TSMEt MEtdciKRaT,61,Male,O+,Diabetes,, ilJWYe,84,117,2024-03-31,1,0,,RcSWxFIUAC cSWxFIUACAXLOSv,,37942.00449438073,302,Urgent,1994-04-10,Lipitor,Normal
+DudfVzacqgeN acqgeN,49,Male,AB+,Diabetes,,PdrCmxBOnE EmD,104,98,,1,0,,cU T,UnitedHealthcare,38308.77781184035,484,Elective,1944-08-09,Paracetamol,Abnormal
+uwKzKRd K,53,Female,AB-,Asthma,,rQuXfJBeZbyW JBeZbyW,92,124,,1,0,,lvwBHFUhdsrw FUhdsrwvOTt,Cigna,15582.172190479901,440,,1986-08-07,Lipitor,Abnormal
+FpCGitesCK KKc,54,Male,AB-,Hypertension,,xVI kBYEBT,96,85,,1,0,,buRaUnVscIjuinj F,Cigna,11582.049940157574,233,Emergency,2015-04-05,Paracetamol,Normal
+iUUj jcVBFnX,53,Female,B-,Arthritis,2014-01-04,Wpn pnOKKZazoTL,108,103,2024-05-31,1,0,,QidBrEuL O,Medicare,4798.021160684489,144,Emergency,2001-04-08,Ibuprofen,Abnormal
+SWmlQqpyK QqpyKlqU,42,Female,B-,Hypertension,1895-01-23,RL xH,90,93,,1,0,,D hIgnkNF,Blue Cross,22186.711090792815,244,Urgent,1949-08-04,Lipitor,Inconclusive
+UpSMWqqEF qqEFJcU,35,Male,AB+,Hypertension,,LJB JBvhCgtSYaG,95,109,2024-01-31,1,0,,K WgAcfxRcnCpJ,Aetna,34811.22125559952,296,Urgent,2070-08-04,Ibuprofen,Abnormal
+Anc HvMhAKR,19,Female,AB-,Asthma,2056-10-24,PhIAHiW F,95,94,,1,0,,stovWlgQzlpOA Le,Blue Cross,29287.704536753517,216,Elective,2039-07-04,Ibuprofen,Inconclusive
+gHXaBE aBEQzCxJi,79,nan,O+,Asthma,1964-04-18,OsRYbTVGBtIJ bTVGBtIJ,103,108,2024-03-31,1,0,,AsdnQWZv pGgV,Aetna,16930.60249690516,146,Elective,1936-07-06,Aspirin,Inconclusive

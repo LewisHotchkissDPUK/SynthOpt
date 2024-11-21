@@ -223,6 +223,7 @@ def metadata_process(data, type="correlated"):
         combined_numerical_data = combined_numerical_data.dropna(axis=1)
         combined_numerical_data = combined_numerical_data.loc[:, combined_numerical_data.nunique() > 1]
 
+
         best_fit_distributions = identify_best_fit_distributions(combined_numerical_data)
         marginals = []
         for column in combined_numerical_data.columns:
@@ -331,7 +332,10 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
                         elif 'float' in str(dtype):
                             return round(random.uniform(value_range[0], value_range[1]), 2)
                 except Exception as e:
-                    print(f"Error parsing values: {e}")
+                    #print(f"Error parsing values: {e}")
+                    #print(row['variable_name'])
+                    #print(row['datatype'])
+                    #print(row['values'])
                     return None
 
     # Loop through each table and generate its data
@@ -553,16 +557,26 @@ def generate_correlated_data(metadata, correlation_matrix, marginals, num_record
     numerical_metadata = metadata[metadata['datatype'].apply(is_int_or_float)]
     non_numerical_metadata = metadata[~metadata['datatype'].apply(is_int_or_float)]
 
+    orig_numerical_columns = numerical_metadata['variable_name'].tolist()
+
     numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(empty_metadata['variable_name'])]
     numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(zero_metadata['variable_name'])]
     numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(single_value_metadata['variable_name'])]
 
     # this should work to remove both nan and zero variables
-    correlation_matrix = pd.DataFrame(correlation_matrix)
-    correlation_matrix = correlation_matrix.dropna(axis=1, how='all')
+    correlation_matrix = pd.DataFrame(correlation_matrix, columns=orig_numerical_columns)    ###### NEW (only columns= bit)
+
+    correlation_matrix = correlation_matrix.dropna(axis=1, how='all') # extract these variable names and handle them by sampling from a distribution
     correlation_matrix = correlation_matrix.dropna(axis=0, how='all')
+
+    remaining_columns = correlation_matrix.columns.tolist()   ###### NEW
+    dropped_columns = list(set(orig_numerical_columns) - set(remaining_columns))   ###### NEW
+    dropped_metadata = metadata[metadata['variable_name'].isin(dropped_columns)]   ###### NEW
+
     #correlation_matrix = correlation_matrix.fillna(0)
     correlation_matrix = correlation_matrix.to_numpy()
+
+    numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(dropped_metadata['variable_name'])]   ###### NEW
 
     #correlation_matrix = correlation_matrix.loc[numerical_metadata['variable_name'], numerical_metadata['variable_name']]
 
@@ -590,28 +604,16 @@ def generate_correlated_data(metadata, correlation_matrix, marginals, num_record
     # Convert samples into a Pandas DataFrame
     synthetic_data = pd.DataFrame(synthetic_samples, columns=variable_names)
 
+    # REMOVED FOR NOW BUT NEED TO ADD IN LATER ON AFTER THE INT CONVERSION TO DO IT FOR ALL COLUMNS
     # Introduce missing values (NaNs) according to the completeness percentages (ONLY DOES IT FOR NUMERICAL!!! CHANGE!)
-    for i, (index, row) in enumerate(numerical_metadata.iterrows()):
-        completeness = row['completeness'] / 100  # Convert to a decimal
-        num_valid_rows = int(num_rows * completeness)  # Number of valid rows based on completeness
+    #for i, (index, row) in enumerate(numerical_metadata.iterrows()):
+    #    completeness = row['completeness'] / 100  # Convert to a decimal
+    #    num_valid_rows = int(num_rows * completeness)  # Number of valid rows based on completeness
 
-        # Randomly set some of the data to NaN based on completeness
-        if completeness < 1.0:
-            nan_indices = np.random.choice(num_rows, size=(num_rows - num_valid_rows), replace=False)
-            synthetic_data.iloc[nan_indices, i] = np.nan
-
-    for column in synthetic_data.columns:
-        # Find the corresponding datatype in the metadata
-        datatype = metadata.loc[metadata['variable_name'] == column, 'datatype'].values
-        if len(datatype) > 0 and "int" in str(datatype[0]).lower():   #if len(datatype) > 0 and np.issubdtype(datatype[0], np.integer):
-            # Round the values in the column if the datatype is an integer
-            synthetic_data[column] = round(synthetic_data[column])# .astype(int)
-
-    if metadata['table_name'].iloc[0] is not None:
-        # label mapping
-        for column, mapping in label_mapping.items():
-            synthetic_data[column] = synthetic_data[column].map(mapping)
-
+    #    # Randomly set some of the data to NaN based on completeness
+    #    if completeness < 1.0:
+    #        nan_indices = np.random.choice(num_rows, size=(num_rows - num_valid_rows), replace=False)
+    #        synthetic_data.iloc[nan_indices, i] = np.nan
 
     for index, row in zero_metadata.iterrows():
         column_name = row['variable_name']
@@ -622,6 +624,30 @@ def generate_correlated_data(metadata, correlation_matrix, marginals, num_record
     for index, row in single_value_metadata.iterrows():
         column_name = row['variable_name']
         synthetic_data[column_name] = single_value_metadata[single_value_metadata['variable_name']==row['variable_name']]['mean'].values[0]
+    for index, row in dropped_metadata.iterrows():   ### NEW
+        if (row['variable_name'] not in single_value_metadata['variable_name'].values) \
+        and (row['variable_name'] not in zero_metadata['variable_name'].values) \
+        and (row['variable_name'] not in empty_metadata['variable_name'].values):
+            column_name = row['variable_name']
+            mean = row['mean']
+            standard_deviation = row['standard_deviation']
+            min_value, max_value = row['values']
+            a, b = (min_value - mean) / standard_deviation, (max_value - mean) / standard_deviation
+            synthetic_data[column_name] = truncnorm.rvs(a, b, loc=mean, scale=standard_deviation, size=num_records)
+
+
+    for column in synthetic_data.columns:
+        # Find the corresponding datatype in the metadata
+        datatype = metadata.loc[metadata['variable_name'] == column, 'datatype'].values
+        if len(datatype) > 0 and "int" in str(datatype[0]).lower():   #if len(datatype) > 0 and np.issubdtype(datatype[0], np.integer):
+            # Round the values in the column if the datatype is an integer
+            synthetic_data[column] = round(synthetic_data[column]).astype('Int64')
+
+
+    if metadata['table_name'].iloc[0] is not None:
+        # label mapping
+        for column, mapping in label_mapping.items():
+            synthetic_data[column] = synthetic_data[column].map(mapping)
 
 
     # date combine
@@ -674,6 +700,23 @@ def generate_correlated_data(metadata, correlation_matrix, marginals, num_record
             return variable_name[:-4]  # Remove the '_day' suffix
         else:
             return variable_name
+        
+
+
+
+    #Introduce missing values (NaNs) according to the completeness percentages
+    for i, (index, row) in enumerate(metadata.iterrows()):
+        completeness = row['completeness'] / 100  # Convert to a decimal
+        num_valid_rows = int(num_rows * completeness)  # Number of valid rows based on completeness
+
+        # Randomly set some of the data to NaN based on completeness
+        if completeness < 1.0:
+            nan_indices = np.random.choice(num_rows, size=(num_rows - num_valid_rows), replace=False)
+            synthetic_data.iloc[nan_indices, i] = np.nan
+
+
+
+
     # Apply the function to create a new column for base names
     metadata_temp = metadata.copy()
     metadata_temp['base_name'] = metadata['variable_name'].apply(strip_suffix)
