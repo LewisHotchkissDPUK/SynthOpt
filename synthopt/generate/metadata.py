@@ -74,6 +74,7 @@ def calculate_average_length(df, columns):
 
 def metadata_process(data, identifier_column=None, type="correlated"):
     def process_single_dataframe(data, table_name=None):
+        data = data.copy()
         metadata = pd.DataFrame(columns=['variable_name', 'datatype', 'completeness', 'values', 'mean', 'standard_deviation', 'skew', 'table_name'])
 
         non_numerical_columns = data.select_dtypes(exclude=['number']).columns.tolist()
@@ -229,7 +230,7 @@ def metadata_process(data, identifier_column=None, type="correlated"):
             # Prefix columns with table name to prevent conflicts
             processed_data.columns = [f"{table_name}.{col}" for col in processed_data.columns]
 
-            processed_data.columns = [identifier_column if identifier_column in col else col for col in df.columns] # remove prefix for ID
+            processed_data.columns = [identifier_column if identifier_column in col else col for col in processed_data.columns] # remove prefix for ID
             try:
                 combined_data = pd.merge(combined_data, processed_data, on=identifier_column, how='outer')
             except:
@@ -301,6 +302,7 @@ def metadata_process(data, identifier_column=None, type="correlated"):
 
 # Function to generate random data based on metadata for each filename
 def generate_structural_data(metadata, label_mapping=None, num_records=100, identifier_column=None):
+    metadata = metadata.copy()
     single = False
     if metadata['table_name'].iloc[0] is None:
         single = True
@@ -562,6 +564,8 @@ def generate_copula_samples(corr_matrix, marginals, n_samples, variable_names, l
 
 def generate_correlated_data(metadata, correlation_matrix, marginals, num_records=100, identifier_column=None, label_mapping={}):
 
+    metadata = metadata.copy()
+    
     metadata['variable_name'] = metadata.apply(lambda x: f"{x['table_name']}.{x['variable_name']}", axis=1)
 
     # Number of samples to generate
