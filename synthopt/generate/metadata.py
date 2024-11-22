@@ -76,28 +76,13 @@ def metadata_process(data, identifier_column=None, type="correlated"):
     def process_single_dataframe(data, table_name=None):
         metadata = pd.DataFrame(columns=['variable_name', 'datatype', 'completeness', 'values', 'mean', 'standard_deviation', 'skew', 'table_name'])
 
-        # Convert floats that are actually integers
-        for column in data.select_dtypes(include='float'):
-            if (data[column].dropna() % 1 == 0).all():
-                data[column] = data[column].astype("Int64")
-                #if data[column].notna().any():
-                #    data[column] = data[column].fillna(round(data[column].mean())) #(CHANGE, EFFECTS COMPLETENESS BUT NEEDED FOR COVARIANCE)
-
-        # fill na of numerical columns with mean (CHANGE, EFFECTS COMPLETENESS BUT NEEDED FOR COVARIANCE)
-        #float_columns = data.select_dtypes(include=['float']).columns
-        #data[float_columns] = data[float_columns].fillna(data[float_columns].mean())
-
-        # Identify non-numerical columns
-        #non_numerical_columns = list(set(data.columns) - set(data.describe().columns))
         non_numerical_columns = data.select_dtypes(exclude=['number']).columns.tolist()
         for column in non_numerical_columns:
             # IF THE OBJECT CANT BE CONVERTED TO NUMBER
             try:
-                pd.to_numeric(data[column].dropna(), errors='raise') # might need to also convert ??
+                data[column] = pd.to_numeric(data[column], errors='raise')
                 non_numerical_columns = non_numerical_columns.remove(column)
 
-                # Convert to numeric (float or integer as needed)
-                data[column] = pd.to_numeric(data[column], errors='raise')
                 # If all values are integers, convert to Int64 or int
                 if data[column].apply(float.is_integer).all():
                     data[column] = data[column].astype('Int64')  # Use Int64 for nullable support
@@ -105,6 +90,21 @@ def metadata_process(data, identifier_column=None, type="correlated"):
                 None
         if non_numerical_columns == None:
             non_numerical_columns = []
+
+        # Convert floats that are actually integers
+        for column in data.select_dtypes(include='float'):
+            if (data[column].dropna() % 1 == 0).all():
+                data[column] = data[column].astype("Int64")
+                if data[column].notna().any():
+                    data[column] = data[column].fillna(round(data[column].mean())) #(CHANGE, EFFECTS COMPLETENESS BUT NEEDED FOR COVARIANCE)
+
+        # fill na of numerical columns with mean (CHANGE, EFFECTS COMPLETENESS BUT NEEDED FOR COVARIANCE)
+        float_columns = data.select_dtypes(include=['float']).columns
+        data[float_columns] = data[float_columns].fillna(data[float_columns].mean())
+
+        # Identify non-numerical columns
+        #non_numerical_columns = list(set(data.columns) - set(data.describe().columns))
+        non_numerical_columns = data.select_dtypes(exclude=['number']).columns.tolist()
         date_columns = []
         for column in non_numerical_columns:
             try:
@@ -114,6 +114,7 @@ def metadata_process(data, identifier_column=None, type="correlated"):
             except ValueError:
                 pass
 
+        # add code to try convert strings to numbers
 
         # Identify string/object columns
         all_string_columns = list(set(non_numerical_columns) - set(date_columns))
@@ -124,7 +125,6 @@ def metadata_process(data, identifier_column=None, type="correlated"):
                     categorical_string_columns.append(column)
         non_categorical_string_columns = list(set(all_string_columns) - set(categorical_string_columns))
         
-
         # Calculate average lengths of non-categorical strings
         average_lengths_df = calculate_average_length(data, non_categorical_string_columns)
 
@@ -217,11 +217,11 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         combined_metadata = pd.DataFrame()
         combined_label_mapping = {}
         combined_data = pd.DataFrame()
-        
-        for table_name, df in data.items(): 
-            table_metadata, table_label_mapping, processed_data = process_single_dataframe(df, table_name)
-            combined_metadata = pd.concat([combined_metadata, table_metadata], ignore_index=True) 
 
+        for table_name, df in data.items():
+            table_metadata, table_label_mapping, processed_data = process_single_dataframe(df, table_name)
+            combined_metadata = pd.concat([combined_metadata, table_metadata], ignore_index=True)
+            
             # Update with the new label mapping, flattening it
             for key, value in table_label_mapping.items():
                 combined_label_mapping[key] = value  # Add the prefixed key directly
@@ -230,14 +230,10 @@ def metadata_process(data, identifier_column=None, type="correlated"):
             processed_data.columns = [f"{table_name}.{col}" for col in processed_data.columns]
 
             processed_data.columns = [identifier_column if identifier_column in col else col for col in df.columns] # remove prefix for ID
-
-            #combined_data = pd.concat([combined_data, processed_data], axis=1) # CHANGE - should be joining based on identifier column !!!!!
-            
             try:
                 combined_data = pd.merge(combined_data, processed_data, on=identifier_column, how='outer')
             except:
                 combined_data = pd.concat([combined_data, processed_data], axis=1)
-
 
         # Correlation across combined numerical data
         combined_numerical_data = combined_data.select_dtypes(include=['number'])

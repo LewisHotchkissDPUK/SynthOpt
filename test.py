@@ -60,8 +60,8 @@ DATASETS = {"healthcare":DATA, "mentalhealth":DATA2}
 
 DATASETS_TEST = {"test_set_1" : DATA_TEST1, "test_set_2" : DATA_TEST2}
 
-DATASET_MERGE_TEST = {"alzheimers_disease_data_subset1.csv" : pd.read_csv("examples/alzheimers_disease_data_subset1.csv"), 
-                      "alzheimers_disease_data_subset2.csv" : pd.read_csv("examples/alzheimers_disease_data_subset2_V2.csv").replace("999,999", np.nan)}
+DATASET_MERGE_TEST = {"alzheimers_disease_data_subset1" : pd.read_csv("examples/alzheimers_disease_data_subset1.csv"), 
+                      "alzheimers_disease_data_subset2" : pd.read_csv("examples/alzheimers_disease_data_subset2_V2.csv").replace("999,999", np.nan)}
 
 METADATA, LABEL_MAPPING, CORRELATION_MATRIX, MARGINALS = metadata_process(DATASET_MERGE_TEST, "PatientID", "correlated")
 
@@ -85,8 +85,8 @@ print(CORRELATION_MATRIX)
 #SYNTHETIC_DATA = generate_correlated_data(METADATA, CORRELATION_MATRIX, MARGINALS, 400, label_mapping=LABEL_MAPPING) #, identifier_column="PatientID"
 
 SYNTHETIC_DATA = generate_structural_data(METADATA, label_mapping=LABEL_MAPPING)
-SYNTHETIC_DATA["healthcare"].to_csv("output/healthcare_structural_metadata_synthetic_data.csv", index=False)
-SYNTHETIC_DATA["mentalhealth"].to_csv("output/mentalhealth_structural_metadata_synthetic_data.csv", index=False)
+SYNTHETIC_DATA["alzheimers_disease_data_subset1"].to_csv("output/alzheimers_disease_data_subset1_synthetic.csv", index=False)
+SYNTHETIC_DATA["alzheimers_disease_data_subset2"].to_csv("output/alzheimers_disease_data_subset2_synthetic.csv", index=False)
 
 print(SYNTHETIC_DATA)
 #SYNTHETIC_DATA.to_csv("output/correlated_metadata_synthetic_data.csv", index=False)
