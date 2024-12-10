@@ -272,23 +272,24 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         #numerical_data_filtered = numerical_data_filtered.drop(columns=columns_to_drop)
         #correlation_matrix = numerical_data_filtered.corr()
         #correlation_matrix = numerical_data.corr()
-        correlation_matrix = np.corrcoef(numerical_data.astype(float).values, rowvar=False)
 
         #print(numerical_data)
         #needed so it matches the removal of empty and single values in generation method
         numerical_data = numerical_data.dropna(axis=1)
         numerical_data = numerical_data.loc[:, numerical_data.nunique() > 1]
 
-        best_fit_distributions = identify_best_fit_distributions(numerical_data)
-        marginals = []
-        for column in numerical_data.columns:
-            dist, params = best_fit_distributions[column]
-            if dist and params:
-                marginals.append(dist(*params))
-            else:
-                marginals.append(norm(loc=np.mean(numerical_data[column]), scale=np.std(numerical_data[column])))
-        #correlation_matrix = processed_data.corr() if type == "correlated" else None
-
+        if type == "correlated":
+            correlation_matrix = np.corrcoef(numerical_data.astype(float).values, rowvar=False)
+            best_fit_distributions = identify_best_fit_distributions(numerical_data)
+            marginals = []
+            for column in numerical_data.columns:
+                dist, params = best_fit_distributions[column]
+                if dist and params:
+                    marginals.append(dist(*params))
+                else:
+                    marginals.append(norm(loc=np.mean(numerical_data[column]), scale=np.std(numerical_data[column])))
+            #correlation_matrix = processed_data.corr() if type == "correlated" else None
+            
         # if statistical or structural then only return metadata with columns needed (metadata[columns])
 
         if type == "correlated":
