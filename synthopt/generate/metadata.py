@@ -239,20 +239,20 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         # Correlation across combined numerical data
         combined_numerical_data = combined_data.select_dtypes(include=['number'])
         #correlation_matrix = combined_numerical_data.corr()
-        correlation_matrix = np.corrcoef(combined_numerical_data.astype(float).values, rowvar=False)
 
         combined_numerical_data = combined_numerical_data.dropna(axis=1)
         combined_numerical_data = combined_numerical_data.loc[:, combined_numerical_data.nunique() > 1]
 
-
-        best_fit_distributions = identify_best_fit_distributions(combined_numerical_data)
-        marginals = []
-        for column in combined_numerical_data.columns:
-            dist, params = best_fit_distributions[column]
-            if dist and params:
-                marginals.append(dist(*params))
-            else:
-                marginals.append(norm(loc=np.mean(combined_numerical_data[column]), scale=np.std(combined_numerical_data[column])))
+        if type == "correlated":
+            correlation_matrix = np.corrcoef(combined_numerical_data.astype(float).values, rowvar=False)
+            best_fit_distributions = identify_best_fit_distributions(combined_numerical_data)
+            marginals = []
+            for column in combined_numerical_data.columns:
+                dist, params = best_fit_distributions[column]
+                if dist and params:
+                    marginals.append(dist(*params))
+                else:
+                    marginals.append(norm(loc=np.mean(combined_numerical_data[column]), scale=np.std(combined_numerical_data[column])))
 
         if type == "correlated":
             return combined_metadata, combined_label_mapping, correlation_matrix, marginals
