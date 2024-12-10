@@ -583,11 +583,11 @@ def generate_correlated_data(metadata, correlation_matrix, marginals, num_record
     numerical_metadata = metadata[metadata['datatype'].apply(is_int_or_float)]
     non_numerical_metadata = metadata[~metadata['datatype'].apply(is_int_or_float)]
 
-    orig_numerical_columns = numerical_metadata['variable_name'].tolist()
-
     numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(empty_metadata['variable_name'])]
     numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(zero_metadata['variable_name'])]
     numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(single_value_metadata['variable_name'])]
+
+    orig_numerical_columns = numerical_metadata['variable_name'].tolist()
 
     # this should work to remove both nan and zero variables
     correlation_matrix = pd.DataFrame(correlation_matrix, columns=orig_numerical_columns)    ###### NEW (only columns= bit)
