@@ -532,7 +532,7 @@ def identify_best_fit_distributions(df, discrete_threshold=10): # change this di
 
     for column in df.columns:
         data = df[column].dropna()
-        data = data[~data.isin([np.inf, -np.inf])]
+        #data = data[~data.isin([np.inf, -np.inf])]
 
         if data.nunique() <= discrete_threshold:
             try:
