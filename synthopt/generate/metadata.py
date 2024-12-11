@@ -245,7 +245,7 @@ def metadata_process(data, identifier_column=None, type="correlated"):
 
         if type == "correlated":
             correlation_matrix = np.corrcoef(combined_numerical_data.astype(float).values, rowvar=False)
-            correlation_matrix = pd.DataFrame(correlation_matrix, columns=combined_numerical_data.columns)
+            correlation_matrix = pd.DataFrame(correlation_matrix, index=combined_numerical_data.columns, columns=combined_numerical_data.columns)
             
             best_fit_distributions = identify_best_fit_distributions(combined_numerical_data)
             marginals = []
@@ -282,7 +282,7 @@ def metadata_process(data, identifier_column=None, type="correlated"):
 
         if type == "correlated":
             correlation_matrix = np.corrcoef(numerical_data.astype(float).values, rowvar=False)
-            correlation_matrix = pd.DataFrame(correlation_matrix, columns=numerical_data.columns)
+            correlation_matrix = pd.DataFrame(correlation_matrix, index=numerical_data.columns, columns=numerical_data.columns)
             
             best_fit_distributions = identify_best_fit_distributions(numerical_data)
             marginals = []
