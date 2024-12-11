@@ -74,6 +74,7 @@ def calculate_average_length(df, columns):
 
 def metadata_process(data, identifier_column=None, type="correlated"):
     def process_single_dataframe(data, table_name=None):
+        orig_data_completeness = data.copy()
         data = data.copy()
         metadata = pd.DataFrame(columns=['variable_name', 'datatype', 'completeness', 'values', 'mean', 'standard_deviation', 'skew', 'table_name'])
 
@@ -169,7 +170,9 @@ def metadata_process(data, identifier_column=None, type="correlated"):
 
         # Create metadata for each column
         for column in data.columns:
-            completeness = (data[column].notna().sum() / len(data)) * 100
+            if column not in orig_data_completeness.columns:
+                orig_data_completeness[column] = data[column]
+            completeness = (orig_data_completeness[column].notna().sum() / len(orig_data_completeness)) * 100
             if column in non_categorical_string_columns: #or column in non_numerical_columns
                 value_range = None
                 mean = next((item['avg_char_length'] for item in average_lengths_df if item['column'] == column), None)
