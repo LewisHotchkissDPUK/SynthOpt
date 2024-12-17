@@ -92,7 +92,7 @@ def metadata_process(data, identifier_column=None, type="correlated"):
                 None
         if non_numerical_columns == None:
             non_numerical_columns = []
-
+            
         # Convert floats that are actually integers
         for column in data.select_dtypes(include='float'):
             if (data[column].dropna() % 1 == 0).all():
@@ -103,33 +103,87 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         # fill na of numerical columns with mean (CHANGE, EFFECTS COMPLETENESS BUT NEEDED FOR COVARIANCE)
         float_columns = data.select_dtypes(include=['float']).columns
         data[float_columns] = data[float_columns].fillna(data[float_columns].mean())
-
+        
         # Identify non-numerical columns
         #non_numerical_columns = list(set(data.columns) - set(data.describe().columns))
+        
+        
+        
+        
+        
+        ###########################################################################################
         non_numerical_columns = data.select_dtypes(exclude=['number']).columns.tolist()
         date_columns = []
+        
+        date_formats = [
+            "%b-%m","%b-%y","%b-%Y",
+            "%B-%m","%B-%y","%B-%Y",
+            "%d-%b-%y","%d-%b-%Y","%b-%d-%y","%b-%d-%Y",
+            "%d-%B-%y","%d-%B-%Y","%B-%d-%y","%B-%d-%Y",
+            "%y-%m-%d","%Y-%m-%d","%m-%d-%y","%m-%d-%Y","%d-%m-%y","%d-%m-%Y",
+            "%b/%m","%b/%y","%b/%Y",
+            "%B/%m","%B/%y","%B/%Y",
+            "%d/%b/%y","%d/%b/%Y","%b/%d/%y","%b/%d/%Y",
+            "%d/%B/%y","%d/%B/%Y","%B/%d/%y","%B/%d/%Y",
+            "%y/%m/%d","%Y/%m/%d","%m/%d/%y","%m/%d/%Y","%d/%m/%y","%d/%m/%Y",
+            "%b.%m","%b.%y","%b.%Y",
+            "%B.%m","%B.%y","%B.%Y",
+            "%d.%b.%y","%d.%b.%Y","%b.%d.%y","%b.%d.%Y",
+            "%d.%B.%y","%d.%B.%Y","%B.%d.%y","%B.%d.%Y",
+            "%y.%m.%d","%Y.%m.%d","%m.%d.%y","%m.%d.%Y","%d.%m.%y","%d.%m.%Y",
+        ]
+        
         for column in non_numerical_columns:
-            try:
-                converted_column = pd.to_datetime(data[column], errors='coerce', infer_datetime_format=True)
-                if converted_column.notna().any() and converted_column.dt.date.nunique() != 1:
-                    date_columns.append(column)
-            except ValueError:
-                pass
-
+            for date_format in date_formats:
+                try:
+                    converted_column = pd.to_datetime(data[column], format=date_format)
+                    if converted_column.notna().any() and converted_column.dt.date.nunique != 1:
+                        date_columns.append(column)
+                        data[column] = pd.to_datetime(data[column], format=date_format)
+                        break
+                except ValueError:
+                    continue
+                                        
+        # go through non_numerical_columns which are not in date_columns and check for time formats
+        
+        time_columns = []
+        for column in non_numerical_columns:
+            if column not in date_columns:
+                print(column)
+                try:
+                    pd.to_datetime(data[column], format="%H:%M:%S") #, errors='coerce'
+                    print("should be added HMS")
+                    if pd.to_datetime(data[column], format="%H:%M:%S").notna().sum() != 0:
+                        time_columns.append(column)
+                        print("added HMS")
+                except Exception:
+                    try:
+                        pd.to_datetime(data[column], format="%H:%M") #, errors='coerce'
+                        print("should be added HM")
+                        if pd.to_datetime(data[column], format="%H:%M").notna().sum() != 0:
+                            time_columns.append(column)
+                            print("added HM")
+                    except Exception:
+                        pass
+                
+        print(time_columns)
+            
+        ###########################################################################################
+        
+        
         # add code to try convert strings to numbers
 
         # Identify string/object columns
         all_string_columns = list(set(non_numerical_columns) - set(date_columns))
         categorical_string_columns = []
         for column in data[all_string_columns].columns:
-            if (data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.2) and ((data[all_string_columns][column].value_counts() >= 2).sum() >= (0.2 * len(data[all_string_columns][column].value_counts()))): #>= 2
+            if (data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.2) and ((data[all_string_columns][column].value_counts() >= 2).sum() >= (0.2 * len(data[all_string_columns][column].value_counts()))):
                 if data[all_string_columns][column].nunique() != len(data[all_string_columns][column]):
                     categorical_string_columns.append(column)
         non_categorical_string_columns = list(set(all_string_columns) - set(categorical_string_columns))
         
         # Calculate average lengths of non-categorical strings
         average_lengths_df = calculate_average_length(data, non_categorical_string_columns)
-
         # Encode categorical strings
         orig_data = data.copy()
         le = LabelEncoder()
@@ -137,42 +191,50 @@ def metadata_process(data, identifier_column=None, type="correlated"):
             data[column] = data[column].astype(str)
             data[column] = le.fit_transform(data[column])
 
-        # Handle date columns by expanding them
-        #for col in date_columns:
-        #    if col in data.columns:
-        #        data[col] = pd.to_datetime(data[col], errors='coerce')
+        
+        
+        ###########################################################################################
         for column in date_columns:
-            if not pd.to_datetime(data[column], errors='coerce', infer_datetime_format=True).isna().all():
-                data[column] = pd.to_datetime(data[column], errors='coerce', infer_datetime_format=True)
+            data[column + '_year'] = data[column].dt.year
+            if data[column + '_year'].notna().any():
+                orig_data_completeness[column + '_year'] = data[column + '_year']
+                data[column + '_year'] = data[column + '_year'].fillna(round(data[column + '_year'].mean()))
+                data[column + '_year'] = data[column + '_year'].astype('Int64')
 
-                data[column + '_year'] = data[column].dt.year
-                if data[column + '_year'].notna().any():
-                    data[column + '_year'] = data[column + '_year'].fillna(round(data[column + '_year'].mean()))
-                    data[column + '_year'] = data[column + '_year'].astype('Int64')
+            data[column + '_month'] = data[column].dt.month
+            if data[column + '_month'].notna().any():
+                orig_data_completeness[column + '_month'] = data[column + '_month']
+                data[column + '_month'] = data[column + '_month'].fillna(round(data[column + '_month'].mean()))
+                data[column + '_month'] = data[column + '_month'].astype('Int64')
 
-                data[column + '_month'] = data[column].dt.month
-                if data[column + '_month'].notna().any():
-                    data[column + '_month'] = data[column + '_month'].fillna(round(data[column + '_month'].mean()))
-                    data[column + '_month'] = data[column + '_month'].astype('Int64')
+            data[column + '_day'] = data[column].dt.day
+            if data[column + '_day'].notna().any():
+                orig_data_completeness[column + '_day'] = data[column + '_day']
+                data[column + '_day'] = data[column + '_day'].fillna(round(data[column + '_day'].mean()))
+                data[column + '_day'] = data[column + '_day'].astype('Int64')
 
-                data[column + '_day'] = data[column].dt.day
-                if data[column + '_day'].notna().any():
-                    data[column + '_day'] = data[column + '_day'].fillna(round(data[column + '_day'].mean()))
-                    data[column + '_day'] = data[column + '_day'].astype('Int64')
+            data.insert(data.columns.get_loc(column) + 1, column + '_year', data.pop(column + '_year'))
+            data.insert(data.columns.get_loc(column) + 2, column + '_month', data.pop(column + '_month'))
+            data.insert(data.columns.get_loc(column) + 3, column + '_day', data.pop(column + '_day'))
 
-                data.insert(data.columns.get_loc(column) + 1, column + '_year', data.pop(column + '_year'))
-                data.insert(data.columns.get_loc(column) + 2, column + '_month', data.pop(column + '_month'))
-                data.insert(data.columns.get_loc(column) + 3, column + '_day', data.pop(column + '_day'))
-
-                data = data.drop(columns=[column], axis=1)
-
+            data = data.drop(columns=[column], axis=1)
+        ###########################################################################################
+            
+            
+            
+            
+            
+            
+            
         #data = data.drop(date_columns, axis=1)
-
-        # Create metadata for each column
+        
+        # Create metadata for each column (DOESNT HANDLE DATE COMPLETENESS)
         for column in data.columns:
-            if column not in orig_data_completeness.columns:
-                orig_data_completeness[column] = data[column]
-            completeness = (orig_data_completeness[column].notna().sum() / len(orig_data_completeness)) * 100
+            #if column not in orig_data_completeness.columns:
+            #    orig_data_completeness[column] = data[column]
+                    
+            completeness = (orig_data_completeness[column].notna().sum() / len(data)) * 100
+            
             if column in non_categorical_string_columns: #or column in non_numerical_columns
                 value_range = None
                 mean = next((item['avg_char_length'] for item in average_lengths_df if item['column'] == column), None)
@@ -238,14 +300,14 @@ def metadata_process(data, identifier_column=None, type="correlated"):
                 combined_data = pd.merge(combined_data, processed_data, on=identifier_column, how='outer')
             except:
                 combined_data = pd.concat([combined_data, processed_data], axis=1)
-
+                
         # Correlation across combined numerical data
         combined_numerical_data = combined_data.select_dtypes(include=['number'])
         #correlation_matrix = combined_numerical_data.corr()
 
         combined_numerical_data = combined_numerical_data.dropna(axis=1)
         combined_numerical_data = combined_numerical_data.loc[:, combined_numerical_data.nunique() > 1]
-
+        
         if type == "correlated":
             correlation_matrix = np.corrcoef(combined_numerical_data.astype(float).values, rowvar=False)
             correlation_matrix = pd.DataFrame(correlation_matrix, index=combined_numerical_data.columns, columns=combined_numerical_data.columns)
@@ -277,11 +339,14 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         #numerical_data_filtered = numerical_data_filtered.drop(columns=columns_to_drop)
         #correlation_matrix = numerical_data_filtered.corr()
         #correlation_matrix = numerical_data.corr()
+        #correlation_matrix = np.corrcoef(numerical_data.astype(float).values, rowvar=False)
 
         #print(numerical_data)
         #needed so it matches the removal of empty and single values in generation method
         numerical_data = numerical_data.dropna(axis=1)
         numerical_data = numerical_data.loc[:, numerical_data.nunique() > 1]
+        #numerical_data = numerical_data.loc[:, numerical_data.mean() != 0]
+        
 
         if type == "correlated":
             correlation_matrix = np.corrcoef(numerical_data.astype(float).values, rowvar=False)
@@ -296,10 +361,11 @@ def metadata_process(data, identifier_column=None, type="correlated"):
                 else:
                     marginals.append(norm(loc=np.mean(numerical_data[column]), scale=np.std(numerical_data[column])))
             #correlation_matrix = processed_data.corr() if type == "correlated" else None
-            
+
         # if statistical or structural then only return metadata with columns needed (metadata[columns])
 
         if type == "correlated":
+
             return metadata, label_mapping, correlation_matrix, marginals
         elif type == "structural":
             return metadata[['variable_name', 'datatype', 'completeness', 'values', 'table_name']], label_mapping
@@ -367,7 +433,7 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
                     #print(row['datatype'])
                     #print(row['values'])
                     return None
-
+                
     # Loop through each table and generate its data
     for table_name, variables in table_variable_mapping.items():
         generated_data[table_name] = {}
@@ -382,12 +448,12 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
                 data.append(value)
 
             # Handle completeness
-            completeness = row['completeness']
-            if completeness < 100.0:
-                num_missing = int(num_records * (1 - (completeness / 100.0)))
-                missing_indices = random.sample(range(num_records), num_missing)
-                for idx in missing_indices:
-                    data[idx] = None
+            #completeness = row['completeness']
+            #if completeness < 100.0:
+            #    num_missing = int(num_records * (1 - (completeness / 100.0)))
+            #    missing_indices = random.sample(range(num_records), num_missing)
+            #    for idx in missing_indices:
+            #        data[idx] = None
             
             generated_data[table_name][column_name] = data
 
@@ -489,6 +555,34 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
             for column in generated_data[table_name].columns:
                 if identifier_column in column:
                     generated_data[table_name][column] = participant_ids_integer
+        
+        
+        
+        # NEW COMPLETENESS HANDLING
+        metadata['completeness'] = metadata['completeness'] / 100.0
+        
+        for _, row in metadata.iterrows():
+            column = row['variable_name']
+            completeness = row['completeness']
+            
+            if column.endswith("_year"):
+                column = column[:-5]
+            
+            if column in generated_data[table_name].columns:
+                total_values = len(generated_data[table_name][column])
+                target_non_nulls = int(total_values * completeness)
+                
+                current_non_nulls = generated_data[table_name][column].notnull().sum()
+                values_to_remove = current_non_nulls - target_non_nulls
+                
+                if values_to_remove > 0:
+                    drop_indices = np.random.choice(
+                        generated_data[table_name][generated_data[table_name][column].notnull()].index,
+                        size=values_to_remove,
+                        replace=False
+                    )
+                    generated_data[table_name].loc[drop_indices, column] = np.nan
+                    
 
     if single == True:
         return generated_data['single']
@@ -531,11 +625,13 @@ def best_fit_distribution(data, bins=200):
     return best_distribution, best_params
 
 def identify_best_fit_distributions(df, discrete_threshold=10): # change this discrete identification
+    #df = df.fillna(df.mean())
+    
     result = {}
 
     for column in df.columns:
         data = df[column].dropna()
-        #data = data[~data.isin([np.inf, -np.inf])]
+        data = data[~data.isin([np.inf, -np.inf])]
 
         if data.nunique() <= discrete_threshold:
             try:
@@ -590,18 +686,22 @@ def generate_correlated_data(metadata, correlation_matrix, marginals, num_record
     numerical_metadata = metadata[metadata['datatype'].apply(is_int_or_float)]
     non_numerical_metadata = metadata[~metadata['datatype'].apply(is_int_or_float)]
 
+    #orig_numerical_columns = numerical_metadata['variable_name'].tolist()
+
     numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(empty_metadata['variable_name'])]
     numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(zero_metadata['variable_name'])]
     numerical_metadata = numerical_metadata[~numerical_metadata['variable_name'].isin(single_value_metadata['variable_name'])]
 
     #orig_numerical_columns = numerical_metadata['variable_name'].tolist()
-
+    
     # this should work to remove both nan and zero variables
     #correlation_matrix = pd.DataFrame(correlation_matrix, columns=orig_numerical_columns)    ###### NEW (only columns= bit)
     orig_numerical_columns = correlation_matrix.columns
-
-    correlation_matrix = correlation_matrix.dropna(axis=1, how='all') # extract these variable names and handle them by sampling from a distribution
-    correlation_matrix = correlation_matrix.dropna(axis=0, how='all')
+    
+    # SHOULD MAKE SURE IT DOES BOTH ANT NOT JUST ONE!! (REMOVED FOR NOW BUT MAY BREAK)
+    #correlation_matrix = correlation_matrix.dropna(axis=1, how='all') # extract these variable names and handle them by sampling from a distribution
+    #correlation_matrix = correlation_matrix.dropna(axis=0, how='all')
+    correlation_matrix = correlation_matrix.fillna(0)
 
     remaining_columns = correlation_matrix.columns.tolist()   ###### NEW
     dropped_columns = list(set(orig_numerical_columns) - set(remaining_columns))   ###### NEW
