@@ -563,9 +563,6 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
         for _, row in metadata.iterrows():
             column = row['variable_name']
             completeness = row['completeness'] / 100.0
-
-            print(column)
-            print(completeness)
             
             if column.endswith("_year"):
                 column = column[:-5]
