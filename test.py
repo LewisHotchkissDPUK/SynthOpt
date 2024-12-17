@@ -63,7 +63,7 @@ DATASETS_TEST = {"test_set_1" : DATA_TEST1, "test_set_2" : DATA_TEST2}
 DATASET_MERGE_TEST = {"alzheimers_disease_data_subset1" : pd.read_csv("examples/alzheimers_disease_data_subset1.csv"), 
                       "alzheimers_disease_data_subset2" : pd.read_csv("examples/alzheimers_disease_data_subset2_V2.csv").replace("999,999", np.nan)}
 
-METADATA, LABEL_MAPPING, CORRELATION_MATRIX, MARGINALS = metadata_process(DATASET_MERGE_TEST, "PatientID", "correlated")
+METADATA, LABEL_MAPPING = metadata_process(DATASET_MERGE_TEST, "PatientID", "structural") #, CORRELATION_MATRIX, MARGINALS
 
 #pd.DataFrame(CORRELATION_MATRIX).to_csv("output/test_corr.csv")
 
@@ -76,7 +76,7 @@ print(METADATA)
 #print()
 print(LABEL_MAPPING)
 #print()
-print(CORRELATION_MATRIX)
+#print(CORRELATION_MATRIX)
 
 #SYNTHETIC_DATA = generate_structural_data(METADATA, LABEL_MAPPING, identifier_column="Employee_ID") 
 #print(SYNTHETIC_DATA)
