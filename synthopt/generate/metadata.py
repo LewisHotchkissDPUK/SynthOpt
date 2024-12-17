@@ -149,25 +149,20 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         time_columns = []
         for column in non_numerical_columns:
             if column not in date_columns:
-                print(column)
                 try:
                     pd.to_datetime(data[column], format="%H:%M:%S") #, errors='coerce'
-                    print("should be added HMS")
                     if pd.to_datetime(data[column], format="%H:%M:%S").notna().sum() != 0:
                         time_columns.append(column)
-                        print("added HMS")
+                        data[column] = pd.to_datetime(data[column], format="%H:%M:%S", errors="coerce")
                 except Exception:
                     try:
                         pd.to_datetime(data[column], format="%H:%M") #, errors='coerce'
-                        print("should be added HM")
                         if pd.to_datetime(data[column], format="%H:%M").notna().sum() != 0:
                             time_columns.append(column)
-                            print("added HM")
+                            data[column] = pd.to_datetime(data[column], format="%H:%M", errors="coerce")
                     except Exception:
                         pass
-                
-        print(time_columns)
-            
+                            
         ###########################################################################################
         
         
@@ -175,6 +170,7 @@ def metadata_process(data, identifier_column=None, type="correlated"):
 
         # Identify string/object columns
         all_string_columns = list(set(non_numerical_columns) - set(date_columns))
+        all_string_columns = list(set(all_string_columns) - set(time_columns))
         categorical_string_columns = []
         for column in data[all_string_columns].columns:
             if (data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.2) and ((data[all_string_columns][column].value_counts() >= 2).sum() >= (0.2 * len(data[all_string_columns][column].value_counts()))):
@@ -216,6 +212,34 @@ def metadata_process(data, identifier_column=None, type="correlated"):
             data.insert(data.columns.get_loc(column) + 1, column + '_year', data.pop(column + '_year'))
             data.insert(data.columns.get_loc(column) + 2, column + '_month', data.pop(column + '_month'))
             data.insert(data.columns.get_loc(column) + 3, column + '_day', data.pop(column + '_day'))
+
+            data = data.drop(columns=[column], axis=1)
+        ###########################################################################################
+
+
+        ###########################################################################################
+        for column in time_columns:
+            data[column + '_hour'] = data[column].dt.hour
+            if data[column + '_hour'].notna().any():
+                orig_data_completeness[column + '_hour'] = data[column + '_hour']
+                data[column + '_hour'] = data[column + '_hour'].fillna(round(data[column + '_hour'].mean()))
+                data[column + '_hour'] = data[column + '_hour'].astype('Int64')
+
+            data[column + '_minute'] = data[column].dt.minute
+            if data[column + '_minute'].notna().any():
+                orig_data_completeness[column + '_minute'] = data[column + '_minute']
+                data[column + '_minute'] = data[column + '_minute'].fillna(round(data[column + '_minute'].mean()))
+                data[column + '_minute'] = data[column + '_minute'].astype('Int64')
+
+            data[column + '_second'] = data[column].dt.second
+            if data[column + '_second'].notna().any():
+                orig_data_completeness[column + '_second'] = data[column + '_second']
+                data[column + '_second'] = data[column + '_second'].fillna(round(data[column + '_second'].mean()))
+                data[column + '_second'] = data[column + '_second'].astype('Int64')
+
+            data.insert(data.columns.get_loc(column) + 1, column + '_hour', data.pop(column + '_hour'))
+            data.insert(data.columns.get_loc(column) + 2, column + '_minute', data.pop(column + '_minute'))
+            data.insert(data.columns.get_loc(column) + 3, column + '_second', data.pop(column + '_second'))
 
             data = data.drop(columns=[column], axis=1)
         ###########################################################################################
