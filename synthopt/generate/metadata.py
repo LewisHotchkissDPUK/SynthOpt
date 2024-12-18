@@ -486,6 +486,7 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
 
         # Handle date combination and avoid duplications
         date_columns = {}
+        time_columns = {}
         for col in generated_data[table_name].columns:
             if col.endswith('_year'):
                 base_name = col[:-5]
@@ -503,11 +504,29 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
                     date_columns[base_name] = {}
                 date_columns[base_name]['day'] = col
 
+            elif col.endswith('_hour'):
+                base_name = col[:-5]
+                if base_name not in time_columns:
+                    time_columns[base_name] = {}
+                time_columns[base_name]['hour'] = col
+            elif col.endswith('_minute'):
+                base_name = col[:-7]
+                if base_name not in time_columns:
+                    time_columns[base_name] = {}
+                time_columns[base_name]['minute'] = col
+            elif col.endswith('_second'):
+                base_name = col[:-7]
+                if base_name not in time_columns:
+                    time_columns[base_name] = {}
+                time_columns[base_name]['second'] = col
+
+
+
         # Create a list to track the original variable order
         original_order = list(generated_data[table_name].columns)
 
-        base_names = []
 
+        base_names = []
         combined_date_cols = {}
         for base_name, components in date_columns.items():
             base_names.append(base_name)
@@ -544,23 +563,65 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
                 # Track combined columns to update table columns list later
                 combined_date_cols.update({components['year']: combined_column_name, components['month']: combined_column_name, components['day']: combined_column_name})
 
+
+        time_base_names = []
+        combined_time_cols = {}
+        for time_base_name, components in time_columns.items():
+            time_base_names.append(time_base_name)
+            if all(key in components for key in ['hour', 'minute', 'second']):
+                hours = generated_data[table_name][components['hour']]
+                minutes = generated_data[table_name][components['minute']]
+                seconds = generated_data[table_name][components['second']]
+
+                # Handle invalid time components by coercing them to NaT
+                combined_times = []
+                for h, m, s in zip(hours, minutes, seconds):
+                    try:
+                        if pd.notna(h) and pd.notna(m) and pd.notna(s):
+                            combined_times.append(f"{int(h):02}:{int(m):02}:{int(s):02}")
+                        else:
+                            combined_times.append(None)
+                    except ValueError:
+                        combined_times.append(None)
+
+                # Combine the time components into a single time column
+                combined_column_name = time_base_name  # Use time_base_name as the new time column name
+                generated_data[table_name][combined_column_name] = pd.to_datetime(
+                    combined_times, format='%H:%M:%S', errors='coerce'
+                )
+
+                # Drop the original time columns
+                generated_data[table_name].drop(columns=[components['hour'], components['minute'], components['second']], inplace=True)
+
+                # Track combined columns to update table columns list later
+                combined_time_cols.update({components['hour']: combined_column_name, components['minute']: combined_column_name, components['second']: combined_column_name})
+
+        
         new_columns_order = []
         added_base_names = set()  # Track columns from base_names that have been added
         for col in original_order:
             if col in combined_date_cols:
                 # Use the combined datetime column
                 new_col = combined_date_cols[col]
+            elif col in combined_time_cols:
+                # Use the combined datetime column
+                new_col = combined_time_cols[col]
             else:
                 # Retain the original column
                 new_col = col
             # Check if the column is in base_names and has already been added
             if new_col in base_names and new_col in added_base_names:
                 continue  # Skip if already added
+            if new_col in time_base_names and new_col in added_base_names:
+                continue
             # Add the column to the new order
             new_columns_order.append(new_col)
             # Track the column if it's in base_names
             if new_col in base_names:
                 added_base_names.add(new_col)
+            if new_col in time_base_names:
+                added_base_names.add(new_col)
+
         # Set the DataFrame columns in the new order
         generated_data[table_name] = generated_data[table_name][new_columns_order]
 
