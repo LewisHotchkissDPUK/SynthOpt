@@ -588,7 +588,7 @@ def generate_structural_data(metadata, label_mapping=None, num_records=100, iden
                 combined_column_name = time_base_name  # Use time_base_name as the new time column name
                 generated_data[table_name][combined_column_name] = pd.to_datetime(
                     combined_times, format='%H:%M:%S', errors='coerce'
-                )
+                ).time
 
                 # Drop the original time columns
                 generated_data[table_name].drop(columns=[components['hour'], components['minute'], components['second']], inplace=True)
