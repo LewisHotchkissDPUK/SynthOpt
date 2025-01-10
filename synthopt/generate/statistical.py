@@ -307,6 +307,7 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
                         replace=False
                     )
                     generated_data[table_name].loc[drop_indices, column] = np.nan
+
                     
 
     if single == True:

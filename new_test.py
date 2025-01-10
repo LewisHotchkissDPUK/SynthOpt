@@ -29,3 +29,5 @@ SYNTHETIC_DATA = structural_data(METADATA, LABEL_MAPPING, len(DATA), identifier_
 
 print()
 print(SYNTHETIC_DATA)
+
+SYNTHETIC_DATA.to_csv("output/NEW_TESTING_DATASET_SYNTHETIC_STRUCTURAL.csv")
