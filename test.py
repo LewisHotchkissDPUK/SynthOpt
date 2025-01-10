@@ -20,6 +20,13 @@ import numpy as np
 from synthopt.optimise.optimise import optimise_epsilon
 
 
+
+
+
+
+
+
+
 ## METADATA GENERATION TESTING ##
 """
 METADATA_FILENAME = "C:/Users/Lewis Hotchkiss/OneDrive/Documents/SynthOpt/examples/example_metadata.csv"
@@ -38,7 +45,7 @@ GENERATED_METADATA_DATASETS = generate_metadata(METADATA_FILENAME, SAMPLE_SIZE, 
 """
 
 
-
+"""
 ## CORRELATED METADATA TESTING ##
 DATA = pd.read_csv("examples\healthcare_dataset.csv")
 DATA2 = pd.read_csv("examples/Impact_of_Remote_Work_on_Mental_Health.csv")
@@ -94,7 +101,7 @@ print(SYNTHETIC_DATA)
 #SYNTHETIC_DATA["healthcare"].to_csv("output/healthcare_correlated_metadata_synthetic_data.csv", index=False)
 #SYNTHETIC_DATA["mentalhealth"].to_csv("output/mentalhealth_correlated_metadata_synthetic_data.csv", index=False)
 
-
+"""
 ##
 ## SYNTHETIC DATA GENERATION TESTING (MULTI) ##
 """

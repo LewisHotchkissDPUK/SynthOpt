@@ -1,0 +1,12 @@
+﻿id,name,age,gender,ethnicity,diagnosis,smoke,site,date,time,datetime,score,score2
+1,harry,45.0,male,1,dementia,0,,12/03/2024,00:32:00,,34.8,34
+2,henry,23.0,male,1,,0,,10/11/2024,10:12:00,12/10/2023 00:10:45,23.9,21
+3,mary,32.0,female,1,alzheimers,0,,23/05/2024,08:22:12,,34.78,
+4,jack,32.0,male,1,,0,,27/07/2023,,,7.6,34
+5,hannah,21.0,female,-9,lewy body,0,,,,08/02/2024 08:12:00,8,54
+6,georgia,54.0,female,1,,0,,13/05/2024,,,9.4,23
+7,elizabeth,45.0,female,-9,,,,09/10/2024,00:01:18,,46.76,
+8,george,67.0,,1,ftd,0,,03/10/2023,,,,12
+9,mark,37.0,male,-9,,0,,23/08/2023,06:56:12,,9.87,32
+10,bella,45.0,female,1,,0,,13/05/2024,,,9.4,23
+11,george,67.0,,1,ftd,0,,03/10/2023,,,,12
