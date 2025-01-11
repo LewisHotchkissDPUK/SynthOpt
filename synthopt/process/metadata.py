@@ -179,15 +179,15 @@ def metadata_process(data, identifier_column=None, type="correlated"):
             for column in non_numerical_columns:
                 if contains_date_and_time(df[column].astype(str)):
                     # split into date and time
-                    print(df[column])
+                    #print(df[column])
                     df[column] = pd.to_datetime(df[column], errors='coerce', infer_datetime_format=True)        # This needs fixing as its converting some values to none
-                    print(df[column])
+                    #print(df[column])
                     date_column = df[column].dt.date
                     time_column = df[column].dt.time
                     df.insert(df.columns.get_loc(column), f'{column}_date', date_column)
                     df.insert(df.columns.get_loc(column) + 1, f'{column}_time', time_column)
                     df.drop(column, axis=1, inplace=True)
-                    print(f"Column '{column}' was split into '{column}_date' and '{column}_time'.")
+                    #print(f"Column '{column}' was split into '{column}_date' and '{column}_time'.")
 
                     # Update the non_numerical_columns list
                     if column in non_numerical_columns:
@@ -336,8 +336,15 @@ def metadata_process(data, identifier_column=None, type="correlated"):
                 std_dev = next((item['avg_space_length'] for item in average_lengths_df if item['column'] == column), None)
             else:
                 try:
-                    # identify if numbers are categorical, if so return list, otherwise return tuple   (should be something like < data[column].notna().sum() * 0.3))
-                    if (data[column].nunique() < len(data) * 0.3) and ((data[column].value_counts() >= 2).sum() >= (0.3 * len(data[column].value_counts()))) and (completeness != 0) and (data[column].nunique() >= 2) and (data[column].nunique() != len(data[column])):
+                    # identify if numbers are categorical, if so return list, otherwise return tuple   (should be something like < data[column].notna().sum() * 0.3)) used to be (data[column].nunique() < len(data) * 0.3)
+                    # if the number of unique values is less than 20% of non missing values AND if atleast 60% of the data has more than two counts AND completeness is not 0 and there are atleast two unique values AND the number of unique values are not the same length as the whole data
+                    if ((data[column].nunique() < data[column].notna().sum() * 0.2) \
+                        and ((data[column].value_counts() >= 2).sum() >= (0.6 * data[column].nunique())) \
+                        and (completeness != 0) \
+                        and (data[column].nunique() >= 2) \
+                        and (data[column].nunique() != len(data[column]))): # and (data[column].nunique() < 30)
+                        
+                        
                         value_range = data[column].unique().tolist()
                     else:
                         value_range = (data[column].min(), data[column].max())
