@@ -158,6 +158,7 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
 
 
 
+
         # Create a list to track the original variable order
         original_order = list(generated_data[table_name].columns)
 
@@ -261,6 +262,33 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
         # Set the DataFrame columns in the new order
         generated_data[table_name] = generated_data[table_name][new_columns_order]
 
+
+        #### Handles combination for date time columns
+        columns = generated_data[table_name].columns
+
+        date_columns = [col for col in columns if col.endswith("_date")]
+        time_columns = [col for col in columns if col.endswith("_time")]
+
+        # Find common base names
+        base_names = set(col.replace("_date", "") for col in date_columns).intersection(
+            col.replace("_time", "") for col in time_columns
+        )
+
+        # Combine columns
+        for base in base_names:
+            date_col = base + "_date"
+            time_col = base + "_time"
+            combined_col = base
+            # Convert date_col and time_col to strings before concatenation
+            combined_datetime = pd.to_datetime(generated_data[table_name][date_col].astype(str) + " " + generated_data[table_name][time_col].astype(str))
+            generated_data[table_name].insert(generated_data[table_name].columns.get_loc(date_col), combined_col, combined_datetime)
+
+        # Drop the original _date and _time columns
+        generated_data[table_name].drop(columns=[col for base in base_names for col in [base + "_date", base + "_time"]], inplace=True)
+        #####
+
+
+
         # Apply label mapping if provided
         if label_mapping:
             for col in generated_data[table_name].columns:
@@ -291,6 +319,12 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
             completeness = row['completeness'] / 100.0
             
             if column.endswith("_year"):
+                column = column[:-5]
+
+            if column.endswith("_hour"):
+                column = column[:-5]
+
+            if column.endswith("_date"):
                 column = column[:-5]
             
             if column in generated_data[table_name].columns:

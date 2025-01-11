@@ -133,7 +133,6 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         
         ###########################################################################################
         non_numerical_columns = data.select_dtypes(exclude=['number']).columns.tolist()
-        date_columns = []
         
         date_formats = [
             "%b-%m","%b-%y","%b-%Y",
@@ -152,7 +151,61 @@ def metadata_process(data, identifier_column=None, type="correlated"):
             "%d.%B.%y","%d.%B.%Y","%B.%d.%y","%B.%d.%Y",
             "%y.%m.%d","%Y.%m.%d","%m.%d.%y","%m.%d.%Y","%d.%m.%y","%d.%m.%Y",
         ]
+
+        time_formats = ["%H:%M:%S", "%H:%M"]
+
+
+
+
+        # NEW DATE TIME, check if values contain both date and time. If they do then split out.
+        from dateutil.parser import parse
+
+        # Sample function to check if a column contains both date and time
+        def contains_date_and_time(series):
+            for value in series.dropna():
+                try:
+                    # Attempt to parse the value
+                    dt = parse(value, fuzzy=True)
+                    # Ensure both date and time are present
+                    if dt.date() and (dt.time() != dt.min.time()) and (dt.date() != datetime.today().date()):  # Time is not midnight (00:00:00) and date is not current date
+                        return True
+                except (ValueError, TypeError):
+                    continue
+            return False
+
+        # Function to identify and convert columns containing date and time
+        def identify_datetime_columns(df, non_numerical_columns):
+            #df = df.copy()
+            for column in non_numerical_columns:
+                if contains_date_and_time(df[column].astype(str)):
+                    # split into date and time
+                    df[column] = pd.to_datetime(df[column], errors='coerce')
+                    date_column = df[column].dt.date
+                    time_column = df[column].dt.time
+                    df.insert(df.columns.get_loc(column), f'{column}_date', date_column)
+                    df.insert(df.columns.get_loc(column) + 1, f'{column}_time', time_column)
+                    df.drop(column, axis=1, inplace=True)
+                    print(f"Column '{column}' was split into '{column}_date' and '{column}_time'.")
+
+                    # Update the non_numerical_columns list
+                    if column in non_numerical_columns:
+                        non_numerical_columns.remove(column)
+                    non_numerical_columns.append(f'{column}_date')
+                    non_numerical_columns.append(f'{column}_time')
+                    #break  # Exit after processing the column
+
+            return df
         
+        data = identify_datetime_columns(data, non_numerical_columns)
+
+
+        ######
+
+
+
+
+        date_columns = []
+
         for column in non_numerical_columns:
             for date_format in date_formats:
                 try:
