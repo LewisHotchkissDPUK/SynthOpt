@@ -250,7 +250,7 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         # identify string categories
         categorical_string_columns = []
         for column in data[all_string_columns].columns:
-            if (data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.3) and ((data[all_string_columns][column].value_counts() >= 2).sum() >= (0.3 * len(data[all_string_columns][column].value_counts()))):
+            if (data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.2) and ((data[all_string_columns][column].value_counts() >= 2).sum() >= (0.6 * len(data[all_string_columns][column].value_counts()))):
                 if data[all_string_columns][column].nunique() != len(data[all_string_columns][column]):
                     categorical_string_columns.append(column)
         non_categorical_string_columns = list(set(all_string_columns) - set(categorical_string_columns))
