@@ -179,7 +179,9 @@ def metadata_process(data, identifier_column=None, type="correlated"):
             for column in non_numerical_columns:
                 if contains_date_and_time(df[column].astype(str)):
                     # split into date and time
-                    df[column] = pd.to_datetime(df[column], errors='coerce')
+                    print(df[column])
+                    df[column] = pd.to_datetime(df[column], errors='coerce', infer_datetime_format=True)        # This needs fixing as its converting some values to none
+                    print(df[column])
                     date_column = df[column].dt.date
                     time_column = df[column].dt.time
                     df.insert(df.columns.get_loc(column), f'{column}_date', date_column)
@@ -269,19 +271,19 @@ def metadata_process(data, identifier_column=None, type="correlated"):
             data[column + '_year'] = data[column].dt.year
             if data[column + '_year'].notna().any():
                 orig_data_completeness[column + '_year'] = data[column + '_year']
-                data[column + '_year'] = data[column + '_year'].fillna(round(data[column + '_year'].mean()))
+                data[column + '_year'] = data[column + '_year'].fillna(round(data[column + '_year'].min()))
                 data[column + '_year'] = data[column + '_year'].astype('Int64')
 
             data[column + '_month'] = data[column].dt.month
             if data[column + '_month'].notna().any():
                 orig_data_completeness[column + '_month'] = data[column + '_month']
-                data[column + '_month'] = data[column + '_month'].fillna(round(data[column + '_month'].mean()))
+                data[column + '_month'] = data[column + '_month'].fillna(round(data[column + '_month'].min()))
                 data[column + '_month'] = data[column + '_month'].astype('Int64')
 
             data[column + '_day'] = data[column].dt.day
             if data[column + '_day'].notna().any():
                 orig_data_completeness[column + '_day'] = data[column + '_day']
-                data[column + '_day'] = data[column + '_day'].fillna(round(data[column + '_day'].mean()))
+                data[column + '_day'] = data[column + '_day'].fillna(round(data[column + '_day'].min()))
                 data[column + '_day'] = data[column + '_day'].astype('Int64')
 
             data.insert(data.columns.get_loc(column) + 1, column + '_year', data.pop(column + '_year'))
@@ -297,19 +299,19 @@ def metadata_process(data, identifier_column=None, type="correlated"):
             data[column + '_hour'] = data[column].dt.hour
             if data[column + '_hour'].notna().any():
                 orig_data_completeness[column + '_hour'] = data[column + '_hour']
-                data[column + '_hour'] = data[column + '_hour'].fillna(round(data[column + '_hour'].mean()))
+                data[column + '_hour'] = data[column + '_hour'].fillna(round(data[column + '_hour'].min()))
                 data[column + '_hour'] = data[column + '_hour'].astype('Int64')
 
             data[column + '_minute'] = data[column].dt.minute
             if data[column + '_minute'].notna().any():
                 orig_data_completeness[column + '_minute'] = data[column + '_minute']
-                data[column + '_minute'] = data[column + '_minute'].fillna(round(data[column + '_minute'].mean()))
+                data[column + '_minute'] = data[column + '_minute'].fillna(round(data[column + '_minute'].min()))
                 data[column + '_minute'] = data[column + '_minute'].astype('Int64')
 
             data[column + '_second'] = data[column].dt.second
             if data[column + '_second'].notna().any():
                 orig_data_completeness[column + '_second'] = data[column + '_second']
-                data[column + '_second'] = data[column + '_second'].fillna(round(data[column + '_second'].mean()))
+                data[column + '_second'] = data[column + '_second'].fillna(round(data[column + '_second'].min()))
                 data[column + '_second'] = data[column + '_second'].astype('Int64')
 
             data.insert(data.columns.get_loc(column) + 1, column + '_hour', data.pop(column + '_hour'))
@@ -318,7 +320,6 @@ def metadata_process(data, identifier_column=None, type="correlated"):
 
             data = data.drop(columns=[column], axis=1)
         ###########################################################################################
-            
             
             
             
@@ -335,7 +336,7 @@ def metadata_process(data, identifier_column=None, type="correlated"):
                 std_dev = next((item['avg_space_length'] for item in average_lengths_df if item['column'] == column), None)
             else:
                 try:
-                    # identify if numbers are categorical, if so return list, otherwise return tuple
+                    # identify if numbers are categorical, if so return list, otherwise return tuple   (should be something like < data[column].notna().sum() * 0.3))
                     if (data[column].nunique() < len(data) * 0.3) and ((data[column].value_counts() >= 2).sum() >= (0.3 * len(data[column].value_counts()))) and (completeness != 0) and (data[column].nunique() >= 2) and (data[column].nunique() != len(data[column])):
                         value_range = data[column].unique().tolist()
                     else:
