@@ -338,11 +338,12 @@ def metadata_process(data, identifier_column=None, type="correlated"):
                 try:
                     # identify if numbers are categorical, if so return list, otherwise return tuple   (should be something like < data[column].notna().sum() * 0.3)) used to be (data[column].nunique() < len(data) * 0.3)
                     # if the number of unique values is less than 20% of non missing values AND if atleast 60% of the data has more than two counts AND completeness is not 0 and there are atleast two unique values AND the number of unique values are not the same length as the whole data
-                    if ((data[column].nunique() < data[column].notna().sum() * 0.2) \
-                        and ((data[column].value_counts() >= 2).sum() >= (0.6 * data[column].nunique())) \
+                    if ((data[column].nunique() < data[column].notna().sum() * 0.1) \
+                        and ((data[column].value_counts() >= 2).sum() >= (0.7 * data[column].nunique())) \
                         and (completeness != 0) \
                         and (data[column].nunique() >= 2) \
-                        and (data[column].nunique() != len(data[column]))): # and (data[column].nunique() < 30)
+                        and (data[column].nunique() != len(data[column])) \
+                        and (data[column].nunique() < 50)): # and (data[column].nunique() < 30)
                         
                         
                         value_range = data[column].unique().tolist()
