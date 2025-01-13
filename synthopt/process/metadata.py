@@ -177,24 +177,27 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         def identify_datetime_columns(df, non_numerical_columns):
             #df = df.copy()
             for column in non_numerical_columns:
-                if contains_date_and_time(df[column].astype(str)):
-                    # split into date and time
-                    #print(df[column])
-                    df[column] = pd.to_datetime(df[column], errors='coerce', infer_datetime_format=True)        # This needs fixing as its converting some values to none
-                    #print(df[column])
-                    date_column = df[column].dt.date
-                    time_column = df[column].dt.time
-                    df.insert(df.columns.get_loc(column), f'{column}_date', date_column)
-                    df.insert(df.columns.get_loc(column) + 1, f'{column}_time', time_column)
-                    df.drop(column, axis=1, inplace=True)
-                    #print(f"Column '{column}' was split into '{column}_date' and '{column}_time'.")
+                try:
+                    if contains_date_and_time(df[column].astype(str)):
+                        # split into date and time
+                        #print(df[column])
+                        df[column] = pd.to_datetime(df[column], errors='coerce', infer_datetime_format=True)        # This needs fixing as its converting some values to none
+                        #print(df[column])
+                        date_column = df[column].dt.date
+                        time_column = df[column].dt.time
+                        df.insert(df.columns.get_loc(column), f'{column}_date', date_column)
+                        df.insert(df.columns.get_loc(column) + 1, f'{column}_time', time_column)
+                        df.drop(column, axis=1, inplace=True)
+                        #print(f"Column '{column}' was split into '{column}_date' and '{column}_time'.")
 
-                    # Update the non_numerical_columns list
-                    if column in non_numerical_columns:
-                        non_numerical_columns.remove(column)
-                    non_numerical_columns.append(f'{column}_date')
-                    non_numerical_columns.append(f'{column}_time')
-                    #break  # Exit after processing the column
+                        # Update the non_numerical_columns list
+                        if column in non_numerical_columns:
+                            non_numerical_columns.remove(column)
+                        non_numerical_columns.append(f'{column}_date')
+                        non_numerical_columns.append(f'{column}_time')
+                        #break  # Exit after processing the column
+                except Exception:
+                    None
 
             return df
         
