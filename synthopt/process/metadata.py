@@ -245,7 +245,13 @@ def metadata_process(data, identifier_column=None, type="correlated"):
                             time_columns.append(column)
                             data[column] = pd.to_datetime(data[column], format="%H:%M", errors="coerce")
                     except Exception:
-                        pass
+                        try:
+                            pd.to_datetime(data[column], format="%H:%M:%S.%f", errors="coerce") #, errors='coerce'
+                            if pd.to_datetime(data[column], format="%H:%M:%S.%f", errors="coerce").notna().sum() != 0:
+                                time_columns.append(column)
+                                data[column] = pd.to_datetime(data[column], format="%H:%M:%S.%f", errors="coerce")
+                        except Exception:
+                            pass
                             
         ###########################################################################################
         
