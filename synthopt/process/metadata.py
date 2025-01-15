@@ -189,16 +189,16 @@ def metadata_process(data, identifier_column=None, type="correlated"):
                         #print(df[column])
                         date_column = df[column].dt.date
                         time_column = df[column].dt.time
-                        df.insert(df.columns.get_loc(column), f'{column}_date', date_column)
-                        df.insert(df.columns.get_loc(column) + 1, f'{column}_time', time_column)
+                        df.insert(df.columns.get_loc(column), f'{column}_synthoptdate', date_column)
+                        df.insert(df.columns.get_loc(column) + 1, f'{column}_synthopttime', time_column)
                         df.drop(column, axis=1, inplace=True)
                         #print(f"Column '{column}' was split into '{column}_date' and '{column}_time'.")
 
                         # Update the non_numerical_columns list
                         if column in non_numerical_columns:
                             non_numerical_columns.remove(column)
-                        non_numerical_columns.append(f'{column}_date')
-                        non_numerical_columns.append(f'{column}_time')
+                        non_numerical_columns.append(f'{column}_synthoptdate')
+                        non_numerical_columns.append(f'{column}_synthopttime')
                         #break  # Exit after processing the column
                 except Exception:
                     None
@@ -280,27 +280,27 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         ###########################################################################################
         #for column in date_columns:
         for column in tqdm(date_columns, desc="Splitting Date Columns"):
-            data[column + '_year'] = data[column].dt.year
-            if data[column + '_year'].notna().any():
-                orig_data_completeness[column + '_year'] = data[column + '_year']
-                data[column + '_year'] = data[column + '_year'].fillna(round(data[column + '_year'].min()))
-                data[column + '_year'] = data[column + '_year'].astype('Int64')
+            data[column + '_synthoptyear'] = data[column].dt.year
+            if data[column + '_synthoptyear'].notna().any():
+                orig_data_completeness[column + '_synthoptyear'] = data[column + '_synthoptyear']
+                data[column + '_synthoptyear'] = data[column + '_synthoptyear'].fillna(round(data[column + '_synthoptyear'].min()))
+                data[column + '_synthoptyear'] = data[column + '_synthoptyear'].astype('Int64')
 
-            data[column + '_month'] = data[column].dt.month
-            if data[column + '_month'].notna().any():
-                orig_data_completeness[column + '_month'] = data[column + '_month']
-                data[column + '_month'] = data[column + '_month'].fillna(round(data[column + '_month'].min()))
-                data[column + '_month'] = data[column + '_month'].astype('Int64')
+            data[column + '_synthoptmonth'] = data[column].dt.month
+            if data[column + '_synthoptmonth'].notna().any():
+                orig_data_completeness[column + '_synthoptmonth'] = data[column + '_synthoptmonth']
+                data[column + '_synthoptmonth'] = data[column + '_synthoptmonth'].fillna(round(data[column + '_synthoptmonth'].min()))
+                data[column + '_synthoptmonth'] = data[column + '_synthoptmonth'].astype('Int64')
 
-            data[column + '_day'] = data[column].dt.day
-            if data[column + '_day'].notna().any():
-                orig_data_completeness[column + '_day'] = data[column + '_day']
-                data[column + '_day'] = data[column + '_day'].fillna(round(data[column + '_day'].min()))
-                data[column + '_day'] = data[column + '_day'].astype('Int64')
+            data[column + '_synthoptday'] = data[column].dt.day
+            if data[column + '_synthoptday'].notna().any():
+                orig_data_completeness[column + '_synthoptday'] = data[column + '_synthoptday']
+                data[column + '_synthoptday'] = data[column + '_synthoptday'].fillna(round(data[column + '_synthoptday'].min()))
+                data[column + '_synthoptday'] = data[column + '_synthoptday'].astype('Int64')
 
-            data.insert(data.columns.get_loc(column) + 1, column + '_year', data.pop(column + '_year'))
-            data.insert(data.columns.get_loc(column) + 2, column + '_month', data.pop(column + '_month'))
-            data.insert(data.columns.get_loc(column) + 3, column + '_day', data.pop(column + '_day'))
+            data.insert(data.columns.get_loc(column) + 1, column + '_synthoptyear', data.pop(column + '_synthoptyear'))
+            data.insert(data.columns.get_loc(column) + 2, column + '_synthoptmonth', data.pop(column + '_synthoptmonth'))
+            data.insert(data.columns.get_loc(column) + 3, column + '_synthoptday', data.pop(column + '_synthoptday'))
 
             data = data.drop(columns=[column], axis=1)
         ###########################################################################################
@@ -309,27 +309,27 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         ###########################################################################################
         #for column in time_columns:
         for column in tqdm(time_columns, desc="Splitting Time Columns"):
-            data[column + '_hour'] = data[column].dt.hour
-            if data[column + '_hour'].notna().any():
-                orig_data_completeness[column + '_hour'] = data[column + '_hour']
-                data[column + '_hour'] = data[column + '_hour'].fillna(round(data[column + '_hour'].min()))
-                data[column + '_hour'] = data[column + '_hour'].astype('Int64')
+            data[column + '_synthopthour'] = data[column].dt.hour
+            if data[column + '_synthopthour'].notna().any():
+                orig_data_completeness[column + '_synthopthour'] = data[column + '_synthopthour']
+                data[column + '_synthopthour'] = data[column + '_synthopthour'].fillna(round(data[column + '_synthopthour'].min()))
+                data[column + '_synthopthour'] = data[column + '_synthopthour'].astype('Int64')
 
-            data[column + '_minute'] = data[column].dt.minute
-            if data[column + '_minute'].notna().any():
-                orig_data_completeness[column + '_minute'] = data[column + '_minute']
-                data[column + '_minute'] = data[column + '_minute'].fillna(round(data[column + '_minute'].min()))
-                data[column + '_minute'] = data[column + '_minute'].astype('Int64')
+            data[column + '_synthoptminute'] = data[column].dt.minute
+            if data[column + '_synthoptminute'].notna().any():
+                orig_data_completeness[column + '_synthoptminute'] = data[column + '_synthoptminute']
+                data[column + '_synthoptminute'] = data[column + '_synthoptminute'].fillna(round(data[column + '_synthoptminute'].min()))
+                data[column + '_synthoptminute'] = data[column + '_synthoptminute'].astype('Int64')
 
-            data[column + '_second'] = data[column].dt.second
-            if data[column + '_second'].notna().any():
-                orig_data_completeness[column + '_second'] = data[column + '_second']
-                data[column + '_second'] = data[column + '_second'].fillna(round(data[column + '_second'].min()))
-                data[column + '_second'] = data[column + '_second'].astype('Int64')
+            data[column + '_synthoptsecond'] = data[column].dt.second
+            if data[column + '_synthoptsecond'].notna().any():
+                orig_data_completeness[column + '_synthoptsecond'] = data[column + '_synthoptsecond']
+                data[column + '_synthoptsecond'] = data[column + '_synthoptsecond'].fillna(round(data[column + '_synthoptsecond'].min()))
+                data[column + '_synthoptsecond'] = data[column + '_synthoptsecond'].astype('Int64')
 
-            data.insert(data.columns.get_loc(column) + 1, column + '_hour', data.pop(column + '_hour'))
-            data.insert(data.columns.get_loc(column) + 2, column + '_minute', data.pop(column + '_minute'))
-            data.insert(data.columns.get_loc(column) + 3, column + '_second', data.pop(column + '_second'))
+            data.insert(data.columns.get_loc(column) + 1, column + '_synthopthour', data.pop(column + '_synthopthour'))
+            data.insert(data.columns.get_loc(column) + 2, column + '_synthoptminute', data.pop(column + '_synthoptminute'))
+            data.insert(data.columns.get_loc(column) + 3, column + '_synthoptsecond', data.pop(column + '_synthoptsecond'))
 
             data = data.drop(columns=[column], axis=1)
         ###########################################################################################

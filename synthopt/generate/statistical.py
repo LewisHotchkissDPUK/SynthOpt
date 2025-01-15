@@ -126,34 +126,34 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
         time_columns = {}
         #for col in generated_data[table_name].columns:
         for col in tqdm(generated_data[table_name].columns, desc="Handling Date and Time Columns"):
-            if col.endswith('_year'):
-                base_name = col[:-5]
+            if col.endswith('_synthoptyear'):
+                base_name = col[:-13]
                 if base_name not in date_columns:
                     date_columns[base_name] = {}
                 date_columns[base_name]['year'] = col
-            elif col.endswith('_month'):
-                base_name = col[:-6]
+            elif col.endswith('_synthoptmonth'):
+                base_name = col[:-14]
                 if base_name not in date_columns:
                     date_columns[base_name] = {}
                 date_columns[base_name]['month'] = col
-            elif col.endswith('_day'):
-                base_name = col[:-4]
+            elif col.endswith('_synthoptday'):
+                base_name = col[:-12]
                 if base_name not in date_columns:
                     date_columns[base_name] = {}
                 date_columns[base_name]['day'] = col
 
-            elif col.endswith('_hour'):
-                base_name = col[:-5]
+            elif col.endswith('_synthopthour'):
+                base_name = col[:-13]
                 if base_name not in time_columns:
                     time_columns[base_name] = {}
                 time_columns[base_name]['hour'] = col
-            elif col.endswith('_minute'):
-                base_name = col[:-7]
+            elif col.endswith('_synthoptminute'):
+                base_name = col[:-15]
                 if base_name not in time_columns:
                     time_columns[base_name] = {}
                 time_columns[base_name]['minute'] = col
-            elif col.endswith('_second'):
-                base_name = col[:-7]
+            elif col.endswith('_synthoptsecond'):
+                base_name = col[:-15]
                 if base_name not in time_columns:
                     time_columns[base_name] = {}
                 time_columns[base_name]['second'] = col
@@ -271,26 +271,26 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
         #### Handles combination for date time columns
         columns = generated_data[table_name].columns
 
-        date_columns = [col for col in columns if col.endswith("_date")]
-        time_columns = [col for col in columns if col.endswith("_time")]
+        date_columns = [col for col in columns if col.endswith("_synthoptdate")]
+        time_columns = [col for col in columns if col.endswith("_synthopttime")]
 
         # Find common base names
-        base_names = set(col.replace("_date", "") for col in date_columns).intersection(
-            col.replace("_time", "") for col in time_columns
+        base_names = set(col.replace("_synthoptdate", "") for col in date_columns).intersection(
+            col.replace("_synthopttime", "") for col in time_columns
         )
 
         # Combine columns
         #for base in base_names:
         for base in tqdm(base_names, desc="Combining Date and Time Columns"):
-            date_col = base + "_date"
-            time_col = base + "_time"
+            date_col = base + "_synthoptdate"
+            time_col = base + "_synthopttime"
             combined_col = base
             # Convert date_col and time_col to strings before concatenation
             combined_datetime = pd.to_datetime(generated_data[table_name][date_col].astype(str) + " " + generated_data[table_name][time_col].astype(str))
             generated_data[table_name].insert(generated_data[table_name].columns.get_loc(date_col), combined_col, combined_datetime)
 
         # Drop the original _date and _time columns
-        generated_data[table_name].drop(columns=[col for base in base_names for col in [base + "_date", base + "_time"]], inplace=True)
+        generated_data[table_name].drop(columns=[col for base in base_names for col in [base + "_synthoptdate", base + "_synthopttime"]], inplace=True)
         #####
 
 
@@ -320,20 +320,19 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
         
         
         # NEW COMPLETENESS HANDLING
-        """
         #for _, row in metadata.iterrows():
-        for _, row in tqdm(metadata.iterrows(), desc="Applying Completeness"):
+        for _, row in tqdm(metadata.iterrows(), desc="Applying Completeness", total=(len(metadata))):
             column = row['variable_name']
             completeness = row['completeness'] / 100.0
             
-            if column.endswith("_year"):
-                column = column[:-5]
+            if column.endswith("_synthoptyear"):
+                column = column[:-13]
 
-            if column.endswith("_hour"):
-                column = column[:-5]
+            if column.endswith("_synthopthour"):
+                column = column[:-13]
 
-            if column.endswith("_date"):
-                column = column[:-5]
+            if column.endswith("_synthoptdate"):
+                column = column[:-13]
             
             if column in generated_data[table_name].columns:
                 total_values = len(generated_data[table_name][column])
@@ -349,29 +348,7 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
                         replace=False
                     )
                     generated_data[table_name].loc[drop_indices, column] = np.nan
-        """
-        # Vectorized approach
-        metadata['processed_column'] = metadata['variable_name'].str.rstrip('_year_hour_date')  # Consolidate suffix removal
 
-        # Iterate efficiently
-        for column, completeness in tqdm(zip(metadata['processed_column'], metadata['completeness'] / 100.0),
-                                        desc="Applying Completeness", total=len(metadata)):
-            if column in generated_data[table_name].columns:
-                # Cache the column for efficiency
-                col_data = generated_data[table_name][column]
-                total_values = len(col_data)
-                target_non_nulls = int(total_values * completeness)
-                
-                current_non_nulls = col_data.notnull().sum()
-                values_to_remove = current_non_nulls - target_non_nulls
-
-                if values_to_remove > 0:
-                    # Get indices of non-null values
-                    non_null_indices = col_data[col_data.notnull()].index.to_numpy()
-                    # Randomly select indices to set as NaN
-                    drop_indices = np.random.choice(non_null_indices, size=values_to_remove, replace=False)
-                    # Assign NaN to the selected indices
-                    generated_data[table_name].iloc[drop_indices, generated_data[table_name].columns.get_loc(column)] = np.nan
                     
 
     if single == True:
