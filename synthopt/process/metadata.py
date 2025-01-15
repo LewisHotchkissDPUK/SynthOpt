@@ -155,7 +155,7 @@ def metadata_process(data, identifier_column=None, type="correlated"):
             "%y.%m.%d","%Y.%m.%d","%m.%d.%y","%m.%d.%Y","%d.%m.%y","%d.%m.%Y",
         ]
 
-        time_formats = ["%H:%M:%S", "%H:%M"]
+        time_formats = ["%H:%M:%S.%f", "%H:%M:%S", "%H:%M"]
 
 
 
@@ -197,8 +197,8 @@ def metadata_process(data, identifier_column=None, type="correlated"):
                         # Update the non_numerical_columns list
                         if column in non_numerical_columns:
                             non_numerical_columns.remove(column)
-                        non_numerical_columns.append(f'{column}_synthoptdate')
-                        non_numerical_columns.append(f'{column}_synthopttime')
+                        non_numerical_columns.insert(0, f'{column}_synthoptdate')
+                        non_numerical_columns.insert(0, f'{column}_synthopttime')
                         #break  # Exit after processing the column
                 except Exception:
                     None
