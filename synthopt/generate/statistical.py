@@ -320,7 +320,7 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
         
         
         # NEW COMPLETENESS HANDLING
-        
+        """
         #for _, row in metadata.iterrows():
         for _, row in tqdm(metadata.iterrows(), desc="Applying Completeness"):
             column = row['variable_name']
@@ -349,7 +349,29 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
                         replace=False
                     )
                     generated_data[table_name].loc[drop_indices, column] = np.nan
+        """
+        # Vectorized approach
+        metadata['processed_column'] = metadata['variable_name'].str.rstrip('_year_hour_date')  # Consolidate suffix removal
 
+        # Iterate efficiently
+        for column, completeness in tqdm(zip(metadata['processed_column'], metadata['completeness'] / 100.0),
+                                        desc="Applying Completeness", total=len(metadata)):
+            if column in generated_data[table_name].columns:
+                # Cache the column for efficiency
+                col_data = generated_data[table_name][column]
+                total_values = len(col_data)
+                target_non_nulls = int(total_values * completeness)
+                
+                current_non_nulls = col_data.notnull().sum()
+                values_to_remove = current_non_nulls - target_non_nulls
+
+                if values_to_remove > 0:
+                    # Get indices of non-null values
+                    non_null_indices = col_data[col_data.notnull()].index.to_numpy()
+                    # Randomly select indices to set as NaN
+                    drop_indices = np.random.choice(non_null_indices, size=values_to_remove, replace=False)
+                    # Assign NaN to the selected indices
+                    generated_data[table_name].iloc[drop_indices, generated_data[table_name].columns.get_loc(column)] = np.nan
                     
 
     if single == True:
