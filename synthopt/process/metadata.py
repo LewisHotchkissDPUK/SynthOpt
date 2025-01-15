@@ -18,6 +18,7 @@ warnings.filterwarnings('ignore')
 from statsmodels.distributions.copula.api import GaussianCopula, CopulaDistribution
 from scipy.stats import norm
 import scipy.stats as stats
+from tqdm import tqdm
 
 
 def calculate_average_length(df, columns):
@@ -101,7 +102,8 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         metadata = pd.DataFrame(columns=['variable_name', 'datatype', 'completeness', 'values', 'mean', 'standard_deviation', 'table_name'])
 
         non_numerical_columns = data.select_dtypes(exclude=['number']).columns.tolist()
-        for column in non_numerical_columns:
+        #for column in non_numerical_columns:
+        for column in tqdm(non_numerical_columns, desc="Processing Non Numerical Columns"):
             # IF THE OBJECT CANT BE CONVERTED TO NUMBER
             try:
                 data[column] = pd.to_numeric(data[column], errors='raise')
@@ -116,7 +118,8 @@ def metadata_process(data, identifier_column=None, type="correlated"):
             non_numerical_columns = []
             
         # Convert floats that are actually integers
-        for column in data.select_dtypes(include='float'):
+        #for column in data.select_dtypes(include='float'):
+        for column in tqdm(data.select_dtypes(include='float'), desc="Processing Integer Columns"):
             if (data[column].dropna() % 1 == 0).all():
                 data[column] = data[column].astype("Int64")
                 if data[column].notna().any():
@@ -176,7 +179,8 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         # Function to identify and convert columns containing date and time
         def identify_datetime_columns(df, non_numerical_columns):
             #df = df.copy()
-            for column in non_numerical_columns:
+            #for column in non_numerical_columns:
+            for column in tqdm(non_numerical_columns, desc="Processing Date + Time Columns"):
                 try:
                     if contains_date_and_time(df[column].astype(str)):
                         # split into date and time
@@ -211,7 +215,8 @@ def metadata_process(data, identifier_column=None, type="correlated"):
 
         date_columns = []
 
-        for column in non_numerical_columns:
+        #for column in non_numerical_columns:
+        for column in tqdm(non_numerical_columns, desc="Processing Date Columns"):
             for date_format in date_formats:
                 try:
                     converted_column = pd.to_datetime(data[column], format=date_format)
@@ -225,7 +230,8 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         # go through non_numerical_columns which are not in date_columns and check for time formats
         
         time_columns = []
-        for column in non_numerical_columns:
+        #for column in non_numerical_columns:
+        for column in tqdm(non_numerical_columns, desc="Processing Time Columns"):
             if column not in date_columns:
                 try:
                     pd.to_datetime(data[column], format="%H:%M:%S") #, errors='coerce'
@@ -252,7 +258,8 @@ def metadata_process(data, identifier_column=None, type="correlated"):
 
         # identify string categories
         categorical_string_columns = []
-        for column in data[all_string_columns].columns:
+        #for column in data[all_string_columns].columns:
+        for column in tqdm(data[all_string_columns].columns, desc="Processing String Columns"):
             if (data[all_string_columns][column].nunique() < len(data[all_string_columns]) * 0.2) and ((data[all_string_columns][column].value_counts() >= 2).sum() >= (0.6 * len(data[all_string_columns][column].value_counts()))):
                 if data[all_string_columns][column].nunique() != len(data[all_string_columns][column]):
                     categorical_string_columns.append(column)
@@ -263,14 +270,16 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         # Encode categorical strings
         orig_data = data.copy()
         le = LabelEncoder()
-        for column in categorical_string_columns:
+        #for column in categorical_string_columns:
+        for column in tqdm(categorical_string_columns, desc="Processing Categorical String Columns"):
             data[column] = data[column].astype(str)
             data[column] = le.fit_transform(data[column])
 
         
         
         ###########################################################################################
-        for column in date_columns:
+        #for column in date_columns:
+        for column in tqdm(date_columns, desc="Splitting Date Columns"):
             data[column + '_year'] = data[column].dt.year
             if data[column + '_year'].notna().any():
                 orig_data_completeness[column + '_year'] = data[column + '_year']
@@ -298,7 +307,8 @@ def metadata_process(data, identifier_column=None, type="correlated"):
 
 
         ###########################################################################################
-        for column in time_columns:
+        #for column in time_columns:
+        for column in tqdm(time_columns, desc="Splitting Time Columns"):
             data[column + '_hour'] = data[column].dt.hour
             if data[column + '_hour'].notna().any():
                 orig_data_completeness[column + '_hour'] = data[column + '_hour']
@@ -329,8 +339,8 @@ def metadata_process(data, identifier_column=None, type="correlated"):
             
             
         
-        for column in data.columns:
-
+        #for column in data.columns:
+        for column in tqdm(data.columns, desc="Handling Completeness"):
             completeness = (orig_data_completeness[column].notna().sum() / len(data)) * 100
             
             if column in non_categorical_string_columns: #or column in non_numerical_columns
@@ -374,7 +384,8 @@ def metadata_process(data, identifier_column=None, type="correlated"):
 
         # Create label mapping for categorical variables with table name prefix
         label_mapping = {}
-        for column in categorical_string_columns:
+        #for column in categorical_string_columns:
+        for column in tqdm(categorical_string_columns, desc="Handling Label Mapping"):
             prefixed_column = f"{table_name}.{column}" if table_name else column  # Add table name prefix
             orig_data[column] = orig_data[column].astype(str)
             label_mapping[prefixed_column] = dict(zip(le.fit_transform(orig_data[column].unique()), orig_data[column].unique()))
@@ -390,7 +401,8 @@ def metadata_process(data, identifier_column=None, type="correlated"):
         combined_label_mapping = {}
         combined_data = pd.DataFrame()
 
-        for table_name, df in data.items():
+        #for table_name, df in data.items():
+        for table_name, df in tqdm(data.items(), desc="Processing Tables"):
             table_metadata, table_label_mapping, processed_data = process_single_dataframe(df, table_name)
             combined_metadata = pd.concat([combined_metadata, table_metadata], ignore_index=True)
             

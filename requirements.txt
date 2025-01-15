@@ -4,3 +4,4 @@ synthcity
 anonymeter
 seaborn
 reportlab
+tqdm

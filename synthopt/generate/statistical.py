@@ -9,7 +9,7 @@ from datetime import datetime
 import calendar
 import warnings
 warnings.filterwarnings('ignore')
-
+from tqdm import tqdm
 
 # Function to generate a random string
 def random_string(length=6):
@@ -106,7 +106,8 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
     for table_name, variables in table_variable_mapping.items():
         generated_data[table_name] = {}
         
-        for row in variables:
+        #for row in variables:
+        for row in tqdm(variables, desc="Generating Synthetic Data"):
             column_name = row['variable_name']
             data = []
 
@@ -123,7 +124,8 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
         # Handle date combination and avoid duplications
         date_columns = {}
         time_columns = {}
-        for col in generated_data[table_name].columns:
+        #for col in generated_data[table_name].columns:
+        for col in tqdm(generated_data[table_name].columns, desc="Handling Date and Time Columns"):
             if col.endswith('_year'):
                 base_name = col[:-5]
                 if base_name not in date_columns:
@@ -165,7 +167,8 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
 
         base_names = []
         combined_date_cols = {}
-        for base_name, components in date_columns.items():
+        #for base_name, components in date_columns.items():
+        for base_name, components in tqdm(date_columns.items(), desc="Combining Date Columns"):
             base_names.append(base_name)
             if all(key in components for key in ['year', 'month', 'day']):
                 years = generated_data[table_name][components['year']]
@@ -203,7 +206,8 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
 
         time_base_names = []
         combined_time_cols = {}
-        for time_base_name, components in time_columns.items():
+        #for time_base_name, components in time_columns.items():
+        for time_base_name, components in tqdm(time_columns.items(), desc="Combining Time Columns"):
             time_base_names.append(time_base_name)
             if all(key in components for key in ['hour', 'minute', 'second']):
                 hours = generated_data[table_name][components['hour']]
@@ -236,7 +240,8 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
         
         new_columns_order = []
         added_base_names = set()  # Track columns from base_names that have been added
-        for col in original_order:
+        #for col in original_order:
+        for col in tqdm(original_order, desc="Reordering Synthetic Data"):
             if col in combined_date_cols:
                 # Use the combined datetime column
                 new_col = combined_date_cols[col]
@@ -275,7 +280,8 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
         )
 
         # Combine columns
-        for base in base_names:
+        #for base in base_names:
+        for base in tqdm(base_names, desc="Combining Date and Time Columns"):
             date_col = base + "_date"
             time_col = base + "_time"
             combined_col = base
@@ -291,7 +297,8 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
 
         # Apply label mapping if provided
         if label_mapping:
-            for col in generated_data[table_name].columns:
+            #for col in generated_data[table_name].columns:
+            for col in tqdm(generated_data[table_name].columns, desc="Applying Label Mapping"):
                 full_key = f"{table_name}.{col}"  # THIS IS WHY MAPPING ISNT WORKING _ TABLE NAME HASNT BEEN APPENDED FOR SINGLE TABLES
                 if full_key in label_mapping:
                     # Map the values, ensuring NaN values are handled correctly
@@ -314,7 +321,8 @@ def structural_data(metadata, label_mapping=None, num_records=100, identifier_co
         
         # NEW COMPLETENESS HANDLING
         
-        for _, row in metadata.iterrows():
+        #for _, row in metadata.iterrows():
+        for _, row in tqdm(metadata.iterrows(), desc="Applying Completeness"):
             column = row['variable_name']
             completeness = row['completeness'] / 100.0
             
