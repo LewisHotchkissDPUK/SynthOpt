@@ -36,8 +36,9 @@ SYNTHETIC_DATA.to_csv("output/NEW_TESTING_DATASET_SYNTHETIC_STRUCTURAL.csv")
 ### New Structural Metadata Process Testing ###
 from synthopt.process.structural_metadata import process_structural_metadata
 DATA = pd.read_csv("examples/NEW_TESTING_DATASET.csv")
-print(DATA)
+DATA2 = pd.read_csv("examples/healthcare_dataset.csv")
+DATASETS = {"Test": DATA, "Healthcare": DATA2}
 #date_formats = ["%d/%m/%Y %H:%M:%S.%f", "%d/%m/%Y", "%H:%M:%S", "%d/%m/%Y %H:%M", "%Y-%m-%d"]
 date_formats = None
-METADATA = process_structural_metadata(DATA, date_formats, "Test")
+METADATA = process_structural_metadata(DATASETS, date_formats)
 print(METADATA)

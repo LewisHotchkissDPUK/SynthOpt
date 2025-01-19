@@ -55,10 +55,9 @@ def detect_datetime_in_objects(data, datetime_formats, non_numerical_columns):
             # datetime_columns.append(column)
             # non_numerical_columns.remove(column)
 
-        for datetime_format in tqdm(datetime_formats, desc="Processing Datetime Columns"):
+        for datetime_format in datetime_formats:
             try:
                 converted_column = pd.to_datetime(data[column], format=datetime_format)
-                print(converted_column)
                 # should only convert to unix if for stats/corr version
                 if converted_column.notna().any():
                     if any(converted_column.dt.date == pd.Timestamp("1900-01-01").date()):
@@ -123,10 +122,12 @@ def encode_data(data, orig_data, categorical_string_columns):
         data_encoded[column] = data_encoded[column].astype(str)
         data_encoded[column] = le.fit_transform(data_encoded[column])
 
-        mapping = dict(zip(le.fit_transform(data_encoded[column].unique()),orig_data[column].unique(),))
-        nan_key = next((key for key, value in mapping.items() if isinstance(value, float) and math.isnan(value)), None)
-
-        data_encoded[column] = data_encoded[column].replace(nan_key, np.nan)
+        mapping = dict(zip(le.fit_transform(data_encoded[column].unique()), orig_data[column].unique()))
+        try:
+            nan_key = next((key for key, value in mapping.items() if isinstance(value, float) and math.isnan(value)), None)
+            data_encoded[column] = data_encoded[column].replace(nan_key, np.nan)
+        except:
+            None
         data_encoded[column] = data_encoded[column].astype("Int64")
         if nan_key is not None:
             del mapping[nan_key]
