@@ -80,9 +80,7 @@ def detect_datetime_in_objects(data, datetime_formats, non_numerical_columns):
 
 def detect_integer_in_floats(data):
     try:
-        for column in tqdm(
-            data.select_dtypes(include="float"), desc="Processing Integer Columns"
-        ):
+        for column in tqdm(data.select_dtypes(include="float"), desc="Processing Integer Columns"):
             if (data[column].dropna() % 1 == 0).all():
                 data[column] = data[column].astype("Int64")
             if data[column].apply(float.is_integer).all():
@@ -95,9 +93,7 @@ def detect_integer_in_floats(data):
 # identify string categories
 def detect_categorical_strings(data, non_numerical_columns):
     categorical_string_columns = []
-    for column in tqdm(
-        data[non_numerical_columns].columns, desc="Processing String Columns"
-    ):
+    for column in tqdm(data[non_numerical_columns].columns, desc="Processing String Columns"):
 
         if (
             data[non_numerical_columns][column].nunique()
@@ -123,26 +119,13 @@ def encode_data(data, orig_data, categorical_string_columns):
     data_encoded = data.copy()
     le = LabelEncoder()
     column_mappings = {}
-    for column in tqdm(
-        categorical_string_columns, desc="Encoding Categorical String Columns"
-    ):
+    for column in tqdm(categorical_string_columns, desc="Encoding Categorical String Columns"):
         data_encoded[column] = data_encoded[column].astype(str)
         data_encoded[column] = le.fit_transform(data_encoded[column])
 
-        mapping = dict(
-            zip(
-                le.fit_transform(data_encoded[column].unique()),
-                orig_data[column].unique(),
-            )
-        )
-        nan_key = next(
-            (
-                key
-                for key, value in mapping.items()
-                if isinstance(value, float) and math.isnan(value)
-            ),
-            None,
-        )
+        mapping = dict(zip(le.fit_transform(data_encoded[column].unique()),orig_data[column].unique(),))
+        nan_key = next((key for key, value in mapping.items() if isinstance(value, float) and math.isnan(value)), None)
+
         data_encoded[column] = data_encoded[column].replace(nan_key, np.nan)
         data_encoded[column] = data_encoded[column].astype("Int64")
         if nan_key is not None:
@@ -154,19 +137,12 @@ def encode_data(data, orig_data, categorical_string_columns):
 # identify numerical categories
 def detect_categorical_numerical(data, numerical_columns):
     categorical_numerical_columns = []
-    for column in tqdm(
-        numerical_columns, desc="Identifying Categorical Numerical Columns"
-    ):
-        if (
-            (data[column].nunique() < data[column].notna().sum() * 0.2)
-            and (
-                (data[column].value_counts() >= 2).sum()
-                >= (0.7 * data[column].nunique())
-            )
+    for column in tqdm(numerical_columns, desc="Identifying Categorical Numerical Columns"):
+        if ((data[column].nunique() < data[column].notna().sum() * 0.2) 
+            and ((data[column].value_counts() >= 2).sum()>= (0.7 * data[column].nunique()))
             and (data[column].notna().any())
             and (data[column].nunique() >= 2)
             and (data[column].nunique() != len(data[column]))
-            and (data[column].nunique() < 50)
-        ):  # and (data[column].nunique() < 30)
+            and (data[column].nunique() < 50)):
             categorical_numerical_columns.append(column)
     return data, categorical_numerical_columns

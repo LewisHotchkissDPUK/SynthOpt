@@ -33,9 +33,7 @@ def process_structural_metadata(data, datetime_formats=None, table_name=None):
                 value_range = None
             else:
                 try:
-                    if (column in categorical_numerical_columns) or (
-                        column in categorical_string_columns
-                    ):
+                    if (column in categorical_numerical_columns) or (column in categorical_string_columns):
                         value_range = data[column].dropna().unique().tolist()
                     else:
                         value_range = (data[column].min(), data[column].max())
