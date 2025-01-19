@@ -77,7 +77,7 @@ def process_structural_metadata(data, datetime_formats=None, table_name=None):
                     "completeness": [completeness],
                     "values": [value_range],
                     "coding": [coding],
-                    "table_name": [table_name] if table_name else [None]})
+                    "table_name": [table_name] if table_name else ["None"]})
             metadata = pd.concat([metadata, new_row], ignore_index=True)
         metadata["completeness"] = round(metadata["completeness"]).astype(int)
 

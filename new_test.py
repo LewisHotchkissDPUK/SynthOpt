@@ -42,3 +42,8 @@ DATASETS = {"Test": DATA, "Healthcare": DATA2}
 date_formats = None
 METADATA = process_structural_metadata(DATASETS, date_formats)
 print(METADATA)
+
+### New Structural Generation Testing ###
+from synthopt.generate.structural_synthetic_data import generate_structural_synthetic_data
+SYNTHETIC_DATA = generate_structural_synthetic_data(METADATA, num_records=1000, identifier_column="id")
+print(SYNTHETIC_DATA)
