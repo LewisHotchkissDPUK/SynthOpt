@@ -27,7 +27,7 @@ def process_structural_metadata(data, datetime_formats=None, table_name=None):
         metadata = pd.DataFrame(columns=['variable_name', 'datatype', 'completeness', 'values', 'coding', 'table_name'])
 
         for column in tqdm(data.columns, desc="Creating Metadata"):
-            completeness = (orig_data[column].notna().sum() / len(data)) * 100
+            completeness = (orig_data[column].notna().sum() / len(orig_data)) * 100
 
             if column in non_categorical_string_columns:
                 value_range = None
@@ -79,7 +79,7 @@ def process_structural_metadata(data, datetime_formats=None, table_name=None):
                     "coding": [coding],
                     "table_name": [table_name] if table_name else ["None"]})
             metadata = pd.concat([metadata, new_row], ignore_index=True)
-        metadata["completeness"] = round(metadata["completeness"]).astype(int)
+        #metadata["completeness"] = round(metadata["completeness"]).astype(int)
 
         return metadata
 

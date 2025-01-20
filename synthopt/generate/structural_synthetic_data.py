@@ -22,9 +22,6 @@ def generate_structural_synthetic_data(metadata, num_records=1000, identifier_co
         # Append variable row details to the specific table
         table_variable_mapping[table_name].append(row)
 
-    num_records = 100
-    identifier_column = "id"
-
     # Loop through each table and generate its data
     for table_name, variables in table_variable_mapping.items():
         generated_data[table_name] = {}
@@ -48,9 +45,10 @@ def generate_structural_synthetic_data(metadata, num_records=1000, identifier_co
         )
         generated_data[table_name] = completeness(metadata, generated_data[table_name])
         if identifier_column is not None:
-            generated_data[table_name] = add_identifier(
-                generated_data[table_name], metadata, identifier_column, num_records
-            )
+            if identifier_column in generated_data[table_name].columns.tolist():
+                generated_data[table_name] = add_identifier(
+                    generated_data[table_name], metadata, identifier_column, num_records
+                )
 
     if "None" in generated_data:
         generated_data = generated_data["None"]
