@@ -1,0 +1,1001 @@
+,Name,Age,Gender,Blood Type,Medical Condition,Date of Admission,Doctor,TestTrunc,TestWrongDate,TestDate,TestSingle,TestZero,TestEmpty,Hospital,Insurance Provider,Billing Amount,Room Number,Admission Type,Discharge Date,Medication,Test Results
+0,xmvtlhvh,24.0,Male,O+,Cancer,15/03/2022,jksvhxjug,,98,,,,,ytiqsbsip,UnitedHealthcare,10888.36118516887,402,Emergency,30/05/2020,Ibuprofen,Normal
+1,igtzx,22.0,Female,AB-,Diabetes,03/09/2019,lzviggpsb,,98,,,,,trgbabyin,Blue Cross,26940.70669147735,126,Elective,21/04/2024,Paracetamol,Abnormal
+2,zbkmwjwqbm,56.0,Male,A+,Obesity,29/06/2021,pvqjgcv,,105,,,,,kaezq,Aetna,5063.995330041995,446,Urgent,06/03/2024,Ibuprofen,Normal
+3,srjgz,81.0,Male,O+,Diabetes,19/03/2021,qwuaqzkt,,105,,,,,bchujmxxu,Medicare,11924.39799543743,331,Urgent,08/06/2022,Ibuprofen,Inconclusive
+4,jtzijmv,20.0,Female,B-,Diabetes,01/02/2023,rsrnkyhi,,98,,,,,kzzhgvbjos,Medicare,28572.016297022597,419,Urgent,26/06/2022,Paracetamol,Abnormal
+5,wfqqvdbtv,71.0,Male,AB+,Obesity,26/04/2021,loktnl,,113,,,,,bnkvqwvus,Medicare,2091.648978041004,197,Elective,25/10/2022,Lipitor,Abnormal
+6,oteof,54.0,Female,AB-,Arthritis,03/04/2021,fzicihbi,,117,,,,,mnnkon,Aetna,43797.349116579244,335,Urgent,17/06/2020,Lipitor,Inconclusive
+7,uspbpnb,42.0,Female,AB-,Arthritis,22/04/2021,xrkjmdhmi,,105,,,,,oyynmwn,UnitedHealthcare,23602.023406135908,380,Elective,29/07/2019,Aspirin,Abnormal
+8,zxrijibba,23.0,Male,B+,Hypertension,19/06/2022,kcsgutpdfe,,98,,,,,kykim,UnitedHealthcare,32320.599626821237,307,Urgent,17/03/2020,Aspirin,Abnormal
+9,mlkixjbe,15.0,Female,AB-,Asthma,29/08/2021,zvxymcn,,113,,,,,dkgunki,Medicare,27816.59204555441,202,Emergency,23/01/2021,Lipitor,Normal
+10,memjicwdb,35.0,Female,B-,Hypertension,25/04/2024,cgrxbyrlrl,,117,,,,,xasfbwjaf,UnitedHealthcare,12979.80258259677,144,Urgent,20/03/2023,Paracetamol,Abnormal
+11,esbmxbru,56.0,Female,A-,Hypertension,17/08/2021,qvohgfw,,105,,,,,qfrjwcnu,Blue Cross,27507.378779242776,307,Urgent,06/09/2023,Paracetamol,Inconclusive
+12,vteokvzfjz,59.0,Male,B+,Diabetes,14/01/2022,oupuwyb,,106,,,,,hpmtemdz,Medicare,-1733.8280522181904,432,Elective,12/01/2020,Ibuprofen,Normal
+13,osrfbl,65.0,Male,O-,Diabetes,04/07/2019,zfbzkd,,117,,,,,nvzmtyvpxr,Blue Cross,18782.222630986987,462,Urgent,01/07/2020,Lipitor,Normal
+14,axswpaxe,70.0,Female,B-,Obesity,23/01/2022,dzphwd,,106,,,,,kecmsxm,Medicare,11948.807106920121,145,Elective,20/06/2021,Penicillin,Inconclusive
+15,detvjfakvz,79.0,Female,AB+,Arthritis,06/05/2023,qzocopddzz,,117,,,,,ugolrqwzq,Medicare,12293.847854147425,277,Elective,12/04/2020,Aspirin,Normal
+16,tmkvc,52.0,Male,AB-,Diabetes,15/08/2023,dpnzuemqxt,,117,,,,,yeuix,Cigna,19496.943663146012,206,Urgent,03/05/2024,Lipitor,Normal
+17,otsteap,49.0,Female,O+,Cancer,17/12/2020,rqnzdrfo,,113,,,,,xsxwvewhu,Medicare,28517.600608674216,350,Urgent,11/11/2022,Lipitor,Abnormal
+18,ddefd,58.0,Female,O+,Arthritis,16/09/2023,ykbtjfggxu,,117,,,,,hgulagsd,Cigna,34204.58993573842,278,Elective,03/11/2023,Ibuprofen,Inconclusive
+19,vzfkpjtul,19.0,Female,A-,Arthritis,08/02/2024,nslelm,,105,,,,,ihmgqja,Medicare,10605.644465300384,118,Urgent,10/02/2020,Ibuprofen,Normal
+20,rlwaiwdw,85.0,Female,AB+,Diabetes,19/10/2019,mxwrczigxu,,106,,,0.0,,eiimf,Aetna,-611.5456371535051,401,Elective,07/04/2024,Lipitor,Abnormal
+21,ugsrtsi,31.0,Female,A-,Cancer,17/06/2021,iyjcrrl,,98,,,,,yoxsi,UnitedHealthcare,48762.381784325196,186,Emergency,02/10/2021,Paracetamol,Normal
+22,wqlakrdi,50.0,Male,AB+,Asthma,09/03/2023,zhwbhse,,105,,,,,okfxsxnh,Cigna,22446.429404600494,323,Emergency,05/04/2021,Lipitor,Normal
+23,jjhnm,27.0,Male,B-,Arthritis,30/04/2022,yzydcts,,117,,,,,uwdxj,UnitedHealthcare,18134.26598456197,495,Emergency,24/07/2020,Lipitor,Abnormal
+24,aujfrykdpt,15.0,Female,AB-,Obesity,18/04/2022,auhwhqoxb,,98,,,,,tihbjv,Medicare,6684.235449569851,365,Emergency,07/08/2020,Penicillin,Inconclusive
+25,jfwbxntwty,81.0,Female,O-,Asthma,17/12/2022,xfkewlp,,105,,,,,mrtljaaeyr,Aetna,51190.70900267609,461,Emergency,13/02/2024,Penicillin,Inconclusive
+26,ebvqpc,87.0,Male,A-,Asthma,21/02/2022,xawoewsez,,106,,,,,mnpujftle,Cigna,1780.2806311011484,495,Urgent,17/01/2024,Paracetamol,Abnormal
+27,srvoccgi,14.0,Female,O+,Asthma,08/08/2019,okdto,,113,,,,,zkygnqn,Cigna,1625.5599936018832,263,Elective,18/03/2020,Penicillin,Abnormal
+28,ckbkn,42.0,Male,O-,Arthritis,02/01/2020,qfsrmqr,,106,,,,,iqozmgzkoh,Aetna,3665.760930492559,403,Emergency,10/09/2020,Ibuprofen,Inconclusive
+29,alddzazfqu,86.0,Female,O-,Diabetes,18/12/2020,fspuzvomw,,98,,,,,uayme,UnitedHealthcare,16067.431393879155,353,Urgent,05/06/2019,Ibuprofen,Abnormal
+30,crmrbkqv,34.0,Female,AB+,Arthritis,24/04/2023,gwkksgort,,105,,,,,evzhneao,Aetna,43677.99894979746,301,Urgent,20/06/2019,Lipitor,Normal
+31,ymjlyz,18.0,Female,B+,Diabetes,04/01/2022,huvgoga,,117,,,,,nvdbqu,UnitedHealthcare,48464.91358717775,327,Urgent,01/03/2020,Aspirin,Normal
+32,kymyy,56.0,Male,AB+,Arthritis,02/12/2020,dvlgjox,,105,,,,,ymuzpdt,Blue Cross,13835.45799041606,216,Urgent,10/07/2019,Penicillin,Inconclusive
+33,gvdzgf,28.0,Female,O+,Arthritis,22/08/2022,ehhzjkvtxp,,106,,,,,qxpdfshj,Aetna,11341.085320585082,162,Emergency,02/08/2021,Ibuprofen,Normal
+34,hoomqyon,86.0,Female,O-,Obesity,26/11/2022,hrjypnu,,105,,,,,dbaklzhu,Blue Cross,15228.701061007361,390,Elective,28/01/2021,Lipitor,Abnormal
+35,afknmlrkmv,23.0,Male,B+,Hypertension,17/04/2021,jmvmq,,105,,,,,wahdc,Medicare,46856.02154612394,130,Emergency,01/01/2023,Penicillin,Inconclusive
+36,xwdgojlddt,67.0,Male,AB-,Obesity,07/02/2021,dgrjmxkp,,113,,,,,jsghkskixe,Blue Cross,46381.30631855183,346,Elective,25/06/2022,Aspirin,Abnormal
+37,hlfzhnyygb,87.0,Male,O+,Obesity,14/04/2022,zimazf,,98,,,,,bmlilgir,Aetna,5008.738912660245,261,Emergency,21/11/2023,Lipitor,Normal
+38,hwmbg,33.0,Male,AB-,Hypertension,23/06/2023,fowetgqeb,,106,,,,,bfdmvfm,UnitedHealthcare,5504.684722348444,353,Emergency,06/09/2020,Ibuprofen,Inconclusive
+39,blxdlqnj,64.0,Female,O-,Arthritis,20/01/2023,htmojhans,,106,,,,,ouwszp,UnitedHealthcare,9873.014407447057,382,Elective,05/04/2023,Lipitor,Inconclusive
+40,ipumsre,22.0,Female,B-,Cancer,10/11/2023,wptik,,105,,,,,jhhaz,UnitedHealthcare,-451.6214887344413,326,Urgent,11/08/2022,Penicillin,Abnormal
+41,jajpgqdaj,22.0,Female,B-,Arthritis,01/02/2020,chneo,,113,,,,,diyaezoh,Aetna,48566.74556445771,400,Urgent,04/05/2021,Ibuprofen,Inconclusive
+42,cgwoxkf,71.0,Male,A-,Diabetes,18/09/2020,euncot,,98,,,,,hyjbxmuo,Cigna,25204.2009579066,459,Urgent,18/02/2022,Ibuprofen,Abnormal
+43,buewgosr,22.0,Male,O-,Obesity,21/09/2019,wqddwrhva,,106,,,,,cbcjdslkq,Medicare,19648.107914599637,216,Urgent,07/05/2023,Penicillin,Abnormal
+44,gvcnaecya,13.0,Female,B+,Diabetes,01/02/2024,hkvycsx,,117,,,,,ssyaeqvr,Blue Cross,28120.102157651672,118,Emergency,02/04/2022,Paracetamol,Inconclusive
+45,fprlag,81.0,Female,O+,Arthritis,11/10/2020,alqmuwtgcr,,105,,,,,itbad,Medicare,6979.914347076126,213,Emergency,04/04/2024,Paracetamol,Inconclusive
+46,tsrkedgdpe,38.0,Male,AB+,Obesity,17/10/2023,qqkzeu,,98,,,,,fxefsulko,Blue Cross,2679.3538969778047,169,Emergency,06/04/2021,Ibuprofen,Abnormal
+47,vulykblr,30.0,Male,A-,Arthritis,25/10/2022,brgggnm,,113,,,,,wacjzx,Cigna,50655.36437232609,266,Emergency,08/05/2023,Paracetamol,Inconclusive
+48,ygudtip,69.0,Female,B+,Cancer,25/09/2020,odoisvbvk,,106,,,,,bmsbjxlt,Aetna,40299.24155770408,421,Urgent,17/12/2023,Aspirin,Normal
+49,bpfqq,29.0,Male,AB+,Cancer,03/01/2022,nevcgscrn,,106,,,,,audwvw,Medicare,51805.147005716804,408,Elective,04/04/2024,Paracetamol,Normal
+50,pmpbob,86.0,Male,O+,Diabetes,10/07/2023,oegrmgfl,,98,,,,,gwnpe,UnitedHealthcare,20617.43330857253,440,Urgent,17/05/2024,Ibuprofen,Inconclusive
+51,fotcz,86.0,Female,B+,Cancer,08/01/2022,jydfkstyxc,,98,,,,,gwofg,Cigna,43094.01209437226,254,Emergency,03/07/2020,Lipitor,Normal
+52,wroaahgl,85.0,Male,AB-,Arthritis,28/09/2022,sbivhl,,98,,,,,jlcwbzvygo,Aetna,45176.23899106827,488,Urgent,07/08/2022,Lipitor,Abnormal
+53,oyggxmjph,55.0,Male,O-,Arthritis,25/10/2019,detsegvey,,106,,,,,fwigfai,Medicare,14509.141718812823,299,Urgent,16/10/2022,Lipitor,Normal
+54,oelub,49.0,Male,O-,Obesity,10/06/2023,iiccvwj,,117,,,,,iowtktndb,Aetna,46103.39960890653,173,Emergency,24/03/2023,Paracetamol,Normal
+55,flsouweq,47.0,Male,O+,Hypertension,12/08/2023,glmvvbs,,117,,,,,yuuhq,Cigna,48130.46822458372,115,Emergency,25/08/2023,Paracetamol,Normal
+56,hrkiejyax,64.0,Male,AB+,Diabetes,02/02/2023,kwcpz,,98,,,,,mbpmkdulj,Medicare,33587.51820585089,253,Emergency,28/11/2023,Paracetamol,Inconclusive
+57,munauius,86.0,Female,B+,Asthma,12/07/2023,pyknrggxe,,117,,,,,vmjfsst,Cigna,1233.5776543594595,315,Urgent,05/01/2024,Paracetamol,Normal
+58,rgesdeh,49.0,Male,O-,Diabetes,18/04/2022,exzujqap,,98,,,,,fkpnqb,Cigna,42550.583967879524,249,Elective,25/09/2022,Lipitor,Abnormal
+59,jsdxancy,61.0,Female,O-,Diabetes,10/03/2021,iokzvkahdt,,98,,,,,jcxwfpf,Blue Cross,6119.661462904139,448,Emergency,07/06/2023,Paracetamol,Normal
+60,nxnqmj,28.0,Female,B-,Diabetes,27/12/2022,ebowru,,113,,,,,dlhmzg,UnitedHealthcare,20443.515107557156,394,Urgent,20/08/2019,Lipitor,Inconclusive
+61,yeieyrivdt,52.0,Female,O+,Cancer,06/10/2019,pfgivaqul,,113,,,,,efjrbaiwe,Aetna,1235.071662158204,131,Urgent,18/12/2020,Ibuprofen,Inconclusive
+62,babprltr,48.0,Male,O+,Arthritis,18/02/2024,fepwdectq,,98,,,,,rzcna,Aetna,52097.60061421364,105,Urgent,17/12/2019,Paracetamol,Normal
+63,tcxxvk,37.0,Male,B+,Obesity,12/06/2020,faciagsc,,105,,,,,wdfotvfypj,Blue Cross,50187.67845532385,112,Emergency,01/03/2020,Ibuprofen,Inconclusive
+64,efstz,29.0,Female,O-,Obesity,23/03/2022,cyrmtqyhg,,117,,,,,prslmpga,Blue Cross,17753.827222918466,312,Emergency,22/08/2022,Aspirin,Inconclusive
+65,toedg,49.0,Female,A+,Asthma,30/09/2023,pigmneu,,105,,,,,tjoau,Medicare,40257.415215449364,369,Elective,14/07/2021,Ibuprofen,Normal
+66,gslncmpdy,68.0,Female,A+,Hypertension,13/05/2019,dwfnv,,105,,,,,kpjngpbjlt,Medicare,37084.63492501674,441,Urgent,31/01/2024,Penicillin,Abnormal
+67,mvthw,14.0,Male,A-,Obesity,25/09/2022,albaazsb,,113,,,,,qcpiln,Blue Cross,39324.69020935783,306,Elective,17/10/2021,Penicillin,Inconclusive
+68,togokd,60.0,Male,O+,Asthma,01/07/2020,rxjxjku,,106,,,,,xrmmqiha,Aetna,45885.90713780607,418,Emergency,20/07/2019,Penicillin,Normal
+69,iutgzzd,26.0,Female,AB-,Arthritis,09/07/2021,tztfbsyzxd,,113,,,,,xinxjqixj,Cigna,26647.395046912272,349,Urgent,17/01/2022,Paracetamol,Inconclusive
+70,lxeyrbfuy,24.0,Male,AB+,Cancer,13/07/2021,sxgkwcb,,98,,,,,vouedb,Medicare,24592.526711272963,221,Elective,02/11/2019,Paracetamol,Abnormal
+71,yusga,28.0,Female,O+,Obesity,13/05/2021,jhrbuwuh,,117,,,,,kbbfixfo,Cigna,41576.52059289892,176,Urgent,16/03/2024,Lipitor,Abnormal
+72,kahblje,82.0,Male,O+,Cancer,02/03/2023,ibiotqo,,106,,,,,phmoh,UnitedHealthcare,26928.716743406192,364,Emergency,03/09/2021,Ibuprofen,Abnormal
+73,virfmf,77.0,Male,B-,Asthma,21/11/2019,lcikaqr,,98,,,,,qalgbgu,Medicare,25288.02297968035,253,Elective,04/09/2023,Ibuprofen,Inconclusive
+74,kppdhks,81.0,Male,AB+,Obesity,14/03/2021,bdistaxus,,105,,,,,ynwglffyt,Blue Cross,20574.677402469904,110,Elective,05/07/2023,Paracetamol,Inconclusive
+75,pkwgjyofc,42.0,Female,AB-,Asthma,30/12/2023,mvrlyzpmen,,105,,,,,ybjyntzhcq,Aetna,19377.271376466702,491,Urgent,30/03/2021,Ibuprofen,Inconclusive
+76,wkyvz,53.0,Male,B-,Arthritis,27/01/2023,ntupdixqty,,106,,,0.0,,micpcjwhu,Medicare,15289.677189101569,384,Urgent,23/03/2022,Penicillin,Abnormal
+77,lhzeaeqr,58.0,Female,A+,Diabetes,20/10/2022,iviuc,,98,,,,,mnzmy,Medicare,14634.807527033105,368,Emergency,07/11/2019,Aspirin,Normal
+78,fftbonaxqi,37.0,Female,AB-,Hypertension,29/07/2019,dxplreob,,117,,,,,zeinl,UnitedHealthcare,36855.959120954045,322,Elective,30/12/2019,Lipitor,Inconclusive
+79,tarwp,62.0,Female,B+,Cancer,16/04/2022,xnpmeteh,,117,,,,,uvwvxg,Blue Cross,20043.832620425026,369,Urgent,03/10/2021,Paracetamol,Inconclusive
+80,saaplnuz,79.0,Male,A+,Arthritis,30/11/2022,dgkoae,,106,,,,,uqpmg,UnitedHealthcare,2053.3441143581013,205,Urgent,01/08/2022,Aspirin,Abnormal
+81,kenjpiulb,57.0,Female,A+,Arthritis,19/03/2024,suulotje,,105,,,0.0,,qpjloxke,Medicare,11959.62425449629,351,Emergency,15/10/2021,Ibuprofen,Inconclusive
+82,tlrtv,13.0,Male,B-,Asthma,31/01/2024,niznrx,,113,,,,,umdbms,Medicare,37279.41360001518,421,Urgent,14/07/2020,Lipitor,Normal
+83,kpxcnqujc,83.0,Male,O+,Asthma,18/03/2024,ieohxofcbn,,113,,,,,nhvajk,Blue Cross,1434.5360243571974,280,Elective,16/02/2023,Ibuprofen,Abnormal
+84,qupgb,17.0,Female,AB-,Arthritis,10/11/2021,xohbnodaqt,,113,,,,,rgdkrc,Medicare,6829.798884982169,435,Elective,31/05/2020,Penicillin,Normal
+85,nguhkkpmto,74.0,Female,O-,Obesity,12/05/2020,pldrc,,106,,,,,lwqvv,Blue Cross,40233.95735015992,412,Urgent,17/01/2021,Lipitor,Abnormal
+86,ofkgbuz,50.0,Male,B-,Diabetes,28/02/2021,mrztgmv,,117,,,,,osnjc,Blue Cross,38462.28175537605,358,Elective,02/12/2023,Lipitor,Inconclusive
+87,pudxhi,62.0,Female,B-,Arthritis,01/08/2019,hgoyrrmj,,105,,,,,hbnojzc,Blue Cross,39872.861012715846,122,Elective,12/07/2022,Ibuprofen,Abnormal
+88,rsaajck,41.0,Female,AB-,Arthritis,07/07/2023,slqwdpo,,113,,,,,bqofaodip,UnitedHealthcare,33440.90365854452,218,Urgent,08/10/2023,Aspirin,Inconclusive
+89,tlvvxq,81.0,Female,A+,Diabetes,27/10/2021,kcfnhtkjg,,117,,,,,zusse,Medicare,23170.7262394626,323,Urgent,03/03/2021,Ibuprofen,Normal
+90,rrrqjgas,57.0,Male,A+,Obesity,02/03/2022,uneemgh,,113,,,,,bjbchscg,UnitedHealthcare,519.6288463113381,142,Emergency,16/04/2022,Lipitor,Inconclusive
+91,ccvjgir,22.0,Male,AB-,Diabetes,01/04/2023,rorpmueoh,,113,,,,,abebmivn,Blue Cross,27211.55792919206,500,Emergency,23/02/2021,Paracetamol,Abnormal
+92,rzsyyh,25.0,Male,A+,Obesity,03/07/2022,nozfyo,,98,,,,,kcdbg,Medicare,35674.61372816433,226,Emergency,11/07/2021,Lipitor,Inconclusive
+93,cluouqemk,21.0,Female,AB+,Hypertension,20/03/2021,spfhqyuzd,,105,,,,,bpikkpwee,Cigna,12650.805827160397,331,Urgent,12/07/2023,Paracetamol,Abnormal
+94,akomajkta,87.0,Male,B+,Diabetes,10/09/2021,itvbyqbemj,,117,,,,,okpav,Blue Cross,7841.578383206228,272,Urgent,28/01/2022,Ibuprofen,Inconclusive
+95,zvumnwfabo,15.0,Male,O-,Arthritis,17/08/2020,qiutp,,117,,,,,oszcagzw,Aetna,2732.934161248546,456,Emergency,05/12/2021,Ibuprofen,Inconclusive
+96,ofybwj,82.0,Female,A+,Asthma,13/01/2022,ditkvkwf,,117,,,,,cqfzpizwn,Blue Cross,14860.00450202371,212,Elective,09/05/2023,Aspirin,Inconclusive
+97,jisvxwnob,27.0,Female,O-,Cancer,07/12/2019,sxhyzjuarq,,117,,,,,ciobkrceq,Aetna,27990.64574371658,458,Urgent,01/02/2021,Aspirin,Normal
+98,mxdcdazdjc,83.0,Male,B-,Hypertension,10/08/2022,tpurgzt,,113,,,,,nyuxia,Aetna,51105.48222568706,184,Urgent,06/03/2023,Ibuprofen,Abnormal
+99,zlbunddhk,13.0,Female,AB-,Asthma,14/03/2021,fgiqtdwmtf,,98,,,,,gsotpqi,UnitedHealthcare,43910.359246379405,459,Elective,18/06/2019,Aspirin,Abnormal
+100,iwbmvp,55.0,Male,B+,Asthma,21/07/2020,pponixczww,,113,,,,,snhneas,Aetna,21043.93080618813,333,Urgent,07/02/2022,Paracetamol,Normal
+101,jfybszgg,45.0,Male,AB+,Asthma,18/04/2024,weftpws,,105,,,,,qltkjphf,UnitedHealthcare,23182.824087736197,473,Urgent,11/10/2023,Lipitor,Abnormal
+102,yozijmbk,88.0,Female,B+,Arthritis,24/07/2021,kpwizmu,,117,,,,,qeqvq,Medicare,3740.1157115638534,104,Elective,26/08/2020,Ibuprofen,Inconclusive
+103,lcanlrbfs,86.0,Female,A-,Asthma,16/04/2022,jiqumjjha,,106,,,,,pseec,Aetna,22846.881207520197,499,Urgent,21/04/2022,Lipitor,Abnormal
+104,wskvga,78.0,Female,A+,Asthma,09/12/2020,swayjlrv,,105,,,,,kgzje,Medicare,3722.3181419960956,221,Elective,21/05/2022,Ibuprofen,Normal
+105,ilerik,29.0,Female,AB+,Obesity,25/01/2024,dulmxbtibb,,106,,,,,lkelbfmcz,Cigna,33995.450925554884,457,Urgent,26/11/2019,Paracetamol,Normal
+106,piqfhby,76.0,Male,B+,Cancer,22/03/2022,rkubkjpw,,117,,,,,tpcyiicbjp,Blue Cross,18828.603173474265,233,Elective,05/04/2024,Penicillin,Inconclusive
+107,ncvewzpm,51.0,Female,O-,Hypertension,28/10/2022,sfrper,,106,,,,,jbootacgxm,Cigna,14269.523141382839,309,Elective,27/03/2023,Penicillin,Abnormal
+108,nwgdsps,65.0,Male,A-,Asthma,31/12/2022,uzxrrereee,,98,,,,,tduadtbx,Blue Cross,13292.489299900682,166,Emergency,21/03/2022,Paracetamol,Inconclusive
+109,vcaih,14.0,Female,O-,Cancer,14/09/2023,dhmqf,,113,,,,,fchklbf,UnitedHealthcare,43329.19638427119,442,Elective,08/06/2020,Paracetamol,Inconclusive
+110,yvhmqejve,13.0,Female,B+,Arthritis,09/09/2022,yqrvktva,,98,,,,,ggydj,UnitedHealthcare,26707.03046940672,109,Elective,07/11/2023,Ibuprofen,Abnormal
+111,edwcbfkw,58.0,Male,AB+,Obesity,25/12/2022,oqmbweuu,,106,,,,,jiusqbzjyw,Aetna,43764.854113772526,225,Urgent,12/01/2021,Penicillin,Normal
+112,fcfmdt,52.0,Female,AB+,Obesity,15/10/2020,dgdcchtorp,,98,,,,,oklmkjz,Cigna,38071.529665723996,292,Elective,23/06/2019,Penicillin,Normal
+113,reveev,73.0,Female,B+,Hypertension,09/01/2021,nutckqftve,,113,,,,,fvlklkp,Blue Cross,6042.576189574686,378,Urgent,22/03/2022,Aspirin,Abnormal
+114,xdpejcfw,46.0,Female,A-,Cancer,21/12/2022,ektaksf,,105,,,,,ngxsxuhoo,Cigna,27569.42573147836,423,Elective,26/02/2021,Ibuprofen,Inconclusive
+115,gwtxni,25.0,Male,AB-,Arthritis,11/11/2022,zlepmsupx,,117,,,,,brygelo,UnitedHealthcare,30829.06993200337,426,Emergency,20/06/2023,Paracetamol,Inconclusive
+116,bgtkob,61.0,Male,AB-,Hypertension,03/02/2024,tqruhaug,,105,,,,,nhsiqjb,Blue Cross,39871.88554400629,200,Urgent,04/10/2020,Lipitor,Inconclusive
+117,pxrklt,67.0,Female,O-,Cancer,16/11/2020,kasaqjwvbx,,105,,,,,jcbridou,Blue Cross,2434.942726392528,103,Emergency,29/09/2019,Lipitor,Normal
+118,nzbqxaz,32.0,Male,A+,Cancer,03/02/2021,dblkgeufy,,117,,,,,akowqpirlf,Blue Cross,33681.94418658324,216,Emergency,24/08/2023,Penicillin,Normal
+119,rwyon,78.0,Female,B-,Arthritis,14/07/2023,ucteavlw,,117,,,,,couejiafef,Cigna,16937.277106506768,214,Emergency,02/06/2020,Paracetamol,Inconclusive
+120,dgffoaa,63.0,Male,A-,Obesity,25/08/2020,ujisugk,,113,,,,,ishzmkgic,Blue Cross,7871.652021427621,159,Emergency,19/07/2021,Aspirin,Inconclusive
+121,nuwybqgp,23.0,Male,AB+,Cancer,13/05/2023,botccyzkxc,,106,,,,,azglacn,Cigna,30543.467015107108,361,Emergency,12/08/2023,Penicillin,Normal
+122,jsuhb,48.0,Female,A+,Obesity,15/06/2020,drdkiusf,,117,,,,,whttfzla,Medicare,20802.270236976437,456,Emergency,06/01/2023,Aspirin,Inconclusive
+123,qbulp,63.0,Female,O+,Obesity,03/08/2020,fpdzmhfpb,,117,,,,,myctyh,Aetna,28859.659282958502,435,Elective,08/12/2019,Aspirin,Inconclusive
+124,esukoloaqv,83.0,Male,A+,Asthma,21/11/2020,cztthns,,105,,,,,dcvpdq,UnitedHealthcare,2159.55106680832,365,Urgent,01/06/2023,Penicillin,Abnormal
+125,pepiethaak,37.0,Male,AB-,Obesity,20/03/2024,rcjxiyic,,105,,,,,kgbmfa,Aetna,25452.526401125175,267,Urgent,01/08/2020,Lipitor,Abnormal
+126,whywninx,80.0,Male,B-,Diabetes,12/08/2021,bmvntpc,,117,,,,,dtbssfryar,Cigna,46730.461881369105,497,Elective,17/06/2021,Aspirin,Abnormal
+127,kmyvfki,83.0,Male,AB+,Asthma,02/03/2021,axttujtek,,105,,,,,xieritvvqh,Aetna,22203.917367555146,347,Emergency,12/07/2023,Ibuprofen,Normal
+128,newmbilvdm,62.0,Female,B+,Obesity,09/08/2020,uagvxggyc,,113,,,,,tkpbgqlzv,Aetna,36748.39103796232,387,Emergency,20/04/2024,Ibuprofen,Normal
+129,adpiyvo,73.0,Female,O-,Asthma,29/12/2021,tcthzqvn,,113,,,,,pbjnyizld,Cigna,15564.869197132675,321,Elective,18/07/2021,Ibuprofen,Abnormal
+130,bdune,77.0,Female,A+,Diabetes,10/12/2021,ygldbjs,,113,,,,,ywjdowkb,Blue Cross,7290.201190593714,210,Emergency,11/08/2022,Aspirin,Normal
+131,cudemdopt,82.0,Female,O+,Diabetes,30/07/2021,cfjhypv,,98,,,,,xmqfqcsq,Blue Cross,32171.92411014929,271,Elective,13/10/2021,Ibuprofen,Normal
+132,wuwrndr,45.0,Female,AB+,Arthritis,20/08/2023,uunkw,,98,,,,,eouwprnnb,Cigna,40126.62987767515,409,Emergency,29/03/2021,Penicillin,Abnormal
+133,gqsrfugbql,72.0,Female,O-,Arthritis,30/01/2024,wmeyheuw,,106,,,,,xjtriwu,Medicare,10548.810767606847,319,Urgent,05/09/2023,Penicillin,Inconclusive
+134,hiuievbpm,65.0,Male,O-,Asthma,02/06/2020,mbjvxld,,117,,,,,iizdqmhpy,Cigna,48192.72081742393,199,Urgent,19/01/2022,Penicillin,Inconclusive
+135,eyynmarql,25.0,Female,AB-,Arthritis,31/03/2024,wgtnue,,117,,,,,mcurp,Cigna,42769.90728213543,115,Emergency,01/10/2021,Paracetamol,Normal
+136,cpowgkco,34.0,Male,B+,Asthma,01/08/2021,vbxceld,,106,,,,,ckppmr,UnitedHealthcare,47931.85294392148,167,Elective,15/02/2022,Lipitor,Abnormal
+137,enpsvxzvlc,79.0,Male,AB+,Arthritis,26/02/2024,kcbqu,,106,,,,,mvbwa,Aetna,42860.675670209755,450,Urgent,10/02/2024,Lipitor,Inconclusive
+138,javmsn,71.0,Female,O+,Hypertension,18/05/2019,lchfcoysq,,98,,,,,zngtevb,Aetna,46560.278204157345,406,Elective,28/12/2020,Paracetamol,Normal
+139,wegtthbgex,62.0,Female,O+,Asthma,20/09/2021,wbxft,,106,,,,,jwopbob,Cigna,35515.802989401294,251,Emergency,10/08/2023,Lipitor,Inconclusive
+140,szxypcjimt,69.0,Male,O+,Diabetes,25/11/2023,vemmhrp,,98,,,,,vsdrclynnw,Cigna,32459.83015530621,172,Elective,23/07/2021,Ibuprofen,Normal
+141,vfughqqnn,21.0,Male,A+,Diabetes,25/04/2022,mdtmq,,105,,,,,phqbaupt,Blue Cross,34568.1634195006,386,Urgent,06/08/2023,Lipitor,Normal
+142,yoavjy,39.0,Female,A-,Arthritis,06/10/2020,rqbzv,,117,,,,,vdygod,Medicare,31384.588852715224,178,Elective,20/04/2022,Paracetamol,Abnormal
+143,nubvd,51.0,Male,AB-,Hypertension,07/03/2022,snbovhiva,,98,,,0.0,,kygnjoatkh,Blue Cross,37983.99348077029,191,Urgent,31/01/2022,Lipitor,Abnormal
+144,dkthigwoo,52.0,Female,A+,Asthma,30/04/2022,cjosnkffm,,98,,,,,rlowivv,Medicare,8673.351007825197,203,Urgent,18/11/2020,Penicillin,Abnormal
+145,crrtz,60.0,Female,O-,Hypertension,12/06/2019,fewpgujznj,,106,,,,,znlkoxuiad,UnitedHealthcare,36865.005946238314,167,Emergency,08/07/2022,Penicillin,Abnormal
+146,zpndtg,81.0,Male,AB-,Obesity,11/08/2023,lsgyqxagm,,113,,,,,rkctv,Aetna,43047.11672006884,298,Emergency,07/05/2024,Ibuprofen,Abnormal
+147,qytba,34.0,Male,AB-,Asthma,27/07/2019,mortkrzaum,,113,,,,,rzwagmj,Aetna,42496.61631046919,143,Urgent,10/08/2020,Paracetamol,Inconclusive
+148,vlfhdzj,83.0,Female,B-,Diabetes,29/11/2019,ddkmopebe,,113,,,,,bakgqx,Aetna,18733.656690727083,151,Emergency,11/06/2020,Ibuprofen,Normal
+149,bhxjifxnqr,21.0,Male,B-,Cancer,04/01/2021,whkgb,,117,,,,,kmtbekzaw,UnitedHealthcare,-1872.2028127779067,117,Elective,10/05/2023,Aspirin,Inconclusive
+150,xljmw,36.0,Male,B-,Arthritis,23/11/2022,qlkrca,,113,,,,,svzewmzmm,Blue Cross,11500.517566669414,104,Urgent,21/11/2019,Paracetamol,Abnormal
+151,urztqzen,28.0,Female,O-,Hypertension,08/09/2023,ukicsev,,105,,,,,dpkolmawd,UnitedHealthcare,18071.416126502834,224,Emergency,26/10/2020,Paracetamol,Normal
+152,kikyircsv,85.0,Female,B-,Obesity,20/06/2019,qmpqbj,,98,,,0.0,,fskedyyzh,UnitedHealthcare,46538.67127790065,242,Urgent,09/03/2023,Penicillin,Inconclusive
+153,nsfjpawf,39.0,Male,AB-,Cancer,07/03/2020,rfaecfdzk,,105,,,,,dneoxr,UnitedHealthcare,11733.836401521894,329,Elective,25/11/2020,Penicillin,Abnormal
+154,mkomallbf,54.0,Female,B+,Diabetes,14/09/2022,rlnqz,,98,,,,,jzeunyg,Blue Cross,19522.938403262597,332,Elective,16/06/2023,Paracetamol,Normal
+155,hsaino,72.0,Male,O+,Obesity,18/03/2023,qqzdmxbcgx,,117,,,,,zsxkfiupnq,Medicare,13104.850635372719,310,Urgent,14/10/2022,Paracetamol,Normal
+156,yqyzmac,77.0,Female,O+,Arthritis,19/08/2021,bchlf,,105,,,,,jomnpzyxbk,Cigna,18745.5679868154,473,Elective,10/05/2020,Aspirin,Inconclusive
+157,ovjgr,59.0,Male,AB-,Diabetes,11/12/2022,bvhinptx,,106,,,,,gwwli,Aetna,44441.1922849795,465,Urgent,08/07/2020,Paracetamol,Abnormal
+158,wmqiknwqw,50.0,Male,B+,Asthma,02/10/2021,pwclwtytx,,117,,,,,nwuighmb,Medicare,37033.26751874607,494,Emergency,05/10/2022,Paracetamol,Normal
+159,snkap,69.0,Male,B+,Asthma,25/04/2024,eklbonu,,106,,,,,ygutgu,Aetna,16048.180050134373,255,Elective,27/08/2020,Paracetamol,Inconclusive
+160,jzgkrwu,27.0,Female,A-,Arthritis,23/02/2022,hjpekq,,98,,,,,yplsiog,Medicare,12258.53844114295,154,Urgent,18/09/2019,Ibuprofen,Normal
+161,xjpdyolvxy,22.0,Female,B+,Cancer,24/05/2021,mplwzk,,98,,,0.0,,lcfmzixead,Cigna,15443.709315099202,445,Emergency,26/02/2021,Aspirin,Normal
+162,mhrybwa,33.0,Male,A-,Diabetes,25/04/2021,dyswefrqqp,,117,,,,,kxfnwqkhw,Medicare,49562.86240496257,481,Emergency,28/09/2020,Aspirin,Inconclusive
+163,zgevvpv,42.0,Female,B-,Diabetes,17/05/2020,kwbvxmeva,,117,,,,,ozpcsbfj,Aetna,43343.88082416064,270,Elective,12/12/2021,Lipitor,Inconclusive
+164,jhipy,38.0,Female,A-,Diabetes,15/02/2020,iyhsw,,106,,,,,mgnkq,Cigna,3173.279728507012,145,Emergency,12/01/2020,Aspirin,Inconclusive
+165,kxxknxn,85.0,Male,AB+,Hypertension,07/03/2020,qdumohw,,105,,,,,yjsvcem,Aetna,28019.972358519488,204,Elective,29/06/2023,Ibuprofen,Inconclusive
+166,xizxibc,27.0,Female,B-,Arthritis,07/03/2023,aykfocff,,117,,,,,ughxjtikjf,Cigna,22513.983389928442,380,Elective,05/04/2024,Paracetamol,Abnormal
+167,aiibliuv,72.0,Male,AB-,Hypertension,23/01/2021,suuhugtn,,117,,,,,ensslqxp,Blue Cross,2717.62958318445,470,Urgent,18/03/2020,Lipitor,Normal
+168,aacnp,57.0,Male,O+,Diabetes,07/03/2024,ngqnu,,98,,,,,wbsyo,Cigna,34695.90869392467,350,Elective,28/10/2023,Penicillin,Abnormal
+169,wuhex,81.0,Female,B+,Asthma,19/10/2021,xbybty,,117,,,,,dtxqartglh,UnitedHealthcare,36067.57610889672,282,Urgent,11/02/2021,Paracetamol,Normal
+170,tparqlkou,13.0,Male,O-,Cancer,31/05/2019,binajakgji,,106,,,,,hwgdan,Aetna,43769.32060694284,450,Emergency,20/11/2019,Ibuprofen,Inconclusive
+171,kzfogtthf,77.0,Male,O-,Hypertension,22/08/2021,ydhlnrx,,98,,,,,tfykflz,Blue Cross,47533.02677110006,225,Elective,31/08/2019,Aspirin,Abnormal
+172,hzlmmweca,66.0,Male,B+,Cancer,26/03/2021,ojfqzr,,106,,,,,fmbxqfw,Aetna,-1119.0447140263016,159,Emergency,17/01/2024,Aspirin,Normal
+173,bkawt,78.0,Male,B-,Obesity,07/12/2022,opzscnsjdi,,105,,,,,lumdmkqhre,Blue Cross,6563.214237835704,145,Elective,29/07/2019,Aspirin,Normal
+174,utusrdfe,82.0,Male,B-,Cancer,23/10/2021,vbzbbrbbf,,106,,,,,innkeavqhs,Aetna,48228.10543287814,458,Urgent,30/11/2019,Ibuprofen,Normal
+175,wyumii,65.0,Female,A+,Diabetes,23/07/2019,wveoig,,105,,,,,euggpc,Cigna,22873.735404852207,238,Emergency,25/04/2022,Paracetamol,Abnormal
+176,bccsund,71.0,Female,AB+,Hypertension,27/05/2020,rtvqdfwuzn,,98,,,,,murzhyhmcw,Cigna,13313.22685132862,125,Emergency,23/11/2020,Paracetamol,Abnormal
+177,rggwwv,87.0,Male,B-,Arthritis,13/05/2023,xnykxxfbuu,,98,,,,,rhjqlsmv,Blue Cross,20266.79917915128,143,Urgent,22/07/2019,Lipitor,Abnormal
+178,fehjca,78.0,Male,A+,Obesity,14/09/2022,ioppry,,117,,,,,okvwnup,Medicare,14111.541776495866,316,Elective,13/02/2020,Penicillin,Inconclusive
+179,gskxpyrk,26.0,Female,B-,Diabetes,03/05/2022,wdtgephw,,105,,,,,nrpqdu,Cigna,30118.588611523508,468,Urgent,13/02/2021,Paracetamol,Normal
+180,qtylya,79.0,Female,B-,Diabetes,17/05/2023,wufgep,,98,,,,,sblxqw,Cigna,50036.36602717019,463,Urgent,09/02/2023,Paracetamol,Normal
+181,hovimkcuab,33.0,Female,O-,Asthma,24/01/2023,tjytcxggr,,98,,,,,wyhzqn,Aetna,9150.529451714432,199,Emergency,04/09/2023,Lipitor,Normal
+182,ccupwlpim,65.0,Female,B-,Asthma,22/09/2021,yiyxzsk,,117,,,,,yhaordsih,Cigna,25094.442058214245,199,Elective,25/07/2020,Penicillin,Inconclusive
+183,jiota,48.0,Male,AB-,Cancer,30/06/2021,cvtfulg,,105,,,,,zljcnau,Blue Cross,2330.7936351624257,294,Urgent,01/08/2021,Ibuprofen,Normal
+184,qkbywh,85.0,Female,AB-,Arthritis,17/12/2021,wzxpk,,106,,,,,wkancsvc,Medicare,21076.37240441706,403,Emergency,25/06/2020,Penicillin,Abnormal
+185,eioqrfbmcb,20.0,Male,O-,Cancer,01/12/2023,ugiixqymlo,,113,,,,,asdqco,Blue Cross,-987.1546640361174,171,Elective,14/09/2023,Lipitor,Inconclusive
+186,alzzrd,35.0,Female,O+,Diabetes,18/01/2023,dnyyyks,,105,,,,,cpqzj,Aetna,20456.52336361426,387,Urgent,23/05/2019,Lipitor,Abnormal
+187,alkfc,30.0,Male,A+,Hypertension,17/03/2023,hqgyuis,,98,,,,,oycleuoi,UnitedHealthcare,3011.1088134787833,102,Emergency,14/05/2023,Lipitor,Inconclusive
+188,ijack,13.0,Male,O-,Hypertension,15/09/2020,ixqovg,,106,,,,,fdxuzxs,Aetna,34187.99022576693,165,Emergency,22/03/2020,Lipitor,Abnormal
+189,yxfmpjb,49.0,Female,A+,Arthritis,12/06/2020,syjfi,,113,,,,,knlbfe,UnitedHealthcare,4676.387306738482,178,Emergency,28/11/2023,Ibuprofen,Normal
+190,xhnmumr,85.0,Male,O-,Arthritis,20/09/2020,kakcoemyrz,,105,,,,,ysmcpb,Aetna,52675.82906596625,209,Urgent,09/02/2022,Ibuprofen,Abnormal
+191,bgvpetxyx,54.0,Female,B+,Arthritis,17/06/2023,bsamjzek,,98,,,,,ukyvrwc,Aetna,-173.71588683758023,171,Urgent,11/03/2024,Ibuprofen,Normal
+192,eiorlgzn,27.0,Female,B-,Obesity,05/10/2019,jlnadjajw,,106,,,,,dqbiygnkco,Medicare,39227.15990664386,297,Urgent,02/05/2023,Penicillin,Inconclusive
+193,xqmwkwsbln,58.0,Female,O-,Hypertension,11/07/2019,smvycocy,,105,,,,,npjiisan,Aetna,22980.667654324447,380,Emergency,18/05/2020,Ibuprofen,Inconclusive
+194,gxkufrkzs,43.0,Female,B+,Cancer,05/12/2023,cxmmv,,117,,,,,jwxemqyl,Aetna,30151.10871037423,398,Emergency,02/04/2022,Lipitor,Inconclusive
+195,fdzlhvua,55.0,Male,O-,Arthritis,31/12/2023,ofgbkljkr,,113,,,,,luegnwat,UnitedHealthcare,26849.518761929186,152,Elective,04/01/2020,Paracetamol,Normal
+196,pwtdkye,59.0,Male,O-,Cancer,10/08/2019,qodwkjqsr,,113,,,,,sgyhyxrvnx,UnitedHealthcare,32544.527876024327,278,Emergency,07/05/2021,Aspirin,Inconclusive
+197,qdstbxebll,85.0,Male,B-,Obesity,26/12/2019,ejyoerhxt,,117,,,,,dlnzrkc,Medicare,15100.694847930225,445,Urgent,11/08/2019,Ibuprofen,Abnormal
+198,ruubbdyjb,79.0,Female,B+,,01/10/2022,lnyyqer,,98,,,,,ahfrl,Blue Cross,8207.768008598348,118,Elective,27/05/2020,Ibuprofen,Inconclusive
+199,iffdee,49.0,Female,B+,Obesity,07/05/2022,fmmexswbj,,98,,,,,pyknrrpt,Aetna,2967.6895200747094,231,Elective,10/07/2023,Ibuprofen,Abnormal
+200,cwbpnizoo,81.0,Male,B+,Diabetes,16/08/2023,qwpeqpia,,98,,,,,wjsihu,Medicare,15325.511796182875,435,Urgent,03/06/2021,Penicillin,Inconclusive
+201,utuvtuubl,87.0,Male,O-,Obesity,08/11/2021,lbeyfc,,105,,,,,iyeviyq,Medicare,6546.460243492127,428,Urgent,13/02/2020,Paracetamol,Inconclusive
+202,qtuqlx,64.0,Male,A+,Asthma,16/11/2023,yiuywtpnn,,98,,,,,mxglbh,UnitedHealthcare,1022.3769846354642,303,Urgent,29/04/2022,Aspirin,Normal
+203,wfewhmp,47.0,Male,A-,Asthma,29/12/2019,cbyfotbmy,,113,,,,,lkrcvpflj,UnitedHealthcare,46145.75227991827,216,Elective,29/10/2019,Aspirin,Abnormal
+204,ovgwcbnd,29.0,Male,O+,Hypertension,18/03/2023,xuxkcisplg,,105,,,,,qbnuycgehl,Blue Cross,3692.1108788821102,325,Emergency,12/07/2021,Ibuprofen,Normal
+205,urckita,18.0,Male,O+,Obesity,16/07/2023,xkaqb,,105,,,,,xsajtmu,UnitedHealthcare,19475.382044438742,358,Elective,29/01/2022,Ibuprofen,Abnormal
+206,ngxzlvlm,18.0,Female,B-,Arthritis,21/11/2020,wezgxs,,105,,,,,cxsdiyrkp,Cigna,15278.735579706748,354,Elective,06/12/2023,Aspirin,Abnormal
+207,tljzudq,80.0,Male,O-,Obesity,19/01/2023,awmkcr,,105,,,0.0,,ppxhgamxwc,UnitedHealthcare,17145.819268596497,197,Urgent,23/08/2022,Aspirin,Normal
+208,lefgmx,80.0,Male,AB+,Cancer,30/09/2023,dknhcz,,98,,,,,hbpmebjv,UnitedHealthcare,44920.46626761436,276,Elective,04/11/2023,Ibuprofen,Normal
+209,tyejpurxrg,46.0,Male,AB-,Diabetes,24/05/2022,trzad,,106,,,,,tzebpt,Blue Cross,399.6680831919,480,Emergency,14/05/2022,Lipitor,Abnormal
+210,hfusqotwd,37.0,Female,AB+,Asthma,13/09/2020,xxgep,,117,,,,,vetnspgd,Medicare,1589.7168060823922,413,Emergency,12/06/2021,Lipitor,Inconclusive
+211,ulgxi,19.0,Female,O+,Cancer,28/09/2021,kebxm,,98,,,,,ddbqjm,Aetna,23765.29647796343,390,Emergency,01/04/2022,Lipitor,Abnormal
+212,tlluyqrg,75.0,Male,A-,Diabetes,04/11/2020,czqrpzwxg,,105,,,,,zreqaqajz,Blue Cross,37397.396154777605,134,Urgent,10/02/2020,Lipitor,Inconclusive
+213,ksysgx,86.0,Male,O-,Obesity,27/03/2021,fddkfsov,,117,,,,,ngphbghq,Blue Cross,21297.37020721601,196,Elective,26/09/2023,Ibuprofen,Abnormal
+214,ittmijfy,50.0,Female,O-,Cancer,10/12/2020,annyxt,,105,,,,,oohpca,Cigna,2656.985212668382,446,Elective,21/07/2019,Aspirin,Abnormal
+215,uagfcdwper,19.0,Female,O+,Arthritis,04/04/2021,rfmnwyrlhi,,106,,,,,tfukbp,Aetna,3543.49359661784,407,Elective,30/11/2019,Lipitor,Normal
+216,qdfsohb,75.0,Male,AB-,Diabetes,12/02/2022,gkyjepa,,105,,,,,uujivqg,Aetna,9448.495878084266,266,Urgent,03/09/2020,Lipitor,Inconclusive
+217,gerjbvbw,13.0,Female,AB+,Asthma,17/10/2021,hetfhep,,98,,,,,kdkaboory,Blue Cross,11005.023193246943,383,Emergency,11/12/2023,Ibuprofen,Abnormal
+218,odheh,23.0,Male,AB+,Arthritis,09/11/2019,whepuqzqo,,105,,,,,qansfh,Aetna,9966.849708835867,136,Emergency,07/05/2022,Penicillin,Normal
+219,mnudrqdxsl,69.0,Male,B+,Asthma,26/03/2021,vzwjfz,,105,,,,,mzhnlhsu,Aetna,2465.116495395342,150,Elective,24/09/2021,Paracetamol,Normal
+220,qtfxbnwxn,52.0,Male,AB+,Arthritis,04/06/2022,kznmmnuj,,117,,,,,kkpfmakafc,UnitedHealthcare,8069.118653415342,384,Urgent,22/03/2023,Ibuprofen,Normal
+221,xivuzldie,71.0,Male,B+,Arthritis,16/07/2022,qdyxynrxks,,106,,,,,cnzrwulmc,UnitedHealthcare,12784.113504003515,174,Emergency,06/09/2019,Aspirin,Abnormal
+222,djikdintg,52.0,Female,B+,Asthma,30/04/2020,ajjtpu,,105,,,,,linmsuc,UnitedHealthcare,48509.55397949836,101,Emergency,13/07/2020,Lipitor,Normal
+223,uuaxfnnlgb,86.0,Male,O-,Hypertension,18/06/2023,dyugtfhnug,,117,,,,,vidcwvaikz,Blue Cross,16690.034250650348,259,Elective,15/06/2020,Ibuprofen,Abnormal
+224,gnndsjsiu,31.0,Male,AB-,Obesity,12/04/2024,kavkirtn,,98,,,,,kdwrybymls,Blue Cross,728.7471672512672,143,Emergency,06/09/2019,Ibuprofen,Abnormal
+225,zurturwhsa,19.0,Male,O-,Diabetes,02/09/2022,vclasxvqt,,106,,,,,vahvs,Cigna,47237.15353397835,241,Elective,02/05/2020,Penicillin,Inconclusive
+226,bjnfyimezo,34.0,Female,B+,Hypertension,31/07/2023,twtjnay,,117,,,,,jvsag,Aetna,48559.285153796714,274,Elective,27/07/2019,Penicillin,Abnormal
+227,sxesrs,20.0,Female,B-,Diabetes,24/02/2020,jnawbe,,117,,,,,uplyrdyrh,Blue Cross,17729.211145130183,213,Emergency,25/07/2021,Lipitor,Inconclusive
+228,wxqcnw,63.0,Male,O+,Obesity,30/10/2023,mqjic,,105,,,,,yhwua,Aetna,852.7233540408836,279,Emergency,24/11/2020,Lipitor,Normal
+229,epdjgot,25.0,Male,A+,Hypertension,18/01/2020,nnkchkslu,,98,,,,,udmpa,Cigna,47390.03405951644,217,Elective,24/01/2021,Penicillin,Normal
+230,vsglg,54.0,Female,AB+,Diabetes,04/06/2022,tjlcpow,,106,,,,,vgfvfsb,Cigna,43416.42685283966,437,Emergency,19/11/2019,Paracetamol,Inconclusive
+231,cmyjyxw,,Male,B+,Asthma,10/09/2022,fdjctvce,,117,,,,,kpdkjo,UnitedHealthcare,18988.79539101611,374,Elective,23/08/2021,Penicillin,Inconclusive
+232,ogondxhji,27.0,Female,AB+,Obesity,06/06/2023,nhxtmvd,,105,,,,,hifudmi,Blue Cross,50586.9906608753,413,Emergency,29/07/2019,Ibuprofen,Inconclusive
+233,hzemgyhfb,78.0,Female,O+,Cancer,10/07/2022,wtuijvo,,98,,,,,dhlrloxiwv,Cigna,13376.297886678705,238,Elective,07/09/2021,Ibuprofen,Normal
+234,yxevjbor,43.0,Female,A+,Cancer,24/03/2020,btuidhlofb,,117,,,,,vvrii,Aetna,40449.37639716895,157,Emergency,01/07/2021,Aspirin,Normal
+235,fwrzai,59.0,Male,A+,Arthritis,25/11/2022,ibdbe,,106,,,,,gocbjtywc,UnitedHealthcare,17727.915095885503,444,Elective,22/02/2024,Ibuprofen,Normal
+236,oymznmiy,30.0,Male,A+,Cancer,03/03/2023,lyhqwxgyh,,113,,,,,iyarhvq,Cigna,50590.4330126491,211,Emergency,12/02/2022,Lipitor,Inconclusive
+237,wsnmnn,21.0,Male,AB+,Arthritis,24/10/2019,zvfsn,,106,,,,,acmsbxege,UnitedHealthcare,8218.361860402156,176,Emergency,16/09/2020,Penicillin,Inconclusive
+238,mhxpr,42.0,Male,A+,Diabetes,24/01/2020,llbnhb,,106,,,,,wernl,Medicare,14385.548483614091,175,Emergency,30/08/2022,Paracetamol,Normal
+239,rdfjffotyc,44.0,Female,O+,Hypertension,22/11/2020,inqva,,98,,,,,uxgjgzdavq,UnitedHealthcare,37597.356276616214,386,Elective,23/12/2021,Paracetamol,Abnormal
+240,eqcyacqfn,85.0,Male,A+,Cancer,06/09/2020,yfbuuev,,117,,,,,luotj,Aetna,33321.65091831939,302,Emergency,19/02/2020,Lipitor,Inconclusive
+241,eizwrwj,42.0,Female,AB-,Obesity,23/01/2022,ifdusxpa,,105,,,,,uziwinsoy,Blue Cross,49185.73909113475,295,Elective,10/06/2020,Paracetamol,Inconclusive
+242,fzylczt,27.0,Female,A+,Diabetes,09/03/2023,pwcxbznse,,105,,,,,qvjsqb,UnitedHealthcare,38209.15506513226,205,Urgent,17/01/2020,Aspirin,Inconclusive
+243,vlayuuwcry,54.0,Male,O+,Hypertension,03/01/2024,jrkvduppk,,113,,,,,ijordq,Aetna,35777.54422265433,307,Elective,16/07/2020,Ibuprofen,Inconclusive
+244,spjemqi,55.0,Male,A-,Cancer,09/04/2021,ooloetnly,,105,,,,,mwxnvyhh,Blue Cross,18474.790839398178,203,Elective,11/02/2021,Ibuprofen,Abnormal
+245,qzxfr,63.0,Male,B+,Cancer,21/09/2019,diflanzvf,,105,,,,,ofllmxyycy,Cigna,12694.568734113396,215,Urgent,05/04/2023,Paracetamol,Inconclusive
+246,cbdgbavqx,65.0,Male,A+,Diabetes,05/06/2021,rjpufmp,,113,,,,,sfrkm,Medicare,13488.673317428744,402,Elective,10/07/2021,Lipitor,Inconclusive
+247,jaagttkds,61.0,Female,B-,Hypertension,13/08/2021,hcpyrxf,,106,,,,,bndijzidj,Blue Cross,18158.720567005916,329,Elective,13/04/2022,Penicillin,Abnormal
+248,fzypepx,76.0,Female,O-,Asthma,29/11/2019,dydag,,106,,,,,jojtqedo,Cigna,-474.1444623165819,354,Emergency,23/07/2022,Lipitor,Abnormal
+249,ccgngpeupq,43.0,Female,A-,Cancer,21/02/2020,qtwtph,,98,,,,,sbfzjnfvgy,Medicare,11097.645558229313,202,Emergency,16/12/2020,Ibuprofen,Normal
+250,ieumhs,80.0,Female,B+,Obesity,27/08/2022,lxnbf,,117,,,,,yduzrumk,Aetna,7909.0709034691245,160,Emergency,30/11/2020,Penicillin,Normal
+251,fqeyqo,88.0,Male,B-,Diabetes,01/01/2023,ijxxolnwbx,,105,,,,,lqbzmklnu,Medicare,16647.897892907113,428,Elective,20/03/2020,Penicillin,Abnormal
+252,bnwid,49.0,Female,AB+,Obesity,09/07/2019,fmnntirqrl,,105,,,,,vpfyfeyb,Blue Cross,6082.071565316795,453,Urgent,07/09/2020,Paracetamol,Inconclusive
+253,gawgbtvjs,50.0,Female,O+,Arthritis,23/10/2020,jiwholsrr,,113,,,,,cgqcqhy,Medicare,-1599.2200227569506,277,Elective,06/10/2021,Aspirin,Abnormal
+254,bieqvenwm,41.0,Female,O+,Cancer,09/05/2023,dirsjlxi,,98,,,,,gceyhfac,Medicare,50809.79837909179,177,Urgent,27/01/2021,Penicillin,Inconclusive
+255,gccmzuh,27.0,Male,O-,Diabetes,19/06/2022,euqsyb,,117,,,,,ntove,UnitedHealthcare,43920.15173082022,129,Elective,20/09/2022,Aspirin,Inconclusive
+256,esxvbw,69.0,Male,A-,Asthma,04/05/2023,hzqzoy,,113,,,,,esnjwu,Medicare,24200.866722867017,489,Elective,20/04/2021,Penicillin,Inconclusive
+257,zjbsdpzbl,88.0,Male,AB+,Hypertension,02/12/2021,nlamhn,,106,,,,,dsxcblwnlt,Medicare,32629.831531931315,413,Emergency,19/07/2022,Lipitor,Abnormal
+258,qtfsu,69.0,Female,AB-,Asthma,30/05/2021,qlwghcog,,105,,,,,snwgts,Aetna,28625.090479165163,105,Urgent,16/12/2020,Penicillin,Normal
+259,bydhzjtuj,58.0,Male,AB-,Asthma,09/06/2023,jjzkhknyar,,106,,,,,penxsfhao,Blue Cross,35968.95679685352,440,Emergency,16/10/2019,Paracetamol,Abnormal
+260,dtvwzhu,39.0,Female,O-,Obesity,03/08/2023,ybdhj,,98,,,,,nvirewod,Aetna,29152.38876820616,117,Emergency,05/09/2020,Ibuprofen,Inconclusive
+261,skwhjmwz,88.0,Female,B-,Diabetes,05/03/2023,haploset,,105,,,,,fkjqmovl,UnitedHealthcare,6520.812220299549,340,Emergency,27/03/2020,Aspirin,Inconclusive
+262,wygjlkoiva,23.0,Female,O-,Asthma,10/01/2021,vzswbipme,,113,,,,,rwakbdnudb,Aetna,3232.7862484916986,497,Urgent,18/05/2019,Lipitor,Normal
+263,xdkijmfqn,38.0,Male,AB-,Hypertension,05/08/2023,snioabvq,,98,,,,,rjtlwtfc,Cigna,10285.978885190518,174,Emergency,31/05/2020,Paracetamol,Normal
+264,zvgjr,39.0,Female,O+,Obesity,18/02/2023,fjhewfm,,117,,,,,lxnvznjqj,Medicare,40471.06285412179,285,Emergency,04/07/2023,Lipitor,Inconclusive
+265,qtulbbutu,41.0,Female,AB+,Cancer,04/05/2024,igqtsv,,105,,,,,ihals,Medicare,12187.137289274418,124,Emergency,04/07/2020,Ibuprofen,Abnormal
+266,peygaukmuk,38.0,Female,B+,Hypertension,20/01/2020,usxiuavdn,,117,,,,,jdsfqhq,Blue Cross,16253.289767577642,406,Elective,12/06/2022,Penicillin,Inconclusive
+267,lvkzi,37.0,Female,B+,Asthma,01/09/2021,pqdys,,117,,,,,uhrvcni,Blue Cross,20774.48200393006,201,Emergency,05/05/2020,Paracetamol,Abnormal
+268,qbvajvdj,17.0,Male,B-,Hypertension,24/02/2024,webdohcx,,113,,,,,akyjyjnjsg,Blue Cross,24046.12061479831,102,Urgent,22/07/2019,Penicillin,Abnormal
+269,idmgcscpzq,40.0,Female,O-,Cancer,11/04/2021,xjkvsmyyi,,113,,,,,clxetbqmvl,Blue Cross,31459.84569236456,461,Urgent,02/12/2019,Paracetamol,Normal
+270,ahshi,15.0,Female,A+,Asthma,19/06/2019,hjhqhohjdq,,113,,,,,fwasecvuz,Cigna,140.89403262824658,477,Emergency,02/06/2019,Paracetamol,Normal
+271,capfumhcb,64.0,Male,AB-,Asthma,15/09/2022,wzmob,,106,,,0.0,,jnxininh,Cigna,24048.2384106013,341,Urgent,21/05/2021,Paracetamol,Normal
+272,hsgczhdgy,28.0,Female,O-,Hypertension,28/01/2023,bdljmoch,,106,,,,,nmctuxgnv,Cigna,31956.78881712438,447,Urgent,26/04/2021,Paracetamol,Inconclusive
+273,wxugvw,43.0,Female,B+,Cancer,07/04/2023,ugjvpaokaz,,98,,,,,yffbey,Aetna,5370.756719496364,449,Elective,24/04/2023,Ibuprofen,Inconclusive
+274,kwqzsqh,28.0,Female,A-,Cancer,27/06/2022,hshivmazxl,,106,,,,,yntupzfrp,Cigna,22981.915822311756,137,Urgent,25/07/2020,Aspirin,Abnormal
+275,mwbzskcj,64.0,Male,B-,Cancer,03/06/2019,agvrrvf,,113,,,,,hzbdsl,Blue Cross,40805.85364364031,144,Urgent,09/07/2023,Paracetamol,Inconclusive
+276,nesgwu,61.0,Male,A-,Cancer,30/01/2024,uplncusmon,,98,,,,,quwpsl,Cigna,28708.17160444093,432,Emergency,10/08/2022,Lipitor,Abnormal
+277,welwx,83.0,Male,A+,Hypertension,27/08/2019,vfypsfee,,113,,,,,mchzzjtne,Blue Cross,15215.279876268667,343,Urgent,27/03/2021,Aspirin,Inconclusive
+278,znxjeqcnr,62.0,Male,O-,Obesity,17/02/2021,bihbibdt,,106,,,,,gnnuidwr,Cigna,11847.047841710002,117,Elective,25/03/2023,Paracetamol,Inconclusive
+279,wdvtwltp,55.0,Female,B-,Obesity,05/07/2019,aasntbujhk,,106,,,,,qjkzdzzvmu,Aetna,1410.2168695127104,447,Elective,15/11/2023,Ibuprofen,Abnormal
+280,quixaufr,83.0,Male,A-,Cancer,21/12/2023,thbidnlqy,,98,,,,,ivbpoz,UnitedHealthcare,40144.66186702643,331,Urgent,11/10/2020,Penicillin,Normal
+281,jqlafm,56.0,Male,B-,Cancer,03/11/2021,gpetqilkfk,,113,,,,,mdaermz,Blue Cross,16187.971934059506,341,Urgent,05/01/2023,Ibuprofen,Normal
+282,hhwgm,15.0,Male,A+,Obesity,20/11/2019,olvttbk,,106,,,,,vjtrqse,UnitedHealthcare,10578.216009265394,216,Elective,27/09/2022,Penicillin,Abnormal
+283,fiiap,26.0,Female,B-,Asthma,21/11/2023,finfjwaqs,,105,,,,,fvkwnq,UnitedHealthcare,21183.277861445986,500,Urgent,30/11/2021,Aspirin,Inconclusive
+284,poffj,26.0,Female,B+,Cancer,27/06/2019,slran,,105,,,,,gjlllqoa,Aetna,50084.07888795513,320,Elective,09/12/2022,Penicillin,Normal
+285,cntbcpipx,38.0,Male,A-,Obesity,24/06/2022,esmmoxhnv,,105,,,,,ioyvkfv,Blue Cross,4486.919948151571,327,Elective,24/07/2023,Aspirin,Abnormal
+286,qrcig,41.0,Female,A+,Asthma,05/10/2021,oqhtj,,106,,,,,kctgyhx,UnitedHealthcare,52414.67587818835,261,Urgent,30/09/2022,Ibuprofen,Normal
+287,rlzbdw,51.0,Female,AB-,Obesity,24/01/2023,zxbtjzm,,117,,,,,askng,Medicare,9459.100992363397,120,Urgent,13/04/2024,Paracetamol,Inconclusive
+288,tlhpc,26.0,Male,AB-,Arthritis,18/11/2023,bpkkwsgdr,,113,,,,,fwmxbaanua,Medicare,15684.397243154139,171,Elective,31/12/2020,Lipitor,Inconclusive
+289,nvkcztbd,77.0,Female,AB-,Arthritis,18/01/2024,ffvpqgi,,106,,,,,wgzczbdum,Blue Cross,48630.40073363853,348,Urgent,19/10/2022,Aspirin,Normal
+290,ulnkq,26.0,Male,O+,Asthma,23/07/2021,wislcjekh,,113,,,,,grqmxvkb,Blue Cross,28137.700666665598,443,Emergency,22/07/2023,Penicillin,Abnormal
+291,yepfoy,33.0,Female,B+,Hypertension,22/06/2022,pvqunkjniw,,105,,,,,hcdkrxgz,Aetna,35612.024100759816,346,Elective,06/09/2022,Ibuprofen,Inconclusive
+292,wqkdi,72.0,Female,B-,Obesity,01/07/2022,qruscymznp,,117,,,,,qjiedvqh,UnitedHealthcare,20523.32377582153,125,Emergency,11/05/2022,Paracetamol,Normal
+293,dnvnt,36.0,Female,A+,Asthma,28/12/2020,ahjjyu,,106,,,,,jlfkfmc,Medicare,-529.185736811638,236,Elective,10/09/2019,Aspirin,Inconclusive
+294,lqsjlb,61.0,Female,B+,Asthma,20/04/2024,rejydmh,,113,,,,,gifex,Blue Cross,10978.823956846589,461,Emergency,30/05/2023,Ibuprofen,Inconclusive
+295,pnlbpqav,47.0,Male,B+,Diabetes,18/03/2023,lehzhscm,,117,,,,,rtycsw,Aetna,32636.028205041617,256,Emergency,20/11/2019,Penicillin,Abnormal
+296,rpowynqcs,62.0,Female,B-,Cancer,25/11/2021,fkrjie,,113,,,,,zkfuitkda,UnitedHealthcare,608.0573108082806,395,Emergency,04/01/2021,Lipitor,Inconclusive
+297,zrbbzgi,34.0,Female,A+,Cancer,17/01/2020,wzwqhtuc,,113,,,,,hcglkbzj,UnitedHealthcare,46858.23988111816,219,Emergency,23/06/2023,Lipitor,Inconclusive
+298,tflhrg,70.0,Female,O+,Arthritis,26/08/2023,jfojjoulg,,117,,,,,pvzqrazg,Blue Cross,21922.911784771353,200,Emergency,26/11/2021,Penicillin,Inconclusive
+299,csadadk,67.0,Female,O-,Obesity,03/08/2019,vcpendxqb,,106,,,,,yfdnfim,Blue Cross,33460.310793473305,270,Emergency,20/09/2020,Aspirin,Inconclusive
+300,rnxkw,24.0,Male,B-,Hypertension,14/04/2022,gyyrke,,105,,,,,jowsgtow,Cigna,25780.543341579076,481,Emergency,18/05/2022,Ibuprofen,Normal
+301,okyivzjsfn,22.0,Male,AB-,Hypertension,09/02/2022,cbeueofw,,105,,,0.0,,yapye,Cigna,32375.994805636616,324,Urgent,15/07/2019,Aspirin,Normal
+302,ecyrzu,61.0,Female,B+,Obesity,11/03/2020,ulwgpt,,106,,,0.0,,ddvam,Cigna,8519.229029214415,484,Emergency,06/04/2022,Lipitor,Normal
+303,kfukgtu,58.0,Male,AB+,Cancer,04/10/2022,cezchiyt,,105,,,,,ffyzaee,Medicare,-52.52306172506178,211,Emergency,19/12/2021,Ibuprofen,Normal
+304,bochzag,68.0,Female,AB-,Diabetes,01/09/2019,bjtdxp,,117,,,,,wzdubmdlwf,UnitedHealthcare,16722.080565786822,494,Emergency,07/01/2023,Paracetamol,Normal
+305,xopdlt,72.0,Male,B-,Hypertension,29/09/2019,ilduqngsde,,106,,,,,jonnvo,Blue Cross,-1614.4171168210098,480,Urgent,13/01/2023,Paracetamol,Normal
+306,zuhxvcmy,73.0,Female,AB+,Cancer,08/12/2019,muqdvbo,,105,,,,,czgsiwdjrq,UnitedHealthcare,13001.560593908724,251,Elective,14/08/2023,Lipitor,Abnormal
+307,zqtudv,37.0,Female,B+,Diabetes,09/11/2021,hjtxm,,113,,,,,fbzhmg,Medicare,37286.31854081641,265,Emergency,18/12/2020,Lipitor,Abnormal
+308,fsmodoorla,58.0,Male,B-,Hypertension,15/09/2020,irbqzquo,,117,,,,,uwemgybg,Blue Cross,32301.643587103066,436,Emergency,18/01/2024,Lipitor,Inconclusive
+309,clrsvzj,43.0,Male,A+,Obesity,11/03/2021,jecfvmmmyh,,98,,,,,sxgxjp,Medicare,43763.75585754367,453,Emergency,13/11/2023,Paracetamol,Abnormal
+310,ubbbsdztbo,67.0,Female,A+,Diabetes,17/11/2023,jowss,,113,,,,,ciloceflgd,Blue Cross,44768.842610956766,492,Urgent,10/03/2020,Paracetamol,Abnormal
+311,pyqrmccxzv,43.0,Male,AB-,Hypertension,10/06/2023,gwiyoimckl,,117,,,,,hityisyuc,Aetna,45014.00364099093,116,Urgent,29/11/2021,Lipitor,Abnormal
+312,eisgr,16.0,Male,A-,Cancer,20/07/2022,xjfxvxujr,,106,,,0.0,,xszkyy,Blue Cross,42133.73743753958,101,Elective,18/05/2021,Lipitor,Abnormal
+313,hypxkl,47.0,Female,O+,Cancer,13/03/2020,svgxzkea,,98,,,,,osizryws,UnitedHealthcare,44346.80723297634,255,Elective,04/05/2024,Aspirin,Inconclusive
+314,uafif,73.0,Female,AB+,Cancer,05/02/2020,ocmjuzceqr,,106,,,,,ewgfcftk,Blue Cross,33145.67937688225,384,Emergency,27/08/2021,Ibuprofen,Abnormal
+315,ylflxp,33.0,Male,A-,Cancer,04/11/2019,fwcpamewxl,,105,,,,,jpocs,UnitedHealthcare,27229.551600409835,417,Elective,17/08/2023,Lipitor,Normal
+316,cbrzon,73.0,Male,B+,Asthma,04/01/2020,kaxyazb,,98,,,,,tqkjoae,Cigna,12379.397825085405,465,Urgent,27/01/2022,Lipitor,Inconclusive
+317,iipdlv,79.0,Male,A-,Hypertension,30/03/2022,dncuraagrd,,113,,,,,ytuvlmmy,UnitedHealthcare,29455.015525630628,155,Emergency,22/08/2023,Aspirin,Abnormal
+318,kqojgaole,29.0,Male,B-,Cancer,09/11/2020,kfwwirs,,106,,,,,oplrhoe,Medicare,32690.651980531748,382,Elective,31/07/2022,Lipitor,Inconclusive
+319,xcakrcdhpi,33.0,Male,AB+,Asthma,20/09/2023,ohwzpunzd,,106,,,,,ujjul,Medicare,42976.918322615755,471,Emergency,11/08/2023,Aspirin,Inconclusive
+320,domvu,58.0,Male,B+,Obesity,11/10/2020,fpdqu,,98,,,,,mlqtlpim,Cigna,49449.49717183748,322,Emergency,08/01/2020,Aspirin,Normal
+321,wfpkrfem,84.0,Male,O-,Asthma,19/11/2022,fflbewtf,,117,,,,,ojgtrurfp,Medicare,9455.403658389345,438,Emergency,14/03/2023,Penicillin,Abnormal
+322,nzvuqmgga,25.0,Female,AB-,Obesity,25/07/2019,smtguhb,,117,,,,,nuemvy,Medicare,-1944.6075643502215,346,Emergency,13/10/2023,Paracetamol,Inconclusive
+323,wdkycrcyu,20.0,Female,AB+,Arthritis,31/07/2023,jtxjiti,,98,,,,,yzwyv,Cigna,18909.70342880758,467,Elective,14/10/2023,Penicillin,Inconclusive
+324,sgazy,72.0,Male,AB+,Obesity,30/05/2019,fjjedafy,,113,,,,,pceuigv,UnitedHealthcare,2089.711830470407,184,Urgent,17/07/2021,Aspirin,Inconclusive
+325,cgfpuz,72.0,Male,AB+,Diabetes,07/04/2023,tbfsvnfo,,113,,,,,ltxtpbuiui,Aetna,42355.75735636307,408,Urgent,13/11/2021,Ibuprofen,Inconclusive
+326,lzzpqndg,57.0,Female,O-,Hypertension,18/10/2023,ltpsx,,98,,,,,fwapgxwi,Cigna,49791.17125175691,468,Urgent,01/05/2024,Aspirin,Normal
+327,ofqgki,80.0,Male,A+,Hypertension,04/12/2020,ghrwnsita,,105,,,,,ljlplc,UnitedHealthcare,9810.069397112546,443,Elective,18/07/2020,Lipitor,Normal
+328,mvsxszwgy,52.0,Female,B+,Obesity,05/09/2023,pasxs,,106,,,,,cuqwfxa,UnitedHealthcare,17998.265036565048,494,Urgent,16/01/2021,Paracetamol,Abnormal
+329,pjfbs,63.0,Male,O-,Hypertension,21/04/2022,sgqdtitc,,105,,,0.0,,wbyih,Blue Cross,44437.556844554165,412,Elective,07/11/2020,Penicillin,Normal
+330,qwaqq,70.0,Female,B-,Arthritis,26/06/2022,mnvar,,105,,,,,rmubeojsbp,Medicare,1029.2718043268444,333,Emergency,27/09/2021,Penicillin,Abnormal
+331,nmuadda,75.0,Male,A-,,01/10/2023,daxssgfsbc,,105,,,,,rwzsg,Aetna,32873.313081005996,239,Emergency,12/12/2019,Lipitor,Inconclusive
+332,ixnyqpz,14.0,Female,O-,Hypertension,24/05/2022,epyxknjaia,,113,,,,,jytbzz,Aetna,51185.01244877035,479,Emergency,11/12/2022,Penicillin,Inconclusive
+333,fzacqff,31.0,Male,B+,Asthma,12/10/2019,lzxtxgr,,106,,,,,bvxpwvci,Aetna,40360.54410093662,255,Elective,26/04/2024,Ibuprofen,Inconclusive
+334,ufpdmh,26.0,Male,B+,Cancer,16/10/2023,wbonoytq,,117,,,,,stfag,Blue Cross,19169.106678758737,122,Urgent,31/08/2022,Aspirin,Normal
+335,vpgnelsh,27.0,Female,B+,Arthritis,04/07/2020,lhbqohmrq,,98,,,,,zpdpreer,Aetna,2783.380503256588,343,Urgent,29/05/2022,Aspirin,Normal
+336,jkwkottev,13.0,Female,AB+,Cancer,14/06/2022,kfqtzwsfef,,117,,,,,bugzxovqip,UnitedHealthcare,5874.409154893123,441,Elective,21/11/2022,Lipitor,Inconclusive
+337,mvyletc,24.0,Female,B-,Obesity,16/12/2020,vtqjz,,106,,,,,zkocpbn,UnitedHealthcare,212.67305812708014,191,Elective,10/10/2023,Ibuprofen,Abnormal
+338,gzkiws,60.0,Female,AB-,Diabetes,29/05/2021,kcaeeujeuj,,117,,,,,dectahtay,UnitedHealthcare,3549.6399671140225,286,Urgent,08/09/2022,Ibuprofen,Normal
+339,qswcelsubx,30.0,Male,B+,Obesity,16/11/2021,enxajz,,98,,,,,vachhtfb,Medicare,51220.50654359486,243,Emergency,06/10/2019,Ibuprofen,Inconclusive
+340,ftwforgfrr,80.0,Female,B-,Diabetes,12/03/2020,yxulyxjtb,,113,,,,,tionwoszn,Medicare,17872.22783465865,127,Elective,05/02/2020,Aspirin,Abnormal
+341,kdvlkcmh,65.0,Female,AB-,Cancer,16/12/2020,hjciafqtl,,106,,,,,fewlzl,Aetna,5170.839749324074,219,Elective,14/10/2019,Paracetamol,Normal
+342,zifxuti,80.0,Male,A+,Hypertension,28/02/2024,eedvfvx,,113,,,,,kpsvf,Aetna,21789.817517701256,375,Emergency,07/06/2019,Paracetamol,Abnormal
+343,bxgzerckxg,45.0,Female,A+,Arthritis,17/06/2021,jyjnuj,,106,,,,,zksnpe,Blue Cross,49270.04178778389,242,Urgent,07/12/2021,Ibuprofen,Inconclusive
+344,vncmqov,68.0,Male,B+,Diabetes,28/08/2021,wkuilep,,113,,,,,edjozimhne,Blue Cross,33406.202269576934,193,Urgent,15/05/2021,Ibuprofen,Abnormal
+345,lblopt,53.0,Male,AB-,Arthritis,21/05/2021,ibsafxuv,,105,,,,,qbvpjjrcom,UnitedHealthcare,2706.486739391671,313,Urgent,09/02/2023,Lipitor,Abnormal
+346,xdqcpcq,15.0,Female,O-,Diabetes,07/06/2022,iznvte,,113,,,,,fertsfoi,Blue Cross,27177.304081966187,422,Elective,29/01/2022,Penicillin,Abnormal
+347,uozccvrh,16.0,Male,O-,Arthritis,14/08/2020,rhshc,,113,,,,,tpdqznr,Medicare,16501.036017070237,154,Urgent,12/08/2021,Paracetamol,Inconclusive
+348,vxymoz,14.0,Female,B-,Asthma,05/06/2021,yljjtezsm,,113,,,,,ttqxej,Aetna,36501.02710160437,316,Elective,16/09/2020,Ibuprofen,Abnormal
+349,raihvho,16.0,Female,B+,Arthritis,06/09/2022,ppjjuk,,106,,,,,rhyowfnz,Cigna,37942.32259903012,275,Urgent,07/07/2022,Ibuprofen,Normal
+350,fapaeu,18.0,Female,A-,Arthritis,12/07/2020,qbhwjwmrbo,,98,,,0.0,,tvqozqjhz,Blue Cross,8220.237538349507,257,Emergency,06/10/2023,Lipitor,Normal
+351,vvejfmbkxy,36.0,Female,O+,Asthma,03/03/2024,nvovqv,,117,,,,,qdkubbii,Blue Cross,42820.88984236332,338,Urgent,03/02/2024,Paracetamol,Abnormal
+352,ubcguhyhnm,69.0,Male,AB-,Obesity,29/07/2019,kqagexnobj,,105,,,,,ajpjgj,Blue Cross,21127.77609803611,174,Urgent,15/03/2023,Aspirin,Inconclusive
+353,fokucgpc,20.0,Male,AB+,Cancer,15/04/2021,ejijydkuhq,,105,,,,,jgsitfn,Cigna,21966.281715616522,427,Urgent,12/09/2019,Penicillin,Abnormal
+354,yidvicb,30.0,Female,O+,Diabetes,26/02/2023,ppnyszuo,,105,,,,,fzowmpq,Medicare,13421.64220100718,318,Emergency,10/02/2024,Ibuprofen,Inconclusive
+355,cyioditpp,18.0,Female,B-,Arthritis,22/02/2020,guxbho,,98,,,,,fhbnowemls,Aetna,22058.751152882956,135,Elective,09/12/2023,Aspirin,Normal
+356,qsybyyhs,64.0,Male,A+,Arthritis,05/05/2024,keyinltn,,113,,,,,ytrdfxvyf,UnitedHealthcare,-391.2844259507515,199,Urgent,26/02/2023,Paracetamol,Normal
+357,mxmhawzaym,57.0,Female,B+,Cancer,18/02/2024,heclem,,105,,,,,padnzq,UnitedHealthcare,30498.73486950606,309,Elective,06/03/2022,Paracetamol,Normal
+358,cpcaoxfiw,18.0,Male,O-,Asthma,09/11/2020,zfgdstt,,113,,,,,heeeeriowc,Blue Cross,49844.29202376737,258,Urgent,09/05/2019,Paracetamol,Inconclusive
+359,nnydkcb,65.0,Female,A+,Diabetes,14/04/2024,ympyxoj,,105,,,0.0,,udhwfzrhk,Blue Cross,7415.994939348087,129,Urgent,17/07/2022,Aspirin,Inconclusive
+360,qplaonbp,81.0,Female,B-,Hypertension,27/04/2024,fiielo,,113,,,,,ithkrud,Aetna,7365.561962223617,375,Urgent,25/09/2021,Paracetamol,Normal
+361,akhcfsxqin,30.0,Female,AB+,Obesity,02/02/2021,avkdjgl,,117,,,,,uxbjn,UnitedHealthcare,20579.371008951915,217,Elective,10/11/2019,Paracetamol,Normal
+362,dwzroy,56.0,Male,A-,Arthritis,10/05/2019,mcsgajmaet,,106,,,,,fkrwdn,Blue Cross,45023.248053145275,103,Urgent,28/04/2023,Aspirin,Inconclusive
+363,glgqwkqs,72.0,Female,A+,Obesity,11/08/2023,lxsjl,,106,,,,,aobhhmu,Aetna,52055.48523825879,444,Urgent,14/12/2019,Penicillin,Normal
+364,fvhhpmrnzv,37.0,Female,B-,Cancer,22/05/2022,vgqlgrlgc,,106,,,,,tmwyhl,Blue Cross,38936.09986428384,437,Urgent,07/07/2019,Lipitor,Normal
+365,sqhemkxi,83.0,Female,AB-,Cancer,11/04/2022,wonejzv,,98,,,,,iijcyr,Medicare,15513.242218871497,366,Emergency,11/07/2022,Ibuprofen,Inconclusive
+366,gaclg,31.0,Female,A+,Obesity,12/05/2020,trjgtfje,,98,,,,,dankqywrir,Medicare,12837.053421302488,358,Elective,31/07/2023,Lipitor,Normal
+367,bpfoinjrs,75.0,Male,O+,Arthritis,07/05/2023,thjfivjya,,106,,,,,ensqza,Blue Cross,19819.356414685077,403,Urgent,04/12/2019,Lipitor,Abnormal
+368,ryzoqhprjj,35.0,Male,O+,Obesity,29/08/2023,ermqrt,,113,,,0.0,,nosxevqidp,Aetna,25467.15184412278,473,Elective,27/04/2024,Aspirin,Normal
+369,zytnnwj,66.0,Male,O-,Asthma,16/01/2021,xrtvwhp,,117,,,,,kqsdmy,Medicare,35307.206726603275,369,Elective,05/11/2023,Penicillin,Inconclusive
+370,itgzvwv,37.0,Male,AB-,Arthritis,17/02/2024,lpbutvb,,106,,,,,olsiqrr,UnitedHealthcare,12145.716154586873,489,Elective,14/05/2022,Ibuprofen,Inconclusive
+371,jduiewkj,22.0,Female,O-,Asthma,19/05/2022,sprhiyyzl,,106,,,,,lokdejlcx,Cigna,12371.338360775328,363,Urgent,19/08/2022,Aspirin,Normal
+372,yranctwtd,31.0,Male,O+,Obesity,09/09/2020,ndlrqxjb,,105,,,,,oouzc,Medicare,8673.835212621276,403,Elective,15/03/2021,Lipitor,Normal
+373,codgn,30.0,Male,O+,Diabetes,02/07/2020,ejjzcjkx,,105,,,,,wtvvn,Blue Cross,44244.94670413743,454,Elective,02/10/2022,Lipitor,Inconclusive
+374,mykofwnlq,62.0,Male,O+,Arthritis,21/11/2022,daavwa,,113,,,,,zytjm,Aetna,-1605.328022145715,114,Elective,29/10/2019,Penicillin,Inconclusive
+375,xtznwdzd,28.0,Male,A+,Cancer,17/03/2022,gzxtrk,,113,,,,,xsurqi,Blue Cross,39919.209131070456,411,Elective,01/03/2022,Lipitor,Normal
+376,gotdqyrtf,84.0,Male,AB-,Cancer,29/02/2024,ixwcprqipg,,106,,,,,dswgiud,Medicare,49707.58215640137,459,Urgent,11/04/2021,Aspirin,Inconclusive
+377,lkgdgcmk,31.0,Female,B-,Cancer,10/04/2020,qglasq,,106,,,,,htcrq,UnitedHealthcare,29807.62211414061,192,Emergency,27/07/2020,Aspirin,Abnormal
+378,ycdxum,68.0,Male,A+,Asthma,21/02/2020,ambfddf,,105,,,,,dsyuvcy,UnitedHealthcare,45922.799748072655,136,Emergency,14/11/2020,Penicillin,Inconclusive
+379,ezulr,78.0,Female,AB-,Asthma,23/03/2022,dajuks,,105,,,,,vwnaikev,Blue Cross,35374.37679304964,360,Urgent,26/05/2019,Ibuprofen,Normal
+380,nccnwr,59.0,Male,O-,Arthritis,18/05/2020,jxqog,,117,,,,,tdbfnyrsl,Aetna,46435.40774456636,277,Emergency,10/04/2022,Lipitor,Normal
+381,uvyqizck,80.0,Female,O+,Obesity,28/04/2021,obyja,,105,,,,,hqbyrvffns,Cigna,5639.56272123192,277,Emergency,16/07/2021,Lipitor,Abnormal
+382,xgrkokcfc,14.0,Male,O-,Diabetes,29/08/2020,btxyrfqfr,,105,,,,,jasfmvrvi,UnitedHealthcare,37390.97625547866,160,Urgent,05/05/2021,Paracetamol,Abnormal
+383,fbeerexvkc,45.0,Male,O+,Obesity,14/04/2024,pjtzls,,106,,,,,gppxwtnp,Medicare,31397.52539566455,381,Urgent,11/05/2024,Lipitor,Inconclusive
+384,jaxvxbodez,64.0,Female,B+,Hypertension,28/12/2020,lesdp,,113,,,,,xxikpi,Aetna,46123.20810856159,321,Emergency,29/01/2020,Lipitor,Normal
+385,ugaujlyx,53.0,Male,AB+,Diabetes,08/01/2020,dxayjqgw,,106,,,,,dkpnimfzx,Aetna,23519.4232124305,335,Emergency,05/01/2021,Ibuprofen,Inconclusive
+386,ayhgbrnprt,82.0,Female,B-,Hypertension,20/03/2023,gruklxno,,113,,,,,xputvux,Blue Cross,42801.17064651422,245,Elective,31/01/2024,Aspirin,Abnormal
+387,hceane,58.0,Male,B+,Diabetes,08/01/2023,btsurjsthh,,117,,,,,jtlpsdtiqr,UnitedHealthcare,3002.1892076675385,187,Urgent,05/01/2021,Penicillin,Abnormal
+388,lmxtq,62.0,Female,A-,Obesity,24/02/2023,erdxah,,105,,,,,ydwhcb,Blue Cross,33620.146895409096,465,Emergency,19/11/2021,Penicillin,Inconclusive
+389,khabnnld,32.0,Female,O-,Obesity,25/04/2024,snagp,,113,,,,,buhlwdmfoz,Medicare,50276.70220361766,270,Urgent,28/01/2023,Aspirin,Abnormal
+390,qrujnz,30.0,Female,AB+,Obesity,31/12/2023,wtrsfwkss,,98,,,,,fqrzmgzant,UnitedHealthcare,26310.9794194079,417,Elective,08/05/2022,Lipitor,Normal
+391,wcykzck,40.0,Male,B+,Diabetes,02/04/2022,gxdedbfitk,,105,,,,,szuvmhptuy,Blue Cross,44210.9916323279,210,Urgent,21/09/2020,Aspirin,Normal
+392,segqjwo,43.0,Female,O-,Arthritis,10/01/2021,bpnbymc,,106,,,0.0,,ukldifebhk,Blue Cross,13539.876557670412,424,Elective,11/02/2021,Ibuprofen,Inconclusive
+393,tvydapm,46.0,Female,AB+,Hypertension,02/11/2021,vtixmqyyuz,,105,,,,,bhbng,UnitedHealthcare,35726.275893486745,167,Elective,24/02/2024,Lipitor,Abnormal
+394,wgaxdsbbr,17.0,Female,B+,Obesity,09/10/2020,itqjysj,,105,,,,,zgmptoev,Aetna,27444.371566273137,500,Urgent,12/12/2021,Lipitor,Abnormal
+395,whxawd,79.0,Female,O+,Obesity,06/02/2023,wonmpmqwf,,117,,,,,bpscjdc,Cigna,45520.90331523021,381,Elective,03/04/2024,Aspirin,Abnormal
+396,nwxqtnodcj,62.0,Male,B+,Cancer,13/01/2024,mrrtk,,117,,,,,aikxb,UnitedHealthcare,29776.462209735884,286,Elective,30/01/2022,Paracetamol,Inconclusive
+397,dgayrjozv,17.0,Female,AB-,Asthma,03/02/2023,hhxsxxu,,106,,,,,xbkrqjbovx,Blue Cross,44048.35010619658,126,Urgent,04/11/2022,Paracetamol,Inconclusive
+398,imzaqqxb,22.0,Male,B+,Obesity,19/12/2022,qldeclvbv,,113,,,,,zytzr,Cigna,21593.2837793059,181,Urgent,05/07/2022,Lipitor,Abnormal
+399,vzxjmbpugx,41.0,Male,B-,Arthritis,17/08/2021,wgrkjvhlxe,,105,,,,,nlgdsulp,Blue Cross,31271.418472097965,456,Elective,04/01/2023,Lipitor,Normal
+400,zuatqnyv,70.0,Male,AB-,Diabetes,02/04/2020,viehvefk,,98,,,,,boploxrjwm,Medicare,11872.691885510494,105,Elective,21/11/2019,Aspirin,Abnormal
+401,blgmzamfel,79.0,Female,B+,Hypertension,27/08/2020,xbeto,,98,,,,,dnnxakid,Cigna,35147.53441943873,388,Elective,05/02/2020,Lipitor,Inconclusive
+402,iscudbnf,58.0,Male,AB+,Diabetes,07/04/2022,ewdcyfku,,98,,,,,qfwxwdrjk,Aetna,35026.75409660326,200,Emergency,11/06/2023,Lipitor,Normal
+403,ohcxvfgkxv,42.0,Female,B-,Diabetes,01/01/2022,mmsrkvgux,,113,,,,,inxgckie,Medicare,42903.27810815001,263,Emergency,05/05/2024,Aspirin,Abnormal
+404,vmhge,56.0,Female,B-,Arthritis,19/03/2023,jykfq,,106,,,,,mlagyzb,Aetna,879.9028200500372,261,Emergency,31/08/2021,Lipitor,Inconclusive
+405,lhrhbycqo,62.0,Female,A-,Diabetes,31/05/2021,axkbpkqj,,117,,,,,vfwytu,Cigna,2881.049158473287,317,Emergency,08/04/2021,Lipitor,Normal
+406,gsbbodmv,45.0,Male,B-,Obesity,25/09/2020,xenumz,,105,,,,,euqzrgz,Cigna,6863.287527389473,239,Elective,03/10/2019,Penicillin,Normal
+407,vrvzane,26.0,Male,A+,Arthritis,17/06/2021,sqbircc,,106,,,,,vbucek,UnitedHealthcare,38115.77565109281,394,Elective,22/04/2022,Penicillin,Abnormal
+408,mfinypagse,57.0,Female,O-,Cancer,29/11/2019,bwhibbq,,106,,,,,ccdvzrab,Aetna,48540.81743524094,441,Urgent,15/04/2020,Ibuprofen,Abnormal
+409,tysvjnhlbv,74.0,Male,A-,Diabetes,18/07/2020,zklvb,,113,,,,,ymmksutys,Blue Cross,20940.75422604096,290,Urgent,14/04/2020,Lipitor,Abnormal
+410,jgfef,74.0,Male,O+,Arthritis,29/02/2020,phvjsnquu,,98,,,,,ohnxmjop,Blue Cross,30260.883959315084,282,Elective,03/06/2022,Ibuprofen,Inconclusive
+411,plauggbvpg,19.0,Male,B+,Asthma,23/02/2022,oetgvlnj,,98,,,,,geyul,Medicare,-386.63898369267895,488,Urgent,09/11/2021,Paracetamol,Abnormal
+412,oplfobf,37.0,Male,AB+,Cancer,13/06/2019,tficoiyfjs,,98,,,,,duszoh,Cigna,-1523.3191735296323,146,Urgent,24/08/2020,Penicillin,Inconclusive
+413,fuabcjni,78.0,Female,O-,Hypertension,09/02/2023,enqehgk,,105,,,,,zokuqmizvh,Blue Cross,10450.730150011888,292,Urgent,04/12/2023,Lipitor,Abnormal
+414,uasqkyg,54.0,Female,A-,Diabetes,24/03/2020,wsgfto,,105,,,,,nywciy,Cigna,39528.042872214086,274,Elective,08/03/2023,Aspirin,Inconclusive
+415,xfpfyvw,81.0,Male,B+,Arthritis,22/12/2020,pxkwrqxspw,,117,,,,,vwjhldi,Blue Cross,40730.706660338335,482,Urgent,01/06/2023,Penicillin,Abnormal
+416,ztdsk,33.0,Female,A+,Hypertension,09/08/2020,imcchis,,113,,,,,znztgndtnp,Medicare,41024.34509252456,404,Emergency,13/11/2022,Paracetamol,Normal
+417,trcwa,39.0,Male,AB+,Asthma,11/02/2020,exywocta,,106,,,,,wtubhoy,Aetna,21444.568409592233,354,Urgent,26/08/2020,Penicillin,Inconclusive
+418,rjokacwy,21.0,Female,O-,Hypertension,15/07/2021,cmdlcdl,,117,,,,,eqourladjg,Aetna,18574.965837603817,105,Urgent,15/07/2021,Aspirin,Inconclusive
+419,uvpnx,18.0,Male,AB+,Hypertension,21/03/2020,ehjrddom,,113,,,,,qjimx,Blue Cross,40110.800451709154,147,Elective,06/04/2020,Ibuprofen,Abnormal
+420,zimgwmqapz,18.0,Male,O-,Hypertension,26/04/2020,htarke,,113,,,,,mscouweovj,Cigna,-1974.677699584364,188,Urgent,11/09/2022,Lipitor,Normal
+421,dpyca,56.0,Male,AB-,Diabetes,02/03/2021,cgmnzx,,117,,,,,ebyevnvfja,UnitedHealthcare,494.7613190342943,404,Urgent,01/01/2023,Aspirin,Normal
+422,wcoayulea,17.0,Male,A-,Diabetes,07/05/2023,zwfkwerjl,,98,,,,,hcgvwx,Medicare,19575.50459165591,421,Emergency,20/05/2021,Penicillin,Abnormal
+423,gzhzgygqz,55.0,Male,AB+,Hypertension,14/06/2022,aiyhwlq,,98,,,,,tlnibkyv,UnitedHealthcare,7662.802354808755,267,Elective,08/09/2020,Ibuprofen,Abnormal
+424,alitay,58.0,Female,O+,Diabetes,01/08/2023,avssks,,98,,,,,kqdsqeran,Cigna,898.5268210170195,500,Urgent,13/08/2019,Penicillin,Inconclusive
+425,exkdde,76.0,Male,B+,Obesity,25/10/2019,xgznh,,106,,,,,dyjvayv,Cigna,36628.67545893937,260,Elective,26/12/2020,Lipitor,Abnormal
+426,ycgiltxmpx,66.0,Female,A+,Diabetes,12/06/2022,xwbklydb,,106,,,,,swjijcnuzy,Cigna,20245.64562254002,468,Urgent,10/11/2022,Penicillin,Inconclusive
+427,tcebu,32.0,Male,O+,Asthma,24/01/2023,uanhmsygne,,98,,,,,cveitjvipp,Cigna,29426.590567105224,260,Urgent,14/04/2024,Lipitor,Normal
+428,qlqbs,51.0,Male,A+,Diabetes,13/02/2020,lhzbx,,106,,,,,cfdptxnjl,Medicare,20382.65743784441,106,Urgent,06/07/2019,Penicillin,Abnormal
+429,wqnmvapvdr,14.0,Female,O-,Hypertension,31/10/2019,ssdcn,,106,,,0.0,,knlxcuketq,Blue Cross,15639.890959355418,257,Emergency,20/08/2023,Lipitor,Inconclusive
+430,xaolcgn,23.0,Female,B-,Asthma,10/09/2020,iszora,,113,,,,,gawneejuym,Medicare,5317.9283573213215,399,Elective,21/07/2021,Aspirin,Abnormal
+431,mvonyrdif,59.0,Female,AB-,Obesity,09/04/2020,yywjkyydj,,105,,,,,ejmwx,Aetna,19613.526562892275,470,Urgent,16/04/2020,Ibuprofen,Abnormal
+432,gdgkoshyur,31.0,Male,O-,Diabetes,28/06/2020,rhpeal,,98,,,,,mgrlmbrh,Blue Cross,17166.889434408597,143,Urgent,15/06/2022,Penicillin,Inconclusive
+433,lenlxzj,13.0,Male,A+,Asthma,10/05/2020,nirwmsbyfi,,113,,,,,pgzhiz,Cigna,12082.18887270791,441,Elective,29/08/2021,Lipitor,Normal
+434,ghqda,74.0,Male,B+,Asthma,28/08/2020,rfiurimos,,106,,,0.0,,pkltswubk,Aetna,23636.737455504644,384,Urgent,11/11/2022,Paracetamol,Abnormal
+435,disajw,64.0,Male,A-,Asthma,21/06/2020,hmvaq,,106,,,,,vhubcorold,Medicare,42044.983701389996,397,Elective,26/09/2022,Lipitor,Abnormal
+436,pbupmt,43.0,Male,AB+,Hypertension,26/09/2020,njdmyk,,98,,,,,agdcq,Aetna,392.7442089621943,315,Elective,06/12/2020,Ibuprofen,Inconclusive
+437,ysjyay,18.0,Female,A-,Arthritis,08/01/2020,phrpkasxuo,,105,,,,,btlpozvwn,Cigna,43603.656448583824,292,Emergency,03/06/2019,Ibuprofen,Abnormal
+438,msgmsb,84.0,Female,B+,Obesity,27/05/2023,ohvdrn,,106,,,,,tbxhm,Blue Cross,41002.658573531146,475,Elective,21/07/2022,Lipitor,Abnormal
+439,hsdwfs,79.0,Female,AB-,Arthritis,12/10/2023,tmctpwonlw,,113,,,,,jrpsuerz,UnitedHealthcare,19017.609802534625,175,Elective,17/08/2022,Aspirin,Inconclusive
+440,olwaivf,26.0,Female,B+,Diabetes,18/02/2024,snjjxokyb,,105,,,,,jsidga,Cigna,25750.37598793971,367,Elective,12/03/2024,Penicillin,Normal
+441,exgofo,30.0,Male,O-,Arthritis,20/04/2023,ynjkcwe,,98,,,,,hbafmvwk,Blue Cross,3310.2501710961214,397,Elective,04/06/2019,Paracetamol,Inconclusive
+442,iyobscu,,Male,O+,Hypertension,14/11/2020,iwxqlqs,,105,,,,,mgpnfn,UnitedHealthcare,47964.68138227146,296,Emergency,13/02/2020,Penicillin,Inconclusive
+443,svupuulcml,73.0,Male,O-,Cancer,24/01/2023,tzopptibbf,,117,,,,,ykxtqdn,Blue Cross,30514.022527639703,228,Elective,14/05/2020,Paracetamol,Inconclusive
+444,mquqhymg,40.0,Male,O-,Asthma,10/10/2021,nfasjzpon,,105,,,,,alnbmslz,Blue Cross,23564.293624233553,188,Emergency,11/08/2021,Penicillin,Abnormal
+445,dxlfnzwimo,68.0,Female,O+,Arthritis,05/01/2024,ctpxio,,98,,,,,ftexqo,Aetna,5205.192169354067,253,Elective,31/07/2019,Paracetamol,Normal
+446,roedvitvj,86.0,Female,AB+,Diabetes,26/11/2023,ererslc,,106,,,,,tzmidnoxm,Aetna,20666.34163701047,159,Emergency,18/08/2021,Penicillin,Normal
+447,kzztwo,69.0,Male,AB+,Hypertension,31/10/2019,hvfxk,,113,,,,,cxplbrcwm,Aetna,26809.762174121188,306,Emergency,30/10/2021,Lipitor,Normal
+448,qsbmpeuyf,20.0,Female,O-,Arthritis,18/12/2021,gtwlsoxocr,,117,,,,,jibvfp,Aetna,17119.08124533043,493,Emergency,19/07/2020,Ibuprofen,Inconclusive
+449,ebwcbirl,76.0,Male,AB-,Arthritis,02/09/2022,sovhoq,,113,,,,,joucrbqlsw,Blue Cross,16145.749602381102,332,Emergency,26/08/2019,Paracetamol,Inconclusive
+450,xhyvbvfl,29.0,Female,O-,Asthma,06/09/2020,yugdzese,,117,,,,,gzzkjl,UnitedHealthcare,21982.628558944663,302,Elective,23/10/2023,Aspirin,Inconclusive
+451,wvpxhh,70.0,Male,,Diabetes,08/12/2021,vcvgu,,106,,,,,omvxbjq,Medicare,11779.488163119155,341,Elective,27/07/2020,Paracetamol,Inconclusive
+452,zwhfeqi,49.0,Male,A-,Hypertension,15/01/2023,alcydrlpi,,105,,,,,dalgh,Cigna,5862.665624613646,445,Urgent,07/07/2023,Ibuprofen,Inconclusive
+453,lambsxdifr,29.0,Male,O-,Cancer,27/05/2019,nkngw,,98,,,0.0,,kmdnlt,Cigna,3035.8466628588176,208,Urgent,04/05/2022,Paracetamol,Normal
+454,eqiutheprb,78.0,Female,O-,Asthma,05/03/2020,drfeebixzl,,105,,,,,vafqiimtji,Blue Cross,50576.556541466125,256,Urgent,26/03/2021,Lipitor,Normal
+455,ezcjhdmhvh,62.0,Female,A-,Cancer,18/02/2021,oqcats,,113,,,,,vdhyfw,Blue Cross,52002.94817120427,400,Elective,07/08/2023,Paracetamol,Inconclusive
+456,dxilgha,34.0,Male,AB+,Diabetes,14/06/2022,nbdyoyjq,,117,,,,,odoau,UnitedHealthcare,37037.6757768761,445,Urgent,27/04/2020,Aspirin,Inconclusive
+457,xndxmpslyo,44.0,Male,B+,Cancer,19/06/2021,yzqoe,,117,,,,,vluazmfqw,Blue Cross,38931.87231231624,430,Emergency,02/03/2023,Aspirin,Inconclusive
+458,lenxnxfwc,82.0,Male,AB-,Diabetes,02/07/2020,pzsda,,117,,,,,sfhskiqjf,UnitedHealthcare,48428.42338064265,105,Urgent,09/11/2020,Aspirin,Normal
+459,jdrkxe,56.0,Male,O+,Asthma,04/06/2023,qpgzdgw,,98,,,,,qrech,Cigna,42792.44821821692,275,Elective,19/02/2023,Aspirin,Normal
+460,vtphyqqo,58.0,Female,A-,Diabetes,25/03/2022,vqjgoqozg,,105,,,,,udlqk,Blue Cross,21541.579101318188,422,Urgent,18/01/2020,Paracetamol,Normal
+461,kgypokv,83.0,Female,B-,Obesity,30/11/2023,nvfmaiziz,,105,,,,,vrhyne,Medicare,18076.00501338956,452,Elective,11/05/2021,Lipitor,Inconclusive
+462,tuoqdf,27.0,Male,A+,Diabetes,17/07/2021,qmblieqf,,106,,,,,mpltfaaopf,Aetna,39068.0555926446,223,Urgent,02/01/2023,Aspirin,Normal
+463,tptwebu,79.0,Female,B+,Arthritis,25/03/2020,logurvhaew,,117,,,,,anjcvwyx,Cigna,2238.5181386149734,273,Elective,14/10/2019,Ibuprofen,Normal
+464,gmdssvl,52.0,Male,O-,Obesity,12/02/2023,sypoxna,,106,,,,,jqkeyr,Blue Cross,43022.3785207551,240,Urgent,14/08/2021,Ibuprofen,Normal
+465,eymrxabc,52.0,Female,A+,Obesity,17/07/2023,yvnfydvzi,,98,,,,,lnlmncowdb,Cigna,36698.129748092586,163,Urgent,15/11/2019,Ibuprofen,Abnormal
+466,mgqkom,74.0,Male,A+,Obesity,29/01/2020,dwowhiprck,,113,,,0.0,,rancb,Cigna,8338.840008039062,228,Emergency,22/08/2020,Aspirin,Inconclusive
+467,xqszaxoa,72.0,Female,A+,Asthma,08/11/2022,atvkpf,,98,,,,,isyfc,UnitedHealthcare,36533.64855683743,414,Emergency,20/05/2020,Aspirin,Normal
+468,xlymlg,76.0,Male,AB+,Obesity,15/05/2023,vjufiikwdy,,98,,,,,qnxljl,Blue Cross,22818.425805381787,169,Urgent,25/08/2020,Aspirin,Abnormal
+469,apfhuol,53.0,Male,AB+,Asthma,01/11/2020,gpycfbud,,105,,,,,gxajwsg,UnitedHealthcare,38291.04390464634,249,Elective,18/01/2022,Aspirin,Inconclusive
+470,nwrosyu,62.0,Female,O-,Obesity,05/07/2022,hrapxnke,,98,,,,,yqntn,Medicare,5856.093616812461,201,Emergency,14/09/2022,Ibuprofen,Abnormal
+471,jwdhlb,69.0,Female,O+,Obesity,13/03/2020,xudgn,,106,,,,,cbisef,Blue Cross,33188.218471021966,320,Elective,24/09/2021,Lipitor,Normal
+472,iwcjhxmvd,19.0,Male,AB-,Asthma,15/04/2020,lmobf,,106,,,,,zkpwx,Aetna,40077.53111210911,248,Emergency,27/07/2019,Penicillin,Abnormal
+473,wvvjsipzzg,44.0,Female,O+,Diabetes,27/10/2020,rxollw,,113,,,,,zqqlgo,UnitedHealthcare,51456.118815233975,295,Emergency,28/07/2022,Aspirin,Inconclusive
+474,uxtwifqm,79.0,Female,AB+,Arthritis,31/12/2020,ysaxcdhh,,98,,,,,cmgifiw,Blue Cross,6107.357619613993,207,Elective,26/10/2022,Lipitor,Abnormal
+475,eanlakw,70.0,Female,B-,Asthma,09/04/2022,jdyznvaan,,106,,,,,ajshygdyoz,Blue Cross,8123.790768366298,184,Elective,13/04/2020,Penicillin,Inconclusive
+476,muqto,18.0,Female,O+,Arthritis,18/10/2020,gmdyliyd,,106,,,,,ljnrxhxz,Blue Cross,27392.98723258582,160,Urgent,19/03/2020,Ibuprofen,Inconclusive
+477,dqfpp,83.0,Male,A+,Diabetes,01/11/2023,jjtukrrczo,,105,,,,,jbgng,Blue Cross,19895.746632107814,403,Emergency,24/11/2022,Penicillin,Normal
+478,qkjff,77.0,Female,O+,Hypertension,03/03/2024,idconavwv,,117,,,,,rlgoe,Blue Cross,9179.444407713714,359,Elective,26/06/2021,Penicillin,Inconclusive
+479,gfpbsxcnb,43.0,Female,AB+,Cancer,12/09/2021,ytwniwckcp,,117,,,,,pqycrdzd,Aetna,16751.18455471573,203,Emergency,25/02/2024,Penicillin,Abnormal
+480,gajzfcczcq,47.0,Female,A+,Hypertension,24/12/2023,lzxpq,,106,,,,,sdtwg,Blue Cross,8873.352802055188,439,Elective,24/01/2022,Aspirin,Abnormal
+481,drdbkkhsol,80.0,Female,B-,Asthma,14/05/2020,xvzuzzj,,105,,,,,vzplmekzq,UnitedHealthcare,3006.6142840826024,417,Elective,23/06/2020,Lipitor,Abnormal
+482,znhzzmmiy,68.0,Female,AB-,Diabetes,26/03/2022,ykstpsfrs,,105,,,,,usbqmicv,Aetna,36569.33909567323,458,Emergency,03/09/2021,Aspirin,Normal
+483,bgaeeb,40.0,Female,O+,Hypertension,21/08/2019,mgzardkis,,117,,,,,qiwjqjslu,Blue Cross,29648.362892136858,183,Urgent,28/02/2020,Aspirin,Inconclusive
+484,panmppu,14.0,Male,O+,Hypertension,06/02/2020,xinburcjr,,117,,,,,eeurwn,Blue Cross,18923.19153382112,281,Urgent,03/08/2022,Ibuprofen,Abnormal
+485,rwhjluva,81.0,Female,A-,Arthritis,24/05/2019,lrrgne,,117,,,,,bpvlc,Aetna,26288.971386396093,215,Urgent,02/03/2024,Ibuprofen,Abnormal
+486,vcoum,58.0,Female,B+,Obesity,08/03/2022,yzcefrdz,,113,,,,,zgtkatgfov,Cigna,34324.19060328818,115,Emergency,09/10/2019,Penicillin,Normal
+487,adfhvsyti,34.0,Male,B+,Diabetes,01/03/2021,pitadwjfe,,105,,,,,uzotuudoe,Cigna,21429.852492559712,404,Emergency,03/08/2022,Ibuprofen,Normal
+488,zvzndnhiux,30.0,Female,A-,Asthma,27/04/2023,qfyuthrg,,106,,,,,milymn,Cigna,38397.33004600399,199,Emergency,26/08/2021,Penicillin,Abnormal
+489,hsggi,44.0,Male,O-,Hypertension,23/10/2023,qoqel,,106,,,,,pjbuz,Cigna,34551.781563065204,327,Elective,27/10/2019,Ibuprofen,Abnormal
+490,vimld,39.0,Male,B+,Asthma,08/02/2023,gllvxgjoel,,98,,,,,qdjqgylyb,Medicare,3181.4952859195755,197,Urgent,23/06/2021,Penicillin,Normal
+491,akaaxbxnru,75.0,Female,O+,Diabetes,28/03/2022,mvoqp,,105,,,,,xokysk,Aetna,51120.8388605648,350,Urgent,30/05/2019,Paracetamol,Inconclusive
+492,bwnfc,65.0,Male,O-,Asthma,01/08/2022,kuoqdo,,98,,,,,fkszvqobo,UnitedHealthcare,5917.507399313179,367,Emergency,25/12/2019,Ibuprofen,Normal
+493,nzyyigoz,59.0,Male,O+,Arthritis,09/04/2021,yefsjcbbm,,106,,,,,jxyrsteoi,UnitedHealthcare,41869.98000851134,118,Emergency,11/01/2023,Penicillin,Inconclusive
+494,hyqerg,19.0,Male,A+,Arthritis,29/06/2021,xfzoaq,,98,,,,,ngwfxaadqm,Blue Cross,836.0529586272489,150,Urgent,10/04/2023,Paracetamol,Abnormal
+495,imnbas,71.0,Female,B-,Diabetes,21/09/2021,svtjxektdb,,106,,,0.0,,rklmt,Aetna,35505.90251435682,444,Urgent,15/12/2022,Ibuprofen,Abnormal
+496,zoqfzi,30.0,Female,A+,Arthritis,13/08/2019,bbmzmnbmrd,,98,,,,,sszbt,Blue Cross,22977.25587840055,168,Elective,15/07/2021,Ibuprofen,Abnormal
+497,hwliaqsih,86.0,Female,AB-,Asthma,04/03/2023,ohhjt,,105,,,,,ijfsetcxm,Cigna,9316.081348318736,156,Emergency,12/10/2019,Lipitor,Abnormal
+498,dhvrizgqf,21.0,Female,B-,Diabetes,01/02/2020,mzikrvvp,,105,,,,,dvzgp,UnitedHealthcare,46748.659735421235,250,Urgent,25/10/2023,Ibuprofen,Abnormal
+499,ezydatnybg,55.0,Female,B+,Arthritis,24/04/2022,nmnii,,105,,,,,ydqjnpeymu,UnitedHealthcare,24299.78794421892,405,Urgent,14/03/2020,Aspirin,Inconclusive
+500,bkineim,58.0,Male,B-,Diabetes,04/07/2021,cmzvuzh,,106,,,,,bnyxivsvv,Cigna,4364.839246903744,492,Emergency,26/05/2019,Lipitor,Normal
+501,mqoujjttf,73.0,Male,O+,Obesity,23/10/2021,wrvuya,,117,,,,,dmnxoy,UnitedHealthcare,39165.012551929016,345,Elective,01/06/2024,Lipitor,Inconclusive
+502,ydcekfbsp,55.0,Male,O-,Asthma,24/12/2019,npcticxlk,,117,,,,,msxjboatwe,Medicare,29386.116989603906,412,Elective,03/07/2021,Paracetamol,Inconclusive
+503,holylmeqsf,75.0,Female,AB-,Diabetes,13/07/2022,hjobsqdwlu,,117,,,,,xnrrmrwi,Cigna,4638.778652328513,470,Emergency,03/05/2021,Penicillin,Abnormal
+504,yijsbrt,85.0,Male,B+,Asthma,05/08/2023,tqxdxiiemz,,106,,,,,kxpekmwaqb,Blue Cross,19700.862781047337,470,Emergency,25/11/2020,Aspirin,Abnormal
+505,rzoloepzx,24.0,Male,O+,Hypertension,15/07/2021,mossngitx,,105,,,,,fsfcqrcxz,Blue Cross,39945.25941401489,132,Elective,20/07/2023,Lipitor,Normal
+506,jeuzn,77.0,Female,B+,Arthritis,29/04/2020,jgmdixbp,,98,,,,,kqebzilu,Aetna,44770.13098649585,101,Urgent,01/11/2023,Aspirin,Abnormal
+507,ixsni,27.0,Male,AB-,Asthma,29/12/2020,owjrltcy,,98,,,,,kbclyawdqc,Medicare,50072.73076885902,211,Emergency,26/06/2020,Lipitor,Normal
+508,ocseqbb,17.0,Female,O+,Asthma,19/06/2022,xkxkl,,98,,,,,ktoya,Cigna,34719.25645838983,300,Urgent,16/03/2020,Aspirin,Inconclusive
+509,supjgxoa,48.0,Female,A-,Asthma,07/03/2021,zmribtivr,,106,,,,,xklhh,Aetna,39964.92848610211,488,Urgent,25/06/2020,Lipitor,Abnormal
+510,quact,21.0,Female,A-,Cancer,17/11/2022,yndyluvs,,117,,,,,ivfpmmfyw,Aetna,12011.897689354057,453,Emergency,15/07/2020,Paracetamol,Abnormal
+511,ybouqjq,65.0,Female,O+,Obesity,17/02/2022,yplctez,,117,,,,,dwmreq,Cigna,392.09030687911104,156,Urgent,15/03/2024,Penicillin,Abnormal
+512,felumfpny,29.0,Female,O-,Diabetes,28/03/2020,csljqxp,,105,,,,,grlue,Blue Cross,50091.31372741904,264,Urgent,04/05/2021,Aspirin,Normal
+513,rntmzmn,49.0,Female,O-,Obesity,03/10/2021,kmabgryq,,117,,,,,bhzivskztu,Cigna,17803.4156122871,207,Urgent,30/10/2023,Paracetamol,Abnormal
+514,xidmsa,73.0,Female,B-,Arthritis,12/12/2023,pznqwbuun,,117,,,,,wlhdkohoo,UnitedHealthcare,36325.19951385133,481,Urgent,14/07/2019,Paracetamol,Normal
+515,zfqmvob,70.0,Male,O+,Arthritis,07/04/2021,ykgtxa,,106,,,,,ziurg,UnitedHealthcare,34585.37353193651,278,Elective,01/01/2021,Penicillin,Abnormal
+516,vqfsuyop,29.0,Female,AB-,Cancer,28/08/2022,gamtcbczl,,105,,,,,tgkiw,Aetna,45310.65683463771,438,Emergency,18/04/2021,Paracetamol,Abnormal
+517,hghqiuxll,19.0,Female,O-,Cancer,14/08/2023,etwbzaaore,,117,,,,,ysclcul,Medicare,40526.21154298391,415,Elective,14/09/2019,Paracetamol,Inconclusive
+518,uooqshaxtz,55.0,Female,A-,Obesity,09/10/2022,nuatutalck,,106,,,,,xqvfyuqad,Cigna,47611.568843475594,214,Urgent,11/07/2020,Ibuprofen,Normal
+519,kfvvfaa,75.0,Female,O-,Cancer,19/03/2022,xuhhsg,,98,,,,,qjnbss,Medicare,7873.664483387802,127,Emergency,02/07/2019,Paracetamol,Inconclusive
+520,pcxbzayoe,51.0,Female,AB+,Obesity,06/05/2020,qqqmlvld,,98,,,,,lbckl,UnitedHealthcare,14925.262130762248,234,Urgent,09/07/2022,Paracetamol,Normal
+521,eyxcdvxz,58.0,Female,A-,Cancer,03/05/2020,yvxjmfq,,105,,,,,camso,Aetna,17609.219201740478,302,Urgent,14/07/2023,Ibuprofen,Normal
+522,sjqvlwbawy,17.0,Female,B-,Obesity,14/11/2020,kjnelcc,,105,,,,,usswtqkgnw,Blue Cross,44807.351829443585,362,Urgent,19/07/2023,Paracetamol,Normal
+523,izmqcr,16.0,Female,AB+,Asthma,31/03/2022,jtazqf,,113,,,,,szuga,Aetna,15696.409698120415,279,Emergency,03/06/2024,Paracetamol,Abnormal
+524,mrkbbch,49.0,Female,AB+,Asthma,13/06/2019,pljknoqv,,117,,,,,olahb,Blue Cross,48519.369874704666,495,Emergency,26/03/2021,Ibuprofen,Normal
+525,oqxwryhclo,16.0,Female,B-,Obesity,02/09/2020,iuefeh,,98,,,,,jdydyva,UnitedHealthcare,31524.360242583858,450,Urgent,13/04/2020,Aspirin,Inconclusive
+526,gegdl,54.0,Female,O+,Asthma,09/01/2023,avqmbbkcn,,106,,,,,rqvmrgrb,Medicare,49001.84673487724,155,Emergency,27/11/2021,Lipitor,Normal
+527,gtxod,67.0,Female,B+,Cancer,11/07/2019,hlool,,106,,,,,lebsxcuw,UnitedHealthcare,15958.799612575838,250,Elective,25/12/2023,Paracetamol,Inconclusive
+528,ysqsu,33.0,Male,A-,Obesity,17/07/2022,cbtqmmvfc,,106,,,,,sduceouou,UnitedHealthcare,46917.12046893697,324,Elective,05/04/2023,Paracetamol,Inconclusive
+529,xlfauoot,21.0,Male,A+,Obesity,06/05/2021,uytkrjoer,,98,,,,,voyqfrrgb,UnitedHealthcare,24021.79036314234,347,Urgent,23/02/2024,Paracetamol,Inconclusive
+530,vnzshaxh,57.0,Male,A-,Cancer,31/07/2023,boybflxprc,,113,,,,,usfib,Medicare,14881.262960106362,179,Urgent,26/02/2020,Penicillin,Normal
+531,ogehntfgmn,33.0,Male,A+,Diabetes,26/01/2024,dwwhfg,,106,,,,,zavurlnf,Medicare,30608.253067088157,339,Elective,29/09/2019,Penicillin,Normal
+532,gdglpmsvbo,55.0,Female,O+,Obesity,21/08/2020,jfemrzs,,98,,,,,vruaxtiqlj,Cigna,3484.2402720028012,114,Urgent,28/01/2020,Ibuprofen,Inconclusive
+533,lfjydccv,52.0,Male,A-,Diabetes,01/11/2019,zteemzbgl,,117,,,,,sbsoy,Blue Cross,4800.184009291375,465,Emergency,21/07/2020,Aspirin,Normal
+534,latebhyh,80.0,Female,A+,Obesity,13/03/2020,pdplr,,113,,,,,deutkpgl,UnitedHealthcare,47549.72995591703,162,Urgent,03/02/2020,Paracetamol,Abnormal
+535,xmvaihyxd,43.0,Female,AB-,Cancer,02/12/2021,faifzbbky,,113,,,,,lwvsyeek,Medicare,3398.9537202265965,360,Elective,18/11/2023,Aspirin,Inconclusive
+536,alfanwmfwn,17.0,Female,AB-,Obesity,26/09/2022,dflryi,,117,,,,,yuglvg,Aetna,32735.207499373773,122,Urgent,25/01/2020,Lipitor,Abnormal
+537,puera,66.0,Female,B-,Obesity,12/12/2019,azpyadyd,,106,,,,,krolcbus,Medicare,39291.193769020865,133,Emergency,03/03/2024,Penicillin,Normal
+538,jbkwxwdbbc,45.0,Female,AB-,Asthma,18/11/2019,ssplptrnb,,98,,,,,gxenzh,Aetna,14136.36597325565,260,Urgent,11/07/2019,Lipitor,Inconclusive
+539,nnxhvi,28.0,Female,O-,Arthritis,01/02/2023,nnkfhce,,105,,,,,vzmxse,Blue Cross,10679.290329405434,299,Emergency,12/02/2021,Paracetamol,Normal
+540,ygujnk,15.0,Male,AB-,Diabetes,21/01/2024,yqmnkzjxox,,117,,,,,nihphkmg,Cigna,17163.68502857759,484,Urgent,04/08/2021,Penicillin,Inconclusive
+541,yrplqpise,52.0,Male,O-,Asthma,11/08/2021,yyxrgua,,106,,,,,pnwxacgq,Aetna,24001.284122722413,438,Elective,22/01/2024,Aspirin,Abnormal
+542,gfzjdpc,45.0,Female,AB+,Cancer,15/04/2021,evbbbi,,117,,,,,bvmxd,Aetna,7365.089996603263,410,Elective,31/12/2021,Lipitor,Inconclusive
+543,yrxooktt,60.0,Female,O+,Arthritis,28/10/2019,moyeqbalme,,98,,,,,pjggqbsn,Aetna,47633.47985474358,240,Urgent,16/11/2021,Paracetamol,Abnormal
+544,sjchevrk,51.0,Male,AB+,Diabetes,05/02/2024,bfeqpgh,,105,,,,,qisskertuu,Blue Cross,28582.02667477293,120,Elective,09/04/2021,Paracetamol,Abnormal
+545,vjhcvuva,33.0,Female,A+,Diabetes,31/12/2019,sikesvqmy,,113,,,,,ipbirpqxb,Blue Cross,2597.531597246765,210,Urgent,29/09/2019,Aspirin,Normal
+546,qxdxuxmiro,48.0,Female,AB+,Diabetes,20/10/2019,xnflh,,105,,,,,kbvzwqrmyg,Medicare,50847.73950077155,472,Emergency,21/01/2021,Paracetamol,Abnormal
+547,nfsie,39.0,Male,A+,Diabetes,19/05/2020,imcvtl,,117,,,,,oqopmi,UnitedHealthcare,45403.29544983382,480,Emergency,05/11/2019,Aspirin,Inconclusive
+548,sfvycr,21.0,Male,AB+,Hypertension,04/02/2021,gwgzh,,113,,,,,phutf,Blue Cross,33002.82994666641,256,Urgent,05/06/2022,Lipitor,Abnormal
+549,mivjkpw,79.0,Male,B-,Cancer,01/10/2022,soauaplix,,106,,,,,xlebzn,Blue Cross,51619.487571845006,481,Emergency,07/05/2023,Paracetamol,Abnormal
+550,ckpatiay,19.0,Female,O-,Arthritis,14/12/2020,wtrgum,,98,,,,,etfmwd,UnitedHealthcare,34948.56468115336,412,Emergency,28/04/2023,Paracetamol,Abnormal
+551,ptuohu,24.0,Female,O+,Obesity,26/02/2022,pwobglqwx,,105,,,,,wjqwog,Blue Cross,16346.204813514532,348,Elective,23/12/2022,Lipitor,Abnormal
+552,auffw,41.0,Male,O+,Obesity,29/11/2023,pselwgvw,,106,,,,,nnuifuxx,Medicare,38723.54017791148,356,Emergency,12/03/2023,Paracetamol,Normal
+553,xgpukc,50.0,Female,O-,Cancer,15/12/2019,drvmaolu,,113,,,,,tskhvrr,Aetna,50386.95502498888,358,Urgent,12/05/2024,Aspirin,Abnormal
+554,opalmvwzvb,82.0,Male,O+,Hypertension,08/09/2023,nnjlxf,,98,,,,,rwbeo,Aetna,19086.834106390143,173,Emergency,06/04/2023,Ibuprofen,Normal
+555,kpxdh,24.0,Female,O+,Obesity,23/11/2022,jvqgzt,,98,,,,,upzwjjws,Medicare,12946.51487122778,459,Elective,19/03/2021,Penicillin,Abnormal
+556,aaduvl,89.0,Male,A-,Hypertension,31/03/2020,iooxnbcv,,98,,,,,oiczootl,Aetna,20106.509408432627,183,Emergency,04/02/2022,Lipitor,Normal
+557,gucsra,74.0,Female,B-,Hypertension,11/06/2020,mawppk,,106,,,,,kblbkb,Cigna,46653.34263084238,392,Emergency,26/06/2021,Aspirin,Abnormal
+558,yfvilbstww,43.0,Female,A-,Asthma,08/06/2019,duxwzut,,117,,,,,hrjnsk,Cigna,-1853.2088474798004,277,Urgent,18/10/2023,Aspirin,Abnormal
+559,fkcia,35.0,Female,O-,Cancer,30/03/2020,tfydng,,106,,,,,gknmv,UnitedHealthcare,28650.69125845332,499,Elective,03/12/2022,Ibuprofen,Abnormal
+560,idsfkaed,45.0,Female,AB-,Hypertension,08/08/2019,mizjwhgf,,117,,,,,qttdmnz,UnitedHealthcare,5175.546130739006,106,Elective,26/09/2023,Lipitor,Inconclusive
+561,tnjca,45.0,Female,AB+,Cancer,04/12/2022,oafqrddxzd,,106,,,,,ekzpq,Aetna,25260.674605870434,168,Urgent,31/08/2020,Lipitor,Inconclusive
+562,hfbqui,30.0,Female,AB-,Obesity,07/04/2024,szocshf,,105,,,,,nmjufx,Cigna,50195.174011704585,441,Emergency,22/02/2023,Aspirin,Inconclusive
+563,zxnlfrdhio,76.0,Male,AB+,Diabetes,25/03/2021,ztzmj,,117,,,,,dllfxgwj,Aetna,48917.34481060094,350,Urgent,01/07/2021,Ibuprofen,Abnormal
+564,vbslidsrk,18.0,Female,A-,Arthritis,07/06/2020,enlyd,,117,,,,,nnyagjoo,Cigna,7139.324021732567,258,Emergency,22/05/2024,Ibuprofen,Abnormal
+565,gdphopsp,73.0,Male,O-,Cancer,09/11/2023,trzbnaebak,,105,,,,,fdmqs,Medicare,20705.389589630016,291,Elective,06/01/2020,Lipitor,Abnormal
+566,qtpjlqt,20.0,Male,AB-,Arthritis,21/02/2022,xyxnjjfymq,,113,,,,,hujgye,Cigna,3826.429566708107,263,Elective,08/04/2023,Paracetamol,Abnormal
+567,lgkjkwrcj,59.0,Male,AB-,Arthritis,25/01/2024,aneefyx,,113,,,,,ekbkeska,Aetna,35473.30588761042,219,Elective,02/07/2023,Aspirin,Inconclusive
+568,dhrach,15.0,Female,B+,Diabetes,28/12/2022,aucrv,,98,,,,,ytorptuult,Cigna,29271.345534468077,117,Emergency,18/05/2019,Penicillin,Inconclusive
+569,xbpqagfubl,13.0,Female,AB+,Cancer,26/01/2022,ddkatf,,105,,,,,urkvo,Cigna,13187.603915026833,436,Emergency,09/01/2021,Ibuprofen,Abnormal
+570,dycyjgopbh,13.0,Male,B+,Hypertension,19/10/2021,crcvmmv,,106,,,,,udpfmoqw,Blue Cross,-712.5498463369015,272,Emergency,09/11/2019,Penicillin,Inconclusive
+571,ohnemntl,40.0,Male,A-,Arthritis,27/01/2023,ivrbqgijs,,113,,,,,rlkourand,UnitedHealthcare,36387.74966920688,434,Emergency,27/12/2020,Penicillin,Abnormal
+572,ywbgxef,16.0,Male,AB-,Cancer,24/06/2020,ghxanjs,,113,,,,,ymlzsm,Aetna,49034.70036564018,432,Elective,12/01/2024,Aspirin,Normal
+573,ijujq,44.0,Male,O-,Cancer,23/03/2022,otyvlyu,,98,,,,,wkwyohcben,Medicare,47014.53389061887,189,Urgent,29/09/2023,Ibuprofen,Abnormal
+574,tuaxwvkyqs,26.0,Male,A-,Arthritis,20/10/2023,ehbiyrkguo,,117,,,,,mnegzhlqt,UnitedHealthcare,45544.49577547272,312,Elective,12/01/2024,Paracetamol,Normal
+575,mxfxi,32.0,Female,O-,Diabetes,21/12/2022,zbywqq,,105,,,,,hgrge,Aetna,51232.459117620776,113,Emergency,18/05/2020,Ibuprofen,Abnormal
+576,nbnyydtjlz,41.0,Male,B+,Diabetes,21/06/2021,ylzac,,105,,,,,qoubost,Aetna,19408.22774596715,111,Urgent,20/03/2023,Lipitor,Normal
+577,uthusdign,78.0,Male,O-,Hypertension,02/05/2024,ktduqrfqz,,98,,,,,olmhwpof,Cigna,6279.817777228078,352,Emergency,25/06/2020,Aspirin,Inconclusive
+578,rpeqdm,43.0,Female,A+,Arthritis,26/04/2021,tmrjmq,,113,,,,,msgrqo,Aetna,7185.060645805488,291,Emergency,12/10/2021,Penicillin,Normal
+579,gmwvrq,89.0,Female,,Asthma,27/09/2020,edibmbaqsn,,117,,,,,joxynvn,Aetna,7474.7107464134715,217,Emergency,25/01/2024,Ibuprofen,Normal
+580,vglvkctfq,36.0,Female,A-,Cancer,04/11/2022,fdckvho,,106,,,,,rmhxyn,Aetna,10269.296193285756,303,Urgent,06/07/2022,Paracetamol,Normal
+581,jeusut,42.0,Male,O-,Obesity,25/07/2022,zirahcjee,,106,,,,,bjafp,UnitedHealthcare,34840.692923294955,280,Emergency,19/03/2022,Aspirin,Abnormal
+582,olgzmke,64.0,Male,O+,Arthritis,12/03/2021,nwwxkzzpp,,105,,,0.0,,oeeygd,Medicare,30462.637221579465,264,Emergency,22/06/2019,Lipitor,Inconclusive
+583,xvamd,78.0,Female,A+,Cancer,06/10/2023,fhpwhfjqon,,105,,,,,cltfnzrcn,Medicare,-1047.4576609641908,297,Urgent,06/01/2022,Lipitor,Abnormal
+584,ljvydtevc,16.0,Male,,Arthritis,28/03/2021,wzpikkamy,,98,,,,,wnwnvrj,Cigna,-1850.725693500838,158,Elective,03/04/2024,Aspirin,Abnormal
+585,mpobwun,66.0,Female,A+,Cancer,18/01/2022,cduswzggg,,106,,,,,anooswve,UnitedHealthcare,27505.357449102885,286,Elective,28/02/2023,Aspirin,Abnormal
+586,hlppsacio,51.0,Female,B-,Diabetes,10/06/2022,gflkdhbfjb,,98,,,,,zxybdvkqaz,Cigna,27008.72772669488,398,Urgent,17/06/2022,Lipitor,Abnormal
+587,ycabiwcxoc,73.0,Male,B-,Hypertension,05/07/2021,vgujuqrsbu,,105,,,,,riervoom,Medicare,43370.70503786312,441,Emergency,06/05/2020,Aspirin,Abnormal
+588,xwjsufab,71.0,Female,B+,Hypertension,08/01/2020,dsecxu,,106,,,,,tbfgkjmz,UnitedHealthcare,40057.608818991284,389,Urgent,24/09/2019,Paracetamol,Normal
+589,kzmet,42.0,Female,O+,Asthma,23/09/2023,tcmcyqd,,106,,,,,nmrkxxogaa,Medicare,39108.71157862559,168,Emergency,15/01/2024,Lipitor,Inconclusive
+590,hotri,41.0,Female,AB-,Obesity,14/05/2021,jpxbnp,,113,,,,,ayripj,Aetna,19639.326402227452,411,Elective,14/09/2022,Paracetamol,Abnormal
+591,lbostb,45.0,Male,AB+,Hypertension,22/12/2019,sqobt,,113,,,,,pabobkosj,Cigna,37046.93361089442,195,Elective,23/03/2022,Ibuprofen,Inconclusive
+592,mhxizr,14.0,Male,A+,Cancer,23/11/2021,wxukswu,,105,,,,,qmedntorqb,Blue Cross,15481.278259052555,472,Urgent,28/11/2023,Lipitor,Inconclusive
+593,vqlbnhdr,13.0,Male,B-,Asthma,08/03/2021,zmewnbzh,,98,,,,,cptqet,Cigna,50731.738565022824,453,Emergency,20/04/2022,Aspirin,Normal
+594,xayjikrkvx,24.0,Female,B-,Diabetes,04/03/2024,rwntmg,,98,,,,,fxpedhxaer,UnitedHealthcare,5528.097768383318,292,Emergency,20/03/2023,Lipitor,Abnormal
+595,ywafzdfzo,14.0,Female,AB+,Hypertension,09/02/2020,rseaflh,,98,,,,,uehvcsnmqt,Aetna,50071.24812365644,439,Emergency,11/11/2020,Penicillin,Abnormal
+596,qbhkl,46.0,Female,A+,Asthma,18/08/2023,hzxqqmejt,,106,,,,,wcizn,Medicare,39000.43530586906,333,Urgent,17/04/2020,Aspirin,Abnormal
+597,qivnxj,84.0,Male,AB-,Hypertension,23/07/2021,tajrjmerw,,105,,,,,cvcoak,Blue Cross,41077.15579571067,481,Emergency,26/02/2024,Lipitor,Inconclusive
+598,gxlawhf,69.0,Female,O+,Cancer,14/04/2023,uzyuozkquy,,106,,,,,vvfcrfeo,Cigna,4849.3656790138175,228,Urgent,23/05/2020,Penicillin,Inconclusive
+599,vokyrr,72.0,Male,B-,Arthritis,24/04/2021,umkhp,,106,,,,,kxypa,Blue Cross,-1883.2037721814418,306,Emergency,21/04/2022,Penicillin,Abnormal
+600,xboujwis,61.0,Male,AB-,Arthritis,26/01/2024,jyizkbxwp,,106,,,,,pflcgkqt,UnitedHealthcare,10853.43461786975,476,Urgent,31/07/2023,Lipitor,Abnormal
+601,zaxgpjc,68.0,Female,O-,Obesity,25/12/2021,ajykvav,,98,,,,,xgxglcqkw,UnitedHealthcare,51442.7695603511,409,Elective,05/03/2021,Ibuprofen,Inconclusive
+602,kdfhedy,76.0,Female,B+,Hypertension,13/09/2019,xdjkbzodr,,98,,,,,yffhkzf,Aetna,34611.88886237348,266,Elective,07/12/2021,Paracetamol,Normal
+603,oadmuwzq,71.0,Female,B+,Hypertension,25/09/2021,qunfrrlfu,,105,,,,,ashwuadsng,UnitedHealthcare,10883.889771793993,157,Emergency,14/08/2023,Aspirin,Abnormal
+604,dfyhxwza,32.0,Male,AB+,Obesity,26/02/2023,dfylgb,,105,,,,,ocuxyaesjy,Aetna,38689.98807413836,414,Emergency,28/11/2022,Lipitor,Abnormal
+605,mhxtysiqw,59.0,Female,AB+,Asthma,09/09/2020,jnkjbvde,,113,,,,,fzjorhfba,Aetna,28119.37975845481,312,Elective,09/03/2023,Ibuprofen,Abnormal
+606,ftpavrspyk,66.0,Female,O+,Hypertension,13/11/2019,fdyyhy,,106,,,,,owpszkm,Aetna,52420.925794696544,249,Urgent,06/12/2021,Penicillin,Normal
+607,xhjgsewo,14.0,Male,B-,Cancer,03/02/2020,gzxizy,,98,,,,,uvmrmwowgs,Cigna,462.1841976131334,250,Elective,13/08/2021,Lipitor,Abnormal
+608,heamncrxg,22.0,Male,B+,Hypertension,06/02/2021,ezmokxi,,105,,,,,tolusiluow,UnitedHealthcare,38789.72002010695,417,Urgent,15/06/2020,Aspirin,Abnormal
+609,fffgihmdsf,40.0,Male,AB+,Diabetes,04/08/2023,nbzoethddn,,98,,,,,lnmesqlgd,Blue Cross,35294.20832155962,402,Elective,01/05/2023,Aspirin,Inconclusive
+610,wbuuvo,,Female,O-,Diabetes,25/06/2020,gedzrr,,117,,,,,xgikfszlxk,Blue Cross,26854.52814242077,431,Emergency,09/12/2023,Paracetamol,Normal
+611,nqnfay,62.0,Male,O-,Asthma,15/03/2022,sjdgvaxksq,,117,,,,,jhnanhsrqj,Cigna,8502.761086648334,468,Elective,07/10/2022,Penicillin,Normal
+612,cuadzo,58.0,Male,AB-,Cancer,26/07/2021,rsujoucov,,117,,,0.0,,pamkandhwg,Cigna,27711.44758316796,408,Urgent,16/08/2020,Aspirin,Inconclusive
+613,gnrrcuorvp,47.0,Female,O-,Hypertension,21/12/2023,lgxvumbx,,113,,,,,qktpk,Aetna,44307.61864565739,328,Urgent,23/01/2022,Aspirin,Normal
+614,phjsvrl,66.0,Female,AB+,Hypertension,07/11/2023,ezcket,,117,,,,,yjjan,Medicare,19259.188719812482,218,Emergency,25/11/2022,Ibuprofen,Normal
+615,xbhqig,50.0,Female,A-,Hypertension,15/04/2021,akfxyfaj,,105,,,,,ostkasndbw,UnitedHealthcare,15252.481290864334,177,Elective,28/08/2022,Paracetamol,Normal
+616,iyifbilxwh,45.0,Male,B+,Arthritis,29/05/2023,sryjyr,,98,,,,,higmkvme,Aetna,13862.7504423076,179,Elective,07/08/2023,Aspirin,Normal
+617,ihhvfymbg,66.0,Female,AB-,Cancer,12/07/2023,usogkdc,,117,,,,,ycjqmm,Cigna,47226.21072915457,229,Emergency,18/08/2020,Paracetamol,Abnormal
+618,fmmcbb,37.0,Female,B-,Asthma,20/07/2020,hrrqnxhz,,105,,,,,ynzgffp,UnitedHealthcare,3239.3625025265655,435,Elective,14/06/2021,Ibuprofen,Inconclusive
+619,rcpfat,58.0,Female,A+,Cancer,13/06/2023,wetnmnu,,98,,,,,adusn,Aetna,13137.160663339762,432,Emergency,19/10/2022,Aspirin,Abnormal
+620,gqsthfg,36.0,Female,A-,Cancer,25/10/2023,bxwnqsvyuy,,105,,,,,sklwbsitjh,Aetna,43498.9041033113,156,Emergency,28/10/2021,Paracetamol,Abnormal
+621,ibthclupdk,19.0,Female,B-,Diabetes,24/12/2020,ghpdggpxc,,117,,,,,uakleh,Aetna,20474.96732345261,336,Urgent,06/08/2023,Aspirin,Inconclusive
+622,jsgalz,43.0,Male,A-,Obesity,25/01/2023,bclhnpilut,,117,,,,,qwbsiic,Blue Cross,52733.57439209015,370,Elective,29/12/2021,Penicillin,Abnormal
+623,pueylqaky,54.0,Male,O-,Asthma,11/07/2019,fjpfsxor,,117,,,,,tfsbld,Aetna,28707.288428663334,298,Emergency,24/03/2022,Aspirin,Abnormal
+624,mjmph,45.0,Female,O-,Diabetes,12/02/2020,ihxyhoqna,,105,,,,,lcihyqnkdk,Cigna,16996.025948230526,437,Elective,01/12/2020,Paracetamol,Normal
+625,urjaa,59.0,Male,B+,Obesity,08/12/2019,otorfeg,,117,,,,,grbwq,Medicare,26396.55192242147,196,Urgent,14/03/2021,Lipitor,Inconclusive
+626,brfnyq,26.0,Male,B-,Hypertension,25/11/2022,uosboxdyi,,105,,,,,karqy,Medicare,43663.284412646586,210,Elective,10/12/2019,Penicillin,Inconclusive
+627,iujcojx,23.0,Male,A-,Cancer,24/04/2020,xjoayyvs,,113,,,,,coexegkfq,UnitedHealthcare,19765.960260880045,258,Emergency,16/03/2022,Aspirin,Normal
+628,sgwia,18.0,Male,A-,Cancer,11/10/2023,hhnmoel,,106,,,,,jnoqtyi,Blue Cross,47617.291914687834,237,Emergency,11/10/2023,Lipitor,Inconclusive
+629,fkkagdqaa,39.0,Male,O-,Hypertension,31/08/2021,rpzqdum,,117,,,,,xgyhqapqpz,Cigna,23718.146299375687,102,Urgent,15/09/2023,Aspirin,Inconclusive
+630,udbundknng,66.0,Female,B+,Cancer,28/01/2024,qflrlmbnr,,105,,,,,plapstk,Aetna,6639.258890593004,175,Urgent,12/09/2022,Penicillin,Inconclusive
+631,ptjaw,31.0,Male,AB+,Hypertension,13/11/2020,lantczcgbk,,106,,,,,xtkxixbza,Blue Cross,13889.327784371044,214,Urgent,09/07/2023,Ibuprofen,Abnormal
+632,zhayxoj,71.0,Male,B-,Diabetes,15/08/2021,gsniwnolr,,117,,,,,rpszbsxm,Blue Cross,26682.408714456582,362,Elective,26/08/2021,Paracetamol,Inconclusive
+633,kljvsu,31.0,Male,O-,Cancer,06/01/2023,mvgjda,,117,,,,,ikvchdsli,Blue Cross,-1005.7102234429774,340,Elective,26/09/2020,Lipitor,Normal
+634,yeyznfb,13.0,Female,B+,Obesity,04/07/2023,drysbvxgy,,106,,,,,wafsguyemo,Medicare,37090.618810705564,104,Emergency,24/05/2024,Lipitor,Abnormal
+635,bxpwtqt,22.0,Male,B+,Arthritis,24/06/2019,xjtsrorysc,,98,,,,,ywfjfb,UnitedHealthcare,45543.832096405335,204,Elective,11/05/2023,Ibuprofen,Abnormal
+636,nxztxhrqer,17.0,Female,O+,Cancer,29/03/2020,rxazo,,106,,,,,devjqw,Cigna,16748.345996835014,200,Urgent,25/09/2019,Aspirin,Inconclusive
+637,fildebv,25.0,Female,AB+,Hypertension,25/06/2023,utrufmnbk,,105,,,,,uchtwplgy,UnitedHealthcare,19993.87820203074,403,Elective,11/04/2023,Penicillin,Inconclusive
+638,oskroheopk,72.0,Female,A-,Diabetes,22/07/2021,pazboaz,,98,,,,,dtqqgfjwxw,Aetna,44849.04329573162,186,Urgent,09/03/2020,Paracetamol,Inconclusive
+639,cwaty,83.0,Male,B+,Cancer,05/11/2021,hhzrbadtft,,98,,,,,vearkreepi,Medicare,16202.739013220531,218,Urgent,24/06/2023,Ibuprofen,Inconclusive
+640,hkxxsgiq,70.0,Female,AB-,Hypertension,02/10/2021,dqciabtzfv,,113,,,,,twebijrmwd,Cigna,15922.031974568728,211,Urgent,30/10/2019,Lipitor,Inconclusive
+641,htjybnceo,21.0,Female,AB+,Diabetes,22/08/2023,pwvkzvkssp,,117,,,,,ivisl,Aetna,41752.24115108047,420,Urgent,23/10/2020,Lipitor,Normal
+642,diznzgct,42.0,Male,AB+,Cancer,17/05/2021,wiffnokwrh,,117,,,,,npngndhk,Blue Cross,4743.200456834391,500,Emergency,07/12/2021,Ibuprofen,Inconclusive
+643,zbcmmlvrs,83.0,Female,AB-,Arthritis,15/01/2024,ypzvoeipku,,113,,,,,rzaiwopqk,Aetna,34049.86116427655,114,Urgent,04/10/2022,Paracetamol,Normal
+644,efvljaej,,Female,A+,Cancer,08/12/2023,ykfafvgu,,106,,,,,jqrdqamp,Cigna,25586.9031184423,288,Elective,15/10/2020,Lipitor,Inconclusive
+645,vjmmlh,76.0,Male,O-,Obesity,22/09/2019,xbxwox,,117,,,,,lgjxaq,Medicare,32132.502005035316,479,Elective,19/02/2024,Penicillin,Normal
+646,zrhffp,52.0,Male,AB-,Diabetes,01/10/2023,nkrotpwk,,98,,,,,iyxhazpxa,Cigna,35961.7697713361,296,Urgent,11/02/2022,Paracetamol,Inconclusive
+647,whkiibc,34.0,Male,B+,Obesity,22/12/2019,rbbqhwzp,,106,,,,,hnipbsrefa,Blue Cross,10973.928771091012,476,Urgent,16/07/2023,Penicillin,Abnormal
+648,dpuwlqkipk,66.0,Male,O+,Hypertension,18/11/2022,hgogeugg,,106,,,,,amdowu,Medicare,9489.342394055166,404,Elective,18/12/2020,Lipitor,Normal
+649,zsizzvt,65.0,Male,AB-,Obesity,08/02/2020,ikeii,,113,,,,,wqjbycswy,UnitedHealthcare,30822.089228789093,283,Emergency,12/05/2022,Aspirin,Normal
+650,alsubrbh,31.0,Female,B-,Cancer,05/04/2020,nmdnsjini,,98,,,,,jlazbqnos,Medicare,44336.611376818604,309,Elective,01/08/2021,Aspirin,Abnormal
+651,uihuhg,63.0,Female,AB-,Asthma,20/10/2022,osweszds,,117,,,,,uueeappzf,Cigna,11575.013624773854,244,Urgent,14/02/2022,Paracetamol,Inconclusive
+652,ytvwkn,30.0,Female,AB-,Hypertension,25/02/2022,wfwjwth,,98,,,,,alhvcs,Aetna,49814.68167350727,466,Emergency,31/01/2024,Paracetamol,Normal
+653,zdtmwiugkn,58.0,Male,B-,Diabetes,05/08/2020,rfdgzhpgcv,,117,,,,,kintm,Cigna,27812.94333846591,417,Emergency,23/02/2022,Aspirin,Abnormal
+654,exgkedvcv,80.0,Male,A+,Arthritis,23/12/2021,scmgc,,113,,,,,buvswbgqql,Aetna,9888.275764778782,421,Emergency,02/12/2022,Paracetamol,Abnormal
+655,vgowbzvwsi,68.0,Female,O-,Cancer,28/07/2022,egsnclpw,,98,,,,,somsoza,Medicare,27529.435474387712,410,Elective,01/04/2023,Penicillin,Inconclusive
+656,evaziwlkf,64.0,Male,O-,Hypertension,12/03/2024,tatcm,,105,,,,,lfunltl,Cigna,29984.572439206746,106,Emergency,18/02/2022,Aspirin,Inconclusive
+657,sqpyxmk,36.0,Male,AB+,Arthritis,06/07/2023,ymogebjza,,106,,,,,jxitmdrmhj,UnitedHealthcare,39496.17896080644,394,Emergency,29/03/2022,Ibuprofen,Abnormal
+658,ebeecxp,38.0,Male,O-,Asthma,17/11/2020,gmmgqe,,98,,,,,qmslsnbwg,Aetna,-763.9353482606468,465,Emergency,28/01/2023,Aspirin,Abnormal
+659,dbyjxgecl,26.0,Female,AB-,Obesity,12/10/2023,gdzyt,,105,,,,,opslibm,Aetna,8795.737895284235,297,Elective,28/06/2023,Ibuprofen,Inconclusive
+660,urdouump,65.0,Male,A-,Diabetes,29/05/2023,mzvjrarax,,98,,,,,khahcjsret,Blue Cross,23006.71593682588,139,Urgent,25/07/2021,Aspirin,Inconclusive
+661,nspuevxpcs,25.0,Male,B+,Obesity,16/04/2024,uvpilidrx,,117,,,,,dvfuyj,Medicare,11015.269447476463,184,Elective,07/02/2024,Aspirin,Inconclusive
+662,nslfzi,26.0,Male,B-,Arthritis,27/10/2019,gwgcmhpj,,106,,,,,xmsjxidvz,Cigna,7537.193833966347,370,Elective,04/09/2022,Aspirin,Inconclusive
+663,lohqymhqc,15.0,Male,B+,Hypertension,11/05/2021,pwqxxrgpva,,117,,,,,vlytwpofha,UnitedHealthcare,49475.82490337747,244,Elective,09/06/2019,Ibuprofen,Abnormal
+664,vyisoupvw,66.0,Male,AB+,Obesity,01/09/2020,butiptodt,,98,,,,,vmydl,Aetna,12928.40911978854,191,Emergency,07/03/2020,Penicillin,Normal
+665,xyyjgpeu,13.0,Male,AB+,Hypertension,08/01/2023,nmydraimdg,,105,,,,,pnfgtohmqk,Aetna,45183.60930751993,497,Elective,21/12/2020,Aspirin,Normal
+666,jitagufeg,61.0,Male,B-,Cancer,16/08/2019,nrihwhc,,113,,,,,mjqyjxp,Aetna,49469.53042030934,282,Elective,19/07/2019,Ibuprofen,Normal
+667,eujhmndtgh,53.0,Female,O+,Obesity,03/09/2020,moaebs,,113,,,,,bomgwxdnck,Medicare,17496.910383015907,342,Urgent,22/01/2023,Aspirin,Normal
+668,djlegqhskg,63.0,Female,O-,Arthritis,30/06/2022,geazuelsh,,105,,,,,rginffssuz,Blue Cross,45389.37579114652,431,Emergency,11/02/2024,Ibuprofen,Normal
+669,ewlzpsjqud,19.0,Female,O+,Obesity,08/05/2021,wlzlyi,,113,,,,,fekhjbvgel,Aetna,19796.96905278889,321,Elective,07/12/2020,Lipitor,Normal
+670,opppzc,52.0,Male,O-,Asthma,06/02/2022,jnrswkzr,,113,,,,,buxfbwo,Blue Cross,13872.494034690008,200,Emergency,06/05/2020,Penicillin,Abnormal
+671,wdgdeowe,,Male,A+,Hypertension,28/01/2022,mvugtb,,113,,,,,docukg,Aetna,39749.27007478464,198,Emergency,13/11/2020,Paracetamol,Normal
+672,sprfwn,25.0,Male,B+,Cancer,06/02/2020,cjoxkfcnf,,113,,,,,zoccsdon,Aetna,21466.85142921101,273,Elective,13/07/2022,Penicillin,Inconclusive
+673,bshihtmhh,29.0,Male,A+,Diabetes,14/09/2020,tzdatl,,117,,,,,ihgnio,Medicare,30450.69575961112,120,Elective,25/01/2021,Aspirin,Abnormal
+674,wuuyb,34.0,Female,AB+,Arthritis,10/04/2023,kfrcgvpw,,105,,,,,csthpmu,UnitedHealthcare,24284.53282719688,442,Elective,16/02/2020,Paracetamol,Inconclusive
+675,jsdjhptp,51.0,Female,O+,Obesity,15/08/2020,skudqzcl,,113,,,,,abpio,Aetna,33283.26932112862,399,Urgent,16/03/2024,Lipitor,Inconclusive
+676,cgbtr,50.0,Male,O-,Asthma,15/09/2021,gqmlse,,113,,,,,gwdzr,Medicare,47379.90176018531,376,Elective,30/01/2021,Paracetamol,Normal
+677,sqxoiikn,33.0,Male,O-,Cancer,11/08/2021,pmilhlmsg,,105,,,,,jqnuki,Cigna,17358.308767345166,385,Urgent,01/10/2022,Lipitor,Inconclusive
+678,bwzmqbk,83.0,Male,AB-,Hypertension,24/01/2021,npazpj,,113,,,,,jpeuosqg,UnitedHealthcare,2383.0905914665154,194,Emergency,12/04/2022,Paracetamol,Normal
+679,wbyba,85.0,Male,B-,Asthma,08/01/2024,ebrtjoxg,,113,,,,,ynuzrzgn,Medicare,42942.48125266503,362,Elective,18/06/2021,Paracetamol,Inconclusive
+680,yhxgbtps,59.0,Male,AB+,Hypertension,25/08/2023,dlfxpo,,113,,,,,rzbykgh,Cigna,24206.83662836667,297,Emergency,28/06/2019,Paracetamol,Abnormal
+681,sfhalriye,34.0,Female,AB-,Diabetes,25/02/2020,fykit,,117,,,,,bgfvddb,UnitedHealthcare,19397.660883746437,197,Elective,19/03/2024,Penicillin,Abnormal
+682,jppcppj,48.0,Female,AB+,Cancer,20/03/2021,yqtkccg,,105,,,,,gxfbhat,Aetna,39432.78850449121,107,Emergency,14/02/2023,Paracetamol,Normal
+683,leurfc,41.0,Female,AB+,Obesity,12/04/2021,xxmnljzlt,,98,,,,,otwiu,Cigna,-588.2255284644143,183,Emergency,12/09/2019,Ibuprofen,Abnormal
+684,nqiytkuc,35.0,Female,O-,Obesity,20/01/2020,uhpnpyz,,113,,,,,ebfosboawp,Cigna,7134.486044223919,315,Emergency,11/04/2023,Aspirin,Inconclusive
+685,csrizfnveb,43.0,Female,O-,Obesity,15/09/2022,vckljuz,,106,,,,,ymdeshy,Cigna,919.5322016340167,115,Emergency,06/03/2021,Penicillin,Inconclusive
+686,xzjbc,37.0,Male,AB+,Asthma,05/01/2020,htbhgpkmv,,98,,,,,swgcdvru,Cigna,1511.4142410892894,461,Urgent,01/07/2019,Aspirin,Abnormal
+687,gxtwp,27.0,Female,O+,Asthma,22/03/2020,jiaiydicnl,,113,,,,,bfgkspuj,UnitedHealthcare,24113.279918065957,214,Emergency,21/06/2020,Ibuprofen,Abnormal
+688,qzefqktqum,51.0,Female,O-,Cancer,23/07/2019,uwsknw,,105,,,,,lhzpn,Cigna,16078.686449968822,181,Emergency,11/01/2022,Aspirin,Inconclusive
+689,vrmnimwtj,40.0,Male,O+,Cancer,22/08/2020,uvpgmkdmtn,,113,,,,,hhuoabweqi,Blue Cross,8329.948658302703,487,Elective,15/11/2021,Lipitor,Abnormal
+690,ziipnoggoc,22.0,Female,B+,Diabetes,13/07/2022,yskxqhefa,,113,,,,,hnylpxzgcg,Blue Cross,50536.30635227586,216,Emergency,21/10/2021,Aspirin,Abnormal
+691,xzytyxdrxd,40.0,Male,O+,Hypertension,08/12/2022,wukqsdoy,,106,,,,,oykobv,Blue Cross,22939.19543880964,316,Elective,11/09/2022,Aspirin,Abnormal
+692,pklnocl,41.0,Female,O+,Cancer,31/03/2021,dwnucl,,98,,,,,vpjxbs,Aetna,13742.927372141417,220,Elective,25/08/2022,Penicillin,Inconclusive
+693,jqtzooz,21.0,Male,O+,Hypertension,16/07/2019,ogrgiq,,117,,,,,jjgeesod,Medicare,50951.36820970835,145,Emergency,15/09/2022,Penicillin,Inconclusive
+694,lorfe,14.0,Male,AB-,Asthma,14/10/2021,qlplsq,,98,,,,,uovlgxmcv,Medicare,15103.38856509845,429,Elective,30/04/2024,Paracetamol,Abnormal
+695,obtaxzhw,55.0,Female,O+,Diabetes,25/11/2020,foffln,,98,,,,,khhmd,Cigna,-1066.2350385032737,118,Urgent,19/01/2023,Penicillin,Normal
+696,mizaoyvgcg,65.0,Female,AB+,Hypertension,04/12/2022,lqtung,,98,,,,,jfbbr,Aetna,4548.367051137667,275,Elective,31/08/2022,Penicillin,Inconclusive
+697,vnhujyrf,26.0,Male,B-,Obesity,18/11/2019,zulrugbjj,,105,,,,,yaajjbern,Blue Cross,42894.81673093327,500,Elective,10/10/2023,Ibuprofen,Normal
+698,irgjzzkink,15.0,Male,O-,Hypertension,11/01/2021,dvhvtdrvpj,,105,,,,,kbidmbdkyy,Cigna,26258.201161250417,473,Urgent,01/07/2022,Aspirin,Abnormal
+699,reyntgu,83.0,Male,A+,Arthritis,22/06/2021,rbtsnud,,117,,,,,qqwtcjw,Blue Cross,-756.2955420684511,373,Elective,20/08/2020,Paracetamol,Normal
+700,nelmmpo,80.0,Female,A+,Cancer,12/08/2019,pehgv,,113,,,,,uizjbhd,Aetna,40342.25659864028,393,Urgent,13/09/2022,Ibuprofen,Abnormal
+701,ydvkvcbg,68.0,Male,A-,Diabetes,28/04/2021,dpuvei,,106,,,,,uodigieyz,UnitedHealthcare,-1406.2414888234935,485,Emergency,04/12/2023,Penicillin,Abnormal
+702,etpvvursb,79.0,Male,AB+,Cancer,22/08/2019,quwkxzv,,98,,,,,osqippf,Medicare,15336.536122560226,327,Emergency,15/10/2023,Aspirin,Inconclusive
+703,wwhryzdgjm,31.0,Male,B-,Asthma,07/11/2022,xbpqkzl,,113,,,,,kphahpyn,Aetna,33683.7456187131,128,Urgent,04/05/2024,Lipitor,Normal
+704,lvsoc,40.0,Male,B+,Asthma,09/10/2022,ipixkyybc,,113,,,,,epawwmo,Blue Cross,46560.023139610974,407,Urgent,30/03/2022,Paracetamol,Normal
+705,anqdlugxjt,49.0,Female,B+,Arthritis,06/02/2021,rnlvv,,105,,,,,akcjuf,Medicare,-1186.5572606124194,364,Urgent,22/06/2022,Lipitor,Abnormal
+706,nyajeefv,80.0,Male,O-,Diabetes,29/04/2023,wsarh,,98,,,,,xlfgknem,Medicare,42487.90602518215,333,Elective,19/11/2020,Aspirin,Inconclusive
+707,mayxj,80.0,Male,AB+,Asthma,18/05/2021,guwemvk,,117,,,,,hahodjairy,Medicare,30149.327412913728,124,Elective,08/08/2023,Ibuprofen,Normal
+708,zptexdr,28.0,Female,A-,Arthritis,12/05/2021,bqtkxcprsj,,105,,,,,aqrvnvqkqf,Blue Cross,30320.362323213067,467,Emergency,24/03/2020,Paracetamol,Abnormal
+709,tfrvieehk,26.0,Female,AB-,Asthma,21/11/2021,waazhohkct,,117,,,,,evjig,Cigna,19597.478124900023,421,Elective,22/12/2023,Penicillin,Abnormal
+710,bxvywgz,28.0,Male,AB-,Asthma,04/06/2019,nvfmxw,,106,,,,,tlejcy,Medicare,13834.307292543399,244,Urgent,20/06/2019,Penicillin,Inconclusive
+711,ftckhojl,31.0,Female,B+,Asthma,04/07/2020,lolwobqel,,117,,,,,acablhgoh,Cigna,5351.2026131401235,261,Urgent,06/10/2019,Ibuprofen,Abnormal
+712,pdfoegodu,83.0,Male,O-,Arthritis,19/02/2024,skxwrazp,,113,,,,,sgdoqgshr,Medicare,11205.525904274451,388,Urgent,19/10/2020,Aspirin,Inconclusive
+713,ftqozcy,24.0,Male,O-,Cancer,18/02/2020,qffhewemz,,117,,,,,jgjwmligdx,Medicare,29394.75644621774,460,Elective,18/12/2022,Lipitor,Inconclusive
+714,tmvmuezu,31.0,Female,A+,Asthma,21/12/2023,nwucmkb,,98,,,,,pzddzcvfxq,Blue Cross,3006.1096490570117,212,Urgent,18/02/2020,Lipitor,Normal
+715,rtziwwhfsq,88.0,Male,AB+,Arthritis,22/06/2021,ykactowq,,98,,,,,cckqghd,Medicare,39945.56602216092,288,Emergency,17/12/2019,Penicillin,Normal
+716,uyawysmot,35.0,Male,B+,Asthma,22/08/2023,ujbxi,,117,,,,,dqpsbaagjv,Blue Cross,50168.936807132835,164,Urgent,18/09/2022,Penicillin,Normal
+717,tvueunkcdo,64.0,Female,O+,Obesity,20/08/2022,frnyk,,117,,,,,enymvflmtr,UnitedHealthcare,16999.692866027595,405,Urgent,02/12/2022,Penicillin,Normal
+718,nxsxo,57.0,Male,B-,Diabetes,25/10/2022,amyvbivf,,98,,,,,hcwoudl,Cigna,24405.24970262313,431,Elective,08/05/2021,Penicillin,Inconclusive
+719,hhoinev,46.0,Female,A+,Arthritis,17/11/2022,eqrtuy,,105,,,,,efpgjl,Medicare,16159.635330026662,353,Elective,29/10/2021,Penicillin,Normal
+720,zcpawpe,27.0,Male,AB-,Arthritis,12/11/2020,uhxwj,,113,,,,,hevyvuu,Medicare,50179.79893137823,240,Elective,06/05/2022,Lipitor,Abnormal
+721,fkrpkd,23.0,Female,AB+,Diabetes,29/12/2023,cavdyu,,105,,,,,vkpsoakc,Blue Cross,16581.754699680914,403,Elective,10/05/2019,Paracetamol,Normal
+722,deqxlyuqio,66.0,Female,O-,Hypertension,24/09/2021,jfdixhl,,106,,,,,slnogwzcds,Medicare,51031.52270054519,398,Elective,27/06/2019,Penicillin,Inconclusive
+723,hdydb,43.0,Female,AB+,Diabetes,16/05/2022,pwhwyhher,,98,,,,,uakox,Cigna,47623.43555952473,202,Emergency,21/11/2021,Paracetamol,Abnormal
+724,htrqvwtis,42.0,Male,AB+,Obesity,27/10/2019,yusiktk,,117,,,,,pngot,Cigna,16908.65687323943,461,Urgent,28/03/2024,Paracetamol,Abnormal
+725,mfwthgwp,44.0,Male,O+,Asthma,17/01/2021,pbasez,,117,,,,,oflxa,UnitedHealthcare,8402.778628069287,303,Urgent,14/01/2023,Lipitor,Inconclusive
+726,epwqvq,84.0,Female,O-,Hypertension,21/05/2020,jhxjeja,,106,,,,,khstfc,Cigna,490.4269166163724,469,Emergency,02/09/2023,Lipitor,Inconclusive
+727,fryrqrdnow,85.0,Female,AB-,Cancer,14/11/2020,lhubdfvec,,106,,,,,ouiqtbzcp,Cigna,5899.611794748692,305,Elective,28/12/2019,Aspirin,Abnormal
+728,xbppb,60.0,Male,AB+,Cancer,20/02/2023,chjtmg,,105,,,,,girncpx,Aetna,43217.58404989968,440,Elective,23/09/2023,Lipitor,Abnormal
+729,azkcsbcdj,46.0,Male,AB-,Asthma,07/02/2021,nvcic,,117,,,,,woomckrdz,Blue Cross,-1062.3006633622358,237,Elective,10/02/2024,Lipitor,Inconclusive
+730,xcrpbsvli,59.0,Male,O+,Diabetes,18/10/2023,jouan,,105,,,,,gclfmmln,Aetna,1113.8565978243084,456,Urgent,08/11/2020,Penicillin,Abnormal
+731,rxaare,23.0,Female,A+,Diabetes,14/11/2023,ylvfaa,,98,,,,,gjyednwbb,Cigna,40747.972547471254,193,Urgent,28/04/2024,Paracetamol,Normal
+732,hiujqan,66.0,Male,O+,Diabetes,30/12/2020,warqx,,98,,,,,pazachrnw,Aetna,49077.74477687298,167,Emergency,18/11/2022,Penicillin,Abnormal
+733,pspjqohnn,18.0,Male,AB+,Cancer,10/05/2021,fziukel,,113,,,,,gzycbz,UnitedHealthcare,27336.624610504514,279,Emergency,03/10/2022,Lipitor,Normal
+734,ptamaw,54.0,Female,B-,Diabetes,30/10/2020,eqkjebmf,,105,,,,,fipivgyrzc,UnitedHealthcare,18833.347523906323,386,Urgent,23/07/2019,Ibuprofen,Inconclusive
+735,bebupa,60.0,Female,O-,Asthma,23/06/2019,cpglxlmw,,113,,,,,xpjoupgy,Blue Cross,2281.8463798033963,236,Emergency,27/11/2021,Aspirin,Abnormal
+736,ghosmbj,65.0,Male,A-,Asthma,16/11/2019,nxlos,,105,,,,,otnjb,UnitedHealthcare,38942.08436844774,298,Urgent,19/01/2023,Ibuprofen,Inconclusive
+737,xvginpwew,69.0,Female,B+,Asthma,02/12/2019,fzsxo,,98,,,,,iogxxe,Cigna,10848.494335681993,352,Urgent,22/05/2020,Aspirin,Normal
+738,xlifsmy,81.0,Female,B+,Diabetes,21/10/2022,qmdvcvq,,106,,,,,evxaoo,Blue Cross,41017.72344954115,117,Emergency,07/06/2023,Ibuprofen,Inconclusive
+739,fiues,38.0,Male,B+,Hypertension,20/04/2022,mbjqwqzomr,,113,,,,,yaevnnos,Aetna,47094.664905594705,377,Elective,02/11/2022,Aspirin,Inconclusive
+740,xirizmd,74.0,Female,A+,Obesity,02/08/2022,jviila,,113,,,,,kraqbp,Aetna,11190.90168919985,330,Emergency,11/11/2022,Ibuprofen,Abnormal
+741,dctmtvxg,68.0,Male,A-,Arthritis,08/05/2021,cxhjsd,,106,,,,,ymuhway,Medicare,11947.18593845822,443,Urgent,31/01/2022,Ibuprofen,Normal
+742,okoviz,75.0,Male,AB+,Diabetes,11/11/2022,gisyygyk,,106,,,,,wujfuflr,Medicare,43391.07865530323,380,Urgent,22/02/2022,Ibuprofen,Inconclusive
+743,hqoezlolfu,39.0,Male,O-,Obesity,13/04/2020,qjccqlzs,,106,,,,,eegsk,UnitedHealthcare,22284.215578742453,156,Elective,04/12/2023,Lipitor,Normal
+744,hatrpq,63.0,Female,B+,Hypertension,03/01/2024,uiwjvxm,,106,,,,,gudmir,Blue Cross,24169.226715153858,339,Urgent,13/02/2024,Lipitor,Abnormal
+745,linpwq,16.0,Male,B+,Obesity,19/03/2021,cmjtzxu,,105,,,,,fitclvkn,Blue Cross,39791.43233819975,303,Elective,20/10/2023,Lipitor,Inconclusive
+746,oimgdkbu,87.0,Male,AB+,Cancer,02/12/2021,rvoxofdjrb,,98,,,,,zweln,Cigna,12408.253551352756,305,Emergency,19/02/2021,Aspirin,Inconclusive
+747,zuepcdpub,38.0,Female,O+,Cancer,29/04/2020,makzjmoew,,106,,,,,wmiexnnai,Aetna,36018.767764880664,131,Elective,26/10/2022,Penicillin,Inconclusive
+748,udtjsbcr,14.0,Male,B-,Obesity,07/05/2020,cdvpzwzuh,,98,,,,,sjzxqhncr,Cigna,12980.29841764953,123,Elective,26/11/2021,Penicillin,Abnormal
+749,guqepd,44.0,Female,O+,Diabetes,15/11/2019,dslpepkzbu,,98,,,,,wgvay,Aetna,15108.719210005243,257,Urgent,26/11/2022,Lipitor,Abnormal
+750,wlbdctaxq,66.0,Male,AB+,Cancer,03/07/2023,rhuku,,105,,,,,zwecyjfquw,Cigna,25722.129849063218,359,Urgent,25/02/2022,Lipitor,Inconclusive
+751,uaoxpixh,19.0,Male,O+,Cancer,16/04/2021,yjbrb,,106,,,,,efcrnsypwo,Blue Cross,38317.920008593275,486,Emergency,07/05/2024,Lipitor,Abnormal
+752,puuxm,74.0,Male,AB-,Arthritis,25/07/2019,erllzedbhr,,117,,,,,ivgkxeqe,UnitedHealthcare,21950.668894820006,120,Emergency,17/05/2023,Paracetamol,Normal
+753,mqfgnaberg,18.0,Female,A-,Hypertension,15/02/2021,lxfgffbtq,,117,,,,,foiewtxbr,UnitedHealthcare,42463.31597521388,140,Elective,27/09/2020,Penicillin,Inconclusive
+754,dfzhrcfk,47.0,Male,O+,Hypertension,31/03/2021,kpzempti,,98,,,,,icpjlmhh,Cigna,5022.986050591133,224,Emergency,09/10/2021,Lipitor,Normal
+755,wkrayw,27.0,Female,O-,Cancer,22/10/2019,girtg,,98,,,,,fwirtnqt,UnitedHealthcare,35510.61700456676,398,Urgent,06/07/2022,Lipitor,Abnormal
+756,ffxgb,27.0,Male,O-,Diabetes,28/10/2021,qvpevnx,,98,,,,,inyek,Medicare,553.1313852707747,358,Elective,16/11/2020,Ibuprofen,Abnormal
+757,uwikn,23.0,Male,A+,Hypertension,17/09/2019,gvjwgef,,98,,,,,begtqcmoxh,UnitedHealthcare,14931.375084225927,217,Urgent,21/05/2019,Paracetamol,Inconclusive
+758,nesweswqls,87.0,Male,A+,Arthritis,13/09/2019,swezqxru,,117,,,,,jzlbz,Blue Cross,16948.562214444126,311,Elective,19/08/2021,Penicillin,Normal
+759,oimtscz,42.0,Male,O+,Hypertension,12/09/2021,iswcrin,,113,,,,,camlqqq,Cigna,21518.923557318554,237,Emergency,14/02/2022,Ibuprofen,Normal
+760,vnnkrxp,67.0,Male,A+,Obesity,14/09/2020,zgxmfkjdb,,117,,,,,vygpy,Medicare,44684.30959025345,378,Elective,01/10/2020,Ibuprofen,Abnormal
+761,qudmrirp,79.0,Female,O-,Obesity,06/09/2019,hyylyzr,,117,,,,,jktkccet,Cigna,34849.20955819465,270,Urgent,11/02/2020,Lipitor,Normal
+762,dzsskoxd,30.0,Female,AB-,Arthritis,26/10/2020,eupvaeo,,106,,,,,jfixoghl,UnitedHealthcare,43511.91071141678,304,Emergency,26/12/2019,Aspirin,Normal
+763,jdzycgi,28.0,Male,A+,Hypertension,08/09/2019,novdab,,113,,,,,kjahplopgm,Blue Cross,23199.720704239775,163,Emergency,31/01/2024,Penicillin,Inconclusive
+764,vonmynnq,29.0,Female,B-,Hypertension,12/11/2020,tmbghm,,106,,,,,jtbxeh,Medicare,34900.615235226345,361,Elective,03/04/2023,Penicillin,Inconclusive
+765,trddzkqwj,45.0,Female,B-,Arthritis,22/05/2021,kpjudoudse,,117,,,,,hveem,Cigna,12380.181129908842,446,Emergency,21/09/2023,Paracetamol,Abnormal
+766,adxjkllldy,63.0,Female,A+,Obesity,03/01/2022,gfcehy,,105,,,,,rezvcgg,Cigna,26191.926623176638,457,Emergency,10/11/2023,Ibuprofen,Inconclusive
+767,vyazjjzgzy,87.0,Female,A-,Arthritis,26/03/2024,ojfojku,,98,,,,,jgqrqan,Aetna,46555.496836518265,154,Emergency,15/01/2021,Ibuprofen,Normal
+768,glcpyqm,36.0,Male,A-,Asthma,10/02/2024,nrqxelqkq,,105,,,,,jtucfl,Cigna,26091.289238737238,328,Emergency,28/06/2020,Aspirin,Inconclusive
+769,dhpnjmhy,72.0,Male,AB+,Diabetes,14/12/2020,ocwimomlvt,,98,,,,,qqdjxy,Blue Cross,20024.030064096565,379,Emergency,25/01/2022,Ibuprofen,Normal
+770,igjfpohgl,55.0,Female,A+,Diabetes,25/05/2020,cxswtk,,113,,,,,slqyrmtbbx,UnitedHealthcare,14363.099197779637,330,Elective,22/08/2021,Aspirin,Normal
+771,sycjqa,33.0,Male,A+,Hypertension,03/03/2023,xkyvui,,106,,,,,uokbfbdwuk,UnitedHealthcare,9112.34986302037,374,Emergency,26/10/2020,Lipitor,Normal
+772,stuvgthu,70.0,Female,O+,Diabetes,16/05/2020,svauknwkj,,113,,,0.0,,qwziqer,Aetna,12602.947045203786,280,Urgent,25/01/2022,Penicillin,Inconclusive
+773,zvcszmokek,77.0,Male,A+,Asthma,23/08/2020,hwctvy,,106,,,,,ffgfyzpnxd,Cigna,7709.613894506103,172,Elective,23/02/2024,Penicillin,Inconclusive
+774,fejclzh,,Male,B+,Cancer,07/01/2021,zgyhvavrv,,117,,,,,tklctcjju,Medicare,8270.695029702007,241,Urgent,01/03/2022,Aspirin,Abnormal
+775,mmpbb,37.0,Female,O+,Asthma,16/06/2022,mndjfor,,117,,,,,mkdlft,Aetna,38190.90204112666,262,Emergency,15/12/2020,Penicillin,Abnormal
+776,cktmwplpmx,83.0,Female,O+,Asthma,22/12/2021,ewujoqcxa,,106,,,,,kkkkgdfpiz,Blue Cross,2637.789730174569,125,Emergency,05/01/2024,Penicillin,Abnormal
+777,waasbrr,82.0,Male,A-,Cancer,21/01/2021,kcuremjoh,,106,,,,,kwgglf,UnitedHealthcare,13042.962342128663,111,Elective,10/02/2023,Ibuprofen,Abnormal
+778,qfrxniu,46.0,Male,AB-,Hypertension,07/07/2022,ivlsipi,,105,,,,,ygxyctk,Aetna,22658.340699125445,393,Emergency,14/07/2022,Aspirin,Normal
+779,sqqkk,29.0,Female,AB+,Asthma,18/03/2020,tpfhvtbw,,105,,,,,qdjes,Blue Cross,21683.813050776687,169,Urgent,22/06/2021,Aspirin,Normal
+780,itmrcdbu,22.0,Female,AB-,Cancer,23/12/2021,wefeykznch,,106,,,0.0,,nfrophb,Aetna,2434.8556865198652,367,Emergency,29/11/2019,Lipitor,Normal
+781,yjjohznjn,23.0,Male,B+,Diabetes,10/05/2020,afckrh,,113,,,,,pmgsn,UnitedHealthcare,33162.617617596516,328,Urgent,22/07/2023,Aspirin,Abnormal
+782,tgqryc,88.0,Male,AB-,Hypertension,29/09/2022,chgbpkz,,106,,,0.0,,ubagutj,UnitedHealthcare,9098.370843068928,108,Urgent,13/02/2023,Penicillin,Abnormal
+783,qvcvgl,65.0,Male,A+,Arthritis,10/11/2022,vgdvrzyw,,113,,,,,mjverib,Aetna,24319.386531600638,495,Emergency,13/05/2023,Paracetamol,Abnormal
+784,srzugqtod,53.0,Male,O-,Cancer,09/05/2022,ykydzqzol,,106,,,,,pmfojnr,Aetna,13968.777271229093,299,Urgent,10/02/2020,Penicillin,Inconclusive
+785,hagkck,52.0,Male,O+,Hypertension,10/08/2022,qaihu,,105,,,,,yythg,Cigna,39883.01396603946,201,Elective,08/05/2022,Aspirin,Abnormal
+786,fpcpvuckkb,27.0,Male,O-,Arthritis,04/07/2023,igvhsqcjh,,105,,,,,xtoyha,Aetna,43903.59593088144,398,Urgent,09/06/2022,Paracetamol,Normal
+787,aklptbdpb,48.0,Female,AB-,Arthritis,09/02/2024,jmuxrynnp,,105,,,,,pbjgdk,Blue Cross,43850.76195115521,477,Elective,16/11/2021,Lipitor,Inconclusive
+788,wwbalhk,43.0,Male,B-,Obesity,24/01/2024,zbasgwvu,,98,,,,,sglaoci,Medicare,30753.38457308618,484,Emergency,07/08/2020,Penicillin,Normal
+789,vragcsbfga,20.0,Female,O+,Cancer,12/08/2019,jkbkwf,,117,,,,,vcchul,UnitedHealthcare,558.7352841888103,161,Urgent,09/05/2024,Aspirin,Normal
+790,kpwghousqe,59.0,Female,B-,Obesity,26/12/2020,zqqhwvkwt,,98,,,,,ahwondiz,Aetna,51810.36172886723,429,Emergency,05/01/2020,Penicillin,Normal
+791,bcijn,72.0,Male,B-,Asthma,15/11/2022,zdeebcfd,,105,,,,,ntxnvz,Cigna,25969.707460325033,347,Elective,26/10/2019,Lipitor,Inconclusive
+792,gtzqth,86.0,Male,A+,Hypertension,30/09/2022,fdgtwfagfu,,117,,,,,udsdkmfan,UnitedHealthcare,18252.424011289862,360,Urgent,31/07/2023,Lipitor,Normal
+793,aakamic,38.0,Female,B+,Cancer,07/06/2020,arvqwxeom,,105,,,,,fjywigbmq,Aetna,-242.28286624855014,121,Elective,15/06/2021,Lipitor,Abnormal
+794,bcgra,72.0,Male,AB-,Cancer,04/09/2019,ooyxgyewy,,113,,,,,hfsijflgp,Medicare,47887.04509884668,193,Emergency,14/08/2022,Paracetamol,Normal
+795,dlgdami,35.0,Female,O-,Diabetes,20/02/2024,qxbawxj,,105,,,,,gmdpdinit,Blue Cross,50510.691862009946,132,Urgent,12/11/2022,Aspirin,Abnormal
+796,kjqdfzaxzr,85.0,Female,O+,Arthritis,04/02/2024,jujmvgz,,113,,,,,nexvuzqz,UnitedHealthcare,31188.18875710989,455,Emergency,28/10/2022,Lipitor,Normal
+797,mrpnjrendx,60.0,Male,O-,Diabetes,05/06/2023,konltxjf,,106,,,,,bfbosnj,UnitedHealthcare,29545.002674415922,296,Emergency,07/07/2022,Lipitor,Abnormal
+798,imabo,34.0,Male,AB-,Arthritis,06/01/2021,wvcjylkt,,113,,,,,qtubhibkad,Blue Cross,44598.62255280713,328,Urgent,01/05/2020,Aspirin,Inconclusive
+799,hqpjm,49.0,Male,O+,Arthritis,07/12/2019,jajnrxq,,105,,,,,wmlvhjves,Blue Cross,21707.419770174638,216,Urgent,29/01/2020,Aspirin,Normal
+800,tcwvxufjed,22.0,Male,B-,Cancer,07/08/2021,bxyovzhan,,117,,,,,xfugruci,UnitedHealthcare,18327.275983948497,234,Elective,07/04/2022,Aspirin,Normal
+801,wuoafpohh,24.0,Female,O+,Hypertension,02/05/2024,krkquu,,106,,,,,vndvqat,Aetna,37769.821144255904,121,Urgent,26/06/2022,Lipitor,Normal
+802,pgvsfjg,83.0,Female,B-,Asthma,01/04/2024,teaszrnyl,,105,,,,,iiugpjhhct,Blue Cross,7715.8779322754635,213,Urgent,03/06/2020,Ibuprofen,Inconclusive
+803,xypnbp,15.0,Female,B+,Cancer,26/05/2022,fjbab,,105,,,,,tmridxtwdt,Medicare,34003.12768574997,377,Emergency,04/09/2023,Lipitor,Abnormal
+804,jdpjvxhozc,60.0,Female,B-,Arthritis,07/07/2022,bawrmci,,105,,,,,zffbblx,Aetna,10235.38604743602,194,Urgent,21/05/2021,Penicillin,Abnormal
+805,qpwhrzltdx,83.0,Male,A+,Obesity,03/09/2022,yezxrqbsk,,117,,,,,mjmxwv,Cigna,29142.784414203896,284,Emergency,04/10/2021,Paracetamol,Inconclusive
+806,ktylaxjgth,78.0,Female,B-,Hypertension,31/07/2020,sxmurrgiui,,106,,,,,tbqqhgaxni,Medicare,-1649.863364995005,304,Elective,14/03/2020,Aspirin,Inconclusive
+807,kyfgo,69.0,Female,AB-,Diabetes,30/07/2022,ktenapqte,,98,,,,,waraolxe,UnitedHealthcare,42529.10283872404,266,Emergency,04/03/2021,Paracetamol,Abnormal
+808,fqlystauw,60.0,Male,A-,Diabetes,10/07/2022,jqikztju,,117,,,,,duzmh,Medicare,5353.250961403463,448,Elective,06/01/2020,Penicillin,Abnormal
+809,rqfkkzzii,23.0,Female,B-,Hypertension,31/08/2020,dhwivzr,,117,,,,,otjai,UnitedHealthcare,31424.96977617851,467,Emergency,04/09/2021,Paracetamol,Normal
+810,abhuhstuos,73.0,Male,A-,Cancer,13/09/2023,reqrunnhqu,,113,,,,,xzhdtb,Medicare,15123.067068354552,277,Elective,14/04/2021,Ibuprofen,Abnormal
+811,whzhwsklz,39.0,Female,O+,Obesity,12/08/2020,xecjrsmtqg,,113,,,,,wbibwdy,Aetna,28050.19498664986,375,Elective,22/01/2024,Aspirin,Inconclusive
+812,mhijiottq,86.0,Female,O-,Hypertension,14/05/2021,ltnveq,,117,,,,,subymquizc,UnitedHealthcare,29777.34226033821,395,Emergency,03/02/2021,Lipitor,Normal
+813,ptiovs,48.0,Male,AB+,Cancer,27/08/2021,vqviizbas,,113,,,,,hvbssj,Aetna,7293.697200872613,485,Elective,02/04/2024,Aspirin,Inconclusive
+814,tvkyzzkyqr,61.0,Female,B+,Diabetes,07/03/2022,sjgiftkrxm,,117,,,,,bwwzvyhos,Cigna,49871.55540244479,337,Urgent,17/12/2023,Ibuprofen,Inconclusive
+815,ztrxvnv,53.0,Female,AB+,Asthma,17/01/2022,rwblzuo,,105,,,,,ypomw,Aetna,19409.598589046414,400,Emergency,12/07/2020,Penicillin,Normal
+816,cpcyhnyydf,82.0,Female,A+,Arthritis,26/12/2020,axfjvrhws,,98,,,,,txvhhe,Blue Cross,3720.7331562589306,405,Emergency,15/07/2020,Aspirin,Normal
+817,pxqmrukphy,32.0,Female,B+,Obesity,18/02/2020,auhsz,,98,,,,,kkrqzosvr,Cigna,28281.13055970739,292,Emergency,12/04/2022,Ibuprofen,Inconclusive
+818,vexabyxhrz,57.0,Male,B+,Obesity,07/12/2022,cydsufwnu,,117,,,,,zoqlup,Medicare,38851.0048025342,437,Elective,20/11/2019,Aspirin,Inconclusive
+819,qdhmrfltd,73.0,Male,B+,Cancer,10/03/2022,yjpiqu,,105,,,,,snkbggo,Medicare,11958.837302774398,138,Elective,26/02/2023,Lipitor,Normal
+820,ikbdzmnly,73.0,Male,B+,Arthritis,14/09/2023,btjhsq,,106,,,,,udvam,Cigna,43539.737895545026,125,Emergency,04/12/2019,Lipitor,Normal
+821,wkrjmmmas,34.0,Male,O+,Arthritis,25/08/2022,yckgpdhbya,,106,,,,,xughb,Aetna,2274.71292840354,185,Elective,16/06/2021,Paracetamol,Normal
+822,tyqaheso,65.0,Female,A-,Cancer,22/01/2022,mjcprcjcxa,,105,,,,,kmhyomdcqp,Cigna,7477.445401124671,461,Emergency,01/04/2022,Aspirin,Normal
+823,wfvfyvzk,20.0,Male,O+,Cancer,07/09/2023,ztfnqwema,,113,,,,,qhzwbuimzr,Aetna,3065.291059100159,252,Urgent,23/06/2019,Ibuprofen,Normal
+824,hwjbzutm,85.0,Female,A+,Hypertension,10/12/2021,pxwfixt,,98,,,,,dlfwbqkrn,Aetna,13544.839470545985,228,Urgent,29/12/2020,Penicillin,Normal
+825,puebh,46.0,Male,A+,Diabetes,23/01/2022,qjhwot,,117,,,,,pozlzkhyih,Blue Cross,36163.04872267258,164,Elective,28/10/2021,Aspirin,Abnormal
+826,ijzof,80.0,Male,AB+,Cancer,04/10/2019,yryniwvvvp,,117,,,,,uynpqifot,Medicare,27965.378072244457,170,Emergency,12/06/2022,Penicillin,Inconclusive
+827,otxkf,30.0,Female,O+,Arthritis,06/11/2023,szecsn,,98,,,,,xxspb,Blue Cross,43487.192047165525,438,Emergency,30/05/2021,Ibuprofen,Normal
+828,towck,52.0,Male,B+,Obesity,23/02/2023,qylpncpzc,,106,,,,,klrtcmp,Medicare,11867.524212148532,113,Emergency,08/06/2020,Paracetamol,Normal
+829,yzjluym,26.0,Female,AB+,Cancer,18/09/2023,cmvsw,,117,,,,,awojvzdvhy,Medicare,12053.64576555569,162,Urgent,22/04/2024,Penicillin,Normal
+830,utirnkpm,23.0,Female,A-,Diabetes,03/05/2024,nnhvilao,,105,,,,,tiswdhmw,Medicare,24958.804171660104,454,Emergency,29/03/2024,Lipitor,Inconclusive
+831,evjxvrb,13.0,Male,AB+,Obesity,13/08/2022,fivewlv,,117,,,,,uvlxywer,Blue Cross,42199.90128360139,431,Elective,21/06/2019,Paracetamol,Normal
+832,zlaskmfbw,32.0,Female,B-,Diabetes,14/07/2023,pfdvbh,,113,,,,,hbwescpb,Medicare,37937.344152816484,355,Emergency,02/02/2024,Ibuprofen,Abnormal
+833,inlqwpb,16.0,Male,B+,Hypertension,31/08/2022,aeefsagws,,105,,,,,vfyhsuwx,Cigna,25611.0532769499,228,Emergency,10/06/2019,Ibuprofen,Inconclusive
+834,rsapqh,74.0,Male,A+,Hypertension,13/11/2023,kztwzyc,,105,,,,,dulonnjrga,Cigna,20002.689808447834,399,Elective,30/06/2022,Paracetamol,Inconclusive
+835,eufbko,44.0,Male,AB-,Obesity,10/02/2022,ezsija,,113,,,0.0,,nexcjnfex,Cigna,34999.90366156786,151,Emergency,12/01/2022,Lipitor,Abnormal
+836,ywxek,22.0,Male,B+,Asthma,23/02/2020,svxzxov,,98,,,,,urtiddcxvr,Medicare,47634.619716345966,463,Elective,14/04/2024,Paracetamol,Abnormal
+837,nvliozr,27.0,Female,B+,Arthritis,10/06/2021,emmflhtmm,,106,,,,,ihknidwh,Aetna,44283.36565779207,442,Elective,17/10/2019,Penicillin,Normal
+838,kbtrtsls,78.0,Female,B+,Cancer,24/05/2021,wwfvijdj,,98,,,,,bgodtetxh,Aetna,14561.330120344426,375,Elective,03/04/2020,Paracetamol,Inconclusive
+839,gwkpmcqbt,13.0,Female,A+,Hypertension,08/01/2022,rqeqjn,,117,,,,,dmihtbr,UnitedHealthcare,38176.62275828457,413,Urgent,31/01/2023,Penicillin,Inconclusive
+840,fkbity,15.0,Male,O+,Obesity,10/02/2022,gdomtwhdvs,,117,,,,,wfbgkeom,Aetna,38464.73356714466,218,Urgent,27/06/2023,Penicillin,Inconclusive
+841,xpqrs,57.0,Female,AB+,Cancer,18/09/2022,turrazeq,,105,,,,,iqikwrg,Blue Cross,20047.5995433884,442,Emergency,03/03/2024,Paracetamol,Abnormal
+842,urlrvje,34.0,Female,B-,Arthritis,17/02/2021,fiuunfvy,,117,,,,,xdjce,Aetna,23512.073864697606,149,Urgent,31/07/2020,Ibuprofen,Inconclusive
+843,wnocxwtc,49.0,Female,B-,Obesity,12/03/2022,utvskj,,113,,,,,warxbalt,UnitedHealthcare,16262.73545043791,242,Emergency,27/04/2023,Ibuprofen,Abnormal
+844,qsvzrfg,64.0,Male,B+,Cancer,05/06/2021,vaxgwpvq,,98,,,,,btubxvi,Blue Cross,42100.850395317335,481,Emergency,20/12/2021,Aspirin,Inconclusive
+845,ykflrs,46.0,Male,B-,Diabetes,20/05/2023,ojewntups,,98,,,,,jybwhkyb,Blue Cross,16638.1687944318,321,Urgent,07/11/2019,Penicillin,Abnormal
+846,jdifmsktv,71.0,Male,AB+,Obesity,07/10/2022,czruolxr,,98,,,,,firdoqpc,Aetna,10532.05783785157,462,Elective,27/02/2022,Penicillin,Abnormal
+847,ljkpda,46.0,Male,A+,Hypertension,25/02/2022,eiuuojqqe,,98,,,,,wvcmjom,Medicare,31102.431984394916,383,Urgent,09/04/2023,Paracetamol,Inconclusive
+848,mvrapx,57.0,Male,O-,Asthma,08/04/2020,xajremoum,,113,,,,,svzms,Aetna,24668.03362603558,105,Elective,06/01/2021,Lipitor,Normal
+849,oqqozi,30.0,Male,B+,Asthma,19/03/2024,hhhiiufesw,,105,,,,,mxjxjlxguo,Cigna,4304.960117543645,255,Urgent,28/05/2021,Aspirin,Abnormal
+850,udtyv,31.0,Female,B-,Cancer,07/06/2023,xxgys,,105,,,,,fksrvqea,UnitedHealthcare,29459.337283885103,223,Urgent,18/06/2023,Ibuprofen,Normal
+851,wkjnfyk,20.0,Male,AB+,Diabetes,31/12/2019,fvkktt,,106,,,,,vticwi,Aetna,9744.262434372273,275,Urgent,13/01/2020,Paracetamol,Abnormal
+852,sbacpi,72.0,Male,AB+,Asthma,02/03/2024,mnhefnqpf,,113,,,,,vhqwogv,Medicare,21135.57122324085,162,Urgent,25/04/2023,Ibuprofen,Normal
+853,utyuk,78.0,Male,B+,Obesity,15/12/2019,kauvtusuvl,,113,,,,,nyrina,Cigna,20410.06103257168,274,Urgent,09/02/2022,Aspirin,Inconclusive
+854,aldoicalsp,49.0,Female,AB-,Diabetes,18/07/2020,kgtqj,,117,,,,,zbujmaqk,Aetna,24524.192098115534,109,Urgent,31/08/2023,Aspirin,Inconclusive
+855,ayaeiobnbd,77.0,Female,B-,Diabetes,09/09/2023,pfmyr,,105,,,,,gnocpa,Cigna,36997.31480539836,264,Elective,18/05/2023,Penicillin,Normal
+856,rfliivoanm,71.0,Female,B+,Hypertension,15/12/2020,dxfvdxzxy,,105,,,,,iwlvjrphd,Blue Cross,27240.504617167844,129,Elective,14/06/2022,Lipitor,Abnormal
+857,vdbhdowsrx,47.0,Female,AB-,Obesity,29/10/2019,jrxtcflb,,117,,,,,gvfrmu,UnitedHealthcare,52205.138825479386,478,Emergency,11/11/2023,Penicillin,Inconclusive
+858,jmkuxbs,32.0,Female,A-,Hypertension,27/10/2021,iknztrbr,,117,,,,,xtlvcn,Blue Cross,44376.74981869277,372,Elective,30/05/2020,Penicillin,Abnormal
+859,nckorcrmhp,89.0,Female,B+,Cancer,09/02/2024,ctvyumd,,113,,,,,blnayqyna,UnitedHealthcare,27908.914516970846,262,Emergency,04/06/2019,Paracetamol,Inconclusive
+860,voqtrc,71.0,Male,O-,Cancer,24/11/2023,wsulm,,117,,,,,dvyhzch,Medicare,15634.219408284773,130,Emergency,28/10/2021,Lipitor,Inconclusive
+861,xutbspkzvl,14.0,Male,AB-,Cancer,14/01/2024,zymzifxjgk,,113,,,,,kvzcmogg,Medicare,44455.88901431175,419,Emergency,20/03/2021,Paracetamol,Inconclusive
+862,fdagagr,80.0,Male,A+,Asthma,13/03/2022,hqofcelg,,105,,,,,ilfrzz,Aetna,49348.55055945339,257,Urgent,10/06/2019,Penicillin,Abnormal
+863,pnzfx,38.0,Female,A+,Arthritis,25/12/2022,utxoyouvfq,,105,,,,,atlozbm,Cigna,15291.262566753549,370,Elective,20/01/2022,Ibuprofen,Inconclusive
+864,sbrpyqu,31.0,Female,B+,Diabetes,28/08/2023,oxhie,,105,,,,,pwtiugcld,Medicare,5327.773886766258,433,Elective,24/04/2023,Ibuprofen,Abnormal
+865,wesuruknrx,39.0,Female,A-,Hypertension,12/03/2020,xrikswi,,113,,,,,soqmwcyflz,Cigna,36376.05913011029,207,Urgent,18/01/2024,Penicillin,Abnormal
+866,aiwsm,48.0,Female,AB+,Obesity,21/06/2021,tfvoybtgu,,98,,,,,qanoabmyvp,Medicare,16400.605188807873,407,Elective,02/12/2022,Penicillin,Normal
+867,aaovv,45.0,Female,B-,Obesity,12/03/2022,epdhcqe,,117,,,,,gilpgs,Blue Cross,42531.20513098927,301,Urgent,20/05/2019,Aspirin,Inconclusive
+868,ixhxeed,51.0,Male,B+,Cancer,07/09/2019,ksqilk,,98,,,,,ocgoquu,Medicare,43025.541182641595,242,Emergency,12/04/2020,Penicillin,Inconclusive
+869,wbrxzej,86.0,Male,O+,Asthma,21/09/2019,xhwmhzm,,105,,,,,nicyf,UnitedHealthcare,41619.37037144212,131,Urgent,28/10/2020,Lipitor,Inconclusive
+870,tvqivm,82.0,Male,O-,Arthritis,30/07/2021,jtcavmsmlt,,106,,,,,eosvwmr,Blue Cross,13559.49923086729,185,Urgent,20/12/2023,Aspirin,Normal
+871,yiacxt,83.0,Female,B+,Hypertension,26/06/2020,xxzvb,,113,,,,,uysuv,UnitedHealthcare,2372.481203000305,301,Urgent,13/08/2021,Paracetamol,Normal
+872,ldsqyf,89.0,Female,B+,Arthritis,11/01/2021,vxnhgc,,105,,,,,iklnfg,UnitedHealthcare,12620.525427935541,385,Emergency,29/12/2021,Ibuprofen,Abnormal
+873,zdicjhcx,45.0,Female,O-,Diabetes,23/10/2022,wwrhsqnqz,,117,,,,,qagfkp,UnitedHealthcare,11468.530264164665,246,Urgent,20/03/2023,Paracetamol,Normal
+874,fvyulmx,78.0,Male,B+,Arthritis,09/05/2020,mpqzuc,,106,,,,,kypjjwz,Medicare,17149.696260328834,479,Emergency,06/08/2022,Paracetamol,Normal
+875,pxxofgppgl,48.0,Male,B+,Asthma,09/08/2022,nkmbg,,117,,,,,yhmrqx,Blue Cross,28078.27233415914,480,Urgent,23/06/2020,Lipitor,Inconclusive
+876,cckkvlrvy,81.0,Male,AB-,Cancer,07/06/2023,jagimyape,,105,,,,,hlhlw,UnitedHealthcare,35451.099667153205,239,Urgent,11/01/2023,Ibuprofen,Abnormal
+877,desuauc,27.0,Male,O+,Asthma,18/01/2022,krztxsluyh,,106,,,,,cccgvltcx,Medicare,10401.03019489868,329,Emergency,07/11/2023,Ibuprofen,Inconclusive
+878,lvrlnqfnj,64.0,Male,B+,Obesity,21/07/2020,tnnndzys,,113,,,,,wqjplooj,Cigna,45476.70152956734,134,Urgent,06/09/2023,Penicillin,Abnormal
+879,jbpevo,46.0,Male,B+,Asthma,23/05/2019,lnkptg,,113,,,,,qvjmssl,Cigna,5242.297169431581,326,Emergency,21/08/2019,Ibuprofen,Inconclusive
+880,hzqxlfhf,58.0,Female,AB+,Asthma,12/10/2022,ecaax,,98,,,,,tncbduqk,UnitedHealthcare,13319.094279427049,265,Elective,12/01/2023,Paracetamol,Normal
+881,jgurnqhpyl,59.0,Male,O+,Hypertension,23/05/2020,ixivyrot,,106,,,,,abire,Medicare,300.9684422607477,152,Emergency,02/07/2023,Aspirin,Normal
+882,jycpus,76.0,Male,O-,Arthritis,22/04/2024,mmylkjdjbl,,98,,,,,rzbfek,Blue Cross,43283.014250549466,185,Emergency,18/04/2023,Ibuprofen,Normal
+883,leyogjony,55.0,Female,B-,Obesity,13/05/2020,cvhqkbagxm,,117,,,,,fwqgsenuns,Blue Cross,44650.62392412807,443,Elective,20/08/2019,Penicillin,Abnormal
+884,spscagrz,65.0,Female,AB+,Hypertension,25/10/2023,thacv,,98,,,,,hudzsnxf,Medicare,3842.7854610206405,104,Emergency,15/04/2021,Paracetamol,Normal
+885,iqoymycwo,20.0,Male,B+,Asthma,10/05/2021,cihcxc,,113,,,,,szvklaqjdf,UnitedHealthcare,35305.923144000524,118,Elective,09/02/2024,Aspirin,Abnormal
+886,yvzbfsomzc,22.0,Male,AB-,Diabetes,15/03/2022,ghujfh,,117,,,,,hchwp,Blue Cross,49177.494245809874,311,Elective,29/03/2020,Lipitor,Abnormal
+887,ndmnpay,88.0,Male,AB+,Obesity,12/05/2023,ndvlpjtbs,,117,,,,,nyjpah,Aetna,-1364.5096208439572,264,Emergency,11/01/2024,Lipitor,Abnormal
+888,jxsusgd,78.0,Male,AB+,Diabetes,09/03/2021,mhalgwf,,106,,,,,xopbrqfv,Cigna,45587.06409633881,438,Urgent,23/01/2023,Paracetamol,Abnormal
+889,fllco,41.0,Female,A-,Hypertension,16/07/2020,rdbvjhe,,105,,,,,jnzlxgxwdo,Aetna,8755.488348875968,450,Emergency,15/10/2019,Paracetamol,Inconclusive
+890,gcsbjmcdl,38.0,Male,O+,Obesity,31/07/2022,vbynku,,113,,,,,znggvx,Medicare,14100.982047113386,415,Emergency,12/02/2023,Paracetamol,Normal
+891,gavqiagjjb,46.0,Male,AB-,Arthritis,27/06/2020,zofpnzfql,,113,,,,,gmnfzpz,Blue Cross,18889.52659752739,253,Emergency,01/11/2022,Penicillin,Abnormal
+892,ngseuavq,49.0,Female,AB+,Arthritis,24/10/2021,bmbnzv,,105,,,,,xgxfowdet,UnitedHealthcare,-1098.4651249886297,419,Elective,24/02/2021,Paracetamol,Normal
+893,tqwhe,26.0,Male,B+,Obesity,30/12/2021,okeyd,,117,,,,,ptqxxxxm,UnitedHealthcare,33129.807078210615,253,Urgent,16/04/2020,Paracetamol,Normal
+894,lftznskrm,66.0,Male,AB+,Asthma,05/06/2019,vvoilpy,,105,,,,,lsvszfju,Blue Cross,9683.275983826958,379,Urgent,18/07/2021,Penicillin,Abnormal
+895,hrxuxicrqq,29.0,,AB+,Cancer,21/06/2019,wpazxg,,98,,,,,sdcfksoplj,UnitedHealthcare,51829.14157300371,208,Urgent,24/05/2019,Paracetamol,Abnormal
+896,kpvtw,74.0,Male,A-,Diabetes,11/02/2021,lwghdyml,,117,,,,,lovqmreara,Cigna,40421.99122096964,128,Elective,09/08/2020,Lipitor,Abnormal
+897,kecsgyqrt,42.0,Female,B-,Obesity,28/02/2023,bjatqusbg,,113,,,,,ugxtmrxrbb,Blue Cross,7416.814587922334,209,Urgent,05/12/2020,Paracetamol,Abnormal
+898,gtztacart,53.0,Female,A+,Diabetes,18/11/2019,lhihdttu,,117,,,,,gmoubv,UnitedHealthcare,11593.98418347809,317,Emergency,09/09/2023,Lipitor,Abnormal
+899,fkakso,55.0,Male,AB-,Hypertension,18/08/2020,wpvopd,,113,,,,,flxwoaxe,Aetna,27996.28309420557,475,Urgent,25/04/2022,Paracetamol,Inconclusive
+900,dkysigrue,73.0,Female,O-,Arthritis,16/12/2019,lunyadxxrb,,106,,,,,dpsloaziks,Cigna,12502.169813010729,357,Elective,14/01/2024,Ibuprofen,Inconclusive
+901,ueguggejsq,22.0,Male,O-,Hypertension,03/05/2022,hczxvr,,113,,,,,hsmotxdd,Aetna,23606.92023597785,426,Urgent,22/04/2023,Paracetamol,Inconclusive
+902,uiyeigmd,18.0,Male,AB+,Arthritis,01/05/2021,tyktd,,117,,,0.0,,tlyjgrj,UnitedHealthcare,36874.44157888461,351,Elective,13/03/2022,Lipitor,Normal
+903,ppgkyhsp,80.0,Female,B+,Asthma,30/06/2021,dfgbqi,,98,,,,,kpoirtct,Cigna,4942.387969910354,460,Urgent,16/06/2022,Ibuprofen,Abnormal
+904,tplxaam,25.0,Male,AB-,Obesity,21/10/2021,mzgrmm,,117,,,,,ckrmk,Aetna,-762.1016209003944,208,Emergency,02/10/2019,Penicillin,Inconclusive
+905,wlqzxaxgk,80.0,Male,O+,Arthritis,19/02/2022,afcavnt,,98,,,,,nireqntm,Blue Cross,9539.586829391386,132,Elective,13/08/2022,Ibuprofen,Inconclusive
+906,gduklt,53.0,Male,A+,Asthma,15/05/2020,howyytmxr,,105,,,,,jjpszinah,UnitedHealthcare,6051.722759415357,257,Emergency,28/11/2023,Aspirin,Normal
+907,ygnriik,50.0,Male,AB+,Diabetes,21/08/2023,odhugrl,,113,,,,,qjqwxiwxyl,Cigna,46534.00802072922,128,Elective,29/10/2022,Aspirin,Inconclusive
+908,xfcmw,77.0,Male,A+,Hypertension,15/03/2021,pxekvjtgut,,98,,,,,qehfoapze,Blue Cross,52415.44587637841,314,Urgent,16/11/2019,Paracetamol,Abnormal
+909,euqtkdecpp,72.0,Female,AB+,Cancer,05/09/2020,maixujt,,113,,,,,hkggpjyk,UnitedHealthcare,47729.80660935836,418,Urgent,03/07/2019,Aspirin,Inconclusive
+910,rvtuwcj,86.0,Male,A-,Hypertension,01/06/2020,ovzha,,98,,,,,fbqascvp,Cigna,22616.79214780553,260,Emergency,06/11/2023,Paracetamol,Inconclusive
+911,itkkecihj,83.0,Female,AB+,Hypertension,18/10/2019,hdpbumikhv,,105,,,,,hvzzzs,Medicare,29720.725171858634,187,Elective,17/07/2019,Ibuprofen,Abnormal
+912,popcu,47.0,Male,A-,Cancer,12/05/2022,eecaou,,106,,,,,adhhzcycld,Medicare,-884.3119265028222,449,Elective,09/05/2020,Penicillin,Inconclusive
+913,ivtbgrf,88.0,Male,A+,Cancer,12/10/2022,lcnax,,113,,,0.0,,cvkpjzbzes,UnitedHealthcare,15059.112330377577,390,Urgent,24/10/2019,Penicillin,Abnormal
+914,qhtajmy,59.0,Female,O+,Hypertension,16/12/2022,owwkxhjyk,,106,,,,,hgzxscdn,Blue Cross,41507.82263849787,292,Elective,26/12/2020,Aspirin,Normal
+915,esoarty,47.0,Female,A-,Cancer,20/03/2024,ztdsip,,117,,,,,qkdbnkm,UnitedHealthcare,24263.176392373298,125,Elective,26/01/2022,Lipitor,Normal
+916,kmwrkhd,58.0,Female,A-,,11/06/2020,jlunmpqws,,113,,,,,mirappoqli,Aetna,48192.83671845628,169,Urgent,12/07/2021,Penicillin,Normal
+917,wcjtq,64.0,Female,A+,Hypertension,28/07/2023,fngqtsdpq,,105,,,,,yyztf,Medicare,12998.391222602122,229,Elective,01/01/2022,Aspirin,Abnormal
+918,aumqcpv,84.0,Male,AB+,Cancer,19/03/2022,kauenbopkd,,106,,,,,dofwmalbt,Blue Cross,8538.951758642435,125,Elective,16/12/2022,Lipitor,Normal
+919,nexysaheg,40.0,Female,AB-,Arthritis,03/10/2019,jmdaqnlb,,105,,,,,ejhzgth,Aetna,30389.67151468281,128,Urgent,04/08/2020,Ibuprofen,Abnormal
+920,kpoqlxrvts,38.0,Male,O-,Hypertension,26/06/2023,zhogih,,98,,,,,vsodg,Aetna,4473.063796032415,205,Elective,28/04/2023,Ibuprofen,Normal
+921,jesisx,49.0,Female,A+,Hypertension,10/07/2019,awqpmuqzo,,106,,,,,npvulssga,Blue Cross,38377.47225034025,339,Emergency,06/10/2021,Penicillin,Abnormal
+922,egyxo,80.0,Female,B-,Hypertension,18/04/2024,lhjtuvaol,,98,,,0.0,,zfxrdp,Blue Cross,27394.546918232616,159,Urgent,19/11/2019,Paracetamol,Inconclusive
+923,jczoen,48.0,Male,A+,Cancer,25/04/2022,kktqzaqeo,,98,,,,,uwhvbal,Aetna,27497.061670774605,265,Elective,25/06/2023,Penicillin,Inconclusive
+924,ryjet,55.0,Female,B-,Hypertension,12/08/2019,puvnzti,,105,,,,,zhvteatn,Medicare,40125.68983822248,384,Emergency,11/06/2023,Lipitor,Normal
+925,tkiwhpr,17.0,Male,B-,Arthritis,09/03/2020,rggaienkn,,105,,,,,ljmfi,Blue Cross,27428.111605446727,286,Elective,18/12/2019,Penicillin,Abnormal
+926,lhuqey,61.0,Male,A+,Arthritis,24/08/2023,ljryzsjk,,105,,,,,eladbr,Medicare,1483.3542062781714,416,Urgent,30/01/2021,Ibuprofen,Normal
+927,mdewqymj,19.0,Female,A-,Hypertension,01/02/2020,zztlbcu,,105,,,,,fviwfjh,Medicare,14872.144937985193,242,Elective,28/12/2023,Lipitor,Abnormal
+928,isjhv,67.0,Female,O+,Asthma,20/11/2020,qrwpkchs,,117,,,,,urvznpqqa,Medicare,40507.86242112822,358,Elective,20/04/2022,Paracetamol,Abnormal
+929,diaodb,13.0,Female,A+,Diabetes,15/08/2023,pnfofsgqi,,98,,,,,zsedefovhf,Aetna,49128.69279971165,177,Elective,11/05/2022,Paracetamol,Inconclusive
+930,cdcjd,55.0,Female,AB+,Arthritis,10/04/2023,aflxim,,117,,,,,yaele,UnitedHealthcare,13841.843991403714,494,Elective,10/11/2020,Aspirin,Normal
+931,trmnuwo,39.0,Female,AB-,Hypertension,25/12/2023,jlyxweu,,98,,,,,ocyaym,Medicare,21779.475848117203,348,Urgent,03/06/2019,Paracetamol,Normal
+932,pifvbzxg,15.0,Female,A+,Cancer,21/10/2021,becpm,,105,,,,,kdpqie,Cigna,27661.575918506005,395,Urgent,23/03/2024,Aspirin,Normal
+933,rfpth,86.0,Male,O-,Arthritis,27/02/2020,widch,,105,,,,,jxfexszo,Aetna,44709.05000506641,286,Urgent,07/10/2020,Penicillin,Normal
+934,cfyzicbv,20.0,Male,AB-,Asthma,27/12/2022,oilyemwak,,113,,,,,hbrre,Medicare,20318.82822651274,186,Urgent,10/06/2023,Aspirin,Normal
+935,ildul,26.0,Male,A-,Hypertension,29/03/2022,cvijgfccb,,105,,,,,zrrettk,Cigna,27974.78576099429,407,Urgent,10/06/2019,Lipitor,Normal
+936,jplpnnbr,39.0,Female,AB-,Cancer,31/01/2023,gmizmppv,,117,,,,,rkhwaffhv,Blue Cross,10887.494612917413,369,Elective,02/11/2019,Paracetamol,Abnormal
+937,jrjbgtjvs,34.0,Female,O-,Hypertension,24/02/2021,xymbcz,,113,,,,,neeqvkdfwd,UnitedHealthcare,31127.689114637917,432,Elective,25/07/2023,Penicillin,Abnormal
+938,wgqxol,39.0,Male,O-,Asthma,23/04/2022,afvhxej,,105,,,,,adjaxodz,Medicare,10310.077620168371,265,Elective,25/04/2024,Penicillin,Abnormal
+939,kvydn,35.0,Female,O-,Cancer,15/10/2019,ajrkjvu,,106,,,,,aftspz,Cigna,25060.878017671344,272,Urgent,28/06/2020,Aspirin,Inconclusive
+940,zzhtzkoqwa,68.0,Female,O+,Diabetes,26/07/2022,ekbrnhus,,98,,,,,kmgvqzqu,Aetna,3781.7426499411167,225,Emergency,15/04/2021,Paracetamol,Abnormal
+941,extannsn,56.0,Female,AB+,Arthritis,20/03/2020,vsldy,,113,,,,,hlhysx,Blue Cross,43413.40271164158,292,Urgent,12/02/2021,Penicillin,Abnormal
+942,rnxfeajftt,17.0,Male,O+,Arthritis,30/06/2022,akwhvgpkgy,,105,,,,,gsass,Blue Cross,39387.69267673435,499,Emergency,02/03/2023,Aspirin,Inconclusive
+943,cztsqr,19.0,Female,O-,Cancer,09/05/2019,dutvk,,106,,,,,vtfacz,UnitedHealthcare,7802.69933191675,469,Elective,13/10/2023,Lipitor,Normal
+944,opchxjzit,72.0,Female,O-,Asthma,25/12/2020,mznxfyk,,113,,,,,avojqt,Medicare,19696.654931915516,483,Emergency,13/12/2022,Aspirin,Inconclusive
+945,rktgtc,55.0,Female,A-,Obesity,10/12/2022,fqvqqhfmc,,106,,,,,gfhmbzjdyg,Aetna,44154.49555680929,352,Urgent,15/01/2024,Lipitor,Inconclusive
+946,mpxygguhtr,36.0,Male,A+,Arthritis,19/05/2023,osbhfhqt,,113,,,,,axeszyvnv,UnitedHealthcare,39459.385340254936,481,Emergency,11/06/2020,Penicillin,Abnormal
+947,ptawvxrjtt,75.0,Female,A+,Asthma,27/01/2020,dkjhxxchi,,113,,,,,srxobv,UnitedHealthcare,6803.94761644376,297,Elective,03/04/2020,Ibuprofen,Inconclusive
+948,lpqbjmnt,54.0,Female,B+,Arthritis,27/08/2020,oqmwojdakh,,105,,,,,wvoeu,UnitedHealthcare,15703.776221921844,185,Elective,02/12/2023,Lipitor,Inconclusive
+949,snsrbzlc,58.0,Female,A+,Asthma,24/01/2020,pmjjwctsys,,106,,,,,lvbpl,Blue Cross,12511.677300112327,492,Urgent,14/02/2022,Paracetamol,Inconclusive
+950,nnximmd,86.0,Male,AB-,Asthma,11/04/2024,ryword,,117,,,,,mwscm,UnitedHealthcare,4398.657537421937,167,Emergency,03/12/2020,Aspirin,Normal
+951,kfatk,86.0,Male,AB+,Diabetes,19/11/2019,pklugwthve,,117,,,0.0,,wpuwxmrv,Medicare,3751.6144769740376,121,Urgent,22/11/2022,Paracetamol,Normal
+952,uyukscom,74.0,Female,B+,Diabetes,04/04/2023,dcwdg,,113,,,,,iffksw,Aetna,52190.35697739501,265,Emergency,04/09/2019,Ibuprofen,Abnormal
+953,rpfzkdfvx,52.0,Female,A-,Diabetes,05/10/2019,rnqol,,98,,,0.0,,oxanhfkevj,UnitedHealthcare,28874.65360101979,488,Elective,03/10/2019,Penicillin,Inconclusive
+954,bjnncge,60.0,Female,A+,Hypertension,17/09/2023,ceqszwb,,105,,,,,phlxd,Medicare,22443.61995038683,274,Emergency,19/02/2021,Ibuprofen,Normal
+955,vmpojpa,30.0,Male,A-,Asthma,17/06/2023,mhngbyze,,117,,,,,fzthehw,Medicare,17473.12810952236,431,Elective,29/04/2024,Paracetamol,Inconclusive
+956,ysxtylvme,16.0,Female,A-,Obesity,16/07/2021,jkqqz,,106,,,,,zjlxbin,Blue Cross,28717.88513618718,376,Elective,03/07/2020,Ibuprofen,Normal
+957,qcikedul,23.0,Female,AB+,Obesity,21/06/2021,qektmhh,,117,,,,,eoybtw,UnitedHealthcare,43609.98269418671,453,Emergency,20/06/2022,Aspirin,Inconclusive
+958,rvuvvnli,43.0,Female,AB+,Asthma,18/12/2020,ilsvl,,117,,,,,cemsrmocf,UnitedHealthcare,4153.333817221479,220,Urgent,26/07/2019,Ibuprofen,Abnormal
+959,bwtownmbuk,49.0,Male,B+,Hypertension,22/02/2022,uexqlb,,98,,,,,apxscvi,UnitedHealthcare,25947.44880088603,473,Emergency,13/05/2019,Ibuprofen,Inconclusive
+960,cyxxyay,87.0,Female,AB+,Arthritis,23/12/2020,dqbpdhl,,98,,,,,foltd,Blue Cross,4010.883167106247,108,Emergency,01/06/2021,Ibuprofen,Inconclusive
+961,mxwuueug,56.0,Female,AB-,Arthritis,01/01/2021,uxutbobabn,,106,,,,,anejbyblo,Medicare,13088.477535695947,250,Elective,20/01/2021,Paracetamol,Inconclusive
+962,fsugmpcywd,76.0,Female,O+,Arthritis,24/02/2021,bkovz,,105,,,,,wjxnhpisr,Cigna,31504.59616040422,122,Elective,21/12/2019,Lipitor,Abnormal
+963,nxmolrvd,67.0,Male,B+,Arthritis,11/08/2023,paahzjq,,98,,,,,upkwzxa,Cigna,47242.146469892585,306,Elective,07/10/2019,Penicillin,Abnormal
+964,akyrbz,42.0,Male,O-,Obesity,16/07/2021,hmoupzt,,106,,,,,homxlwiseg,Medicare,2907.181401080422,101,Elective,08/02/2021,Lipitor,Abnormal
+965,dnbgl,51.0,Female,AB+,Arthritis,01/04/2024,phswxc,,106,,,,,icowe,Aetna,25635.155471765524,173,Urgent,03/07/2019,Ibuprofen,Normal
+966,usduhtatbd,70.0,Male,AB+,Hypertension,19/09/2023,rikfjea,,106,,,,,ppfkhtz,Medicare,42201.75377955856,258,Elective,20/11/2019,Lipitor,Abnormal
+967,flxmejqp,49.0,Female,AB-,Diabetes,05/02/2020,qkqvldc,,105,,,,,kptxifol,Blue Cross,19057.492924559952,149,Emergency,10/02/2024,Paracetamol,Inconclusive
+968,peptgyuegc,89.0,Female,O+,Hypertension,11/07/2023,qvbuntntr,,117,,,0.0,,vjxsmiwkpt,Blue Cross,33793.53212084369,428,Urgent,11/09/2020,Paracetamol,Normal
+969,byfocwknr,30.0,Female,B+,Cancer,21/07/2019,zczsb,,106,,,,,igxfns,Aetna,25450.33713177306,481,Urgent,12/08/2023,Ibuprofen,Inconclusive
+970,nleqao,63.0,Male,B+,Cancer,19/08/2022,wukskw,,105,,,,,aczvizhkmr,Aetna,19715.62802487561,165,Elective,01/10/2019,Aspirin,Abnormal
+971,dmfifxzum,66.0,Male,A+,Obesity,27/06/2020,uhgvzjq,,98,,,,,ecfjfjlhkb,Aetna,17099.999623883956,328,Emergency,17/04/2020,Paracetamol,Normal
+972,qqrark,22.0,Male,AB+,Cancer,03/06/2022,ezlhayuyj,,106,,,,,kpseukzhb,Aetna,7981.469477637811,194,Elective,08/12/2022,Aspirin,Normal
+973,qzuja,33.0,Female,AB+,Asthma,04/02/2021,wfggt,,113,,,,,mnhfyzm,Cigna,41164.003240440885,306,Emergency,11/03/2024,Penicillin,Normal
+974,uoijjm,66.0,Male,O-,Arthritis,01/10/2022,theudfum,,117,,,,,hjnnjqza,Aetna,27768.906974647965,226,Urgent,16/07/2021,Lipitor,Inconclusive
+975,dfoohfzq,83.0,Female,B+,Asthma,07/08/2022,rlquuje,,117,,,,,sluwqldz,UnitedHealthcare,41462.987390678565,234,Elective,10/03/2020,Ibuprofen,Normal
+976,nzekuqaxv,21.0,Male,O+,Obesity,24/12/2019,wewddki,,105,,,,,eoihezabs,UnitedHealthcare,19813.73568267908,125,Elective,29/02/2020,Lipitor,Inconclusive
+977,pamso,89.0,Male,B-,Arthritis,17/04/2023,phprrvk,,98,,,,,zdygihgn,Cigna,46922.84283667492,349,Elective,06/07/2020,Ibuprofen,Normal
+978,jgctgkkm,78.0,Male,B+,Obesity,08/02/2021,udmddokkj,,98,,,,,vlfzmtzc,Cigna,12259.768648659501,149,Elective,20/11/2019,Penicillin,Normal
+979,wikbr,24.0,Male,AB+,Hypertension,14/12/2020,kduryo,,113,,,,,kkots,Blue Cross,39689.54651595021,263,Urgent,08/09/2019,Aspirin,Inconclusive
+980,aekeroe,21.0,Male,O-,Asthma,16/05/2022,cxexv,,105,,,,,dkqsemjwxe,Cigna,13571.592436317203,454,Emergency,02/04/2022,Aspirin,Inconclusive
+981,cnsrbbsnl,21.0,Female,O+,Asthma,23/07/2020,furey,,113,,,,,dmewhhstom,Aetna,51922.07930959105,217,Emergency,27/08/2019,Ibuprofen,Inconclusive
+982,btljoiss,50.0,Female,AB+,Diabetes,27/06/2019,pwpthmn,,105,,,,,yyrknhyhd,Cigna,27033.447617590715,451,Emergency,15/03/2021,Lipitor,Inconclusive
+983,uxtyv,28.0,Female,B-,Arthritis,01/03/2020,onwfvo,,113,,,,,zfrnmcx,Aetna,3346.719314247842,179,Emergency,21/09/2019,Lipitor,Normal
+984,igdvj,47.0,Female,O-,Diabetes,11/08/2022,cjnghfxuun,,105,,,,,qyvyvqlwu,Aetna,38446.76262618247,311,Urgent,19/10/2022,Ibuprofen,Inconclusive
+985,gumyikxzxd,73.0,Female,O+,Obesity,05/07/2020,vpeqt,,105,,,,,yqrmj,Aetna,36108.47107813472,122,Elective,30/06/2020,Ibuprofen,Inconclusive
+986,ljizq,89.0,Female,O-,Arthritis,20/09/2023,hrxiwhf,,113,,,,,wvowup,Medicare,40975.99826816541,250,Emergency,17/02/2024,Lipitor,Inconclusive
+987,uwueqzgle,52.0,Male,O-,Cancer,08/07/2019,gxrsyjd,,105,,,,,adyvqrzeae,Medicare,3069.324169125608,207,Emergency,03/05/2022,Lipitor,Normal
+988,hslywn,45.0,Female,AB-,Arthritis,18/02/2020,bbggxaeyg,,98,,,,,jfqbi,Blue Cross,27026.544769591354,236,Elective,02/03/2024,Paracetamol,Normal
+989,zhshcgbyvi,26.0,Female,O-,Arthritis,02/02/2022,ivjie,,106,,,,,wxxdrgalh,Aetna,30358.49029543173,380,Elective,22/03/2021,Lipitor,Inconclusive
+990,kguaxq,46.0,Female,B-,Arthritis,14/02/2022,pknptwn,,98,,,0.0,,mcxpy,Blue Cross,27565.04750558862,189,Emergency,21/10/2020,Paracetamol,Inconclusive
+991,gtdueo,52.0,Male,B+,Cancer,13/07/2021,lmiayqhj,,106,,,,,mxlzf,Blue Cross,30871.528951610107,343,Elective,31/10/2020,Penicillin,Normal
+992,oxbgvl,19.0,Female,A-,Cancer,22/09/2020,nmqplcnbaw,,106,,,,,kdqmmcv,UnitedHealthcare,12287.069886050684,295,Urgent,06/01/2021,Paracetamol,Inconclusive
+993,gysnzf,43.0,Male,AB+,Asthma,01/01/2024,jlhxxgm,,105,,,,,gkkpssb,Blue Cross,34251.30831230368,336,Elective,17/03/2021,Penicillin,Normal
+994,lglfucueli,19.0,Female,O-,Hypertension,13/12/2019,saozgecm,,117,,,,,vebkrwa,Cigna,13038.75299273646,109,Elective,28/02/2024,Lipitor,Abnormal
+995,iwdjzzew,81.0,Male,A-,Arthritis,13/05/2021,uizid,,106,,,,,yhhbxfzpg,Medicare,5970.325384053939,357,Elective,19/01/2022,Aspirin,Inconclusive
+996,wmpobyqgwy,32.0,Female,AB-,Obesity,17/05/2020,qdabqmf,,105,,,,,efpowvngc,Blue Cross,40646.92269447273,364,Emergency,25/12/2022,Penicillin,Normal
+997,uluahr,46.0,Male,A+,Diabetes,23/07/2021,txnfkjsc,,106,,,,,jmkprowv,Medicare,48806.33487429866,467,Emergency,07/02/2020,Aspirin,Abnormal
+998,wcxufjqat,64.0,Female,A+,Diabetes,25/03/2022,njbnta,,105,,,,,olnuowvpxv,Medicare,34744.528702679156,116,Urgent,25/06/2020,Aspirin,Inconclusive
+999,zuhydchoa,89.0,Female,B+,Diabetes,27/02/2023,dytjblxrdp,,105,,,,,okdmn,Blue Cross,44069.31014556935,233,Emergency,20/01/2022,Aspirin,Inconclusive
