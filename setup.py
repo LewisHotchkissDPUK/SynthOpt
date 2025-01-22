@@ -1,7 +1,7 @@
 from pathlib import Path
 import setuptools
 
-VERSION = "0.2.9"
+VERSION = "0.2.10"
 
 NAME = "SynthOpt"
 

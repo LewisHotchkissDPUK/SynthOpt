@@ -66,5 +66,6 @@ print(STATS_METADATA)
 ### New Statistical Generation Testing ###
 from synthopt.generate.statistical_synthetic_data import generate_statistical_synthetic_data
 STATS_SYNTHETIC_DATA = generate_statistical_synthetic_data(STATS_METADATA, num_records=1000, identifier_column="id")
+print(STATS_SYNTHETIC_DATA)
 #STATS_SYNTHETIC_DATA['Test'].to_csv("output/NEW_TESTING_DATASET_SYNTHETIC_STATS.csv")
 #STATS_SYNTHETIC_DATA['Healthcare'].to_csv("output/HEALTHCARE_SYNTHETIC_STATS.csv")
