@@ -1,0 +1,22 @@
+,variable_name,datatype,completeness,values,coding,table_name,dist,params
+0,Name,string,100.0,,,Test,,
+1,Age,integer,99.48288288288289,"(13, 89)",,Test,beta,"(1.5476338434867243, 1.52922796144328, 12.968338822812706, 76.52402023629855)"
+2,Gender,categorical string,99.93693693693693,"[1, 0]","{1: 'Male', 0: 'Female'}",Test,beta,"(1.5851588175733302, 0.36747413638744436, -0.4723013674191313, 1.4723013674191316)"
+3,Blood Type,categorical string,99.73693693693694,"[5, 0, 1, 6, 2, 3, 4, 7]","{5: 'B-', 0: 'A+', 1: 'A-', 6: 'O+', 2: 'AB+', 3: 'AB-', 4: 'B+', 7: 'O-'}",Test,beta,"(1.0350447086771344, 0.8779120698011833, -0.3650100651918827, 7.365010065191884)"
+4,Medical Condition,categorical string,99.73873873873875,"[2, 5, 3, 1, 4, 0]","{2: 'Cancer', 5: 'Obesity', 3: 'Diabetes', 1: 'Asthma', 4: 'Hypertension', 0: 'Arthritis'}",Test,beta,"(0.9182291643031478, 0.8903275165194084, -0.33102650410181056, 5.3310265041018114)"
+5,Date of Admission,integer,100.0,"(1557273600, 1715040000)",,Test,beta,"(0.9842805082170002, 0.9939013314063566, 1557254952.4522586, 157785047.54774144)"
+6,Doctor,string,100.0,,,Test,,
+7,TestTrunc,categorical integer,0.05765765765765766,"[100, 90, 75]",,Test,loggamma,"(5.133853745602417e-07, 100.00003987885492, 2.1627133976126495e-06)"
+8,TestWrongDate,categorical integer,100.0,"[98, 113, 117, 105, 106]",,Test,lognorm,"(0.09786151931882926, 96.69775945494335, 8.374073103942196)"
+9,TestDate,string,0.005405405405405406,,,Test,,
+10,TestSingle,integer,0.018018018018018018,"(1, 1)",,Test,pareto,"(1.490065259452036e+16, -40573214642604.71, 40573214642605.71)"
+11,TestZero,integer,3.4306306306306307,"(0, 0)",,Test,pareto,"(2.25803497307119, -7.535551383120264e-19, 4.806600020282434e-19)"
+12,TestEmpty,object,0.0,,,Test,,
+13,Hospital,string,100.0,,,Test,,
+14,Insurance Provider,categorical string,100.0,"[1, 3, 0, 4, 2]","{1: 'Blue Cross', 3: 'Medicare', 0: 'Aetna', 4: 'UnitedHealthcare', 2: 'Cigna'}",Test,dweibull,"(0.9591593936907723, 1.9999999999999998, 1.1893269637171278)"
+15,Billing Amount,float,100.0,"(-2008.49214, 52764.27674)",,Test,beta,"(1.5777184627480025, 1.6486706954540562, -2030.312568258796, 56375.27404493146)"
+16,Room Number,integer,100.0,"(101, 500)",,Test,uniform,"(101.0, 399.0)"
+17,Admission Type,categorical string,100.0,"[2, 1, 0]","{2: 'Urgent', 1: 'Emergency', 0: 'Elective'}",Test,beta,"(0.5192262868049304, 0.4977986822740534, -0.15434165807791736, 2.154341658077918)"
+18,Discharge Date,integer,100.0,"(1557360000, 1717632000)",,Test,beta,"(1.0783930914952031, 1.0869433553576342, 1557359695.83837, 160272662.53431755)"
+19,Medication,categorical string,100.0,"[3, 1, 0, 4, 2]","{3: 'Paracetamol', 1: 'Ibuprofen', 0: 'Aspirin', 4: 'Penicillin', 2: 'Lipitor'}",Test,beta,"(0.8703375687807129, 0.822886244713495, -0.2885965767071136, 4.288596576707114)"
+20,Test Results,categorical string,100.0,"[2, 1, 0]","{2: 'Normal', 1: 'Inconclusive', 0: 'Abnormal'}",Test,beta,"(0.5221181070596608, 0.4985858760913978, -0.15824127204895821, 2.1582412720489588)"

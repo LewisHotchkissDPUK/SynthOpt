@@ -6,6 +6,9 @@ import warnings
 warnings.filterwarnings('ignore')
 import ast
 import string
+from distfit import distfit
+from scipy import stats
+from tqdm import tqdm
 
 
 def generate_random_string():
@@ -130,3 +133,56 @@ def generate_random_value(row):
                     return generate_random_float(value_range)
         except Exception as e:
             return None
+
+
+
+
+
+
+################################# STATISTICS GENERATION #################################
+
+
+
+def generate_statistical_synthetic_data(metadata, n_samples):
+    synthetic_data = {}
+
+    #for col, params_data in metadata.iterrows():
+    for col, params_data in tqdm(metadata.iterrows(), desc="Generating Synthetic Data from Distributions"):
+        dist_name = params_data['dist']
+        params = params_data['params']
+
+        # Generate data based on the distribution name and parameters
+        if dist_name == 'norm':
+            # Normal distribution (mean, std)
+            synthetic_data[col] = stats.norm.rvs(*params, size=n_samples)
+        elif dist_name == 'expon':
+            # Exponential distribution (loc, scale)
+            synthetic_data[col] = stats.expon.rvs(*params, size=n_samples)
+        elif dist_name == 'uniform':
+            # Uniform distribution (loc, scale)
+            synthetic_data[col] = stats.uniform.rvs(*params, size=n_samples)
+        elif dist_name == 'gamma':
+            # Gamma distribution (shape, loc, scale)
+            synthetic_data[col] = stats.gamma.rvs(*params, size=n_samples)
+        elif dist_name == 'beta':
+            # Beta distribution (alpha, beta, loc, scale)
+            if len(params) == 4:
+                synthetic_data[col] = stats.beta.rvs(*params, size=n_samples)
+            else:
+                synthetic_data[col] = stats.beta.rvs(*params[:2], size=n_samples)
+        elif dist_name == 'lognorm':
+            # Log-normal distribution (mean, std, loc)
+            synthetic_data[col] = stats.lognorm.rvs(*params, size=n_samples)
+        elif dist_name == 'dweibull':
+            # Support for the Weibull distribution
+            synthetic_data[col] = stats.dweibull.rvs(*params, size=n_samples)
+        else:
+            # If it's a different distribution, use scipy's distribution
+            try:
+                dist = getattr(stats, dist_name)
+                synthetic_data[col] = dist.rvs(*params, size=n_samples)
+            except AttributeError:
+                print(f"Distribution {dist_name} is not supported by scipy.stats")
+                continue
+
+    return pd.DataFrame(synthetic_data)

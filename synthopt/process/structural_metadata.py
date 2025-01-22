@@ -2,7 +2,7 @@ from synthopt.process.data_processing import detect_numerical_in_objects, detect
 import pandas as pd
 from tqdm import tqdm
 
-def process_structural_metadata(data, datetime_formats=None, table_name=None):
+def process_structural_metadata(data, datetime_formats=None, table_name=None, return_data=False):
     def process_single_dataframe(data, datetime_formats=None, table_name=None):
         ### prepare the data ###
         orig_data = data.copy()
@@ -81,8 +81,13 @@ def process_structural_metadata(data, datetime_formats=None, table_name=None):
             metadata = pd.concat([metadata, new_row], ignore_index=True)
         #metadata["completeness"] = round(metadata["completeness"]).astype(int)
 
-        return metadata
+        ### old struct specific code ###
+        #return metadata
+        ### new stats specific code ###
+        return metadata, data
 
+    #### Old struct specific code ####
+    """
     if isinstance(data, dict):
         combined_metadata = pd.DataFrame()
 
@@ -93,3 +98,20 @@ def process_structural_metadata(data, datetime_formats=None, table_name=None):
         combined_metadata = process_single_dataframe(data, datetime_formats, table_name)
 
     return combined_metadata
+    """
+
+    ### new stats specific code ###
+    if isinstance(data, dict):
+        combined_metadata = pd.DataFrame()
+
+        for table_name, df in tqdm(data.items(), desc="Processing Tables"):
+            table_metadata, table_data = process_single_dataframe(df, datetime_formats, table_name)
+            combined_metadata = pd.concat([combined_metadata, table_metadata], ignore_index=True)
+            combined_data = {table_name: table_data}
+    else:
+        combined_metadata, combined_data = process_single_dataframe(data, datetime_formats, table_name)
+
+    if return_data == True:
+        return combined_metadata, combined_data
+    else:
+        return combined_metadata

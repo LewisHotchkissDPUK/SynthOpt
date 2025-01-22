@@ -5,3 +5,4 @@ anonymeter
 seaborn
 reportlab
 tqdm
+distfit
