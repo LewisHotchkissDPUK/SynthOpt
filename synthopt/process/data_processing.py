@@ -169,7 +169,7 @@ def best_fit(data):
         if column_data.empty:
             continue
 
-        dfit = distfit()
+        dfit = distfit(verbose=0)
         # Fit the distribution on the column data
         dfit.fit_transform(column_data)
 

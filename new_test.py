@@ -57,8 +57,14 @@ SYNTHETIC_DATA['Healthcare'].to_csv("output/new_structural_healthcare.csv")
 
 ### New Statistical Metadata Process Testing ###
 from synthopt.process.statistical_metadata import process_statistical_metadata
-STATS_METADATA = process_statistical_metadata(DATASETS, date_formats, "Test")
+STATS_METADATA = process_statistical_metadata(DATA, date_formats, "Test")
 print("STATS METADATA")
 print(STATS_METADATA)
-STATS_METADATA['Test'].to_csv("output/NEW_TESTING_DATASET_STATS_METADATA.csv")
-STATS_METADATA['Healthcare'].to_csv("output/HEALTHCARE_STATS_METADATA.csv")
+#STATS_METADATA['Test'].to_csv("output/NEW_TESTING_DATASET_STATS_METADATA.csv")
+#STATS_METADATA['Healthcare'].to_csv("output/HEALTHCARE_STATS_METADATA.csv")
+
+### New Statistical Generation Testing ###
+from synthopt.generate.statistical_synthetic_data import generate_statistical_synthetic_data
+STATS_SYNTHETIC_DATA = generate_statistical_synthetic_data(STATS_METADATA, num_records=1000, identifier_column="id")
+#STATS_SYNTHETIC_DATA['Test'].to_csv("output/NEW_TESTING_DATASET_SYNTHETIC_STATS.csv")
+#STATS_SYNTHETIC_DATA['Healthcare'].to_csv("output/HEALTHCARE_SYNTHETIC_STATS.csv")

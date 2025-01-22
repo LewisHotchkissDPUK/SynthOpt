@@ -143,46 +143,46 @@ def generate_random_value(row):
 
 
 
-def generate_statistical_synthetic_data(metadata, n_samples):
+def generate_from_distributions(metadata, n_samples):
     synthetic_data = {}
+    params_data = metadata[['dist', 'params']]
 
     #for col, params_data in metadata.iterrows():
-    for col, params_data in tqdm(metadata.iterrows(), desc="Generating Synthetic Data from Distributions"):
-        dist_name = params_data['dist']
-        params = params_data['params']
+    #for col, params_data in tqdm(metadata.iterrows(), desc="Generating Synthetic Data from Distributions"):
+    dist_name = params_data['dist']
+    params = params_data['params']
 
-        # Generate data based on the distribution name and parameters
-        if dist_name == 'norm':
-            # Normal distribution (mean, std)
-            synthetic_data[col] = stats.norm.rvs(*params, size=n_samples)
-        elif dist_name == 'expon':
-            # Exponential distribution (loc, scale)
-            synthetic_data[col] = stats.expon.rvs(*params, size=n_samples)
-        elif dist_name == 'uniform':
-            # Uniform distribution (loc, scale)
-            synthetic_data[col] = stats.uniform.rvs(*params, size=n_samples)
-        elif dist_name == 'gamma':
-            # Gamma distribution (shape, loc, scale)
-            synthetic_data[col] = stats.gamma.rvs(*params, size=n_samples)
-        elif dist_name == 'beta':
-            # Beta distribution (alpha, beta, loc, scale)
-            if len(params) == 4:
-                synthetic_data[col] = stats.beta.rvs(*params, size=n_samples)
-            else:
-                synthetic_data[col] = stats.beta.rvs(*params[:2], size=n_samples)
-        elif dist_name == 'lognorm':
-            # Log-normal distribution (mean, std, loc)
-            synthetic_data[col] = stats.lognorm.rvs(*params, size=n_samples)
-        elif dist_name == 'dweibull':
-            # Support for the Weibull distribution
-            synthetic_data[col] = stats.dweibull.rvs(*params, size=n_samples)
+    # Generate data based on the distribution name and parameters
+    if dist_name == 'norm':
+        # Normal distribution (mean, std)
+        synthetic_data = stats.norm.rvs(*params, size=n_samples)
+    elif dist_name == 'expon':
+        # Exponential distribution (loc, scale)
+        synthetic_data = stats.expon.rvs(*params, size=n_samples)
+    elif dist_name == 'uniform':
+        # Uniform distribution (loc, scale)
+        synthetic_data = stats.uniform.rvs(*params, size=n_samples)
+    elif dist_name == 'gamma':
+        # Gamma distribution (shape, loc, scale)
+        synthetic_data = stats.gamma.rvs(*params, size=n_samples)
+    elif dist_name == 'beta':
+        # Beta distribution (alpha, beta, loc, scale)
+        if len(params) == 4:
+            synthetic_data = stats.beta.rvs(*params, size=n_samples)
         else:
-            # If it's a different distribution, use scipy's distribution
-            try:
-                dist = getattr(stats, dist_name)
-                synthetic_data[col] = dist.rvs(*params, size=n_samples)
-            except AttributeError:
-                print(f"Distribution {dist_name} is not supported by scipy.stats")
-                continue
+            synthetic_data = stats.beta.rvs(*params[:2], size=n_samples)
+    elif dist_name == 'lognorm':
+        # Log-normal distribution (mean, std, loc)
+        synthetic_data = stats.lognorm.rvs(*params, size=n_samples)
+    elif dist_name == 'dweibull':
+        # Support for the Weibull distribution
+        synthetic_data = stats.dweibull.rvs(*params, size=n_samples)
+    else:
+        # If it's a different distribution, use scipy's distribution
+        try:
+            dist = getattr(stats, dist_name)
+            synthetic_data = dist.rvs(*params, size=n_samples)
+        except AttributeError:
+            print(f"Distribution {dist_name} is not supported by scipy.stats")
 
     return pd.DataFrame(synthetic_data)
