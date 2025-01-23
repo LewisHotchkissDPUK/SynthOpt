@@ -12,6 +12,8 @@ INSTALL_REQUIRES = [
     "anonymeter",
     "seaborn",
     "reportlab",
+    "distfit",
+    "tqdm",
 ]
 
 setuptools.setup(
