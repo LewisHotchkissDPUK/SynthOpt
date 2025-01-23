@@ -5,7 +5,6 @@ from tqdm import tqdm
 def generate_statistical_synthetic_data(metadata, num_records=1000, identifier_column=None):
     def generate_data_for_column(column_metadata):
         data_type = column_metadata['datatype']
-
         if data_type == 'string':
             return [generate_random_string() for _ in range(num_records)]
         elif data_type == 'object':

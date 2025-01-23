@@ -146,14 +146,8 @@ def generate_random_value(row):
 def generate_from_distributions(metadata, n_samples):
     synthetic_data = {}
     params_data = metadata[['dist', 'params']]
-
-    #for col, params_data in metadata.iterrows():
-    #for col, params_data in tqdm(metadata.iterrows(), desc="Generating Synthetic Data from Distributions"):
     dist_name = params_data['dist']
     params = params_data['params']
-
-    print("DIST NAME")
-    print(dist_name)
 
     # Generate data based on the distribution name and parameters
     if dist_name == 'norm':
@@ -183,9 +177,9 @@ def generate_from_distributions(metadata, n_samples):
     else:
         # If it's a different distribution, use scipy's distribution
         try:
-            dist = getattr(stats, dist_name)
+            dist = getattr(stats, str(dist_name))
             synthetic_data = dist.rvs(*params, size=n_samples)
         except AttributeError:
-            print(f"Distribution {dist_name} is not supported by scipy.stats")
+            synthetic_data = generate_random_integer(metadata)
 
     return pd.DataFrame(synthetic_data)
