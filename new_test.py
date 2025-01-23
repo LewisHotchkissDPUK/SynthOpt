@@ -39,9 +39,10 @@ DATA = pd.read_csv("examples/NEW_TESTING_DATASET.csv")
 DATA['bool'] = DATA['bool'].astype('bool')
 DATA2 = pd.read_csv("examples/healthcare_dataset.csv")
 DATASETS = {"Test": DATA, "Healthcare": DATA2}
-
 #date_formats = ["%d/%m/%Y %H:%M:%S.%f", "%d/%m/%Y", "%H:%M:%S", "%d/%m/%Y %H:%M", "%Y-%m-%d"]
 date_formats = None
+
+"""
 METADATA = process_structural_metadata(DATASETS, date_formats)
 print(METADATA)
 
@@ -52,7 +53,7 @@ print(SYNTHETIC_DATA)
 
 SYNTHETIC_DATA['Test'].to_csv("output/new_structural_test.csv")
 SYNTHETIC_DATA['Healthcare'].to_csv("output/new_structural_healthcare.csv")
-
+"""
 
 
 ### New Statistical Metadata Process Testing ###
