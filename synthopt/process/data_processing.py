@@ -15,20 +15,11 @@ def detect_numerical_in_objects(data, non_numerical_columns):
             return data, non_numerical_columns
         
         for column in tqdm(non_numerical_columns, desc="Processing Non-Numerical Columns"):
-            try:
-                # Attempt to convert the column to numeric
-                data[column] = pd.to_numeric(data[column], errors="raise")
-                
-                # Remove the column from the list if successfully converted
-                non_numerical_columns.remove(column)
+            # Attempt to convert the column to numeric
+            data[column] = pd.to_numeric(data[column], errors="raise")
             
-            except ValueError as e:
-                # Handle specific conversion errors
-                print(f"Column '{column}' could not be converted to numeric. Error: {e}")
-            
-            except Exception as e:
-                # Catch-all for other exceptions
-                print(f"An unexpected error occurred while processing column '{column}': {e}")
+            # Remove the column from the list if successfully converted
+            non_numerical_columns.remove(column)
         
         return data, non_numerical_columns  # Return the updated data and columns list
 
@@ -73,30 +64,21 @@ def detect_datetime_in_objects(data, datetime_formats, non_numerical_columns):
                     data[column] = data[column].astype("string")
 
                 for datetime_format in datetime_formats:
-                    try:
-                        # Attempt conversion using the specified datetime format
-                        converted_column = pd.to_datetime(data[column], format=datetime_format, errors='raise')
-                        
-                        if converted_column.notna().any():
-                            if any(converted_column.dt.date == pd.Timestamp("1900-01-01").date()):
-                                # Handle timedelta conversion
-                                data[column] = pd.to_timedelta(data[column]).dt.total_seconds()
-                            else:
-                                # Handle datetime conversion to Unix time
-                                data[column] = pd.to_datetime(data[column], format=datetime_format).astype("int64") // 10**9
+                    # Attempt conversion using the specified datetime format
+                    converted_column = pd.to_datetime(data[column], format=datetime_format, errors='raise')
+                    
+                    if converted_column.notna().any():
+                        if any(converted_column.dt.date == pd.Timestamp("1900-01-01").date()):
+                            # Handle timedelta conversion
+                            data[column] = pd.to_timedelta(data[column]).dt.total_seconds()
+                        else:
+                            # Handle datetime conversion to Unix time
+                            data[column] = pd.to_datetime(data[column], format=datetime_format).astype("int64") // 10**9
 
-                            column_date_format[column] = datetime_format
-                            datetime_columns.append(column)
-                            non_numerical_columns.remove(column)
-                            break  # Stop checking other formats once successfully converted
-
-                    except ValueError:
-                        # Handle specific format conversion failure
-                        continue
-                    except Exception as e:
-                        # Catch unexpected errors during datetime conversion
-                        print(f"Unexpected error while processing column '{column}' with format '{datetime_format}': {e}")
-                        continue
+                        column_date_format[column] = datetime_format
+                        datetime_columns.append(column)
+                        non_numerical_columns.remove(column)
+                        break  # Stop checking other formats once successfully converted
             
             except Exception as e:
                 # Handle errors related to individual columns
@@ -119,15 +101,10 @@ def detect_integer_in_floats(data):
     try:
         # Process columns of float type
         for column in tqdm(data.select_dtypes(include="float"), desc="Processing Integer Columns"):
-            try:
-                # Check if all non-NA values are integers
-                if (data[column].dropna() % 1 == 0).all() or data[column].apply(float.is_integer).all():
-                    # Convert the column to integer type
-                    data[column] = data[column].astype("Int64")
-            except Exception as e:
-                # Log unexpected errors during column processing
-                print(f"Error processing column '{column}': {e}")
-                continue  # Continue processing other columns
+            # Check if all non-NA values are integers
+            if (data[column].dropna() % 1 == 0).all() or data[column].apply(float.is_integer).all():
+                # Convert the column to integer type
+                data[column] = data[column].astype("Int64")
 
     except Exception as e:
         # Catch-all for outer-level errors
@@ -143,24 +120,18 @@ def detect_categorical_strings(data, non_numerical_columns):
         categorical_string_columns = []
 
         for column in tqdm(data[non_numerical_columns].columns, desc="Processing String Columns"):
-            try:
-                # Check if column satisfies the categorical string conditions
-                unique_count = data[non_numerical_columns][column].nunique()
-                total_count = len(data[non_numerical_columns])
-                value_counts = data[non_numerical_columns][column].value_counts()
+            # Check if column satisfies the categorical string conditions
+            unique_count = data[non_numerical_columns][column].nunique()
+            total_count = len(data[non_numerical_columns])
+            value_counts = data[non_numerical_columns][column].value_counts()
 
-                if (
-                    unique_count < total_count * 0.2  # Unique values are less than 20% of total rows
-                ) and (
-                    (value_counts >= 2).sum() >= (0.6 * len(value_counts))  # At least 60% of values appear 2+ times
-                ):
-                    if unique_count != total_count:  # Column is not fully unique
-                        categorical_string_columns.append(column)
-
-            except Exception as e:
-                # Log the specific column and error if an exception occurs
-                print(f"Error processing column '{column}': {e}")
-                continue  # Skip to the next column
+            if (
+                unique_count < total_count * 0.2  # Unique values are less than 20% of total rows
+            ) and (
+                (value_counts >= 2).sum() >= (0.6 * len(value_counts))  # At least 60% of values appear 2+ times
+            ):
+                if unique_count != total_count:  # Column is not fully unique
+                    categorical_string_columns.append(column)
 
         # Identify non-categorical string columns
         non_categorical_string_columns = list(
@@ -231,22 +202,16 @@ def detect_categorical_numerical(data, numerical_columns):
         categorical_numerical_columns = []
 
         for column in tqdm(numerical_columns, desc="Identifying Categorical Numerical Columns"):
-            try:
-                # Check if the column meets all conditions to be considered categorical
-                if (
-                    (data[column].nunique() < data[column].notna().sum() * 0.2)  # Unique values < 20% of non-NA values
-                    and ((data[column].value_counts() >= 2).sum() >= (0.7 * data[column].nunique()))  # >= 70% have 2+ counts
-                    and (data[column].notna().any())  # At least one non-NA value
-                    and (data[column].nunique() >= 2)  # At least 2 unique values
-                    and (data[column].nunique() != len(data[column]))  # Not fully unique
-                    and (data[column].nunique() < 50)  # Fewer than 50 unique values
-                ):
-                    categorical_numerical_columns.append(column)
-
-            except Exception as e:
-                # Log errors related to specific column processing
-                print(f"Error processing column '{column}': {e}")
-                continue  # Skip to the next column
+            # Check if the column meets all conditions to be considered categorical
+            if (
+                (data[column].nunique() < data[column].notna().sum() * 0.2)  # Unique values < 20% of non-NA values
+                and ((data[column].value_counts() >= 2).sum() >= (0.7 * data[column].nunique()))  # >= 70% have 2+ counts
+                and (data[column].notna().any())  # At least one non-NA value
+                and (data[column].nunique() >= 2)  # At least 2 unique values
+                and (data[column].nunique() != len(data[column]))  # Not fully unique
+                and (data[column].nunique() < 50)  # Fewer than 50 unique values
+            ):
+                categorical_numerical_columns.append(column)
 
         return data, categorical_numerical_columns
 
@@ -269,29 +234,23 @@ def best_fit(data):
 
         # Loop through each column in the dataset
         for col in tqdm(data.columns, desc="Identifying Best Fit Distributions"):
-            try:
-                # Clean the data by removing NaNs and Infs
-                column_data = data[col].replace([np.inf, -np.inf], np.nan).dropna()
+            # Clean the data by removing NaNs and Infs
+            column_data = data[col].replace([np.inf, -np.inf], np.nan).dropna()
 
-                # Skip the column if it's empty
-                if column_data.empty:
-                    continue
-
-                # Fit the distribution on the column data
-                dfit = distfit(verbose=0)
-                dfit.fit_transform(column_data)
-
-                # Extract the best distribution and its parameters
-                best_fit = dfit.model
-                distribution_metadata[col] = {
-                    'dist': best_fit['name'],         # Best-fitting distribution name
-                    'params': best_fit['params'],     # Best-fitting parameters
-                }
-
-            except Exception as e:
-                # Log error for the specific column and continue
-                print(f"Error processing column '{col}': {e}")
+            # Skip the column if it's empty
+            if column_data.empty:
                 continue
+
+            # Fit the distribution on the column data
+            dfit = distfit(verbose=0)
+            dfit.fit_transform(column_data)
+
+            # Extract the best distribution and its parameters
+            best_fit = dfit.model
+            distribution_metadata[col] = {
+                'dist': best_fit['name'],         # Best-fitting distribution name
+                'params': best_fit['params'],     # Best-fitting parameters
+            }
 
         # Convert the distribution metadata into a DataFrame for easy inspection
         distribution_metadata_df = pd.DataFrame.from_dict(distribution_metadata, orient='index')

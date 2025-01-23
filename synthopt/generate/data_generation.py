@@ -152,6 +152,9 @@ def generate_from_distributions(metadata, n_samples):
     dist_name = params_data['dist']
     params = params_data['params']
 
+    print("DIST NAME")
+    print(dist_name)
+
     # Generate data based on the distribution name and parameters
     if dist_name == 'norm':
         # Normal distribution (mean, std)
