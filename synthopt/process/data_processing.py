@@ -25,7 +25,7 @@ def detect_numerical_in_objects(data, non_numerical_columns):
 
     except Exception as e:
         # Catch any unforeseen errors in the outer block
-        print(f"An unexpected error occurred: {e}")
+        #print(f"An unexpected error occurred: {e}")
         return data, []  # Return data and an empty list as a fallback
 
 
