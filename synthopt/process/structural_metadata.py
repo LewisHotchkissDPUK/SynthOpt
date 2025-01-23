@@ -79,26 +79,8 @@ def process_structural_metadata(data, datetime_formats=None, table_name=None, re
                     "coding": [coding],
                     "table_name": [table_name] if table_name else ["None"]})
             metadata = pd.concat([metadata, new_row], ignore_index=True)
-        #metadata["completeness"] = round(metadata["completeness"]).astype(int)
 
-        ### old struct specific code ###
-        #return metadata
-        ### new stats specific code ###
         return metadata, data
-
-    #### Old struct specific code ####
-    """
-    if isinstance(data, dict):
-        combined_metadata = pd.DataFrame()
-
-        for table_name, df in tqdm(data.items(), desc="Processing Tables"):
-            table_metadata = process_single_dataframe(df, datetime_formats, table_name)
-            combined_metadata = pd.concat([combined_metadata, table_metadata], ignore_index=True)
-    else:
-        combined_metadata = process_single_dataframe(data, datetime_formats, table_name)
-
-    return combined_metadata
-    """
 
     ### new stats specific code ###
     if isinstance(data, dict):

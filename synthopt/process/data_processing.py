@@ -84,9 +84,8 @@ def detect_datetime_in_objects(data, datetime_formats, non_numerical_columns):
 def detect_integer_in_floats(data):
     try:
         for column in tqdm(data.select_dtypes(include="float"), desc="Processing Integer Columns"):
+            print(column)
             if (data[column].dropna() % 1 == 0).all():
-                data[column] = data[column].astype("Int64")
-            if data[column].apply(float.is_integer).all():
                 data[column] = data[column].astype("Int64")
     except:
         None
