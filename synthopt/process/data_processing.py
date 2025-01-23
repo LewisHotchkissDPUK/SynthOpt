@@ -10,22 +10,21 @@ from scipy import stats
 
 # Detect if an object column can be turned into a numerical column
 def detect_numerical_in_objects(data, non_numerical_columns):
-    try:  # To stop the error when non_numerical_columns is empty
+    try:
         if not non_numerical_columns:  # Check if non_numerical_columns is empty
             return data, non_numerical_columns
+        
+        for column in tqdm(non_numerical_columns, desc="Processing Non-Numerical Columns"):
+            # Attempt to convert the column to numeric
+            data[column] = pd.to_numeric(data[column], errors="raise")
+            
+            # Remove the column from the list if successfully converted
+            non_numerical_columns.remove(column)
+        
+        return data, non_numerical_columns  # Return the updated data and columns list
 
-        for column in tqdm(non_numerical_columns, desc="Processing Non Numerical Columns"):
-            try:
-                data[column] = pd.to_numeric(data[column], errors="raise")
-                non_numerical_columns = non_numerical_columns.remove(column)
-            except:
-                None
-            try:
-                return data, non_numerical_columns
-            except:
-                return data, []
-    except:
-        None
+    except Exception as e:
+        return data, non_numerical_columns  # Return data and an empty list as a fallback
 
 
 def detect_datetime_in_objects(data, datetime_formats, non_numerical_columns):
