@@ -88,14 +88,14 @@ def add_identifier(data, metadata, identifier_column, num_records):
     if identifier_column != None:
         if (
             "integer"
-            in metadata[metadata["variable_name"] == "id"]["datatype"].values[0]
+            in metadata[metadata["variable_name"] == identifier_column]["datatype"].values[0]
         ):
             participant_ids_integer = random.sample(
                 range(1_000_000_000, 10_000_000_000), num_records
             )
             data[identifier_column] = participant_ids_integer
         elif (
-            "float" in metadata[metadata["variable_name"] == "id"]["datatype"].values[0]
+            "float" in metadata[metadata["variable_name"] == identifier_column]["datatype"].values[0]
         ):
             participant_ids_float = [
                 random.uniform(1_000_000_000, 10_000_000_000)
