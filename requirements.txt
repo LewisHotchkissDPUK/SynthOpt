@@ -1,5 +1,5 @@
 sdv==1.17.4
-sdmetrics
+sdmetrics==0.18.0
 synthcity
 anonymeter
 seaborn
