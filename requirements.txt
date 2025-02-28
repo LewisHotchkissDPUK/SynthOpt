@@ -1,4 +1,4 @@
-sdv
+sdv==1.17.4
 sdmetrics
 synthcity
 anonymeter
