@@ -188,3 +188,37 @@ def best_fit(data):
 
     distribution_metadata_df = pd.DataFrame.from_dict(distribution_metadata, orient='index')
     return distribution_metadata_df
+
+
+
+"""
+# Original best_fit function without parallelization
+# best fit identification
+def best_fit(data):
+    distribution_metadata = {}
+
+    # Loop through each column in the dataset
+    for col in tqdm(data.columns, desc="Identifying Best Fit Distributions"):
+        # Clean the data by removing NaNs and Infs
+        column_data = data[col].replace([np.inf, -np.inf], np.nan).dropna()
+
+        # Skip the column if it's empty
+        if column_data.empty:
+            continue
+
+        dfit = distfit(verbose=0)
+        # Fit the distribution on the column data
+        dfit.fit_transform(column_data)
+
+        # Extract the best distribution and its parameters
+        best_fit = dfit.model
+        distribution_metadata[col] = {
+            'dist': best_fit['name'],         # Best-fitting distribution name
+            'params': best_fit['params'],     # Best-fitting parameters
+        }
+
+    # Convert the distribution metadata into a DataFrame for easy inspection
+    distribution_metadata_df = pd.DataFrame.from_dict(distribution_metadata, orient='index')
+
+    return distribution_metadata_df
+"""
