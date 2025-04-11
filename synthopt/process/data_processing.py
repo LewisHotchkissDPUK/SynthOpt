@@ -7,6 +7,7 @@ from tqdm import tqdm
 import math
 from distfit import distfit
 from scipy import stats
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Detect if an object column can be turned into a numerical column
 def detect_numerical_in_objects(data, non_numerical_columns):
@@ -156,31 +157,34 @@ def detect_categorical_numerical(data, numerical_columns):
 
 
 
-# best fit identification
+# Helper function to process a single column
+def fit_distribution(col, column_data):
+    column_data = column_data.replace([np.inf, -np.inf], np.nan).dropna()
+    if column_data.empty:
+        return col, None
+
+    dfit = distfit(verbose=0)
+    dfit.fit_transform(column_data)
+    best_fit = dfit.model
+    return col, {
+        'dist': best_fit['name'],
+        'params': best_fit['params'],
+    }
+
+# Parallelized best_fit function
 def best_fit(data):
     distribution_metadata = {}
 
-    # Loop through each column in the dataset
-    for col in tqdm(data.columns, desc="Identifying Best Fit Distributions"):
-        # Clean the data by removing NaNs and Infs
-        column_data = data[col].replace([np.inf, -np.inf], np.nan).dropna()
-
-        # Skip the column if it's empty
-        if column_data.empty:
-            continue
-
-        dfit = distfit(verbose=0)
-        # Fit the distribution on the column data
-        dfit.fit_transform(column_data)
-
-        # Extract the best distribution and its parameters
-        best_fit = dfit.model
-        distribution_metadata[col] = {
-            'dist': best_fit['name'],         # Best-fitting distribution name
-            'params': best_fit['params'],     # Best-fitting parameters
+    with ThreadPoolExecutor() as executor:
+        futures = {
+            executor.submit(fit_distribution, col, data[col]): col
+            for col in data.columns
         }
 
-    # Convert the distribution metadata into a DataFrame for easy inspection
-    distribution_metadata_df = pd.DataFrame.from_dict(distribution_metadata, orient='index')
+        for future in tqdm(as_completed(futures), total=len(futures), desc="Identifying Best Fit Distributions"):
+            col, result = future.result()
+            if result:
+                distribution_metadata[col] = result
 
+    distribution_metadata_df = pd.DataFrame.from_dict(distribution_metadata, orient='index')
     return distribution_metadata_df
