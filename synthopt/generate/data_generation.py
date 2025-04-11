@@ -126,8 +126,28 @@ def generate_random_value(row):
                     return generate_random_float(value_range)
         except Exception as e:
             return None
+        
 
+def enforce_categorical_validity(table_metadata, df):
+    for _, row in table_metadata.iterrows():
+        column = row['variable_name']
+        datatype = row['datatype']
+        allowed_values = row.get('values')
 
+        if 'categorical' in str(datatype).lower() and isinstance(allowed_values, list):
+            valid_set = set(allowed_values)
+
+            def closest_valid(val):
+                if pd.isna(val) or val in valid_set:
+                    return val
+                try:
+                    return min(allowed_values, key=lambda x: abs(x - val))
+                except:
+                    return val  # fallback
+
+            df[column] = df[column].apply(closest_valid)
+
+    return df
 
 
 

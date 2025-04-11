@@ -1,5 +1,5 @@
 from synthopt.generate.data_generation import generate_random_string, generate_from_distributions
-from synthopt.generate.data_generation import generate_random_value, convert_datetime, decode_categorical_string, completeness, add_identifier
+from synthopt.generate.data_generation import generate_random_value, convert_datetime, decode_categorical_string, completeness, add_identifier, enforce_categorical_validity
 import pandas as pd
 from tqdm import tqdm
 
@@ -31,6 +31,7 @@ def generate_statistical_synthetic_data(metadata, num_records=1000, identifier_c
 
         # Post-processing
         synthetic_data = convert_datetime(table_metadata, synthetic_data)
+        synthetic_data = enforce_categorical_validity(table_metadata, synthetic_data)
         synthetic_data = decode_categorical_string(table_metadata, synthetic_data)
         synthetic_data = completeness(table_metadata, synthetic_data)
 
