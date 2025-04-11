@@ -84,4 +84,7 @@ print(STATS_SYNTHETIC_DATA)
 """
 
 
+### New Correlation Generation Testing ###
+#from synthopt.generate.correlated_synthetic_data import generate_correlated_synthetic_data
+
 

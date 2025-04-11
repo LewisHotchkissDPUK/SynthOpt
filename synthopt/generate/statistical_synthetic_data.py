@@ -4,7 +4,7 @@ import pandas as pd
 from tqdm import tqdm
 
 def generate_statistical_synthetic_data(metadata, num_records=1000, identifier_column=None):
-    def generate_data_for_column(column_metadata):
+    def generate_data_for_column(column_metadata, num_records):
         data_type = column_metadata['datatype']
         if data_type == 'string':
             return [generate_random_string() for _ in range(num_records)]
@@ -21,7 +21,7 @@ def generate_statistical_synthetic_data(metadata, num_records=1000, identifier_c
 
         for _, column_metadata in tqdm(table_metadata.iterrows(), desc=f"Generating Data for Table: {table_name}"):
             column_name = column_metadata['variable_name']
-            synthetic_data[column_name] = generate_data_for_column(column_metadata)
+            synthetic_data[column_name] = generate_data_for_column(column_metadata, num_records)
 
             if column_metadata['datatype'] in ['categorical string', 'categorical integer', 'integer']:
                 try:
