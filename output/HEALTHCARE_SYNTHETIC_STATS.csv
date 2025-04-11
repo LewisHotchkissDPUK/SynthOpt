@@ -1,0 +1,1001 @@
+,Name,Age,Gender,Blood Type,Medical Condition,Date of Admission,Doctor,TestTrunc,TestWrongDate,TestSingle,TestZero,TestEmpty,Hospital,Insurance Provider,Billing Amount,Room Number,Admission Type,Discharge Date,Medication,Test Results
+0,culnmv,49.0,Female,A-,Asthma,26/07/2020,iubykxoqu,98.0,117.0,0.0,0,,"Frost, Hernandez and Reynolds",Cigna,21204.973388671875,273.0,Emergency,16/04/2022,Penicillin,Normal
+1,dtqekc,,Female,O+,Obesity,29/02/2024,kgopbvpo,,122.0,0.0,0,,Morris-Harris,Medicare,15104.56396484375,321.0,Urgent,11/08/2020,Ibuprofen,Normal
+2,egamonv,,Male,AB+,Diabetes,27/12/2024,lqtoascvwo,,116.0,0.0,0,,,Aetna,41187.801513671875,312.0,Urgent,15/06/2023,Aspirin,Abnormal
+3,dpxnv,40.0,Male,B-,Asthma,04/05/2024,,100.0,98.0,,0,,Gonzalez-Huffman,UnitedHealthcare,85093.94287109375,173.0,Elective,14/02/2024,Aspirin,Abnormal
+4,flktyc,55.0,Male,B+,Asthma,06/05/2020,eqgdxjli,86.0,105.0,0.0,0,,Morris-Harris,,125.134521484375,178.0,Elective,23/08/2024,Lipitor,Normal
+5,vvvejgug,71.0,Male,AB-,Cancer,15/10/2020,eczzp,100.0,113.0,0.0,0,,"Figueroa, Davis and Bailey",Medicare,9902.78955078125,116.0,Urgent,10/06/2020,Penicillin,Inconclusive
+6,zhtmvuzmnl,81.0,Male,B+,Hypertension,,nddvckq,96.0,,0.0,0,,Mann Inc,Aetna,12270.2626953125,324.0,Urgent,11/01/2025,Paracetamol,Abnormal
+7,bphfhg,26.0,Male,AB+,Obesity,08/06/2020,,93.0,102.0,0.0,0,,Wiggins Ltd,Blue Cross,20186.36474609375,336.0,Emergency,06/06/2020,Aspirin,Inconclusive
+8,fzron,63.0,Male,AB-,Asthma,27/01/2022,udztlorcwu,,113.0,0.0,0,,Cook PLC,Cigna,27989.72021484375,297.0,Urgent,,Penicillin,Inconclusive
+9,qvqsg,,,AB-,Obesity,23/01/2024,,99.0,105.0,0.0,0,,Rodriguez-Marshall,,24684.944091796875,171.0,Emergency,02/01/2022,Ibuprofen,Abnormal
+10,nuuujy,56.0,Female,B-,Hypertension,02/12/2020,natdaczgsj,100.0,98.0,0.0,0,,Gonzalez-Huffman,Medicare,1586.2216796875,408.0,Emergency,,Lipitor,Abnormal
+11,blrhnvrp,79.0,Male,AB+,Diabetes,01/08/2020,fdvjb,,102.0,,0,,"Figueroa, Davis and Bailey",Medicare,36174.413818359375,172.0,Urgent,13/04/2020,Aspirin,Abnormal
+12,uzqwwxc,66.0,,AB+,Arthritis,22/11/2020,bnlhmzcle,73.0,98.0,,0,,Rodriguez-Marshall,,13272.026611328125,227.0,Emergency,28/08/2020,Aspirin,Abnormal
+13,xhcwzcdudi,34.0,Male,,Diabetes,,jirbht,,102.0,0.0,0,,"Figueroa, Davis and Bailey",Blue Cross,2901.830322265625,245.0,Elective,12/02/2025,Paracetamol,Abnormal
+14,xhbmvmwy,87.0,Male,O+,Diabetes,25/02/2025,flzimmql,,100.0,0.0,0,,Mann Inc,UnitedHealthcare,2865.12548828125,,Elective,19/04/2022,Lipitor,Inconclusive
+15,kaopq,68.0,Male,B+,Asthma,04/05/2023,oxheb,,116.0,0.0,0,,Rodriguez-Marshall,Blue Cross,8311.86328125,430.0,Urgent,28/10/2023,Ibuprofen,Abnormal
+16,xmlzpo,77.0,Male,B+,Asthma,07/08/2021,ksmzi,,98.0,,0,,Morris-Harris,UnitedHealthcare,20405.145751953125,440.0,Urgent,04/11/2023,Ibuprofen,Abnormal
+17,bfqsynww,15.0,Male,O-,Asthma,20/09/2022,wwhcv,73.0,116.0,,0,,"Figueroa, Davis and Bailey",Aetna,25097.443603515625,310.0,Emergency,14/04/2020,,Abnormal
+18,fwljegsfeu,18.0,Male,AB-,Asthma,20/06/2024,zggnboanca,95.0,116.0,,0,,Morris-Harris,Aetna,100613.8427734375,138.0,Emergency,13/08/2021,Aspirin,Inconclusive
+19,jkbrm,,Male,O-,Hypertension,10/01/2022,ylxfvc,95.0,103.0,,0,,"Moreno, Robinson and Martinez",,8666.94091796875,375.0,Emergency,09/10/2023,Aspirin,Inconclusive
+20,cqakevidbc,36.0,,O+,Cancer,29/01/2021,,74.0,,0.0,0,,Cook PLC,UnitedHealthcare,17830.729248046875,318.0,Emergency,13/09/2024,Paracetamol,Abnormal
+21,ldvsvwtyx,35.0,Female,B-,Diabetes,24/08/2023,zynnfxpsku,87.0,120.0,,0,,"Moreno, Robinson and Martinez",Blue Cross,,189.0,Elective,21/02/2025,Paracetamol,Abnormal
+22,ywmwlnw,61.0,Male,A-,Asthma,26/02/2022,jxkhfw,81.0,99.0,0.0,0,,Gonzalez-Huffman,Blue Cross,6021.434326171875,414.0,Emergency,09/05/2020,Ibuprofen,Inconclusive
+23,zkrqsqq,,Female,B+,Arthritis,30/12/2024,ommgsjj,97.0,112.0,0.0,0,,Wiggins Ltd,UnitedHealthcare,18343.930419921875,305.0,Urgent,22/08/2024,Penicillin,Normal
+24,exmsad,56.0,,A-,Hypertension,,nguysax,,102.0,0.0,0,,Rodriguez-Marshall,Medicare,31861.138916015625,426.0,Elective,24/11/2021,Penicillin,Abnormal
+25,cmljufhl,49.0,Male,B-,Arthritis,28/04/2024,wocjqnq,87.0,117.0,,0,,Rodriguez-Marshall,Aetna,,387.0,Urgent,10/01/2024,Penicillin,Normal
+26,,18.0,Male,,Obesity,30/03/2023,loqimkf,98.0,115.0,0.0,0,,Gonzalez-Huffman,Cigna,35815.976806640625,393.0,Elective,21/08/2024,Lipitor,Abnormal
+27,lckrc,39.0,Male,AB-,Diabetes,02/08/2021,hcptkmxa,94.0,99.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,4634.944580078125,447.0,Urgent,22/11/2021,,Inconclusive
+28,muxuuza,84.0,Male,O+,Arthritis,15/06/2024,lkfbb,73.0,101.0,0.0,0,,Morris-Harris,Medicare,36601.766845703125,331.0,Elective,25/07/2023,Lipitor,Abnormal
+29,uldhr,34.0,Female,O-,Cancer,25/04/2022,igtytb,85.0,116.0,0.0,0,,Morris-Harris,Aetna,32688.244140625,346.0,Urgent,,Lipitor,Abnormal
+30,,44.0,Male,AB+,Arthritis,01/07/2023,lquovq,80.0,114.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,12164.35009765625,164.0,Emergency,24/09/2022,Aspirin,Normal
+31,zoxlnhxb,60.0,Female,A-,Cancer,08/08/2023,wktkpbhd,85.0,102.0,,0,,Morris-Harris,UnitedHealthcare,10990.072021484375,141.0,Urgent,18/01/2024,Paracetamol,Normal
+32,nzidiwkr,52.0,Male,AB-,Obesity,23/09/2024,lwbbx,88.0,99.0,0.0,0,,Wiggins Ltd,UnitedHealthcare,1982.754638671875,201.0,Elective,01/08/2020,Ibuprofen,Inconclusive
+33,thqltimx,58.0,Male,AB+,Arthritis,03/04/2021,ztymtkwgxv,91.0,118.0,0.0,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,11968.58251953125,385.0,Elective,04/07/2022,Paracetamol,Inconclusive
+34,fxbue,16.0,Male,,Asthma,28/03/2021,gmliot,,117.0,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,18041.249755859375,374.0,Elective,29/10/2022,Aspirin,Abnormal
+35,fuyheyj,85.0,Male,AB+,Hypertension,,,83.0,102.0,0.0,0,,"Frost, Hernandez and Reynolds",Cigna,27153.141845703125,459.0,Urgent,08/01/2021,Aspirin,Abnormal
+36,nqqigodb,65.0,Male,AB-,Cancer,01/01/2021,katyvv,83.0,101.0,0.0,0,,Morris-Harris,Medicare,12960.60498046875,305.0,Emergency,02/12/2021,Penicillin,Inconclusive
+37,stgycgqtw,53.0,Male,A-,Diabetes,09/02/2023,lhcmsh,76.0,98.0,0.0,0,,Gonzalez-Huffman,Medicare,2367.25537109375,144.0,Emergency,08/10/2024,Ibuprofen,Inconclusive
+38,rpouhp,81.0,Male,AB+,Cancer,11/06/2024,wyecvkfjao,,121.0,0.0,0,,"Figueroa, Davis and Bailey",,167430.73608398438,460.0,Elective,30/01/2022,Aspirin,Abnormal
+39,,15.0,Male,AB-,Cancer,08/12/2020,lrwcvve,88.0,100.0,0.0,0,,Gonzalez-Huffman,Blue Cross,39876.274658203125,450.0,Urgent,15/08/2023,Ibuprofen,Inconclusive
+40,bcmrzjqcka,,Male,A-,Cancer,02/07/2023,djlpp,,120.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,13294.143798828125,158.0,Urgent,08/03/2024,Lipitor,Abnormal
+41,fcmhdm,36.0,Male,A-,Diabetes,14/12/2023,bvoqkzxz,78.0,,0.0,0,,Cook PLC,Blue Cross,16432.618896484375,128.0,Emergency,16/12/2020,Penicillin,Inconclusive
+42,ldkefgy,,Male,B+,Arthritis,13/10/2020,swmmgd,,102.0,0.0,0,,Gonzalez-Huffman,Medicare,4394.328857421875,123.0,Urgent,17/04/2022,Lipitor,Inconclusive
+43,jmfeh,35.0,Male,A-,Obesity,12/03/2024,ibtlocmfu,,115.0,0.0,0,,Morris-Harris,Cigna,183.87744140625,302.0,Emergency,20/11/2024,Penicillin,Normal
+44,oyodnjzw,38.0,Male,AB+,Cancer,01/09/2024,saisv,90.0,114.0,,0,,Morris-Harris,Blue Cross,26980.519775390625,229.0,Urgent,21/01/2021,Lipitor,Inconclusive
+45,istky,,Male,O+,Arthritis,09/03/2024,nejcu,88.0,96.0,,0,,"Moreno, Robinson and Martinez",Blue Cross,59078.288330078125,461.0,Emergency,09/11/2024,Paracetamol,Normal
+46,vkrzwzrnj,88.0,Male,B-,Obesity,03/09/2024,jqoziwvd,100.0,102.0,0.0,0,,Rodriguez-Marshall,Cigna,20689.227783203125,193.0,Urgent,15/12/2021,Aspirin,
+47,cwlxgcnhx,45.0,Female,,Cancer,13/05/2021,caomrexaoo,97.0,114.0,0.0,0,,"Frost, Hernandez and Reynolds",Cigna,64496.0693359375,475.0,Urgent,07/12/2021,Paracetamol,Normal
+48,wrjrx,50.0,Male,A+,Asthma,11/07/2023,lnocfahx,93.0,,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,35232.76806640625,132.0,Urgent,16/11/2021,Paracetamol,Abnormal
+49,orvjkmrcpa,33.0,Male,AB-,Cancer,26/04/2023,refyhuk,84.0,101.0,,0,,"Moreno, Robinson and Martinez",Aetna,16249.65673828125,133.0,Emergency,28/04/2023,Lipitor,Abnormal
+50,lpouumdyqa,51.0,Male,B+,Arthritis,14/02/2025,jklgpu,96.0,113.0,0.0,0,,Mann Inc,Aetna,1519.65771484375,365.0,Emergency,16/08/2020,Penicillin,Inconclusive
+51,cmklpar,67.0,Male,O-,Hypertension,14/05/2022,ufodwl,92.0,105.0,,0,,Rodriguez-Marshall,Cigna,9901.5478515625,126.0,Urgent,15/12/2020,Aspirin,Inconclusive
+52,kksbehbp,19.0,Female,A+,Obesity,23/02/2022,qcdmwa,,115.0,0.0,0,,Morris-Harris,Medicare,28034.9765625,301.0,Urgent,,Aspirin,Inconclusive
+53,uraheymm,55.0,Male,O+,Diabetes,08/06/2021,dfvbb,73.0,116.0,,0,,Mann Inc,Blue Cross,11957.886962890625,451.0,Emergency,01/12/2020,Ibuprofen,Normal
+54,vozxk,25.0,Male,AB-,Arthritis,04/06/2020,yijvsi,,102.0,0.0,0,,Wiggins Ltd,Aetna,7882.247802734375,303.0,Elective,27/08/2021,Paracetamol,Abnormal
+55,dlpysjjaai,77.0,Male,AB+,Cancer,02/09/2024,ezsxy,99.0,117.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,3684.4462890625,426.0,Urgent,20/05/2020,Penicillin,Normal
+56,scrsxgttjx,45.0,Female,O-,Cancer,02/05/2020,arxat,87.0,117.0,0.0,0,,"Figueroa, Davis and Bailey",,20437.06396484375,198.0,Emergency,30/06/2021,Aspirin,Inconclusive
+57,yhdfpthbcn,80.0,,B-,Hypertension,26/08/2022,tazdy,88.0,97.0,0.0,0,,Wiggins Ltd,UnitedHealthcare,4892.4208984375,147.0,Elective,06/12/2022,Paracetamol,Inconclusive
+58,syqutnthz,55.0,Female,B-,Arthritis,08/01/2024,flqna,75.0,112.0,0.0,0,,"Coleman, Cabrera and Barnett",Aetna,9004.326171875,,Urgent,25/04/2021,Lipitor,Abnormal
+59,fbpbohjkv,,Male,A-,Asthma,25/10/2023,victvhgew,100.0,118.0,0.0,0,,Rodriguez-Marshall,,2090.2978515625,271.0,Emergency,26/11/2021,Lipitor,Inconclusive
+60,jhuboxyw,74.0,,AB+,,02/08/2023,qcqbly,99.0,113.0,,0,,Wiggins Ltd,Medicare,23292.006103515625,493.0,Elective,13/02/2025,Penicillin,Normal
+61,wpsrb,51.0,Male,B+,Obesity,09/08/2024,qxmdrtb,74.0,97.0,0.0,0,,"Moreno, Robinson and Martinez",Cigna,21203.1005859375,413.0,Elective,14/07/2021,Aspirin,Abnormal
+62,manrmhqxwy,66.0,Female,AB-,Arthritis,18/11/2023,fppnyllbb,77.0,115.0,0.0,0,,Morris-Harris,Medicare,47280.402099609375,441.0,Elective,27/04/2020,Lipitor,Normal
+63,ajtwfqbj,39.0,Male,B+,Arthritis,05/09/2021,,,113.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,10346.43310546875,145.0,Elective,17/07/2020,Aspirin,Abnormal
+64,jjncacts,31.0,Male,O+,Arthritis,28/04/2020,zpiwfz,94.0,115.0,,0,,Morris-Harris,Blue Cross,35033.6884765625,423.0,Urgent,13/02/2025,Lipitor,Inconclusive
+65,dxsaumiggr,72.0,Female,B+,Hypertension,27/12/2021,idixmxd,94.0,100.0,0.0,0,,Cook PLC,Blue Cross,528.251953125,382.0,Urgent,10/07/2021,Paracetamol,Normal
+66,ckfwgpj,43.0,Male,O+,Asthma,02/04/2022,fxbjokjht,90.0,101.0,,0,,Rodriguez-Marshall,Blue Cross,35803.57666015625,148.0,,21/06/2023,Aspirin,Abnormal
+67,aswvdba,50.0,Female,AB+,Hypertension,09/09/2024,adoaqpbc,,98.0,0.0,0,,Morris-Harris,Blue Cross,52994.465087890625,348.0,Elective,21/09/2024,Aspirin,Inconclusive
+68,hyuxmwudx,35.0,Female,B-,Arthritis,13/05/2020,lpsxfoi,,105.0,,0,,Rodriguez-Marshall,Aetna,17001.734619140625,194.0,Elective,09/11/2020,Paracetamol,Normal
+69,oyqupbkw,63.0,Male,,Cancer,22/07/2020,,96.0,,,0,,Mann Inc,Medicare,47526.404052734375,464.0,Emergency,29/10/2024,,Normal
+70,jdtirmjip,52.0,Male,B-,Obesity,13/07/2020,qzdqwcm,,113.0,0.0,0,,Mann Inc,Aetna,14440.040283203125,470.0,Emergency,24/10/2021,,Abnormal
+71,obkzzqfzx,22.0,Female,A-,Asthma,04/02/2022,mdmncju,83.0,102.0,0.0,0,,Morris-Harris,Cigna,6406.554931640625,124.0,Urgent,08/03/2021,Penicillin,Abnormal
+72,ypeqakvpl,20.0,Male,AB+,Diabetes,18/04/2021,kqugqnn,96.0,114.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,81986.92944335938,456.0,Emergency,25/05/2020,Ibuprofen,Inconclusive
+73,xmkzpr,39.0,Male,AB-,Asthma,16/06/2022,szrji,96.0,98.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,14790.521240234375,356.0,Elective,10/07/2021,Penicillin,Inconclusive
+74,exzxvhqii,77.0,Male,O+,Obesity,15/07/2023,gtmakvwe,74.0,90.0,,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,5832.621826171875,349.0,Elective,27/01/2025,Ibuprofen,Inconclusive
+75,yqhvwnek,14.0,Male,AB+,Hypertension,17/07/2024,rdpygzge,99.0,110.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,6958.2861328125,295.0,Emergency,09/07/2021,Paracetamol,Inconclusive
+76,mtgxsrhlhv,64.0,Female,O-,Obesity,27/05/2023,heufyutdlm,73.0,104.0,0.0,0,,"Frost, Hernandez and Reynolds",Cigna,47928.987060546875,212.0,Emergency,18/01/2022,Lipitor,Abnormal
+77,dqqrb,,,B+,Cancer,08/10/2023,bgjuexq,100.0,114.0,0.0,0,,Wiggins Ltd,Cigna,9403.578125,184.0,Emergency,08/05/2021,Paracetamol,Inconclusive
+78,lnotk,85.0,Male,AB+,Hypertension,23/06/2022,onzfkqlu,74.0,99.0,,0,,Cook PLC,Medicare,9299.025634765625,167.0,Urgent,16/04/2024,Lipitor,Normal
+79,xsmsgmxkw,63.0,Male,A-,Arthritis,17/05/2020,rocyhbkl,,117.0,,0,,Wiggins Ltd,Aetna,23610.64111328125,398.0,,30/03/2024,Penicillin,Normal
+80,xdqgg,62.0,Male,,Asthma,29/10/2023,eowoyom,,,,0,,Rodriguez-Marshall,Cigna,32200.676513671875,123.0,Emergency,24/07/2022,Ibuprofen,Inconclusive
+81,dtbjuglwt,38.0,,B+,Arthritis,20/10/2022,,91.0,103.0,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,25359.54833984375,139.0,Elective,19/08/2022,Ibuprofen,Abnormal
+82,wnssqqz,63.0,Female,A-,Asthma,07/11/2021,jqmenrm,100.0,113.0,0.0,0,,Gonzalez-Huffman,Blue Cross,17825.157470703125,136.0,Emergency,17/07/2024,Ibuprofen,Inconclusive
+83,xmrmlf,51.0,Male,,,20/10/2023,wazkgrjs,,116.0,0.0,0,,Rodriguez-Marshall,Cigna,1623.424072265625,109.0,Emergency,14/09/2023,Lipitor,Inconclusive
+84,msdmbswx,71.0,Male,B-,Obesity,03/12/2024,jjbmxzpkj,86.0,101.0,,0,,"Frost, Hernandez and Reynolds",Aetna,60884.36962890625,182.0,Emergency,30/09/2022,Penicillin,Abnormal
+85,yzfmweqtg,47.0,Male,AB-,Diabetes,25/03/2024,nqvkjdbkw,97.0,120.0,,0,,Wiggins Ltd,Aetna,11912.832763671875,434.0,Emergency,02/05/2020,Paracetamol,Inconclusive
+86,,77.0,Male,AB-,Hypertension,28/08/2022,lbxlc,,104.0,,0,,Wiggins Ltd,UnitedHealthcare,7247.037841796875,480.0,Emergency,,Lipitor,Inconclusive
+87,ivoanf,67.0,Male,A-,Arthritis,16/02/2024,nncqwgt,87.0,104.0,,0,,Rodriguez-Marshall,Medicare,3645.694580078125,480.0,Emergency,25/03/2021,Penicillin,Abnormal
+88,vrnta,18.0,Male,A-,Diabetes,12/02/2024,xcxcwbd,,116.0,0.0,0,,Morris-Harris,UnitedHealthcare,35325.5185546875,146.0,Elective,03/05/2022,Ibuprofen,Inconclusive
+89,vjeusr,61.0,Male,,Diabetes,18/07/2023,eqzuvy,77.0,114.0,0.0,0,,Wiggins Ltd,Aetna,48353.88232421875,275.0,Emergency,18/08/2022,Ibuprofen,Normal
+90,pawrkiapof,84.0,Male,B-,Cancer,18/11/2020,udqkwzrwoo,84.0,116.0,0.0,0,,,Aetna,15588.142578125,327.0,Elective,29/01/2023,Paracetamol,Abnormal
+91,jcnhybl,47.0,Male,B+,Arthritis,15/06/2023,kfhipdsg,73.0,112.0,0.0,0,,"Figueroa, Davis and Bailey",Blue Cross,25239.652099609375,348.0,Urgent,04/01/2024,Ibuprofen,Inconclusive
+92,jialhlnel,39.0,Female,AB+,Obesity,21/02/2023,oyndeei,73.0,,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,92880.06665039062,,Emergency,18/05/2024,Aspirin,Normal
+93,ofzsczxmfs,81.0,Male,AB+,Asthma,13/09/2020,gbtsm,73.0,103.0,,0,,"Frost, Hernandez and Reynolds",Cigna,7480.21728515625,495.0,Emergency,28/12/2021,Paracetamol,Abnormal
+94,phzyh,39.0,Male,AB+,Hypertension,26/02/2025,chkotaqv,100.0,,0.0,0,,Cook PLC,Cigna,,198.0,Urgent,17/07/2022,Ibuprofen,Abnormal
+95,amplzpzm,71.0,Female,A-,Asthma,21/02/2025,rmltesnmg,,,,0,,Morris-Harris,UnitedHealthcare,12547.41455078125,235.0,Emergency,10/07/2021,Ibuprofen,Inconclusive
+96,yzqhdpsn,65.0,Male,O-,Cancer,24/02/2025,tiirrbmzfl,,106.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,29283.426513671875,356.0,Urgent,19/06/2020,Paracetamol,Normal
+97,xlfmzvp,50.0,Male,A-,Asthma,18/08/2022,zetirauju,,116.0,,0,,"Moreno, Robinson and Martinez",Blue Cross,13488.60693359375,393.0,Emergency,23/07/2024,Penicillin,Inconclusive
+98,ehxhpedyf,77.0,Male,,Asthma,,okbki,100.0,104.0,0.0,0,,"Figueroa, Davis and Bailey",,21894.013671875,273.0,Emergency,28/07/2023,Lipitor,Inconclusive
+99,kzwblmn,64.0,Male,A-,Diabetes,06/04/2022,gserq,73.0,101.0,0.0,0,,Morris-Harris,Aetna,13278.680419921875,240.0,Urgent,22/01/2021,Lipitor,Abnormal
+100,moqrdfzqq,33.0,Male,AB-,Asthma,05/02/2024,ijezwxyit,95.0,101.0,0.0,0,,Mann Inc,,,329.0,Emergency,22/08/2023,Paracetamol,Abnormal
+101,fijyr,39.0,,A-,Obesity,23/10/2021,ueaaa,73.0,119.0,0.0,0,,Morris-Harris,Cigna,68530.3330078125,395.0,Urgent,29/01/2024,Lipitor,Abnormal
+102,ldqpath,61.0,Female,,Obesity,,krlmdth,,99.0,0.0,0,,Mann Inc,Cigna,3573.213623046875,104.0,Emergency,14/03/2023,Paracetamol,Normal
+103,nwlqnd,57.0,,B+,Cancer,11/09/2020,mqgualpuf,81.0,115.0,,0,,Wiggins Ltd,Aetna,25074.17578125,210.0,Urgent,03/01/2024,Paracetamol,Inconclusive
+104,yeoqzbji,79.0,Male,B-,Arthritis,13/08/2020,yuixuz,98.0,102.0,,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,39691.7529296875,409.0,Emergency,09/04/2024,Penicillin,Normal
+105,mznvsf,54.0,Female,AB+,Arthritis,30/01/2021,jxmitzntw,,115.0,0.0,0,,Morris-Harris,Medicare,3634.298583984375,112.0,Urgent,23/04/2020,Lipitor,Inconclusive
+106,afqyf,50.0,,,Obesity,11/07/2021,gkhhfpuwzs,100.0,100.0,0.0,0,,Gonzalez-Huffman,Aetna,62564.23095703125,352.0,Urgent,13/01/2025,Ibuprofen,Abnormal
+107,mefkmwqtk,54.0,Female,,Hypertension,05/06/2020,pupkedqm,73.0,115.0,0.0,0,,Rodriguez-Marshall,Cigna,9198.37060546875,493.0,Urgent,18/12/2024,Aspirin,Inconclusive
+108,krorm,80.0,Male,AB-,Cancer,24/04/2022,ajrtwjomvy,75.0,97.0,0.0,0,,Wiggins Ltd,Aetna,5619.24267578125,484.0,Urgent,18/11/2024,Penicillin,Abnormal
+109,vqlrkmoa,59.0,Female,AB-,Obesity,01/05/2022,uzswmjwoh,100.0,114.0,0.0,0,,Gonzalez-Huffman,Cigna,3392.271240234375,379.0,Emergency,16/02/2025,Paracetamol,
+110,jpbjfbxkt,87.0,Female,B+,Asthma,21/06/2021,zfjdjbdla,,117.0,0.0,0,,Mann Inc,Aetna,21371.38427734375,405.0,Emergency,,Paracetamol,Abnormal
+111,plzesihiah,23.0,Male,AB-,Obesity,21/02/2025,qjomhlou,,114.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,2762.17578125,381.0,Elective,06/08/2020,Lipitor,Normal
+112,ngngjra,85.0,Male,B-,Diabetes,29/03/2022,klhohc,,105.0,0.0,0,,Morris-Harris,Cigna,317.81396484375,196.0,Elective,07/03/2023,Ibuprofen,Abnormal
+113,yelgekpjd,43.0,Male,B+,Arthritis,23/12/2024,,76.0,100.0,0.0,0,,"Moreno, Robinson and Martinez",Aetna,2245.30859375,235.0,Urgent,19/01/2023,Ibuprofen,Abnormal
+114,saovdxajg,58.0,Female,O+,Asthma,11/10/2021,hylzyxdtx,99.0,118.0,0.0,0,,,Aetna,5788.09912109375,,Elective,11/07/2022,Aspirin,Abnormal
+115,sbzaxlpo,74.0,Male,AB-,Obesity,,seoaagkuoh,98.0,118.0,0.0,0,,Cook PLC,Blue Cross,14943.423828125,267.0,Emergency,,Ibuprofen,Abnormal
+116,ceytmf,79.0,Female,B-,Asthma,25/09/2020,atlhxavo,79.0,105.0,0.0,0,,Morris-Harris,Aetna,28350.87646484375,265.0,Emergency,,Aspirin,Normal
+117,uldvumq,65.0,Male,AB+,Asthma,02/09/2020,ozbhlpipoi,85.0,117.0,0.0,0,,"Figueroa, Davis and Bailey",Aetna,1632.36572265625,,Emergency,21/06/2021,Ibuprofen,Normal
+118,ygwozr,86.0,Male,B+,Hypertension,04/06/2023,ivxyjtt,94.0,102.0,,0,,Wiggins Ltd,Cigna,42329.465087890625,491.0,Emergency,,Lipitor,Inconclusive
+119,zaetohpo,87.0,Male,B+,Obesity,17/12/2024,,98.0,,0.0,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,52865.396484375,105.0,Urgent,15/08/2024,Paracetamol,
+120,gqibillsdr,,Female,A-,Asthma,05/07/2022,vtqfbnl,77.0,101.0,,0,,,Aetna,17410.959716796875,131.0,Urgent,22/05/2020,Paracetamol,Normal
+121,aryldpqp,78.0,Male,A-,Hypertension,25/10/2024,pnmdw,93.0,103.0,,0,,Morris-Harris,Medicare,27901.00634765625,286.0,Urgent,19/04/2020,Lipitor,Inconclusive
+122,aoijrw,24.0,Male,O+,Arthritis,29/12/2024,kuqzigmq,100.0,94.0,0.0,0,,Mann Inc,UnitedHealthcare,,491.0,Emergency,19/03/2024,Lipitor,Normal
+123,ovejan,79.0,Female,B-,Asthma,30/03/2021,fpubi,92.0,114.0,,0,,Rodriguez-Marshall,UnitedHealthcare,5480.297119140625,103.0,Emergency,09/03/2024,Penicillin,Inconclusive
+124,fvnyvv,66.0,Male,O+,Asthma,16/08/2020,,,99.0,0.0,0,,Gonzalez-Huffman,UnitedHealthcare,54244.0859375,344.0,Urgent,15/01/2021,Paracetamol,Inconclusive
+125,rzpslb,,Female,O+,Hypertension,11/11/2024,ebcku,87.0,102.0,0.0,0,,Cook PLC,UnitedHealthcare,2360.445556640625,186.0,Elective,06/06/2022,Ibuprofen,Normal
+126,xcjmjbprm,18.0,Female,B+,Asthma,29/08/2023,mdxlgs,99.0,120.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,1246.23974609375,443.0,Urgent,11/10/2023,Aspirin,Abnormal
+127,xdvkyufit,58.0,Male,AB+,Hypertension,12/11/2023,yczswkeau,78.0,103.0,0.0,0,,Mann Inc,,1362.22216796875,486.0,Urgent,04/07/2021,Lipitor,Abnormal
+128,wqlyx,67.0,Male,A-,Arthritis,10/03/2022,yoszyvtuj,95.0,119.0,0.0,0,,"Figueroa, Davis and Bailey",Aetna,14174.54638671875,435.0,Elective,06/09/2024,,Abnormal
+129,,62.0,Male,B-,Obesity,31/07/2023,jghemqvieo,74.0,99.0,0.0,0,,"Frost, Hernandez and Reynolds",UnitedHealthcare,5430.675537109375,,Emergency,,Paracetamol,Inconclusive
+130,pqtpfgncz,86.0,Female,AB+,Asthma,17/02/2025,mrpodsc,83.0,114.0,1.0,0,,Wiggins Ltd,Aetna,17470.075439453125,464.0,Elective,07/10/2020,Lipitor,Normal
+131,mzbqozh,53.0,Male,O+,Arthritis,24/11/2021,xtqvwfiee,93.0,113.0,0.0,0,,Wiggins Ltd,Blue Cross,32768.545166015625,185.0,Emergency,05/12/2023,Paracetamol,Inconclusive
+132,qcpeh,37.0,Female,B+,,01/11/2020,fbdhslky,79.0,116.0,0.0,0,,Rodriguez-Marshall,Aetna,1786.966796875,456.0,Urgent,01/04/2022,Paracetamol,Inconclusive
+133,xofirkaej,52.0,Female,O+,Cancer,,ofoaokn,73.0,105.0,0.0,0,,Gonzalez-Huffman,Aetna,2081.568115234375,310.0,Elective,05/06/2022,Ibuprofen,Abnormal
+134,fwqshf,77.0,Female,A-,Cancer,17/04/2020,btednzcru,100.0,100.0,,0,,Mann Inc,Blue Cross,7055.258544921875,140.0,Urgent,20/04/2021,Paracetamol,Normal
+135,kyhjav,52.0,Male,B+,Diabetes,05/06/2020,bwpawdhxk,99.0,112.0,0.0,0,,"Coleman, Cabrera and Barnett",Cigna,53660.349609375,353.0,Emergency,,Penicillin,Abnormal
+136,yqswxrmh,45.0,Male,O+,Cancer,09/12/2022,,99.0,101.0,0.0,0,,Morris-Harris,Blue Cross,2052.4990234375,206.0,Elective,20/02/2025,Paracetamol,Inconclusive
+137,pmbnzkvhm,78.0,Male,AB-,Asthma,29/10/2021,dwgkdzruf,,104.0,0.0,0,,Wiggins Ltd,Aetna,38347.222900390625,139.0,Elective,08/07/2024,Aspirin,Normal
+138,gbcpawqszx,59.0,Male,AB-,Cancer,29/08/2023,qtljjsj,78.0,99.0,0.0,0,,Morris-Harris,UnitedHealthcare,6232.823974609375,390.0,Emergency,09/08/2020,,Inconclusive
+139,xohgvfpkbk,64.0,Female,,Arthritis,02/12/2023,iifdj,,119.0,,0,,"Moreno, Robinson and Martinez",Blue Cross,35897.410400390625,479.0,Urgent,10/09/2024,Paracetamol,Inconclusive
+140,mmeudf,74.0,Male,AB-,Cancer,09/08/2023,xdgepdwz,77.0,97.0,0.0,0,,Rodriguez-Marshall,Medicare,29303.45751953125,473.0,Emergency,04/08/2024,Penicillin,Abnormal
+141,utzjnzae,66.0,Male,,Arthritis,10/08/2022,awrstkd,75.0,111.0,0.0,0,,Morris-Harris,,25060.998046875,195.0,Elective,11/02/2025,Ibuprofen,Abnormal
+142,igvdxjonv,83.0,,AB+,Cancer,24/10/2023,etiyj,85.0,104.0,,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,37165.246826171875,440.0,Elective,15/12/2020,Paracetamol,Abnormal
+143,wdihk,59.0,Male,A-,Cancer,30/06/2024,idgskko,,99.0,0.0,0,,Cook PLC,Cigna,24399.470458984375,269.0,Emergency,25/01/2025,Paracetamol,Inconclusive
+144,cbktkrnmp,38.0,Male,B+,Hypertension,,nkjgfjvcv,100.0,101.0,0.0,0,,"Moreno, Robinson and Martinez",Aetna,10844.40478515625,134.0,Elective,20/09/2022,Lipitor,Inconclusive
+145,jcltrrfowc,47.0,Male,O+,Obesity,26/12/2020,zlahuugkz,83.0,114.0,,0,,Morris-Harris,Medicare,53864.0517578125,449.0,Elective,29/06/2020,Ibuprofen,Inconclusive
+146,,47.0,Male,A+,Arthritis,16/08/2021,zrppn,100.0,103.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,2610.654296875,245.0,Emergency,26/08/2024,Penicillin,Inconclusive
+147,dimzmsqlpk,62.0,Male,A+,Diabetes,28/01/2024,faiuyryagm,96.0,104.0,,0,,Mann Inc,,20518.11328125,316.0,Elective,06/11/2023,Ibuprofen,Normal
+148,vvywlych,76.0,Female,AB-,Arthritis,25/12/2024,ntqel,,113.0,,0,,Cook PLC,Blue Cross,31254.953857421875,351.0,Urgent,10/08/2023,Ibuprofen,Inconclusive
+149,qzbnsdthc,26.0,Female,AB+,,23/04/2021,qkahw,80.0,96.0,,0,,Rodriguez-Marshall,Blue Cross,44576.689208984375,445.0,Emergency,29/07/2020,Ibuprofen,Inconclusive
+150,usuxf,56.0,Male,,Asthma,14/03/2021,iveaureb,95.0,111.0,0.0,0,,Gonzalez-Huffman,UnitedHealthcare,40694.5146484375,123.0,Urgent,17/06/2020,Ibuprofen,Abnormal
+151,dyapgbc,82.0,Male,A+,Cancer,20/02/2025,mzppbwl,,100.0,0.0,0,,Wiggins Ltd,UnitedHealthcare,23929.112060546875,,Elective,,Penicillin,Abnormal
+152,aczsyt,,Male,AB+,Obesity,11/06/2021,srqeosqdt,95.0,117.0,0.0,0,,Rodriguez-Marshall,Medicare,5017.856201171875,,Elective,06/12/2023,Ibuprofen,Inconclusive
+153,qdcyg,77.0,Male,B-,Diabetes,17/06/2024,qgvzjqnirt,91.0,114.0,0.0,0,,Morris-Harris,Cigna,76264.28686523438,363.0,Emergency,16/06/2023,Penicillin,Normal
+154,asuekvjkx,38.0,Male,O+,Obesity,08/03/2023,dvvrsm,,117.0,0.0,0,,Cook PLC,Medicare,25042.491455078125,132.0,Urgent,01/03/2024,Aspirin,Abnormal
+155,zeajewncha,59.0,Male,O-,Diabetes,22/04/2023,iwxzk,88.0,101.0,0.0,0,,Morris-Harris,Blue Cross,29833.717041015625,495.0,Urgent,,Penicillin,Inconclusive
+156,vpwtsagan,56.0,Male,,Arthritis,19/05/2022,jwjpza,74.0,106.0,0.0,0,,Rodriguez-Marshall,Medicare,19169.197998046875,316.0,Urgent,29/09/2022,Aspirin,Abnormal
+157,brhdgxlhn,83.0,Female,A+,Asthma,12/01/2024,,,100.0,,0,,"Coleman, Cabrera and Barnett",UnitedHealthcare,642.23193359375,453.0,Urgent,03/11/2020,Paracetamol,Inconclusive
+158,oidtnjh,82.0,Male,B+,,11/05/2024,lsrov,,118.0,0.0,0,,Gonzalez-Huffman,Blue Cross,3234.618896484375,493.0,Elective,03/09/2023,Lipitor,Normal
+159,qtmjpta,27.0,Male,B-,Asthma,25/12/2024,jgouwjqjkr,,117.0,0.0,0,,Rodriguez-Marshall,Blue Cross,2565.137451171875,291.0,Urgent,21/05/2020,Lipitor,Abnormal
+160,qxvaej,83.0,Male,B-,Cancer,01/02/2023,znhuvucgee,,110.0,0.0,0,,Wiggins Ltd,Aetna,11674.12939453125,360.0,Urgent,,Ibuprofen,Inconclusive
+161,,67.0,Male,B+,Arthritis,25/10/2022,dvkishzkp,,119.0,0.0,0,,"Frost, Hernandez and Reynolds",,12986.1748046875,346.0,Elective,20/04/2022,Ibuprofen,Normal
+162,rvdvxpvff,56.0,Male,AB-,Hypertension,06/05/2024,sorrizkh,,118.0,,0,,Mann Inc,Medicare,36284.208740234375,276.0,Emergency,15/03/2022,Penicillin,Abnormal
+163,adzeonb,44.0,Female,AB+,Arthritis,25/12/2022,kwqvr,84.0,117.0,0.0,0,,"Figueroa, Davis and Bailey",Blue Cross,,360.0,Emergency,12/04/2020,Paracetamol,Inconclusive
+164,mitjwdhn,57.0,Male,AB-,Arthritis,14/04/2022,beago,,112.0,0.0,0,,Morris-Harris,Cigna,13019.242919921875,193.0,Elective,17/04/2021,Paracetamol,Inconclusive
+165,,51.0,Male,,Asthma,19/03/2021,mivlk,75.0,95.0,,0,,Cook PLC,UnitedHealthcare,70339.72021484375,437.0,Emergency,09/12/2023,Lipitor,Abnormal
+166,eyhfzfum,70.0,Female,B-,Asthma,19/06/2024,eyyna,94.0,103.0,,0,,Morris-Harris,Aetna,27361.641357421875,248.0,Elective,07/06/2022,Aspirin,Abnormal
+167,jxpbvbio,55.0,Female,AB+,Arthritis,14/09/2020,pbqhp,100.0,116.0,0.0,0,,"Coleman, Cabrera and Barnett",Blue Cross,8393.985107421875,406.0,Urgent,03/08/2020,Paracetamol,Abnormal
+168,wsjmwloch,84.0,,O-,Hypertension,,dfrnbsxbzl,100.0,101.0,,0,,Mann Inc,Cigna,22189.47119140625,278.0,Urgent,10/06/2022,Ibuprofen,Abnormal
+169,lvsdntlk,81.0,Male,A+,Asthma,03/02/2023,qlmksiggb,94.0,,0.0,0,,Rodriguez-Marshall,Medicare,16225.478759765625,425.0,Emergency,29/06/2024,Ibuprofen,Inconclusive
+170,qghglvsh,34.0,Female,AB-,Hypertension,02/07/2020,dwctbsjcqm,77.0,99.0,0.0,0,,Mann Inc,,11426.9296875,147.0,Emergency,05/10/2023,Lipitor,Normal
+171,bnrdlwlue,,Male,AB+,,07/10/2021,kgttwgw,76.0,113.0,0.0,0,,Rodriguez-Marshall,Aetna,24782.743408203125,171.0,Elective,11/11/2022,Aspirin,Abnormal
+172,bogytavk,71.0,Male,AB-,Arthritis,30/12/2021,myamu,75.0,103.0,0.0,0,,"Moreno, Robinson and Martinez",Medicare,8268.910888671875,255.0,Elective,22/05/2020,Lipitor,Abnormal
+173,ijpslo,44.0,Male,AB-,Cancer,,txtmxyh,97.0,104.0,0.0,0,,Morris-Harris,Cigna,10006.3486328125,488.0,Emergency,26/04/2020,Lipitor,Abnormal
+174,poyhmeo,74.0,Female,B-,Obesity,28/11/2022,cyhodkdh,,106.0,,0,,Rodriguez-Marshall,UnitedHealthcare,8461.064697265625,194.0,Urgent,02/09/2021,Penicillin,Abnormal
+175,wwnzdegiw,79.0,Male,B-,Asthma,14/09/2021,lgofp,89.0,101.0,0.0,0,,"Figueroa, Davis and Bailey",Blue Cross,14376.649169921875,133.0,Elective,25/03/2022,Aspirin,Abnormal
+176,vmrhei,25.0,Female,A+,Asthma,22/01/2024,oyyik,90.0,105.0,0.0,0,,"Frost, Hernandez and Reynolds",Blue Cross,6855.36767578125,464.0,Emergency,21/05/2020,Lipitor,Abnormal
+177,seyidx,78.0,Male,A-,Cancer,08/12/2021,vorhoggmzs,,116.0,0.0,0,,Rodriguez-Marshall,Aetna,23429.89013671875,271.0,Urgent,19/06/2021,Lipitor,Normal
+178,bxuldr,69.0,,A+,Hypertension,15/06/2021,gkbejh,80.0,102.0,,0,,"Figueroa, Davis and Bailey",Blue Cross,10236.9716796875,360.0,Emergency,31/10/2024,,Normal
+179,djkjjsowfx,22.0,Male,,Diabetes,14/10/2024,gxugzkuass,100.0,114.0,0.0,0,,Wiggins Ltd,Medicare,23318.8798828125,445.0,Urgent,14/09/2024,Paracetamol,Inconclusive
+180,cawnhis,82.0,Female,AB+,Hypertension,04/02/2023,jstbk,,105.0,,0,,Rodriguez-Marshall,Medicare,3582.441650390625,302.0,,01/12/2024,Lipitor,Abnormal
+181,kvtcg,43.0,Male,B-,Diabetes,11/08/2020,,96.0,105.0,,0,,Rodriguez-Marshall,Cigna,20245.333740234375,386.0,Elective,04/12/2021,Lipitor,Abnormal
+182,,32.0,Male,AB-,Hypertension,17/08/2023,mnllsk,74.0,105.0,,0,,Mann Inc,Cigna,2676.92138671875,146.0,Elective,01/02/2022,Penicillin,Abnormal
+183,falplz,67.0,Male,A+,Hypertension,,wufpvxxq,99.0,116.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,17086.625244140625,373.0,Emergency,17/01/2025,Paracetamol,Abnormal
+184,tjfbxqx,59.0,Male,AB+,Diabetes,21/01/2023,izaput,98.0,100.0,,0,,Morris-Harris,,29669.47900390625,428.0,,14/11/2024,Paracetamol,
+185,jwutjvw,19.0,Female,O-,Obesity,16/01/2025,ugmowqsx,,101.0,0.0,0,,Mann Inc,Blue Cross,21720.289306640625,177.0,Urgent,12/12/2020,Lipitor,Inconclusive
+186,dkoldyux,71.0,Female,O+,Asthma,20/10/2023,mvbbz,97.0,102.0,0.0,0,,Gonzalez-Huffman,Cigna,3715.814697265625,215.0,Emergency,14/09/2022,Lipitor,Normal
+187,vqqdtazeji,48.0,Male,A-,Cancer,,rcizrh,90.0,115.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,8663.98583984375,227.0,Elective,26/12/2022,Lipitor,Normal
+188,qikvubpqfp,84.0,Female,,Hypertension,18/11/2021,,94.0,111.0,0.0,0,,Cook PLC,UnitedHealthcare,,252.0,Emergency,31/01/2025,,
+189,vbtvctcwog,58.0,Male,AB-,Asthma,,yojsy,97.0,114.0,1.0,0,,Gonzalez-Huffman,Cigna,18308.23583984375,266.0,Emergency,12/01/2024,Ibuprofen,Abnormal
+190,,25.0,Male,A-,Cancer,11/11/2020,qjvgdd,91.0,100.0,,0,,Mann Inc,Cigna,9042.965576171875,186.0,Urgent,,Aspirin,Normal
+191,cvvcv,87.0,Male,B-,Arthritis,23/06/2023,zjwkudmu,,116.0,0.0,0,,"Moreno, Robinson and Martinez",Aetna,109405.93115234375,272.0,Emergency,02/02/2025,Lipitor,Inconclusive
+192,mtdyszcdel,51.0,Male,A-,Arthritis,04/01/2024,aeetp,81.0,118.0,1.0,0,,Morris-Harris,Cigna,1990.473388671875,195.0,Emergency,06/03/2024,Ibuprofen,Abnormal
+193,gqvnaw,88.0,Male,B-,,03/07/2022,hoodkjmlcq,98.0,114.0,,0,,Wiggins Ltd,Cigna,9798.271484375,298.0,Emergency,,Paracetamol,Normal
+194,ipxhfvhcl,,Male,A-,Diabetes,02/06/2020,fpbdogjhln,,113.0,0.0,0,,Gonzalez-Huffman,Cigna,1200.1103515625,282.0,Emergency,03/07/2022,Ibuprofen,Normal
+195,gbyrqllcq,67.0,Male,A-,Arthritis,03/12/2023,vijymb,87.0,120.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,,488.0,Emergency,,Aspirin,Normal
+196,rxsnvy,85.0,Male,,Asthma,24/07/2022,,100.0,116.0,0.0,0,,Wiggins Ltd,Aetna,43972.618408203125,338.0,Elective,12/05/2024,Paracetamol,Normal
+197,dvejh,72.0,Female,O+,Diabetes,,xdiyxoem,,112.0,,0,,Mann Inc,Cigna,33415.94287109375,303.0,Emergency,20/11/2020,Penicillin,Normal
+198,mmunasvz,51.0,,B-,Hypertension,20/07/2024,rkbayntpbu,90.0,103.0,0.0,0,,"Coleman, Cabrera and Barnett",,3935.11474609375,,Elective,,Aspirin,Normal
+199,enlobb,64.0,Male,A+,Hypertension,23/07/2020,mkqzhl,97.0,120.0,0.0,0,,,Medicare,2510.977783203125,428.0,Urgent,10/02/2024,Aspirin,Abnormal
+200,lxidgm,34.0,Male,A+,Cancer,08/05/2023,gnbix,,103.0,0.0,0,,Gonzalez-Huffman,UnitedHealthcare,15829.19189453125,244.0,Elective,23/07/2020,Penicillin,Abnormal
+201,qcxxqcoa,84.0,Male,O+,Diabetes,,mbwknqdx,,101.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,11139.46142578125,183.0,Urgent,07/02/2021,Ibuprofen,Abnormal
+202,zbqfgbvyu,44.0,Male,AB-,Cancer,11/04/2021,avefdo,98.0,114.0,,0,,"Figueroa, Davis and Bailey",Cigna,95165.96069335938,209.0,Elective,12/08/2021,Ibuprofen,
+203,qdxpexs,81.0,Female,O+,Asthma,27/11/2021,fjijcub,75.0,99.0,0.0,0,,Morris-Harris,Blue Cross,9924.833740234375,178.0,,27/10/2022,Paracetamol,Abnormal
+204,wmptkdevkc,75.0,,B+,Arthritis,26/10/2020,qmrygekn,95.0,116.0,0.0,0,,Mann Inc,Blue Cross,31162.761474609375,318.0,Elective,15/07/2020,Ibuprofen,Normal
+205,joqsltlu,,Male,O+,,25/02/2025,aknfpa,99.0,98.0,0.0,0,,Cook PLC,,,153.0,Urgent,19/02/2025,Lipitor,Normal
+206,jofurggpep,50.0,Male,B+,Arthritis,30/07/2023,jgltbgtoho,,,0.0,0,,Morris-Harris,Medicare,7151.086669921875,241.0,Elective,22/06/2020,Aspirin,Normal
+207,zbbxos,68.0,Male,A-,Cancer,12/12/2024,vxhqeer,98.0,117.0,,0,,Mann Inc,Cigna,,428.0,Emergency,05/06/2020,,Abnormal
+208,bttjl,21.0,Female,B-,Arthritis,06/07/2020,ixknffwvp,94.0,103.0,,0,,,Medicare,30742.53515625,216.0,Urgent,18/02/2025,Lipitor,Inconclusive
+209,oevbyx,66.0,,AB-,Obesity,17/08/2021,fwljhcohwm,87.0,115.0,0.0,0,,Wiggins Ltd,Medicare,5117.11572265625,481.0,Emergency,18/01/2023,Ibuprofen,Abnormal
+210,,88.0,Male,B-,Arthritis,16/09/2020,jmubxxfpy,,113.0,0.0,0,,"Moreno, Robinson and Martinez",Cigna,61521.382568359375,,Emergency,14/04/2020,Ibuprofen,Abnormal
+211,asnvzxfw,42.0,Male,B-,Arthritis,17/12/2021,degtsn,84.0,99.0,,0,,"Coleman, Cabrera and Barnett",UnitedHealthcare,74241.96215820312,400.0,Elective,11/07/2022,Lipitor,Abnormal
+212,nwhqvr,76.0,Female,O-,Cancer,,nylkum,86.0,96.0,,0,,Morris-Harris,UnitedHealthcare,,257.0,Urgent,27/01/2025,Lipitor,Inconclusive
+213,qwdqm,77.0,Male,O+,Diabetes,05/06/2022,kwbgn,97.0,99.0,0.0,0,,Wiggins Ltd,Aetna,2413.982421875,243.0,Emergency,13/02/2025,Lipitor,Inconclusive
+214,dgppwc,70.0,Male,O+,Asthma,14/12/2020,haqfxnsjs,79.0,115.0,,0,,Wiggins Ltd,Cigna,29524.475830078125,472.0,Urgent,02/12/2023,Ibuprofen,Inconclusive
+215,mqnocvvfup,79.0,Male,O-,Diabetes,01/05/2021,,79.0,113.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,8819.972900390625,124.0,Urgent,15/11/2021,Ibuprofen,
+216,mnawv,55.0,Male,AB+,Obesity,31/12/2024,kbfwx,100.0,116.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,34236.97509765625,144.0,Emergency,26/03/2021,Paracetamol,Abnormal
+217,gnpnfegjw,82.0,Female,AB-,,11/12/2023,xkiyjcetv,84.0,102.0,0.0,0,,Mann Inc,Blue Cross,19358.8779296875,422.0,Emergency,10/09/2020,Penicillin,Inconclusive
+218,swveqbyvbm,13.0,Male,A-,Arthritis,24/10/2022,kugfprak,85.0,115.0,0.0,0,,"Moreno, Robinson and Martinez",Cigna,14822.256591796875,180.0,Emergency,13/11/2022,Paracetamol,Inconclusive
+219,hzjrby,35.0,Male,O-,Hypertension,21/03/2024,ivhhxebtr,93.0,98.0,,0,,Rodriguez-Marshall,Aetna,11159.091796875,311.0,,11/05/2020,Penicillin,Inconclusive
+220,ihfdwb,61.0,Male,B-,Cancer,02/09/2023,mdyane,99.0,102.0,,0,,Mann Inc,Blue Cross,,325.0,Elective,26/12/2023,Ibuprofen,Abnormal
+221,kfvshhbu,84.0,Male,A+,Cancer,01/04/2024,vuztej,,115.0,,0,,Wiggins Ltd,,3164.1259765625,252.0,Urgent,12/04/2020,Paracetamol,Abnormal
+222,ltftdfehlw,17.0,Male,O+,Asthma,27/02/2025,qnarhuzgf,91.0,120.0,0.0,0,,Rodriguez-Marshall,,8505.83251953125,321.0,Urgent,09/12/2021,Paracetamol,Abnormal
+223,kcxwwbtdnh,66.0,Female,O-,Hypertension,09/01/2025,wfunikkwm,94.0,,,0,,"Coleman, Cabrera and Barnett",Cigna,6021.12744140625,316.0,Emergency,07/08/2024,Ibuprofen,Normal
+224,uovyxpwjgq,41.0,Male,AB-,Arthritis,01/07/2023,,80.0,114.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,8624.90185546875,375.0,Urgent,15/02/2025,Lipitor,Normal
+225,byqqqrzzk,24.0,Female,,Hypertension,31/10/2020,sfgcgjzgg,97.0,101.0,0.0,0,,Morris-Harris,Cigna,1778.692626953125,,,,Aspirin,Abnormal
+226,ohhwaxsfi,43.0,Male,B+,Asthma,19/04/2021,bbjgbsptgi,,100.0,,0,,Morris-Harris,Medicare,31380.385498046875,457.0,Emergency,28/03/2022,Aspirin,Abnormal
+227,hlubmxh,,Female,B-,Diabetes,26/11/2020,teaqc,,113.0,,0,,Morris-Harris,Medicare,5354.8974609375,299.0,Emergency,21/02/2025,Aspirin,Abnormal
+228,ykwqidvqug,,Male,B+,Asthma,16/04/2020,atsagemnd,,113.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,49264.385009765625,329.0,Urgent,30/12/2020,Lipitor,Abnormal
+229,vbfyaoh,48.0,Female,AB-,Asthma,29/12/2024,rrxmnjpktz,74.0,101.0,0.0,0,,Morris-Harris,Medicare,12230.321044921875,356.0,Emergency,20/01/2025,,Inconclusive
+230,okvhhx,56.0,Male,AB+,Arthritis,26/01/2025,frnfjj,84.0,113.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,13973.0166015625,443.0,Emergency,02/08/2024,Aspirin,Abnormal
+231,nkbyaekcj,72.0,,A+,Asthma,26/04/2020,xqoxbcf,,110.0,,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,8540.468505859375,406.0,Urgent,12/02/2025,Aspirin,Inconclusive
+232,asjwdiidd,43.0,,A+,Hypertension,15/03/2023,ivnjh,100.0,116.0,0.0,0,,Mann Inc,Medicare,2895.43798828125,129.0,Urgent,23/01/2024,Penicillin,Normal
+233,fvozn,52.0,Male,AB-,Cancer,06/12/2024,xlhdn,86.0,,,0,,Wiggins Ltd,Aetna,8132.53369140625,184.0,Emergency,07/06/2022,Aspirin,Inconclusive
+234,pazzpkkxlz,35.0,Male,AB-,Cancer,02/08/2023,ixdhedjtc,80.0,101.0,,0,,Morris-Harris,UnitedHealthcare,24146.931884765625,246.0,Emergency,20/08/2020,Ibuprofen,Abnormal
+235,tbqnmt,73.0,Male,AB+,Obesity,06/07/2020,,95.0,109.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,79895.0517578125,369.0,Urgent,31/10/2024,Aspirin,Normal
+236,cczgx,46.0,Male,O-,Arthritis,31/10/2024,ttcuktou,82.0,100.0,0.0,0,,Mann Inc,Cigna,16955.543212890625,223.0,Emergency,23/02/2023,Aspirin,Normal
+237,eztxpauzl,,Male,AB+,Hypertension,18/05/2022,adnsplc,81.0,114.0,0.0,0,,Rodriguez-Marshall,Aetna,21471.7158203125,141.0,Elective,14/05/2023,Paracetamol,Abnormal
+238,pjhykm,58.0,Male,AB+,Cancer,04/02/2024,oetokk,,117.0,,0,,Morris-Harris,Cigna,1587.997802734375,209.0,Emergency,28/12/2023,Ibuprofen,Normal
+239,pmaojjniw,72.0,Male,O+,Cancer,,wkjlpnzguq,,103.0,0.0,0,,Morris-Harris,Blue Cross,8984.9033203125,465.0,Emergency,20/08/2024,,Abnormal
+240,ydjer,86.0,Male,A-,Cancer,15/01/2022,mggyrcru,73.0,100.0,0.0,0,,Morris-Harris,Aetna,56839.685791015625,277.0,Emergency,23/05/2020,Ibuprofen,Abnormal
+241,lhuwaygqdv,,Female,B+,Asthma,18/08/2020,hnvtxrziqp,100.0,,0.0,0,,Rodriguez-Marshall,Aetna,22467.310546875,374.0,Elective,14/02/2022,Lipitor,Inconclusive
+242,qzpcl,71.0,Male,B-,Arthritis,03/08/2023,opulw,89.0,102.0,0.0,0,,"Moreno, Robinson and Martinez",Cigna,10584.121826171875,410.0,Emergency,25/03/2023,Lipitor,
+243,lehrevkep,76.0,Male,B-,Asthma,11/02/2023,hofltpiey,,115.0,0.0,0,,Wiggins Ltd,Cigna,6828.89404296875,247.0,Emergency,05/07/2020,,Inconclusive
+244,jrawid,72.0,Male,B-,Cancer,12/04/2024,wmftlpyul,78.0,111.0,0.0,0,,Rodriguez-Marshall,,53186.5810546875,172.0,Urgent,07/12/2024,Paracetamol,Abnormal
+245,jqvgf,88.0,Female,B-,Asthma,16/08/2024,jpiqzqz,,113.0,,0,,Rodriguez-Marshall,Cigna,49354.344970703125,281.0,Emergency,10/12/2024,Ibuprofen,Inconclusive
+246,mhjyzp,47.0,Male,O-,Cancer,03/01/2025,jbppeqjn,87.0,101.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,2622.99609375,405.0,Elective,17/01/2025,Ibuprofen,Normal
+247,uddxovfo,84.0,Male,O+,,12/10/2024,lhrqrfrhn,84.0,110.0,0.0,0,,Morris-Harris,Aetna,7998.663818359375,266.0,Urgent,26/06/2021,Paracetamol,Inconclusive
+248,djrbhvhz,25.0,Male,B-,Hypertension,07/01/2025,pthjcdfoke,,116.0,0.0,0,,Rodriguez-Marshall,Cigna,24066.67529296875,211.0,Urgent,23/04/2020,Paracetamol,Normal
+249,vasuevvxsu,62.0,,O-,Diabetes,24/11/2022,ncydqzt,,117.0,0.0,0,,Wiggins Ltd,Blue Cross,2234.51025390625,133.0,Urgent,28/10/2020,Lipitor,Abnormal
+250,ajptaz,81.0,Female,AB-,Cancer,26/12/2023,dvuzmlci,98.0,119.0,0.0,0,,Morris-Harris,Aetna,8352.20654296875,220.0,Elective,11/08/2022,Aspirin,Normal
+251,unpywbiwh,78.0,Male,B+,Obesity,15/07/2020,ulriek,99.0,122.0,,0,,Mann Inc,Medicare,4811.30322265625,198.0,Elective,19/09/2024,Aspirin,Normal
+252,olycp,84.0,Female,AB+,Obesity,06/05/2024,dilsbigkz,,116.0,0.0,0,,Morris-Harris,Aetna,76830.552734375,297.0,Urgent,29/11/2023,Lipitor,Abnormal
+253,bqcchxhvjl,81.0,Male,AB-,Arthritis,28/09/2021,kpoipitggc,,104.0,0.0,0,,Wiggins Ltd,Cigna,9494.4775390625,256.0,Emergency,01/01/2025,Ibuprofen,Normal
+254,qnqdrupz,54.0,Male,B+,Asthma,13/11/2024,wegdqiix,74.0,98.0,,0,,Wiggins Ltd,UnitedHealthcare,3636.111572265625,465.0,Urgent,06/12/2020,Aspirin,Inconclusive
+255,waiwpqqurn,30.0,,B-,Asthma,05/05/2020,pgztg,100.0,100.0,0.0,0,,Mann Inc,Blue Cross,46023.52490234375,361.0,Elective,27/10/2024,Lipitor,Inconclusive
+256,oythddktv,25.0,Male,O+,Asthma,28/02/2023,ymztz,,116.0,,0,,Rodriguez-Marshall,Cigna,21154.923095703125,321.0,Urgent,18/02/2025,Lipitor,Inconclusive
+257,oduofgys,22.0,Male,O+,Hypertension,08/12/2022,lapbtp,91.0,114.0,,0,,Morris-Harris,Medicare,10604.51025390625,326.0,Elective,09/12/2020,Aspirin,Inconclusive
+258,qjqwvja,25.0,Female,B-,Hypertension,23/05/2020,uuykgcox,,118.0,0.0,0,,"Moreno, Robinson and Martinez",Cigna,,243.0,Elective,10/06/2021,Paracetamol,Inconclusive
+259,qzukzafew,46.0,Male,O-,Arthritis,05/05/2024,yezuiplzsa,96.0,96.0,0.0,0,,"Moreno, Robinson and Martinez",Medicare,698.628662109375,222.0,Emergency,14/02/2021,Aspirin,Inconclusive
+260,gmsnbycjcf,85.0,,B-,Diabetes,29/06/2021,bpjib,80.0,115.0,,0,,"Moreno, Robinson and Martinez",,7307.5244140625,406.0,Elective,13/08/2021,Aspirin,Abnormal
+261,jgfdpr,21.0,Female,B-,Asthma,15/10/2020,odobg,,104.0,0.0,0,,Rodriguez-Marshall,Aetna,4683.956787109375,106.0,Emergency,01/12/2023,Lipitor,Abnormal
+262,nuvtor,58.0,Female,AB-,Hypertension,04/11/2022,,,116.0,0.0,0,,Morris-Harris,Medicare,44563.831298828125,386.0,Emergency,06/08/2020,Lipitor,Inconclusive
+263,rcdwd,57.0,Female,O-,,25/02/2025,inyoma,84.0,100.0,0.0,0,,Mann Inc,,21457.926513671875,105.0,Elective,03/07/2020,Aspirin,Inconclusive
+264,qpmwtl,26.0,Male,A-,Cancer,27/04/2020,ehqxhebrb,91.0,96.0,0.0,0,,Rodriguez-Marshall,Cigna,40571.54541015625,447.0,Emergency,09/10/2022,Aspirin,Abnormal
+265,fszlqgzyii,27.0,Female,,Arthritis,18/09/2021,hmnmg,98.0,111.0,,0,,Gonzalez-Huffman,Aetna,18179.81396484375,284.0,Emergency,14/09/2023,Paracetamol,Normal
+266,bimydqb,68.0,,B-,Cancer,28/07/2020,ohntktaer,,102.0,0.0,0,,Rodriguez-Marshall,Aetna,6262.08154296875,264.0,Elective,23/09/2020,Penicillin,Inconclusive
+267,upoylxq,37.0,Male,AB-,Arthritis,23/01/2023,rxedd,74.0,114.0,0.0,0,,Mann Inc,Aetna,,464.0,Emergency,17/06/2024,Penicillin,Inconclusive
+268,nlqjbjbat,45.0,Male,O+,Arthritis,08/11/2022,gdvsfjqt,94.0,,0.0,0,,Wiggins Ltd,Medicare,8735.649658203125,420.0,Elective,30/07/2020,Aspirin,Abnormal
+269,irsrnc,21.0,Female,B-,Asthma,10/06/2021,razsb,,102.0,0.0,0,,"Moreno, Robinson and Martinez",Aetna,24892.69140625,157.0,Elective,21/02/2025,Penicillin,Inconclusive
+270,sfmqnl,,Male,O-,Obesity,27/10/2024,dbfqsz,83.0,119.0,0.0,0,,Morris-Harris,Blue Cross,12297.024169921875,459.0,Emergency,01/07/2022,Penicillin,Abnormal
+271,fglbmolt,,Female,,Cancer,26/05/2021,eseeqtbxwc,,113.0,0.0,0,,Mann Inc,Aetna,34117.720703125,241.0,Urgent,12/12/2021,Ibuprofen,Normal
+272,imjvjo,13.0,Male,O+,,04/01/2025,,93.0,106.0,0.0,0,,Gonzalez-Huffman,Blue Cross,29164.99072265625,231.0,Urgent,28/11/2020,Ibuprofen,Abnormal
+273,lixnuuwhwd,43.0,Male,O-,Cancer,12/02/2023,jshukwmiu,98.0,100.0,0.0,0,,Morris-Harris,Medicare,24440.1376953125,415.0,Urgent,30/06/2020,Lipitor,Inconclusive
+274,luyaybnw,74.0,Female,AB-,Cancer,,ftrsiunak,,101.0,0.0,0,,"Figueroa, Davis and Bailey",,17307.54150390625,279.0,,19/04/2024,Lipitor,Normal
+275,fuibadu,54.0,Male,O+,Arthritis,13/11/2021,nmrji,96.0,98.0,0.0,0,,Cook PLC,Cigna,14907.197265625,250.0,Emergency,21/02/2021,Lipitor,Inconclusive
+276,hiqomyhcdk,71.0,Male,B+,Asthma,09/02/2025,mlajr,75.0,104.0,0.0,0,,Cook PLC,Aetna,2319.618896484375,373.0,Elective,07/05/2021,Aspirin,Inconclusive
+277,hnldwpjd,86.0,Male,AB-,Diabetes,,jquwxlun,,97.0,0.0,0,,Rodriguez-Marshall,Aetna,11773.169189453125,253.0,Elective,,Paracetamol,Inconclusive
+278,fosfvikjh,61.0,,A+,Asthma,14/04/2020,boqrgchwfj,82.0,112.0,0.0,0,,Wiggins Ltd,Blue Cross,25070.089599609375,239.0,Elective,08/10/2021,Ibuprofen,Abnormal
+279,qwqjskq,58.0,Male,,Obesity,13/08/2024,tihkktw,79.0,116.0,0.0,0,,Morris-Harris,Medicare,17725.75537109375,237.0,Urgent,17/02/2025,Paracetamol,Inconclusive
+280,znuzvqilu,,Male,O+,Arthritis,04/06/2020,kjlgaliq,86.0,119.0,0.0,0,,Morris-Harris,Aetna,44559.773193359375,192.0,Urgent,21/11/2022,Ibuprofen,
+281,imnqjpuhdx,81.0,Male,,Obesity,06/07/2020,xmkcsk,,111.0,,0,,"Coleman, Cabrera and Barnett",Cigna,14715.7939453125,382.0,Elective,22/02/2024,Lipitor,Normal
+282,ansbll,77.0,Male,,Asthma,09/05/2023,jfamp,77.0,120.0,0.0,0,,Wiggins Ltd,Medicare,611.4130859375,437.0,Elective,27/06/2023,Lipitor,Abnormal
+283,fqhiontgb,26.0,Male,A+,Diabetes,25/09/2023,yhxoomvbn,97.0,117.0,0.0,0,,Morris-Harris,Medicare,39484.38916015625,415.0,Elective,05/06/2023,Aspirin,Abnormal
+284,xeegb,,Male,O+,Hypertension,02/08/2022,wmdfq,,100.0,,0,,Mann Inc,UnitedHealthcare,3635.296630859375,287.0,Urgent,30/06/2022,Paracetamol,Normal
+285,aacfa,68.0,,AB-,Asthma,14/12/2024,kkcmelern,100.0,99.0,0.0,0,,Rodriguez-Marshall,Blue Cross,22627.88427734375,490.0,Elective,24/09/2023,Paracetamol,Abnormal
+286,hpoowbr,60.0,,B-,Cancer,03/11/2020,xwtywmm,,97.0,,0,,,Blue Cross,5398.3681640625,106.0,Elective,28/07/2020,Penicillin,Inconclusive
+287,,37.0,Female,B-,Asthma,23/01/2024,iuqhaocu,99.0,114.0,0.0,0,,Gonzalez-Huffman,,5638.3662109375,251.0,Elective,15/10/2022,,Inconclusive
+288,ipxlcsveok,50.0,Male,B+,,23/06/2022,dzidvug,97.0,,,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,44683.435791015625,290.0,Emergency,09/06/2021,,Normal
+289,lfeos,74.0,Female,AB-,Obesity,15/02/2023,zvqmgoon,75.0,97.0,,0,,Morris-Harris,Cigna,13320.83935546875,317.0,Urgent,,Lipitor,Inconclusive
+290,qrgfjs,17.0,Male,A-,Cancer,03/01/2025,pxhwhsc,90.0,116.0,,0,,Wiggins Ltd,Aetna,21407.4013671875,257.0,Urgent,27/07/2022,Ibuprofen,Inconclusive
+291,okhyjt,84.0,Male,AB-,Asthma,15/10/2024,xugzpsfntw,91.0,96.0,0.0,0,,Rodriguez-Marshall,Medicare,4832.06396484375,117.0,Elective,24/05/2020,Aspirin,Normal
+292,urqvby,43.0,Male,A-,Diabetes,18/03/2023,xoxakvuipr,,104.0,0.0,0,,"Figueroa, Davis and Bailey",Medicare,,207.0,Emergency,27/04/2020,Aspirin,Normal
+293,ufvpajvr,46.0,Male,AB+,Obesity,01/09/2023,qxagavx,,103.0,,0,,Wiggins Ltd,Cigna,23808.690185546875,492.0,Urgent,15/11/2023,,
+294,rxdsqo,71.0,Female,AB+,Hypertension,21/06/2021,zbhmg,99.0,,0.0,0,,"Frost, Hernandez and Reynolds",Cigna,13448.29638671875,254.0,,31/01/2022,Paracetamol,Abnormal
+295,mnplvfpntz,46.0,Male,AB-,Cancer,23/04/2020,ltwiy,84.0,119.0,0.0,0,,"Figueroa, Davis and Bailey",Aetna,9470.756103515625,231.0,,25/05/2021,Ibuprofen,Abnormal
+296,jmgoeh,47.0,Female,O+,Asthma,27/08/2021,gqybfkkm,100.0,119.0,,0,,"Frost, Hernandez and Reynolds",Medicare,4923.669921875,322.0,Urgent,21/06/2024,Ibuprofen,Inconclusive
+297,jaytenifc,19.0,Female,AB-,Cancer,17/09/2021,otretc,,100.0,0.0,0,,Mann Inc,Cigna,86697.39575195312,261.0,Urgent,31/12/2024,Penicillin,Abnormal
+298,pnhusywnc,29.0,Male,O+,Asthma,12/11/2024,mfwlntx,,,1.0,0,,Morris-Harris,Medicare,,325.0,Elective,26/10/2023,Aspirin,Normal
+299,dytti,87.0,Male,B-,Asthma,18/11/2020,,96.0,110.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,,157.0,Emergency,19/08/2020,Aspirin,Normal
+300,spsxjw,55.0,Female,O-,Asthma,13/07/2024,ezxwmu,94.0,101.0,,0,,"Moreno, Robinson and Martinez",Cigna,11470.1669921875,376.0,Urgent,16/12/2021,Paracetamol,Inconclusive
+301,lgamkuxq,73.0,Female,O-,Asthma,03/11/2022,ncjcr,95.0,100.0,0.0,0,,Gonzalez-Huffman,,5114.383056640625,320.0,Emergency,01/11/2022,Lipitor,Normal
+302,gtqqfbniew,37.0,Male,,Obesity,30/06/2023,yrzektqig,,120.0,,0,,Morris-Harris,Medicare,2205.398681640625,429.0,Emergency,28/04/2024,Paracetamol,Abnormal
+303,pjtrxq,18.0,Male,B+,Obesity,02/05/2024,hitvkiitq,96.0,102.0,0.0,0,,Mann Inc,Aetna,11359.8466796875,350.0,Elective,20/10/2022,Lipitor,Abnormal
+304,vhzssc,60.0,Male,,Hypertension,10/01/2022,thmdgaw,85.0,100.0,0.0,0,,Mann Inc,,20894.09619140625,331.0,Emergency,29/04/2020,Paracetamol,Abnormal
+305,dvxud,39.0,Female,AB-,Cancer,12/12/2023,ryrezgne,81.0,102.0,,0,,Gonzalez-Huffman,Blue Cross,31350.8349609375,309.0,Elective,,Lipitor,Abnormal
+306,igpyavir,30.0,Male,B+,Diabetes,22/11/2024,hutaso,100.0,97.0,0.0,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,,413.0,Elective,30/09/2024,Ibuprofen,Inconclusive
+307,aifuws,,Male,O-,Obesity,21/02/2024,dlfxnlldd,73.0,102.0,0.0,0,,Mann Inc,Blue Cross,45822.85498046875,116.0,Emergency,10/02/2025,Aspirin,Inconclusive
+308,nolvgyxjlb,80.0,Male,AB-,Diabetes,,,76.0,104.0,,0,,Mann Inc,Blue Cross,2639.026611328125,490.0,Urgent,30/01/2025,Aspirin,Normal
+309,nuteo,77.0,Male,B+,Diabetes,19/06/2020,psovt,77.0,96.0,,0,,"Figueroa, Davis and Bailey",Cigna,6325.68701171875,478.0,Emergency,11/11/2020,Penicillin,Abnormal
+310,yfjhqpdi,,Male,B-,Diabetes,06/05/2021,rmrkdnwqf,,117.0,0.0,0,,Gonzalez-Huffman,Medicare,15734.843505859375,180.0,Elective,23/01/2025,Paracetamol,Abnormal
+311,voonovxkv,21.0,Male,AB+,,02/04/2023,,,99.0,0.0,0,,,Blue Cross,8182.0703125,164.0,Elective,21/04/2020,,Inconclusive
+312,kvhbnclq,40.0,Female,AB-,Arthritis,24/10/2020,gfsyxpql,99.0,97.0,0.0,0,,Rodriguez-Marshall,Medicare,1495.3330078125,462.0,Elective,21/02/2025,Penicillin,Inconclusive
+313,iijtrky,88.0,Male,B+,Cancer,08/07/2020,,,115.0,0.0,0,,Rodriguez-Marshall,,20564.1181640625,412.0,Urgent,,Lipitor,Inconclusive
+314,bliglm,13.0,Female,AB+,Obesity,23/09/2022,tunseeur,73.0,115.0,0.0,0,,Morris-Harris,,50025.52001953125,399.0,Elective,13/04/2021,Ibuprofen,Inconclusive
+315,,86.0,Female,B-,Arthritis,23/02/2024,rzgvstww,,98.0,0.0,0,,Rodriguez-Marshall,Blue Cross,2578.93798828125,469.0,Elective,16/02/2023,Lipitor,Normal
+316,vmztr,75.0,Female,AB+,Asthma,18/03/2022,lahqxsjy,95.0,,1.0,0,,Morris-Harris,UnitedHealthcare,10265.209228515625,142.0,,17/02/2021,Penicillin,Normal
+317,stsaihtx,48.0,Female,B+,Cancer,25/09/2022,meticznz,,101.0,0.0,0,,Wiggins Ltd,Aetna,19214.964599609375,369.0,Emergency,20/04/2021,Paracetamol,Abnormal
+318,,87.0,Female,O-,Hypertension,19/02/2024,weqcczez,,112.0,0.0,0,,"Figueroa, Davis and Bailey",Cigna,10691.28857421875,234.0,Urgent,24/06/2023,Paracetamol,Normal
+319,pzudtzvhph,71.0,Male,B+,Hypertension,19/03/2023,zpddqiws,91.0,115.0,0.0,0,,Gonzalez-Huffman,Cigna,7216.03662109375,488.0,Elective,20/01/2024,Lipitor,Inconclusive
+320,vdpchedrxg,33.0,,,Asthma,10/10/2024,bxecjwqkqx,84.0,113.0,,0,,Morris-Harris,UnitedHealthcare,52196.40966796875,393.0,Elective,30/01/2025,Paracetamol,Inconclusive
+321,pcbubh,77.0,Female,AB-,Obesity,22/02/2022,nsuzggwfq,74.0,116.0,,0,,Wiggins Ltd,Cigna,775.83984375,273.0,Urgent,13/10/2020,Aspirin,Normal
+322,druwv,20.0,Female,B-,Asthma,02/09/2024,mnrcrvzdkg,94.0,103.0,0.0,0,,Cook PLC,UnitedHealthcare,5119.9404296875,,Elective,10/11/2021,Aspirin,Inconclusive
+323,gwpozxuzu,67.0,Male,A-,Asthma,27/01/2024,fbmnhljns,79.0,118.0,1.0,0,,Mann Inc,Cigna,5725.842041015625,140.0,Elective,04/02/2025,Ibuprofen,Inconclusive
+324,brmkny,,Female,O-,Arthritis,01/10/2022,hhkvmbch,96.0,101.0,0.0,0,,Rodriguez-Marshall,Medicare,45271.855224609375,427.0,Urgent,,Paracetamol,Normal
+325,mmzwbgohf,20.0,Female,O+,Asthma,20/05/2023,,91.0,99.0,0.0,0,,Wiggins Ltd,Blue Cross,23588.3662109375,125.0,Elective,10/09/2021,Lipitor,Abnormal
+326,kbdkcernr,74.0,Female,A-,,13/11/2020,lapmvtn,100.0,103.0,0.0,0,,,Cigna,17809.06884765625,166.0,Elective,31/01/2025,Aspirin,Abnormal
+327,gfszvmx,79.0,Male,O+,Arthritis,03/01/2021,bcwlpxijbr,100.0,117.0,0.0,0,,Wiggins Ltd,Medicare,1414.29931640625,485.0,Emergency,20/02/2025,Paracetamol,Normal
+328,dceynlp,61.0,Male,A-,Cancer,08/12/2024,updrm,,100.0,,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,2575.460693359375,128.0,Elective,26/04/2021,Paracetamol,Abnormal
+329,djjqymmev,,Male,AB+,Asthma,25/08/2020,jtivcte,91.0,118.0,,0,,Wiggins Ltd,Blue Cross,12869.953125,471.0,Elective,08/06/2022,,Abnormal
+330,jxoygtodky,45.0,Female,O+,Hypertension,23/05/2021,ztjsomq,74.0,114.0,0.0,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,22293.619140625,424.0,Urgent,12/10/2020,Ibuprofen,Inconclusive
+331,ailfvxga,82.0,Male,O+,Obesity,16/01/2023,cswgsim,89.0,116.0,,0,,Morris-Harris,Aetna,7509.94287109375,477.0,Emergency,11/09/2023,Ibuprofen,Inconclusive
+332,ihuis,35.0,Male,B-,Asthma,14/04/2022,pygpqnnbx,100.0,,,0,,Gonzalez-Huffman,Medicare,16962.03271484375,285.0,Urgent,04/05/2023,Aspirin,Inconclusive
+333,itmoabyoo,66.0,Female,,Diabetes,26/03/2023,lhkkzrwyk,84.0,117.0,0.0,0,,,Medicare,50346.75927734375,422.0,Emergency,,,Abnormal
+334,qgefpjlf,84.0,Male,A-,Obesity,14/09/2024,puonar,73.0,103.0,0.0,0,,"Figueroa, Davis and Bailey",Medicare,1828.737548828125,152.0,Emergency,08/10/2023,Lipitor,Abnormal
+335,sjoku,87.0,Female,B+,Hypertension,10/10/2021,cbkwydkiy,85.0,101.0,0.0,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,169.12744140625,344.0,Urgent,29/12/2024,Paracetamol,Abnormal
+336,ckmixbkke,45.0,Male,B+,Arthritis,24/08/2024,sjjujuoav,91.0,114.0,0.0,0,,Morris-Harris,Medicare,354.519287109375,205.0,Emergency,30/04/2024,Paracetamol,Abnormal
+337,fxuckfpbtu,27.0,Female,AB-,Arthritis,22/05/2020,wyteqvsd,100.0,104.0,0.0,0,,Cook PLC,Aetna,1292.12646484375,153.0,Elective,01/09/2020,Lipitor,Normal
+338,ggumdddy,70.0,Male,AB-,Cancer,16/10/2020,sgbsscvd,73.0,104.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,51140.01416015625,384.0,Emergency,12/04/2020,Paracetamol,Abnormal
+339,agvtqp,,Male,A+,Cancer,22/04/2024,avlih,,104.0,,0,,Gonzalez-Huffman,Blue Cross,3579.976806640625,106.0,Emergency,27/03/2021,Paracetamol,Normal
+340,culgzcll,,Male,A+,Cancer,16/06/2022,silaw,,118.0,0.0,0,,Mann Inc,UnitedHealthcare,16647.6591796875,442.0,Emergency,02/08/2022,Ibuprofen,Inconclusive
+341,hptqvdfzan,65.0,Male,O+,Arthritis,08/11/2020,,,110.0,0.0,0,,Morris-Harris,Blue Cross,76689.77124023438,222.0,Urgent,08/06/2024,Penicillin,Normal
+342,idljydndl,28.0,Male,B+,Arthritis,02/02/2025,zyakbgqtx,,120.0,0.0,0,,Wiggins Ltd,Aetna,,180.0,Elective,,Ibuprofen,Inconclusive
+343,fcrkabrovk,78.0,Male,B-,Diabetes,05/06/2024,tyslxlehb,,116.0,0.0,0,,Morris-Harris,Medicare,8549.875732421875,486.0,Emergency,13/02/2025,Ibuprofen,Normal
+344,rlxfjkch,28.0,Male,O+,Obesity,28/10/2023,buqffxl,98.0,101.0,,0,,Wiggins Ltd,Aetna,9431.968994140625,147.0,,13/04/2020,Penicillin,Inconclusive
+345,blfljaf,55.0,Male,A-,Hypertension,02/06/2022,pzapcwjr,,102.0,0.0,0,,"Coleman, Cabrera and Barnett",Medicare,25883.4013671875,311.0,Elective,29/12/2024,Paracetamol,Normal
+346,jxxrigurls,44.0,Female,AB-,Asthma,29/10/2024,duhdw,93.0,102.0,0.0,0,,"Frost, Hernandez and Reynolds",UnitedHealthcare,25170.216064453125,196.0,,29/01/2021,Paracetamol,Abnormal
+347,thtvr,71.0,Male,A-,Obesity,21/07/2023,sylyunxw,,95.0,,0,,Morris-Harris,Aetna,19137.94287109375,469.0,Urgent,11/12/2024,Aspirin,Normal
+348,wweyqahb,62.0,Female,,Obesity,,,81.0,116.0,0.0,0,,"Moreno, Robinson and Martinez",,7114.676513671875,108.0,Urgent,16/04/2020,Penicillin,Inconclusive
+349,gyflzhp,69.0,,A-,Asthma,29/09/2024,utkqvp,79.0,,0.0,0,,"Coleman, Cabrera and Barnett",Blue Cross,21873.46240234375,329.0,Elective,01/09/2024,Lipitor,Inconclusive
+350,,60.0,,AB+,Asthma,,mhstvs,85.0,113.0,0.0,0,,"Moreno, Robinson and Martinez",Aetna,25042.554443359375,253.0,Urgent,09/07/2024,Aspirin,Normal
+351,wmpzovnpte,63.0,Male,AB-,Asthma,20/06/2024,anotnb,95.0,102.0,,0,,Morris-Harris,Aetna,19639.42724609375,137.0,Urgent,13/05/2023,Ibuprofen,Inconclusive
+352,ldpts,36.0,Male,B-,Obesity,06/04/2021,aycxq,95.0,104.0,0.0,0,,Rodriguez-Marshall,Cigna,11967.423095703125,387.0,Urgent,21/08/2024,Lipitor,Abnormal
+353,sjxekt,59.0,Female,A-,,19/04/2021,jlucdnz,96.0,113.0,,0,,Cook PLC,Blue Cross,10633.497802734375,178.0,,07/07/2024,Paracetamol,Normal
+354,gtjwfq,42.0,Female,,Hypertension,31/10/2021,jqvveaxbqs,74.0,104.0,0.0,0,,Rodriguez-Marshall,Cigna,15717.922119140625,116.0,Urgent,04/02/2025,Ibuprofen,Abnormal
+355,vpbfxvx,63.0,Male,,Hypertension,23/03/2021,fxmold,84.0,113.0,,0,,"Figueroa, Davis and Bailey",Cigna,2232.889892578125,224.0,Emergency,05/02/2025,Penicillin,Inconclusive
+356,euedujy,,Female,AB-,Asthma,08/09/2021,ncsczwo,95.0,,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,11466.699462890625,289.0,,12/06/2022,Aspirin,Abnormal
+357,qnziivo,35.0,Male,AB+,Asthma,05/05/2020,ydvposlxu,100.0,116.0,0.0,0,,Rodriguez-Marshall,Aetna,3829.87646484375,465.0,Urgent,15/03/2023,,Normal
+358,wfusegggc,60.0,Female,AB-,Cancer,20/04/2024,jdqqeut,89.0,112.0,0.0,0,,Mann Inc,Medicare,47458.951416015625,354.0,Urgent,08/12/2024,Aspirin,Abnormal
+359,qqqlxgtet,36.0,Male,AB-,Hypertension,11/12/2023,frwughg,95.0,105.0,,0,,Rodriguez-Marshall,Aetna,15606.8994140625,315.0,Urgent,01/03/2024,Ibuprofen,Abnormal
+360,ohbhidgyq,43.0,Female,AB-,Asthma,20/04/2020,wvuwir,86.0,116.0,,0,,Rodriguez-Marshall,UnitedHealthcare,52827.17529296875,106.0,Elective,07/10/2024,Penicillin,Abnormal
+361,mxdectxz,49.0,Male,A+,Asthma,27/02/2025,sbxtr,91.0,101.0,,0,,"Frost, Hernandez and Reynolds",Blue Cross,8261.486328125,243.0,Emergency,19/04/2020,Paracetamol,Inconclusive
+362,dhzxuad,27.0,Female,A-,Diabetes,25/08/2024,cjtgrtng,88.0,118.0,,0,,Mann Inc,Medicare,13172.302001953125,304.0,Urgent,05/03/2021,Ibuprofen,Abnormal
+363,ernhir,23.0,Female,A-,,04/12/2022,owffnxi,85.0,117.0,0.0,0,,Wiggins Ltd,Cigna,12781.703369140625,205.0,Urgent,22/10/2020,Paracetamol,Inconclusive
+364,rkaljog,47.0,Male,B-,Cancer,23/01/2022,xshonoi,95.0,116.0,0.0,0,,Cook PLC,Medicare,4318.165771484375,456.0,Elective,08/09/2024,Aspirin,Inconclusive
+365,qvbed,21.0,Male,B+,Cancer,,zeswxd,96.0,114.0,1.0,0,,Morris-Harris,Aetna,6262.0146484375,191.0,Emergency,26/03/2023,Ibuprofen,Normal
+366,irthxxjlsh,84.0,Female,,Cancer,22/12/2023,fggrgq,99.0,115.0,,0,,Mann Inc,Aetna,23324.55517578125,187.0,Emergency,02/02/2025,Penicillin,Inconclusive
+367,txpndfpt,35.0,Male,A-,Asthma,14/07/2023,afklyo,75.0,99.0,0.0,0,,"Figueroa, Davis and Bailey",Blue Cross,7240.892333984375,272.0,Urgent,18/03/2024,Aspirin,Abnormal
+368,pdnrsf,76.0,Male,,Asthma,25/07/2024,eddiilbqhp,98.0,115.0,0.0,0,,Gonzalez-Huffman,Cigna,2227.41357421875,438.0,Elective,04/07/2020,Lipitor,Normal
+369,ijzcaslz,56.0,Female,B+,Diabetes,29/04/2022,qbophufp,88.0,105.0,0.0,0,,Mann Inc,,643.40673828125,246.0,Emergency,25/12/2020,Ibuprofen,Inconclusive
+370,rjtenqph,78.0,Male,A-,Obesity,22/03/2024,qqhpurg,83.0,103.0,0.0,0,,Rodriguez-Marshall,Cigna,19823.446533203125,465.0,Emergency,14/01/2025,Aspirin,Normal
+371,hsopytem,85.0,Male,AB-,Hypertension,21/08/2024,ondxjw,100.0,117.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,1002.1123046875,303.0,Emergency,25/09/2022,Lipitor,Inconclusive
+372,huraixupd,60.0,,O+,Diabetes,05/01/2023,pinaxvyv,,98.0,,0,,Rodriguez-Marshall,UnitedHealthcare,3131.05712890625,442.0,Urgent,01/10/2021,Penicillin,Abnormal
+373,kofmqjtux,72.0,Male,AB-,Hypertension,21/04/2024,xrpce,74.0,116.0,0.0,0,,"Frost, Hernandez and Reynolds",Cigna,13372.9404296875,351.0,Elective,21/01/2025,Lipitor,Abnormal
+374,uwkdg,26.0,Female,O+,Hypertension,24/04/2021,pgzrohit,81.0,114.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,,295.0,,,Penicillin,Abnormal
+375,oromriaedu,79.0,Female,AB-,Asthma,13/04/2023,xcgtgun,73.0,98.0,0.0,0,,"Figueroa, Davis and Bailey",Cigna,4050.1337890625,439.0,Emergency,18/09/2020,Penicillin,Normal
+376,bfqfg,79.0,Female,AB-,,,nbbxplrt,89.0,113.0,0.0,0,,Morris-Harris,Medicare,40464.55029296875,417.0,Elective,23/12/2022,Aspirin,Normal
+377,wcwgcuie,51.0,Female,O+,Cancer,,butyna,100.0,115.0,0.0,0,,"Coleman, Cabrera and Barnett",Aetna,,345.0,,11/10/2024,Aspirin,Inconclusive
+378,ytvqquhlw,19.0,,AB+,Arthritis,31/07/2021,znukxzezk,74.0,97.0,0.0,0,,"Coleman, Cabrera and Barnett",Blue Cross,22356.434326171875,254.0,Emergency,13/02/2025,Penicillin,Inconclusive
+379,efskupfu,59.0,Male,B-,Obesity,26/08/2024,gnocabimge,80.0,119.0,0.0,0,,Wiggins Ltd,Aetna,42382.736328125,374.0,Elective,14/05/2024,Aspirin,Abnormal
+380,ttmrnbt,76.0,Male,B-,Cancer,20/05/2024,vnrgcg,93.0,116.0,,0,,"Moreno, Robinson and Martinez",Cigna,,261.0,Emergency,20/12/2023,Paracetamol,Abnormal
+381,gxjaqev,49.0,Male,AB-,Arthritis,04/06/2022,fgijslzk,85.0,103.0,0.0,0,,"Moreno, Robinson and Martinez",Cigna,9948.965087890625,391.0,Emergency,15/04/2024,Ibuprofen,Inconclusive
+382,vcdbdysvm,23.0,Female,B-,Arthritis,11/11/2020,yjjjklgga,,114.0,0.0,0,,"Figueroa, Davis and Bailey",Blue Cross,458.635986328125,404.0,Emergency,17/02/2025,Aspirin,Normal
+383,plffwxb,56.0,Female,O+,Asthma,07/07/2022,lujiqsm,88.0,117.0,0.0,0,,Rodriguez-Marshall,Aetna,54029.909912109375,311.0,Elective,21/10/2024,Paracetamol,Inconclusive
+384,afuzd,53.0,Male,B+,Arthritis,31/10/2020,aumldp,99.0,112.0,,0,,"Frost, Hernandez and Reynolds",Aetna,3751.681884765625,473.0,Emergency,26/04/2024,,Abnormal
+385,ekjufvm,61.0,Female,B+,,12/09/2020,mtzcf,77.0,115.0,,0,,Morris-Harris,Cigna,2816.851318359375,149.0,Urgent,09/09/2021,Lipitor,Abnormal
+386,kcruimpn,61.0,Male,AB-,Diabetes,08/10/2023,chfkiyb,85.0,104.0,0.0,0,,Wiggins Ltd,UnitedHealthcare,13221.152099609375,295.0,Elective,02/04/2021,Penicillin,Abnormal
+387,zkassodzt,88.0,Male,B-,Asthma,12/01/2025,zppah,,,0.0,0,,Rodriguez-Marshall,Medicare,6969.379638671875,456.0,Urgent,25/02/2021,Lipitor,Inconclusive
+388,qsysku,82.0,,A-,Diabetes,21/07/2021,ztoan,90.0,100.0,,0,,Rodriguez-Marshall,Medicare,8882.478759765625,463.0,Emergency,30/04/2021,Lipitor,Abnormal
+389,ppfwg,74.0,Male,B+,Diabetes,,jkffcu,92.0,115.0,,0,,Gonzalez-Huffman,Aetna,69834.17846679688,386.0,Emergency,13/07/2024,Lipitor,Abnormal
+390,bvanjj,32.0,Male,A-,Asthma,11/07/2021,cbqvrkzth,74.0,101.0,0.0,0,,Wiggins Ltd,Cigna,36751.50390625,212.0,Urgent,,Lipitor,Inconclusive
+391,dcfyrx,17.0,Female,AB+,Diabetes,13/10/2023,psxmhlwzb,73.0,,0.0,0,,Morris-Harris,UnitedHealthcare,9506.143798828125,230.0,Emergency,08/05/2021,Paracetamol,Abnormal
+392,vigpsc,,Male,A-,,15/07/2024,jerwhxkzba,89.0,94.0,0.0,0,,Morris-Harris,Blue Cross,19940.299560546875,468.0,Emergency,30/01/2023,Lipitor,Normal
+393,bbxgojep,19.0,Male,AB+,Arthritis,19/11/2024,vjjsvjgx,79.0,,,0,,Mann Inc,Aetna,26596.06396484375,167.0,Emergency,20/05/2022,,Inconclusive
+394,awkyvkh,75.0,Male,AB+,Cancer,11/07/2020,gnlbaf,90.0,117.0,,0,,"Coleman, Cabrera and Barnett",Blue Cross,63083.98779296875,176.0,Emergency,17/06/2024,Aspirin,Inconclusive
+395,lldffntd,41.0,Male,O+,Hypertension,28/10/2021,jmora,,99.0,0.0,0,,"Coleman, Cabrera and Barnett",Aetna,17284.758544921875,496.0,Emergency,05/10/2024,Paracetamol,Abnormal
+396,acplmuy,69.0,Male,B+,Diabetes,06/05/2021,faziaf,98.0,116.0,,0,,"Moreno, Robinson and Martinez",Cigna,11087.748046875,461.0,Urgent,22/05/2020,Paracetamol,Abnormal
+397,gxehhke,,Female,A-,Obesity,09/09/2021,fxawe,100.0,114.0,0.0,0,,"Figueroa, Davis and Bailey",Cigna,35885.826416015625,150.0,Urgent,29/03/2022,Lipitor,Normal
+398,,,Male,B-,Obesity,28/05/2020,vxcfngksrw,,112.0,0.0,0,,Morris-Harris,Aetna,,442.0,Urgent,12/04/2020,Paracetamol,Normal
+399,gypxmeoo,18.0,Female,B+,,07/10/2022,,85.0,101.0,1.0,0,,Gonzalez-Huffman,Medicare,12817.272216796875,356.0,Urgent,07/03/2024,Paracetamol,Abnormal
+400,smduxmkb,42.0,Male,O+,Asthma,01/02/2024,ajntn,99.0,101.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,2731.530029296875,448.0,Emergency,14/01/2022,Aspirin,Normal
+401,ubuww,32.0,Female,B+,Hypertension,19/09/2020,kbbklwcn,83.0,,0.0,0,,"Coleman, Cabrera and Barnett",UnitedHealthcare,11226.88427734375,421.0,Elective,24/03/2024,Aspirin,Inconclusive
+402,cobkska,38.0,,O+,Arthritis,24/12/2021,rqszcxg,74.0,116.0,0.0,0,,"Coleman, Cabrera and Barnett",Medicare,8387.783203125,406.0,Elective,25/09/2021,Ibuprofen,Normal
+403,dmxpnbpzl,23.0,Male,O+,Cancer,20/12/2021,jblzip,89.0,102.0,0.0,0,,Gonzalez-Huffman,Medicare,6925.915771484375,351.0,Emergency,23/06/2021,Ibuprofen,Normal
+404,yyuyhas,14.0,Male,AB+,Arthritis,06/10/2024,zaxmahf,100.0,98.0,,0,,Wiggins Ltd,UnitedHealthcare,10310.590576171875,289.0,Elective,05/07/2021,Ibuprofen,Inconclusive
+405,meawqekr,19.0,,A-,Cancer,10/05/2020,xxjtey,81.0,118.0,0.0,0,,Mann Inc,Cigna,9548.20458984375,395.0,Emergency,09/06/2024,Aspirin,Abnormal
+406,vlrzt,75.0,Female,B-,Arthritis,09/06/2023,samfwcrdkp,90.0,114.0,1.0,0,,Morris-Harris,UnitedHealthcare,15565.75927734375,204.0,Urgent,07/06/2024,Ibuprofen,Inconclusive
+407,nngyswb,45.0,Male,AB-,Asthma,31/01/2023,igjxnyhotb,74.0,107.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,2344.107177734375,121.0,Emergency,20/12/2024,Paracetamol,Inconclusive
+408,jppkyqsk,30.0,Female,A-,Asthma,30/09/2022,ldxhp,,102.0,0.0,0,,Morris-Harris,Blue Cross,13013.99169921875,180.0,Elective,23/01/2025,Aspirin,Abnormal
+409,sxkjmbx,37.0,Male,AB+,Cancer,14/06/2021,lvloer,80.0,115.0,,0,,Morris-Harris,Medicare,11699.580322265625,279.0,Urgent,26/12/2023,Paracetamol,Normal
+410,eyuqyouh,35.0,Male,AB+,Arthritis,09/01/2022,jjaapirpo,82.0,101.0,0.0,0,,"Moreno, Robinson and Martinez",Aetna,9463.896240234375,495.0,Elective,26/05/2024,Penicillin,Inconclusive
+411,nlapts,67.0,,B+,Diabetes,16/08/2021,cabvogeeq,,117.0,0.0,0,,"Frost, Hernandez and Reynolds",Blue Cross,66689.44091796875,413.0,Urgent,10/06/2020,Paracetamol,Normal
+412,kjxukho,42.0,Female,A-,Arthritis,28/01/2025,lufltiumgw,90.0,117.0,0.0,0,,Gonzalez-Huffman,Aetna,3775.802978515625,112.0,Elective,20/02/2025,Penicillin,Inconclusive
+413,xqofpcma,66.0,Female,B-,Arthritis,10/09/2021,knygldtso,96.0,116.0,,0,,Morris-Harris,Medicare,382.44140625,337.0,Urgent,,Aspirin,Normal
+414,kcilt,78.0,Male,A-,Obesity,03/08/2021,kumovyqay,100.0,103.0,0.0,0,,"Moreno, Robinson and Martinez",Aetna,21368.77783203125,478.0,Emergency,04/01/2024,Lipitor,Abnormal
+415,xtqvoul,68.0,Female,AB-,Asthma,22/11/2021,dxqkhd,89.0,96.0,0.0,0,,Gonzalez-Huffman,Aetna,22041.4853515625,429.0,Emergency,21/08/2020,Paracetamol,Inconclusive
+416,dpvyzt,74.0,Male,AB-,Asthma,12/01/2021,ffcppnkqwn,,105.0,,0,,"Frost, Hernandez and Reynolds",UnitedHealthcare,17762.6591796875,284.0,Emergency,06/02/2023,Paracetamol,Abnormal
+417,rirdphe,14.0,Male,B+,Asthma,03/12/2021,yanxe,91.0,117.0,0.0,0,,Rodriguez-Marshall,Aetna,3391.46337890625,465.0,Emergency,16/03/2022,Lipitor,Inconclusive
+418,ebtuxdest,24.0,Male,B+,Diabetes,15/10/2020,atxhy,76.0,104.0,0.0,0,,Rodriguez-Marshall,Aetna,184.7919921875,107.0,Urgent,13/11/2024,Penicillin,Normal
+419,wnbwxfdy,82.0,Male,AB+,Arthritis,23/09/2022,gsfplm,100.0,119.0,0.0,0,,Rodriguez-Marshall,Aetna,65344.901123046875,169.0,Urgent,24/04/2021,Ibuprofen,Inconclusive
+420,leglso,63.0,Female,B-,Hypertension,30/09/2023,mqkbizgxkf,84.0,117.0,0.0,0,,Wiggins Ltd,,56898.451416015625,185.0,Elective,24/09/2024,Paracetamol,Inconclusive
+421,ftmkcj,85.0,Male,AB-,Arthritis,17/11/2020,mccwbv,95.0,118.0,0.0,0,,Rodriguez-Marshall,Blue Cross,3033.34228515625,467.0,Elective,16/10/2024,,Abnormal
+422,,87.0,Male,AB-,Cancer,,jhbtlkfie,99.0,118.0,,0,,Mann Inc,Aetna,41504.82275390625,225.0,Emergency,15/06/2023,Penicillin,Abnormal
+423,kcmgk,31.0,Male,A+,,14/06/2021,fjsvmck,,120.0,0.0,0,,"Coleman, Cabrera and Barnett",UnitedHealthcare,29765.686767578125,382.0,Urgent,,Paracetamol,Normal
+424,fpcdfrbgb,61.0,,O+,Arthritis,30/03/2024,odqexorqod,,98.0,,0,,Morris-Harris,Cigna,12233.479248046875,240.0,Elective,23/10/2021,Paracetamol,Abnormal
+425,nmicb,80.0,Male,AB+,Arthritis,25/09/2024,otjsoutpph,83.0,100.0,0.0,0,,Rodriguez-Marshall,Blue Cross,4064.743408203125,222.0,,14/01/2025,Aspirin,Abnormal
+426,yslwig,83.0,Female,A-,Diabetes,25/08/2023,wphfv,,99.0,0.0,0,,Rodriguez-Marshall,Blue Cross,5445.243408203125,460.0,Elective,23/01/2022,Lipitor,Inconclusive
+427,tqddix,63.0,Male,O+,Diabetes,28/08/2022,,78.0,115.0,0.0,0,,Rodriguez-Marshall,Aetna,7642.101806640625,482.0,Emergency,26/11/2023,Lipitor,
+428,hxwosrsng,13.0,Male,B-,Asthma,,nrfzne,98.0,103.0,0.0,0,,Morris-Harris,,74244.89428710938,308.0,Urgent,16/10/2023,Aspirin,Abnormal
+429,igrxkf,68.0,Male,B+,Hypertension,18/12/2021,hftgstnttj,99.0,119.0,,0,,"Figueroa, Davis and Bailey",Blue Cross,16004.970703125,215.0,Urgent,23/09/2021,Aspirin,Inconclusive
+430,fdcqlb,33.0,Female,AB-,Arthritis,,fmvgbniet,89.0,,,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,1754.368408203125,456.0,Emergency,30/12/2022,Lipitor,Normal
+431,,80.0,Female,O+,Arthritis,12/10/2024,pczeatictk,,,0.0,0,,Mann Inc,Medicare,21614.25341796875,482.0,Elective,,Lipitor,Inconclusive
+432,igejqplu,19.0,Male,A-,Arthritis,04/02/2024,ewikxli,,100.0,0.0,0,,Wiggins Ltd,Blue Cross,23387.749755859375,257.0,Urgent,10/05/2020,Aspirin,Normal
+433,fjsxoumrn,34.0,Female,B-,Hypertension,17/08/2024,czyvjoa,80.0,,0.0,0,,Morris-Harris,Aetna,39128.54296875,293.0,Urgent,30/04/2023,Ibuprofen,Abnormal
+434,bmsdwj,78.0,Male,O+,Cancer,30/10/2020,nzelgb,,112.0,0.0,0,,Morris-Harris,,8549.456787109375,222.0,Urgent,15/09/2024,Penicillin,Abnormal
+435,cmwqcmjbw,30.0,Male,B+,Asthma,31/07/2020,uyfcbnn,100.0,103.0,,0,,Rodriguez-Marshall,Aetna,2878.91943359375,247.0,Elective,05/10/2024,Paracetamol,Abnormal
+436,yhbfjoop,59.0,Female,AB-,Arthritis,25/11/2021,ojamhdweg,,101.0,0.0,0,,Morris-Harris,UnitedHealthcare,7507.537841796875,259.0,Urgent,01/10/2020,,Abnormal
+437,zcuhhmfqu,70.0,Male,A+,,29/11/2021,ksotndybi,86.0,114.0,,0,,Rodriguez-Marshall,UnitedHealthcare,12235.7666015625,,Emergency,13/02/2025,Lipitor,Inconclusive
+438,koohnsv,48.0,,AB+,Diabetes,17/03/2021,bfumkvgoyi,88.0,,0.0,0,,Rodriguez-Marshall,Medicare,12998.152587890625,152.0,Emergency,20/04/2022,Paracetamol,Normal
+439,presjmcqaw,18.0,Male,AB-,Arthritis,31/05/2020,twhdbe,100.0,100.0,0.0,0,,Wiggins Ltd,Blue Cross,31825.844482421875,329.0,Elective,01/10/2021,Ibuprofen,Abnormal
+440,jwlxvdl,49.0,Male,A-,Cancer,25/04/2023,dqsxsil,97.0,98.0,0.0,0,,Morris-Harris,Cigna,22814.54296875,193.0,,28/06/2020,Ibuprofen,
+441,jlxni,69.0,Female,AB+,Obesity,20/08/2024,pkgzmgfms,84.0,103.0,0.0,0,,Morris-Harris,UnitedHealthcare,11069.773193359375,365.0,Emergency,21/07/2024,Ibuprofen,Normal
+442,hobrsqm,72.0,Male,O-,Asthma,25/01/2023,exrlmyq,100.0,,,0,,Morris-Harris,Medicare,1760.83642578125,108.0,Elective,17/01/2022,Ibuprofen,Abnormal
+443,emcnkjggz,37.0,,O+,Asthma,24/06/2024,qkgic,97.0,113.0,0.0,0,,Morris-Harris,Medicare,2366.0849609375,245.0,Emergency,21/11/2024,Penicillin,Abnormal
+444,oqsgzyf,88.0,Male,AB-,Obesity,15/06/2023,,83.0,116.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,37858.959716796875,250.0,Urgent,13/01/2025,Lipitor,Abnormal
+445,rilejry,60.0,Male,O+,Obesity,08/09/2024,aeweqnon,100.0,106.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,5053.215087890625,452.0,Urgent,24/07/2024,Paracetamol,Normal
+446,rjskz,63.0,Male,A-,Diabetes,14/10/2020,gttyvt,74.0,115.0,0.0,0,,Cook PLC,Medicare,13928.5810546875,298.0,Urgent,27/01/2024,Paracetamol,Normal
+447,viauxwf,35.0,Male,B+,,,qfnqbjeoid,,112.0,,0,,Wiggins Ltd,UnitedHealthcare,21699.50048828125,235.0,Elective,04/11/2020,Penicillin,Normal
+448,ckxdp,65.0,Male,O+,Arthritis,17/05/2021,xhtuwb,97.0,115.0,0.0,0,,"Coleman, Cabrera and Barnett",Cigna,41322.0966796875,402.0,Elective,10/12/2022,Ibuprofen,Normal
+449,xevvravmh,18.0,Male,,Obesity,23/08/2021,jbzakold,92.0,114.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,94261.96655273438,233.0,Emergency,12/07/2021,Aspirin,Inconclusive
+450,hoxzrlci,75.0,Male,B+,Hypertension,10/04/2024,eoctasjv,99.0,106.0,0.0,0,,"Coleman, Cabrera and Barnett",Aetna,28953.682373046875,402.0,Emergency,12/10/2020,Penicillin,Abnormal
+451,upzhon,49.0,Male,A-,Arthritis,23/03/2021,ixcsfadf,81.0,,,0,,Rodriguez-Marshall,Aetna,40136.113525390625,417.0,Urgent,09/12/2024,Aspirin,Normal
+452,dcowroc,,Female,O+,Asthma,08/07/2020,iajay,78.0,,,0,,Mann Inc,Medicare,26881.335693359375,119.0,Elective,12/05/2024,Paracetamol,Normal
+453,etrkrnso,88.0,Male,AB+,,23/12/2023,iofayel,76.0,118.0,,0,,"Coleman, Cabrera and Barnett",Aetna,109490.81518554688,323.0,Elective,14/09/2024,Aspirin,Inconclusive
+454,rxhbxps,73.0,Male,A+,Cancer,03/03/2022,gcjhcddx,99.0,115.0,0.0,0,,,Medicare,15732.572021484375,146.0,Elective,01/07/2020,Paracetamol,Normal
+455,bkzjadisj,42.0,Male,AB+,Diabetes,23/06/2021,udwrbmxa,94.0,116.0,,0,,Rodriguez-Marshall,UnitedHealthcare,7167.105224609375,156.0,Urgent,10/03/2024,Lipitor,Abnormal
+456,lydbyo,24.0,Male,AB+,,,ybfin,,106.0,0.0,0,,"Frost, Hernandez and Reynolds",Blue Cross,62907.638671875,302.0,Elective,25/11/2020,Aspirin,Normal
+457,ymajzkyex,32.0,Female,A-,Hypertension,13/08/2020,cvlxyiqekh,99.0,99.0,0.0,0,,Mann Inc,Aetna,15746.298828125,263.0,,01/09/2024,Paracetamol,Abnormal
+458,yhnwp,79.0,Male,B+,Diabetes,27/01/2023,bjfzwrsiy,,115.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,5230.3564453125,481.0,Urgent,29/07/2020,Lipitor,Inconclusive
+459,bembowf,62.0,Female,A+,Arthritis,02/02/2021,rsawas,,113.0,0.0,0,,Gonzalez-Huffman,,3259.01171875,358.0,Urgent,31/10/2024,Aspirin,Inconclusive
+460,unuag,,Male,AB-,Diabetes,07/11/2022,dajwydgne,92.0,104.0,0.0,0,,Morris-Harris,Aetna,18641.208984375,198.0,Emergency,18/04/2020,Lipitor,Inconclusive
+461,ohjshujthc,18.0,Male,AB-,Asthma,07/06/2021,ernjwrj,73.0,112.0,0.0,0,,Rodriguez-Marshall,Blue Cross,4453.35888671875,359.0,Elective,20/10/2022,Aspirin,Normal
+462,usqty,66.0,,B+,Arthritis,18/07/2020,tpfunnmaqg,,102.0,0.0,0,,"Coleman, Cabrera and Barnett",Cigna,489.98583984375,271.0,Urgent,05/02/2023,Penicillin,Abnormal
+463,yzzhhnkowt,26.0,Male,B+,Hypertension,29/11/2020,gqgdsnxads,,96.0,0.0,0,,"Coleman, Cabrera and Barnett",Cigna,1198.950439453125,367.0,Emergency,03/02/2024,Penicillin,Inconclusive
+464,eacwr,86.0,Male,A-,Diabetes,15/06/2023,iozjiblj,84.0,,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,8900.12060546875,186.0,Elective,24/06/2024,Penicillin,Abnormal
+465,dggsy,58.0,Male,A-,Diabetes,21/02/2023,pjxiduuyu,73.0,101.0,0.0,0,,Wiggins Ltd,UnitedHealthcare,30782.9873046875,,Urgent,21/02/2025,Aspirin,Normal
+466,kmdaxsk,72.0,Male,AB-,Cancer,06/01/2021,rshjp,99.0,119.0,0.0,0,,"Moreno, Robinson and Martinez",Cigna,68180.28881835938,439.0,Urgent,10/10/2021,Penicillin,Abnormal
+467,ocfde,76.0,Female,O+,Arthritis,29/06/2023,ayjfvlbxz,94.0,116.0,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,26787.37646484375,100.0,Emergency,23/04/2021,Aspirin,Abnormal
+468,ehebidznl,19.0,Female,B+,Cancer,23/11/2024,,84.0,104.0,0.0,0,,"Coleman, Cabrera and Barnett",Blue Cross,10398.3916015625,269.0,Urgent,22/09/2020,Aspirin,Normal
+469,owhmds,44.0,Male,A-,Cancer,22/12/2021,wuthspug,,102.0,0.0,0,,Mann Inc,Aetna,29051.438232421875,450.0,Elective,04/03/2021,Aspirin,Normal
+470,qxjaavuf,28.0,Male,AB-,Asthma,29/09/2021,yiyfgj,94.0,101.0,,0,,Morris-Harris,Cigna,,495.0,Urgent,26/01/2025,Paracetamol,Abnormal
+471,ytyfk,54.0,Male,O+,,04/12/2023,gppos,79.0,,,0,,Rodriguez-Marshall,UnitedHealthcare,24502.43505859375,170.0,Emergency,15/08/2023,Ibuprofen,Normal
+472,unpltmt,84.0,Male,A+,Asthma,18/08/2023,kogepk,73.0,103.0,0.0,0,,,UnitedHealthcare,2703.195556640625,139.0,Elective,22/04/2024,Lipitor,Normal
+473,cllfwb,46.0,Male,O+,Cancer,15/06/2022,wzfiolgs,83.0,114.0,0.0,0,,Mann Inc,Cigna,83800.80615234375,198.0,Elective,15/10/2020,Ibuprofen,Inconclusive
+474,fbfigroyl,81.0,Female,AB+,Diabetes,18/03/2024,svucigdt,,104.0,1.0,0,,Morris-Harris,Medicare,1227.502685546875,247.0,Elective,23/05/2021,Paracetamol,
+475,lpiffmgys,30.0,Male,A-,Asthma,02/10/2020,lkmudpgskm,90.0,103.0,0.0,0,,Wiggins Ltd,Aetna,2868.9052734375,138.0,,28/08/2020,Paracetamol,Inconclusive
+476,njhczbtic,87.0,Male,B-,Obesity,05/06/2023,wekkmqi,74.0,113.0,0.0,0,,Morris-Harris,UnitedHealthcare,52208.0048828125,333.0,Elective,29/10/2022,Aspirin,Normal
+477,sdnqvuvr,63.0,,B-,Cancer,21/06/2024,jossdk,,,0.0,0,,Cook PLC,Medicare,12226.314697265625,252.0,Elective,30/01/2025,Paracetamol,Inconclusive
+478,uxpmy,27.0,Male,O+,Diabetes,13/10/2020,fpafqyo,89.0,114.0,0.0,0,,Gonzalez-Huffman,Cigna,36635.002685546875,156.0,Urgent,26/08/2022,Ibuprofen,Abnormal
+479,dpnhe,79.0,Male,B+,Hypertension,02/10/2022,slncc,,,,0,,Wiggins Ltd,UnitedHealthcare,8338.607177734375,341.0,Urgent,13/04/2020,Ibuprofen,Abnormal
+480,pjaxlo,40.0,Male,B+,Arthritis,25/02/2025,jjjywjexm,79.0,99.0,,0,,Morris-Harris,Aetna,45559.49853515625,448.0,Emergency,18/04/2023,Paracetamol,Normal
+481,qjqlxs,75.0,Female,A-,Hypertension,18/09/2023,eykgsc,,120.0,0.0,0,,Mann Inc,Blue Cross,10601.094970703125,427.0,Elective,09/02/2023,Penicillin,Abnormal
+482,gqqohq,53.0,Male,AB+,Asthma,04/12/2020,aqjchifjls,91.0,101.0,,0,,,,1073.69873046875,174.0,Elective,15/10/2020,Paracetamol,Inconclusive
+483,,80.0,,O+,Hypertension,14/12/2020,wcsnosp,94.0,115.0,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,29025.76171875,374.0,Emergency,22/11/2024,Paracetamol,Normal
+484,esopfmmh,61.0,Male,O-,Obesity,06/08/2023,hhotdrzl,74.0,,,0,,"Figueroa, Davis and Bailey",Medicare,53927.40185546875,135.0,Urgent,06/11/2021,Lipitor,Abnormal
+485,xxnlkwt,53.0,Female,A-,Hypertension,19/06/2021,ihvtdezojh,,118.0,0.0,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,18446.738525390625,269.0,Emergency,05/02/2024,Penicillin,Normal
+486,kduuuhnfp,20.0,Male,A+,Asthma,,ennlldo,74.0,116.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,30053.034912109375,399.0,Emergency,15/01/2021,Paracetamol,Abnormal
+487,kzopwi,87.0,Male,AB+,Obesity,30/05/2020,txdyp,75.0,101.0,0.0,0,,"Frost, Hernandez and Reynolds",Blue Cross,6121.627197265625,356.0,Elective,03/03/2023,Aspirin,Normal
+488,bsxdfmvp,47.0,Male,AB-,Asthma,08/01/2024,vojdwioh,96.0,101.0,0.0,0,,Mann Inc,UnitedHealthcare,7035.38916015625,154.0,Elective,20/08/2022,Paracetamol,Inconclusive
+489,guantrhrwl,20.0,Male,AB-,Hypertension,14/03/2021,rfydy,99.0,101.0,0.0,0,,Rodriguez-Marshall,Cigna,39537.16748046875,144.0,Urgent,01/01/2025,,Normal
+490,pogqgcbad,59.0,Male,O+,Obesity,28/08/2023,pawkr,88.0,103.0,0.0,0,,Wiggins Ltd,UnitedHealthcare,6392.968505859375,358.0,Emergency,02/02/2024,Ibuprofen,
+491,tlvpykitrz,35.0,Male,O+,Asthma,19/12/2020,avzinpuseh,82.0,115.0,0.0,0,,"Figueroa, Davis and Bailey",Aetna,,458.0,Urgent,,Aspirin,Normal
+492,ixjjvzweky,22.0,Male,O+,Diabetes,07/12/2024,tbutynqmy,99.0,104.0,,0,,"Coleman, Cabrera and Barnett",UnitedHealthcare,9241.526123046875,199.0,Urgent,18/04/2024,Paracetamol,Normal
+493,ngosc,61.0,,O+,Hypertension,05/01/2025,ekrzo,92.0,117.0,,0,,Rodriguez-Marshall,Cigna,6159.4169921875,479.0,Urgent,24/10/2024,Paracetamol,Inconclusive
+494,daizqw,54.0,Female,AB-,Asthma,11/07/2020,drfzwr,88.0,,0.0,0,,Gonzalez-Huffman,Blue Cross,,228.0,Urgent,21/02/2025,Paracetamol,
+495,wlwstsyz,16.0,Male,B-,Hypertension,30/12/2021,,100.0,102.0,0.0,0,,Morris-Harris,Aetna,40993.19287109375,214.0,Emergency,21/03/2022,Ibuprofen,Inconclusive
+496,hpkmy,64.0,Female,,Cancer,14/09/2020,knugfwq,75.0,,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,2821.670166015625,334.0,Emergency,20/07/2022,Aspirin,Normal
+497,zjpkr,76.0,Female,A+,Hypertension,25/01/2025,bzaetywr,100.0,119.0,,0,,Morris-Harris,Medicare,13537.250732421875,468.0,Elective,20/10/2022,Paracetamol,Inconclusive
+498,gbvzfhlylf,,Male,B-,Obesity,21/03/2023,,92.0,101.0,0.0,0,,Wiggins Ltd,UnitedHealthcare,1472.757568359375,480.0,Emergency,12/04/2020,Lipitor,Normal
+499,dkgrt,16.0,Male,A-,Obesity,04/10/2022,,,97.0,0.0,0,,Cook PLC,Blue Cross,64763.31298828125,295.0,Urgent,02/11/2022,Ibuprofen,Normal
+500,iimxjk,31.0,Male,B-,Arthritis,02/01/2025,injmkotimk,,117.0,,0,,Rodriguez-Marshall,UnitedHealthcare,42125.44287109375,339.0,Emergency,22/10/2022,,Inconclusive
+501,mulfsmfxrz,,Female,B+,Obesity,15/01/2021,moarmmkky,75.0,119.0,,0,,Mann Inc,Blue Cross,11445.110107421875,202.0,Urgent,19/04/2022,Aspirin,Normal
+502,mnxnin,58.0,Male,AB-,Asthma,04/08/2021,vyinnn,75.0,104.0,0.0,0,,,Cigna,26951.09619140625,124.0,Elective,07/09/2024,Paracetamol,Normal
+503,fgfrsv,24.0,,B-,Asthma,11/06/2024,hmolpcmt,91.0,118.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,48657.613037109375,184.0,Elective,28/06/2022,,
+504,zfrjjuicw,30.0,Male,B+,Obesity,06/02/2021,wwqkaqud,91.0,95.0,0.0,0,,Morris-Harris,Blue Cross,14797.56201171875,359.0,Elective,15/12/2024,Aspirin,Normal
+505,,83.0,Male,A-,Arthritis,27/12/2022,qoexr,83.0,111.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,105503.03857421875,281.0,Urgent,,Aspirin,Abnormal
+506,qfwzqnh,30.0,Female,AB-,Obesity,23/07/2024,liajacuvif,,95.0,0.0,0,,Morris-Harris,,28344.498291015625,187.0,Emergency,04/05/2023,Aspirin,Inconclusive
+507,thqqufryzv,26.0,Male,A+,Hypertension,07/04/2022,fsvqeor,77.0,102.0,0.0,0,,Rodriguez-Marshall,Aetna,32713.748046875,120.0,Emergency,09/10/2024,Paracetamol,Normal
+508,lkcgltbmo,24.0,,A+,Arthritis,04/06/2020,mstjqg,99.0,,0.0,0,,,Cigna,17996.69287109375,412.0,Emergency,16/01/2025,Paracetamol,Abnormal
+509,qlatasmzm,57.0,Male,B+,Hypertension,19/02/2025,ngorm,74.0,102.0,,0,,"Moreno, Robinson and Martinez",Medicare,17125.71484375,454.0,Elective,08/02/2025,,Normal
+510,xriyja,53.0,Female,A+,Arthritis,,ikqurpbikn,,115.0,0.0,0,,"Coleman, Cabrera and Barnett",Blue Cross,40425.289794921875,166.0,Urgent,05/02/2025,Paracetamol,Inconclusive
+511,xrqbevuyr,62.0,Male,AB+,Arthritis,23/06/2024,barwt,88.0,116.0,0.0,0,,Morris-Harris,Aetna,34697.96142578125,226.0,Elective,27/08/2020,Lipitor,Inconclusive
+512,,45.0,,A-,Arthritis,08/05/2023,bjwczgv,100.0,114.0,0.0,0,,Morris-Harris,Aetna,17091.938720703125,135.0,Elective,18/11/2024,Penicillin,Normal
+513,ggysdo,82.0,Male,A-,Hypertension,01/06/2022,,,115.0,0.0,0,,"Figueroa, Davis and Bailey",Aetna,1265.60400390625,315.0,Elective,27/06/2020,Lipitor,Inconclusive
+514,kclnny,21.0,Male,B-,Arthritis,14/08/2024,,90.0,111.0,,0,,Wiggins Ltd,UnitedHealthcare,33266.24072265625,,Elective,27/10/2024,Aspirin,Inconclusive
+515,jsiomdglpd,57.0,Male,A+,Asthma,08/06/2021,csntu,79.0,98.0,0.0,0,,Gonzalez-Huffman,Aetna,1808.493408203125,115.0,Urgent,09/02/2023,Aspirin,Inconclusive
+516,wqlykq,65.0,,,Cancer,02/04/2022,nkvaed,,115.0,0.0,0,,Gonzalez-Huffman,UnitedHealthcare,36947.281982421875,233.0,Urgent,28/11/2024,Ibuprofen,Abnormal
+517,wjbpkgmy,84.0,Male,B+,Cancer,01/02/2025,iaffdgwypc,94.0,113.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,53968.61474609375,487.0,Emergency,12/05/2023,Penicillin,Normal
+518,whhsag,56.0,Male,,Arthritis,29/04/2021,jxbnnjqd,96.0,110.0,0.0,0,,Rodriguez-Marshall,Cigna,2566.62548828125,397.0,Urgent,,Aspirin,Normal
+519,smyhnsaw,40.0,Male,AB-,Cancer,21/03/2024,xirjzttrku,77.0,112.0,0.0,0,,,Medicare,22663.149658203125,441.0,Elective,28/10/2020,Paracetamol,Inconclusive
+520,sbdxsfbyd,87.0,Male,A+,Obesity,,bwluwdsn,96.0,118.0,0.0,0,,Rodriguez-Marshall,Medicare,24046.474609375,362.0,Elective,17/05/2020,Penicillin,Inconclusive
+521,pbfuodzun,35.0,Male,AB+,Arthritis,09/07/2024,ndpcmwmm,,102.0,0.0,0,,Cook PLC,Blue Cross,41039.611328125,263.0,Emergency,,Penicillin,Normal
+522,sufok,55.0,Male,O+,,,ixmkntuc,95.0,104.0,0.0,0,,"Coleman, Cabrera and Barnett",,10817.27685546875,388.0,Elective,28/01/2023,Aspirin,Abnormal
+523,vkeje,87.0,Female,B-,Arthritis,31/03/2023,,,110.0,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,11762.041748046875,306.0,Emergency,14/03/2024,Ibuprofen,Normal
+524,fyyushfj,82.0,Male,A-,Arthritis,15/12/2020,ohtpvn,98.0,100.0,0.0,0,,Mann Inc,UnitedHealthcare,64400.96533203125,376.0,Elective,,Paracetamol,Inconclusive
+525,mcbem,53.0,Male,O+,,,pppdh,89.0,118.0,0.0,0,,Gonzalez-Huffman,UnitedHealthcare,39801.546142578125,345.0,Urgent,13/04/2020,Paracetamol,Abnormal
+526,ggchhnjp,17.0,Male,B-,Asthma,18/06/2024,jjwtsdnsx,,99.0,0.0,0,,Wiggins Ltd,Blue Cross,9834.79638671875,241.0,Emergency,07/10/2024,Lipitor,Abnormal
+527,gbowv,83.0,Male,B-,,08/01/2023,,95.0,112.0,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,4200.66552734375,351.0,Urgent,22/03/2023,Penicillin,Normal
+528,eocpxe,53.0,Male,,Asthma,04/02/2024,bsnedids,99.0,118.0,,0,,"Figueroa, Davis and Bailey",Medicare,15314.6298828125,,Emergency,29/04/2022,Paracetamol,Normal
+529,uaxjdlivc,23.0,Male,O+,Cancer,31/01/2021,xhttzrv,99.0,98.0,,0,,Wiggins Ltd,Aetna,8600.3134765625,207.0,Urgent,12/06/2023,Penicillin,Abnormal
+530,rogfmmsir,46.0,Female,AB-,Hypertension,14/01/2022,jdhqim,74.0,105.0,0.0,0,,Morris-Harris,Medicare,37816.651123046875,444.0,Urgent,27/06/2022,Paracetamol,Normal
+531,pdmnv,86.0,Female,A-,Arthritis,25/09/2024,auggralnl,93.0,97.0,0.0,0,,Cook PLC,Cigna,13957.08984375,196.0,Emergency,17/07/2023,Ibuprofen,Inconclusive
+532,hpqsdpbn,51.0,Female,O+,Obesity,09/08/2021,gdfwptmye,74.0,112.0,0.0,0,,"Moreno, Robinson and Martinez",Medicare,24362.470458984375,298.0,Elective,13/10/2021,Penicillin,Inconclusive
+533,,36.0,Male,O+,Asthma,19/11/2024,ypwdqjxqku,,100.0,0.0,0,,Rodriguez-Marshall,Medicare,958.341064453125,167.0,Emergency,04/12/2020,Penicillin,Inconclusive
+534,kzrnmqxqv,41.0,Male,B+,Asthma,05/10/2024,uekoohlj,,107.0,,0,,Rodriguez-Marshall,Medicare,33877.153076171875,152.0,Elective,08/11/2024,Lipitor,Normal
+535,lpkxia,69.0,Male,B-,,11/08/2024,wegafqyo,,102.0,0.0,0,,Rodriguez-Marshall,Blue Cross,19666.179443359375,104.0,Elective,29/08/2024,Ibuprofen,Normal
+536,etpcrq,79.0,Male,AB+,Asthma,05/08/2022,gyctwqwkxp,98.0,119.0,0.0,0,,Mann Inc,,21232.142578125,432.0,Emergency,05/10/2022,Ibuprofen,Inconclusive
+537,xwtomgo,44.0,Male,B+,Hypertension,09/01/2025,aqmxhylv,92.0,100.0,,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,11107.104736328125,104.0,Elective,13/12/2022,Lipitor,Inconclusive
+538,qaskz,77.0,Male,A-,Hypertension,,svbjmvrmdg,100.0,118.0,0.0,0,,Morris-Harris,Medicare,38375.890380859375,379.0,Urgent,02/05/2023,Paracetamol,Abnormal
+539,amxqe,86.0,Female,B-,Diabetes,26/08/2024,mfwvlbdj,74.0,115.0,0.0,0,,Morris-Harris,Medicare,38016.960205078125,333.0,Urgent,26/01/2021,Paracetamol,Inconclusive
+540,ktxebt,84.0,Male,AB-,Asthma,01/09/2022,xnnlver,,,0.0,0,,Rodriguez-Marshall,,24190.690673828125,341.0,,12/04/2020,Aspirin,Abnormal
+541,nznhvx,85.0,Female,AB-,Diabetes,29/08/2023,rxvhbmnt,83.0,98.0,,0,,Wiggins Ltd,Cigna,11557.17529296875,400.0,Emergency,,Paracetamol,Inconclusive
+542,nsimyokj,24.0,Male,AB+,Diabetes,23/07/2020,ynpcdymk,82.0,102.0,0.0,0,,Gonzalez-Huffman,Medicare,27547.993896484375,358.0,Emergency,18/10/2024,Penicillin,Inconclusive
+543,bzbyhmfqd,88.0,Male,AB-,Diabetes,03/05/2022,wfihgizzom,98.0,113.0,,0,,Morris-Harris,UnitedHealthcare,21625.2978515625,488.0,Urgent,18/11/2024,Paracetamol,Normal
+544,koclnbzp,42.0,Female,AB-,Cancer,03/05/2021,nszqccsixi,74.0,105.0,,0,,Wiggins Ltd,Aetna,12394.39013671875,305.0,Urgent,03/06/2020,Aspirin,Abnormal
+545,zybtl,85.0,Female,A-,Asthma,25/03/2023,llvluozgpt,,104.0,0.0,0,,"Coleman, Cabrera and Barnett",UnitedHealthcare,38325.62646484375,361.0,Urgent,11/06/2020,Lipitor,Abnormal
+546,qmtowt,42.0,,B+,Obesity,,ajuju,77.0,104.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,6116.386962890625,223.0,,04/02/2024,Paracetamol,Inconclusive
+547,zwwzredkr,70.0,Male,,Cancer,22/05/2022,ozmopovh,95.0,99.0,,0,,Mann Inc,Aetna,34010.45458984375,142.0,Emergency,07/09/2022,Penicillin,Inconclusive
+548,piivobugb,,Male,,Cancer,21/10/2023,,,115.0,,0,,Rodriguez-Marshall,Blue Cross,7361.822021484375,277.0,Urgent,30/10/2024,Lipitor,Abnormal
+549,lymemooeo,52.0,Male,A-,Diabetes,,hknzhp,98.0,114.0,0.0,0,,Wiggins Ltd,Blue Cross,8315.65869140625,471.0,Emergency,28/08/2020,Penicillin,Normal
+550,boaunwz,80.0,,A-,Asthma,10/12/2021,isiqavvc,,103.0,0.0,0,,,Blue Cross,94649.60668945312,406.0,Emergency,24/04/2023,Ibuprofen,Abnormal
+551,ytary,81.0,Male,A-,Arthritis,30/06/2023,uvnzeowyyk,73.0,99.0,0.0,0,,"Frost, Hernandez and Reynolds",Blue Cross,14963.99072265625,485.0,Emergency,27/12/2022,Ibuprofen,Normal
+552,neywqpf,87.0,Male,,,06/12/2021,yuwkggfj,94.0,112.0,,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,7696.477783203125,226.0,Urgent,02/06/2020,Lipitor,Abnormal
+553,mtfynn,51.0,Male,AB-,Asthma,09/12/2020,qtoznskah,100.0,99.0,,0,,"Moreno, Robinson and Martinez",Cigna,27708.8076171875,236.0,Urgent,13/02/2022,Penicillin,Inconclusive
+554,mvhbhlf,67.0,Male,B+,Arthritis,22/01/2023,rloobwi,,96.0,0.0,0,,"Moreno, Robinson and Martinez",Aetna,15792.874755859375,367.0,Urgent,09/07/2023,Ibuprofen,Normal
+555,osqctty,57.0,Female,O-,Asthma,03/11/2024,crefhooq,,99.0,0.0,0,,Morris-Harris,Cigna,13901.760009765625,118.0,Elective,20/04/2022,Aspirin,Abnormal
+556,fxjnbferq,,Female,B-,Hypertension,21/07/2020,wwvwcbixmu,100.0,100.0,0.0,0,,"Moreno, Robinson and Martinez",Aetna,35020.89697265625,306.0,Urgent,14/01/2025,Penicillin,Abnormal
+557,banuhr,33.0,Male,AB-,Hypertension,12/04/2024,irwbse,90.0,116.0,0.0,0,,Morris-Harris,Blue Cross,34009.717041015625,205.0,Urgent,28/03/2024,Lipitor,Inconclusive
+558,evpspy,17.0,Male,A+,Diabetes,20/08/2024,ikikz,,115.0,0.0,0,,"Frost, Hernandez and Reynolds",UnitedHealthcare,33493.9091796875,289.0,Elective,10/01/2024,Penicillin,Abnormal
+559,xeamgirt,86.0,Female,A-,Diabetes,17/05/2023,bellrfjnyh,97.0,99.0,0.0,0,,Morris-Harris,Blue Cross,7772.864013671875,241.0,Urgent,22/08/2020,Ibuprofen,Inconclusive
+560,gmuoqtpnjz,40.0,Male,B-,Arthritis,07/02/2024,zivghahjij,,118.0,0.0,0,,Rodriguez-Marshall,Aetna,23150.587646484375,494.0,Emergency,04/01/2021,Lipitor,Abnormal
+561,ldlmcxaox,63.0,Male,B-,,12/09/2020,gucebvbc,94.0,98.0,0.0,0,,Wiggins Ltd,,17470.158203125,232.0,Urgent,29/07/2023,Lipitor,Abnormal
+562,upruibygqh,,Female,A-,Hypertension,12/08/2023,mkfomg,98.0,100.0,0.0,0,,"Frost, Hernandez and Reynolds",Cigna,19983.552734375,252.0,Urgent,12/09/2024,Paracetamol,Normal
+563,qmyguusreo,84.0,Male,B+,Arthritis,19/04/2020,qquulunf,99.0,117.0,0.0,0,,"Frost, Hernandez and Reynolds",UnitedHealthcare,3293.16015625,334.0,Emergency,,Lipitor,Inconclusive
+564,yhwbwuk,26.0,Male,A-,Arthritis,16/01/2025,mtproo,,,0.0,0,,Morris-Harris,Medicare,36998.978271484375,245.0,Emergency,04/01/2021,Paracetamol,Normal
+565,eytrkpix,,Female,AB-,Cancer,09/08/2021,moptfcurm,76.0,105.0,0.0,0,,Rodriguez-Marshall,Aetna,11040.82080078125,369.0,Elective,,,Inconclusive
+566,qezvsztyn,49.0,Female,A-,Arthritis,25/08/2023,brfmxsnn,75.0,,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,11255.52099609375,407.0,Emergency,19/12/2024,Penicillin,Abnormal
+567,dhriqxsjv,83.0,Male,A-,Obesity,15/12/2021,zopfgw,99.0,100.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,39581.046630859375,323.0,Elective,16/04/2022,Ibuprofen,Inconclusive
+568,ztcnhom,,Male,B+,Diabetes,,eaczttysw,96.0,97.0,0.0,0,,Gonzalez-Huffman,Aetna,11878.593994140625,442.0,Urgent,17/07/2022,Penicillin,Normal
+569,ouszqb,44.0,Male,AB-,Hypertension,20/08/2024,ebsbgh,99.0,102.0,,0,,Gonzalez-Huffman,Aetna,8542.74658203125,443.0,Emergency,12/04/2020,Lipitor,Normal
+570,jmydbam,,Male,,Hypertension,14/05/2022,pnvzdznt,,119.0,,0,,Morris-Harris,Blue Cross,6998.31396484375,128.0,Elective,20/02/2025,,Normal
+571,usklqkwboi,35.0,Male,A-,Cancer,12/10/2024,nmtwvial,75.0,102.0,0.0,0,,Rodriguez-Marshall,Aetna,19701.576416015625,218.0,Urgent,25/08/2020,Penicillin,Abnormal
+572,umsyoeqmon,79.0,Female,B-,Arthritis,29/08/2020,kndxaviwnq,,117.0,0.0,0,,"Frost, Hernandez and Reynolds",UnitedHealthcare,7267.441162109375,212.0,Elective,01/12/2024,,Inconclusive
+573,ensvowxzb,43.0,Male,A-,Asthma,18/05/2021,tihmfb,73.0,117.0,0.0,0,,Morris-Harris,Medicare,2326.09423828125,272.0,Urgent,,Ibuprofen,Normal
+574,bbekft,21.0,Male,A-,Cancer,12/01/2023,rxwcbsj,95.0,115.0,0.0,0,,Rodriguez-Marshall,Blue Cross,32615.304443359375,399.0,Urgent,19/04/2020,Penicillin,Abnormal
+575,drbpcuyxks,62.0,Male,A+,,30/06/2022,ckdgfjxzd,98.0,99.0,,0,,"Moreno, Robinson and Martinez",Cigna,7011.958740234375,249.0,Urgent,16/02/2024,Penicillin,Inconclusive
+576,ljutwymad,,Male,O+,Diabetes,18/03/2021,ayiho,75.0,99.0,0.0,0,,Rodriguez-Marshall,Medicare,23346.31201171875,117.0,Emergency,26/01/2021,Aspirin,Abnormal
+577,dfhdkb,45.0,Male,A-,Cancer,16/05/2022,pcvpt,,117.0,,0,,,UnitedHealthcare,16259.5263671875,219.0,Emergency,05/02/2022,,Abnormal
+578,nxadtzb,73.0,Male,AB+,Diabetes,21/01/2025,kevvw,94.0,117.0,,0,,Wiggins Ltd,Medicare,16270.505859375,121.0,Elective,05/05/2021,Paracetamol,Normal
+579,,28.0,,AB-,Cancer,10/11/2022,uvjgnvm,92.0,100.0,0.0,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,12304.6416015625,197.0,Urgent,31/08/2020,Ibuprofen,Inconclusive
+580,cuaadfdf,79.0,Male,A-,Cancer,13/12/2020,swxalxomkm,,,0.0,0,,Rodriguez-Marshall,Cigna,4866.233642578125,490.0,Urgent,31/03/2022,Aspirin,Normal
+581,gyiyyktdow,,Female,B+,Asthma,21/03/2021,inznr,100.0,100.0,0.0,0,,Gonzalez-Huffman,Medicare,180207.455078125,459.0,Elective,12/02/2025,Penicillin,Abnormal
+582,pzfvrmo,74.0,Female,AB+,Asthma,15/01/2025,diqauc,,112.0,,0,,Mann Inc,,22624.3369140625,199.0,Emergency,13/02/2021,Lipitor,Normal
+583,udvdztrv,79.0,Male,O+,Diabetes,18/01/2025,estrry,74.0,,0.0,0,,Morris-Harris,UnitedHealthcare,10312.556640625,,Urgent,08/02/2025,Penicillin,Abnormal
+584,amjqs,79.0,,O+,Asthma,,xcchygqcjk,97.0,116.0,,0,,Morris-Harris,UnitedHealthcare,5329.664306640625,326.0,Emergency,09/10/2020,,Abnormal
+585,gxgenrtsff,73.0,Male,AB-,Diabetes,03/09/2022,izuatdqvf,77.0,102.0,,0,,Rodriguez-Marshall,Medicare,1945.377685546875,372.0,Urgent,06/06/2022,Aspirin,Abnormal
+586,fdrdo,36.0,Female,A-,Diabetes,20/11/2023,uvclwyvjis,80.0,116.0,,0,,"Moreno, Robinson and Martinez",Blue Cross,5456.32861328125,405.0,Elective,03/04/2023,Paracetamol,Normal
+587,acvskc,78.0,Male,B-,Arthritis,13/07/2020,,,98.0,,0,,"Moreno, Robinson and Martinez",Medicare,37064.655029296875,151.0,Emergency,08/07/2020,Lipitor,Inconclusive
+588,fbtvnor,57.0,Female,A-,Arthritis,09/12/2020,sytmw,,112.0,,0,,Wiggins Ltd,Cigna,10706.86376953125,441.0,Urgent,10/09/2020,Lipitor,Abnormal
+589,ocfywinvv,74.0,Female,A-,Diabetes,13/09/2020,iuvuyqxbas,,102.0,0.0,0,,Gonzalez-Huffman,Cigna,5907.072998046875,,Elective,20/10/2021,Ibuprofen,Abnormal
+590,lxacybcu,86.0,Female,O+,Diabetes,17/10/2023,cxckkmi,88.0,112.0,0.0,0,,"Figueroa, Davis and Bailey",Aetna,7645.3828125,224.0,Urgent,04/06/2020,Ibuprofen,Abnormal
+591,yxdmhni,65.0,Male,O+,Asthma,01/08/2023,eahnrz,95.0,104.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,9653.935791015625,209.0,Emergency,23/05/2023,Penicillin,Inconclusive
+592,ucyswochy,53.0,Male,B-,Arthritis,28/09/2024,ugqdbolacz,,,0.0,0,,Morris-Harris,Blue Cross,29353.01318359375,190.0,Urgent,28/10/2020,Ibuprofen,Abnormal
+593,ywhgkyc,52.0,Female,AB-,Hypertension,17/06/2020,ongvoqotcj,98.0,,0.0,0,,Gonzalez-Huffman,Cigna,56508.581787109375,158.0,Emergency,03/05/2020,Paracetamol,Normal
+594,qvnlydbazl,24.0,,,Asthma,09/05/2020,geynehkaqo,80.0,110.0,0.0,0,,Morris-Harris,UnitedHealthcare,43058.3525390625,113.0,Emergency,24/12/2024,Lipitor,Abnormal
+595,uzsslkdw,63.0,Male,B+,Hypertension,29/10/2023,pmppct,79.0,117.0,0.0,0,,Rodriguez-Marshall,Aetna,8419.68798828125,220.0,Elective,18/02/2022,Penicillin,Abnormal
+596,uvpuvh,74.0,Male,B+,Cancer,10/03/2021,vdokrgs,,102.0,0.0,0,,"Frost, Hernandez and Reynolds",Cigna,6082.554931640625,201.0,Elective,10/12/2024,Paracetamol,Normal
+597,zkzvo,30.0,Male,B+,Obesity,26/06/2020,opikxvgmpy,,102.0,0.0,0,,,UnitedHealthcare,2126.123291015625,375.0,Urgent,13/04/2020,Aspirin,Inconclusive
+598,aidldiaw,38.0,,AB-,Diabetes,12/07/2022,pukenzn,76.0,115.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,28986.6220703125,424.0,Emergency,20/07/2020,Aspirin,Inconclusive
+599,ghjvogbeks,34.0,Male,,Arthritis,03/04/2024,tilzr,100.0,119.0,,0,,Gonzalez-Huffman,,3444.650390625,119.0,Elective,21/02/2025,Ibuprofen,Normal
+600,buzkdrft,88.0,Male,A-,Arthritis,02/06/2024,hdyejr,73.0,112.0,0.0,0,,"Figueroa, Davis and Bailey",Medicare,12351.744384765625,434.0,Emergency,09/09/2024,Paracetamol,Normal
+601,lvbewcw,73.0,Male,O-,Arthritis,01/10/2022,bzsljiph,97.0,106.0,0.0,0,,Morris-Harris,Blue Cross,63930.8388671875,361.0,Elective,03/01/2024,Paracetamol,Inconclusive
+602,sidoovjfo,36.0,Male,A-,Diabetes,22/03/2023,xnkgjok,,103.0,,0,,Morris-Harris,Blue Cross,17455.860595703125,271.0,,01/05/2023,Ibuprofen,Normal
+603,,51.0,Male,B+,Arthritis,11/05/2022,waaqphlrh,100.0,103.0,,0,,Cook PLC,Aetna,30607.306640625,446.0,Emergency,23/07/2022,Paracetamol,Abnormal
+604,dfkmhxbvp,44.0,,B-,Arthritis,06/11/2024,yvszdvvjli,,114.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,34354.4052734375,473.0,Emergency,17/01/2025,Paracetamol,Abnormal
+605,rymeklgmtd,75.0,,,Obesity,25/04/2023,zhsjjerriv,,115.0,0.0,0,,Cook PLC,Aetna,7378.36083984375,346.0,Elective,24/09/2024,Lipitor,Inconclusive
+606,yughvvimk,64.0,Female,AB+,Asthma,19/01/2021,sepzo,89.0,113.0,0.0,0,,Wiggins Ltd,Aetna,44860.90087890625,408.0,Elective,20/02/2025,Aspirin,Normal
+607,zqzabp,,Male,B-,Obesity,02/04/2024,fagekod,,111.0,0.0,0,,Cook PLC,Blue Cross,12254.55615234375,167.0,Elective,08/03/2021,Ibuprofen,Abnormal
+608,hshanp,81.0,Female,AB-,Hypertension,10/11/2023,pdkpwzjvxy,79.0,116.0,,0,,Rodriguez-Marshall,Cigna,,344.0,Emergency,11/01/2022,Penicillin,Abnormal
+609,nebpf,65.0,Male,O+,Hypertension,25/02/2022,aemvm,78.0,114.0,,0,,Rodriguez-Marshall,,54918.491943359375,223.0,Elective,,Lipitor,Abnormal
+610,rpciivowm,88.0,Male,A+,Hypertension,07/08/2024,,,116.0,0.0,0,,Rodriguez-Marshall,Blue Cross,25428.156982421875,,,20/05/2023,Lipitor,Abnormal
+611,,78.0,Male,B-,Hypertension,28/02/2023,losdb,100.0,115.0,0.0,0,,"Figueroa, Davis and Bailey",Blue Cross,15475.216796875,153.0,Urgent,15/09/2024,Aspirin,Abnormal
+612,ybtcgex,74.0,Male,A-,Obesity,05/02/2021,,91.0,98.0,0.0,0,,Mann Inc,Blue Cross,1422.706787109375,225.0,Emergency,07/12/2024,Penicillin,Abnormal
+613,egegred,45.0,Male,AB+,Obesity,,ksxdintllz,,111.0,,0,,"Figueroa, Davis and Bailey",Aetna,14827.98095703125,179.0,Elective,17/08/2024,Paracetamol,
+614,ejxcm,72.0,Male,AB+,Hypertension,27/02/2021,ipfplvact,93.0,117.0,0.0,0,,Gonzalez-Huffman,Medicare,3493.175537109375,209.0,Urgent,26/08/2022,Ibuprofen,Inconclusive
+615,lhehzazzum,74.0,Female,AB+,Asthma,,uwnrhsdql,98.0,,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,52406.944580078125,366.0,Urgent,08/07/2024,Penicillin,Inconclusive
+616,sawpqk,72.0,Female,O-,Diabetes,07/03/2024,ukbekdpod,74.0,,,0,,Cook PLC,,16156.831298828125,168.0,Elective,27/01/2024,Aspirin,Normal
+617,kynyahcp,60.0,Male,AB+,Obesity,10/11/2024,eomvrxrued,78.0,102.0,,0,,Rodriguez-Marshall,Cigna,5949.680419921875,101.0,,12/07/2023,Paracetamol,Normal
+618,gsatvzeli,68.0,Male,A+,Cancer,19/06/2021,emwdjpsn,95.0,97.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,29570.8994140625,383.0,Urgent,26/10/2020,Ibuprofen,Inconclusive
+619,kbbudd,28.0,Female,B-,Asthma,30/04/2023,qowrbn,100.0,118.0,,0,,,Cigna,50123.6650390625,377.0,Elective,09/04/2024,Paracetamol,Inconclusive
+620,vcfdflf,66.0,Male,AB+,,19/09/2021,btfynhjxn,81.0,113.0,,0,,Rodriguez-Marshall,Medicare,8617.019775390625,123.0,Elective,23/11/2024,,Abnormal
+621,ehcwkrz,78.0,Male,O+,Cancer,27/11/2020,wexcr,,116.0,0.0,0,,Rodriguez-Marshall,Medicare,4655.491943359375,111.0,Emergency,14/04/2023,Lipitor,Abnormal
+622,xodruljrug,85.0,Male,B-,Arthritis,06/04/2022,qhoukwhs,91.0,117.0,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,29514.77587890625,294.0,Emergency,18/07/2020,,Abnormal
+623,upunougeh,,Male,O-,Cancer,08/08/2020,icvmaei,84.0,116.0,0.0,0,,Mann Inc,UnitedHealthcare,,457.0,Urgent,29/09/2022,Aspirin,
+624,yhpwgpozk,47.0,Male,AB-,Asthma,07/10/2022,,,,,0,,Gonzalez-Huffman,Aetna,4085.60888671875,214.0,Urgent,22/10/2021,Lipitor,Inconclusive
+625,mofpj,14.0,Female,B+,Cancer,17/11/2023,njxrmu,,115.0,0.0,0,,Cook PLC,Cigna,29625.025390625,450.0,,20/02/2025,Paracetamol,Inconclusive
+626,owmqtsefxl,46.0,Female,AB+,Obesity,27/01/2025,henote,84.0,101.0,,0,,Morris-Harris,Cigna,960.802734375,411.0,Emergency,,Penicillin,Inconclusive
+627,qplkvoxf,76.0,Male,AB-,Asthma,19/05/2020,mmnjbxnwyi,100.0,102.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,37094.951904296875,440.0,Elective,08/10/2021,Aspirin,Inconclusive
+628,wvudyfhc,82.0,Male,O+,Arthritis,01/04/2021,qlzendede,100.0,115.0,,0,,Mann Inc,UnitedHealthcare,10035.5908203125,420.0,Elective,15/06/2024,Paracetamol,Normal
+629,bqaos,39.0,,B+,Hypertension,20/11/2021,mizhe,94.0,103.0,0.0,0,,Morris-Harris,UnitedHealthcare,26860.934814453125,483.0,Urgent,22/01/2022,Paracetamol,
+630,zymmx,43.0,Female,B+,Hypertension,23/02/2021,etncfio,91.0,116.0,,0,,"Frost, Hernandez and Reynolds",Medicare,61192.72216796875,134.0,Emergency,20/10/2022,Penicillin,Normal
+631,rsplfltg,82.0,Male,A-,,03/12/2020,fajvvh,,111.0,,0,,"Frost, Hernandez and Reynolds",Medicare,9019.761474609375,328.0,Urgent,14/11/2022,Aspirin,Abnormal
+632,yohhijpt,79.0,Male,AB-,Diabetes,20/07/2024,tlorb,87.0,115.0,,0,,Morris-Harris,UnitedHealthcare,4975.8251953125,121.0,Emergency,19/02/2023,Aspirin,Abnormal
+633,uvcclx,83.0,Male,B+,Asthma,04/11/2023,pfatlpmzbw,,118.0,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,11581.21923828125,210.0,Urgent,,Lipitor,Normal
+634,forrdkpfs,74.0,Female,AB+,Hypertension,31/07/2024,xomkgrog,89.0,118.0,,0,,Rodriguez-Marshall,Medicare,19428.257568359375,344.0,Urgent,04/01/2025,Ibuprofen,Abnormal
+635,blhqitd,55.0,,AB+,Asthma,01/06/2022,mfixytnhp,75.0,119.0,0.0,0,,Gonzalez-Huffman,Blue Cross,13669.502685546875,189.0,Emergency,05/05/2021,Penicillin,Abnormal
+636,ztxvfsbbl,,Male,AB-,Cancer,18/08/2021,dfyuyir,100.0,,0.0,0,,"Moreno, Robinson and Martinez",Medicare,57311.5966796875,175.0,Elective,28/10/2024,Aspirin,Abnormal
+637,tmtzn,60.0,Male,O+,Arthritis,06/08/2022,fxvscj,96.0,117.0,0.0,0,,Rodriguez-Marshall,Medicare,9482.6875,280.0,Urgent,05/09/2020,Penicillin,Inconclusive
+638,nfrztzvwc,61.0,Male,A+,Hypertension,09/03/2022,jngqzxvvok,,100.0,0.0,0,,Rodriguez-Marshall,Blue Cross,2487.769287109375,268.0,Emergency,03/02/2025,Aspirin,Normal
+639,ndztaztlbp,71.0,Male,A+,Cancer,23/03/2024,kdzzb,99.0,100.0,,0,,Cook PLC,Cigna,12062.306884765625,338.0,Elective,,Paracetamol,
+640,yfgunig,64.0,Female,B-,Diabetes,22/01/2025,bsiakxrceu,,102.0,0.0,0,,Rodriguez-Marshall,Cigna,706.272216796875,237.0,Emergency,04/04/2021,,Abnormal
+641,kgifnc,76.0,Female,B+,Cancer,26/04/2023,pvtzfsuagq,99.0,,0.0,0,,Wiggins Ltd,Cigna,4654.842529296875,380.0,Elective,18/12/2024,Ibuprofen,Inconclusive
+642,mzuhjvi,54.0,Female,AB+,Obesity,06/02/2023,tqltqqsmra,93.0,104.0,,0,,Wiggins Ltd,UnitedHealthcare,19019.648193359375,410.0,Urgent,25/04/2020,Aspirin,Abnormal
+643,btoqgbdb,62.0,Male,O+,Hypertension,11/05/2020,,79.0,117.0,0.0,0,,Morris-Harris,Aetna,17813.857666015625,417.0,Urgent,22/03/2024,Ibuprofen,Abnormal
+644,qpqeqym,56.0,,A-,Hypertension,30/04/2022,umbrgdje,85.0,114.0,0.0,0,,Rodriguez-Marshall,Cigna,19854.227294921875,110.0,Emergency,28/12/2022,Lipitor,Inconclusive
+645,dpmrpvl,57.0,Female,,Cancer,04/05/2022,rmpmvwcejm,77.0,,0.0,0,,Mann Inc,UnitedHealthcare,10265.265869140625,327.0,Urgent,24/01/2022,Lipitor,Abnormal
+646,qpvls,47.0,Female,O-,,29/11/2021,awxnfxkzzg,93.0,113.0,0.0,0,,Mann Inc,Medicare,8352.3388671875,474.0,Emergency,30/01/2025,Aspirin,Inconclusive
+647,dkuvbyiibt,27.0,Male,,Cancer,11/10/2021,dolqgxuhv,74.0,111.0,0.0,0,,Mann Inc,Blue Cross,1602.06689453125,356.0,Elective,23/04/2020,Paracetamol,Abnormal
+648,goncvgmug,46.0,Female,A-,Asthma,16/04/2023,ddiotuc,,114.0,0.0,0,,Cook PLC,Cigna,9599.201416015625,236.0,Urgent,27/07/2021,Aspirin,Inconclusive
+649,qjwly,,Female,A-,,22/02/2025,tbfwjywm,,,0.0,0,,Rodriguez-Marshall,Medicare,9506.8935546875,127.0,Urgent,08/04/2021,Ibuprofen,Inconclusive
+650,jcxtwgtp,65.0,Male,B-,Arthritis,,ufvrt,,123.0,,0,,Wiggins Ltd,Medicare,11245.606201171875,,Urgent,21/02/2025,Ibuprofen,Normal
+651,dihoskpk,53.0,Male,O-,Arthritis,11/07/2023,vnevn,75.0,116.0,0.0,0,,"Figueroa, Davis and Bailey",Cigna,26810.48583984375,428.0,Elective,09/02/2025,Ibuprofen,Inconclusive
+652,yqggmsfs,88.0,Female,B+,Obesity,03/01/2022,lqbiocrp,,115.0,0.0,0,,Wiggins Ltd,Medicare,33574.138916015625,425.0,Urgent,23/04/2020,Ibuprofen,Inconclusive
+653,zprhimgygt,87.0,Male,A+,Arthritis,31/01/2023,kgfyu,,116.0,0.0,0,,,Blue Cross,4994.578125,225.0,Emergency,01/12/2023,Ibuprofen,Inconclusive
+654,mgprur,84.0,Female,AB-,Diabetes,15/12/2021,fmdgstx,98.0,98.0,,0,,Gonzalez-Huffman,Medicare,34958.33056640625,332.0,Emergency,08/03/2024,Paracetamol,Normal
+655,xxmrhw,80.0,Male,B+,,,ngqufwuo,74.0,111.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,11463.189697265625,375.0,Emergency,02/03/2021,,Normal
+656,yjkwihsesx,52.0,Male,B+,Hypertension,03/01/2024,rtdkjzfge,75.0,102.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,,490.0,Emergency,,Paracetamol,Inconclusive
+657,zwhdrhrgqj,28.0,Female,AB+,Diabetes,11/06/2023,czcfrln,79.0,94.0,0.0,0,,Rodriguez-Marshall,Blue Cross,38636.514404296875,122.0,Urgent,01/03/2022,Paracetamol,Inconclusive
+658,kbzcplgbr,75.0,Male,AB+,Diabetes,08/12/2022,tkogbwljxi,81.0,102.0,,0,,Mann Inc,UnitedHealthcare,9998.866943359375,150.0,Emergency,07/06/2023,Paracetamol,Normal
+659,jbtxcootf,13.0,Male,A+,Asthma,26/06/2023,afbsgc,96.0,116.0,0.0,0,,Gonzalez-Huffman,Medicare,40777.713623046875,406.0,Elective,19/06/2022,Lipitor,Inconclusive
+660,yroxjym,33.0,Male,O+,Diabetes,10/08/2022,afmzcc,74.0,115.0,0.0,0,,"Moreno, Robinson and Martinez",Medicare,33433.99609375,243.0,Urgent,10/05/2024,Paracetamol,Inconclusive
+661,mmfum,35.0,Male,O+,Hypertension,,hhbwv,90.0,102.0,0.0,0,,Wiggins Ltd,Aetna,,205.0,Urgent,22/07/2023,Paracetamol,Normal
+662,rfpbk,79.0,Male,A-,Arthritis,14/12/2023,fvzazim,91.0,114.0,0.0,0,,Wiggins Ltd,Medicare,15541.388427734375,191.0,Elective,27/06/2023,Aspirin,Abnormal
+663,cpyervqvo,61.0,Male,A+,Arthritis,22/07/2022,pfoehvd,99.0,99.0,,0,,"Moreno, Robinson and Martinez",Blue Cross,16436.870361328125,233.0,Urgent,27/05/2020,Ibuprofen,Normal
+664,msjnbkudh,79.0,Male,O+,Hypertension,05/02/2025,wraej,,99.0,,0,,Mann Inc,Blue Cross,7151.90771484375,260.0,,05/09/2024,Penicillin,Normal
+665,zidorfjv,75.0,Male,AB+,Asthma,01/08/2020,mvbxxnzmpo,,98.0,,0,,"Frost, Hernandez and Reynolds",Cigna,,262.0,Urgent,16/05/2020,Aspirin,Inconclusive
+666,ccchfbs,24.0,,O+,Obesity,05/09/2024,ifsab,,115.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,4180.2490234375,168.0,Elective,10/06/2020,Penicillin,Inconclusive
+667,cmqiwf,80.0,Male,A-,Obesity,02/09/2023,ielyvfuiud,,100.0,,0,,"Figueroa, Davis and Bailey",Medicare,1353.267578125,333.0,Elective,22/10/2022,Paracetamol,Inconclusive
+668,fglbmqb,23.0,Female,AB+,Diabetes,26/04/2021,ubmfskp,,99.0,0.0,0,,Morris-Harris,Blue Cross,22332.15869140625,270.0,Elective,,Paracetamol,Abnormal
+669,hlsjca,80.0,Male,AB-,Diabetes,07/01/2024,qpawgha,83.0,99.0,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,49184.51953125,309.0,Elective,25/09/2020,Penicillin,Normal
+670,dpzsrgxw,83.0,Male,O+,Asthma,29/09/2024,nxozdel,,115.0,0.0,0,,Morris-Harris,Aetna,22167.92626953125,209.0,Elective,19/01/2024,Penicillin,Inconclusive
+671,uuzrdjj,19.0,Female,O+,Arthritis,25/03/2021,cgqcs,,113.0,0.0,0,,Morris-Harris,Medicare,26135.570068359375,467.0,Urgent,14/02/2024,Penicillin,Inconclusive
+672,opukn,79.0,Male,A-,Arthritis,01/06/2024,,97.0,118.0,0.0,0,,Rodriguez-Marshall,Medicare,11221.655517578125,104.0,Urgent,01/05/2020,Paracetamol,
+673,aqkxshikbz,88.0,Female,O-,Hypertension,,afczmyqaqa,,114.0,0.0,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,7559.9677734375,282.0,Elective,,Ibuprofen,Normal
+674,csmtrug,29.0,Female,B+,,,mejgbebxs,97.0,102.0,0.0,0,,"Moreno, Robinson and Martinez",Aetna,36831.599853515625,337.0,Elective,01/02/2022,Paracetamol,Abnormal
+675,ujqacis,67.0,Female,O+,Diabetes,08/04/2024,oeuzvliy,,,0.0,0,,Rodriguez-Marshall,Blue Cross,48410.990478515625,471.0,Urgent,10/01/2024,Paracetamol,Abnormal
+676,nynmjpz,73.0,Female,,Arthritis,05/05/2020,oghnqjvj,76.0,111.0,,0,,Wiggins Ltd,Medicare,37196.689208984375,380.0,Emergency,14/06/2024,Paracetamol,Inconclusive
+677,kubowmewzy,43.0,Female,B+,Cancer,21/10/2024,ffuxrtzu,75.0,98.0,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,30042.30615234375,420.0,Urgent,11/04/2021,,Normal
+678,,61.0,Male,AB+,Asthma,12/10/2024,wpvqizsl,75.0,114.0,,0,,Gonzalez-Huffman,Medicare,3889.255615234375,339.0,Emergency,10/02/2025,Ibuprofen,Normal
+679,utrxpjc,59.0,Male,A+,Diabetes,17/05/2021,kaxegwcn,,110.0,,0,,Cook PLC,Aetna,13004.374267578125,403.0,Elective,22/01/2021,Ibuprofen,Inconclusive
+680,jglwkzutz,,,B+,Asthma,19/12/2022,uyjrecqna,,110.0,,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,908.117919921875,355.0,Elective,14/10/2020,Aspirin,Abnormal
+681,iuoyh,86.0,Male,B-,Arthritis,11/11/2021,qwortiwz,96.0,102.0,,0,,"Frost, Hernandez and Reynolds",Medicare,1022.114013671875,383.0,Elective,05/07/2020,Paracetamol,Inconclusive
+682,omzcpkj,80.0,Male,B-,Arthritis,09/04/2023,ldwjvcsde,82.0,,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,51907.9130859375,146.0,Elective,23/07/2024,Ibuprofen,Normal
+683,edmwcqzytb,64.0,Male,AB+,Hypertension,,ebpop,100.0,105.0,,0,,Wiggins Ltd,Aetna,35779.933837890625,133.0,,10/01/2025,Lipitor,Inconclusive
+684,ufrydrg,36.0,Male,O-,Cancer,10/12/2021,lmoxfrmqk,73.0,104.0,,0,,Morris-Harris,Blue Cross,8762.42138671875,355.0,Elective,13/10/2023,Ibuprofen,
+685,gfvcovzmvr,74.0,Male,A-,Diabetes,17/05/2021,jtnxcl,,102.0,0.0,0,,Rodriguez-Marshall,Medicare,66529.64599609375,118.0,,29/06/2021,Aspirin,Inconclusive
+686,gmmacviuj,27.0,Male,A+,Arthritis,11/12/2020,fkafuwjg,74.0,114.0,0.0,0,,Rodriguez-Marshall,,48862.064453125,486.0,Emergency,30/09/2023,Penicillin,Normal
+687,gcejhpd,30.0,Male,O+,Asthma,29/04/2024,ademsvmp,,97.0,0.0,0,,"Moreno, Robinson and Martinez",Cigna,11378.58740234375,470.0,Emergency,26/01/2022,Aspirin,Abnormal
+688,fqlmuztew,61.0,Female,AB+,Arthritis,02/08/2024,wvpivm,99.0,114.0,0.0,0,,"Coleman, Cabrera and Barnett",Cigna,12036.630859375,232.0,Emergency,17/11/2023,Ibuprofen,Abnormal
+689,uaabi,25.0,Male,AB+,Cancer,08/06/2022,cslvv,,,0.0,0,,"Moreno, Robinson and Martinez",Aetna,5994.465087890625,285.0,Urgent,03/05/2021,Aspirin,Normal
+690,anhie,33.0,Male,A-,Diabetes,19/01/2023,xqzlkhhyv,90.0,115.0,0.0,0,,Wiggins Ltd,Cigna,6803.3759765625,221.0,Urgent,15/11/2024,Ibuprofen,Abnormal
+691,,62.0,Male,O-,Cancer,12/09/2022,jnetvpjcwo,,110.0,,0,,Mann Inc,UnitedHealthcare,13026.756103515625,480.0,Elective,19/02/2023,Aspirin,Abnormal
+692,rpbdddaf,60.0,Female,A+,Asthma,30/07/2020,nzrxkjlzn,88.0,120.0,0.0,0,,"Frost, Hernandez and Reynolds",Blue Cross,15911.031494140625,360.0,Urgent,04/01/2023,Paracetamol,Abnormal
+693,slahfqqksb,42.0,Male,O+,Hypertension,20/01/2025,nzxczpjt,,119.0,,0,,Wiggins Ltd,Medicare,4909.596923828125,458.0,Emergency,14/11/2024,Penicillin,Inconclusive
+694,xuhnqwci,84.0,,AB+,Cancer,04/08/2021,qpqnsqoy,100.0,99.0,,0,,Wiggins Ltd,UnitedHealthcare,3979.154541015625,456.0,Urgent,27/12/2021,Ibuprofen,Inconclusive
+695,mkgsddev,46.0,Male,B+,Cancer,09/08/2022,jeryfosi,84.0,101.0,0.0,0,,"Figueroa, Davis and Bailey",,8943.188232421875,112.0,Elective,10/07/2022,Penicillin,Normal
+696,pehcf,17.0,Female,A+,Hypertension,04/05/2022,dbpwgumnjz,,94.0,0.0,0,,Cook PLC,UnitedHealthcare,11613.662841796875,112.0,,13/06/2024,Aspirin,Inconclusive
+697,ylwao,67.0,Female,B+,Asthma,25/12/2024,anfrnhgxv,87.0,120.0,0.0,0,,Wiggins Ltd,UnitedHealthcare,11555.950439453125,429.0,Urgent,04/10/2020,Ibuprofen,Inconclusive
+698,anmpuibt,,Male,A+,Hypertension,02/02/2025,dgkhbd,75.0,106.0,,0,,Rodriguez-Marshall,Medicare,29736.7392578125,385.0,Urgent,08/01/2024,Ibuprofen,
+699,vhezzuex,49.0,Female,B+,Obesity,02/08/2021,jbdjiag,73.0,120.0,,0,,Rodriguez-Marshall,Blue Cross,9624.478759765625,319.0,Emergency,23/09/2021,Penicillin,Abnormal
+700,rbvbkhbxd,59.0,Male,B-,Cancer,04/02/2022,vapxyo,99.0,114.0,0.0,0,,Morris-Harris,UnitedHealthcare,9837.89697265625,220.0,Emergency,04/06/2020,Lipitor,Abnormal
+701,hmqos,64.0,Male,AB+,Arthritis,24/04/2020,ssemjb,94.0,115.0,0.0,0,,Rodriguez-Marshall,Aetna,7428.693115234375,226.0,Emergency,08/02/2024,Aspirin,Normal
+702,kzlvl,77.0,Male,B+,Cancer,19/04/2021,rvjczfchon,,102.0,0.0,0,,,,28644.0341796875,482.0,,18/01/2023,Penicillin,Abnormal
+703,szimubjza,53.0,Male,A-,Cancer,03/03/2023,wfvojqte,78.0,113.0,0.0,0,,"Figueroa, Davis and Bailey",Medicare,12732.9931640625,396.0,Elective,19/07/2020,Lipitor,Inconclusive
+704,ovvwcjudi,84.0,Male,A-,Arthritis,19/12/2023,echgb,78.0,117.0,0.0,0,,,Medicare,38005.515625,219.0,Emergency,08/02/2021,Aspirin,Inconclusive
+705,lhagwnc,67.0,Male,AB-,Hypertension,05/07/2021,hfxidals,91.0,98.0,,0,,Rodriguez-Marshall,Aetna,3298.244873046875,467.0,Emergency,,Aspirin,Abnormal
+706,dfmexlfj,,Female,O-,Arthritis,12/04/2023,jjlistap,74.0,101.0,,0,,Wiggins Ltd,Cigna,40505.462646484375,290.0,Urgent,07/01/2025,Paracetamol,Normal
+707,lqaxq,52.0,Male,AB+,Asthma,13/10/2020,odejhkeu,80.0,116.0,,0,,Cook PLC,UnitedHealthcare,2266.592041015625,332.0,Urgent,12/08/2021,Lipitor,Inconclusive
+708,hextnucvlr,86.0,Male,O+,Asthma,17/03/2021,otuqusjcsa,,118.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,10152.857421875,491.0,Elective,09/01/2023,Penicillin,Normal
+709,lmlivid,47.0,Female,B-,Diabetes,25/02/2024,ecmoua,90.0,115.0,0.0,0,,Cook PLC,UnitedHealthcare,28384.375,220.0,Urgent,24/10/2024,Penicillin,Normal
+710,bnivt,13.0,,O-,Arthritis,,,86.0,99.0,0.0,0,,"Coleman, Cabrera and Barnett",Medicare,18551.08056640625,160.0,Elective,03/03/2022,Paracetamol,Normal
+711,jcjoddion,71.0,Male,O-,Arthritis,15/11/2022,ytxui,93.0,113.0,0.0,0,,Mann Inc,Aetna,12839.344482421875,381.0,Urgent,02/09/2020,Ibuprofen,Normal
+712,,71.0,Male,AB+,Diabetes,23/11/2023,ptokrsltth,,119.0,2.0,0,,Rodriguez-Marshall,Cigna,15083.022216796875,120.0,Elective,22/05/2024,Lipitor,Normal
+713,tewwjwdw,75.0,Male,A-,Arthritis,16/11/2023,eglwlqn,85.0,100.0,0.0,0,,"Figueroa, Davis and Bailey",Medicare,9012.84228515625,471.0,Emergency,28/10/2022,Lipitor,Abnormal
+714,ltkpivtu,42.0,,B-,Cancer,17/12/2023,icvzgu,,112.0,,0,,Rodriguez-Marshall,Blue Cross,8474.234130859375,232.0,Urgent,29/08/2024,Ibuprofen,Inconclusive
+715,wywrtvwke,73.0,Male,O+,Cancer,16/11/2020,rkhyr,100.0,117.0,0.0,0,,Wiggins Ltd,Medicare,26832.971435546875,425.0,Urgent,24/02/2021,Paracetamol,Inconclusive
+716,oxrzsymkfi,36.0,Male,AB-,Cancer,20/09/2023,atuezklfi,97.0,110.0,0.0,0,,Rodriguez-Marshall,Blue Cross,19964.4873046875,414.0,Emergency,02/12/2020,Aspirin,
+717,mazrzmar,30.0,Male,AB-,,29/05/2022,nbuwb,74.0,104.0,,0,,Rodriguez-Marshall,Aetna,4991.552001953125,230.0,Elective,25/06/2024,,Inconclusive
+718,eqnyvrcq,29.0,Male,O+,Cancer,22/10/2021,eeedmr,,97.0,0.0,0,,Rodriguez-Marshall,Blue Cross,14840.21240234375,158.0,Urgent,26/06/2023,Ibuprofen,Inconclusive
+719,payeblbmog,87.0,Female,AB-,,09/12/2022,fuwvjkst,97.0,104.0,0.0,0,,"Moreno, Robinson and Martinez",Cigna,,230.0,Urgent,18/02/2023,Lipitor,Abnormal
+720,ezlxc,35.0,Male,AB-,,25/01/2025,rhbeykpe,,,,0,,Gonzalez-Huffman,,15094.111328125,192.0,Urgent,04/02/2023,Ibuprofen,Inconclusive
+721,osmxb,,Male,AB+,Hypertension,12/10/2024,tzrbcmzotc,95.0,117.0,0.0,0,,Gonzalez-Huffman,Medicare,23385.818359375,326.0,Elective,22/02/2024,Aspirin,Inconclusive
+722,lpjfmnlgyf,86.0,Female,O+,Arthritis,30/05/2024,glvfi,100.0,113.0,,0,,"Frost, Hernandez and Reynolds",Aetna,2312.365478515625,208.0,Urgent,28/01/2021,Ibuprofen,Inconclusive
+723,cmygwt,29.0,Male,AB+,Asthma,30/04/2024,hnxns,85.0,116.0,0.0,0,,Rodriguez-Marshall,Medicare,36178.593017578125,393.0,Elective,15/10/2021,,Inconclusive
+724,xiibyanbx,83.0,Female,A+,,14/11/2024,nomxhjb,98.0,116.0,0.0,0,,Rodriguez-Marshall,Blue Cross,4834.59765625,219.0,Elective,27/06/2020,Paracetamol,Normal
+725,ymaphcthnc,81.0,Male,O+,Diabetes,24/02/2024,fvbamutfh,88.0,104.0,0.0,0,,"Coleman, Cabrera and Barnett",Aetna,23404.196533203125,277.0,Urgent,02/02/2025,Paracetamol,Inconclusive
+726,lsvllfhvl,,Male,A+,Asthma,05/02/2025,iluowmvur,,97.0,0.0,0,,"Figueroa, Davis and Bailey",Blue Cross,30756.099365234375,486.0,Urgent,01/03/2023,Aspirin,Inconclusive
+727,eigjhehe,53.0,Male,B-,Cancer,08/12/2023,pkeohtat,82.0,114.0,,0,,Mann Inc,Medicare,416.270751953125,152.0,Urgent,27/07/2022,Aspirin,
+728,vxayhuti,50.0,Female,,Cancer,01/02/2024,lliixti,94.0,,0.0,0,,Gonzalez-Huffman,Medicare,130779.73461914062,210.0,Elective,03/10/2023,Aspirin,Normal
+729,ebwgj,64.0,Male,AB+,Cancer,09/12/2024,nbagucei,100.0,117.0,0.0,0,,Rodriguez-Marshall,Medicare,15813.237060546875,284.0,Emergency,02/12/2021,Aspirin,Abnormal
+730,zqwldasg,57.0,Male,O-,Obesity,31/08/2023,dyyenjgyy,99.0,95.0,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,87972.89038085938,137.0,Elective,16/11/2022,Ibuprofen,Inconclusive
+731,tqrld,57.0,Male,O-,,10/10/2021,kfynsde,97.0,115.0,,0,,Morris-Harris,Aetna,8156.9765625,293.0,Elective,31/01/2025,,Inconclusive
+732,yhquv,34.0,Male,A-,Arthritis,10/05/2024,quzod,79.0,111.0,0.0,0,,Gonzalez-Huffman,Cigna,1411.734130859375,414.0,Urgent,,Penicillin,Inconclusive
+733,wanlfusti,46.0,,,Diabetes,07/01/2023,xjplb,99.0,115.0,0.0,0,,Cook PLC,Blue Cross,14272.982421875,185.0,Urgent,25/09/2024,Penicillin,Abnormal
+734,pmvekbu,50.0,Male,B-,Hypertension,28/01/2025,ktcif,83.0,115.0,0.0,0,,"Figueroa, Davis and Bailey",Cigna,8046.609130859375,428.0,Urgent,24/09/2023,Paracetamol,Abnormal
+735,loyyfpfc,85.0,Male,B+,Arthritis,30/06/2023,usrmqytxtw,100.0,112.0,1.0,0,,Wiggins Ltd,UnitedHealthcare,59750.856201171875,190.0,Urgent,16/12/2023,Lipitor,Abnormal
+736,fkdplzv,64.0,Male,AB+,Arthritis,01/01/2025,kpjdt,92.0,97.0,0.0,0,,"Moreno, Robinson and Martinez",Cigna,79453.42700195312,439.0,Urgent,15/03/2024,Ibuprofen,Abnormal
+737,cdaope,55.0,Male,B-,Cancer,26/10/2021,uxkqx,98.0,112.0,,0,,"Figueroa, Davis and Bailey",Blue Cross,4973.808349609375,327.0,Elective,02/09/2020,Penicillin,Inconclusive
+738,dgrdawjvrj,36.0,Male,AB+,Asthma,11/07/2022,,,104.0,0.0,0,,Rodriguez-Marshall,Medicare,2418.248046875,414.0,Urgent,23/05/2020,Paracetamol,Inconclusive
+739,taqpdfyds,78.0,Male,,Arthritis,09/11/2023,stawxgy,80.0,105.0,0.0,0,,Wiggins Ltd,UnitedHealthcare,63014.816162109375,186.0,Urgent,29/03/2023,Paracetamol,Abnormal
+740,mfuvagmsqg,57.0,,,Hypertension,30/03/2023,llqxnq,100.0,98.0,,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,36745.9912109375,264.0,Elective,26/01/2021,Aspirin,Normal
+741,ipneg,75.0,Male,B+,Cancer,26/02/2021,kvjakq,,104.0,0.0,0,,Wiggins Ltd,Medicare,11114.7890625,,Urgent,12/08/2021,Paracetamol,Inconclusive
+742,tgvgiqnkw,24.0,Male,A-,Arthritis,16/08/2024,nzqvarvv,97.0,102.0,,0,,Mann Inc,Cigna,20277.91015625,152.0,Urgent,18/07/2020,Ibuprofen,Inconclusive
+743,ekvhtsypn,74.0,Female,B-,Arthritis,14/11/2020,wtwkbsdxfe,,101.0,0.0,0,,Morris-Harris,Blue Cross,4152.5927734375,443.0,Emergency,02/04/2023,Penicillin,Inconclusive
+744,tnnwc,35.0,Male,B+,Asthma,19/06/2020,wehsfwlsi,,112.0,,0,,Wiggins Ltd,Blue Cross,1557.281982421875,299.0,Urgent,23/01/2021,Aspirin,Abnormal
+745,qfkfrbygcj,47.0,Male,AB-,Asthma,21/01/2022,oytjqv,84.0,97.0,,0,,Rodriguez-Marshall,Blue Cross,10460.70361328125,127.0,Urgent,26/12/2020,Lipitor,Inconclusive
+746,amurlvvjr,66.0,Male,B+,Arthritis,30/10/2023,pijmxn,,96.0,0.0,0,,"Frost, Hernandez and Reynolds",Medicare,20193.883544921875,214.0,Emergency,01/12/2024,Lipitor,Abnormal
+747,zxvgkphg,84.0,Male,AB+,Hypertension,14/12/2021,qucio,91.0,,0.0,0,,Gonzalez-Huffman,Cigna,65469.04248046875,137.0,Urgent,24/01/2022,Paracetamol,Inconclusive
+748,aexcjpkav,69.0,Female,O+,Arthritis,,vxjehtc,96.0,116.0,0.0,0,,Mann Inc,UnitedHealthcare,47999.72021484375,493.0,Emergency,09/06/2022,Ibuprofen,Normal
+749,lybxey,27.0,Male,A-,Cancer,15/09/2024,nhwdipxl,,114.0,0.0,0,,"Moreno, Robinson and Martinez",Medicare,46864.085205078125,205.0,Urgent,11/05/2023,Ibuprofen,Abnormal
+750,uxvpyy,62.0,Male,B+,Obesity,10/10/2020,siqujcmai,80.0,99.0,0.0,0,,,Aetna,29714.42626953125,114.0,Urgent,05/03/2022,Penicillin,Abnormal
+751,iiobxoqh,35.0,Male,B+,Hypertension,30/06/2020,,76.0,101.0,,0,,Morris-Harris,Cigna,4450.64013671875,462.0,Urgent,,Penicillin,Normal
+752,qtpiltxc,78.0,Male,B-,,01/10/2023,cbwmvmo,83.0,108.0,,0,,"Frost, Hernandez and Reynolds",,1176.949462890625,304.0,Elective,22/06/2023,Penicillin,Inconclusive
+753,pzkxhdks,51.0,Male,AB+,Asthma,15/10/2021,grqzpmobao,97.0,104.0,,0,,Rodriguez-Marshall,UnitedHealthcare,9419.441162109375,238.0,Elective,22/03/2023,,Abnormal
+754,xivaeump,18.0,Male,,,19/01/2023,uiyid,84.0,114.0,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,23294.908203125,223.0,Emergency,30/08/2022,Lipitor,Normal
+755,jxxmdhuu,28.0,Female,AB+,Diabetes,14/11/2020,szrtty,94.0,118.0,0.0,0,,Wiggins Ltd,Cigna,39859.24755859375,145.0,Emergency,26/07/2020,Lipitor,Abnormal
+756,schvoq,72.0,Female,A-,Arthritis,22/04/2020,qctrfcxbz,100.0,118.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,15409.8486328125,486.0,Urgent,31/08/2022,Paracetamol,Inconclusive
+757,yxafxo,48.0,Male,,Arthritis,08/05/2021,lqmpno,,101.0,,0,,Rodriguez-Marshall,UnitedHealthcare,519.60791015625,422.0,Urgent,31/10/2024,Ibuprofen,Inconclusive
+758,vvkcmvnqpm,41.0,Female,A-,,,zauety,74.0,,0.0,0,,Rodriguez-Marshall,Blue Cross,33183.7724609375,133.0,Urgent,23/03/2021,Penicillin,Abnormal
+759,figqu,87.0,Female,A-,Obesity,01/08/2023,,,100.0,0.0,0,,Gonzalez-Huffman,UnitedHealthcare,31963.493408203125,133.0,Emergency,01/01/2025,Ibuprofen,Abnormal
+760,ggjyhsk,28.0,Female,A+,Cancer,05/04/2024,ictlf,100.0,115.0,0.0,0,,Morris-Harris,Blue Cross,21582.810546875,119.0,,19/07/2021,Penicillin,Inconclusive
+761,ltsqtjckp,42.0,,O+,Hypertension,13/12/2024,xakzfmr,100.0,103.0,0.0,0,,Morris-Harris,Aetna,5646.145751953125,408.0,Elective,06/03/2023,Ibuprofen,Abnormal
+762,imlgj,85.0,Male,AB+,Arthritis,07/01/2025,ooefd,88.0,121.0,,0,,Mann Inc,UnitedHealthcare,21600.61865234375,,Urgent,25/08/2024,Lipitor,
+763,vwkhekhkvq,84.0,Male,B-,Arthritis,18/11/2023,mhggmn,100.0,102.0,,0,,Rodriguez-Marshall,Cigna,1267.5234375,201.0,Urgent,16/04/2020,Paracetamol,Inconclusive
+764,mcomzr,19.0,Female,O+,Hypertension,21/06/2020,xvowvaluv,,96.0,0.0,0,,"Coleman, Cabrera and Barnett",Aetna,10328.102294921875,277.0,Emergency,28/04/2020,Paracetamol,Normal
+765,ysdndeay,62.0,Male,A-,Hypertension,11/02/2025,tqwstv,74.0,,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,24930.301513671875,338.0,Urgent,10/09/2020,Penicillin,Abnormal
+766,feunbpa,85.0,Male,,Hypertension,10/12/2020,ykiwlp,100.0,,0.0,0,,"Frost, Hernandez and Reynolds",Cigna,24923.076171875,488.0,Emergency,13/05/2020,Ibuprofen,Abnormal
+767,rvznjwk,86.0,Male,AB-,Obesity,14/06/2022,zjuqe,98.0,112.0,,0,,"Coleman, Cabrera and Barnett",Medicare,4483.533203125,344.0,Emergency,01/05/2024,Penicillin,Normal
+768,qwnbvlsi,58.0,Female,AB-,Arthritis,10/09/2022,zqmuviz,100.0,119.0,,0,,Wiggins Ltd,Aetna,8415.238037109375,116.0,Elective,20/04/2024,Paracetamol,Inconclusive
+769,fycuwkofoy,59.0,Female,O+,Arthritis,,uovivbasd,98.0,103.0,0.0,0,,Morris-Harris,UnitedHealthcare,9175.4892578125,445.0,Urgent,28/04/2020,Ibuprofen,Normal
+770,cyvnrxfnzs,75.0,Male,B-,Diabetes,30/03/2021,jzxvwndptt,,97.0,0.0,0,,Rodriguez-Marshall,Aetna,27911.7646484375,496.0,Elective,28/10/2023,Ibuprofen,Abnormal
+771,knilrqkci,71.0,,B-,Asthma,17/12/2021,,74.0,105.0,0.0,0,,Mann Inc,Aetna,10883.40478515625,,Emergency,02/01/2025,Aspirin,Abnormal
+772,vdtsnpikjp,56.0,Male,A-,Asthma,19/12/2022,aeqylfgw,78.0,99.0,0.0,0,,Gonzalez-Huffman,,,,Urgent,29/01/2022,Lipitor,Inconclusive
+773,lqaqu,,Male,A+,Obesity,28/08/2021,aeswebuvp,73.0,113.0,0.0,0,,Rodriguez-Marshall,Cigna,1940.18310546875,185.0,Emergency,31/01/2024,,Normal
+774,ubqgwvm,36.0,Female,A-,Cancer,07/06/2020,,,,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,7991.0498046875,276.0,Urgent,25/08/2023,Lipitor,Inconclusive
+775,hyzqg,81.0,Male,B+,Diabetes,13/07/2024,wpdtri,,95.0,0.0,0,,Wiggins Ltd,Aetna,40467.379638671875,244.0,Elective,12/05/2020,,Inconclusive
+776,uouxhnwb,63.0,Male,B-,Arthritis,01/12/2023,wsanspwwga,96.0,119.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,19076.015869140625,190.0,Emergency,09/11/2023,Penicillin,Inconclusive
+777,zxaqov,84.0,Male,AB+,Arthritis,25/03/2024,pcitebr,,,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,21669.627197265625,201.0,Elective,24/02/2024,,Inconclusive
+778,nptjqz,19.0,Male,AB+,Diabetes,09/10/2024,jcwnsl,,104.0,,0,,Rodriguez-Marshall,Medicare,27350.225830078125,144.0,Elective,18/10/2021,Penicillin,Normal
+779,,68.0,Male,B+,Cancer,13/02/2025,vjgpj,94.0,115.0,0.0,0,,Morris-Harris,Blue Cross,3340.7255859375,375.0,Elective,16/03/2023,Aspirin,Normal
+780,mnzkokag,87.0,Male,B+,Diabetes,25/08/2023,pidycq,96.0,114.0,,0,,Gonzalez-Huffman,Aetna,7720.412841796875,332.0,Urgent,10/05/2023,Lipitor,Abnormal
+781,,48.0,Male,AB-,Asthma,09/10/2020,oyxvbldxif,98.0,102.0,0.0,0,,Morris-Harris,Medicare,5114.872314453125,423.0,Elective,11/12/2022,Lipitor,Inconclusive
+782,namxwfeueo,,Female,AB+,Asthma,06/08/2021,kpzymxrwy,,111.0,,0,,Wiggins Ltd,Blue Cross,29393.033935546875,242.0,Urgent,26/09/2022,Penicillin,Abnormal
+783,avhjlxrlv,85.0,Male,AB+,,05/03/2024,jjplnxn,81.0,104.0,0.0,0,,Wiggins Ltd,Medicare,,235.0,Urgent,01/01/2022,Penicillin,Normal
+784,qqerym,36.0,Male,AB-,,,opsfujzgk,,,,0,,"Frost, Hernandez and Reynolds",UnitedHealthcare,34764.49560546875,202.0,Emergency,29/06/2022,Penicillin,Normal
+785,mmoxjim,50.0,Male,AB+,Cancer,27/02/2025,ysgax,,113.0,0.0,0,,Mann Inc,Aetna,36891.144775390625,415.0,Urgent,12/07/2022,Ibuprofen,Abnormal
+786,iaiaqhidw,64.0,Male,AB+,Asthma,02/05/2023,rzrbcbct,98.0,101.0,0.0,0,,Gonzalez-Huffman,UnitedHealthcare,7357.817138671875,302.0,Elective,05/12/2022,Paracetamol,Abnormal
+787,pfrci,,Female,AB+,Obesity,08/12/2020,jgdjqixsui,97.0,101.0,,0,,Wiggins Ltd,Medicare,3666.755859375,409.0,Urgent,24/02/2022,Ibuprofen,Inconclusive
+788,idezyhn,28.0,Female,AB+,Asthma,,uyikrusad,,101.0,,0,,Gonzalez-Huffman,Cigna,2512.873291015625,249.0,Urgent,22/08/2023,Lipitor,Abnormal
+789,cconl,78.0,Male,AB+,Diabetes,,fvrzjj,94.0,114.0,0.0,0,,Rodriguez-Marshall,Blue Cross,53052.9794921875,352.0,Urgent,19/01/2025,Penicillin,Inconclusive
+790,gqgpfvpx,,Male,A-,Diabetes,26/05/2024,omwcafmigz,100.0,97.0,,0,,Morris-Harris,Blue Cross,42179.96826171875,157.0,Emergency,08/04/2021,Paracetamol,Normal
+791,vseizzmkq,60.0,Male,O+,Arthritis,14/09/2020,sccpfh,89.0,99.0,,0,,,Aetna,11725.808837890625,211.0,Emergency,19/02/2025,Ibuprofen,Abnormal
+792,,18.0,Male,B+,Obesity,19/07/2020,hrmseea,,104.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,96896.26782226562,438.0,Emergency,01/12/2023,Ibuprofen,Normal
+793,jcfevdob,33.0,Male,A-,Asthma,11/04/2024,bjzdq,73.0,116.0,0.0,0,,"Frost, Hernandez and Reynolds",Blue Cross,34767.779541015625,236.0,Emergency,26/04/2020,Lipitor,Inconclusive
+794,,20.0,Male,AB+,Arthritis,29/09/2024,xkwnvpodjz,97.0,101.0,0.0,0,,Morris-Harris,UnitedHealthcare,163450.91845703125,275.0,Elective,14/04/2024,Paracetamol,Inconclusive
+795,knrguvpiz,56.0,,AB+,Cancer,15/06/2020,vujviv,,118.0,0.0,0,,Wiggins Ltd,UnitedHealthcare,27549.431640625,312.0,Urgent,08/12/2024,Penicillin,Normal
+796,qgquznzib,80.0,Female,AB-,Asthma,01/07/2024,wcnena,95.0,117.0,,0,,Mann Inc,Medicare,11579.8525390625,149.0,Elective,29/05/2021,Ibuprofen,Inconclusive
+797,iawgsx,40.0,Male,B-,Diabetes,,nxxmtg,,114.0,0.0,0,,Mann Inc,Aetna,12022.71826171875,304.0,Urgent,17/12/2024,Penicillin,Abnormal
+798,sgexbnjmj,70.0,Male,B+,Asthma,07/12/2023,lvuydm,86.0,103.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,6063.147705078125,327.0,Emergency,21/01/2023,Aspirin,
+799,dfwhvymv,26.0,Male,A+,Asthma,14/02/2021,,,116.0,0.0,0,,Wiggins Ltd,Blue Cross,53918.55712890625,120.0,Emergency,09/08/2021,Paracetamol,Normal
+800,jzmhokihsk,87.0,Male,O-,Obesity,,nqdjl,,103.0,1.0,0,,"Moreno, Robinson and Martinez",Medicare,287.8515625,469.0,Elective,13/09/2023,Lipitor,Normal
+801,pakxnd,49.0,Male,AB+,Diabetes,29/12/2021,qhivtphjmq,,118.0,0.0,0,,Cook PLC,UnitedHealthcare,12336.560546875,215.0,Urgent,25/07/2024,Penicillin,Abnormal
+802,cfudttv,51.0,Male,B-,Asthma,22/06/2023,ciavbid,90.0,117.0,0.0,0,,Mann Inc,Aetna,8228.8662109375,314.0,Urgent,03/06/2020,Paracetamol,Abnormal
+803,iorglv,,Female,A+,Arthritis,28/11/2023,qvbrgritte,,112.0,0.0,0,,Gonzalez-Huffman,Aetna,13987.58251953125,392.0,,,Penicillin,Inconclusive
+804,zqskezz,84.0,Male,O-,Asthma,,fmewijdrs,74.0,,,0,,Cook PLC,Cigna,51263.96630859375,451.0,Emergency,29/04/2024,Penicillin,Normal
+805,utoyqqctn,60.0,Male,B-,Arthritis,02/02/2025,ssbnxcjn,98.0,103.0,0.0,0,,Wiggins Ltd,UnitedHealthcare,18263.188720703125,118.0,Emergency,27/01/2022,Penicillin,Normal
+806,ygkkdasjze,44.0,,A+,Cancer,22/04/2020,gnbjal,94.0,98.0,0.0,0,,Cook PLC,Blue Cross,5267.185791015625,483.0,Emergency,18/04/2023,Aspirin,Abnormal
+807,btzzecwju,26.0,Male,B+,Asthma,20/11/2022,nttwgj,,113.0,,0,,,Blue Cross,34817.31787109375,,Emergency,18/04/2020,Ibuprofen,Inconclusive
+808,nibedvp,52.0,Female,AB-,,06/09/2022,qcahbse,98.0,,0.0,0,,"Frost, Hernandez and Reynolds",UnitedHealthcare,1086.84130859375,422.0,Elective,25/12/2024,Aspirin,Abnormal
+809,,83.0,Female,O+,Cancer,,swsbuaaqe,,,,0,,Rodriguez-Marshall,Cigna,4204.97998046875,328.0,Elective,03/04/2023,Lipitor,Abnormal
+810,xnehifvwat,44.0,Male,A-,Hypertension,20/02/2025,knqiyxaf,99.0,111.0,0.0,0,,"Coleman, Cabrera and Barnett",UnitedHealthcare,11606.427001953125,187.0,Elective,17/12/2020,Paracetamol,Inconclusive
+811,zrtnt,40.0,Female,O+,Asthma,31/01/2025,oxkqied,82.0,117.0,0.0,0,,Gonzalez-Huffman,Medicare,4734.749755859375,386.0,Emergency,10/10/2021,Penicillin,Abnormal
+812,kdoetp,40.0,Male,AB-,Cancer,22/04/2023,vzavxpe,81.0,101.0,0.0,0,,Morris-Harris,Aetna,35703.287841796875,315.0,Elective,26/05/2020,Ibuprofen,Normal
+813,znmfsi,17.0,Female,A-,Arthritis,13/10/2024,dbwdhewh,84.0,101.0,0.0,0,,Rodriguez-Marshall,,30840.305419921875,310.0,Urgent,10/05/2021,Paracetamol,Normal
+814,tadjzd,22.0,,AB-,Arthritis,07/11/2020,ngcsn,,118.0,0.0,0,,Mann Inc,Blue Cross,5005.2744140625,379.0,Emergency,09/01/2021,,Abnormal
+815,idxxhjr,21.0,Male,B-,Cancer,17/05/2021,usknezfr,81.0,98.0,0.0,0,,"Figueroa, Davis and Bailey",Medicare,1446.225341796875,334.0,Urgent,12/10/2024,Aspirin,Inconclusive
+816,,29.0,Male,B+,Asthma,04/12/2024,cnchjyqs,88.0,105.0,,0,,Rodriguez-Marshall,,3108.923828125,278.0,Elective,09/12/2024,Aspirin,
+817,xtmrbokl,32.0,Male,O+,Obesity,15/09/2023,ptvuld,82.0,115.0,0.0,0,,Mann Inc,Cigna,6846.75146484375,300.0,Emergency,06/07/2023,Lipitor,
+818,pikqb,80.0,Male,B+,Arthritis,05/09/2021,gdksn,88.0,113.0,0.0,0,,Morris-Harris,Blue Cross,9741.251220703125,306.0,Urgent,06/06/2024,Aspirin,Normal
+819,sjtblhlgvr,54.0,Female,B-,,16/11/2024,hjqkfuof,94.0,112.0,0.0,0,,"Coleman, Cabrera and Barnett",,29028.908203125,103.0,Urgent,07/01/2025,Lipitor,
+820,cxdilrs,16.0,Male,B-,Arthritis,19/01/2021,inmxnylrr,79.0,103.0,0.0,0,,Wiggins Ltd,UnitedHealthcare,16234.7705078125,302.0,Emergency,02/04/2023,,Abnormal
+821,dznsbpzvj,28.0,,B+,Hypertension,24/04/2021,chpqtuooy,97.0,104.0,0.0,0,,Morris-Harris,Medicare,36942.775146484375,235.0,Urgent,29/03/2022,Aspirin,Abnormal
+822,ydtguemlq,30.0,Male,O-,Cancer,25/05/2022,ivycsyfw,88.0,97.0,,0,,Cook PLC,Medicare,2689.72802734375,,Emergency,31/03/2022,Penicillin,Abnormal
+823,ozwtlhucwu,,Male,A-,Arthritis,18/07/2024,lyistud,,104.0,,0,,Cook PLC,Medicare,76715.43969726562,449.0,Emergency,,Paracetamol,Abnormal
+824,dhurxt,85.0,,,Diabetes,18/12/2024,dncjciecuj,98.0,102.0,,0,,Rodriguez-Marshall,Blue Cross,3434.9462890625,347.0,Urgent,11/02/2023,Ibuprofen,Inconclusive
+825,ayaazrpc,75.0,Female,A+,Arthritis,12/01/2021,vbrqasqrwg,,113.0,1.0,0,,Rodriguez-Marshall,Blue Cross,63155.1513671875,111.0,Urgent,06/06/2020,Paracetamol,Inconclusive
+826,sucenjaj,59.0,Male,O+,Arthritis,26/01/2022,xdrchvkpx,99.0,116.0,0.0,0,,Morris-Harris,Cigna,20881.465087890625,398.0,Urgent,13/05/2024,Paracetamol,Abnormal
+827,oiyuphq,85.0,Female,A+,Arthritis,09/04/2024,kwpfvfiyys,,117.0,,0,,Rodriguez-Marshall,Medicare,6993.875,397.0,Elective,26/07/2024,Ibuprofen,Abnormal
+828,dfgonrjq,73.0,Male,O+,Diabetes,14/10/2020,wnvipfopss,78.0,116.0,0.0,0,,Morris-Harris,Aetna,2407.3740234375,478.0,Elective,17/09/2020,Paracetamol,Normal
+829,,27.0,Male,AB+,Asthma,15/10/2020,dkzxoxsram,97.0,119.0,0.0,0,,Mann Inc,Medicare,45275.326904296875,421.0,Emergency,05/03/2022,Lipitor,Normal
+830,uoovlut,35.0,Male,B+,Cancer,07/09/2022,uthruedzte,100.0,114.0,,0,,Mann Inc,Aetna,21324.664794921875,480.0,Emergency,10/06/2020,Ibuprofen,Normal
+831,jclabgtrnu,56.0,Male,A-,Asthma,01/12/2021,itkqaoo,90.0,118.0,0.0,0,,Rodriguez-Marshall,Aetna,,320.0,Elective,24/06/2020,Lipitor,Normal
+832,ujzzwnryd,,Female,A-,Asthma,06/05/2022,dtaxabh,98.0,120.0,0.0,0,,Mann Inc,Blue Cross,25924.723876953125,352.0,Emergency,30/05/2024,Paracetamol,Abnormal
+833,lpoulgknc,62.0,Male,AB-,Asthma,06/02/2024,dfedeopp,77.0,99.0,0.0,0,,Mann Inc,Aetna,42992.158447265625,307.0,Urgent,20/01/2021,,Normal
+834,ggrlq,66.0,,A-,Diabetes,,buwzu,,113.0,,0,,"Coleman, Cabrera and Barnett",Blue Cross,2523.329833984375,296.0,,06/12/2024,Lipitor,
+835,xobhqvso,80.0,Male,AB-,Hypertension,24/03/2021,ppykx,,111.0,0.0,0,,Gonzalez-Huffman,Cigna,15038.052978515625,372.0,Elective,05/02/2023,Aspirin,Inconclusive
+836,elknbuury,75.0,,B+,Arthritis,06/08/2023,bafvywli,99.0,116.0,,0,,"Frost, Hernandez and Reynolds",Aetna,33088.256591796875,245.0,Emergency,13/04/2020,Paracetamol,Normal
+837,whkcopbnk,67.0,Male,,Arthritis,05/02/2025,vnhtmvyplv,96.0,115.0,0.0,0,,Wiggins Ltd,Medicare,46083.556640625,304.0,,09/10/2024,Lipitor,Normal
+838,qpxmi,73.0,Female,AB+,Cancer,02/02/2021,fgpjdihlp,100.0,103.0,,0,,"Frost, Hernandez and Reynolds",Cigna,3460.796142578125,263.0,Urgent,07/01/2022,,Normal
+839,npcho,63.0,Male,B+,,21/11/2020,limysppgc,91.0,115.0,0.0,0,,"Frost, Hernandez and Reynolds",UnitedHealthcare,6996.723876953125,120.0,Urgent,30/05/2024,Aspirin,Inconclusive
+840,avdfjafpk,86.0,Female,B-,Hypertension,11/04/2020,xonaim,98.0,104.0,0.0,0,,Rodriguez-Marshall,Blue Cross,15370.047607421875,229.0,Emergency,09/09/2023,Aspirin,Inconclusive
+841,zhaule,87.0,Male,B-,Asthma,23/09/2021,,75.0,113.0,0.0,0,,"Figueroa, Davis and Bailey",Aetna,10162.498779296875,469.0,Urgent,20/02/2025,Lipitor,Inconclusive
+842,umkliyafof,68.0,Female,A+,Arthritis,,rjzpyrypb,,119.0,0.0,0,,Morris-Harris,Cigna,16048.404052734375,415.0,Elective,21/03/2023,,Abnormal
+843,orjbqqcle,81.0,Male,B+,Obesity,26/09/2021,isqnikdgn,,114.0,0.0,0,,Wiggins Ltd,Medicare,7351.113525390625,341.0,Emergency,09/06/2021,Aspirin,Inconclusive
+844,olajvadzbo,15.0,Female,O-,Cancer,07/02/2024,yhgjqaa,,113.0,0.0,0,,"Coleman, Cabrera and Barnett",Aetna,5662.3017578125,137.0,Emergency,19/07/2023,Penicillin,Inconclusive
+845,cpsoujo,88.0,Male,B+,Cancer,16/01/2021,vcqqaztfju,,112.0,,0,,Mann Inc,Blue Cross,2226.58154296875,,Urgent,29/06/2024,Penicillin,Abnormal
+846,tgchtboben,33.0,Male,O+,Arthritis,18/11/2023,hqxblornnp,98.0,102.0,,0,,Morris-Harris,Cigna,13481.8740234375,178.0,Emergency,29/09/2022,Ibuprofen,
+847,,38.0,Male,A-,Cancer,01/08/2020,rkjppijqwb,95.0,108.0,0.0,0,,Wiggins Ltd,Aetna,52589.455810546875,101.0,Urgent,23/12/2022,,Normal
+848,sxczo,20.0,Female,AB+,Asthma,10/11/2024,nxeoiajaq,93.0,114.0,0.0,0,,Mann Inc,Aetna,46684.130615234375,173.0,Emergency,30/01/2025,Aspirin,Abnormal
+849,uavwlfwaoa,67.0,Female,AB-,Arthritis,17/05/2020,vvvytt,95.0,,0.0,0,,Mann Inc,UnitedHealthcare,9126.3642578125,438.0,Urgent,01/10/2024,Paracetamol,Abnormal
+850,myitxf,59.0,Male,A-,Asthma,23/03/2021,nxqnddz,81.0,114.0,0.0,0,,Gonzalez-Huffman,UnitedHealthcare,60722.60595703125,158.0,Urgent,14/04/2023,Penicillin,Normal
+851,qpexzewzvs,81.0,Female,A-,Cancer,16/03/2024,viouxj,,104.0,0.0,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,10078.10986328125,231.0,Elective,25/04/2020,Aspirin,Abnormal
+852,hmfduavzla,81.0,Male,B+,Arthritis,01/06/2024,kcttnvtecg,,101.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,4295.953857421875,337.0,Urgent,26/06/2024,Penicillin,
+853,qfopxvvo,42.0,Male,O-,Arthritis,15/02/2024,umecsfrq,74.0,99.0,0.0,0,,"Moreno, Robinson and Martinez",Cigna,1903.067626953125,412.0,Urgent,19/05/2021,Ibuprofen,
+854,xixahcuwcw,37.0,Male,AB-,Cancer,18/04/2021,enbuhdbrer,74.0,,0.0,0,,"Figueroa, Davis and Bailey",UnitedHealthcare,30902.90673828125,281.0,Urgent,05/01/2023,Ibuprofen,Inconclusive
+855,pijhocr,75.0,Female,A+,Diabetes,18/12/2020,whnrxblkhm,,114.0,0.0,0,,Morris-Harris,Blue Cross,26880.313232421875,137.0,Elective,16/04/2020,Lipitor,Normal
+856,xrjlb,76.0,Male,O-,Arthritis,13/12/2023,rsvvdszb,,103.0,0.0,0,,Rodriguez-Marshall,,26093.34033203125,354.0,Emergency,,,Inconclusive
+857,jouulhprm,27.0,Female,AB-,Asthma,01/01/2025,qkhfevuei,92.0,104.0,,0,,Rodriguez-Marshall,Medicare,8130.78173828125,290.0,Elective,14/01/2024,Paracetamol,Abnormal
+858,ddzkp,61.0,,,Cancer,19/04/2023,jydrz,86.0,116.0,,0,,Rodriguez-Marshall,Blue Cross,22456.5166015625,239.0,Elective,08/09/2024,Aspirin,Inconclusive
+859,rkhtghdt,71.0,,B+,Obesity,21/10/2020,bypeaekbb,100.0,115.0,0.0,0,,"Frost, Hernandez and Reynolds",Blue Cross,650.031982421875,324.0,Urgent,18/05/2020,Penicillin,Normal
+860,ogfwpps,73.0,Female,AB-,Asthma,06/12/2024,,95.0,100.0,0.0,0,,Morris-Harris,UnitedHealthcare,9814.633544921875,161.0,Urgent,29/12/2021,Aspirin,Normal
+861,juimjk,79.0,Male,B-,Asthma,24/04/2021,jtrwjucew,100.0,114.0,,0,,Gonzalez-Huffman,Medicare,15794.314697265625,392.0,Emergency,14/04/2020,Ibuprofen,Abnormal
+862,bluejzayy,80.0,Female,B-,Asthma,20/05/2023,kniop,92.0,104.0,,0,,Wiggins Ltd,Medicare,43814.025390625,259.0,Emergency,21/03/2023,Paracetamol,Inconclusive
+863,kmrsvouakz,69.0,Female,O+,Hypertension,29/09/2020,gygwfpvl,80.0,104.0,,0,,Mann Inc,UnitedHealthcare,3100.9326171875,105.0,Elective,28/07/2024,Aspirin,Inconclusive
+864,fhzqpthhrg,48.0,Male,B+,Asthma,20/07/2020,lhpyd,,112.0,0.0,0,,Rodriguez-Marshall,Aetna,23726.098388671875,163.0,Emergency,13/06/2020,Lipitor,Abnormal
+865,azulp,28.0,Female,B-,Hypertension,20/10/2024,plndf,99.0,97.0,,0,,Morris-Harris,Cigna,23556.28515625,362.0,Elective,10/03/2024,Aspirin,Abnormal
+866,ztkpkgwx,79.0,Male,B-,Arthritis,13/12/2022,wtscevef,76.0,97.0,0.0,0,,Mann Inc,UnitedHealthcare,18057.724609375,319.0,Elective,08/12/2024,Lipitor,Normal
+867,mvqlgdfiw,65.0,Female,B+,Hypertension,07/02/2025,avslvgper,,117.0,0.0,0,,"Figueroa, Davis and Bailey",Cigna,19389.025390625,106.0,Elective,05/02/2025,,Normal
+868,aupqh,60.0,Male,AB+,Asthma,02/10/2020,xrheetinmb,75.0,101.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,12576.59033203125,371.0,Emergency,23/07/2023,Penicillin,Abnormal
+869,nzlmm,16.0,Male,B+,Diabetes,14/04/2020,qnspab,87.0,111.0,0.0,0,,Wiggins Ltd,Aetna,13690.8603515625,481.0,Emergency,31/05/2023,Lipitor,Inconclusive
+870,axjwwfnifu,70.0,Male,B-,Cancer,20/08/2024,htgaoxuhbp,89.0,116.0,0.0,0,,Mann Inc,Medicare,44643.06787109375,270.0,Urgent,27/05/2022,Paracetamol,Abnormal
+871,mnfgacsr,47.0,Male,AB-,Arthritis,06/01/2021,emzaxgzxq,85.0,113.0,,0,,Gonzalez-Huffman,Cigna,23048.18408203125,485.0,Urgent,,Lipitor,Normal
+872,dcohhzb,35.0,Male,A+,Hypertension,29/10/2022,berprael,,100.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,27077.47705078125,479.0,Emergency,09/10/2024,Paracetamol,Normal
+873,cjcdwe,53.0,Male,B+,Arthritis,15/07/2021,akjslfy,99.0,114.0,0.0,0,,,,5282.546630859375,154.0,Urgent,20/08/2023,Penicillin,Abnormal
+874,yzzmjm,71.0,Male,B-,Arthritis,17/01/2024,uhmrfl,,101.0,0.0,0,,Gonzalez-Huffman,UnitedHealthcare,19597.668212890625,215.0,Elective,15/09/2024,Ibuprofen,Abnormal
+875,gpzafisbw,40.0,Male,AB+,Hypertension,30/07/2021,yywehbe,,105.0,0.0,0,,Morris-Harris,UnitedHealthcare,1941.355224609375,118.0,Urgent,04/06/2024,Ibuprofen,Normal
+876,rwktxujpvv,15.0,Male,O+,Asthma,14/06/2020,vcoisvw,73.0,98.0,,0,,"Moreno, Robinson and Martinez",Aetna,17001.630126953125,473.0,Urgent,26/05/2020,Penicillin,Inconclusive
+877,mgimogla,44.0,Male,AB-,Cancer,15/01/2023,pjmxivhmet,,119.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,9469.31640625,455.0,Emergency,07/01/2025,Paracetamol,Normal
+878,xvzrx,72.0,Male,B+,Asthma,01/09/2021,ionqvxan,,104.0,,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,17068.33154296875,410.0,Elective,06/02/2025,Lipitor,Abnormal
+879,yttaogu,23.0,Male,O-,Diabetes,09/12/2023,drchgrd,76.0,112.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,8176.920654296875,327.0,Emergency,20/07/2020,Ibuprofen,Abnormal
+880,xgckzy,63.0,Female,AB-,Cancer,,,75.0,105.0,0.0,0,,Mann Inc,Aetna,35308.127197265625,451.0,Emergency,20/07/2020,Paracetamol,Abnormal
+881,sudvwh,35.0,Male,O+,Hypertension,27/04/2024,bsxqda,,99.0,0.0,0,,Mann Inc,Blue Cross,42116.264404296875,415.0,Urgent,16/05/2020,Penicillin,Inconclusive
+882,lttoxdw,29.0,Male,A-,Arthritis,21/02/2025,zvjmrnqzyz,,99.0,0.0,0,,"Figueroa, Davis and Bailey",Cigna,1042.725830078125,461.0,Urgent,07/12/2022,Penicillin,Normal
+883,vicfvnw,66.0,,AB+,Cancer,29/04/2022,rntztckksr,99.0,115.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,24768.163330078125,190.0,Emergency,10/07/2021,Penicillin,Abnormal
+884,kztznaqu,38.0,Female,A+,Asthma,28/10/2021,qtfnk,99.0,120.0,0.0,0,,Rodriguez-Marshall,Aetna,391.140625,423.0,Urgent,04/01/2021,Paracetamol,Abnormal
+885,assenynp,84.0,Male,B+,Diabetes,13/03/2023,bnwplxzafu,73.0,111.0,0.0,0,,Morris-Harris,Cigna,56137.20751953125,254.0,Urgent,11/08/2021,Lipitor,Inconclusive
+886,hupflcc,84.0,Female,AB-,Hypertension,24/12/2023,rrqux,94.0,101.0,0.0,0,,Cook PLC,Blue Cross,33691.86865234375,282.0,Elective,26/07/2021,Penicillin,Abnormal
+887,,,Male,B-,Arthritis,29/12/2023,,86.0,118.0,0.0,0,,"Frost, Hernandez and Reynolds",Blue Cross,382.0380859375,420.0,Urgent,31/07/2023,Paracetamol,Inconclusive
+888,cqutmzme,,Female,A-,Arthritis,19/03/2023,iutfahb,99.0,104.0,0.0,0,,Morris-Harris,Medicare,4054.231689453125,444.0,Elective,22/12/2022,Aspirin,Abnormal
+889,ecgigmqdk,82.0,Male,O+,Cancer,16/11/2020,ywhiybov,74.0,,0.0,0,,Mann Inc,Medicare,87062.35693359375,240.0,Elective,05/06/2020,,Abnormal
+890,nfpjgtqi,76.0,,O+,Cancer,,ykfltryhc,85.0,100.0,0.0,0,,Rodriguez-Marshall,Medicare,4201.54638671875,193.0,Elective,08/04/2024,Paracetamol,Abnormal
+891,sugzqg,87.0,Male,A-,Obesity,23/10/2020,ykyayro,99.0,114.0,0.0,0,,"Moreno, Robinson and Martinez",Aetna,11499.791748046875,188.0,Urgent,20/07/2023,Lipitor,Inconclusive
+892,xafrbx,32.0,Female,B+,Cancer,05/09/2021,mpnaok,98.0,117.0,0.0,0,,Rodriguez-Marshall,Aetna,25987.292236328125,345.0,Urgent,22/07/2020,Penicillin,Inconclusive
+893,skcaxcii,70.0,Male,B-,,21/08/2023,jonsv,97.0,99.0,,0,,Rodriguez-Marshall,Cigna,12737.434326171875,368.0,Emergency,23/10/2021,Lipitor,Inconclusive
+894,yzjqgab,80.0,Male,AB+,Arthritis,21/09/2020,snpwolg,85.0,120.0,0.0,0,,"Moreno, Robinson and Martinez",UnitedHealthcare,24714.595458984375,225.0,Urgent,28/09/2020,Penicillin,Inconclusive
+895,znsdrb,84.0,Female,B+,Arthritis,03/07/2021,poubsrb,78.0,97.0,,0,,Morris-Harris,Medicare,15974.930419921875,226.0,Urgent,25/02/2022,Lipitor,Inconclusive
+896,xgelkuq,29.0,Female,AB-,Asthma,06/07/2022,slrnfsqjq,100.0,101.0,0.0,0,,"Coleman, Cabrera and Barnett",Aetna,22881.42578125,479.0,Urgent,16/10/2020,Penicillin,Abnormal
+897,frkddpu,85.0,Male,B+,Arthritis,29/11/2023,fozfutbn,99.0,99.0,1.0,0,,Wiggins Ltd,UnitedHealthcare,28202.386962890625,290.0,Emergency,01/08/2021,Ibuprofen,Normal
+898,hgmerjo,62.0,Male,AB+,Arthritis,14/07/2022,xwdflb,,113.0,1.0,0,,"Coleman, Cabrera and Barnett",Medicare,16326.18603515625,471.0,Urgent,05/01/2025,Lipitor,Normal
+899,tlgaaj,39.0,Male,A-,Arthritis,08/05/2020,rmednpo,100.0,102.0,,0,,Rodriguez-Marshall,Cigna,3494.79931640625,377.0,Elective,21/11/2023,Aspirin,Normal
+900,zqnajpe,49.0,Male,O+,Asthma,12/12/2024,nqlzlbic,73.0,102.0,0.0,0,,Morris-Harris,Medicare,9183.748291015625,148.0,Urgent,01/05/2021,Penicillin,Normal
+901,afrzwuocc,72.0,Male,,Arthritis,08/07/2022,gvwqgtdpr,,100.0,0.0,0,,Morris-Harris,Blue Cross,4165.459228515625,442.0,Emergency,25/09/2024,Paracetamol,Normal
+902,udrnmdcdya,86.0,Male,A+,Hypertension,,,74.0,,,0,,"Coleman, Cabrera and Barnett",Medicare,19893.20263671875,421.0,Emergency,22/05/2024,Paracetamol,Inconclusive
+903,ufyfei,40.0,Male,AB-,Arthritis,18/11/2020,lupwngk,84.0,119.0,0.0,0,,Cook PLC,Aetna,75796.64794921875,295.0,Emergency,23/09/2022,,Abnormal
+904,rjaxlusy,78.0,Male,B+,Diabetes,09/04/2023,qlmgbwfoxg,82.0,115.0,0.0,0,,Cook PLC,Blue Cross,20007.8525390625,115.0,Emergency,25/03/2023,Ibuprofen,Inconclusive
+905,kghcrkt,20.0,Male,A-,Asthma,15/04/2022,zarwg,,118.0,0.0,0,,Mann Inc,Medicare,30128.2939453125,453.0,Urgent,09/09/2023,Penicillin,Inconclusive
+906,zigbebwz,59.0,Male,B-,Arthritis,31/05/2024,bcfxyjmtcp,,99.0,,0,,Gonzalez-Huffman,Blue Cross,67969.13720703125,112.0,Urgent,15/03/2024,Penicillin,Normal
+907,jpxexkstx,43.0,Female,O-,Arthritis,21/11/2021,vlplp,,111.0,,0,,"Figueroa, Davis and Bailey",Cigna,12892.552978515625,430.0,Elective,07/04/2022,Lipitor,
+908,uirbco,22.0,Male,AB-,,12/05/2020,sjacuy,95.0,99.0,,0,,"Moreno, Robinson and Martinez",Blue Cross,12708.224365234375,301.0,Emergency,30/05/2021,Aspirin,Inconclusive
+909,gkekhzuhmr,28.0,Male,AB-,Arthritis,27/10/2023,meuuvecdi,78.0,115.0,0.0,0,,Rodriguez-Marshall,Aetna,11924.278076171875,148.0,Elective,19/05/2020,Penicillin,Normal
+910,bpssrfkn,18.0,Male,AB+,Asthma,31/08/2022,kitmrp,89.0,114.0,0.0,0,,Morris-Harris,UnitedHealthcare,5863.4375,428.0,Emergency,26/12/2024,Ibuprofen,Abnormal
+911,xsaqymtv,79.0,Male,A+,Asthma,24/06/2021,hlmom,73.0,99.0,1.0,0,,Morris-Harris,Cigna,1547.141845703125,497.0,Emergency,12/04/2020,Ibuprofen,Abnormal
+912,vhdjjhzh,,,B+,Arthritis,29/01/2025,tebnrr,97.0,114.0,,0,,"Figueroa, Davis and Bailey",Aetna,12593.65771484375,355.0,,08/08/2022,Paracetamol,Abnormal
+913,pdvpuysdnr,80.0,Male,O+,Arthritis,15/01/2022,zerclqaqz,99.0,104.0,0.0,0,,"Figueroa, Davis and Bailey",Cigna,50852.166015625,347.0,Urgent,,,Inconclusive
+914,uzchypm,,Male,A+,Asthma,03/11/2024,zmueapz,87.0,98.0,0.0,0,,Mann Inc,Medicare,9461.652587890625,397.0,Elective,24/12/2022,Penicillin,Abnormal
+915,scfpsd,83.0,Female,O-,Hypertension,01/02/2022,dxkqyjtix,,114.0,0.0,0,,"Moreno, Robinson and Martinez",Blue Cross,,,Elective,01/05/2020,Penicillin,Normal
+916,kysbtqu,46.0,Male,AB-,Obesity,07/11/2020,zljdup,100.0,119.0,,0,,Morris-Harris,Aetna,6976.9833984375,144.0,Emergency,10/10/2022,Ibuprofen,Abnormal
+917,dewhwajksd,23.0,,AB-,Cancer,17/08/2021,iwppj,98.0,123.0,0.0,0,,Rodriguez-Marshall,Blue Cross,247.527099609375,310.0,Urgent,10/02/2025,,Inconclusive
+918,hxgtacjiti,63.0,Male,O+,Obesity,,ovapy,,122.0,0.0,0,,Morris-Harris,Medicare,66911.18701171875,267.0,Emergency,26/06/2020,Paracetamol,Inconclusive
+919,hntpb,25.0,,AB-,Cancer,09/03/2021,rkdxexm,,116.0,0.0,0,,Wiggins Ltd,,,251.0,Emergency,25/02/2022,Lipitor,Abnormal
+920,jpmwumxuc,,Male,AB-,Asthma,08/04/2022,vtfjmds,74.0,119.0,0.0,0,,"Moreno, Robinson and Martinez",Cigna,23814.2939453125,479.0,Emergency,04/07/2020,Penicillin,Normal
+921,rtfkxeeb,51.0,Female,AB+,Diabetes,07/11/2021,cujrmkw,73.0,120.0,0.0,0,,Rodriguez-Marshall,Blue Cross,3992.455810546875,373.0,Emergency,28/09/2020,Paracetamol,Inconclusive
+922,yyprbdlpk,81.0,,O-,Diabetes,06/02/2024,uhoqaqf,98.0,113.0,0.0,0,,"Moreno, Robinson and Martinez",Cigna,21060.441650390625,123.0,Elective,18/12/2024,Aspirin,Abnormal
+923,mirbntrfn,86.0,Male,B+,Arthritis,15/12/2020,rynuwbvv,76.0,97.0,,0,,"Frost, Hernandez and Reynolds",,7728.59814453125,157.0,Elective,18/10/2024,Aspirin,Inconclusive
+924,spvlajpo,84.0,Female,B+,Diabetes,24/06/2024,tpfqdpz,,,,0,,"Moreno, Robinson and Martinez",Cigna,10595.331787109375,422.0,Elective,02/04/2024,Ibuprofen,Abnormal
+925,yyzawbgxaz,85.0,Male,A+,Arthritis,25/06/2023,lnxqddqszy,76.0,113.0,0.0,0,,"Coleman, Cabrera and Barnett",Medicare,5473.81396484375,240.0,Emergency,26/06/2024,Ibuprofen,Normal
+926,doglr,68.0,Male,B+,Cancer,23/01/2024,unhgxctb,76.0,117.0,,0,,"Moreno, Robinson and Martinez",Blue Cross,44583.2685546875,425.0,Urgent,08/03/2021,Ibuprofen,Inconclusive
+927,kgzkwf,63.0,,A-,Hypertension,19/01/2023,cwhudqsmpn,95.0,101.0,0.0,0,,Morris-Harris,Aetna,1833.8408203125,306.0,Elective,25/12/2021,Lipitor,Normal
+928,xvlfdku,57.0,Male,,Cancer,25/09/2023,rkafkfjhmr,100.0,98.0,,0,,Gonzalez-Huffman,UnitedHealthcare,32211.56591796875,479.0,Elective,04/07/2024,Penicillin,
+929,kivjscu,29.0,Male,AB-,,26/07/2023,eqvsndmr,74.0,,0.0,0,,Rodriguez-Marshall,Medicare,19119.687744140625,134.0,Urgent,04/01/2025,Aspirin,Inconclusive
+930,qnbtz,66.0,Male,O+,Diabetes,24/12/2022,hhpkv,,113.0,0.0,0,,Rodriguez-Marshall,Medicare,13934.69140625,181.0,Emergency,16/12/2023,Aspirin,Abnormal
+931,thleghd,85.0,Male,O-,Cancer,18/01/2023,gwipgr,75.0,110.0,,0,,Wiggins Ltd,Cigna,38505.606689453125,277.0,Urgent,09/03/2021,Paracetamol,Abnormal
+932,lznyrddqli,,Male,AB+,Diabetes,24/03/2024,rergnupmf,73.0,96.0,,0,,Rodriguez-Marshall,Medicare,21364.7529296875,190.0,Elective,21/12/2024,Lipitor,
+933,yvyjmpw,65.0,Male,AB+,Arthritis,10/02/2022,bypvomfy,76.0,114.0,0.0,0,,Rodriguez-Marshall,,17975.061279296875,459.0,Urgent,,Aspirin,Inconclusive
+934,swiydgvns,63.0,Male,O-,Hypertension,01/03/2024,ioojutv,100.0,101.0,0.0,0,,"Frost, Hernandez and Reynolds",UnitedHealthcare,13861.850830078125,,Urgent,21/10/2020,Paracetamol,Inconclusive
+935,wnxuf,63.0,Male,O+,Arthritis,23/02/2022,dnbelwii,73.0,96.0,0.0,0,,Rodriguez-Marshall,Blue Cross,26944.34521484375,258.0,Elective,20/02/2021,Ibuprofen,Normal
+936,kkfzkuyu,65.0,Male,O+,Diabetes,16/01/2022,apyfsov,91.0,96.0,0.0,0,,"Coleman, Cabrera and Barnett",Cigna,27227.21142578125,418.0,Elective,16/01/2025,Ibuprofen,Abnormal
+937,,19.0,Male,A-,Diabetes,30/01/2025,enopstzoql,98.0,101.0,0.0,0,,Rodriguez-Marshall,Cigna,11637.972900390625,473.0,Urgent,25/10/2022,Ibuprofen,Abnormal
+938,psuul,32.0,Male,,Arthritis,07/12/2023,mobiyovavt,100.0,115.0,,0,,Mann Inc,UnitedHealthcare,5524.676025390625,147.0,Elective,30/03/2024,Ibuprofen,Inconclusive
+939,lcerxtewlp,78.0,Male,B+,Asthma,24/06/2022,iplgzw,73.0,117.0,,0,,Rodriguez-Marshall,Cigna,8282.895263671875,298.0,Elective,17/03/2022,Penicillin,Abnormal
+940,luffhtthp,84.0,,O-,Arthritis,14/07/2024,rkaamu,86.0,114.0,0.0,0,,Wiggins Ltd,Cigna,6250.638916015625,303.0,Elective,11/11/2023,Ibuprofen,Inconclusive
+941,zsxnzx,62.0,Female,AB+,Arthritis,15/08/2023,,,104.0,0.0,0,,Wiggins Ltd,Aetna,5411.827880859375,148.0,Urgent,24/04/2020,Ibuprofen,Abnormal
+942,ookczibcq,71.0,,A-,Arthritis,20/04/2022,zsrknlejb,98.0,116.0,0.0,0,,"Figueroa, Davis and Bailey",Cigna,15663.211669921875,209.0,Emergency,27/09/2022,Paracetamol,Normal
+943,hojxka,74.0,,AB-,Arthritis,03/09/2021,zmjlvu,,116.0,,0,,"Figueroa, Davis and Bailey",Cigna,2420.566650390625,277.0,Emergency,02/12/2022,Ibuprofen,Normal
+944,fkwgh,84.0,Male,,Arthritis,07/05/2023,qjaxqufmuz,88.0,104.0,1.0,0,,Wiggins Ltd,UnitedHealthcare,1397.491943359375,197.0,Emergency,12/04/2020,Ibuprofen,Abnormal
+945,,86.0,Male,O-,Cancer,18/08/2021,vliep,,99.0,0.0,0,,Morris-Harris,Blue Cross,494.176513671875,472.0,Urgent,08/07/2020,Penicillin,Inconclusive
+946,yfinpt,49.0,Female,A-,Hypertension,09/09/2024,tqyhyiox,,101.0,,0,,Wiggins Ltd,Aetna,9271.712158203125,119.0,,22/07/2020,Penicillin,Abnormal
+947,eshbjek,18.0,Male,A-,Arthritis,10/01/2022,ysdsfvb,,,0.0,0,,"Coleman, Cabrera and Barnett",Aetna,47830.06787109375,398.0,,12/04/2020,Penicillin,Abnormal
+948,mqjjobmna,31.0,Female,B-,Hypertension,07/12/2024,mshlydhget,,113.0,0.0,0,,"Figueroa, Davis and Bailey",Medicare,3225.9033203125,433.0,Elective,25/05/2024,Aspirin,Abnormal
+949,vrwpaywinq,87.0,Male,O+,Asthma,25/10/2024,ewsvlcc,100.0,113.0,0.0,0,,Rodriguez-Marshall,Aetna,25516.4541015625,310.0,Urgent,22/02/2024,Lipitor,Abnormal
+950,rwtfshp,53.0,,O-,Cancer,13/01/2021,qczmkqfvi,73.0,103.0,0.0,0,,"Coleman, Cabrera and Barnett",Cigna,5123.91845703125,346.0,Emergency,20/03/2024,Paracetamol,Normal
+951,kqxnaulpdi,60.0,Male,AB-,,02/09/2020,wgrumppr,94.0,119.0,0.0,0,,Morris-Harris,UnitedHealthcare,15119.3544921875,317.0,Urgent,02/11/2023,Lipitor,Abnormal
+952,dppfhusoss,71.0,Male,B-,Arthritis,25/12/2024,oawpcfmxwu,83.0,102.0,0.0,0,,,Aetna,44160.065673828125,307.0,Urgent,25/10/2021,Penicillin,Inconclusive
+953,udicjx,75.0,Male,O+,Arthritis,17/11/2023,piyamuss,91.0,113.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,8392.1689453125,379.0,Emergency,05/12/2024,,Inconclusive
+954,qwfgnsfrzl,54.0,Male,O-,Arthritis,15/05/2020,zxzmblig,100.0,101.0,,0,,Morris-Harris,Aetna,7325.02099609375,423.0,Urgent,07/01/2025,Aspirin,Normal
+955,adiig,65.0,Male,,Asthma,17/06/2021,dvqpplggt,99.0,103.0,,0,,,Medicare,2003.288330078125,230.0,Urgent,19/02/2023,Penicillin,Normal
+956,sazarbxv,36.0,Female,O+,Asthma,12/05/2020,gnaqdtcv,76.0,115.0,,0,,Wiggins Ltd,Cigna,12486.517333984375,221.0,Emergency,,,Inconclusive
+957,oqrrjeuyhy,71.0,,AB-,Hypertension,04/05/2021,wloalx,,97.0,0.0,0,,Wiggins Ltd,Cigna,22035.083984375,296.0,Elective,11/02/2025,Aspirin,Normal
+958,wpykfbkz,79.0,Male,O+,Asthma,,xuvryedijs,84.0,,,0,,Morris-Harris,Medicare,12038.376220703125,101.0,Emergency,10/11/2023,Aspirin,
+959,hnuyefyo,71.0,Male,AB+,Hypertension,08/01/2023,fcebs,97.0,101.0,0.0,0,,"Figueroa, Davis and Bailey",Aetna,22631.201171875,342.0,Urgent,28/04/2020,,Normal
+960,zemhify,51.0,Male,B+,Arthritis,16/07/2024,weptvlep,81.0,115.0,,0,,Gonzalez-Huffman,Aetna,6787.268798828125,374.0,Elective,26/10/2023,Paracetamol,Inconclusive
+961,htlspqpx,75.0,Female,,Hypertension,19/06/2023,xzcaa,,116.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,7286.321044921875,136.0,Elective,14/12/2024,Ibuprofen,Normal
+962,ghiarvcu,75.0,Male,A+,Arthritis,05/09/2021,bwrdkhjsna,73.0,102.0,0.0,0,,"Frost, Hernandez and Reynolds",Aetna,10105.091552734375,121.0,Elective,31/12/2024,Ibuprofen,Normal
+963,pnffkizfll,50.0,Male,B+,Diabetes,09/10/2021,tbdqrkhs,,101.0,0.0,0,,"Figueroa, Davis and Bailey",Aetna,8061.153076171875,149.0,Emergency,21/02/2025,Ibuprofen,Normal
+964,ddngdfidz,83.0,Female,B-,Arthritis,27/06/2022,mipeqpxk,74.0,112.0,,0,,Rodriguez-Marshall,Blue Cross,36649.26220703125,370.0,Elective,10/04/2024,Lipitor,
+965,sgxhqjkvkh,61.0,Male,,Diabetes,02/04/2021,vhqoplk,77.0,101.0,0.0,0,,"Coleman, Cabrera and Barnett",Cigna,3300.934814453125,131.0,Emergency,19/06/2021,Paracetamol,Inconclusive
+966,vgrnx,65.0,Male,AB+,,10/11/2020,kissba,96.0,115.0,0.0,0,,Rodriguez-Marshall,UnitedHealthcare,15693.06201171875,164.0,Emergency,,Paracetamol,Normal
+967,bzpjd,34.0,Male,B+,Diabetes,14/06/2022,ylcxladt,,100.0,,0,,Rodriguez-Marshall,UnitedHealthcare,13549.391357421875,278.0,Emergency,27/09/2024,Aspirin,Abnormal
+968,sduhfcb,55.0,Female,AB-,Hypertension,20/12/2023,cpqbe,,98.0,,0,,"Figueroa, Davis and Bailey",Medicare,4349.467041015625,434.0,Urgent,24/03/2023,Lipitor,
+969,uzlkgslmso,67.0,Female,A+,Obesity,03/01/2021,mjavnhg,79.0,120.0,0.0,0,,"Moreno, Robinson and Martinez",,52838.9189453125,181.0,Elective,05/06/2021,Penicillin,Inconclusive
+970,mjfivednzc,84.0,Male,B+,Hypertension,22/11/2022,mwwdo,87.0,99.0,0.0,0,,"Figueroa, Davis and Bailey",Aetna,42314.720947265625,473.0,Elective,19/07/2020,Lipitor,Abnormal
+971,mvxieddg,69.0,Female,A-,Hypertension,28/08/2024,gofjn,100.0,102.0,1.0,0,,"Figueroa, Davis and Bailey",Aetna,1643.005126953125,372.0,Emergency,18/08/2020,Aspirin,Normal
+972,xwnehiz,48.0,Male,,Arthritis,08/10/2024,wniibogk,99.0,118.0,0.0,0,,Morris-Harris,Cigna,7910.68994140625,174.0,Urgent,13/02/2021,Aspirin,Abnormal
+973,nalzcunrf,62.0,Male,AB+,Obesity,16/12/2024,wkzqohg,99.0,119.0,0.0,0,,Cook PLC,Medicare,4714.86328125,474.0,Elective,28/05/2022,Ibuprofen,Normal
+974,pidnikrt,,Male,O+,Arthritis,17/03/2024,stbfezhfjp,,114.0,0.0,0,,Rodriguez-Marshall,Blue Cross,19307.24560546875,379.0,Elective,26/10/2020,Aspirin,Normal
+975,zqbyoaer,75.0,Male,B+,Obesity,27/11/2024,kqlriinew,99.0,,0.0,0,,Gonzalez-Huffman,UnitedHealthcare,,461.0,Urgent,07/05/2020,Lipitor,Normal
+976,pgqzgnhgf,55.0,Male,A-,Diabetes,06/02/2025,gsncnbjpkb,100.0,99.0,,0,,Gonzalez-Huffman,Cigna,12316.400634765625,151.0,Elective,16/12/2024,,Normal
+977,gwbkess,,,B+,Asthma,29/10/2021,qzlsdg,80.0,98.0,0.0,0,,Gonzalez-Huffman,Blue Cross,19827.1455078125,463.0,Elective,03/06/2020,Paracetamol,Inconclusive
+978,uuzwa,24.0,Male,A-,Arthritis,24/10/2023,lvpzzm,100.0,104.0,,0,,Wiggins Ltd,Cigna,18706.25390625,355.0,Elective,05/03/2021,Ibuprofen,Inconclusive
+979,qnrcyxoel,75.0,,AB+,Asthma,14/11/2022,dqkchywdv,79.0,118.0,0.0,0,,Rodriguez-Marshall,Blue Cross,11888.396484375,367.0,Urgent,17/08/2024,Ibuprofen,Inconclusive
+980,cwgvvj,78.0,Male,B+,Diabetes,29/12/2023,vgbbgobu,84.0,99.0,0.0,0,,"Coleman, Cabrera and Barnett",Medicare,26157.835693359375,366.0,Emergency,18/05/2020,Aspirin,Normal
+981,sgwzm,61.0,Male,A-,,10/08/2023,bnxnhisn,99.0,119.0,0.0,0,,Gonzalez-Huffman,Blue Cross,16366.943115234375,444.0,Emergency,21/03/2021,Paracetamol,Normal
+982,dbvgw,84.0,Male,AB-,Arthritis,29/05/2020,utlweuql,81.0,116.0,0.0,0,,"Moreno, Robinson and Martinez",Aetna,56435.654541015625,476.0,Urgent,09/10/2020,Aspirin,Normal
+983,iacdqkbc,67.0,Female,B+,Arthritis,22/08/2021,alooscc,,114.0,0.0,0,,Gonzalez-Huffman,Cigna,5094.102783203125,434.0,Emergency,12/04/2020,Paracetamol,Abnormal
+984,gqnrrdz,47.0,Female,A-,Cancer,02/07/2021,tholic,77.0,115.0,0.0,0,,Morris-Harris,UnitedHealthcare,3684.97314453125,103.0,Emergency,23/05/2020,Aspirin,Normal
+985,ejreyhky,59.0,Male,AB-,Obesity,07/12/2020,artbbols,99.0,97.0,,0,,Morris-Harris,UnitedHealthcare,36691.23828125,223.0,Urgent,,Paracetamol,Inconclusive
+986,pnfjnn,81.0,Male,AB-,,12/11/2023,ewybcnqeuq,94.0,120.0,0.0,0,,"Moreno, Robinson and Martinez",Medicare,21557.060302734375,151.0,Elective,08/04/2023,Ibuprofen,Normal
+987,gwrwgbrie,34.0,Male,A-,Diabetes,,hhdiqqmsyp,,103.0,0.0,0,,"Moreno, Robinson and Martinez",Aetna,264.723388671875,144.0,Emergency,23/07/2024,Aspirin,Normal
+988,karvtv,74.0,,AB-,Asthma,03/08/2023,ooddur,,103.0,,0,,Rodriguez-Marshall,Medicare,9517.275634765625,,Urgent,17/09/2024,Lipitor,Abnormal
+989,tmfcbnp,40.0,Female,O+,Diabetes,31/07/2023,blwfcoxa,87.0,113.0,1.0,0,,,Blue Cross,24022.650390625,175.0,Emergency,04/02/2025,Paracetamol,Normal
+990,rkraqdag,81.0,Male,AB-,Diabetes,23/04/2023,mmmyrt,99.0,100.0,0.0,0,,"Frost, Hernandez and Reynolds",Cigna,8665.439697265625,266.0,Urgent,14/04/2020,Ibuprofen,Abnormal
+991,xocsq,71.0,Male,,Arthritis,01/09/2020,vduzhzerot,,99.0,,0,,Rodriguez-Marshall,UnitedHealthcare,9563.884033203125,287.0,Elective,15/01/2024,Lipitor,Abnormal
+992,cdmjgqdxzy,88.0,Male,A-,Cancer,,twkifp,75.0,103.0,0.0,0,,Cook PLC,UnitedHealthcare,42851.67919921875,356.0,Emergency,27/05/2022,Penicillin,Abnormal
+993,adqvrlxyie,74.0,Male,A-,Cancer,18/08/2021,vxhchietvb,98.0,97.0,,0,,Mann Inc,Blue Cross,,140.0,,15/11/2020,Aspirin,Abnormal
+994,bejsjsxax,62.0,Male,O+,Asthma,30/11/2024,digllra,89.0,101.0,,0,,Gonzalez-Huffman,Blue Cross,27365.91943359375,340.0,Elective,22/04/2020,Aspirin,Abnormal
+995,tfbyjbgavw,31.0,Female,B+,Diabetes,15/01/2025,,87.0,114.0,0.0,0,,Gonzalez-Huffman,UnitedHealthcare,39221.313720703125,440.0,Emergency,26/03/2021,Lipitor,Normal
+996,,44.0,Female,B-,Arthritis,20/10/2024,qcjcqw,100.0,113.0,,0,,Morris-Harris,,,118.0,Elective,21/04/2024,Lipitor,Normal
+997,swcxnq,53.0,Male,AB-,Cancer,17/08/2024,lylphhecv,85.0,103.0,,0,,Morris-Harris,Cigna,34127.656005859375,178.0,Urgent,17/08/2024,Ibuprofen,Inconclusive
+998,jwjtrjbno,66.0,Male,,Arthritis,18/10/2024,yjjnqgdyaz,98.0,100.0,0.0,0,,"Moreno, Robinson and Martinez",Medicare,22921.03564453125,490.0,Urgent,,Aspirin,Abnormal
+999,bfopsxpxhm,26.0,Female,O-,Obesity,16/09/2024,vtjjfz,,117.0,,0,,"Moreno, Robinson and Martinez",Aetna,6411.105224609375,401.0,Elective,20/12/2024,Aspirin,Inconclusive

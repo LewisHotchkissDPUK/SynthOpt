@@ -40,16 +40,9 @@ def generate_random_float(value_range):
 
 def convert_datetime(metadata, generated_data):
     for column in generated_data.columns:
-        if (
-            "date"
-            in metadata[metadata["variable_name"] == column]["datatype"].values[0]
-        ):
-            datetime_format = metadata[metadata["variable_name"] == column][
-                "coding"
-            ].values[0]
-            generated_data[column] = pd.to_datetime(
-                generated_data[column].astype("Int64"), unit="s"
-            ).dt.strftime(datetime_format)
+        if ("date" in metadata[metadata["variable_name"] == column]["datatype"].values[0]):
+            datetime_format = metadata[metadata["variable_name"] == column]["coding"].values[0]
+            generated_data[column] = pd.to_datetime(generated_data[column].astype("float"), unit="s").dt.strftime(datetime_format) #changes from as type Int64
     return generated_data
 
 

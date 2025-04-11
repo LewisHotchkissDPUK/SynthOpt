@@ -49,7 +49,7 @@ def detect_datetime_in_objects(data, datetime_formats, non_numerical_columns):
         "%d.%B.%y","%d.%B.%Y","%B.%d.%y","%B.%d.%Y",
         "%y.%m.%d","%Y.%m.%d","%m.%d.%y","%m.%d.%Y","%d.%m.%y","%d.%m.%Y",
         ]
-        time_formats = ["%H:%M:%S.%f", "%H:%M:%S", "%H:%M"]
+        time_formats = ["%H:%M:%S.%f", "%H:%M:%S", "%H:%M", "%H:%M.%f"]
         datetime_formats = date_formats + time_formats + [f"{date} {time}" for date in date_formats for time in time_formats]
 
     for column in tqdm(data[non_numerical_columns], desc="Processing Datetime Columns"):
