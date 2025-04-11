@@ -79,6 +79,9 @@ STATS_SYNTHETIC_DATA['Healthcare'].to_csv("output/HEALTHCARE_SYNTHETIC_STATS.csv
 from synthopt.process.statistical_metadata import process_statistical_metadata
 data = pd.read_csv("examples/california_housing_test.csv")
 STATS_METADATA = process_statistical_metadata(data)
-print("STATS METADATA")
-print(STATS_METADATA)
+STATS_SYNTHETIC_DATA = generate_statistical_synthetic_data(STATS_METADATA, num_records=1000)
+print(STATS_SYNTHETIC_DATA)
 """
+
+
+
