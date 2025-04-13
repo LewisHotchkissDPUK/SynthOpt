@@ -10,6 +10,7 @@ from distfit import distfit
 from scipy import stats
 from tqdm import tqdm
 from scipy.linalg import cholesky
+from scipy.stats import norm
 
 def generate_random_string():
     return "".join(
@@ -204,65 +205,44 @@ def generate_from_distributions(metadata, n_samples):
 
 ################################# CORRELATION GENERATION #################################
 
-def sample_from_distributions(metadata, n_samples):
-    synthetic_data = {}
-    params_data = metadata[['dist', 'params']]
-    dist_name = params_data['dist']
-    params = params_data['params']
+def generate_from_correlations(column_metadata, num_records, correlation_matrix):
+    # Ensure correlation_matrix is a numpy array
+    correlation_matrix = correlation_matrix.to_numpy() if isinstance(correlation_matrix, pd.DataFrame) else correlation_matrix
 
-    # Generate data based on the distribution name and parameters
-    for i, dist in enumerate(dist_name):
-        param = params[i]
-        if dist == 'norm':
-            # Normal distribution (mean, std)
-            synthetic_data[i] = stats.norm.rvs(*param, size=n_samples)
-        elif dist == 'expon':
-            # Exponential distribution (loc, scale)
-            synthetic_data[i] = stats.expon.rvs(*param, size=n_samples)
-        elif dist == 'uniform':
-            # Uniform distribution (loc, scale)
-            synthetic_data[i] = stats.uniform.rvs(*param, size=n_samples)
-        elif dist == 'gamma':
-            # Gamma distribution (shape, loc, scale)
-            synthetic_data[i] = stats.gamma.rvs(*param, size=n_samples)
-        elif dist == 'beta':
-            # Beta distribution (alpha, beta, loc, scale)
-            if len(param) == 4:
-                synthetic_data[i] = stats.beta.rvs(*param, size=n_samples)
-            else:
-                synthetic_data[i] = stats.beta.rvs(*param[:2], size=n_samples)
-        elif dist == 'lognorm':
-            # Log-normal distribution (mean, std, loc)
-            synthetic_data[i] = stats.lognorm.rvs(*param, size=n_samples)
-        elif dist == 'dweibull':
-            # Support for the Weibull distribution
-            synthetic_data[i] = stats.dweibull.rvs(*param, size=n_samples)
+    # Check for NaN or Inf values in the correlation matrix
+    if np.isnan(correlation_matrix).any() or np.isinf(correlation_matrix).any():
+        raise ValueError("Correlation matrix contains NaN or Inf values.")
+    
+    # Symmetrize the correlation matrix if it's not symmetric
+    if not np.allclose(correlation_matrix, correlation_matrix.T):
+        warnings.warn("Correlation matrix is not symmetric. Symmetrizing it.")
+        correlation_matrix = (correlation_matrix + correlation_matrix.T) / 2
+
+    # Check if the correlation matrix is positive definite
+    if not np.all(np.linalg.eigvals(correlation_matrix) > 0):
+        raise ValueError("Correlation matrix must be positive definite.")
+
+    # Step 1: Generate multivariate normal samples
+    mean = np.zeros(len(correlation_matrix))
+    mvn_samples = np.random.multivariate_normal(mean, correlation_matrix, size=num_records)
+
+    # Step 2: Transform to uniform marginals using the CDF of the normal distribution
+    uniform_samples = norm.cdf(mvn_samples)
+
+    # Step 3: Transform to original marginal distributions
+    synthetic_data = {}
+    for i, column in enumerate(column_metadata['variable_name']):
+        dist_name = column_metadata.loc[column_metadata['variable_name'] == column, 'dist'].values[0]
+        params = column_metadata.loc[column_metadata['variable_name'] == column, 'params'].values[0]
+
+        # Get the distribution object from scipy.stats
+        dist = getattr(stats, dist_name, None)
+        if dist:
+            synthetic_data[column] = dist.ppf(uniform_samples[:, i], *params)
         else:
-            # If it's a different distribution, use scipy's distribution
-            try:
-                dist_func = getattr(stats, str(dist))
-                synthetic_data[i] = dist_func.rvs(*param, size=n_samples)
-            except AttributeError:
-                # If no distribution found, raise an error
-                raise ValueError(f"Unsupported distribution: {dist}")
+            # Fallback to random integer generation if distribution is not found
+            synthetic_data[column] = generate_random_integer(params)
 
     return pd.DataFrame(synthetic_data)
 
 
-def generate_from_correlations(metadata, n_samples, correlation_matrix):
-    # Step 1: Generate uncorrelated synthetic data using the distribution metadata
-    synthetic_data = sample_from_distributions(metadata, n_samples)
-    
-    # Step 2: Convert synthetic data to a numpy array for correlation manipulation
-    uncorrelated_data = synthetic_data.values
-    
-    # Step 3: Apply Cholesky decomposition to introduce the desired correlations
-    L = cholesky(correlation_matrix, lower=True)
-    
-    # Step 4: Apply the correlation structure to the uncorrelated data
-    correlated_data = uncorrelated_data.dot(L.T)
-    
-    # Step 5: Convert the correlated data back to a DataFrame
-    correlated_df = pd.DataFrame(correlated_data, columns=synthetic_data.columns)
-    
-    return correlated_df

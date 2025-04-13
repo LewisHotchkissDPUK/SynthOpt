@@ -3,62 +3,64 @@ from synthopt.generate.data_generation import generate_random_value, convert_dat
 import pandas as pd
 from tqdm import tqdm
 
-def generate_correlated_synthetic_data(metadata, num_records=1000, correlation_matrices=None, identifier_column=None):
+def generate_correlated_synthetic_data(metadata, correlation_matrices, num_records=1000, identifier_column=None):
+    def generate_data_for_non_object_columns(table_metadata, num_records, correlation_matrix):
+        # Filter metadata for columns that are not 'object' or 'string'
+        eligible_columns = table_metadata[~table_metadata['datatype'].isin(['object', 'string'])]
+        if eligible_columns.empty:
+            return pd.DataFrame()
+
+        # Generate data for all eligible columns at once using multivariate sampling
+        column_names = eligible_columns['variable_name'].tolist()
+        generated_data = generate_from_correlations(eligible_columns, num_records, correlation_matrix)
+        return pd.DataFrame(generated_data, columns=column_names)
+
     synthetic_data_by_table = {}
     grouped_metadata = metadata.groupby('table_name')
 
-    is_single_table = len(grouped_metadata) == 1
-    if is_single_table and isinstance(correlation_matrices, pd.DataFrame):
-        # Wrap into dict for consistent logic
-        table_name = list(grouped_metadata.groups.keys())[0]
-        correlation_matrices = {table_name: correlation_matrices}
-
     for table_name, table_metadata in grouped_metadata:
-        # Separate metadata by datatype
-        non_string_metadata = table_metadata[
-            ~table_metadata['datatype'].isin(['string', 'object'])
-        ]
-        string_metadata = table_metadata[
-            table_metadata['datatype'].isin(['string', 'object'])
-        ]
+        synthetic_data = pd.DataFrame()
 
-        non_string_vars = non_string_metadata['variable_name'].tolist()
-        string_vars = string_metadata['variable_name'].tolist()
+        # Generate data for non-object columns in one go
+        if isinstance(correlation_matrices, dict):
+            correlation_matrix = correlation_matrices.get(table_name, None)
+        else:
+            correlation_matrix = correlation_matrices
 
-        # Get the correlation matrix for this table
-        if correlation_matrices is None or table_name not in correlation_matrices:
-            raise ValueError(f"No correlation matrix provided for table: {table_name}")
-        table_corr_matrix = correlation_matrices[table_name].loc[non_string_vars, non_string_vars]
+        non_object_data = generate_data_for_non_object_columns(table_metadata, num_records, correlation_matrix)
+        synthetic_data = pd.concat([synthetic_data, non_object_data], axis=1)
 
-        # Generate correlated data for numeric/categorical variables
-        synthetic_non_string = generate_from_correlations(non_string_metadata, num_records, table_corr_matrix)
+        # Generate data for 'string' columns individually
+        for _, column_metadata in tqdm(table_metadata.iterrows(), desc=f"Generating Data for Table: {table_name}"):
+            column_name = column_metadata['variable_name']
+            data_type = column_metadata['datatype']
 
-        # Generate data for string/object variables
-        synthetic_string = pd.DataFrame()
-        for _, column_metadata in string_metadata.iterrows():
-            var = column_metadata['variable_name']
-            if column_metadata['datatype'] == 'string':
-                synthetic_string[var] = [generate_random_string() for _ in range(num_records)]
-            elif column_metadata['datatype'] == 'object':
-                synthetic_string[var] = [None] * num_records
+            if data_type == 'string':
+                synthetic_data[column_name] = [generate_random_string() for _ in range(num_records)]
+            elif data_type == 'object':
+                synthetic_data[column_name] = None
 
-        # Combine in original order
-        full_columns = table_metadata['variable_name'].tolist()
-        combined_df = pd.concat([synthetic_non_string, synthetic_string], axis=1)
-        combined_df = combined_df.reindex(columns=full_columns)
+            if data_type in ['categorical string', 'categorical integer', 'integer']:
+                try:
+                    synthetic_data[column_name] = synthetic_data[column_name].round().astype(int)
+                except Exception:
+                    pass  # Skip conversion if rounding or casting fails
 
-        # Post-process
-        combined_df = convert_datetime(table_metadata, combined_df)
-        combined_df = enforce_categorical_validity(table_metadata, combined_df)
-        combined_df = decode_categorical_string(table_metadata, combined_df)
-        combined_df = completeness(table_metadata, combined_df)
+        # Post-processing
+        synthetic_data = convert_datetime(table_metadata, synthetic_data)
+        synthetic_data = enforce_categorical_validity(table_metadata, synthetic_data)
+        synthetic_data = decode_categorical_string(table_metadata, synthetic_data)
+        synthetic_data = completeness(table_metadata, synthetic_data)
 
-        if identifier_column is not None and identifier_column in combined_df.columns.tolist():
-            combined_df = add_identifier(combined_df, table_metadata, identifier_column, num_records)
+        if identifier_column is not None and identifier_column in synthetic_data.columns.tolist():
+            synthetic_data = add_identifier(
+                synthetic_data, table_metadata, identifier_column, num_records
+            )
 
-        synthetic_data_by_table[table_name] = combined_df
+        synthetic_data_by_table[table_name] = synthetic_data
 
-    # Return single DataFrame if just one table
-    return list(synthetic_data_by_table.values())[0] if is_single_table else synthetic_data_by_table
+    # If only one table, return DataFrame instead of dict
+    if len(synthetic_data_by_table) == 1:
+        return list(synthetic_data_by_table.values())[0]
 
-
+    return synthetic_data_by_table
