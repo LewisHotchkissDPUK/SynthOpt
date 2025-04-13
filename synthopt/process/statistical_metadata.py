@@ -14,8 +14,9 @@ def process_statistical_metadata(data, datetime_formats=None, table_name=None, r
 
             numerical_cleaned_data = cleaned_data.select_dtypes(include=['number'])
 
-            numerical_cleaned_data = numerical_cleaned_data.dropna(axis=1, how='all') # handles complete NaN columns
-            numerical_cleaned_data = numerical_cleaned_data.loc[:, numerical_cleaned_data.nunique() > 1]
+            if return_correlations:
+                numerical_cleaned_data = numerical_cleaned_data.dropna(axis=1, how='all') # handles complete NaN columns
+                numerical_cleaned_data = numerical_cleaned_data.loc[:, numerical_cleaned_data.nunique() > 1]
 
             best_fit_metadata = best_fit(numerical_cleaned_data)
             new_metadata = metadata.join(best_fit_metadata)
@@ -42,8 +43,9 @@ def process_statistical_metadata(data, datetime_formats=None, table_name=None, r
 
         numerical_cleaned_data = cleaned_data.select_dtypes(include=['number'])
 
-        numerical_cleaned_data = numerical_cleaned_data.dropna(axis=1, how='all')
-        numerical_cleaned_data = numerical_cleaned_data.loc[:, numerical_cleaned_data.nunique() > 1]
+        if return_correlations:
+            numerical_cleaned_data = numerical_cleaned_data.dropna(axis=1, how='all') # handles complete NaN columns
+            numerical_cleaned_data = numerical_cleaned_data.loc[:, numerical_cleaned_data.nunique() > 1]
         
         best_fit_metadata = best_fit(numerical_cleaned_data)
         new_metadata = metadata.join(best_fit_metadata)

@@ -59,10 +59,6 @@ SYNTHETIC_DATA['Healthcare'].to_csv("output/new_structural_healthcare.csv")
 """
 
 
-
-
-
-"""
 ### New Statistical Metadata Process Testing ###
 from synthopt.process.statistical_metadata import process_statistical_metadata
 STATS_METADATA = process_statistical_metadata(DATASETS, date_formats, "Test")
@@ -78,10 +74,6 @@ print(STATS_SYNTHETIC_DATA['Healthcare'])
 STATS_METADATA.to_csv("output/NEW_TESTING_STATS_METADATA.csv")
 STATS_SYNTHETIC_DATA['Test'].to_csv("output/NEW_TESTING_DATASET_SYNTHETIC_STATS.csv")
 STATS_SYNTHETIC_DATA['Healthcare'].to_csv("output/HEALTHCARE_SYNTHETIC_STATS.csv")
-"""
-
-
-
 
 
 
@@ -101,7 +93,7 @@ print()
 print()
 ### New Statistical Metadata Process Testing ###
 from synthopt.process.statistical_metadata import process_statistical_metadata
-STATS_METADATA, CORR_MATRIX = process_statistical_metadata(DATA2, date_formats, return_correlations=True)
+STATS_METADATA, CORR_MATRIX = process_statistical_metadata(DATASETS, date_formats, return_correlations=True)
 print(STATS_METADATA)
 print()
 print(CORR_MATRIX)
