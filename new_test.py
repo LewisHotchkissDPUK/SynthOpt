@@ -101,10 +101,11 @@ print()
 print()
 ### New Statistical Metadata Process Testing ###
 from synthopt.process.statistical_metadata import process_statistical_metadata
-STATS_METADATA, CORR_MATRIX = process_statistical_metadata(DATA, date_formats, return_correlations=True)
+STATS_METADATA, CORR_MATRIX = process_statistical_metadata(DATA2, date_formats, return_correlations=True)
 print(STATS_METADATA)
+print()
 print(CORR_MATRIX)
-
+#CORR_MATRIX['Healthcare'].to_csv("output/NEW_HEALTHCARE_TESTING_CORR_MATRIX.csv")
 
 #numerical_metadata = STATS_METADATA[~STATS_METADATA['datatype'].isin(['string', 'object'])]
 #variable_names = numerical_metadata['variable_name'].tolist()

@@ -6,7 +6,10 @@ from tqdm import tqdm
 def generate_correlated_synthetic_data(metadata, correlation_matrices, num_records=1000, identifier_column=None):
     def generate_data_for_non_object_columns(table_metadata, num_records, correlation_matrix):
         # Filter metadata for columns that are not 'object' or 'string'
-        eligible_columns = table_metadata[~table_metadata['datatype'].isin(['object', 'string'])]
+        eligible_columns = table_metadata[
+            ~table_metadata['datatype'].isin(['object', 'string']) & 
+            table_metadata['dist'].notna()
+        ]
         if eligible_columns.empty:
             return pd.DataFrame()
 
