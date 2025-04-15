@@ -93,7 +93,7 @@ print()
 print()
 ### New Statistical Metadata Process Testing ###
 from synthopt.process.statistical_metadata import process_statistical_metadata
-STATS_METADATA, CORR_MATRIX = process_statistical_metadata(DATASETS, date_formats, return_correlations=True)
+STATS_METADATA, CORR_MATRIX = process_statistical_metadata(DATA, date_formats, return_correlations=True)
 print(STATS_METADATA)
 print()
 print(CORR_MATRIX)
@@ -107,3 +107,9 @@ print(CORR_MATRIX)
 from synthopt.generate.correlated_synthetic_data import generate_correlated_synthetic_data
 CORR_SYNTHETIC_DATA = generate_correlated_synthetic_data(STATS_METADATA, CORR_MATRIX, num_records=1000, identifier_column="id")
 print(CORR_SYNTHETIC_DATA)
+
+
+from synthopt.evaluate.quality2 import evaluate_quality
+
+qs = evaluate_quality(DATA, CORR_SYNTHETIC_DATA, STATS_METADATA, identifier_column="id")
+print(qs)
