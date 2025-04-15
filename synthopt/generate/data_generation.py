@@ -105,6 +105,31 @@ def add_identifier(data, metadata, identifier_column, num_records):
     return data
 
 
+def add_shared_identifier(tables_dict, metadata, identifier_column, num_records):
+    # Determine data type for the identifier column from any one table
+    example_table_name = next(iter(tables_dict))
+    example_metadata = metadata[metadata['table_name'] == example_table_name]
+    identifier_dtype = example_metadata[example_metadata['variable_name'] == identifier_column]['datatype'].values[0]
+
+    # Generate shared IDs based on the data type
+    if "integer" in identifier_dtype:
+        shared_ids = random.sample(range(1_000_000_000, 10_000_000_000), num_records)
+    elif "float" in identifier_dtype:
+        shared_ids = [random.uniform(1_000_000_000, 10_000_000_000) for _ in range(num_records)]
+    else:
+        shared_ids = [
+            "".join(random.choices(string.ascii_letters + string.digits, k=10))
+            for _ in range(num_records)
+        ]
+
+    # Assign the shared IDs to each table
+    for table_name, df in tables_dict.items():
+        if identifier_column in df.columns:
+            df[identifier_column] = shared_ids
+
+    return tables_dict
+
+
 def generate_random_value(row):
     dtype = row["datatype"]
     value_range = row["values"]

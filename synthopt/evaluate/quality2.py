@@ -9,9 +9,10 @@ from anonymeter.evaluators import SinglingOutEvaluator,LinkabilityEvaluator,Infe
 from functools import reduce
 
 def evaluate_quality(data, synthetic_data, metadata, identifier_column = None, table_type = 'single'):
+    
     if table_type == 'multi':
-        data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data)
-        synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data)
+        data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data.values())
+        synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data.values())
     if identifier_column != None:
         data = data.drop(columns=[identifier_column])
         synthetic_data = synthetic_data.drop(columns=[identifier_column])
@@ -40,6 +41,7 @@ def evaluate_quality(data, synthetic_data, metadata, identifier_column = None, t
     boundary_adherence_scores = []
     coverage_scores = []
     complement_scores = []
+    
     for column in data.columns:
         if column in other_numerical_columns:
             if data[column].dropna().empty:

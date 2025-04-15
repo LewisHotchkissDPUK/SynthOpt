@@ -93,7 +93,7 @@ print()
 print()
 ### New Statistical Metadata Process Testing ###
 from synthopt.process.statistical_metadata import process_statistical_metadata
-STATS_METADATA, CORR_MATRIX = process_statistical_metadata(DATA, date_formats, return_correlations=True)
+STATS_METADATA, CORR_MATRIX = process_statistical_metadata(DATASETS, date_formats, return_correlations=True)
 print(STATS_METADATA)
 print()
 print(CORR_MATRIX)
@@ -109,7 +109,24 @@ CORR_SYNTHETIC_DATA = generate_correlated_synthetic_data(STATS_METADATA, CORR_MA
 print(CORR_SYNTHETIC_DATA)
 
 
+STATS_METADATA.to_csv("output/NEW_TESTING_CORR_METADATA.csv")
+CORR_SYNTHETIC_DATA['Test'].to_csv("output/NEW_TESTING_DATASET_SYNTHETIC_CORR.csv")
+CORR_SYNTHETIC_DATA['Healthcare'].to_csv("output/HEALTHCARE_SYNTHETIC_CORR.csv")
+
+
 from synthopt.evaluate.quality2 import evaluate_quality
 
-qs = evaluate_quality(DATA, CORR_SYNTHETIC_DATA, STATS_METADATA, identifier_column="id")
+print()
+
+print(DATASETS['Healthcare'].columns.tolist())
+print(DATASETS['Test'].columns.tolist())
+
+print()
+
+print(CORR_SYNTHETIC_DATA['Healthcare'].columns.tolist())
+print(CORR_SYNTHETIC_DATA['Test'].columns.tolist())
+
+print()
+
+qs = evaluate_quality(DATASETS, CORR_SYNTHETIC_DATA, STATS_METADATA, identifier_column="id", table_type = 'multi')
 print(qs)
