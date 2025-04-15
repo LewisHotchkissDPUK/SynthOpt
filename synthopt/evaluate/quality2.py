@@ -30,13 +30,13 @@ def evaluate_quality(data, synthetic_data, metadata, identifier_column = None, t
             data[column] = data[column].map(encoding_map)
             synthetic_data[column] = synthetic_data[column].map(encoding_map)
         
-        elif datatype == 'datetime':
-            # Convert datetime to Unix timestamp
-            data[column] = pd.to_datetime(data[column]).astype(int) // 10**9
-            synthetic_data[column] = pd.to_datetime(synthetic_data[column]).astype(int) // 10**9
+        #elif datatype == 'datetime':
+        #    # Convert datetime to Unix timestamp
+        #    data[column] = pd.to_datetime(data[column], format=metadata[metadata['variable_name']==column]['coding'].values[0]).astype('int64') // 10**9
+        #    synthetic_data[column] = pd.to_datetime(synthetic_data[column], format=metadata[metadata['variable_name']==column]['coding'].values[0]).astype('int64') // 10**9
 
     discrete_columns = metadata[metadata['datatype'].isin(['categorical integer', 'categorical string'])]['variable_name'].tolist()
-    other_numerical_columns = metadata[metadata['datatype'].isin(['integer', 'float', 'datetime'])]['variable_name'].tolist()
+    other_numerical_columns = metadata[metadata['datatype'].isin(['integer', 'float'])]['variable_name'].tolist()  #, 'datetime'
 
     boundary_adherence_scores = []
     coverage_scores = []
