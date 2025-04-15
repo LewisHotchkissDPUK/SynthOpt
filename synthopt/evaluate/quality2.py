@@ -10,7 +10,7 @@ from functools import reduce
 
 def evaluate_quality(data, synthetic_data, metadata, identifier_column = None, table_type = 'single'):
     
-    if table_type == 'multi':
+    if table_type == 'multi' and isinstance(data, dict) and isinstance(synthetic_data, dict):
         data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), data.values())
         synthetic_data = reduce(lambda left, right: pd.merge(left, right, on=identifier_column), synthetic_data.values())
     if identifier_column != None:
@@ -68,9 +68,9 @@ def evaluate_quality(data, synthetic_data, metadata, identifier_column = None, t
             complement_score = TVComplement.compute(real_data=data[column], synthetic_data=synthetic_data[column])
             complement_scores.append(complement_score)
 
-    avg_boundary_adherence_score = np.round(np.mean(boundary_adherence_scores), 2)
-    avg_coverage_score = np.round(np.mean(coverage_scores), 2)
-    avg_complement_score = np.round(np.mean(complement_scores), 2)
+    avg_boundary_adherence_score = np.round(np.nanmean(boundary_adherence_scores), 2)
+    avg_coverage_score = np.round(np.nanmean(coverage_scores), 2)
+    avg_complement_score = np.round(np.nanmean(complement_scores), 2)
 
     print()
     print("== QUALITY SCORES ==")

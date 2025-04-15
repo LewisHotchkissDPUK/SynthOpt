@@ -2,6 +2,7 @@ from synthopt.generate.data_generation import generate_random_string, generate_f
 from synthopt.generate.data_generation import generate_random_value, convert_datetime, decode_categorical_string, completeness, add_identifier, enforce_categorical_validity, add_shared_identifier
 import pandas as pd
 from tqdm import tqdm
+import random
 
 def generate_correlated_synthetic_data(metadata, correlation_matrices, num_records=1000, identifier_column=None):
     def generate_data_for_non_object_columns(table_metadata, num_records, correlation_matrix):
@@ -37,11 +38,22 @@ def generate_correlated_synthetic_data(metadata, correlation_matrices, num_recor
         for _, column_metadata in tqdm(table_metadata.iterrows(), desc=f"Generating Data for Table: {table_name}"):
             column_name = column_metadata['variable_name']
             data_type = column_metadata['datatype']
+            dist = column_metadata.get('dist', None)
+            value_range = column_metadata.get('values', None)
 
             if data_type == 'string':
                 synthetic_data[column_name] = [generate_random_string() for _ in range(num_records)]
             elif data_type == 'object':
                 synthetic_data[column_name] = None
+            elif data_type in ['integer', 'float'] and pd.isna(dist) and isinstance(value_range, tuple) and len(value_range) == 2:
+                if data_type == 'integer':
+                    synthetic_data[column_name] = [
+                        random.randint(value_range[0], value_range[1]) for _ in range(num_records)
+                    ]
+                elif data_type == 'float':
+                    synthetic_data[column_name] = [
+                        random.uniform(value_range[0], value_range[1]) for _ in range(num_records)
+                    ]
 
             if data_type in ['categorical string', 'categorical integer', 'integer']:
                 try:
@@ -54,6 +66,10 @@ def generate_correlated_synthetic_data(metadata, correlation_matrices, num_recor
         synthetic_data = enforce_categorical_validity(table_metadata, synthetic_data)
         synthetic_data = decode_categorical_string(table_metadata, synthetic_data)
         synthetic_data = completeness(table_metadata, synthetic_data)
+
+        # Ensure column order matches metadata['variable_name']
+        column_order = table_metadata['variable_name'].tolist()
+        synthetic_data = synthetic_data[column_order]
 
         #if identifier_column is not None and identifier_column in synthetic_data.columns.tolist():
         #    synthetic_data = add_identifier(

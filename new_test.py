@@ -116,17 +116,5 @@ CORR_SYNTHETIC_DATA['Healthcare'].to_csv("output/HEALTHCARE_SYNTHETIC_CORR.csv")
 
 from synthopt.evaluate.quality2 import evaluate_quality
 
-print()
-
-print(DATASETS['Healthcare'].columns.tolist())
-print(DATASETS['Test'].columns.tolist())
-
-print()
-
-print(CORR_SYNTHETIC_DATA['Healthcare'].columns.tolist())
-print(CORR_SYNTHETIC_DATA['Test'].columns.tolist())
-
-print()
-
 qs = evaluate_quality(DATASETS, CORR_SYNTHETIC_DATA, STATS_METADATA, identifier_column="id", table_type = 'multi')
 print(qs)

@@ -1,37 +1,16 @@
 ,variable_name,datatype,completeness,values,coding,table_name,dist,params
-0,id,integer,95.0,"(1, 100)",,Test,uniform,"(1.0, 99.0)"
-1,name,categorical string,95.0,"[3, 8, 0, 9, 5, 7, 6, 4, 2, 1]","{3: 'georgia', 8: 'mark', 0: 'bella', 9: 'mary', 5: 'harry', 7: 'jack', 6: 'henry', 4: 'hannah', 2: 'george', 1: 'elizabeth'}",Test,beta,"(0.9824705178795358, 0.8205790278703063, -0.8984402168345533, 9.898440216834555)"
-2,age,integer,95.0,"(1, 79)",,Test,beta,"(413.4846594768236, 4624262.813258257, -253.36716823164068, 3321929.596789493)"
-3,bool,categorical string,100.0,"[1, 0]","{1: True, 0: False}",Test,genextreme,"(1.2074203584020067, 0.7263004808532811, 0.3304703715025882)"
-4,gender,categorical string,67.0,"[1, 0]","{1: 'male', 0: 'female'}",Test,pareto,"(30217029.916610643, -13981013.333333336, 13981013.333333334)"
-5,ethnicity,categorical integer,95.0,"[1, -9]",,Test,gamma,"(0.4805297140615793, -9.000001764391019, 3.2336979939151314)"
-6,diagnosis,categorical string,74.0,"[2, 3, 1, 0]","{2: 'ftd', 3: 'lewy body', 1: 'dementia', 0: 'alzheimers'}",Test,dweibull,"(2.0094508136873572, 1.5195942441592933, 1.0319781298117148)"
-7,smoke,categorical integer,95.0,"[1, 0]",,Test,genextreme,"(1.392740409918356, 0.7201620619083902, 0.3897416046084162)"
-8,site,object,0.0,,,Test,,
-9,date,integer,100.0,"(1681171200, 1743984000)",,Test,beta,"(0.8567350214335347, 1.0683165467422602, 1681171199.9999998, 63354617.860851705)"
-10,time,integer,80.0,"(760, 85027)",,Test,beta,"(0.898705443522321, 0.7346517839987896, -7342.550155069668, 92369.55015506968)"
-11,datetime,string,61.0,,,Test,,
-12,created_on,integer,66.0,"(976, 79546)",,Test,uniform,"(976.0, 78570.0)"
-13,score,float,95.0,"(0.25, 39.11)",,Test,dweibull,"(1.1723164812408693, 20.309355122109842, 7.553325255966266)"
-14,score2,float,89.0,"(-1.31, 58.03)",,Test,beta,"(2.0404407972599197, 4.271248191777099, -2.9436769029257803, 76.81946797596115)"
-15,id,integer,100.0,"(1, 100)",,Healthcare,uniform,"(1.0, 99.0)"
-16,Name,string,96.0,,,Healthcare,,
-17,Age,integer,93.0,"(18, 88)",,Healthcare,beta,"(1.23809044959398, 0.8918011103475879, 12.16304188087284, 75.83695811912717)"
-18,Gender,categorical string,98.0,"[0, 1]","{0: 'Female', 1: 'Male'}",Healthcare,genextreme,"(1.1841045824722003, 0.526516677201859, 0.5606537722494428)"
-19,Blood Type,categorical string,93.0,"[4, 7, 3, 5, 0, 1, 2, 6]","{4: 'B+', 7: 'O-', 3: 'AB-', 5: 'B-', 0: 'A+', 1: 'A-', 2: 'AB+', 6: 'O+'}",Healthcare,uniform,"(0.0, 7.0)"
-20,Medical Condition,categorical string,94.0,"[5, 4, 2, 1, 3, 0]","{5: 'Obesity', 4: 'Hypertension', 2: 'Cancer', 1: 'Asthma', 3: 'Diabetes', 0: 'Arthritis'}",Healthcare,beta,"(0.5542332900080782, 0.6970532302292496, -0.06589303425520832, 5.065893034255209)"
-21,Date of Admission,integer,100.0,"(1586649600, 1740700800)",,Healthcare,beta,"(0.8293854720770057, 0.7365764722698409, 1586403941.2853768, 154296858.71462324)"
-22,Doctor,string,94.0,,,Healthcare,,
-23,TestTrunc,categorical integer,72.0,"[75, 90, 100]",,Healthcare,beta,"(0.5234074936140626, 0.4070643825606387, 73.25869542751359, 26.741304572486417)"
-24,TestWrongDate,categorical integer,92.0,"[117, 105, 98, 113]",,Healthcare,dweibull,"(2.8185549892204387, 108.17672287236041, 8.06831641751755)"
-25,TestSingle,categorical integer,70.0,"[0, 1]",,Healthcare,gamma,"(0.22375188959896342, -2.5339193523074922e-23, 0.3196730324470547)"
-26,TestZero,integer,100.0,"(0, 0)",,Healthcare,,
-27,TestEmpty,object,0.0,,,Healthcare,,
-28,Hospital,categorical string,97.0,"[3, 1, 8, 7, 5, 6, 0, 4, 9, 2]","{3: 'Frost, Hernandez and Reynolds', 1: 'Cook PLC', 8: 'Rodriguez-Marshall', 7: 'Morris-Harris', 5: 'Mann Inc', 6: 'Moreno, Robinson and Martinez', 0: 'Coleman, Cabrera and Barnett', 4: 'Gonzalez-Huffman', 9: 'Wiggins Ltd', 2: 'Figueroa, Davis and Bailey'}",Healthcare,beta,"(1.3315236457793374, 0.8034275037814282, -0.5098372949506851, 9.509837294950687)"
-29,Insurance Provider,categorical string,94.0,"[4, 3, 1, 2, 0]","{4: 'UnitedHealthcare', 3: 'Medicare', 1: 'Blue Cross', 2: 'Cigna', 0: 'Aetna'}",Healthcare,beta,"(0.6237165843223509, 0.6734443309745917, -0.06048339699713429, 4.060483396997135)"
-30,Billing Amount,float,96.0,"(65.61328, 81539.83347)",,Healthcare,pareto,"(48393270.06439584, -1099511627710.3867, 1099511627775.9999)"
-31,Room Number,integer,97.0,"(100, 497)",,Healthcare,uniform,"(100.0, 397.0)"
-32,Admission Type,categorical string,96.0,"[0, 1, 2]","{0: 'Elective', 1: 'Emergency', 2: 'Urgent'}",Healthcare,beta,"(0.6633217753246674, 0.5939563271987776, -0.17723778594228243, 2.1772377859422827)"
-33,Discharge Date,integer,100.0,"(1586649600, 1740096000)",,Healthcare,beta,"(0.6416829443129688, 0.5968638698966064, 1586649599.9999998, 153524775.83492017)"
-34,Medication,categorical string,94.0,"[2, 4, 3, 0, 1]","{2: 'Lipitor', 4: 'Penicillin', 3: 'Paracetamol', 0: 'Aspirin', 1: 'Ibuprofen'}",Healthcare,beta,"(0.8120119253281798, 0.743403157260056, -0.3494220671628213, 4.3494220671628225)"
-35,Test Results,categorical string,96.0,"[0, 1, 2]","{0: 'Abnormal', 1: 'Inconclusive', 2: 'Normal'}",Healthcare,beta,"(0.6919154331938318, 0.6576757956581567, -0.19850468425078327, 2.198504684250784)"
+0,id,integer,95.0,"(1, 100)",,None,uniform,"(1.0, 99.0)"
+1,name,categorical string,95.0,"[3, 8, 0, 9, 5, 7, 6, 4, 2, 1]","{3: 'georgia', 8: 'mark', 0: 'bella', 9: 'mary', 5: 'harry', 7: 'jack', 6: 'henry', 4: 'hannah', 2: 'george', 1: 'elizabeth'}",None,beta,"(0.9824705178795358, 0.8205790278703063, -0.8984402168345533, 9.898440216834555)"
+2,age,integer,95.0,"(1, 79)",,None,beta,"(413.4846594768236, 4624262.813258257, -253.36716823164068, 3321929.596789493)"
+3,bool,categorical string,100.0,"[1, 0]","{1: True, 0: False}",None,genextreme,"(1.2074203584020067, 0.7263004808532811, 0.3304703715025882)"
+4,gender,categorical string,67.0,"[1, 0]","{1: 'male', 0: 'female'}",None,pareto,"(30217029.916610643, -13981013.333333336, 13981013.333333334)"
+5,ethnicity,categorical integer,95.0,"[1, -9]",,None,gamma,"(0.4805297140615793, -9.000001764391019, 3.2336979939151314)"
+6,diagnosis,categorical string,74.0,"[2, 3, 1, 0]","{2: 'ftd', 3: 'lewy body', 1: 'dementia', 0: 'alzheimers'}",None,dweibull,"(2.0094508136873572, 1.5195942441592933, 1.0319781298117148)"
+7,smoke,categorical integer,95.0,"[1, 0]",,None,genextreme,"(1.392740409918356, 0.7201620619083902, 0.3897416046084162)"
+8,site,object,0.0,,,None,,
+9,date,integer,100.0,"(1681171200, 1743984000)",,None,beta,"(0.8567350214335347, 1.0683165467422602, 1681171199.9999998, 63354617.860851705)"
+10,time,integer,80.0,"(760, 85027)",,None,beta,"(0.898705443522321, 0.7346517839987896, -7342.550155069668, 92369.55015506968)"
+11,datetime,string,61.0,,,None,,
+12,created_on,integer,66.0,"(976, 79546)",,None,uniform,"(976.0, 78570.0)"
+13,score,float,95.0,"(0.25, 39.11)",,None,dweibull,"(1.1723164812408693, 20.309355122109842, 7.553325255966266)"
+14,score2,float,89.0,"(-1.31, 58.03)",,None,beta,"(2.0404407972599197, 4.271248191777099, -2.9436769029257803, 76.81946797596115)"
