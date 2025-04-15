@@ -1,4 +1,4 @@
-from synthopt.generate.data_generation import generate_random_value, convert_datetime, decode_categorical_string, completeness, add_identifier
+from synthopt.generate.data_generation import generate_random_value, convert_datetime, decode_categorical_string, completeness, add_shared_identifier
 from tqdm import tqdm
 import pandas as pd
 
@@ -44,11 +44,12 @@ def generate_structural_synthetic_data(metadata, num_records=1000, identifier_co
             metadata, generated_data[table_name]
         )
         generated_data[table_name] = completeness(metadata, generated_data[table_name])
-        if identifier_column is not None:
-            if identifier_column in generated_data[table_name].columns.tolist():
-                generated_data[table_name] = add_identifier(
-                    generated_data[table_name], metadata, identifier_column, num_records
-                )
+
+    # Apply shared identifiers after all tables are generated
+    if identifier_column is not None:
+        generated_data = add_shared_identifier(
+            generated_data, metadata, identifier_column, num_records
+        )
 
     if "None" in generated_data:
         generated_data = generated_data["None"]

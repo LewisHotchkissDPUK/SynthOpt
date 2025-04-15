@@ -1,5 +1,5 @@
 from synthopt.generate.data_generation import generate_random_string, generate_from_distributions
-from synthopt.generate.data_generation import generate_random_value, convert_datetime, decode_categorical_string, completeness, add_identifier, enforce_categorical_validity
+from synthopt.generate.data_generation import generate_random_value, convert_datetime, decode_categorical_string, completeness, add_identifier, enforce_categorical_validity, add_shared_identifier
 import pandas as pd
 from tqdm import tqdm
 
@@ -35,12 +35,18 @@ def generate_statistical_synthetic_data(metadata, num_records=1000, identifier_c
         synthetic_data = decode_categorical_string(table_metadata, synthetic_data)
         synthetic_data = completeness(table_metadata, synthetic_data)
 
-        if identifier_column is not None and identifier_column in synthetic_data.columns.tolist():
-            synthetic_data = add_identifier(
-                synthetic_data, table_metadata, identifier_column, num_records
-            )
+        #if identifier_column is not None and identifier_column in synthetic_data.columns.tolist():
+        #    synthetic_data = add_identifier(
+        #        synthetic_data, table_metadata, identifier_column, num_records
+        #    )
 
         synthetic_data_by_table[table_name] = synthetic_data
+
+    # After generating all tables, apply shared identifiers if requested
+    if identifier_column is not None:
+        synthetic_data_by_table = add_shared_identifier(
+            synthetic_data_by_table, metadata, identifier_column, num_records
+        )
 
     # If only one table, return DataFrame instead of dict
     if len(synthetic_data_by_table) == 1:
